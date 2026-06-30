@@ -8098,12 +8098,12 @@
         "year_end":  1979,
         "japan_price_kyen":  520,
         "watts_per_channel":  70,
-        "freq_response_hz":  null,
-        "thd_percent":  null,
+        "freq_response_hz":  "10-40000",
+        "thd_percent":  0.3,
         "ps_type":  null,
-        "amp_circuit":  null,
-        "weight_kg":  null,
-        "special_features":  null,
+        "amp_circuit":  "Class AB, MOS FET FM front-end",
+        "weight_kg":  16.3,
+        "special_features":  "Highly sensitive MOS FET FM front-end tuner section",
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 20-30",
@@ -8125,7 +8125,7 @@
                               "bias_spec_mv":  null,
                               "service_manual_link":  null,
                               "recap_difficulty":  3,
-                              "recap_notes":  null,
+                              "recap_notes":  "Full restoration should replace all electrolytics across every board (power supply, driver, phono, tone, tuner), not a partial single-board kit. Commercial recap kits exist (Nichicon/Rubycon/United Chemicon based) - recommended over piecemeal sourcing given unverified exact values here.",
                               "estimated_recap_cost_usd":  null,
                               "common_faults":  [
                                                     "Relay clicks but no sound on one or both channels",
@@ -8139,14 +8139,73 @@
                          "reason":  "Genuine bargain for solid mid-tier performance."
                      },
         "capacitors":  [
+                           {
+                               "location":  "Main power supply filter caps (PS board)",
+                               "original_value_uf":  10000,
+                               "voltage":  50,
+                               "modern_replacement":  "Nichicon LGU/UPW or Rubycon equivalent, 10000uF 50-63V low-ESR",
+                               "priority":  "critical",
+                               "estimated_cost_usd":  12,
+                               "supplier_links":  [
 
+                                                  ],
+                               "notes":  "Largest can-type filter caps on the main power rail - top priority for any recap. Confirm exact uF/voltage against the service manual silkscreen before ordering, this is a typical value for receivers in this power class, not read directly from schematic."
+                           },
+                           {
+                               "location":  "Driver/output stage board electrolytics",
+                               "original_value_uf":  null,
+                               "voltage":  null,
+                               "modern_replacement":  "Nichicon UPW low-impedance series, values per board silkscreen",
+                               "priority":  "critical",
+                               "estimated_cost_usd":  25,
+                               "supplier_links":  [
+
+                                                  ],
+                               "notes":  "Exact values not verified from a readable schematic - service manual is a scanned PDF with no extractable text layer. Confirm before ordering."
+                           },
+                           {
+                               "location":  "Phono preamp stage",
+                               "original_value_uf":  null,
+                               "voltage":  null,
+                               "modern_replacement":  "Nichicon UKL or equivalent low-noise type",
+                               "priority":  "recommended",
+                               "estimated_cost_usd":  10,
+                               "supplier_links":  [
+
+                                                  ],
+                               "notes":  "Phono stage caps commonly degrade and raise noise floor on receivers this age - unverified exact values."
+                           },
+                           {
+                               "location":  "Tone control / preamp board",
+                               "original_value_uf":  null,
+                               "voltage":  null,
+                               "modern_replacement":  "Nichicon UPW or equivalent",
+                               "priority":  "recommended",
+                               "estimated_cost_usd":  10,
+                               "supplier_links":  [
+
+                                                  ],
+                               "notes":  "Unverified exact values - confirm against service manual."
+                           },
+                           {
+                               "location":  "Tuner section electrolytics",
+                               "original_value_uf":  null,
+                               "voltage":  null,
+                               "modern_replacement":  "Standard low-ESR replacements per silkscreen",
+                               "priority":  "optional",
+                               "estimated_cost_usd":  8,
+                               "supplier_links":  [
+
+                                                  ],
+                               "notes":  "Lower priority unless FM section shows drift/noise symptoms."
+                           }
                        ],
         "links":  {
                       "audio_database":  null,
                       "hifi_engine":  null,
                       "sansui_us":  null
                   },
-        "notes":  null,
+        "notes":  "Produced late 1976 to 1979. Service manual organized around F-2625/F-2626 power supply boards (mother board).",
         "verified":  false
     },
     {
@@ -8717,20 +8776,20 @@
         "year_start":  1978,
         "year_end":  1979,
         "japan_price_kyen":  630,
-        "watts_per_channel":  55,
-        "freq_response_hz":  null,
-        "thd_percent":  null,
+        "watts_per_channel":  75,
+        "freq_response_hz":  "5-75000",
+        "thd_percent":  0.03,
         "ps_type":  null,
-        "amp_circuit":  null,
-        "weight_kg":  null,
-        "special_features":  null,
+        "amp_circuit":  "Pure Power DC",
+        "weight_kg":  13.8,
+        "special_features":  "Damping factor 50, MM/Mic/Line inputs, tuning FM/MW",
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
+        "avg_price_usd_1yr":  350,
         "avg_price_thb_3yr":  null,
-        "price_confidence":  "None",
-        "last_price_check":  null,
+        "price_confidence":  "Low",
+        "last_price_check":  "2026-06",
         "collector_info":  {
                                "known_issues":  null,
                                "collector_notes":  null
@@ -8745,7 +8804,7 @@
                               "bias_spec_mv":  null,
                               "service_manual_link":  null,
                               "recap_difficulty":  2,
-                              "recap_notes":  null,
+                              "recap_notes":  "Third-party restoration kits exist for this model (Nichicon/Rubycon/United Chemicon based, 5,000-12,000hr rated) - recommended over piecemeal sourcing given unverified exact schematic values here. Full board-by-board replacement recommended, not a partial kit.",
                               "estimated_recap_cost_usd":  null,
                               "common_faults":  [
                                                     "Relay clicks but no sound on one or both channels",
@@ -8759,14 +8818,73 @@
                          "reason":  null
                      },
         "capacitors":  [
+                           {
+                               "location":  "Main DC power supply filter caps",
+                               "original_value_uf":  8000,
+                               "voltage":  50,
+                               "modern_replacement":  "Nichicon LGU/UPW or Rubycon equivalent, 8000uF 50-63V low-ESR",
+                               "priority":  "critical",
+                               "estimated_cost_usd":  12,
+                               "supplier_links":  [
 
+                                                  ],
+                               "notes":  "Typical value for a 75w/ch Pure Power DC receiver of this class - confirm against service manual silkscreen, not read directly from a readable schematic (manual is a scanned image PDF with no text layer)."
+                           },
+                           {
+                               "location":  "DC servo / protection circuit electrolytics",
+                               "original_value_uf":  null,
+                               "voltage":  null,
+                               "modern_replacement":  "Nichicon UPW low-impedance series",
+                               "priority":  "critical",
+                               "estimated_cost_usd":  20,
+                               "supplier_links":  [
+
+                                                  ],
+                               "notes":  "Pure Power DC designs rely on DC offset/protection circuitry - aging caps here risk speaker-damaging DC offset drift. Exact values unverified."
+                           },
+                           {
+                               "location":  "Phono preamp stage",
+                               "original_value_uf":  null,
+                               "voltage":  null,
+                               "modern_replacement":  "Nichicon UKL or equivalent low-noise type",
+                               "priority":  "recommended",
+                               "estimated_cost_usd":  10,
+                               "supplier_links":  [
+
+                                                  ],
+                               "notes":  "Unverified exact values - confirm before ordering."
+                           },
+                           {
+                               "location":  "Tone control / preamp board",
+                               "original_value_uf":  null,
+                               "voltage":  null,
+                               "modern_replacement":  "Nichicon UPW or equivalent",
+                               "priority":  "recommended",
+                               "estimated_cost_usd":  10,
+                               "supplier_links":  [
+
+                                                  ],
+                               "notes":  "Unverified exact values - confirm before ordering."
+                           },
+                           {
+                               "location":  "Tuner section electrolytics",
+                               "original_value_uf":  null,
+                               "voltage":  null,
+                               "modern_replacement":  "Standard low-ESR replacements per silkscreen",
+                               "priority":  "optional",
+                               "estimated_cost_usd":  8,
+                               "supplier_links":  [
+
+                                                  ],
+                               "notes":  "Lower priority unless FM section shows drift/noise symptoms."
+                           }
                        ],
         "links":  {
                       "audio_database":  null,
                       "hifi_engine":  null,
                       "sansui_us":  null
                   },
-        "notes":  null,
+        "notes":  "Produced 1978-1980. Dimensions 465 x 177 x 405mm.",
         "verified":  false
     },
     {
