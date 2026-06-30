@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WoW Audio — World of Wayne | Sansui Reference Database</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="logo-block">
+      <h1 class="logo">WoW <span>Audio</span></h1>
+      <p class="tagline">World of Wayne — Sansui Reference Database</p>
+    </div>
+    <nav class="main-nav">
+      <a href="#home" class="nav-link active" data-nav="home">Home</a>
+      <a href="#database" class="nav-link" data-nav="database">Database</a>
+      <a href="#about" class="nav-link" data-nav="about">About</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-inner">
+    <p class="hero-intro">A personal research archive of Sansui amplifiers, receivers, tuners and related
+      equipment from 1954 to 1987, plus selected post-1987 Alpha series models for the Japanese domestic market.
+      Built for collectors and restorers tracking the second-hand vintage audio market.</p>
+    <div class="stats-bar">
+      <div class="stat-pill">
+        <span class="stat-number" id="stat-models">0</span>
+        <span class="stat-label">Models</span>
+      </div>
+      <div class="stat-pill">
+        <span class="stat-number" id="stat-years">—</span>
+        <span class="stat-label">Years</span>
+      </div>
+      <div class="stat-pill">
+        <span class="stat-number" id="stat-prices">0</span>
+        <span class="stat-label">Price Records</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<main id="database">
+  <section class="controls">
+    <div class="control-row" id="sort-row">
+      <span class="control-label">Sort by</span>
+      <button class="btn sort-btn active" data-sort="collector">🏆 Collector Rank</button>
+      <button class="btn sort-btn" data-sort="newest">📅 Newest First</button>
+      <button class="btn sort-btn" data-sort="oldest">📅 Oldest First</button>
+      <button class="btn sort-btn" data-sort="heaviest">⚖️ Heaviest</button>
+      <button class="btn sort-btn" data-sort="watts">⚡ Most Watts</button>
+      <button class="btn sort-btn" data-sort="price">💰 Highest Price</button>
+      <button class="btn sort-btn" data-sort="recap">🔧 Easiest Recap</button>
+      <button class="btn sort-btn" data-sort="bestbuy">⭐ Best Buy</button>
+    </div>
+
+    <div class="control-row" id="type-row">
+      <span class="control-label">Type</span>
+      <button class="btn filter-btn active" data-type="all">All</button>
+      <button class="btn filter-btn" data-type="Receiver">Receiver</button>
+      <button class="btn filter-btn" data-type="Integrated">Integrated</button>
+      <button class="btn filter-btn" data-type="Power Amp">Power Amp</button>
+      <button class="btn filter-btn" data-type="Preamp">Preamp</button>
+      <button class="btn filter-btn" data-type="Tuner">Tuner</button>
+      <button class="btn filter-btn" data-type="Tape Deck">Tape Deck</button>
+      <button class="btn filter-btn" data-type="Quad">Quad</button>
+    </div>
+
+    <div class="control-row" id="era-row">
+      <span class="control-label">Era</span>
+      <button class="btn era-btn active" data-era="all">All Years</button>
+      <button class="btn era-btn" data-era="Tube Era">Tube Era</button>
+      <button class="btn era-btn" data-era="1960s">1960s</button>
+      <button class="btn era-btn" data-era="1970s">1970s</button>
+      <button class="btn era-btn" data-era="1980s">1980s</button>
+      <button class="btn era-btn" data-era="Alpha Series">Alpha</button>
+    </div>
+
+    <div class="control-row" id="extra-row">
+      <button class="btn filter-btn" id="best-buy-filter" data-bestbuy="off">⭐ Best Buy Only</button>
+      <div class="search-wrap">
+        <input type="text" id="search-input" placeholder="Search model, type, notes, known issues…">
+      </div>
+    </div>
+  </section>
+
+  <section class="table-section">
+    <div class="table-scroll">
+      <table id="db-table">
+        <thead>
+          <tr>
+            <th data-col="rank">Rank</th>
+            <th data-col="model">Model</th>
+            <th data-col="type">Type</th>
+            <th data-col="years">Years</th>
+            <th data-col="watts">Watts</th>
+            <th data-col="weight">Weight</th>
+            <th data-col="circuit">Circuit</th>
+            <th data-col="recap">Recap</th>
+            <th data-col="bestbuy">Best Buy</th>
+            <th data-col="price">Avg Price</th>
+            <th data-col="links">Links</th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+    </div>
+    <p class="no-results" id="no-results" style="display:none;">No models match your search/filters.</p>
+  </section>
+</main>
+
+<section id="about" class="about-section">
+  <div class="about-inner">
+    <h2>About WoW Audio</h2>
+    <p>WoW Audio (World of Wayne) is a personal reference database documenting Sansui audio equipment for
+       research and second-hand market analysis. Data is sourced from audio-database.com, HiFi Engine,
+       sansui.us, AudioKarma, and observed second-hand market listings. Pricing is conservative and based on
+       actual sale/listing data where possible — fields are marked <code>null</code> rather than guessed when
+       unverified. Every entry is flagged <strong>unverified</strong> until manually confirmed.</p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <p>WoW Audio — World of Wayne. Personal reference database. Not affiliated with Sansui Electric Co.</p>
+</footer>
+
+<!-- Detail Modal -->
+<div id="modal-overlay" class="modal-overlay">
+  <div class="modal" id="modal">
+    <button class="modal-close" id="modal-close">&times;</button>
+    <div id="modal-content"></div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
