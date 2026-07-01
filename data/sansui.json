@@ -19,7 +19,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 20-30",
-        "avg_price_usd_1yr":  1300,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -59,7 +58,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  1300,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-666-1968",
@@ -81,7 +82,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  9000,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -121,7 +121,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-777d-1969",
@@ -143,7 +145,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  15000,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -183,7 +184,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-222-1970",
@@ -205,7 +208,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -245,7 +247,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-555-1970",
@@ -267,7 +271,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -307,7 +310,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-999-1970",
@@ -329,7 +334,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 10-20",
-        "avg_price_usd_1yr":  1500,
         "avg_price_thb_3yr":  15000,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -369,7 +373,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  1500,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-555a-1971",
@@ -391,7 +397,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -431,7 +436,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-9500-1972",
@@ -453,7 +460,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 10-20",
-        "avg_price_usd_1yr":  900,
         "avg_price_thb_3yr":  65000,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -493,7 +499,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  900,
+        "price_basis":  null
     },
     {
         "id":  "sansui-dca-1001-1972",
@@ -515,7 +523,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -555,7 +562,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-101-1973",
@@ -577,7 +586,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -617,7 +625,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-111-1973",
@@ -639,7 +649,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -679,7 +688,9 @@
                       "sansui_us":  null
                   },
         "notes":  "Transistor-era AU-111 reissue, distinct from the 1965 tube original.",
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-505-1973",
@@ -701,7 +712,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -741,7 +751,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-500s-1973",
@@ -763,7 +775,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -803,7 +814,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-5500-1974",
@@ -825,7 +838,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -865,7 +877,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-6500-1974",
@@ -887,7 +901,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -927,7 +940,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-6600-1974",
@@ -949,7 +964,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 40-50",
-        "avg_price_usd_1yr":  350,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -989,7 +1003,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  350,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-7500-1974",
@@ -1011,7 +1027,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  500,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -1051,7 +1066,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  500,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-7700-1974",
@@ -1073,7 +1090,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  650,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -1113,7 +1129,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  650,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-9900-1975",
@@ -1135,7 +1153,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 10-20",
-        "avg_price_usd_1yr":  1100,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -1175,7 +1192,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  1100,
+        "price_basis":  null
     },
     {
         "id":  "sansui-5900z-1975",
@@ -1197,7 +1216,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  3000,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -1237,7 +1255,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-6900-1975",
@@ -1259,7 +1279,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -1299,7 +1318,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-701-1975",
@@ -1321,7 +1342,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -1361,7 +1381,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-11000-1976",
@@ -1383,7 +1405,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 10-20",
-        "avg_price_usd_1yr":  1400,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -1423,7 +1444,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  1400,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-11000a-1976",
@@ -1445,7 +1468,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 10-20",
-        "avg_price_usd_1yr":  1500,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -1485,7 +1507,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  1500,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-20000-1976",
@@ -1507,7 +1531,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 10",
-        "avg_price_usd_1yr":  3200,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -1547,7 +1570,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  3200,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-4400-1976",
@@ -1569,7 +1594,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -1609,7 +1633,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-7900-1976",
@@ -1631,7 +1657,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  550,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -1671,7 +1696,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  550,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-2900-1974",
@@ -1693,7 +1720,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -1733,7 +1759,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha607-1st-gen-1976",
@@ -1755,7 +1783,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -1795,7 +1822,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha717-1st-gen-1976",
@@ -1817,7 +1846,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 40-50",
-        "avg_price_usd_1yr":  350,
         "avg_price_thb_3yr":  9000,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -1857,7 +1885,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  350,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-2200-1977",
@@ -1879,7 +1909,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -1919,7 +1948,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-317-1977",
@@ -1941,7 +1972,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -1981,7 +2011,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-3900-1977",
@@ -2003,7 +2035,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -2043,7 +2074,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-4900-1977",
@@ -2065,7 +2098,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 40-50",
-        "avg_price_usd_1yr":  300,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -2105,7 +2137,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  300,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-5900-1977",
@@ -2127,7 +2161,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 40-50",
-        "avg_price_usd_1yr":  350,
         "avg_price_thb_3yr":  8900,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -2167,7 +2200,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  350,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-717-1977",
@@ -2189,7 +2224,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 10-20",
-        "avg_price_usd_1yr":  1000,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -2229,7 +2263,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  1000,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-9900a-1977",
@@ -2251,7 +2287,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 20-30",
-        "avg_price_usd_1yr":  1100,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -2291,7 +2326,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  1100,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-117-1977",
@@ -2313,7 +2350,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -2353,7 +2389,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-217ii-1977",
@@ -2375,7 +2413,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -2415,7 +2452,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-317ii-1977",
@@ -2437,7 +2476,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -2477,7 +2515,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-517-1978",
@@ -2499,7 +2539,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  500,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -2539,7 +2578,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  500,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha607-1978",
@@ -2561,7 +2602,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 40-50",
-        "avg_price_usd_1yr":  400,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -2601,7 +2641,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  400,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha707-1977",
@@ -2623,7 +2665,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  600,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -2663,7 +2704,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  600,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-117ii-1978",
@@ -2685,7 +2728,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -2725,7 +2767,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-919-1978",
@@ -2747,7 +2791,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 10-20",
-        "avg_price_usd_1yr":  800,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -2787,7 +2830,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  800,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-d707-au-819-2nd-gen-1978",
@@ -2809,7 +2854,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 20-30",
-        "avg_price_usd_1yr":  700,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -2849,7 +2893,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  700,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-d907-au-919-2nd-gen-1978",
@@ -2871,7 +2917,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 10-20",
-        "avg_price_usd_1yr":  850,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -2911,7 +2956,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  850,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-217-1979",
@@ -2933,7 +2980,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -2973,7 +3019,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-417-1979",
@@ -2995,7 +3043,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  350,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -3035,7 +3082,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  350,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-519-1979",
@@ -3057,7 +3106,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -3097,7 +3145,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-719-1979",
@@ -3119,7 +3169,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 20-30",
-        "avg_price_usd_1yr":  600,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -3159,7 +3208,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  600,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-819-1979",
@@ -3181,7 +3232,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 20-30",
-        "avg_price_usd_1yr":  750,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -3221,7 +3271,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  750,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-319-1979",
@@ -3243,7 +3295,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -3283,7 +3334,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-x1-1979",
@@ -3298,14 +3351,12 @@
         "watts_per_channel":  160,
         "freq_response_hz":  null,
         "thd_percent":  null,
-        "ps_type":  null,
         "amp_circuit":  null,
         "weight_kg":  28,
         "special_features":  null,
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 10",
-        "avg_price_usd_1yr":  2800,
         "avg_price_thb_3yr":  23000,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -3345,7 +3396,10 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  2800,
+        "price_basis":  null,
+        "ps_type":  "Dual Mono"
     },
     {
         "id":  "sansui-a-m99-1980",
@@ -3367,7 +3421,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -3407,7 +3460,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-d55f-1980",
@@ -3429,7 +3484,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  3900,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -3469,7 +3523,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-d707f-au-d9-3rd-gen-1980",
@@ -3491,7 +3547,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 20-30",
-        "avg_price_usd_1yr":  700,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -3531,7 +3586,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  700,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-d907f-3rd-gen-1980",
@@ -3553,7 +3610,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 20-30",
-        "avg_price_usd_1yr":  900,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -3593,7 +3649,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  900,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-d33-1981",
@@ -3615,7 +3673,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -3655,7 +3712,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-d55x-1981",
@@ -3677,7 +3736,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -3717,7 +3775,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-d607f-extra-4th-gen-1981",
@@ -3739,7 +3799,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  450,
         "avg_price_thb_3yr":  5933,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -3779,7 +3838,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  450,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-d7-1981",
@@ -3801,7 +3862,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -3841,7 +3901,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-d707f-extra-4th-gen-1981",
@@ -3863,7 +3925,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 20-30",
-        "avg_price_usd_1yr":  750,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -3903,7 +3964,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  750,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-d9-1981",
@@ -3925,7 +3988,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 10-20",
-        "avg_price_usd_1yr":  900,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -3965,7 +4027,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  900,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-d11ii-1982",
@@ -3987,7 +4051,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 10-20",
-        "avg_price_usd_1yr":  1300,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -4027,7 +4090,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  1300,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-d22-1982",
@@ -4049,7 +4114,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -4089,7 +4153,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-d101-1983",
@@ -4111,7 +4177,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -4151,7 +4216,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-d77x-1983",
@@ -4173,7 +4240,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  600,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -4213,7 +4279,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  600,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-d907g-5th-gen-1983",
@@ -4235,7 +4303,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 20-30",
-        "avg_price_usd_1yr":  950,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -4275,7 +4342,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  950,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-d607x-6th-gen-1984",
@@ -4297,7 +4366,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  500,
         "avg_price_thb_3yr":  5950,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -4337,7 +4405,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  500,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-d907x-6th-gen-1984",
@@ -4359,7 +4429,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 10",
-        "avg_price_usd_1yr":  1800,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -4399,7 +4468,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  1800,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-g99x-1984",
@@ -4421,7 +4492,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -4461,7 +4531,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-ba-90-1970",
@@ -4483,7 +4555,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -4521,7 +4592,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-ba-202-1973",
@@ -4543,7 +4616,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -4581,7 +4653,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-ba-60-1973",
@@ -4603,7 +4677,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -4641,7 +4714,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-ba-3000-1976",
@@ -4663,7 +4738,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  600,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -4701,7 +4775,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  600,
+        "price_basis":  null
     },
     {
         "id":  "sansui-ba-5000-1976",
@@ -4723,7 +4799,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 20-30",
-        "avg_price_usd_1yr":  1200,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -4761,7 +4836,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  1200,
+        "price_basis":  null
     },
     {
         "id":  "sansui-ba-2000-1977",
@@ -4783,7 +4860,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  500,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -4821,7 +4897,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  500,
+        "price_basis":  null
     },
     {
         "id":  "sansui-ba-2102-1977",
@@ -4843,7 +4921,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  22900,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -4881,7 +4958,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-ba-f1-1979",
@@ -4896,14 +4975,12 @@
         "watts_per_channel":  null,
         "freq_response_hz":  null,
         "thd_percent":  null,
-        "ps_type":  null,
         "amp_circuit":  null,
         "weight_kg":  null,
         "special_features":  null,
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  700,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -4941,7 +5018,10 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  700,
+        "price_basis":  null,
+        "ps_type":  "Dual Mono"
     },
     {
         "id":  "sansui-qa-7000-1973",
@@ -4963,7 +5043,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -5001,7 +5080,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-ca-303-1973",
@@ -5023,7 +5104,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -5061,7 +5141,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-ca-3000-1976",
@@ -5083,7 +5165,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -5121,7 +5202,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-ca-2000-1977",
@@ -5143,7 +5226,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  500,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -5181,7 +5263,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  500,
+        "price_basis":  null
     },
     {
         "id":  "sansui-ca-f1-1979",
@@ -5196,14 +5280,12 @@
         "watts_per_channel":  null,
         "freq_response_hz":  null,
         "thd_percent":  null,
-        "ps_type":  null,
         "amp_circuit":  null,
         "weight_kg":  null,
         "special_features":  null,
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  550,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -5241,7 +5323,10 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  550,
+        "price_basis":  null,
+        "ps_type":  "Dual Mono"
     },
     {
         "id":  "sansui-qsd-1-1976",
@@ -5263,7 +5348,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -5301,7 +5385,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-qs-1-1971",
@@ -5323,7 +5409,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -5361,7 +5446,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-qs-100-1973",
@@ -5383,7 +5470,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -5421,7 +5507,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-qs-500-1973",
@@ -5443,7 +5531,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -5481,7 +5568,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-3000-1968",
@@ -5503,7 +5592,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -5543,7 +5631,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-3000a-1968",
@@ -5565,7 +5655,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -5605,7 +5694,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-350-1968",
@@ -5627,7 +5718,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -5667,7 +5757,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-400-1968",
@@ -5689,7 +5781,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -5729,7 +5820,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-800-1968",
@@ -5751,7 +5844,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -5791,7 +5883,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-2000-1969",
@@ -5813,7 +5907,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -5853,7 +5946,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-5000-1969",
@@ -5875,7 +5970,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -5915,7 +6009,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-5000a-1970",
@@ -5937,7 +6033,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 40-50",
-        "avg_price_usd_1yr":  500,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -5977,7 +6072,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  500,
+        "price_basis":  null
     },
     {
         "id":  "sansui-1000x-1970",
@@ -5999,7 +6096,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -6039,7 +6135,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-661-00-1971",
@@ -6061,7 +6159,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -6101,7 +6198,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-2000a-1971",
@@ -6123,7 +6222,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 40-50",
-        "avg_price_usd_1yr":  400,
         "avg_price_thb_3yr":  4000,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -6163,7 +6261,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  400,
+        "price_basis":  null
     },
     {
         "id":  "sansui-4000-1971",
@@ -6185,7 +6285,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -6225,7 +6324,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-5000x-1971",
@@ -6247,7 +6348,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  600,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -6287,7 +6387,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  600,
+        "price_basis":  null
     },
     {
         "id":  "sansui-eight-deluxe-1971",
@@ -6309,7 +6411,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 40-50",
-        "avg_price_usd_1yr":  450,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -6349,7 +6450,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  450,
+        "price_basis":  null
     },
     {
         "id":  "sansui-200-1973",
@@ -6371,7 +6474,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -6411,7 +6513,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-210-1973",
@@ -6433,7 +6537,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -6473,7 +6576,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-220-1973",
@@ -6495,7 +6600,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -6535,7 +6639,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-350a-1973",
@@ -6557,7 +6663,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -6597,7 +6702,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-500-1973",
@@ -6619,7 +6726,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -6659,7 +6765,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-dcs-3000k-1973",
@@ -6681,7 +6789,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -6721,7 +6828,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-eight-1973",
@@ -6743,7 +6852,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 40-50",
-        "avg_price_usd_1yr":  400,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -6783,7 +6891,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  400,
+        "price_basis":  null
     },
     {
         "id":  "sansui-sax-100-1973",
@@ -6805,7 +6915,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -6845,7 +6954,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-sax-200-1973",
@@ -6867,7 +6978,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -6907,7 +7017,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-seven-1973",
@@ -6929,7 +7041,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -6969,7 +7080,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-six-1973",
@@ -6991,7 +7104,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -7031,7 +7143,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-sm-12m-1973",
@@ -7053,7 +7167,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -7093,7 +7206,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-sm-26-1973",
@@ -7115,7 +7230,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -7155,7 +7269,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-sm-32-1973",
@@ -7177,7 +7293,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -7217,7 +7332,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-sm-34-1973",
@@ -7239,7 +7356,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -7279,7 +7395,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-221-1974",
@@ -7301,7 +7419,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -7341,7 +7458,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-331-1974",
@@ -7363,7 +7482,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -7403,7 +7521,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-441-1974",
@@ -7425,7 +7545,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -7465,7 +7584,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-551-1974",
@@ -7487,7 +7608,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  5200,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -7527,7 +7647,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-661-1974",
@@ -7549,7 +7671,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -7589,7 +7710,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-771-1974",
@@ -7611,7 +7734,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 40-50",
-        "avg_price_usd_1yr":  300,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -7651,7 +7773,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  300,
+        "price_basis":  null
     },
     {
         "id":  "sansui-881-1974",
@@ -7673,7 +7797,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 40-50",
-        "avg_price_usd_1yr":  400,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -7713,7 +7836,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  400,
+        "price_basis":  null
     },
     {
         "id":  "sansui-9090-1975",
@@ -7735,7 +7860,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 10-20",
-        "avg_price_usd_1yr":  2000,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -7775,7 +7899,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  2000,
+        "price_basis":  null
     },
     {
         "id":  "sansui-b-50-1975",
@@ -7797,7 +7923,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -7837,7 +7962,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-1010-1977",
@@ -7859,7 +7986,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -7899,7 +8025,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-2020-1977",
@@ -7921,7 +8049,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -7961,7 +8088,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-5050-1977",
@@ -7983,7 +8112,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  350,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -8023,7 +8151,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  350,
+        "price_basis":  null
     },
     {
         "id":  "sansui-6060-1977",
@@ -8045,7 +8175,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  450,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -8085,7 +8214,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  450,
+        "price_basis":  null
     },
     {
         "id":  "sansui-7070-1977",
@@ -8107,7 +8238,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 20-30",
-        "avg_price_usd_1yr":  600,
         "avg_price_thb_3yr":  14900,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -8206,7 +8336,9 @@
                       "sansui_us":  null
                   },
         "notes":  "Produced late 1976 to 1979. Service manual organized around F-2625/F-2626 power supply boards (mother board).",
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  600,
+        "price_basis":  null
     },
     {
         "id":  "sansui-8080-1977",
@@ -8228,7 +8360,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 20-30",
-        "avg_price_usd_1yr":  700,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -8268,7 +8399,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  700,
+        "price_basis":  null
     },
     {
         "id":  "sansui-8080db-1977",
@@ -8290,7 +8423,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 10-20",
-        "avg_price_usd_1yr":  1000,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -8330,7 +8462,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  1000,
+        "price_basis":  null
     },
     {
         "id":  "sansui-9090db-1977",
@@ -8352,7 +8486,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 10",
-        "avg_price_usd_1yr":  3000,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -8392,7 +8525,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  3000,
+        "price_basis":  null
     },
     {
         "id":  "sansui-g-2000-1977",
@@ -8414,7 +8549,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  2600,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -8454,7 +8588,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-g-3000-1977",
@@ -8476,7 +8612,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -8516,7 +8651,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-g-22000-1978",
@@ -8538,7 +8675,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 10",
-        "avg_price_usd_1yr":  3500,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -8578,7 +8714,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  3500,
+        "price_basis":  null
     },
     {
         "id":  "sansui-g-33000-1978",
@@ -8600,7 +8738,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 10",
-        "avg_price_usd_1yr":  9000,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -8640,7 +8777,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  9000,
+        "price_basis":  null
     },
     {
         "id":  "sansui-g-5000-1978",
@@ -8662,7 +8801,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  8700,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -8702,7 +8840,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-g-5500-1978",
@@ -8724,7 +8864,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -8764,7 +8903,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-g-5700-1978",
@@ -8779,17 +8920,15 @@
         "watts_per_channel":  75,
         "freq_response_hz":  "5-75000",
         "thd_percent":  0.03,
-        "ps_type":  null,
         "amp_circuit":  "Pure Power DC",
         "weight_kg":  13.8,
         "special_features":  "Damping factor 50, MM/Mic/Line inputs, tuning FM/MW",
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  350,
         "avg_price_thb_3yr":  null,
-        "price_confidence":  "Low",
-        "last_price_check":  "2026-06",
+        "price_confidence":  "Medium",
+        "last_price_check":  "2026-07",
         "collector_info":  {
                                "known_issues":  null,
                                "collector_notes":  null
@@ -8885,7 +9024,10 @@
                       "sansui_us":  null
                   },
         "notes":  "Produced 1978-1980. Dimensions 465 x 177 x 405mm.",
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  1399,
+        "price_basis":  "restored",
+        "ps_type":  "Dual Mono"
     },
     {
         "id":  "sansui-g-6000-1978",
@@ -8907,7 +9049,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  500,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -8947,7 +9088,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  500,
+        "price_basis":  null
     },
     {
         "id":  "sansui-g-7000-1978",
@@ -8969,7 +9112,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 20-30",
-        "avg_price_usd_1yr":  900,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -9009,7 +9151,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  900,
+        "price_basis":  null
     },
     {
         "id":  "sansui-g-8000-1978",
@@ -9031,7 +9175,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 10-20",
-        "avg_price_usd_1yr":  1800,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -9071,7 +9214,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  1800,
+        "price_basis":  null
     },
     {
         "id":  "sansui-g-8700db-1978",
@@ -9093,7 +9238,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 40-50",
-        "avg_price_usd_1yr":  450,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -9131,7 +9275,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  450,
+        "price_basis":  null
     },
     {
         "id":  "sansui-g-9000-1978",
@@ -9153,7 +9299,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 10",
-        "avg_price_usd_1yr":  3500,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -9193,7 +9338,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  3500,
+        "price_basis":  null
     },
     {
         "id":  "sansui-g-9000db-1978",
@@ -9215,7 +9362,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 10-20",
-        "avg_price_usd_1yr":  2200,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -9255,7 +9401,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  2200,
+        "price_basis":  null
     },
     {
         "id":  "sansui-g-3500-1979",
@@ -9277,7 +9425,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -9317,7 +9464,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-g-4500-1979",
@@ -9339,7 +9488,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -9379,7 +9527,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-g-7500-1979",
@@ -9401,7 +9551,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  550,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -9441,7 +9590,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  550,
+        "price_basis":  null
     },
     {
         "id":  "sansui-ta-500-1979",
@@ -9463,7 +9614,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -9503,7 +9653,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-g-4700-1980",
@@ -9525,7 +9677,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -9565,7 +9716,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-g-6700-1980",
@@ -9587,7 +9740,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 40-50",
-        "avg_price_usd_1yr":  400,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -9627,7 +9779,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  400,
+        "price_basis":  null
     },
     {
         "id":  "sansui-g-7700-1980",
@@ -9642,14 +9796,12 @@
         "watts_per_channel":  null,
         "freq_response_hz":  null,
         "thd_percent":  null,
-        "ps_type":  null,
         "amp_circuit":  null,
         "weight_kg":  null,
         "special_features":  null,
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  500,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -9689,7 +9841,10 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  500,
+        "price_basis":  null,
+        "ps_type":  "Dual Mono"
     },
     {
         "id":  "sansui-g-9700-1980",
@@ -9704,14 +9859,12 @@
         "watts_per_channel":  null,
         "freq_response_hz":  null,
         "thd_percent":  null,
-        "ps_type":  null,
         "amp_circuit":  null,
         "weight_kg":  21,
         "special_features":  null,
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 20-30",
-        "avg_price_usd_1yr":  900,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -9751,7 +9904,10 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  900,
+        "price_basis":  null,
+        "ps_type":  "Dual Mono"
     },
     {
         "id":  "sansui-qr-1500-1973",
@@ -9773,7 +9929,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -9811,7 +9966,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-qr-4500-1973",
@@ -9833,7 +9990,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 40-50",
-        "avg_price_usd_1yr":  350,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -9871,7 +10027,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  350,
+        "price_basis":  null
     },
     {
         "id":  "sansui-qr-500-1973",
@@ -9893,7 +10051,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -9931,7 +10088,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-qr-6500-1973",
@@ -9953,7 +10112,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 40-50",
-        "avg_price_usd_1yr":  400,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -9991,7 +10149,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  400,
+        "price_basis":  null
     },
     {
         "id":  "sansui-qrx-3500-1973",
@@ -10013,7 +10173,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  8245,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -10051,7 +10210,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-qrx-5500-1973",
@@ -10073,7 +10234,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  15500,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -10111,7 +10271,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-qrx-6500-1973",
@@ -10133,7 +10295,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 40-50",
-        "avg_price_usd_1yr":  350,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -10171,7 +10332,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  350,
+        "price_basis":  null
     },
     {
         "id":  "sansui-qrx-7500-1973",
@@ -10193,7 +10356,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  500,
         "avg_price_thb_3yr":  16900,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -10231,7 +10393,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  500,
+        "price_basis":  null
     },
     {
         "id":  "sansui-qrx-3000-1974",
@@ -10253,7 +10417,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  5900,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -10291,7 +10454,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-qrx-6001-1974",
@@ -10313,7 +10478,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 40-50",
-        "avg_price_usd_1yr":  400,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -10351,7 +10515,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  400,
+        "price_basis":  null
     },
     {
         "id":  "sansui-qrx-7001-1974",
@@ -10373,7 +10539,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 40-50",
-        "avg_price_usd_1yr":  450,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -10411,7 +10576,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  450,
+        "price_basis":  null
     },
     {
         "id":  "sansui-qrx-5001-1976",
@@ -10433,7 +10600,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -10471,7 +10637,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-qrx-8001-1978",
@@ -10493,7 +10661,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 40-50",
-        "avg_price_usd_1yr":  450,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -10531,7 +10698,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  450,
+        "price_basis":  null
     },
     {
         "id":  "sansui-qrx-9001-1979",
@@ -10553,7 +10722,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  600,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -10591,7 +10759,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  600,
+        "price_basis":  null
     },
     {
         "id":  "sansui-sd-7000-1970",
@@ -10613,7 +10783,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -10652,7 +10821,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-sd-5000-1973",
@@ -10674,7 +10845,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -10713,7 +10883,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-qd-5500-1973",
@@ -10735,7 +10907,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -10774,7 +10945,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-ra-500-1977",
@@ -10796,7 +10969,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -10833,7 +11005,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-ra-700-1978",
@@ -10855,7 +11029,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -10892,7 +11065,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-tu-999-1970",
@@ -10914,7 +11089,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -10954,7 +11128,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-tu-555-1971",
@@ -10976,7 +11152,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -11016,7 +11191,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-tu-666-1971",
@@ -11038,7 +11215,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -11078,7 +11254,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-tu-9500-1973",
@@ -11100,7 +11278,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -11140,7 +11317,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-tu-505-1974",
@@ -11162,7 +11341,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -11202,7 +11380,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-tu-7500-1974",
@@ -11224,7 +11404,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -11264,7 +11443,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-tu-7700-1974",
@@ -11286,7 +11467,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -11326,7 +11506,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-tu-4400-1976",
@@ -11348,7 +11530,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -11388,7 +11569,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-tu-9900-1976",
@@ -11410,7 +11593,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -11450,7 +11632,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-tu-3900-1977",
@@ -11472,7 +11656,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -11512,7 +11695,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-tu-5500-1977",
@@ -11534,7 +11719,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -11574,7 +11758,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-tu-5900-1977",
@@ -11596,7 +11782,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -11636,7 +11821,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-tu-717-1977",
@@ -11658,7 +11845,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 40-50",
-        "avg_price_usd_1yr":  200,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -11698,7 +11884,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  200,
+        "price_basis":  null
     },
     {
         "id":  "sansui-tu-7900-1977",
@@ -11720,7 +11908,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -11760,7 +11947,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-tu-217-1978",
@@ -11782,7 +11971,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -11822,7 +12010,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-tu-317-1978",
@@ -11844,7 +12034,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -11884,7 +12073,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-tu-517-1978",
@@ -11906,7 +12097,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -11946,7 +12136,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-tu-919-1979",
@@ -11968,7 +12160,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 40-50",
-        "avg_price_usd_1yr":  250,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -12008,7 +12199,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  250,
+        "price_basis":  null
     },
     {
         "id":  "sansui-tu-x1-1980",
@@ -12030,7 +12223,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  400,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -12070,7 +12262,9 @@
                       "sansui_us":  null
                   },
         "notes":  "Flagship tuner companion to the AU-X1 integrated amplifier.",
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  400,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-70-1964",
@@ -12092,7 +12286,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -12132,7 +12325,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-111-1965",
@@ -12154,7 +12349,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 10",
-        "avg_price_usd_1yr":  4700,
         "avg_price_thb_3yr":  49000,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -12194,7 +12388,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  4700,
+        "price_basis":  null
     },
     {
         "id":  "sansui-1000-1963",
@@ -12216,7 +12412,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -12256,7 +12451,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-250-1965",
@@ -12278,7 +12475,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  6500,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -12318,7 +12514,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-1000a-1967",
@@ -12340,7 +12538,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 40-50",
-        "avg_price_usd_1yr":  900,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -12380,7 +12577,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  900,
+        "price_basis":  null
     },
     {
         "id":  "sansui-1000ea-1967",
@@ -12402,7 +12601,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -12442,7 +12640,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-dalpha607-2nd-gen-1978",
@@ -12464,7 +12664,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 20-30",
-        "avg_price_usd_1yr":  700,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -12504,7 +12703,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  700,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-dalpha907-limited-1979",
@@ -12526,7 +12727,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 10-20",
-        "avg_price_usd_1yr":  1200,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -12566,7 +12766,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  1200,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha307-1986",
@@ -12588,7 +12790,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -12628,7 +12829,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha507-1986",
@@ -12650,7 +12853,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -12690,7 +12892,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha607-7th-gen-1986",
@@ -12712,7 +12916,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -12752,7 +12955,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha707-7th-gen-1986",
@@ -12774,7 +12979,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 40-50",
-        "avg_price_usd_1yr":  450,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -12814,7 +13018,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  450,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha907-1986",
@@ -12836,7 +13042,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 20-30",
-        "avg_price_usd_1yr":  1200,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -12876,7 +13081,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  1200,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha507i-1987",
@@ -12898,7 +13105,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -12938,7 +13144,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha606i-1987",
@@ -12960,7 +13168,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -13000,7 +13207,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha607i-1987",
@@ -13022,7 +13231,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -13062,7 +13270,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha707i-1987",
@@ -13084,7 +13294,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 40-50",
-        "avg_price_usd_1yr":  500,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -13124,7 +13333,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  500,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha907i-1987",
@@ -13146,7 +13357,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 20-30",
-        "avg_price_usd_1yr":  1000,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -13186,7 +13396,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  1000,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha907i-mos-limited-1987",
@@ -13208,7 +13420,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 10",
-        "avg_price_usd_1yr":  2500,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -13248,7 +13459,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  2500,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha507extra-1988",
@@ -13270,7 +13483,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -13310,7 +13522,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha607extra-1988",
@@ -13332,7 +13546,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -13372,7 +13585,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha707extra-1988",
@@ -13394,7 +13609,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 40-50",
-        "avg_price_usd_1yr":  550,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -13434,7 +13648,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  550,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha907extra-1988",
@@ -13456,7 +13672,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 20-30",
-        "avg_price_usd_1yr":  1300,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -13496,7 +13711,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  1300,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha777dg-1988",
@@ -13518,7 +13735,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  700,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -13558,7 +13774,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  700,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha607l-extra-1989",
@@ -13580,7 +13798,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -13620,7 +13837,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha707l-extra-1989",
@@ -13642,7 +13861,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  700,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -13682,7 +13900,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  700,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha907l-extra-1989",
@@ -13704,7 +13924,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 10-20",
-        "avg_price_usd_1yr":  2000,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -13744,7 +13963,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  2000,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha999dg-1989",
@@ -13766,7 +13987,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 20-30",
-        "avg_price_usd_1yr":  900,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -13806,7 +14026,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  900,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha607dr-1990",
@@ -13828,7 +14050,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -13868,7 +14089,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha707dr-1990",
@@ -13890,7 +14113,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  650,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -13930,7 +14152,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  650,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha907dr-1990",
@@ -13952,7 +14176,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 10-20",
-        "avg_price_usd_1yr":  1800,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -13992,7 +14215,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  1800,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha607-mos-premium-1991",
@@ -14014,7 +14239,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 40-50",
-        "avg_price_usd_1yr":  450,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -14054,7 +14278,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  450,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha607kx-1992",
@@ -14076,7 +14302,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -14116,7 +14341,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha707kx-1992",
@@ -14138,7 +14365,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 40-50",
-        "avg_price_usd_1yr":  500,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -14178,7 +14404,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  500,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha907kx-1992",
@@ -14200,7 +14428,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 20-30",
-        "avg_price_usd_1yr":  1100,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -14240,7 +14467,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  1100,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha507xr-1993",
@@ -14262,7 +14491,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -14302,7 +14530,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha607xr-1993",
@@ -14324,7 +14554,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -14364,7 +14593,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha707xr-1993",
@@ -14386,7 +14617,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 40-50",
-        "avg_price_usd_1yr":  500,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -14426,7 +14656,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  500,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha907xr-1993",
@@ -14448,7 +14680,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 20-30",
-        "avg_price_usd_1yr":  1100,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -14488,7 +14719,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  1100,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha907-limited-1994",
@@ -14510,7 +14743,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 10",
-        "avg_price_usd_1yr":  2200,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -14550,7 +14782,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  2200,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha607mr-1995",
@@ -14572,7 +14806,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -14612,7 +14845,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha707mr-1995",
@@ -14634,7 +14869,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  600,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -14674,7 +14908,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  600,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha907mr-1995",
@@ -14696,7 +14932,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 20-30",
-        "avg_price_usd_1yr":  1300,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -14736,7 +14971,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  1300,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-07-anniversary-1996",
@@ -14758,7 +14995,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 10-20",
-        "avg_price_usd_1yr":  1600,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -14798,7 +15034,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  1600,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha607nra-1997",
@@ -14820,7 +15058,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  13900,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -14860,7 +15097,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha707nra-1997",
@@ -14882,7 +15121,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  600,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -14922,7 +15160,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  600,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha907nra-1997",
@@ -14944,7 +15184,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 10-20",
-        "avg_price_usd_1yr":  1500,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -14984,7 +15223,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  1500,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha607nra-ii-1999",
@@ -15006,7 +15247,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Unranked",
-        "avg_price_usd_1yr":  null,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "None",
         "last_price_check":  null,
@@ -15046,7 +15286,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  null,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-alpha607-mos-limited-1999",
@@ -15068,7 +15310,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  500,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -15108,7 +15349,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  500,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-111-vintage-2001",
@@ -15130,7 +15373,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  2500,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -15170,7 +15412,9 @@
                       "sansui_us":  null
                   },
         "notes":  "Modern faithful reproduction of the 1965 tube AU-111.",
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  2500,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-111g-vintage-2001",
@@ -15192,7 +15436,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  2700,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -15232,7 +15475,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  2700,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-x11-1981",
@@ -15254,7 +15499,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 20-30",
-        "avg_price_usd_1yr":  1500,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -15294,7 +15538,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  1500,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-x111-mos-1984",
@@ -15316,7 +15562,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 10-20",
-        "avg_price_usd_1yr":  2000,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -15356,7 +15601,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  2000,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-x1111-mos-1988",
@@ -15378,7 +15625,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 10",
-        "avg_price_usd_1yr":  2800,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -15418,7 +15664,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  2800,
+        "price_basis":  null
     },
     {
         "id":  "sansui-au-x711-1989",
@@ -15440,7 +15688,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 20-30",
-        "avg_price_usd_1yr":  1600,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -15480,7 +15727,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  1600,
+        "price_basis":  null
     },
     {
         "id":  "sansui-b-2301-1982",
@@ -15502,7 +15751,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  700,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -15540,7 +15788,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  700,
+        "price_basis":  null
     },
     {
         "id":  "sansui-b-2201-1983",
@@ -15562,7 +15812,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 40-50",
-        "avg_price_usd_1yr":  500,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -15600,7 +15849,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  500,
+        "price_basis":  null
     },
     {
         "id":  "sansui-b-2201l-1985",
@@ -15622,7 +15873,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  600,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -15660,7 +15910,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  600,
+        "price_basis":  null
     },
     {
         "id":  "sansui-b-2102-mos-1988",
@@ -15682,7 +15934,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  650,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -15720,7 +15971,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  650,
+        "price_basis":  null
     },
     {
         "id":  "sansui-b-2302v-1990",
@@ -15742,7 +15995,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 20-30",
-        "avg_price_usd_1yr":  900,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -15780,7 +16032,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  900,
+        "price_basis":  null
     },
     {
         "id":  "sansui-b-2103-mos-vintage-1992",
@@ -15802,7 +16056,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 20-30",
-        "avg_price_usd_1yr":  1000,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -15840,7 +16093,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  1000,
+        "price_basis":  null
     },
     {
         "id":  "sansui-b-209-the-tube-1995",
@@ -15862,7 +16117,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 10",
-        "avg_price_usd_1yr":  2500,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -15900,7 +16154,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  2500,
+        "price_basis":  null
     },
     {
         "id":  "sansui-b2105v-1997",
@@ -15922,7 +16178,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 30-40",
-        "avg_price_usd_1yr":  700,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -15960,7 +16215,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  700,
+        "price_basis":  null
     },
     {
         "id":  "sansui-c-2302v-1992",
@@ -15982,7 +16239,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 40-50",
-        "avg_price_usd_1yr":  400,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -16020,7 +16276,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  400,
+        "price_basis":  null
     },
     {
         "id":  "sansui-c-2105v-1997",
@@ -16042,7 +16300,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 40-50",
-        "avg_price_usd_1yr":  350,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -16080,7 +16337,9 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  350,
+        "price_basis":  null
     },
     {
         "id":  "sansui-c-2302p-1999",
@@ -16102,7 +16361,6 @@
         "pros":  null,
         "cons":  null,
         "collector_ranking":  "Top 40-50",
-        "avg_price_usd_1yr":  400,
         "avg_price_thb_3yr":  null,
         "price_confidence":  "Low",
         "last_price_check":  "2026-06",
@@ -16140,6 +16398,8 @@
                       "sansui_us":  null
                   },
         "notes":  null,
-        "verified":  false
+        "verified":  false,
+        "avg_price_usd_3mo":  400,
+        "price_basis":  null
     }
 ]

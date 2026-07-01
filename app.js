@@ -5,6 +5,7 @@ let currentSort = "collector";
 let currentType = "all";
 let currentEra = "all";
 let bestBuyOnly = false;
+let thaiPriceOnly = false;
 let searchTerm = "";
 
 const RANK_ORDER = { "Top 10": 1, "Top 10-20": 2, "Top 20-30": 3, "Top 30-40": 4, "Top 40-50": 5, "Unranked": 6 };
@@ -33,7 +34,7 @@ function populateStats() {
   if (years.length) {
     document.getElementById("stat-years").textContent = `${Math.min(...years)}–${Math.max(...years)}`;
   }
-  const priceCount = DB.filter(d => d.avg_price_usd_1yr !== null || d.avg_price_thb_3yr !== null).length;
+  const priceCount = DB.filter(d => d.avg_price_usd_3mo !== null || d.avg_price_thb_3yr !== null).length;
   document.getElementById("stat-prices").textContent = priceCount;
 }
 
@@ -69,6 +70,13 @@ function bindControls() {
   bestBuyBtn.addEventListener("click", () => {
     bestBuyOnly = !bestBuyOnly;
     bestBuyBtn.classList.toggle("active", bestBuyOnly);
+    render();
+  });
+
+  const thaiBtn = document.getElementById("thai-price-filter");
+  thaiBtn.addEventListener("click", () => {
+    thaiPriceOnly = !thaiPriceOnly;
+    thaiBtn.classList.toggle("active", thaiPriceOnly);
     render();
   });
 
@@ -134,7 +142,8 @@ function getFiltered() {
     matchesType(item, currentType) &&
     matchesEra(item, currentEra) &&
     matchesSearch(item, searchTerm) &&
-    (!bestBuyOnly || (item.best_buy && item.best_buy.rating))
+    (!bestBuyOnly || (item.best_buy && item.best_buy.rating)) &&
+    (!thaiPriceOnly || item.avg_price_thb_3yr !== null)
   );
 }
 
@@ -157,7 +166,7 @@ function sortItems(items) {
       arr.sort((a, b) => (b.watts_per_channel || 0) - (a.watts_per_channel || 0));
       break;
     case "price":
-      arr.sort((a, b) => (b.avg_price_usd_1yr || 0) - (a.avg_price_usd_1yr || 0));
+      arr.sort((a, b) => (b.avg_price_usd_3mo || 0) - (a.avg_price_usd_3mo || 0));
       break;
     case "recap":
       arr.sort((a, b) => {
@@ -186,7 +195,10 @@ function priceClass(price) {
 
 function formatPrice(item) {
   const parts = [];
-  if (item.avg_price_usd_1yr) parts.push(`$${item.avg_price_usd_1yr.toLocaleString()}`);
+  if (item.avg_price_usd_3mo) {
+    const label = item.price_basis === "restored" ? " (rest.)" : "";
+    parts.push(`$${item.avg_price_usd_3mo.toLocaleString()}${label}`);
+  }
   if (item.avg_price_thb_3yr) parts.push(`฿${item.avg_price_thb_3yr.toLocaleString()}`);
   return parts.length ? parts.join(" / ") : "—";
 }
@@ -230,7 +242,7 @@ function render() {
       <td>${escapeHtml(item.amp_circuit || "—")}</td>
       <td>${wrenchDisplay(item.restorer_info && item.restorer_info.recap_difficulty)}</td>
       <td>${item.best_buy && item.best_buy.rating ? `<span class="bestbuy-star">${"⭐".repeat(item.best_buy.rating)}</span>` : "—"}</td>
-      <td class="price-cell ${priceClass(item.avg_price_usd_1yr)}">${formatPrice(item)}</td>
+      <td class="price-cell ${priceClass(item.avg_price_usd_3mo)}">${formatPrice(item)}</td>
       <td class="links-cell">
         ${item.links && item.links.audio_database ? `<a class="link-icon" href="${item.links.audio_database}" target="_blank" rel="noopener" title="Audio Database" onclick="event.stopPropagation()">📄</a>` : ""}
       </td>
@@ -284,7 +296,7 @@ function openModal(item) {
     <div class="modal-section">
       <h3>🏆 Collector Information</h3>
       <p class="info-line"><span class="il-label">Collector Ranking:</span><strong>${item.collector_ranking || "Unranked"}</strong></p>
-      <p class="info-line"><span class="il-label">Avg Sale Price:</span>${formatPrice(item)} ${item.avg_price_thb_3yr ? "<em>(THB = personal find, not market average)</em>" : ""}</p>
+      <p class="info-line"><span class="il-label">3-Mo Price:</span>${formatPrice(item)}${item.price_basis ? ` <em>(${item.price_basis})</em>` : ""}${item.avg_price_thb_3yr ? " <em>· THB = personal find</em>" : ""}</p>
       <p class="info-line"><span class="il-label">Price Confidence:</span>${escapeHtml(item.price_confidence || "None")}</p>
       ${item.collector_info && item.collector_info.known_issues ? `<p class="info-line"><span class="il-label">Known Issues:</span>${escapeHtml(item.collector_info.known_issues)}</p>` : ""}
       ${item.collector_info && item.collector_info.collector_notes ? `<p class="info-line"><span class="il-label">Collector Notes:</span>${escapeHtml(item.collector_info.collector_notes)}</p>` : ""}
