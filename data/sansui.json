@@ -619,68 +619,6 @@
     "year_source": "serial-report"
   },
   {
-    "id": "sansui-au-111-1973",
-    "brand": "Sansui",
-    "jdm_model": "AU-111",
-    "int_model": null,
-    "type": "Integrated",
-    "series": "Classic Era",
-    "year_start": 1965,
-    "year_end": 1970,
-    "japan_price_kyen": 268,
-    "watts_per_channel": null,
-    "freq_response_hz": null,
-    "thd_percent": null,
-    "ps_type": null,
-    "amp_circuit": null,
-    "weight_kg": null,
-    "special_features": null,
-    "pros": null,
-    "cons": null,
-    "collector_ranking": "Unranked",
-    "avg_price_thb_3yr": null,
-    "price_confidence": "None",
-    "last_price_check": null,
-    "collector_info": {
-      "known_issues": null,
-      "collector_notes": null
-    },
-    "restorer_info": {
-      "known_failure_points": [
-        "Electrolytic caps dry out and lose capacitance, especially in the power supply",
-        "Selector and tone switch contacts oxidize causing crackling",
-        "Idle bias drifts and should be rechecked after any service",
-        "Speaker relay and protection circuit contacts oxidize over time"
-      ],
-      "bias_spec_mv": null,
-      "service_manual_link": null,
-      "recap_difficulty": 4,
-      "recap_notes": null,
-      "estimated_recap_cost_usd": null,
-      "common_faults": [
-        "Channel imbalance or weak channel",
-        "Crackling on selector/volume rotation",
-        "Intermittent power-on relay click with no sound",
-        "Dim or burnt-out dial/meter lamps"
-      ]
-    },
-    "best_buy": {
-      "rating": null,
-      "reason": null
-    },
-    "capacitors": [],
-    "links": {
-      "audio_database": null,
-      "hifi_engine": null,
-      "sansui_us": null
-    },
-    "notes": "Transistor-era AU-111 reissue, distinct from the 1965 tube original.",
-    "verified": false,
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
-    "year_source": "serial-report"
-  },
-  {
     "id": "sansui-au-505-1973",
     "brand": "Sansui",
     "jdm_model": "AU-505",
@@ -1300,67 +1238,6 @@
     "year_source": "serial-report"
   },
   {
-    "id": "sansui-au-701-1975",
-    "brand": "Sansui",
-    "jdm_model": "AU-701",
-    "int_model": null,
-    "type": "Integrated",
-    "series": "Classic Era",
-    "year_start": 1975,
-    "year_end": 1980,
-    "japan_price_kyen": null,
-    "watts_per_channel": null,
-    "freq_response_hz": null,
-    "thd_percent": null,
-    "ps_type": null,
-    "amp_circuit": null,
-    "weight_kg": null,
-    "special_features": null,
-    "pros": null,
-    "cons": null,
-    "collector_ranking": "Unranked",
-    "avg_price_thb_3yr": null,
-    "price_confidence": "None",
-    "last_price_check": null,
-    "collector_info": {
-      "known_issues": null,
-      "collector_notes": null
-    },
-    "restorer_info": {
-      "known_failure_points": [
-        "Electrolytic caps dry out and lose capacitance, especially in the power supply",
-        "Selector and tone switch contacts oxidize causing crackling",
-        "Idle bias drifts and should be rechecked after any service",
-        "Speaker relay and protection circuit contacts oxidize over time"
-      ],
-      "bias_spec_mv": null,
-      "service_manual_link": null,
-      "recap_difficulty": 2,
-      "recap_notes": null,
-      "estimated_recap_cost_usd": null,
-      "common_faults": [
-        "Channel imbalance or weak channel",
-        "Crackling on selector/volume rotation",
-        "Intermittent power-on relay click with no sound",
-        "Dim or burnt-out dial/meter lamps"
-      ]
-    },
-    "best_buy": {
-      "rating": null,
-      "reason": null
-    },
-    "capacitors": [],
-    "links": {
-      "audio_database": null,
-      "hifi_engine": null,
-      "sansui_us": null
-    },
-    "notes": null,
-    "verified": false,
-    "avg_price_usd_3mo": null,
-    "price_basis": null
-  },
-  {
     "id": "sansui-au-11000-1976",
     "brand": "Sansui",
     "jdm_model": "AU-11000",
@@ -1735,12 +1612,12 @@
   {
     "id": "sansui-au-alpha607-1st-gen-1976",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha607 (1st Gen)",
+    "jdm_model": "AU-607",
     "int_model": null,
     "type": "Integrated",
     "series": "Silver Era",
-    "year_start": 1986,
-    "year_end": 1987,
+    "year_start": 1977,
+    "year_end": 1979,
     "japan_price_kyen": null,
     "watts_per_channel": 65,
     "freq_response_hz": null,
@@ -1757,7 +1634,7 @@
     "last_price_check": null,
     "collector_info": {
       "known_issues": null,
-      "collector_notes": null
+      "collector_notes": "First-generation AU-607 (1977). Start of the long-running 607 integrated line."
     },
     "restorer_info": {
       "known_failure_points": [
@@ -1792,68 +1669,7 @@
     "verified": false,
     "avg_price_usd_3mo": null,
     "price_basis": null,
-    "year_source": "serial-report"
-  },
-  {
-    "id": "sansui-au-alpha717-1st-gen-1976",
-    "brand": "Sansui",
-    "jdm_model": "AU-alpha717 (1st Gen)",
-    "int_model": null,
-    "type": "Integrated",
-    "series": "Silver Era",
-    "year_start": 1976,
-    "year_end": 1977,
-    "japan_price_kyen": null,
-    "watts_per_channel": 85,
-    "freq_response_hz": null,
-    "thd_percent": null,
-    "ps_type": null,
-    "amp_circuit": null,
-    "weight_kg": null,
-    "special_features": null,
-    "pros": null,
-    "cons": null,
-    "collector_ranking": "Top 40-50",
-    "avg_price_thb_3yr": 9000,
-    "price_confidence": "Low",
-    "last_price_check": "2026-06",
-    "collector_info": {
-      "known_issues": null,
-      "collector_notes": null
-    },
-    "restorer_info": {
-      "known_failure_points": [
-        "Electrolytic caps age out, raising ripple and noise",
-        "Phono stage caps degrade causing hiss or hum on phono input",
-        "Output relay contacts oxidize, causing dropouts or delayed turn-on",
-        "Power switch and selector contacts need cleaning"
-      ],
-      "bias_spec_mv": null,
-      "service_manual_link": null,
-      "recap_difficulty": 3,
-      "recap_notes": null,
-      "estimated_recap_cost_usd": null,
-      "common_faults": [
-        "Relay clicks but no sound on one or both channels",
-        "Phono input noisy or silent",
-        "Tuner drift or weak FM capture",
-        "Pilot lamps and meter bulbs burnt out"
-      ]
-    },
-    "best_buy": {
-      "rating": null,
-      "reason": null
-    },
-    "capacitors": [],
-    "links": {
-      "audio_database": null,
-      "hifi_engine": null,
-      "sansui_us": null
-    },
-    "notes": null,
-    "verified": false,
-    "avg_price_usd_3mo": 350,
-    "price_basis": null
+    "year_source": "manual"
   },
   {
     "id": "sansui-au-2200-1977",
@@ -2538,76 +2354,14 @@
     "year_source": "serial-report"
   },
   {
-    "id": "sansui-au-alpha607-1978",
-    "brand": "Sansui",
-    "jdm_model": "AU-alpha607",
-    "int_model": null,
-    "type": "Integrated",
-    "series": "Silver Era",
-    "year_start": 1986,
-    "year_end": 1987,
-    "japan_price_kyen": null,
-    "watts_per_channel": null,
-    "freq_response_hz": null,
-    "thd_percent": null,
-    "ps_type": null,
-    "amp_circuit": null,
-    "weight_kg": null,
-    "special_features": null,
-    "pros": null,
-    "cons": null,
-    "collector_ranking": "Top 40-50",
-    "avg_price_thb_3yr": null,
-    "price_confidence": "Low",
-    "last_price_check": "2026-06",
-    "collector_info": {
-      "known_issues": null,
-      "collector_notes": null
-    },
-    "restorer_info": {
-      "known_failure_points": [
-        "Electrolytic caps age out, raising ripple and noise",
-        "Phono stage caps degrade causing hiss or hum on phono input",
-        "Output relay contacts oxidize, causing dropouts or delayed turn-on",
-        "Power switch and selector contacts need cleaning"
-      ],
-      "bias_spec_mv": null,
-      "service_manual_link": null,
-      "recap_difficulty": 2,
-      "recap_notes": null,
-      "estimated_recap_cost_usd": null,
-      "common_faults": [
-        "Relay clicks but no sound on one or both channels",
-        "Phono input noisy or silent",
-        "Tuner drift or weak FM capture",
-        "Pilot lamps and meter bulbs burnt out"
-      ]
-    },
-    "best_buy": {
-      "rating": null,
-      "reason": null
-    },
-    "capacitors": [],
-    "links": {
-      "audio_database": null,
-      "hifi_engine": null,
-      "sansui_us": null
-    },
-    "notes": null,
-    "verified": false,
-    "avg_price_usd_3mo": 400,
-    "price_basis": null,
-    "year_source": "serial-report"
-  },
-  {
     "id": "sansui-au-alpha707-1977",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha707",
+    "jdm_model": "AU-707",
     "int_model": null,
     "type": "Integrated",
     "series": "Silver Era",
-    "year_start": 1986,
-    "year_end": 1987,
+    "year_start": 1977,
+    "year_end": 1979,
     "japan_price_kyen": null,
     "watts_per_channel": null,
     "freq_response_hz": null,
@@ -2624,7 +2378,7 @@
     "last_price_check": "2026-06",
     "collector_info": {
       "known_issues": null,
-      "collector_notes": null
+      "collector_notes": "First-generation AU-707 (1977). Start of the long-running 707 integrated line."
     },
     "restorer_info": {
       "known_failure_points": [
@@ -2659,7 +2413,7 @@
     "verified": false,
     "avg_price_usd_3mo": 600,
     "price_basis": null,
-    "year_source": "serial-report"
+    "year_source": "manual"
   },
   {
     "id": "sansui-au-117ii-1978",
@@ -3220,67 +2974,6 @@
     "year_source": "serial-report"
   },
   {
-    "id": "sansui-au-319-1979",
-    "brand": "Sansui",
-    "jdm_model": "AU-319",
-    "int_model": null,
-    "type": "Integrated",
-    "series": "Silver Era",
-    "year_start": 1979,
-    "year_end": 1981,
-    "japan_price_kyen": null,
-    "watts_per_channel": 45,
-    "freq_response_hz": null,
-    "thd_percent": null,
-    "ps_type": null,
-    "amp_circuit": null,
-    "weight_kg": null,
-    "special_features": null,
-    "pros": null,
-    "cons": null,
-    "collector_ranking": "Unranked",
-    "avg_price_thb_3yr": null,
-    "price_confidence": "None",
-    "last_price_check": null,
-    "collector_info": {
-      "known_issues": null,
-      "collector_notes": null
-    },
-    "restorer_info": {
-      "known_failure_points": [
-        "Electrolytic caps age out, raising ripple and noise",
-        "Phono stage caps degrade causing hiss or hum on phono input",
-        "Output relay contacts oxidize, causing dropouts or delayed turn-on",
-        "Power switch and selector contacts need cleaning"
-      ],
-      "bias_spec_mv": null,
-      "service_manual_link": null,
-      "recap_difficulty": 2,
-      "recap_notes": null,
-      "estimated_recap_cost_usd": null,
-      "common_faults": [
-        "Relay clicks but no sound on one or both channels",
-        "Phono input noisy or silent",
-        "Tuner drift or weak FM capture",
-        "Pilot lamps and meter bulbs burnt out"
-      ]
-    },
-    "best_buy": {
-      "rating": null,
-      "reason": null
-    },
-    "capacitors": [],
-    "links": {
-      "audio_database": null,
-      "hifi_engine": null,
-      "sansui_us": null
-    },
-    "notes": null,
-    "verified": false,
-    "avg_price_usd_3mo": null,
-    "price_basis": null
-  },
-  {
     "id": "sansui-au-x1-1979",
     "brand": "Sansui",
     "jdm_model": "AU-X1",
@@ -3356,7 +3049,7 @@
     "freq_response_hz": null,
     "thd_percent": null,
     "ps_type": null,
-    "amp_circuit": null,
+    "amp_circuit": "Servo amplifier",
     "weight_kg": null,
     "special_features": null,
     "pros": null,
@@ -3367,7 +3060,7 @@
     "last_price_check": null,
     "collector_info": {
       "known_issues": null,
-      "collector_notes": null
+      "collector_notes": "Servo (power) amplifier — a real model, not fiction."
     },
     "restorer_info": {
       "known_failure_points": [
@@ -12657,8 +12350,8 @@
   {
     "id": "sansui-au-alpha607-7th-gen-1986",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha607 (7th gen)",
-    "int_model": null,
+    "jdm_model": "AU-alpha607",
+    "int_model": "AU-X701",
     "type": "Integrated",
     "series": "Alpha Series",
     "year_start": 1986,
@@ -12679,7 +12372,7 @@
     "last_price_check": null,
     "collector_info": {
       "known_issues": null,
-      "collector_notes": null
+      "collector_notes": "International equivalent sold as the AU-X701 (often called AU-701), released 1987. Praised for a refined, detailed sound and powerful bass."
     },
     "restorer_info": {
       "known_failure_points": [
@@ -12719,7 +12412,7 @@
   {
     "id": "sansui-au-alpha707-7th-gen-1986",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha707 (7th gen)",
+    "jdm_model": "AU-alpha707",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -15076,7 +14769,7 @@
     "int_model": null,
     "type": "Tube Integrated",
     "series": "Tube Era",
-    "year_start": 2001,
+    "year_start": 1999,
     "year_end": 2001,
     "japan_price_kyen": null,
     "watts_per_channel": null,
@@ -15094,7 +14787,7 @@
     "last_price_check": "2026-06",
     "collector_info": {
       "known_issues": null,
-      "collector_notes": "Modern faithful reproduction of the 1965 tube AU-111."
+      "collector_notes": "Re-released 1999 as the AU-111 Vintage due to the original's legendary status; the AU-111G followed later. Redesigned to complement modern SACD/DVD-Audio sources while retaining the original tube sonic signature."
     },
     "restorer_info": {
       "known_failure_points": [
@@ -15129,7 +14822,7 @@
     "verified": false,
     "avg_price_usd_3mo": 2500,
     "price_basis": null,
-    "year_source": "serial-report"
+    "year_source": "manual"
   },
   {
     "id": "sansui-au-111g-vintage-2001",
