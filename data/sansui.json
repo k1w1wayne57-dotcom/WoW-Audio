@@ -2542,7 +2542,7 @@
   {
     "id": "sansui-au-d707-au-819-2nd-gen-1978",
     "brand": "Sansui",
-    "jdm_model": "AU-D707 / AU-819 2nd gen",
+    "jdm_model": "AU-D707",
     "int_model": null,
     "type": "Integrated",
     "series": "Silver Era",
@@ -2564,7 +2564,7 @@
     "last_price_check": "2026-06",
     "collector_info": {
       "known_issues": null,
-      "collector_notes": null
+      "collector_notes": "2nd-generation 707 D-series."
     },
     "restorer_info": {
       "known_failure_points": [
@@ -2604,12 +2604,12 @@
   {
     "id": "sansui-au-d907-au-919-2nd-gen-1978",
     "brand": "Sansui",
-    "jdm_model": "AU-D907 / AU-919 2nd gen",
+    "jdm_model": "AU-D907",
     "int_model": null,
     "type": "Integrated",
     "series": "Silver Era",
     "year_start": 1978,
-    "year_end": 1988,
+    "year_end": 1980,
     "japan_price_kyen": null,
     "watts_per_channel": null,
     "freq_response_hz": null,
@@ -2626,7 +2626,7 @@
     "last_price_check": "2026-06",
     "collector_info": {
       "known_issues": null,
-      "collector_notes": null
+      "collector_notes": "2nd-generation 907 D-series."
     },
     "restorer_info": {
       "known_failure_points": [
@@ -2661,7 +2661,7 @@
     "verified": false,
     "avg_price_usd_3mo": 850,
     "price_basis": null,
-    "year_source": "serial-report"
+    "year_source": "serial-report (trimmed stragglers)"
   },
   {
     "id": "sansui-au-217-1979",
@@ -3161,7 +3161,7 @@
   {
     "id": "sansui-au-d707f-au-d9-3rd-gen-1980",
     "brand": "Sansui",
-    "jdm_model": "AU-D707F / AU-D9 (3rd gen)",
+    "jdm_model": "AU-D707F",
     "int_model": null,
     "type": "Integrated",
     "series": "Silver Era",
@@ -3183,7 +3183,7 @@
     "last_price_check": "2026-06",
     "collector_info": {
       "known_issues": null,
-      "collector_notes": null
+      "collector_notes": "3rd-generation 707 D-series."
     },
     "restorer_info": {
       "known_failure_points": [
@@ -3223,7 +3223,7 @@
   {
     "id": "sansui-au-d907f-3rd-gen-1980",
     "brand": "Sansui",
-    "jdm_model": "AU-D907F (3rd gen)",
+    "jdm_model": "AU-D907F",
     "int_model": null,
     "type": "Integrated",
     "series": "Silver Era",
@@ -3409,7 +3409,7 @@
   {
     "id": "sansui-au-d607f-extra-4th-gen-1981",
     "brand": "Sansui",
-    "jdm_model": "AU-D607F Extra (4th gen)",
+    "jdm_model": "AU-D607F Extra",
     "int_model": null,
     "type": "Integrated",
     "series": "DC Era",
@@ -3533,7 +3533,7 @@
   {
     "id": "sansui-au-d707f-extra-4th-gen-1981",
     "brand": "Sansui",
-    "jdm_model": "AU-D707F Extra (4th gen)",
+    "jdm_model": "AU-D707F Extra",
     "int_model": null,
     "type": "Integrated",
     "series": "DC Era",
@@ -3905,7 +3905,7 @@
   {
     "id": "sansui-au-d907g-5th-gen-1983",
     "brand": "Sansui",
-    "jdm_model": "AU-D907G (5th gen)",
+    "jdm_model": "AU-D907G",
     "int_model": null,
     "type": "Integrated",
     "series": "DC Era",
@@ -3966,7 +3966,7 @@
   {
     "id": "sansui-au-d607x-6th-gen-1984",
     "brand": "Sansui",
-    "jdm_model": "AU-D607X (6th gen)",
+    "jdm_model": "AU-D607X",
     "int_model": null,
     "type": "Integrated",
     "series": "DC Era",
@@ -4028,7 +4028,7 @@
   {
     "id": "sansui-au-d907x-6th-gen-1984",
     "brand": "Sansui",
-    "jdm_model": "AU-D907X (6th gen)",
+    "jdm_model": "AU-D907X",
     "int_model": null,
     "type": "Integrated",
     "series": "DC Era",
@@ -12104,7 +12104,7 @@
   {
     "id": "sansui-au-dalpha607-2nd-gen-1978",
     "brand": "Sansui",
-    "jdm_model": "AU-Dalpha607 (2nd gen)",
+    "jdm_model": "AU-Dalpha607",
     "int_model": null,
     "type": "Integrated",
     "series": "Silver Era",
