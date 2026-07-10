@@ -1,0 +1,19 @@
+# Models still needing specs (please supply)
+
+These are models where I could not find reliable spec data online. If you can
+paste specs (like you did for the BA-60), I'll add them. Format doesn't matter —
+watts/ch, frequency response, THD, weight, and original Japan price (¥) are the
+most useful fields.
+
+## 1960s tube / budget models
+
+- **1000EA** (1967, Tube Receiver) — no specs found at all
+- **SAX-100** (1965, Tube Receiver) — need watts, weight, freq, THD (only know: 6BM8 push-pull, FM-MPX)
+- **SM-12M** (1966, Tube tuner-amp) — need watts, weight, freq, THD (only know: 10 tubes, 6BQ5)
+
+## Partial (have most, missing a field)
+
+- **1000** (1963, Tube Receiver) — missing frequency response, THD (have 35 W, 18.5 kg)
+- **SAX-200** (1965, Tube Receiver) — missing frequency response, weight
+- **250** (1967) — missing weight
+- **500** (1965) — missing weight
