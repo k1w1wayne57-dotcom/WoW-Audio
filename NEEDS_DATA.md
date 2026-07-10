@@ -23,3 +23,4 @@ most useful fields.
 - **AU-6900** (1976) — weight not found
 - **AU-3900** (1976) — weight (sources conflict 7 vs 8.5 kg)
 - **BA-3000** (1975) — weight not found
+- **AU-519** (1979) — weight not found
