@@ -17,3 +17,9 @@ most useful fields.
 - **SAX-200** (1965, Tube Receiver) — missing frequency response, weight
 - **250** (1967) — missing weight
 - **500** (1965) — missing weight
+
+## Weight only (specs otherwise complete)
+
+- **AU-6900** (1976) — weight not found
+- **AU-3900** (1976) — weight (sources conflict 7 vs 8.5 kg)
+- **BA-3000** (1975) — weight not found
