@@ -25,3 +25,4 @@ most useful fields.
 - **BA-3000** (1975) — weight not found
 - **AU-519** (1979) — weight not found
 - **8080DB** (1976) — weight not found
+- **AU-D707F** (1980) — weight not found
