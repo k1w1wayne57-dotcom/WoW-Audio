@@ -30,3 +30,4 @@ most useful fields.
 - **AU-D55X** (1983) — weight not found
 - **AU-D11II** (1983) — weight not found
 - **AU-D77X** (1983) — freq, THD, weight not found (have 110 W, Super GF)
+- **AU-D101** (1983) — weight not found
