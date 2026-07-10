@@ -26,3 +26,7 @@ most useful fields.
 - **AU-519** (1979) — weight not found
 - **8080DB** (1976) — weight not found
 - **AU-D707F** (1980) — weight not found
+- **AU-D907G** (1983) — weight not found
+- **AU-D55X** (1983) — weight not found
+- **AU-D11II** (1983) — weight not found
+- **AU-D77X** (1983) — freq, THD, weight not found (have 110 W, Super GF)
