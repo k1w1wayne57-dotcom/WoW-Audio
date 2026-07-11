@@ -38,3 +38,5 @@ most useful fields.
 - **AU-111G VINTAGE** (2001) — no specs found (only the 1999 AU-111 Vintage is documented)
 - **C-2302P** (1998, preamp) — no specs found
 - **B2105V** (1997) — weight and Japan price not found
+- **AU-07 ANNIVERSARY** (1996) — freq response and weight not found (have 90 W, 0.003%, ¥450k)
+- **AU-alpha507EXTRA / AU-alpha907EXTRA** (1988) — no spec sheets found online; the serial report confirms they exist, but only the L-Extra variants are documented. Your manuals may be the only source.
