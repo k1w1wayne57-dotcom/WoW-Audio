@@ -40,3 +40,6 @@ most useful fields.
 - **B2105V** (1997) — weight and Japan price not found
 - **AU-07 ANNIVERSARY** (1996) — freq response and weight not found (have 90 W, 0.003%, ¥450k)
 - **AU-alpha507EXTRA / AU-alpha907EXTRA** (1988) — no spec sheets found online; the serial report confirms they exist, but only the L-Extra variants are documented. Your manuals may be the only source.
+- **AU-3500** (1976) — confirmed real (hifido/audio-database index) but no spec sheet found; need watts, freq, THD, weight, price
+- **TR-707A** (1965) — Japan price not found
+- **AU-alpha317K** (1994) — frequency response not found (have 55 W, 0.05%, 8.9 kg, ¥44k)
