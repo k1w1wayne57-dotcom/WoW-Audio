@@ -1990,7 +1990,7 @@
     "series": "Silver Era",
     "year_start": 1977,
     "year_end": 1979,
-    "japan_price_kyen": 550,
+    "japan_price_kyen": null,
     "watts_per_channel": 85,
     "freq_response_hz": "20-20000",
     "thd_percent": 0.025,
@@ -2006,7 +2006,7 @@
     "last_price_check": "2026-06",
     "collector_info": {
       "known_issues": null,
-      "collector_notes": null
+      "collector_notes": "Original data load had 550 in the Japan-price field. Export model, so not a yen price - possibly the US launch MSRP (~$550). Unconfirmed; moved here pending verification."
     },
     "restorer_info": {
       "known_failure_points": [
@@ -2300,7 +2300,7 @@
     "series": "Silver Era",
     "year_start": 1976,
     "year_end": 1980,
-    "japan_price_kyen": 450,
+    "japan_price_kyen": null,
     "watts_per_channel": 65,
     "freq_response_hz": "20-20000",
     "thd_percent": 0.025,
@@ -2316,7 +2316,7 @@
     "last_price_check": "2026-06",
     "collector_info": {
       "known_issues": null,
-      "collector_notes": null
+      "collector_notes": "Original data load had 450 in the Japan-price field. Export model, so not a yen price - possibly the US launch MSRP (~$450). Unconfirmed; moved here pending verification."
     },
     "restorer_info": {
       "known_failure_points": [
