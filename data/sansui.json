@@ -15846,5 +15846,67 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "user (spec sheet)"
+  },
+  {
+    "id": "sansui-au-d607-1979",
+    "brand": "Sansui",
+    "jdm_model": "AU-D607",
+    "int_model": null,
+    "type": "Integrated",
+    "series": "DC Era",
+    "year_start": 1979,
+    "year_end": null,
+    "japan_price_kyen": 69.8,
+    "watts_per_channel": 70,
+    "freq_response_hz": "DC-400000",
+    "thd_percent": 0.008,
+    "ps_type": null,
+    "amp_circuit": "Wide-range DC pre-main, diamond differential circuit",
+    "weight_kg": 15.5,
+    "special_features": "Diamond differential circuit; output bandwidth 5Hz-70kHz; slew rate 160V/us; damping factor 100; subsonic filter 16Hz; headphone out 85mW; power 195W; dims 430 x 168 x 390 mm; optional BX-7 rack adapter (JPY3,000)",
+    "pros": null,
+    "cons": null,
+    "collector_ranking": null,
+    "avg_price_thb_3yr": null,
+    "price_confidence": "Low",
+    "last_price_check": "2026-07",
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [
+        "DC servo/offset circuit drifts with aging caps, risking speaker damage if unchecked",
+        "Protection relay contacts oxidize and cause dropouts",
+        "Electrolytic caps throughout the signal path dry out",
+        "IC-based stages can degrade and are harder to source replacements for"
+      ],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": 3,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": [
+        "Protection relay trips on power-up",
+        "DC offset out of spec at speaker terminals",
+        "Channel imbalance after long storage",
+        "Crackling on input/source switching"
+      ]
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null,
+      "sansui_us": null
+    },
+    "notes": null,
+    "verified": true,
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": "user (spec sheet)"
   }
 ]
