@@ -35,3 +35,6 @@ most useful fields.
 - **AU-X711** (1989) — freq, THD, weight, price not found (have 100 W)
 - **AU-alpha907EXTRA** (1988) — full specs not found (sources only cover the base 907 / L Extra)
 - **AU-alpha606i** (1987) — full specs not found
+- **AU-111G VINTAGE** (2001) — no specs found (only the 1999 AU-111 Vintage is documented)
+- **C-2302P** (1998, preamp) — no specs found
+- **B2105V** (1997) — weight and Japan price not found
