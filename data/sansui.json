@@ -15969,5 +15969,66 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "user (spec sheet)"
+  },
+  {
+    "id": "sansui-b-2102-1986",
+    "brand": "Sansui",
+    "jdm_model": "B-2102",
+    "int_model": null,
+    "type": "Power Amp",
+    "series": "Alpha Series",
+    "year_start": 1986,
+    "year_end": 1990,
+    "japan_price_kyen": null,
+    "watts_per_channel": 200,
+    "freq_response_hz": "1-300000",
+    "thd_percent": 0.003,
+    "ps_type": null,
+    "amp_circuit": "Stereo power amplifier",
+    "weight_kg": 17.7,
+    "special_features": "Input sensitivity 1V; S/N 115dB; speaker load 4-16 ohm; dims 430 x 160 x 412 mm",
+    "pros": null,
+    "cons": null,
+    "collector_ranking": null,
+    "avg_price_thb_3yr": null,
+    "price_confidence": "Low",
+    "last_price_check": "2026-07",
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [
+        "DC offset / protection circuit drifts with aging caps, risking speaker damage",
+        "Protection relay contacts oxidize and cause dropouts",
+        "Main filter and signal-path electrolytics dry out",
+        "Output devices run hot; check bias and heatsink thermal paste"
+      ],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": 3,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": [
+        "Protection relay trips on power-up",
+        "DC offset out of spec at speaker terminals",
+        "One channel low or dead after storage"
+      ]
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null,
+      "sansui_us": null
+    },
+    "notes": null,
+    "verified": true,
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": "user (spec sheet)"
   }
 ]
