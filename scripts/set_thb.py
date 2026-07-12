@@ -1,12 +1,13 @@
-"""Set (or clear) the Thai Baht current-find price for a model.
+"""Manage Thai Baht listing prices for a model. Each price = one listing; never averaged.
 
 Usage:
-    python scripts/set_thb.py "AU-607" 6500
-    python scripts/set_thb.py "AU-607" none      <- clears the price
-    python scripts/set_thb.py "AU-607"           <- shows the current price
+    python scripts/set_thb.py "AU-607"               <- show current listings
+    python scripts/set_thb.py "AU-607" add 6500      <- add a listing
+    python scripts/set_thb.py "AU-607" set 6500 9900 <- replace all listings with these
+    python scripts/set_thb.py "AU-607" clear         <- remove all listings
 
-Matches jdm_model case-insensitively, ignoring spaces/hyphens (so "au607",
-"AU 607" and "AU-607" all work). Updates last_price_check to today.
+Matches jdm_model case-insensitively, ignoring spaces/hyphens. Updates
+last_price_check to today on any change.
 """
 import json
 import re
@@ -14,10 +15,18 @@ import sys
 import datetime
 from pathlib import Path
 
+try:
+    sys.stdout.reconfigure(encoding="utf-8")  # allow the ฿ symbol on Windows consoles
+except Exception:
+    pass
+
 DB_PATH = Path(__file__).resolve().parent.parent / "data" / "sansui.json"
 
 def norm(s):
     return re.sub(r"[\s\-_.]", "", str(s)).upper()
+
+def to_int(raw):
+    return int(float(raw.replace(",", "").replace("฿", "")))
 
 def main():
     if len(sys.argv) < 2:
@@ -33,24 +42,34 @@ def main():
             print("Did you mean:", ", ".join(partial[:10]))
         return
     e = hits[0]
+    listings = e.setdefault("price_thb_listings", [])
 
     if len(sys.argv) < 3:
-        print(f"{e['jdm_model']}: avg_price_thb_3yr = {e.get('avg_price_thb_3yr')} "
-              f"(last check {e.get('last_price_check')})")
+        shown = " / ".join(f"฿{v:,}" for v in listings) if listings else "(none)"
+        print(f"{e['jdm_model']}: {shown}  (last check {e.get('last_price_check')})")
         return
 
-    raw = sys.argv[2].replace(",", "").replace("฿", "")
-    old = e.get("avg_price_thb_3yr")
-    if raw.lower() in ("none", "null", "clear", "-"):
-        e["avg_price_thb_3yr"] = None
+    cmd = sys.argv[2].lower()
+    old = list(listings)
+    if cmd == "add":
+        listings.extend(to_int(a) for a in sys.argv[3:])
+    elif cmd == "set":
+        e["price_thb_listings"] = [to_int(a) for a in sys.argv[3:]]
+    elif cmd in ("clear", "none", "null"):
+        e["price_thb_listings"] = []
     else:
-        e["avg_price_thb_3yr"] = int(float(raw))
+        # bare number(s) = add
+        try:
+            listings.extend(to_int(a) for a in sys.argv[2:])
+        except ValueError:
+            print(f"Unknown command '{cmd}'. Use add / set / clear.")
+            return
     e["last_price_check"] = datetime.date.today().strftime("%Y-%m")
 
     with open(DB_PATH, "w", encoding="utf-8") as f:
         json.dump(db, f, indent=2, ensure_ascii=False)
-    print(f"{e['jdm_model']}: {old} -> {e['avg_price_thb_3yr']}  (last_price_check {e['last_price_check']})")
-    print('Now publish with:  git add data/sansui.json && git commit -m "THB price update" && git push')
+    print(f"{e['jdm_model']}: {old} -> {e['price_thb_listings']}")
+    print('Publish with:  git add data/sansui.json && git commit -m "THB listing update" && git push')
 
 if __name__ == "__main__":
     main()

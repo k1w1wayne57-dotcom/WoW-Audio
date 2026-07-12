@@ -29,7 +29,7 @@ project notes. Key points:
 - `verified: false` on every entry until manually confirmed by Wayne.
 - Unknown fields are `null`, never guessed.
 - `avg_price_usd_1yr` — researched current single-year USD market estimate (low confidence, aggregate).
-- `avg_price_thb_3yr` — reserved for Wayne's own second-hand market finds in Thailand. Not auto-researched.
+- `price_thb_listings` — array of Wayne's own second-hand Thai market finds (each number is one listing, in Baht). Never averaged; the site shows every listing. Not auto-researched. Edit with `scripts/set_thb.py`.
 - `japan_price_kyen` — original Japan list price in thousands of yen, where known.
 - `collector_ranking` — Top 10 / Top 10-20 / Top 20-30 / Top 30-40 / Top 40-50 / Unranked.
 - `restorer_info.recap_difficulty` — 1 (beginner) to 5 (expert/dangerous).

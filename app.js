@@ -34,7 +34,7 @@ function populateStats() {
   if (years.length) {
     document.getElementById("stat-years").textContent = `${Math.min(...years)}–${Math.max(...years)}`;
   }
-  const priceCount = DB.filter(d => d.avg_price_usd_3mo !== null || d.avg_price_thb_3yr !== null).length;
+  const priceCount = DB.filter(d => d.avg_price_usd_3mo !== null || (d.price_thb_listings && d.price_thb_listings.length)).length;
   document.getElementById("stat-prices").textContent = priceCount;
 }
 
@@ -143,7 +143,7 @@ function getFiltered() {
     matchesEra(item, currentEra) &&
     matchesSearch(item, searchTerm) &&
     (!bestBuyOnly || (item.best_buy && item.best_buy.rating)) &&
-    (!thaiPriceOnly || item.avg_price_thb_3yr !== null)
+    (!thaiPriceOnly || (item.price_thb_listings && item.price_thb_listings.length > 0))
   );
 }
 
@@ -199,7 +199,9 @@ function formatPrice(item) {
     const label = item.price_basis === "restored" ? " (rest.)" : "";
     parts.push(`$${item.avg_price_usd_3mo.toLocaleString()}${label}`);
   }
-  if (item.avg_price_thb_3yr) parts.push(`฿${item.avg_price_thb_3yr.toLocaleString()}`);
+  if (item.price_thb_listings && item.price_thb_listings.length) {
+    parts.push(item.price_thb_listings.map(v => `฿${v.toLocaleString()}`).join(" · "));
+  }
   return parts.length ? parts.join(" / ") : "—";
 }
 
@@ -296,7 +298,7 @@ function openModal(item) {
     <div class="modal-section">
       <h3>🏆 Collector Information</h3>
       <p class="info-line"><span class="il-label">Collector Ranking:</span><strong>${item.collector_ranking || "Unranked"}</strong></p>
-      <p class="info-line"><span class="il-label">3-Mo Price:</span>${formatPrice(item)}${item.price_basis ? ` <em>(${item.price_basis})</em>` : ""}${item.avg_price_thb_3yr ? " <em>· THB = personal find</em>" : ""}</p>
+      <p class="info-line"><span class="il-label">3-Mo Price:</span>${formatPrice(item)}${item.price_basis ? ` <em>(${item.price_basis})</em>` : ""}${item.price_thb_listings && item.price_thb_listings.length ? " <em>· each ฿ = a separate Thai listing</em>" : ""}</p>
       <p class="info-line"><span class="il-label">Price Confidence:</span>${escapeHtml(item.price_confidence || "None")}</p>
       ${item.collector_info && item.collector_info.known_issues ? `<p class="info-line"><span class="il-label">Known Issues:</span>${escapeHtml(item.collector_info.known_issues)}</p>` : ""}
       ${item.collector_info && item.collector_info.collector_notes ? `<p class="info-line"><span class="il-label">Collector Notes:</span>${escapeHtml(item.collector_info.collector_notes)}</p>` : ""}
