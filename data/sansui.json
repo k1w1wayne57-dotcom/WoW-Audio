@@ -2504,8 +2504,8 @@
     "year_start": 1976,
     "year_end": 1980,
     "japan_price_kyen": 800,
-    "watts_per_channel": 110,
-    "freq_response_hz": "20-20000",
+    "watts_per_channel": 100,
+    "freq_response_hz": "10-20000",
     "thd_percent": 0.008,
     "ps_type": "Penta-Power (dual transformer, stage-split)",
     "amp_circuit": "DC integrated, dual-mono, super-feedforward",
@@ -2518,7 +2518,7 @@
     "last_price_check": "2026-06",
     "collector_info": {
       "known_issues": null,
-      "collector_notes": "Penta-Power supply: a large toroidal transformer (with independent L/R windings) feeds the high-current driver/output stages, while a separate EI-core transformer feeds the Class-A preamp and pre-driver stages. This isolates by operational stage (power vs. preamp), not by channel - so it is NOT a standard dual-mono design. Minimizes intermodulation distortion and maximizes channel separation."
+      "collector_notes": "Penta-Power supply: a large toroidal transformer (with independent L/R windings) feeds the high-current driver/output stages, while a separate EI-core transformer feeds the Class-A preamp and pre-driver stages. This isolates by operational stage (power vs. preamp), not by channel - so it is NOT a standard dual-mono design. Minimizes intermodulation distortion and maximizes channel separation. | Multi-voltage export twin of the JDM AU-D907 - same Penta-Power amp; slightly heavier due to the export power transformer."
     },
     "restorer_info": {
       "known_failure_points": [
