@@ -2628,12 +2628,12 @@
     "year_start": 1978,
     "year_end": 1980,
     "japan_price_kyen": null,
-    "watts_per_channel": null,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "watts_per_channel": 100,
+    "freq_response_hz": "10-20000",
+    "thd_percent": 0.008,
     "ps_type": "Penta-Power (dual transformer, stage-split)",
     "amp_circuit": null,
-    "weight_kg": null,
+    "weight_kg": 18,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -2642,7 +2642,7 @@
     "last_price_check": "2026-06",
     "collector_info": {
       "known_issues": null,
-      "collector_notes": "2nd-generation 907 D-series. | Penta-Power supply, identical to the AU-919 (this is its 100V JDM equivalent): four independent supply systems derived from two separate transformers (toroidal for driver/output with independent L/R windings; EI-core for the Class-A preamp/pre-driver), plus a dedicated stabilized section. Stage isolation, not channel isolation - NOT dual mono."
+      "collector_notes": "2nd-generation 907 D-series. | Penta-Power supply, identical to the AU-919 (this is its 100V JDM equivalent): four independent supply systems derived from two separate transformers (toroidal for driver/output with independent L/R windings; EI-core for the Class-A preamp/pre-driver), plus a dedicated stabilized section. Stage isolation, not channel isolation - NOT dual mono. | Top-tier built-in phono equalizer (MM + MC), widely praised. JDM (100V) equivalent of the AU-919. NOTE: sometimes marketed as 'dual-mono', but the actual design is Penta-Power (stage-split), not one transformer per channel."
     },
     "restorer_info": {
       "known_failure_points": [
@@ -16862,6 +16862,189 @@
     "collector_info": {
       "known_issues": null,
       "collector_notes": "Widely regarded as the best preamp Sansui ever made."
+    },
+    "restorer_info": {
+      "known_failure_points": [
+        "DC servo/offset circuit drifts with aging caps, risking speaker damage if unchecked",
+        "Protection relay contacts oxidize and cause dropouts",
+        "Electrolytic caps throughout the signal path dry out",
+        "IC-based stages can degrade and are harder to source replacements for"
+      ],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": 3,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": [
+        "Protection relay trips on power-up",
+        "DC offset out of spec at speaker terminals",
+        "Channel imbalance after long storage"
+      ]
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null,
+      "sansui_us": null
+    },
+    "notes": null,
+    "verified": false,
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": "research"
+  },
+  {
+    "id": "sansui-au-d907-limited-1979",
+    "brand": "Sansui",
+    "jdm_model": "AU-D907 LIMITED",
+    "int_model": null,
+    "type": "Integrated",
+    "series": "DC Era",
+    "year_start": 1979,
+    "year_end": 1980,
+    "japan_price_kyen": 179,
+    "watts_per_channel": 100,
+    "freq_response_hz": "10-20000",
+    "thd_percent": 0.008,
+    "ps_type": "Penta-Power (dual transformer, stage-split)",
+    "amp_circuit": "Wide-range DC integrated (Penta-Power), premium AU-X1-derived build",
+    "weight_kg": 20.0,
+    "special_features": "Premium AU-D907 variant using AU-X1 development know-how: copper-plated chassis, gold-plated connectors, bronze baseplate, wooden side panels. Dims 466 x 182 x 432 mm; power consumption 260W.",
+    "pros": null,
+    "cons": null,
+    "collector_ranking": null,
+    "price_thb_listings": [],
+    "price_confidence": "Low",
+    "last_price_check": null,
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": "Highly sought-after collector's edition of the AU-D907."
+    },
+    "restorer_info": {
+      "known_failure_points": [
+        "DC servo/offset circuit drifts with aging caps, risking speaker damage if unchecked",
+        "Protection relay contacts oxidize and cause dropouts",
+        "Electrolytic caps throughout the signal path dry out",
+        "IC-based stages can degrade and are harder to source replacements for"
+      ],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": 3,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": [
+        "Protection relay trips on power-up",
+        "DC offset out of spec at speaker terminals",
+        "Channel imbalance after long storage"
+      ]
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null,
+      "sansui_us": null
+    },
+    "notes": null,
+    "verified": false,
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": "research"
+  },
+  {
+    "id": "sansui-au-d907f-extra-1981",
+    "brand": "Sansui",
+    "jdm_model": "AU-D907F Extra",
+    "int_model": null,
+    "type": "Integrated",
+    "series": "DC Era",
+    "year_start": 1981,
+    "year_end": 1982,
+    "japan_price_kyen": 175,
+    "watts_per_channel": 130,
+    "freq_response_hz": "DC-300000",
+    "thd_percent": 0.003,
+    "ps_type": null,
+    "amp_circuit": "Super Feedforward, diamond differential",
+    "weight_kg": 17.7,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": null,
+    "price_thb_listings": [],
+    "price_confidence": "Low",
+    "last_price_check": null,
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [
+        "DC servo/offset circuit drifts with aging caps, risking speaker damage if unchecked",
+        "Protection relay contacts oxidize and cause dropouts",
+        "Electrolytic caps throughout the signal path dry out",
+        "IC-based stages can degrade and are harder to source replacements for"
+      ],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": 3,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": [
+        "Protection relay trips on power-up",
+        "DC offset out of spec at speaker terminals",
+        "Channel imbalance after long storage"
+      ]
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null,
+      "sansui_us": null
+    },
+    "notes": null,
+    "verified": false,
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": "research"
+  },
+  {
+    "id": "sansui-au-d907g-extra-1983",
+    "brand": "Sansui",
+    "jdm_model": "AU-D907G Extra",
+    "int_model": null,
+    "type": "Integrated",
+    "series": "DC Era",
+    "year_start": 1983,
+    "year_end": 1984,
+    "japan_price_kyen": 178,
+    "watts_per_channel": 130,
+    "freq_response_hz": "DC-300000",
+    "thd_percent": 0.003,
+    "ps_type": null,
+    "amp_circuit": "Super Feedforward DC integrated",
+    "weight_kg": 18.0,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": null,
+    "price_thb_listings": [],
+    "price_confidence": "Low",
+    "last_price_check": null,
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
     },
     "restorer_info": {
       "known_failure_points": [
