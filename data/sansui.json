@@ -2631,7 +2631,7 @@
     "watts_per_channel": null,
     "freq_response_hz": null,
     "thd_percent": null,
-    "ps_type": "Dual Mono",
+    "ps_type": "Penta-Power (dual transformer, stage-split)",
     "amp_circuit": null,
     "weight_kg": null,
     "special_features": null,
@@ -2642,7 +2642,7 @@
     "last_price_check": "2026-06",
     "collector_info": {
       "known_issues": null,
-      "collector_notes": "2nd-generation 907 D-series."
+      "collector_notes": "2nd-generation 907 D-series. | Penta-Power supply, identical to the AU-919 (this is its 100V JDM equivalent): four independent supply systems derived from two separate transformers (toroidal for driver/output with independent L/R windings; EI-core for the Class-A preamp/pre-driver), plus a dedicated stabilized section. Stage isolation, not channel isolation - NOT dual mono."
     },
     "restorer_info": {
       "known_failure_points": [
@@ -3256,7 +3256,7 @@
     "watts_per_channel": 130,
     "freq_response_hz": "10-20000",
     "thd_percent": 0.003,
-    "ps_type": "Dual Mono",
+    "ps_type": null,
     "amp_circuit": "DC integrated, super-feedforward (Diamond differential)",
     "weight_kg": 17.7,
     "special_features": null,
@@ -3940,7 +3940,7 @@
     "watts_per_channel": 130,
     "freq_response_hz": "DC-300000",
     "thd_percent": 0.003,
-    "ps_type": "Dual Mono",
+    "ps_type": null,
     "amp_circuit": "X-Balanced DC integrated (Super Feedforward)",
     "weight_kg": null,
     "special_features": null,
