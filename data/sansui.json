@@ -3403,7 +3403,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 2,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -3901,7 +3901,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 3,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -3941,7 +3941,7 @@
     "freq_response_hz": "DC-300000",
     "thd_percent": 0.003,
     "ps_type": null,
-    "amp_circuit": "X-Balanced DC integrated (Super Feedforward)",
+    "amp_circuit": "Super Feedforward DC integrated",
     "weight_kg": null,
     "special_features": null,
     "pros": null,
@@ -4001,7 +4001,7 @@
     "watts_per_channel": 90,
     "freq_response_hz": "1-300000",
     "thd_percent": 0.003,
-    "ps_type": null,
+    "ps_type": "X-Balanced (floating balanced supply)",
     "amp_circuit": "X-Balanced integrated amplifier",
     "weight_kg": 15,
     "special_features": null,
@@ -4024,7 +4024,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 3,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -4065,7 +4065,7 @@
     "watts_per_channel": 160,
     "freq_response_hz": "DC-300000",
     "thd_percent": 0.003,
-    "ps_type": "Dual Mono",
+    "ps_type": "X-Balanced (floating balanced supply)",
     "amp_circuit": "X-Balanced DC integrated, twin diamond differential",
     "weight_kg": 20.5,
     "special_features": null,
@@ -4076,7 +4076,7 @@
     "last_price_check": "2026-06",
     "collector_info": {
       "known_issues": null,
-      "collector_notes": null
+      "collector_notes": "X-Balanced supply (introduced 1984): the power supply is lifted off chassis ground and works as a closed +/- loop; one colossal centre toroidal (>10kg) with isolated windings splits into four independent rectify/filter sections driving both the + and - side of each channel. No chassis-ground return path, so ground-loop noise/ripple cannot reach the signal - a fundamentally different design from the AU-919/AU-D907 Penta-Power."
     },
     "restorer_info": {
       "known_failure_points": [
@@ -4088,7 +4088,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 3,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -4127,7 +4127,7 @@
     "watts_per_channel": 160,
     "freq_response_hz": "DC-300000",
     "thd_percent": 0.003,
-    "ps_type": null,
+    "ps_type": "X-Balanced (floating balanced supply)",
     "amp_circuit": "G-X Balanced integrated amplifier",
     "weight_kg": 17.3,
     "special_features": null,
@@ -4150,7 +4150,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 3,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -12325,7 +12325,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 2,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -12387,7 +12387,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 2,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -12449,7 +12449,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 2,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -12511,7 +12511,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 3,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -12573,7 +12573,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 3,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -12635,7 +12635,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 2,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -12758,7 +12758,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 2,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -12820,7 +12820,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 3,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -12882,7 +12882,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 3,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -12944,7 +12944,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 3,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -13067,7 +13067,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 2,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -13129,7 +13129,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 3,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -13252,7 +13252,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 3,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -13314,7 +13314,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 2,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -13376,7 +13376,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 3,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -13438,7 +13438,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 3,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -13500,7 +13500,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 3,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -13562,7 +13562,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 2,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -13624,7 +13624,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 3,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -13686,7 +13686,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 3,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -13748,7 +13748,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 3,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -13810,7 +13810,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 2,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -13872,7 +13872,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 3,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -13934,7 +13934,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 3,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -13996,7 +13996,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 2,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -14058,7 +14058,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 2,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -14120,7 +14120,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 3,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -14182,7 +14182,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 3,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -14244,7 +14244,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 3,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -14306,7 +14306,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 2,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -14368,7 +14368,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 3,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -14430,7 +14430,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 3,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -14554,7 +14554,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 2,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -14618,7 +14618,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 3,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -14680,7 +14680,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 3,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -14742,7 +14742,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 2,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -14804,7 +14804,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 3,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -15174,7 +15174,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 4,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -15533,7 +15533,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 3,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -16200,7 +16200,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 3,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Scratchy pots and switches",
