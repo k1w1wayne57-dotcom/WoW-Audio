@@ -3381,7 +3381,7 @@
     "freq_response_hz": "20-20000",
     "thd_percent": 0.004,
     "ps_type": null,
-    "amp_circuit": "X-Balanced integrated amplifier",
+    "amp_circuit": "Super Feedforward integrated amplifier",
     "weight_kg": null,
     "special_features": null,
     "pros": null,
@@ -3403,7 +3403,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 2,
-      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
+      "recap_notes": null,
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -14967,7 +14967,7 @@
     "watts_per_channel": 160,
     "freq_response_hz": "5-100000",
     "thd_percent": 0.003,
-    "ps_type": null,
+    "ps_type": "Penta-Power (dual transformer, stage-split)",
     "amp_circuit": "Super integrated amplifier (JDM flagship)",
     "weight_kg": null,
     "special_features": null,
@@ -14978,7 +14978,7 @@
     "last_price_check": "2026-06",
     "collector_info": {
       "known_issues": null,
-      "collector_notes": null
+      "collector_notes": "Stage-split supply like the AU-919/AU-D907: smaller EI-core transformer feeds the preamp/pre-driver, larger toroidal (independent L/R windings, 8 filter caps) feeds the power amps. Diamond-differential drive + Super Feedforward. Predates X-Balanced (1984)."
     },
     "restorer_info": {
       "known_failure_points": [
