@@ -31,6 +31,7 @@ project notes. Key points:
 - `avg_price_usd_1yr` — researched current single-year USD market estimate (low confidence, aggregate).
 - `price_thb_listings` — array of Wayne's own second-hand Thai market finds (each number is one listing, in Baht). Never averaged; the site shows every listing. Not auto-researched. Edit with `scripts/set_thb.py`.
 - `japan_price_kyen` — original Japan list price in thousands of yen, where known.
+- `ps_type` — power-supply topology, only when explicitly documented (never inferred from marketing copy). Values: `"Dual Mono"` = separate transformer per channel / documented dual-mono power-amp topology (e.g. AU-517/717/519/719, AU-D907/D907X); `"Dual Power Supply"` = independent rails/windings & rectifiers but not per-channel-isolated (e.g. the α907 ladder, the big G-series receivers). `null` = plain single supply or undocumented.
 - `collector_ranking` — Top 10 / Top 10-20 / Top 20-30 / Top 30-40 / Top 40-50 / Unranked.
 - `restorer_info.recap_difficulty` — 1 (beginner) to 5 (expert/dangerous).
 
