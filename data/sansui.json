@@ -16530,5 +16530,371 @@
     "price_thb_listings": [
       9000
     ]
+  },
+  {
+    "id": "sansui-au-d707x-1984",
+    "brand": "Sansui",
+    "jdm_model": "AU-D707X",
+    "int_model": null,
+    "type": "Integrated",
+    "series": "DC Era",
+    "year_start": 1984,
+    "year_end": 1986,
+    "japan_price_kyen": 129,
+    "watts_per_channel": 130,
+    "freq_response_hz": "DC-300000",
+    "thd_percent": 0.003,
+    "ps_type": "X-Balanced (floating balanced supply)",
+    "amp_circuit": "X-Balanced DC integrated, twin diamond differential",
+    "weight_kg": 17.5,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": null,
+    "price_thb_listings": [],
+    "price_confidence": "Low",
+    "last_price_check": null,
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [
+        "DC servo/offset circuit drifts with aging caps, risking speaker damage if unchecked",
+        "Protection relay contacts oxidize and cause dropouts",
+        "Electrolytic caps throughout the signal path dry out",
+        "IC-based stages can degrade and are harder to source replacements for"
+      ],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": 3,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
+      "estimated_recap_cost_usd": null,
+      "common_faults": [
+        "Protection relay trips on power-up",
+        "DC offset out of spec at speaker terminals",
+        "Channel imbalance after long storage"
+      ]
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null,
+      "sansui_us": null
+    },
+    "notes": null,
+    "verified": false,
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": "research"
+  },
+  {
+    "id": "sansui-au-d507x-1984",
+    "brand": "Sansui",
+    "jdm_model": "AU-D507X",
+    "int_model": null,
+    "type": "Integrated",
+    "series": "DC Era",
+    "year_start": 1984,
+    "year_end": 1986,
+    "japan_price_kyen": null,
+    "watts_per_channel": 80,
+    "freq_response_hz": "DC-300000",
+    "thd_percent": null,
+    "ps_type": "X-Balanced (floating balanced supply)",
+    "amp_circuit": "X-Balanced DC integrated (budget); 90W @ 6ohm",
+    "weight_kg": 9.8,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": null,
+    "price_thb_listings": [],
+    "price_confidence": "Low",
+    "last_price_check": null,
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [
+        "DC servo/offset circuit drifts with aging caps, risking speaker damage if unchecked",
+        "Protection relay contacts oxidize and cause dropouts",
+        "Electrolytic caps throughout the signal path dry out",
+        "IC-based stages can degrade and are harder to source replacements for"
+      ],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": 3,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
+      "estimated_recap_cost_usd": null,
+      "common_faults": [
+        "Protection relay trips on power-up",
+        "DC offset out of spec at speaker terminals",
+        "Channel imbalance after long storage"
+      ]
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null,
+      "sansui_us": null
+    },
+    "notes": null,
+    "verified": false,
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": "research"
+  },
+  {
+    "id": "sansui-au-d607f-1980",
+    "brand": "Sansui",
+    "jdm_model": "AU-D607F",
+    "int_model": null,
+    "type": "Integrated",
+    "series": "DC Era",
+    "year_start": 1980,
+    "year_end": 1981,
+    "japan_price_kyen": 76,
+    "watts_per_channel": 75,
+    "freq_response_hz": "DC-300000",
+    "thd_percent": 0.005,
+    "ps_type": null,
+    "amp_circuit": "Super Feedforward, diamond differential",
+    "weight_kg": 12.4,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": null,
+    "price_thb_listings": [],
+    "price_confidence": "Low",
+    "last_price_check": null,
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [
+        "DC servo/offset circuit drifts with aging caps, risking speaker damage if unchecked",
+        "Protection relay contacts oxidize and cause dropouts",
+        "Electrolytic caps throughout the signal path dry out",
+        "IC-based stages can degrade and are harder to source replacements for"
+      ],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": 3,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": [
+        "Protection relay trips on power-up",
+        "DC offset out of spec at speaker terminals",
+        "Channel imbalance after long storage"
+      ]
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null,
+      "sansui_us": null
+    },
+    "notes": null,
+    "verified": false,
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": "research"
+  },
+  {
+    "id": "sansui-au-d11-1982",
+    "brand": "Sansui",
+    "jdm_model": "AU-D11",
+    "int_model": null,
+    "type": "Integrated",
+    "series": "DC Era",
+    "year_start": 1982,
+    "year_end": 1983,
+    "japan_price_kyen": null,
+    "watts_per_channel": 120,
+    "freq_response_hz": "10-20000",
+    "thd_percent": 0.005,
+    "ps_type": null,
+    "amp_circuit": "Super Feedforward DC integrated (flagship)",
+    "weight_kg": 17.5,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": null,
+    "price_thb_listings": [],
+    "price_confidence": "Low",
+    "last_price_check": null,
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [
+        "DC servo/offset circuit drifts with aging caps, risking speaker damage if unchecked",
+        "Protection relay contacts oxidize and cause dropouts",
+        "Electrolytic caps throughout the signal path dry out",
+        "IC-based stages can degrade and are harder to source replacements for"
+      ],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": 3,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": [
+        "Protection relay trips on power-up",
+        "DC offset out of spec at speaker terminals",
+        "Channel imbalance after long storage"
+      ]
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null,
+      "sansui_us": null
+    },
+    "notes": null,
+    "verified": false,
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": "research"
+  },
+  {
+    "id": "sansui-b-2101-1985",
+    "brand": "Sansui",
+    "jdm_model": "B-2101",
+    "int_model": null,
+    "type": "Power Amp",
+    "series": "DC Era",
+    "year_start": 1985,
+    "year_end": 1988,
+    "japan_price_kyen": null,
+    "watts_per_channel": 200,
+    "freq_response_hz": "1-300000",
+    "thd_percent": 0.003,
+    "ps_type": null,
+    "amp_circuit": "Stereo power amplifier",
+    "weight_kg": 18,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": null,
+    "price_thb_listings": [],
+    "price_confidence": "Low",
+    "last_price_check": null,
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [
+        "DC servo/offset circuit drifts with aging caps, risking speaker damage if unchecked",
+        "Protection relay contacts oxidize and cause dropouts",
+        "Electrolytic caps throughout the signal path dry out",
+        "IC-based stages can degrade and are harder to source replacements for"
+      ],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": 3,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": [
+        "Protection relay trips on power-up",
+        "DC offset out of spec at speaker terminals",
+        "Channel imbalance after long storage"
+      ]
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null,
+      "sansui_us": null
+    },
+    "notes": null,
+    "verified": false,
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": "research"
+  },
+  {
+    "id": "sansui-c-2301-1985",
+    "brand": "Sansui",
+    "jdm_model": "C-2301",
+    "int_model": null,
+    "type": "Preamp",
+    "series": "DC Era",
+    "year_start": 1985,
+    "year_end": 1988,
+    "japan_price_kyen": 550,
+    "watts_per_channel": null,
+    "freq_response_hz": "DC-500000",
+    "thd_percent": null,
+    "ps_type": null,
+    "amp_circuit": "Stereo control preamplifier (flagship)",
+    "weight_kg": 21,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": null,
+    "price_thb_listings": [],
+    "price_confidence": "Low",
+    "last_price_check": null,
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": "Widely regarded as the best preamp Sansui ever made."
+    },
+    "restorer_info": {
+      "known_failure_points": [
+        "DC servo/offset circuit drifts with aging caps, risking speaker damage if unchecked",
+        "Protection relay contacts oxidize and cause dropouts",
+        "Electrolytic caps throughout the signal path dry out",
+        "IC-based stages can degrade and are harder to source replacements for"
+      ],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": 3,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": [
+        "Protection relay trips on power-up",
+        "DC offset out of spec at speaker terminals",
+        "Channel imbalance after long storage"
+      ]
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null,
+      "sansui_us": null
+    },
+    "notes": null,
+    "verified": false,
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": "research"
   }
 ]
