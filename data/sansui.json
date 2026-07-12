@@ -2507,7 +2507,7 @@
     "watts_per_channel": 110,
     "freq_response_hz": "20-20000",
     "thd_percent": 0.008,
-    "ps_type": "Dual Mono",
+    "ps_type": "Penta-Power (dual transformer, stage-split)",
     "amp_circuit": "DC integrated, dual-mono, super-feedforward",
     "weight_kg": 21.4,
     "special_features": null,
@@ -2518,7 +2518,7 @@
     "last_price_check": "2026-06",
     "collector_info": {
       "known_issues": null,
-      "collector_notes": null
+      "collector_notes": "Penta-Power supply: a large toroidal transformer (with independent L/R windings) feeds the high-current driver/output stages, while a separate EI-core transformer feeds the Class-A preamp and pre-driver stages. This isolates by operational stage (power vs. preamp), not by channel - so it is NOT a standard dual-mono design. Minimizes intermodulation distortion and maximizes channel separation."
     },
     "restorer_info": {
       "known_failure_points": [
