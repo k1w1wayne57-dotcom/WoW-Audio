@@ -12171,7 +12171,7 @@
   {
     "id": "sansui-au-dalpha607-2nd-gen-1978",
     "brand": "Sansui",
-    "jdm_model": "AU-Dalpha607",
+    "jdm_model": "AU-DAlpha-607",
     "int_model": null,
     "type": "Integrated",
     "series": "Silver Era",
@@ -12232,7 +12232,7 @@
   {
     "id": "sansui-au-dalpha907-limited-1979",
     "brand": "Sansui",
-    "jdm_model": "AU-Dalpha907 LIMITED",
+    "jdm_model": "AU-DAlpha-907 LIMITED",
     "int_model": null,
     "type": "Integrated",
     "series": "Silver Era",
@@ -12293,7 +12293,7 @@
   {
     "id": "sansui-au-alpha307-1986",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha307",
+    "jdm_model": "AU-Alpha-307",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -12355,7 +12355,7 @@
   {
     "id": "sansui-au-alpha507-1986",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha507",
+    "jdm_model": "AU-Alpha-507",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -12417,7 +12417,7 @@
   {
     "id": "sansui-au-alpha607-7th-gen-1986",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha607",
+    "jdm_model": "AU-Alpha-607",
     "int_model": "AU-X701",
     "type": "Integrated",
     "series": "Alpha Series",
@@ -12479,7 +12479,7 @@
   {
     "id": "sansui-au-alpha707-7th-gen-1986",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha707",
+    "jdm_model": "AU-Alpha-707",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -12541,7 +12541,7 @@
   {
     "id": "sansui-au-alpha907-1986",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha907",
+    "jdm_model": "AU-Alpha-907",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -12603,7 +12603,7 @@
   {
     "id": "sansui-au-alpha507i-1987",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha507i",
+    "jdm_model": "AU-Alpha-507i",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -12665,7 +12665,7 @@
   {
     "id": "sansui-au-alpha606i-1987",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha606i",
+    "jdm_model": "AU-Alpha-606i",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -12726,7 +12726,7 @@
   {
     "id": "sansui-au-alpha607i-1987",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha607i",
+    "jdm_model": "AU-Alpha-607i",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -12788,7 +12788,7 @@
   {
     "id": "sansui-au-alpha707i-1987",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha707i",
+    "jdm_model": "AU-Alpha-707i",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -12850,7 +12850,7 @@
   {
     "id": "sansui-au-alpha907i-1987",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha907i",
+    "jdm_model": "AU-Alpha-907i",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -12912,7 +12912,7 @@
   {
     "id": "sansui-au-alpha907i-mos-limited-1987",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha907i MOS LIMITED",
+    "jdm_model": "AU-Alpha-907i MOS LIMITED",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -12974,7 +12974,7 @@
   {
     "id": "sansui-au-alpha507extra-1988",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha507EXTRA",
+    "jdm_model": "AU-Alpha-507EXTRA",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -13035,7 +13035,7 @@
   {
     "id": "sansui-au-alpha607extra-1988",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha607EXTRA",
+    "jdm_model": "AU-Alpha-607EXTRA",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -13097,7 +13097,7 @@
   {
     "id": "sansui-au-alpha707extra-1988",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha707EXTRA",
+    "jdm_model": "AU-Alpha-707EXTRA",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -13159,7 +13159,7 @@
   {
     "id": "sansui-au-alpha907extra-1988",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha907EXTRA",
+    "jdm_model": "AU-Alpha-907EXTRA",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -13220,7 +13220,7 @@
   {
     "id": "sansui-au-alpha777dg-1988",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha777DG",
+    "jdm_model": "AU-Alpha-777DG",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -13282,7 +13282,7 @@
   {
     "id": "sansui-au-alpha607l-extra-1989",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha607L EXTRA",
+    "jdm_model": "AU-Alpha-607L EXTRA",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -13344,7 +13344,7 @@
   {
     "id": "sansui-au-alpha707l-extra-1989",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha707L EXTRA",
+    "jdm_model": "AU-Alpha-707L EXTRA",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -13406,7 +13406,7 @@
   {
     "id": "sansui-au-alpha907l-extra-1989",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha907L EXTRA",
+    "jdm_model": "AU-Alpha-907L EXTRA",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -13468,7 +13468,7 @@
   {
     "id": "sansui-au-alpha999dg-1989",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha999DG",
+    "jdm_model": "AU-Alpha-999DG",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -13530,7 +13530,7 @@
   {
     "id": "sansui-au-alpha607dr-1990",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha607DR",
+    "jdm_model": "AU-Alpha-607DR",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -13592,7 +13592,7 @@
   {
     "id": "sansui-au-alpha707dr-1990",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha707DR",
+    "jdm_model": "AU-Alpha-707DR",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -13654,7 +13654,7 @@
   {
     "id": "sansui-au-alpha907dr-1990",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha907DR",
+    "jdm_model": "AU-Alpha-907DR",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -13716,7 +13716,7 @@
   {
     "id": "sansui-au-alpha607-mos-premium-1991",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha607 MOS PREMIUM",
+    "jdm_model": "AU-Alpha-607 MOS PREMIUM",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -13778,7 +13778,7 @@
   {
     "id": "sansui-au-alpha607kx-1992",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha607KX",
+    "jdm_model": "AU-Alpha-607KX",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -13840,7 +13840,7 @@
   {
     "id": "sansui-au-alpha707kx-1992",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha707KX",
+    "jdm_model": "AU-Alpha-707KX",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -13902,7 +13902,7 @@
   {
     "id": "sansui-au-alpha907kx-1992",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha907KX",
+    "jdm_model": "AU-Alpha-907KX",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -13964,7 +13964,7 @@
   {
     "id": "sansui-au-alpha507xr-1993",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha507XR",
+    "jdm_model": "AU-Alpha-507XR",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -14026,7 +14026,7 @@
   {
     "id": "sansui-au-alpha607xr-1993",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha607XR",
+    "jdm_model": "AU-Alpha-607XR",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -14088,7 +14088,7 @@
   {
     "id": "sansui-au-alpha707xr-1993",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha707XR",
+    "jdm_model": "AU-Alpha-707XR",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -14150,7 +14150,7 @@
   {
     "id": "sansui-au-alpha907xr-1993",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha907XR",
+    "jdm_model": "AU-Alpha-907XR",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -14212,7 +14212,7 @@
   {
     "id": "sansui-au-alpha907-limited-1994",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha907 LIMITED",
+    "jdm_model": "AU-Alpha-907 LIMITED",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -14274,7 +14274,7 @@
   {
     "id": "sansui-au-alpha607mr-1995",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha607MR",
+    "jdm_model": "AU-Alpha-607MR",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -14336,7 +14336,7 @@
   {
     "id": "sansui-au-alpha707mr-1995",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha707MR",
+    "jdm_model": "AU-Alpha-707MR",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -14398,7 +14398,7 @@
   {
     "id": "sansui-au-alpha907mr-1995",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha907MR",
+    "jdm_model": "AU-Alpha-907MR",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -14522,7 +14522,7 @@
   {
     "id": "sansui-au-alpha607nra-1997",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha607NRA",
+    "jdm_model": "AU-Alpha-607NRA",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -14586,7 +14586,7 @@
   {
     "id": "sansui-au-alpha707nra-1997",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha707NRA",
+    "jdm_model": "AU-Alpha-707NRA",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -14648,7 +14648,7 @@
   {
     "id": "sansui-au-alpha907nra-1997",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha907NRA",
+    "jdm_model": "AU-Alpha-907NRA",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -14710,7 +14710,7 @@
   {
     "id": "sansui-au-alpha607nra-ii-1999",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha607NRA II",
+    "jdm_model": "AU-Alpha-607NRA II",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -14772,7 +14772,7 @@
   {
     "id": "sansui-au-alpha607-mos-limited-1999",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha607 MOS LIMITED",
+    "jdm_model": "AU-Alpha-607 MOS LIMITED",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -16108,7 +16108,7 @@
   {
     "id": "sansui-au-alpha317x",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha317K",
+    "jdm_model": "AU-Alpha-317K",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
@@ -16169,7 +16169,7 @@
   {
     "id": "sansui-au-alpha555vs",
     "brand": "Sansui",
-    "jdm_model": "AU-alpha555VS",
+    "jdm_model": "AU-Alpha-555VS",
     "int_model": null,
     "type": "Integrated",
     "series": "Alpha Series",
