@@ -263,8 +263,9 @@ tbody td {
   vertical-align: middle;
 }
 
-.model-cell .model-jdm { font-weight: 600; color: var(--text); }
-.model-cell .model-int { display: block; font-size: 0.75rem; color: var(--text-secondary); }
+.model-cell { min-width: 180px; white-space: nowrap; }
+.model-cell .model-jdm { font-weight: 600; color: var(--text); font-size: 0.98rem; white-space: nowrap; }
+.model-cell .model-int { display: block; font-size: 0.75rem; color: var(--text-secondary); white-space: nowrap; }
 
 .rank-badge {
   display: inline-block;
