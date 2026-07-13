@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SANSUI AU-607 — Brochure</title>
+<style>
+
+  :root{
+    --ink:        #1C1A17;
+    --ink-2:      #262320;
+    --paper:      #ECE7DB;
+    --cream:      #F6F2E7;
+    --walnut:     #6B3F26;
+    --walnut-dk:  #45281A;
+    --amber:      #E2A13A;
+    --amber-dim:  #B9832F;
+    --steel:      #8D897E;
+    --steel-lt:   #B9B5A9;
+    --line-on-dark: rgba(236,231,219,0.16);
+  }
+
+  @font-face{ font-family:'AU607 Display'; src:url('fonts/texgyreheroscn-regular.otf') format('opentype'); font-weight:400; font-style:normal; }
+  @font-face{ font-family:'AU607 Display'; src:url('fonts/texgyreheroscn-bold.otf') format('opentype'); font-weight:700; font-style:normal; }
+  @font-face{ font-family:'AU607 Body'; src:url('fonts/Lora-Regular-static.ttf') format('truetype'); font-weight:400; font-style:normal; }
+  @font-face{ font-family:'AU607 Body'; src:url('fonts/Lora-Medium-static.ttf') format('truetype'); font-weight:500; font-style:normal; }
+  @font-face{ font-family:'AU607 Body'; src:url('fonts/Lora-Bold-static.ttf') format('truetype'); font-weight:700; font-style:normal; }
+  @font-face{ font-family:'AU607 Body'; src:url('fonts/Lora-Italic-static.ttf') format('truetype'); font-weight:400; font-style:italic; }
+  @font-face{ font-family:'AU607 Body'; src:url('fonts/Lora-MediumItalic-static.ttf') format('truetype'); font-weight:500; font-style:italic; }
+  @font-face{ font-family:'AU607 Mono'; src:url('fonts/IBMPlexMono-Regular.ttf') format('truetype'); font-weight:400; font-style:normal; }
+  @font-face{ font-family:'AU607 Mono'; src:url('fonts/IBMPlexMono-Medium.ttf') format('truetype'); font-weight:500; font-style:normal; }
+  @font-face{ font-family:'AU607 Mono'; src:url('fonts/IBMPlexMono-SemiBold.ttf') format('truetype'); font-weight:600; font-style:normal; }
+  @font-face{ font-family:'AU607 Accent'; src:url('fonts/Michroma-Regular.ttf') format('truetype'); font-weight:400; font-style:normal; }
+
+  *{ box-sizing:border-box; margin:0; padding:0; }
+
+  html,body{
+    background:#3a372f;
+  }
+
+  body{
+    font-family:'AU607 Body', Georgia, serif;
+    color:var(--ink);
+  }
+
+  .dial{ display:inline-block; vertical-align:-3px; flex:none; }
+
+  /* ============ PAGE / SHEET FRAME ============ */
+  .sheet{
+    width:210mm;
+    height:297mm;
+    position:relative;
+    overflow:hidden;
+    page-break-after:always;
+    margin:0 auto 6mm auto;
+    background:var(--paper);
+  }
+  .sheet:last-child{ page-break-after:auto; }
+
+  .sheet .content{
+    position:relative;
+    z-index:2;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+  }
+
+  /* brushed-aluminum texture for dark panels */
+  .dark{
+    background:
+      repeating-linear-gradient(180deg,
+        rgba(255,255,255,0.020) 0px,
+        rgba(255,255,255,0.020) 1px,
+        rgba(0,0,0,0) 1px,
+        rgba(0,0,0,0) 3px),
+      radial-gradient(ellipse at 30% 0%, #2b2823 0%, var(--ink) 55%, #131210 100%);
+    color:var(--cream);
+  }
+
+  .eyebrow{
+    font-family:'AU607 Accent', sans-serif;
+    font-size:8.4pt;
+    letter-spacing:0.22em;
+    text-transform:uppercase;
+    color:var(--amber);
+  }
+
+  .rule{
+    height:1px;
+    background:var(--walnut);
+    opacity:0.55;
+    width:100%;
+  }
+  .dark .rule{ background:var(--amber-dim); opacity:0.4; }
+
+  /* ============ PHOTO FRAMES (actual images) ============ */
+  .photo-frame{
+    position:relative;
+    overflow:hidden;
+    border-radius:1px;
+    border:1px solid rgba(226,161,58,0.55);
+  }
+  .photo-frame img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+  }
+  .photo-frame .cap{
+    position:absolute;
+    left:0; right:0; bottom:0;
+    padding:2mm 3.5mm;
+    background:linear-gradient(0deg, rgba(0,0,0,0.62) 0%, rgba(0,0,0,0) 100%);
+    font-family:'AU607 Mono', monospace;
+    font-size:7pt;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+    color:#F6F2E7;
+  }
+
+  /* ============ PHOTO SLOTS ============ */
+  .photo-slot{
+    border:1.4px dashed var(--amber-dim);
+    background:repeating-linear-gradient(135deg, rgba(107,63,38,0.05) 0px, rgba(107,63,38,0.05) 6px, transparent 6px, transparent 12px);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:6px;
+    color:var(--steel);
+    text-align:center;
+    border-radius:2px;
+  }
+  .dark .photo-slot{
+    border-color:rgba(226,161,58,0.55);
+    background:repeating-linear-gradient(135deg, rgba(236,231,219,0.035) 0px, rgba(236,231,219,0.035) 6px, transparent 6px, transparent 12px);
+    color:var(--steel-lt);
+  }
+  .photo-slot .ph-label{
+    font-family:'AU607 Mono', monospace;
+    font-size:8pt;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+  }
+  .photo-slot .ph-sub{
+    font-family:'AU607 Mono', monospace;
+    font-size:7pt;
+    color:var(--steel);
+    opacity:0.8;
+  }
+  .dark .photo-slot .ph-sub{ color:var(--steel-lt); opacity:0.7; }
+
+  /* ============ FRONT COVER ============ */
+  .front .content{ padding:16mm 15mm 12mm 15mm; }
+
+  .front-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+  }
+  .front-top .mark{
+    font-family:'AU607 Display', sans-serif;
+    font-weight:700;
+    font-size:11pt;
+    letter-spacing:0.14em;
+    color:var(--cream);
+  }
+
+  .front-photo{
+    margin-top:8mm;
+    width:100%;
+    height:63mm;
+    flex:none;
+  }
+
+  .front-title{
+    margin-top:14mm;
+    text-align:left;
+  }
+  .front-title .model{
+    font-family:'AU607 Display', sans-serif;
+    font-weight:700;
+    font-size:100pt;
+    line-height:0.86;
+    letter-spacing:0.01em;
+    color:var(--cream);
+  }
+  .front-title .kind{
+    margin-top:4mm;
+    font-family:'AU607 Body';
+    font-style:italic;
+    font-weight:500;
+    font-size:16pt;
+    color:var(--amber);
+  }
+
+  .front-tagline{
+    margin-top:11mm;
+    max-width:130mm;
+    font-family:'AU607 Body';
+    font-style:italic;
+    font-size:13.5pt;
+    line-height:1.5;
+    color:var(--cream);
+    opacity:0.92;
+    border-left:2px solid var(--amber-dim);
+    padding-left:5mm;
+  }
+
+  .front-bottom{
+    margin-top:auto;
+    padding-top:7mm;
+  }
+  .front-meta{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    font-family:'AU607 Mono';
+    font-size:9pt;
+    letter-spacing:0.06em;
+    color:var(--steel-lt);
+    margin-top:4mm;
+  }
+  .front-meta b{ color:var(--amber); font-weight:600; }
+
+  /* ============ INSIDE SPREAD ============ */
+  .inside .content{ padding:15mm 15mm 12mm 15mm; }
+
+  .inside-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+  }
+  .inside-header h1{
+    font-family:'AU607 Display', sans-serif;
+    font-weight:700;
+    font-size:25pt;
+    letter-spacing:0.005em;
+    color:var(--walnut-dk);
+    line-height:1.05;
+    max-width:120mm;
+  }
+  .running-head{
+    font-family:'AU607 Mono';
+    font-size:7.6pt;
+    letter-spacing:0.08em;
+    color:var(--steel);
+    text-transform:uppercase;
+    text-align:right;
+  }
+
+  .lede{
+    margin-top:6mm;
+    font-size:12pt;
+    line-height:1.55;
+    max-width:150mm;
+    color:var(--ink-2);
+  }
+  .lede .drop{
+    font-family:'AU607 Display', sans-serif;
+    font-weight:700;
+    font-size:1.9em;
+    color:var(--walnut);
+    line-height:0;
+    padding-right:1px;
+  }
+
+  .section{ margin-top:7mm; }
+  .section h2{
+    display:flex;
+    align-items:center;
+    gap:2.4mm;
+    font-family:'AU607 Display', sans-serif;
+    font-weight:700;
+    font-size:11.5pt;
+    letter-spacing:0.03em;
+    text-transform:uppercase;
+    color:var(--walnut-dk);
+  }
+  .section h2 .dial{ color:var(--amber-dim); }
+  .section p{
+    margin-top:2.6mm;
+    font-size:9.6pt;
+    line-height:1.52;
+    color:#2c2924;
+  }
+
+  .stat-strip{
+    margin-top:6mm;
+    border-top:1px solid var(--walnut);
+    border-bottom:1px solid var(--walnut);
+    padding:4.5mm 0;
+    display:flex;
+    justify-content:space-between;
+    gap:4mm;
+  }
+  .stat{ text-align:left; }
+  .stat .num{
+    font-family:'AU607 Mono';
+    font-weight:600;
+    font-size:17pt;
+    color:var(--walnut-dk);
+    letter-spacing:-0.01em;
+  }
+  .stat .lbl{
+    margin-top:1mm;
+    font-family:'AU607 Mono';
+    font-size:7pt;
+    letter-spacing:0.04em;
+    text-transform:uppercase;
+    color:var(--steel);
+  }
+
+  .cols{
+    display:flex;
+    gap:9mm;
+    margin-top:2mm;
+    align-items:flex-start;
+  }
+  .col{ flex:1 1 0; min-width:0; }
+
+  .side-photo{ margin-top:7mm; height:64mm; }
+
+  .pull{
+    margin-top:6mm;
+    font-family:'AU607 Body';
+    font-style:italic;
+    font-size:11pt;
+    line-height:1.48;
+    color:var(--walnut-dk);
+    padding-left:4mm;
+    border-left:2px solid var(--amber-dim);
+  }
+
+  .inside-footer{
+    margin-top:auto;
+    padding-top:5mm;
+  }
+  .inside-footer .rule{ margin-bottom:2.6mm; }
+  .foot-row{
+    display:flex;
+    justify-content:space-between;
+    font-family:'AU607 Mono';
+    font-size:7.4pt;
+    letter-spacing:0.05em;
+    color:var(--steel);
+    text-transform:uppercase;
+  }
+
+  /* ============ BACK COVER / SPECS ============ */
+  .back .content{ padding:15mm 15mm 12mm 15mm; }
+
+  .back-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+  }
+  .back-header h1{
+    font-family:'AU607 Display', sans-serif;
+    font-weight:700;
+    font-size:24pt;
+    letter-spacing:0.01em;
+    color:var(--cream);
+  }
+  .back-header .eyebrow{ display:block; margin-bottom:1.5mm; }
+
+  .back-photo{
+    margin-top:6mm;
+    width:100%;
+    height:63mm;
+  }
+
+  .spec-grid{
+    margin-top:7mm;
+    display:flex;
+    gap:9mm;
+  }
+  .spec-col{ flex:1 1 0; min-width:0; }
+
+  .spec-block + .spec-block{ margin-top:6mm; }
+  .spec-block h3{
+    font-family:'AU607 Display', sans-serif;
+    font-weight:700;
+    font-size:9.6pt;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:var(--amber);
+    padding-bottom:1.6mm;
+    border-bottom:1px solid rgba(226,161,58,0.35);
+  }
+
+  .spec-row{
+    display:flex;
+    justify-content:space-between;
+    gap:4mm;
+    padding:1.7mm 0;
+    border-bottom:1px solid var(--line-on-dark);
+    font-size:8.1pt;
+    line-height:1.35;
+  }
+  .spec-row:last-child{ border-bottom:none; }
+  .spec-row .k{
+    font-family:'AU607 Body';
+    color:var(--steel-lt);
+    flex:0 0 40%;
+  }
+  .spec-row .v{
+    font-family:'AU607 Mono';
+    color:var(--cream);
+    text-align:right;
+    flex:1 1 auto;
+  }
+
+  .back-bottom{
+    margin-top:auto;
+    padding-top:6mm;
+  }
+  .option-note{
+    font-family:'AU607 Body';
+    font-style:italic;
+    font-size:9pt;
+    color:var(--steel-lt);
+  }
+  .brand-bar{
+    margin-top:5mm;
+    padding-top:4mm;
+    border-top:1px solid rgba(226,161,58,0.3);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+  }
+  .brand-bar .name{
+    font-family:'AU607 Display', sans-serif;
+    font-weight:700;
+    font-size:10.5pt;
+    letter-spacing:0.16em;
+    color:var(--cream);
+  }
+  .brand-bar .tag{
+    font-family:'AU607 Mono';
+    font-size:7.4pt;
+    letter-spacing:0.05em;
+    color:var(--steel-lt);
+    text-transform:uppercase;
+  }
+
+  /* schematic motif */
+  .schematic{ position:absolute; opacity:0.5; z-index:1; }
+  .front .schematic{ right:-8mm; bottom:20mm; width:150mm; opacity:0.14; }
+  .back .schematic{ left:-14mm; bottom:-10mm; width:120mm; opacity:0.12; }
+
+  @media print{
+    html,body{ background:none; }
+    .sheet{ margin:0; box-shadow:none; }
+  }
+  @page{ size:A4; margin:0; }
+</style>
+</head>
+<body>
+
+<!-- ============ FRONT COVER ============ -->
+<section class="sheet front dark">
+  <svg class="schematic" viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#E2A13A" stroke-width="1.1">
+    <line x1="0" y1="110" x2="400" y2="110"/>
+    <circle cx="60" cy="110" r="34"/>
+    <line x1="60" y1="110" x2="60" y2="80" />
+    <circle cx="60" cy="110" r="3" fill="#E2A13A" stroke="none"/>
+    <circle cx="170" cy="110" r="34"/>
+    <line x1="170" y1="110" x2="192" y2="90"/>
+    <circle cx="170" cy="110" r="3" fill="#E2A13A" stroke="none"/>
+    <rect x="255" y="92" width="26" height="36" rx="13"/>
+    <circle cx="268" cy="104" r="6"/>
+    <rect x="300" y="92" width="26" height="36" rx="13"/>
+    <circle cx="313" cy="116" r="6"/>
+    <path d="M 350 130 A 40 40 0 0 1 400 100"/>
+    <line x1="350" y1="130" x2="365" y2="112"/>
+  </svg>
+
+  <div class="content">
+    <div class="front-top">
+      <span class="eyebrow">Sansui &nbsp;·&nbsp; Hi-Fi Stereo</span>
+      <span class="mark">SANSUI</span>
+    </div>
+
+    <div class="front-photo photo-frame">
+      <img src="img/front_crop.jpg" alt="Sansui AU-607 front panel">
+      <span class="cap">AU&#8209;607 &nbsp;·&nbsp; Front panel, as restored</span>
+    </div>
+
+    <div class="front-title">
+      <div class="model">AU&#8209;607</div>
+      <div class="kind">DC Pre&#8209;Main Amplifier</div>
+    </div>
+
+    <div class="front-tagline">
+      Every correction feedback would have to make —<br>
+      made unnecessary first.
+    </div>
+
+    <div class="front-bottom">
+      <div class="rule"></div>
+      <div class="front-meta">
+        <span><b>¥69,800</b> &nbsp;·&nbsp; 1976</span>
+        <span>65W + 65W &nbsp;·&nbsp; 8&#937;</span>
+        <span>Made in Japan</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ INSIDE — LEFT ============ -->
+<section class="sheet inside">
+  <div class="content">
+    <div class="inside-header">
+      <h1>A New Sound,<br>From First Principles</h1>
+      <div class="running-head">AU&#8209;607<br>The Story</div>
+    </div>
+    <div class="rule" style="margin-top:4mm;"></div>
+
+    <p class="lede">Push a fast, dense music signal through most amplifiers and the spec sheet still looks fine — until you actually listen. The AU-607 starts from a different question: what if the circuit didn't need heavy correction in the first place?</p>
+
+    <div class="section">
+      <h2><svg class="dial" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="8"/><line x1="12" y1="12" x2="12" y2="5.5"/><line x1="19" y1="12" x2="20.3" y2="12"/><line x1="5" y1="12" x2="3.7" y2="12"/></svg>Where distortion actually comes from</h2>
+      <p>Conventional designs lean on large open-loop gain and heavy negative feedback (NF) to keep distortion in check. The trouble is timing: any delay in the circuit means the feedback signal arrives an instant late, and for that instant the correction loop loses its grip. An overload hits the summing junction, and transient intermodulation distortion (TIM) appears — smearing resolution exactly when the music is at its most demanding. It's a large part of why wide-range playback proved so difficult for earlier amplifiers.</p>
+    </div>
+
+    <div class="section">
+      <h2><svg class="dial" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="8"/><line x1="12" y1="12" x2="12" y2="5.5"/><line x1="19" y1="12" x2="20.3" y2="12"/><line x1="5" y1="12" x2="3.7" y2="12"/></svg>Correct the circuit, not just the output</h2>
+      <p>Sansui's engineers began with the AU-607's <i>bare</i> characteristics — how the circuit behaves before any feedback is applied — and worked outward: wider frequency response, tighter phase behaviour, lower distortion at the source. A dedicated phase-correction network, tuned to a precise stagger ratio between phase advance and phase delay, holds phase accuracy to several tens of megahertz. Because the raw circuit already behaves, only the minimum necessary feedback is needed — and TIM distortion falls accordingly, extending clean response into both the extreme low and extreme high frequencies.</p>
+    </div>
+
+    <div class="stat-strip">
+      <div class="stat"><div class="num">65W+65W</div><div class="lbl">Continuous output, both ch.</div></div>
+      <div class="stat"><div class="num">0.03%</div><div class="lbl">THD, 20Hz–20kHz</div></div>
+      <div class="stat"><div class="num">115dB</div><div class="lbl">Signal-to-noise ratio</div></div>
+      <div class="stat"><div class="num">±0.2dB</div><div class="lbl">RIAA accuracy</div></div>
+    </div>
+
+    <div class="pull">"With the circuit already well-behaved, the feedback loop is asked to do far less — and far less can go wrong."</div>
+
+    <div class="inside-footer">
+      <div class="rule"></div>
+      <div class="foot-row"><span>Sansui AU&#8209;607</span><span>02</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ INSIDE — RIGHT ============ -->
+<section class="sheet inside">
+  <div class="content">
+    <div class="inside-header">
+      <h1 style="font-size:16pt;">Inside the Circuit</h1>
+      <div class="running-head">AU&#8209;607<br>The Story, Continued</div>
+    </div>
+    <div class="rule" style="margin-top:4mm;"></div>
+
+    <div class="cols">
+      <div class="col">
+        <div class="section" style="margin-top:5mm;">
+          <h2><svg class="dial" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="8"/><line x1="12" y1="12" x2="12" y2="5.5"/><line x1="19" y1="12" x2="20.3" y2="12"/><line x1="5" y1="12" x2="3.7" y2="12"/></svg>The power amplifier</h2>
+          <p>The output stage runs as a true DC amplifier. A newly developed dual FET, matched for identical characteristics, leads the first stage — handling roughly four times the current of a conventional FET. That headroom lifts slew rate and stops TIM distortion from forming at the summing point. The second stage is a differential, two-stage design built around low-noise transistors, a current-mirror circuit, and a cascode connection; current-differential operation from its single-ended output feeds a push-pull pre-drive stage, cancelling second-harmonic distortion and staying stable against temperature and supply fluctuation. Its transistors were selected for particularly low output conductance, with series emitter resistors added to protect linearity. The output stage itself uses a three-stage Darlington configuration for low output impedance and low distortion, with output transistors chosen for clean high-frequency and pulse response. DC drift — usually the tradeoff of going DC-coupled — is controlled through tightly regulated supply rails and a carefully matched summing point, so the AU-607 gets the benefits of DC coupling without the usual instability.</p>
+        </div>
+
+        <div class="section">
+          <h2><svg class="dial" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="8"/><line x1="12" y1="12" x2="12" y2="5.5"/><line x1="19" y1="12" x2="20.3" y2="12"/><line x1="5" y1="12" x2="3.7" y2="12"/></svg>Phono equalizer &amp; tone</h2>
+          <p>The equalizer stage uses eight transistors — a differential first stage with its own current source, a class-A buffer stage, and a pure-complementary SEPP output — with low-noise transistors specifically selected for the differential input. A current-source circuit lifts CMRR at the summing point, tightening dynamic performance across a wide band (10Hz–100kHz). High-precision metal-film resistors and low-tolerance capacitors hold RIAA accuracy to within ±0.2dB, backed by regulated high-voltage supply rails for dynamic margin. The tone section uses click-detented controls for a tactile, repeatable feel, plus a tone-defeat switch that removes the tone circuit entirely for a flat, unaltered signal path. A built-in subsonic filter clears unwanted ultra-low-frequency noise before it reaches the power amp.</p>
+        </div>
+      </div>
+
+      <div class="col" style="max-width:60mm;">
+        <div class="side-photo photo-frame">
+          <img src="img/inside.jpg" alt="Sansui AU-607 chassis interior — dual transformers and power supply capacitors">
+          <span class="cap">Twin transformers &amp; 12,000&#956;F&#215;4 supply</span>
+        </div>
+
+        <div class="section" style="margin-top:6mm;">
+          <h2 style="font-size:10pt;"><svg class="dial" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="8"/><line x1="12" y1="12" x2="12" y2="5.5"/><line x1="19" y1="12" x2="20.3" y2="12"/><line x1="5" y1="12" x2="3.7" y2="12"/></svg>Power &amp; protection</h2>
+          <p style="font-size:9.1pt;">Two separate transformers keep left and right channels fully independent, preventing crosstalk and improving regulation. Reservoir capacitance is generous — 12,000μF × 4 — and metallized-film capacitors paired with regulated supply circuits keep internal impedance low, where much of a sound's articulation and body are won or lost. An ASO current limiter and a DC-fault detector on the output terminals protect the amplifier without getting in the way.</p>
+        </div>
+
+        <div class="section">
+          <h2 style="font-size:10pt;"><svg class="dial" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="8"/><line x1="12" y1="12" x2="12" y2="5.5"/><line x1="19" y1="12" x2="20.3" y2="12"/><line x1="5" y1="12" x2="3.7" y2="12"/></svg>Built to live with</h2>
+          <p style="font-size:9.1pt;">Volume is a 32-step detented control using a two-row design that minimises left/right tracking error. The preamp and DC power amp sections separate cleanly — the power amp works on its own, with a choice of DC or AC input — and two tape decks can run independently, so an air-check and a tape-to-tape copy can happen at the same time. Round it out with a loudness contour, centre-detented balance, a headphone jack, a chassis earth terminal, and spare AC outlets. A rack-mount adapter (BX-7) was available separately.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="inside-footer">
+      <div class="rule"></div>
+      <div class="foot-row"><span>Sansui AU&#8209;607</span><span>03</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BACK COVER ============ -->
+<section class="sheet back dark">
+  <svg class="schematic" viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#E2A13A" stroke-width="1.1">
+    <line x1="0" y1="110" x2="400" y2="110"/>
+    <circle cx="60" cy="110" r="34"/>
+    <line x1="60" y1="110" x2="60" y2="80" />
+    <circle cx="170" cy="110" r="34"/>
+    <line x1="170" y1="110" x2="192" y2="90"/>
+    <rect x="255" y="92" width="26" height="36" rx="13"/>
+    <circle cx="268" cy="104" r="6"/>
+  </svg>
+
+  <div class="content">
+    <div class="back-header">
+      <div>
+        <span class="eyebrow">Model Rating</span>
+        <h1>Specifications</h1>
+      </div>
+    </div>
+
+    <div class="back-photo photo-frame">
+      <img src="img/back_crop.jpg" alt="Sansui AU-607 rear panel connections">
+      <span class="cap">Rear panel &nbsp;·&nbsp; Inputs, tape loops &amp; speaker terminals</span>
+    </div>
+
+    <div class="spec-grid">
+      <div class="spec-col">
+        <div class="spec-block">
+          <h3>Power Amplifier</h3>
+          <div class="spec-row"><span class="k">Type</span><span class="v">DC pre-main amplifier</span></div>
+          <div class="spec-row"><span class="k">Effective output, both ch.</span><span class="v">65W+65W (8&#937;, 20Hz–20kHz, 0.03% THD)</span></div>
+          <div class="spec-row"><span class="k">&nbsp;</span><span class="v">65W+65W (8&#937;, 1kHz, 0.003% THD)</span></div>
+          <div class="spec-row"><span class="k">Total harmonic distortion</span><span class="v">≤0.03% (20Hz–20kHz, eff. output)</span></div>
+          <div class="spec-row"><span class="k">IM distortion (70Hz:7kHz=4:1)</span><span class="v">≤0.03%</span></div>
+          <div class="spec-row"><span class="k">Output bandwidth (IHF, 0.03%)</span><span class="v">5Hz–50kHz (8&#937;)</span></div>
+          <div class="spec-row"><span class="k">Damping factor (IHF, 1kHz)</span><span class="v">60 (8&#937;)</span></div>
+          <div class="spec-row"><span class="k">Frequency response (1W)</span><span class="v">DC–200kHz, +0/-3dB</span></div>
+          <div class="spec-row"><span class="k">Input sensitivity / impedance</span><span class="v">1V / 47k&#937; (1kHz)</span></div>
+          <div class="spec-row"><span class="k">S/N ratio (IHF, A-network)</span><span class="v">≥115dB</span></div>
+          <div class="spec-row"><span class="k">Channel separation (1kHz)</span><span class="v">≥75dB</span></div>
+        </div>
+
+        <div class="spec-block">
+          <h3>General</h3>
+          <div class="spec-row"><span class="k">AC outlets</span><span class="v">1 switched (100W) · 2 unswitched (250W)</span></div>
+          <div class="spec-row"><span class="k">Power consumption</span><span class="v">185W</span></div>
+          <div class="spec-row"><span class="k">Dimensions (W×H×D)</span><span class="v">430×168×389mm</span></div>
+          <div class="spec-row"><span class="k">&nbsp;with rack adapter</span><span class="v">482×168×418mm</span></div>
+          <div class="spec-row"><span class="k">Weight</span><span class="v">15.3kg</span></div>
+          <div class="spec-row"><span class="k">Price (1976)</span><span class="v">¥69,800</span></div>
+        </div>
+      </div>
+
+      <div class="spec-col">
+        <div class="spec-block">
+          <h3>Preamplifier</h3>
+          <div class="spec-row"><span class="k">Input sens. / impedance</span><span class="v">Phono 1,2: 2.5mV/47k&#937;</span></div>
+          <div class="spec-row"><span class="k">&nbsp;</span><span class="v">Aux/Tuner/Tape 1,2: 150mV/47k&#937;</span></div>
+          <div class="spec-row"><span class="k">Phono max. input (0.01% THD)</span><span class="v">300mV</span></div>
+          <div class="spec-row"><span class="k">Output level</span><span class="v">Tape rec 1,2: 150mV/47k&#937;</span></div>
+          <div class="spec-row"><span class="k">&nbsp;</span><span class="v">Pre out: 1V/47k&#937; · Max: 10V/47k&#937;</span></div>
+          <div class="spec-row"><span class="k">THD (20Hz–20kHz)</span><span class="v">≤0.01% (1V) · ≤0.1% (10V)</span></div>
+          <div class="spec-row"><span class="k">Frequency response</span><span class="v">5Hz–50kHz, +0/-1dB</span></div>
+          <div class="spec-row"><span class="k">RIAA deviation</span><span class="v">±0.2dB (20Hz–20kHz)</span></div>
+          <div class="spec-row"><span class="k">S/N ratio</span><span class="v">Phono ≥77dB · Line ≥100dB</span></div>
+          <div class="spec-row"><span class="k">Channel separation (1kHz)</span><span class="v">Phono ≥60dB · Line ≥65dB</span></div>
+          <div class="spec-row"><span class="k">Tone control</span><span class="v">Bass ±10dB (50Hz) · Treble ±10dB (15kHz)</span></div>
+          <div class="spec-row"><span class="k">Subsonic filter</span><span class="v">16Hz, -3dB, 6dB/oct.</span></div>
+          <div class="spec-row"><span class="k">Loudness (vol. -30dB)</span><span class="v">+10dB (50Hz) · +7dB (10kHz)</span></div>
+          <div class="spec-row"><span class="k">Volume control</span><span class="v">32-step, 2-row detent</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="back-bottom">
+      <p class="option-note">Optional: Rack Mount Adapter BX-7 — ¥3,000, sold separately.</p>
+      <div class="brand-bar">
+        <span class="name">SANSUI</span>
+        <span class="tag">AU&#8209;607 &nbsp;·&nbsp; DC Pre-Main Amplifier &nbsp;·&nbsp; 1976</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>

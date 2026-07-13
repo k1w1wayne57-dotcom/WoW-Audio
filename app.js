@@ -246,6 +246,7 @@ function render() {
       <td>${item.best_buy && item.best_buy.rating ? `<span class="bestbuy-star">${"⭐".repeat(item.best_buy.rating)}</span>` : "—"}</td>
       <td class="price-cell ${priceClass(item.avg_price_usd_3mo)}">${formatPrice(item)}</td>
       <td class="links-cell">
+        ${item.links && item.links.brochure ? `<a class="link-icon" href="${item.links.brochure}" target="_blank" rel="noopener" title="Brochure" onclick="event.stopPropagation()">📖</a>` : ""}
         ${item.links && item.links.audio_database ? `<a class="link-icon" href="${item.links.audio_database}" target="_blank" rel="noopener" title="Audio Database" onclick="event.stopPropagation()">📄</a>` : ""}
       </td>
     `;
@@ -341,6 +342,7 @@ function openModal(item) {
     <div class="modal-section">
       <h3>Links</h3>
       <div class="modal-links">
+        ${item.links && item.links.brochure ? `<a href="${item.links.brochure}" target="_blank" rel="noopener">📖 Brochure</a>` : ""}
         ${item.links && item.links.audio_database ? `<a href="${item.links.audio_database}" target="_blank" rel="noopener">📄 Audio Database</a>` : ""}
         ${item.links && item.links.hifi_engine ? `<a href="${item.links.hifi_engine}" target="_blank" rel="noopener">📋 HiFi Engine</a>` : ""}
         ${item.links && item.links.sansui_us ? `<a href="${item.links.sansui_us}" target="_blank" rel="noopener">🌐 Sansui.us</a>` : ""}
