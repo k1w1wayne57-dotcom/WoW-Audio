@@ -2574,15 +2574,15 @@
     "int_model": "AU-819",
     "type": "Integrated",
     "series": "Silver Era",
-    "year_start": 1978,
+    "year_start": 1979,
     "year_end": 1981,
-    "japan_price_kyen": null,
-    "watts_per_channel": null,
-    "freq_response_hz": null,
-    "thd_percent": null,
-    "ps_type": null,
-    "amp_circuit": null,
-    "weight_kg": null,
+    "japan_price_kyen": 95,
+    "watts_per_channel": 90,
+    "freq_response_hz": "DC-500000",
+    "thd_percent": 0.008,
+    "ps_type": "Dual Power Supply",
+    "amp_circuit": "DC pre-main (3 DC amp config), diamond complementary dual-differential, NM transistors",
+    "weight_kg": 20.1,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -2618,7 +2618,7 @@
     },
     "capacitors": [],
     "links": {
-      "audio_database": null,
+      "audio_database": "https://audio-database.com/SANSUI/amp/au-d707.-e.html",
       "hifi_engine": null,
       "sansui_us": null
     },
@@ -2628,7 +2628,8 @@
     "price_basis": null,
     "year_source": "serial-report",
     "price_thb_listings": [],
-    "sonic_signature": "Diamond Differential transparency: uncoloured and highly detailed with a wide soundstage - the neutral, accurate side of Sansui rather than the warm classic voice."
+    "sonic_signature": "Diamond Differential transparency: uncoloured and highly detailed with a wide soundstage - the neutral, accurate side of Sansui rather than the warm classic voice.",
+    "circuit_description": "DC pre-main amplifier in a '3 DC amplifier' configuration - equalizer, flat/tone and power stages are all direct-coupled with no input capacitors. The input uses low-noise, high-gm FETs in a full push-pull input circuit. The power amp's second stage is a diamond complementary circuit using dual differential, driving Sansui Custom NM (Non-Magnetic) transistors in a SEPP output stage with Darlington connection. The MC head amp is fully symmetrical push-pull; the equalizer uses a diamond differential circuit with dual-FET cascode bootstrap and constant-current loading. Power comes from a single EI transformer carrying two dedicated windings and two rectifier circuits for complete left/right channel independence, plus a separate dedicated winding for the preamp, with 15,000uF x4 of filtering."
   },
   {
     "id": "sansui-au-d907-au-919-2nd-gen-1978",
@@ -2961,8 +2962,8 @@
     "watts_per_channel": 90,
     "freq_response_hz": "10-20000",
     "thd_percent": 0.008,
-    "ps_type": null,
-    "amp_circuit": "DC integrated amplifier, dual-mono",
+    "ps_type": "Dual Power Supply",
+    "amp_circuit": "DC pre-main (3 DC amp config), diamond complementary dual-differential, NM transistors",
     "weight_kg": 21.1,
     "special_features": null,
     "pros": null,
@@ -2972,7 +2973,7 @@
     "last_price_check": "2026-06",
     "collector_info": {
       "known_issues": null,
-      "collector_notes": null
+      "collector_notes": "Multi-voltage export twin of the JDM AU-D707 - same amp; slightly heavier export transformer."
     },
     "restorer_info": {
       "known_failure_points": [
@@ -3009,7 +3010,8 @@
     "price_basis": null,
     "year_source": "serial-report",
     "price_thb_listings": [],
-    "sonic_signature": "Diamond Differential transparency: uncoloured and highly detailed with a wide soundstage - the neutral, accurate side of Sansui rather than the warm classic voice."
+    "sonic_signature": "Diamond Differential transparency: uncoloured and highly detailed with a wide soundstage - the neutral, accurate side of Sansui rather than the warm classic voice.",
+    "circuit_description": "DC pre-main amplifier in a '3 DC amplifier' configuration - equalizer, flat/tone and power stages are all direct-coupled with no input capacitors. The input uses low-noise, high-gm FETs in a full push-pull input circuit. The power amp's second stage is a diamond complementary circuit using dual differential, driving Sansui Custom NM (Non-Magnetic) transistors in a SEPP output stage with Darlington connection. The MC head amp is fully symmetrical push-pull; the equalizer uses a diamond differential circuit with dual-FET cascode bootstrap and constant-current loading. Power comes from a single EI transformer carrying two dedicated windings and two rectifier circuits for complete left/right channel independence, plus a separate dedicated winding for the preamp, with 15,000uF x4 of filtering."
   },
   {
     "id": "sansui-au-x1-1979",
