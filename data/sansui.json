@@ -4625,7 +4625,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [],
     "usd_msrp": null,
-    "market": null
+    "market": null,
+    "sonic_signature": "Definition-series voicing: relaxed, warm and silky - gentle and delicate yet articulate, with details that jump out friskier than other amps, silky airy highs, lifelike mids and full, generous lows. Open and lush with a deep soundstage and full clarity."
   },
   {
     "id": "sansui-ba-5000-1976",
@@ -4687,7 +4688,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [],
     "usd_msrp": null,
-    "market": null
+    "market": null,
+    "sonic_signature": "Scale and drama, sonically and visually - Sansui nicknamed it 'The Monster', and it is widely held to outperform the rest of the BA line."
   },
   {
     "id": "sansui-ba-2000-1977",
@@ -4749,7 +4751,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [],
     "usd_msrp": null,
-    "market": null
+    "market": null,
+    "sonic_signature": "Fairly warm and remarkably effortless - very smooth with a holographic quality many call 'the Sansui sound'; some hear it as crisp and clean against a dead-quiet background. With the matching CA-2000 the pairing turns lush rather than clinically high-end, and with the right speakers it envelops you with overwhelming force."
   },
   {
     "id": "sansui-ba-f1-1979",
@@ -4811,7 +4814,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [],
     "usd_msrp": null,
-    "market": null
+    "market": null,
+    "sonic_signature": "Neutral and clear from DC to the very top - very natural yet warm, flat in response but capable of heavy bass when pushed. Very honest and highly revealing of the recording; the most accurate of the Sansui power amps, closest to the technical ideal, with tight bass and clear highs."
   },
   {
     "id": "sansui-qa-7000-1973",
@@ -4966,6 +4970,7 @@
     },
     "restorer_info": {
       "known_failure_points": [
+        "Primitive feed-through vias on the motherboard and filter board go intermittent with age, causing channels to drop out - a known CA-3000 weak point.",
         "Electrolytic and coupling caps age, raising noise floor",
         "Input/output jacks oxidize causing intermittent connection",
         "Switch contacts on source selector wear"
@@ -4998,7 +5003,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [],
     "usd_msrp": null,
-    "market": null
+    "market": null,
+    "sonic_signature": "Definition-series voicing: relaxed, warm and silky - gentle and delicate yet articulate, with silky airy highs, lifelike mids and generous lows; open and lush with a deep soundstage and full clarity. The flagship partner to the BA-3000."
   },
   {
     "id": "sansui-ca-2000-1977",
@@ -5060,7 +5066,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [],
     "usd_msrp": 440,
-    "market": null
+    "market": null,
+    "sonic_signature": "The matching partner to the BA-2000 - together they sound lush rather than clinically 'high-end', enveloping you with the right speakers."
   },
   {
     "id": "sansui-ca-f1-1979",
@@ -5122,7 +5129,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [],
     "usd_msrp": null,
-    "market": null
+    "market": null,
+    "sonic_signature": "Very neutral - it preserves the character of whatever power amp it feeds rather than imposing its own."
   },
   {
     "id": "sansui-qsd-1-1976",
@@ -15889,7 +15897,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [],
     "usd_msrp": null,
-    "market": null
+    "market": null,
+    "sonic_signature": "Enormous horsepower delivered with delicate precision - great, wide, deep, moving music where the total exceeds the sum of its parts. Needs a full warm-up: the sound becomes noticeably fuller and smoother once up to temperature."
   },
   {
     "id": "sansui-b-2201-1983",
@@ -16702,7 +16711,8 @@
     "year_source": "user (spec sheet)",
     "price_thb_listings": [],
     "usd_msrp": null,
-    "market": null
+    "market": null,
+    "sonic_signature": "The matching partner to the B-2102. The B/C series was voiced for accurate reproduction of digital sources while keeping Sansui's musicality - aimed at listeners who appreciate sonic subtleties."
   },
   {
     "id": "sansui-b-2102-1986",
@@ -16767,7 +16777,8 @@
       22900
     ],
     "usd_msrp": null,
-    "market": null
+    "market": null,
+    "sonic_signature": "Sweet and extremely detailed - never brittle or cool. Wonderfully warm and detailed on voice, acoustic instruments and complex orchestral/choral/operatic material, with striking stereo imaging; noticeably sweeter than the B-2101 despite near-identical specs. Unusually load-tolerant for a Sansui power amp - drives speakers dipping to 2 ohms, with roughly 680W/ch instantaneous at 2 ohms. Pairs best with the matching C-2102."
   },
   {
     "id": "sansui-au-alpha317x",
@@ -17533,7 +17544,8 @@
     "price_basis": null,
     "year_source": "research",
     "usd_msrp": null,
-    "market": null
+    "market": null,
+    "sonic_signature": "Close sibling of the B-2102 with near-identical specs, but voiced a touch less sweet - the B-2102 is the warmer, sweeter of the pair."
   },
   {
     "id": "sansui-c-2301-1985",
@@ -17596,7 +17608,8 @@
     "price_basis": null,
     "year_source": "research",
     "usd_msrp": null,
-    "market": null
+    "market": null,
+    "sonic_signature": "Widely regarded as the masterpiece of Sansui's solid-state preamp design - balanced from input to output with a floating ground and every block isolated from the others."
   },
   {
     "id": "sansui-au-d907-limited-1979",
