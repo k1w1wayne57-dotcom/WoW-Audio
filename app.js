@@ -296,6 +296,12 @@ function openModal(item) {
       ${item.special_features ? `<p class="info-line"><span class="il-label">Special Features:</span>${escapeHtml(item.special_features)}</p>` : ""}
     </div>
 
+    ${item.sonic_signature ? `
+    <div class="modal-section">
+      <h3>🎵 Sonic Signature</h3>
+      <p class="info-line">${escapeHtml(item.sonic_signature)}</p>
+    </div>` : ""}
+
     <div class="modal-section">
       <h3>🏆 Collector Information</h3>
       <p class="info-line"><span class="il-label">Collector Ranking:</span><strong>${item.collector_ranking || "Unranked"}</strong></p>

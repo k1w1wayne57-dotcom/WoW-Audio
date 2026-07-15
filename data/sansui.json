@@ -1640,7 +1640,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Unranked",
+    "collector_ranking": "Top 10-20",
     "price_confidence": "None",
     "last_price_check": null,
     "collector_info": {
@@ -1682,7 +1682,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "manual",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "sonic_signature": "Classic warm Sansui: sweet, full and rich with an organic, forgiving presentation - a touch warmer and more forgiving than the AU-717. Non-fatiguing over long sessions while keeping real power and clarity."
   },
   {
     "id": "sansui-au-2200-1977",
@@ -1765,7 +1766,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Unranked",
+    "collector_ranking": "Top 30-40",
     "price_confidence": "None",
     "last_price_check": null,
     "collector_info": {
@@ -1806,7 +1807,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "sonic_signature": "17-series family character: the warm, musical Sansui house voice in a lighter, lower-powered package - forgiving and easy to listen to rather than analytical. (Family-level description; no model-specific reviews found.)"
   },
   {
     "id": "sansui-au-3900-1977",
@@ -2016,7 +2018,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 10-20",
+    "collector_ranking": "Top 10",
     "price_confidence": "Low",
     "last_price_check": "2026-06",
     "collector_info": {
@@ -2057,7 +2059,8 @@
     "avg_price_usd_3mo": 1000,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "sonic_signature": "The definitive 'classic Sansui sound': warm, full and balanced - but warm never means dull; the detail is all there, with hard-hitting bass, a great soundstage and high musicality."
   },
   {
     "id": "sansui-au-9900a-1977",
@@ -2140,7 +2143,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Unranked",
+    "collector_ranking": "Top 40-50",
     "price_confidence": "None",
     "last_price_check": null,
     "collector_info": {
@@ -2181,7 +2184,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "sonic_signature": "17-series family character: the warm, musical Sansui house voice in a lighter, lower-powered package - forgiving and easy to listen to rather than analytical. (Family-level description; no model-specific reviews found.)"
   },
   {
     "id": "sansui-au-217ii-1977",
@@ -2202,7 +2206,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Unranked",
+    "collector_ranking": "Top 40-50",
     "price_confidence": "None",
     "last_price_check": null,
     "collector_info": {
@@ -2243,7 +2247,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "sonic_signature": "17-series family character: the warm, musical Sansui house voice in a lighter, lower-powered package - forgiving and easy to listen to rather than analytical. (Family-level description; no model-specific reviews found.)"
   },
   {
     "id": "sansui-au-317ii-1977",
@@ -2264,7 +2269,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Unranked",
+    "collector_ranking": "Top 30-40",
     "price_confidence": "None",
     "last_price_check": null,
     "collector_info": {
@@ -2305,7 +2310,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "sonic_signature": "17-series family character: the warm, musical Sansui house voice in a lighter, lower-powered package - forgiving and easy to listen to rather than analytical. (Family-level description; no model-specific reviews found.)"
   },
   {
     "id": "sansui-au-517-1978",
@@ -2326,7 +2332,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 30-40",
+    "collector_ranking": "Top 10-20",
     "price_confidence": "Low",
     "last_price_check": "2026-06",
     "collector_info": {
@@ -2367,7 +2373,8 @@
     "avg_price_usd_3mo": 500,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "sonic_signature": "Classic warm Sansui: sweet, full and rich with an organic, forgiving presentation - a touch warmer and more forgiving than the AU-717. Non-fatiguing over long sessions while keeping real power and clarity."
   },
   {
     "id": "sansui-au-alpha707-1977",
@@ -2388,7 +2395,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 30-40",
+    "collector_ranking": "Top 10",
     "price_confidence": "Low",
     "last_price_check": "2026-07",
     "collector_info": {
@@ -2431,7 +2438,8 @@
     "year_source": "manual",
     "price_thb_listings": [
       9500
-    ]
+    ],
+    "sonic_signature": "The definitive 'classic Sansui sound': warm, full and balanced - but warm never means dull; the detail is all there, with hard-hitting bass, a great soundstage and high musicality."
   },
   {
     "id": "sansui-au-117ii-1978",
@@ -2452,7 +2460,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Unranked",
+    "collector_ranking": "Top 40-50",
     "price_confidence": "None",
     "last_price_check": null,
     "collector_info": {
@@ -2493,7 +2501,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "sonic_signature": "17-series family character: the warm, musical Sansui house voice in a lighter, lower-powered package - forgiving and easy to listen to rather than analytical. (Family-level description; no model-specific reviews found.)"
   },
   {
     "id": "sansui-au-919-1978",
@@ -2514,7 +2523,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 10-20",
+    "collector_ranking": "Top 10",
     "price_confidence": "Low",
     "last_price_check": "2026-06",
     "collector_info": {
@@ -2555,7 +2564,8 @@
     "avg_price_usd_3mo": 800,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "sonic_signature": "A generation ahead in sophistication and accuracy: leaves the warm Sansui house voice behind for a transparent, uncoloured presentation with incredible detail and a remarkably wide soundstage."
   },
   {
     "id": "sansui-au-d707-au-819-2nd-gen-1978",
@@ -2576,7 +2586,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 20-30",
+    "collector_ranking": "Top 10-20",
     "price_confidence": "Low",
     "last_price_check": "2026-06",
     "collector_info": {
@@ -2617,7 +2627,8 @@
     "avg_price_usd_3mo": 700,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "sonic_signature": "Diamond Differential transparency: uncoloured and highly detailed with a wide soundstage - the neutral, accurate side of Sansui rather than the warm classic voice."
   },
   {
     "id": "sansui-au-d907-au-919-2nd-gen-1978",
@@ -2638,7 +2649,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 10-20",
+    "collector_ranking": "Top 10",
     "price_confidence": "Low",
     "last_price_check": "2026-06",
     "collector_info": {
@@ -2679,7 +2690,8 @@
     "avg_price_usd_3mo": 850,
     "price_basis": null,
     "year_source": "serial-report (trimmed stragglers)",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "sonic_signature": "A generation ahead in sophistication and accuracy: leaves the warm Sansui house voice behind for a transparent, uncoloured presentation with incredible detail and a remarkably wide soundstage."
   },
   {
     "id": "sansui-au-217-1979",
@@ -2700,7 +2712,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Unranked",
+    "collector_ranking": "Top 40-50",
     "price_confidence": "None",
     "last_price_check": "2026-07",
     "collector_info": {
@@ -2743,7 +2755,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [
       3700
-    ]
+    ],
+    "sonic_signature": "17-series family character: the warm, musical Sansui house voice in a lighter, lower-powered package - forgiving and easy to listen to rather than analytical. (Family-level description; no model-specific reviews found.)"
   },
   {
     "id": "sansui-au-417-1979",
@@ -2764,7 +2777,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 30-40",
+    "collector_ranking": "Top 20-30",
     "price_confidence": "Low",
     "last_price_check": "2026-06",
     "collector_info": {
@@ -2805,7 +2818,8 @@
     "avg_price_usd_3mo": 350,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "sonic_signature": "Essentially an AU-517 with a single power supply rather than dual-mono - the same warm, full 17-series voice with a little less grip and drive."
   },
   {
     "id": "sansui-au-519-1979",
@@ -2826,7 +2840,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Unranked",
+    "collector_ranking": "Top 20-30",
     "price_confidence": "None",
     "last_price_check": null,
     "collector_info": {
@@ -2867,7 +2881,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "sonic_signature": "An evolution of the AU-517: similar in design to the AU-717 (slightly more power) but voiced closer to the AU-919 - more transparent and uncoloured than the warm 17-series."
   },
   {
     "id": "sansui-au-719-1979",
@@ -2888,7 +2903,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 20-30",
+    "collector_ranking": "Top 10-20",
     "price_confidence": "Low",
     "last_price_check": "2026-06",
     "collector_info": {
@@ -2929,7 +2944,8 @@
     "avg_price_usd_3mo": 600,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "sonic_signature": "Diamond Differential circuitry borrowed from its big brother the AU-919 - sonically much closer to the 919's transparent, detailed neutrality than to the warmer AU-717."
   },
   {
     "id": "sansui-au-819-1979",
@@ -2950,7 +2966,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 20-30",
+    "collector_ranking": "Top 10-20",
     "price_confidence": "Low",
     "last_price_check": "2026-06",
     "collector_info": {
@@ -2991,7 +3007,8 @@
     "avg_price_usd_3mo": 750,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "sonic_signature": "Diamond Differential transparency: uncoloured and highly detailed with a wide soundstage - the neutral, accurate side of Sansui rather than the warm classic voice."
   },
   {
     "id": "sansui-au-x1-1979",
