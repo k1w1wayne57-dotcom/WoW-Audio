@@ -296,6 +296,12 @@ function openModal(item) {
       ${item.special_features ? `<p class="info-line"><span class="il-label">Special Features:</span>${escapeHtml(item.special_features)}</p>` : ""}
     </div>
 
+    ${item.circuit_description ? `
+    <div class="modal-section">
+      <h3>⚙️ Circuit Design</h3>
+      <p class="info-line">${escapeHtml(item.circuit_description)}</p>
+    </div>` : ""}
+
     ${item.sonic_signature ? `
     <div class="modal-section">
       <h3>🎵 Sonic Signature</h3>

@@ -2644,7 +2644,7 @@
     "freq_response_hz": "10-20000",
     "thd_percent": 0.008,
     "ps_type": "Penta-Power (dual transformer, stage-split)",
-    "amp_circuit": null,
+    "amp_circuit": "Wide-range DC pre-main, Diamond operation circuit, NM output transistors",
     "weight_kg": 18,
     "special_features": null,
     "pros": null,
@@ -2691,7 +2691,8 @@
     "price_basis": null,
     "year_source": "serial-report (trimmed stragglers)",
     "price_thb_listings": [],
-    "sonic_signature": "A generation ahead in sophistication and accuracy: leaves the warm Sansui house voice behind for a transparent, uncoloured presentation with incredible detail and a remarkably wide soundstage."
+    "sonic_signature": "A generation ahead in sophistication and accuracy: leaves the warm Sansui house voice behind for a transparent, uncoloured presentation with incredible detail and a remarkably wide soundstage.",
+    "circuit_description": "Wide-range DC pre-main amplifier, direct-coupled throughout with FET inputs on every stage and no input capacitors in any block. The power amp runs three stages: a constant-current dual-FET input, Sansui's patent-pending Diamond operation circuit (dual complementary) to suppress TIM distortion, then a current-operation push-pull stage driving symmetrical Sansui Custom NM (Non-Magnetic) output transistors. The equalizer uses a diamond drive circuit and the flat/tone amp runs open-loop to minimise distortion. Fed by four independent supply systems (Penta-Power): a high-regulation twin-winding toroidal for the power amp, an EI transformer giving two independent supplies for the pre-drive stage, plus stabilised supplies for the MC head amp and the DC flat amp."
   },
   {
     "id": "sansui-au-217-1979",
@@ -3019,11 +3020,11 @@
     "series": "Silver Era",
     "year_start": 1978,
     "year_end": 1980,
-    "japan_price_kyen": null,
+    "japan_price_kyen": 210,
     "watts_per_channel": 160,
     "freq_response_hz": null,
     "thd_percent": null,
-    "amp_circuit": null,
+    "amp_circuit": "DC integrated, diamond differential, triple push-pull NM-LAPT",
     "weight_kg": 28,
     "special_features": null,
     "pros": null,
@@ -3072,7 +3073,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [
       23000
-    ]
+    ],
+    "circuit_description": "Flagship DC integrated built around Sansui's diamond differential circuit, direct-coupled from input to output. The power stage uses a triple push-pull connection of then-new NM-LAPT (Non-Magnetic Linear Amplifier Power Transistor) devices held at optimised linear operating points to minimise distortion. Head amp: symmetrical push-pull DC amp with parallel low-noise FETs, direct-coupled input. Equalizer: direct-coupled DC amp with diamond differential and cascode bootstrap. Flat amp: push-pull drive DC amp with differential FET input. The power supply fills roughly half the chassis - eight supply configurations with independent left and right channels, a 600VA toroidal plus an 80VA EI transformer, 10,000uF x8 custom electrolytics and 1.2mm copper-plate grounding."
   },
   {
     "id": "sansui-a-m99-1980",
