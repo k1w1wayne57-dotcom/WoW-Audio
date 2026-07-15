@@ -291,6 +291,7 @@ function openModal(item) {
         <div class="spec-row"><span class="spec-label">PS Type</span><span class="spec-value">${escapeHtml(item.ps_type || "—")}</span></div>
         <div class="spec-row"><span class="spec-label">Circuit</span><span class="spec-value">${escapeHtml(item.amp_circuit || "—")}</span></div>
         <div class="spec-row"><span class="spec-label">Japan Price</span><span class="spec-value">${item.japan_price_kyen ? "¥" + (item.japan_price_kyen * 1000).toLocaleString() : "—"}</span></div>
+        <div class="spec-row"><span class="spec-label">US List</span><span class="spec-value">${item.usd_msrp ? "$" + item.usd_msrp.toLocaleString() : "—"}</span></div>
         <div class="spec-row"><span class="spec-label">Int'l Model</span><span class="spec-value">${escapeHtml(item.int_model || "—")}</span></div>
       </div>
       ${item.special_features ? `<p class="info-line"><span class="il-label">Special Features:</span>${escapeHtml(item.special_features)}</p>` : ""}

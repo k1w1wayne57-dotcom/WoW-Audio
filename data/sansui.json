@@ -8,7 +8,7 @@
     "series": "Early Transistor",
     "year_start": 1967,
     "year_end": 1969,
-    "japan_price_kyen": 280,
+    "japan_price_kyen": 57.0,
     "watts_per_channel": 25,
     "freq_response_hz": "20-100000",
     "thd_percent": 0.5,
@@ -45,8 +45,8 @@
       ]
     },
     "best_buy": {
-      "rating": 2,
-      "reason": "Priced for collectors - flagship pricing."
+      "rating": 4,
+      "reason": "Strong value - mid-tier value sweet spot."
     },
     "capacitors": [],
     "links": {
@@ -59,7 +59,8 @@
     "avg_price_usd_3mo": 1300,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": 280
   },
   {
     "id": "sansui-au-666-1968",
@@ -123,7 +124,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [
       9900
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-777d-1969",
@@ -187,7 +189,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [
       12500
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-222-1970",
@@ -198,7 +201,7 @@
     "series": "Early Transistor",
     "year_start": 1968,
     "year_end": 1974,
-    "japan_price_kyen": 120,
+    "japan_price_kyen": 28.7,
     "watts_per_channel": 18,
     "freq_response_hz": "20-30000",
     "thd_percent": 0.8,
@@ -235,8 +238,8 @@
       ]
     },
     "best_buy": {
-      "rating": 4,
-      "reason": "Strong value - mid-tier value sweet spot."
+      "rating": 3,
+      "reason": "Fair value - average for the money."
     },
     "capacitors": [],
     "links": {
@@ -249,7 +252,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": 120
   },
   {
     "id": "sansui-au-555-1970",
@@ -260,7 +264,7 @@
     "series": "Early Transistor",
     "year_start": 1968,
     "year_end": 1971,
-    "japan_price_kyen": 160,
+    "japan_price_kyen": 37.5,
     "watts_per_channel": 20,
     "freq_response_hz": "20-80000",
     "thd_percent": 0.5,
@@ -297,8 +301,8 @@
       ]
     },
     "best_buy": {
-      "rating": 3,
-      "reason": "Fair value - upper-tier pricing."
+      "rating": 4,
+      "reason": "Strong value - cheap yet capable."
     },
     "capacitors": [],
     "links": {
@@ -311,7 +315,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": 160
   },
   {
     "id": "sansui-au-999-1970",
@@ -322,7 +327,7 @@
     "series": "Early Transistor",
     "year_start": 1968,
     "year_end": 1974,
-    "japan_price_kyen": 300,
+    "japan_price_kyen": 85.0,
     "watts_per_channel": 80,
     "freq_response_hz": "5-100000",
     "thd_percent": 0.4,
@@ -359,8 +364,8 @@
       ]
     },
     "best_buy": {
-      "rating": 2,
-      "reason": "Priced for collectors - flagship pricing; pricey on the used market."
+      "rating": 4,
+      "reason": "Strong value - heavyweight build; capable daily-driver."
     },
     "capacitors": [],
     "links": {
@@ -375,7 +380,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [
       15000
-    ]
+    ],
+    "usd_msrp": 300
   },
   {
     "id": "sansui-au-555a-1971",
@@ -386,7 +392,7 @@
     "series": "Early Transistor",
     "year_start": 1968,
     "year_end": 1978,
-    "japan_price_kyen": 170,
+    "japan_price_kyen": 41.8,
     "watts_per_channel": 25,
     "freq_response_hz": "20-40000",
     "thd_percent": 0.5,
@@ -423,8 +429,8 @@
       ]
     },
     "best_buy": {
-      "rating": 3,
-      "reason": "Fair value - upper-tier pricing."
+      "rating": 4,
+      "reason": "Strong value - cheap yet capable."
     },
     "capacitors": [],
     "links": {
@@ -437,7 +443,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": 170
   },
   {
     "id": "sansui-au-9500-1972",
@@ -501,7 +508,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [
       65000
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-dca-1001-1972",
@@ -562,7 +570,8 @@
     "verified": false,
     "avg_price_usd_3mo": null,
     "price_basis": null,
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-101-1973",
@@ -624,7 +633,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-505-1973",
@@ -686,7 +696,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-500s-1973",
@@ -747,7 +758,8 @@
     "verified": false,
     "avg_price_usd_3mo": null,
     "price_basis": null,
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-5500-1974",
@@ -795,8 +807,8 @@
       ]
     },
     "best_buy": {
-      "rating": 2,
-      "reason": "Priced for collectors - flagship pricing."
+      "rating": 3,
+      "reason": "Fair value - capable daily-driver."
     },
     "capacitors": [],
     "links": {
@@ -811,7 +823,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [
       9000
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-6500-1974",
@@ -822,7 +835,7 @@
     "series": "Classic Era",
     "year_start": 1972,
     "year_end": 1975,
-    "japan_price_kyen": 260,
+    "japan_price_kyen": 59.9,
     "watts_per_channel": 28,
     "freq_response_hz": "10-40000",
     "thd_percent": 0.1,
@@ -859,8 +872,8 @@
       ]
     },
     "best_buy": {
-      "rating": 2,
-      "reason": "Priced for collectors - flagship pricing."
+      "rating": 4,
+      "reason": "Strong value - mid-tier value sweet spot."
     },
     "capacitors": [],
     "links": {
@@ -873,7 +886,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": 260
   },
   {
     "id": "sansui-au-6600-1974",
@@ -884,7 +898,7 @@
     "series": "Classic Era",
     "year_start": 1974,
     "year_end": 1976,
-    "japan_price_kyen": 360,
+    "japan_price_kyen": 79.8,
     "watts_per_channel": 40,
     "freq_response_hz": "10-40000",
     "thd_percent": 0.15,
@@ -921,8 +935,8 @@
       ]
     },
     "best_buy": {
-      "rating": 3,
-      "reason": "Fair value - capable daily-driver."
+      "rating": 5,
+      "reason": "Genuine bargain - capable daily-driver; mid-tier value sweet spot."
     },
     "capacitors": [],
     "links": {
@@ -935,7 +949,8 @@
     "avg_price_usd_3mo": 350,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": 360
   },
   {
     "id": "sansui-au-7500-1974",
@@ -946,7 +961,7 @@
     "series": "Classic Era",
     "year_start": 1972,
     "year_end": 1974,
-    "japan_price_kyen": 340,
+    "japan_price_kyen": 75.9,
     "watts_per_channel": 32,
     "freq_response_hz": "10-50000",
     "thd_percent": 0.1,
@@ -983,8 +998,8 @@
       ]
     },
     "best_buy": {
-      "rating": 3,
-      "reason": "Fair value - capable daily-driver."
+      "rating": 4,
+      "reason": "Strong value - capable daily-driver; mid-tier value sweet spot."
     },
     "capacitors": [],
     "links": {
@@ -997,7 +1012,8 @@
     "avg_price_usd_3mo": 500,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": 340
   },
   {
     "id": "sansui-au-7700-1974",
@@ -1008,7 +1024,7 @@
     "series": "Classic Era",
     "year_start": 1974,
     "year_end": 1978,
-    "japan_price_kyen": 400,
+    "japan_price_kyen": 99.8,
     "watts_per_channel": 52,
     "freq_response_hz": "10-50000",
     "thd_percent": 0.1,
@@ -1045,8 +1061,8 @@
       ]
     },
     "best_buy": {
-      "rating": 3,
-      "reason": "Fair value - capable daily-driver."
+      "rating": 5,
+      "reason": "Genuine bargain - capable daily-driver; mid-tier value sweet spot."
     },
     "capacitors": [],
     "links": {
@@ -1059,7 +1075,8 @@
     "avg_price_usd_3mo": 650,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": 400
   },
   {
     "id": "sansui-au-9900-1975",
@@ -1070,7 +1087,7 @@
     "series": "Classic Era",
     "year_start": 1975,
     "year_end": 1978,
-    "japan_price_kyen": 600,
+    "japan_price_kyen": 140.0,
     "watts_per_channel": 80,
     "freq_response_hz": "10-50000",
     "thd_percent": 0.05,
@@ -1107,8 +1124,8 @@
       ]
     },
     "best_buy": {
-      "rating": 3,
-      "reason": "Fair value - heavyweight build."
+      "rating": 4,
+      "reason": "Strong value - heavyweight build; capable daily-driver."
     },
     "capacitors": [],
     "links": {
@@ -1121,7 +1138,8 @@
     "avg_price_usd_3mo": 1100,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": 600
   },
   {
     "id": "sansui-5900z-1975",
@@ -1185,7 +1203,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [
       3000
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-6900-1975",
@@ -1247,7 +1266,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-11000-1976",
@@ -1258,7 +1278,7 @@
     "series": "Silver Era",
     "year_start": 1975,
     "year_end": 1977,
-    "japan_price_kyen": 750,
+    "japan_price_kyen": 180.0,
     "watts_per_channel": 110,
     "freq_response_hz": "10-50000",
     "thd_percent": 0.08,
@@ -1295,8 +1315,8 @@
       ]
     },
     "best_buy": {
-      "rating": 2,
-      "reason": "Priced for collectors - flagship pricing; collector piece - you pay for the name."
+      "rating": 3,
+      "reason": "Fair value - heavyweight build."
     },
     "capacitors": [],
     "links": {
@@ -1309,7 +1329,8 @@
     "avg_price_usd_3mo": 1400,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": 750
   },
   {
     "id": "sansui-au-11000a-1976",
@@ -1371,7 +1392,8 @@
     "avg_price_usd_3mo": 1500,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-20000-1976",
@@ -1382,7 +1404,7 @@
     "series": "Silver Era",
     "year_start": 1975,
     "year_end": 1977,
-    "japan_price_kyen": 1000,
+    "japan_price_kyen": 280.0,
     "watts_per_channel": 170,
     "freq_response_hz": "10-50000",
     "thd_percent": 0.05,
@@ -1433,7 +1455,8 @@
     "avg_price_usd_3mo": 3200,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": 1000
   },
   {
     "id": "sansui-au-4400-1976",
@@ -1495,7 +1518,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-7900-1976",
@@ -1557,7 +1581,8 @@
     "avg_price_usd_3mo": 550,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-2900-1974",
@@ -1619,7 +1644,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha607-1st-gen-1976",
@@ -1683,7 +1709,8 @@
     "price_basis": null,
     "year_source": "manual",
     "price_thb_listings": [],
-    "sonic_signature": "Classic warm Sansui: sweet, full and rich with an organic, forgiving presentation - a touch warmer and more forgiving than the AU-717. Non-fatiguing over long sessions while keeping real power and clarity."
+    "sonic_signature": "Classic warm Sansui: sweet, full and rich with an organic, forgiving presentation - a touch warmer and more forgiving than the AU-717. Non-fatiguing over long sessions while keeping real power and clarity.",
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-2200-1977",
@@ -1745,7 +1772,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-317-1977",
@@ -1756,7 +1784,7 @@
     "series": "Silver Era",
     "year_start": 1975,
     "year_end": 1981,
-    "japan_price_kyen": 350,
+    "japan_price_kyen": null,
     "watts_per_channel": 50,
     "freq_response_hz": "5-70000",
     "thd_percent": 0.03,
@@ -1793,8 +1821,8 @@
       ]
     },
     "best_buy": {
-      "rating": 2,
-      "reason": "Priced for collectors - flagship pricing."
+      "rating": 3,
+      "reason": "Fair value - capable daily-driver."
     },
     "capacitors": [],
     "links": {
@@ -1808,7 +1836,8 @@
     "price_basis": null,
     "year_source": "serial-report",
     "price_thb_listings": [],
-    "sonic_signature": "17-series family character: the warm, musical Sansui house voice in a lighter, lower-powered package - forgiving and easy to listen to rather than analytical. (Family-level description; no model-specific reviews found.)"
+    "sonic_signature": "17-series family character: the warm, musical Sansui house voice in a lighter, lower-powered package - forgiving and easy to listen to rather than analytical. (Family-level description; no model-specific reviews found.)",
+    "usd_msrp": 350
   },
   {
     "id": "sansui-au-3900-1977",
@@ -1870,7 +1899,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-4900-1977",
@@ -1932,7 +1962,8 @@
     "avg_price_usd_3mo": 300,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-5900-1977",
@@ -1997,7 +2028,8 @@
     "price_thb_listings": [
       8900,
       9500
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-717-1977",
@@ -2023,7 +2055,7 @@
     "last_price_check": "2026-06",
     "collector_info": {
       "known_issues": null,
-      "collector_notes": "Original data load had 550 in the Japan-price field. Export model, so not a yen price - possibly the US launch MSRP (~$550). Unconfirmed; moved here pending verification."
+      "collector_notes": null
     },
     "restorer_info": {
       "known_failure_points": [
@@ -2060,7 +2092,8 @@
     "price_basis": null,
     "year_source": "serial-report",
     "price_thb_listings": [],
-    "sonic_signature": "The definitive 'classic Sansui sound': warm, full and balanced - but warm never means dull; the detail is all there, with hard-hitting bass, a great soundstage and high musicality."
+    "sonic_signature": "The definitive 'classic Sansui sound': warm, full and balanced - but warm never means dull; the detail is all there, with hard-hitting bass, a great soundstage and high musicality.",
+    "usd_msrp": 550
   },
   {
     "id": "sansui-au-9900a-1977",
@@ -2122,7 +2155,8 @@
     "avg_price_usd_3mo": 1100,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-117-1977",
@@ -2185,7 +2219,8 @@
     "price_basis": null,
     "year_source": "serial-report",
     "price_thb_listings": [],
-    "sonic_signature": "17-series family character: the warm, musical Sansui house voice in a lighter, lower-powered package - forgiving and easy to listen to rather than analytical. (Family-level description; no model-specific reviews found.)"
+    "sonic_signature": "17-series family character: the warm, musical Sansui house voice in a lighter, lower-powered package - forgiving and easy to listen to rather than analytical. (Family-level description; no model-specific reviews found.)",
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-217ii-1977",
@@ -2248,7 +2283,8 @@
     "price_basis": null,
     "year_source": "serial-report",
     "price_thb_listings": [],
-    "sonic_signature": "17-series family character: the warm, musical Sansui house voice in a lighter, lower-powered package - forgiving and easy to listen to rather than analytical. (Family-level description; no model-specific reviews found.)"
+    "sonic_signature": "17-series family character: the warm, musical Sansui house voice in a lighter, lower-powered package - forgiving and easy to listen to rather than analytical. (Family-level description; no model-specific reviews found.)",
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-317ii-1977",
@@ -2311,7 +2347,8 @@
     "price_basis": null,
     "year_source": "serial-report",
     "price_thb_listings": [],
-    "sonic_signature": "17-series family character: the warm, musical Sansui house voice in a lighter, lower-powered package - forgiving and easy to listen to rather than analytical. (Family-level description; no model-specific reviews found.)"
+    "sonic_signature": "17-series family character: the warm, musical Sansui house voice in a lighter, lower-powered package - forgiving and easy to listen to rather than analytical. (Family-level description; no model-specific reviews found.)",
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-517-1978",
@@ -2337,7 +2374,7 @@
     "last_price_check": "2026-06",
     "collector_info": {
       "known_issues": null,
-      "collector_notes": "Original data load had 450 in the Japan-price field. Export model, so not a yen price - possibly the US launch MSRP (~$450). Unconfirmed; moved here pending verification."
+      "collector_notes": null
     },
     "restorer_info": {
       "known_failure_points": [
@@ -2374,7 +2411,8 @@
     "price_basis": null,
     "year_source": "serial-report",
     "price_thb_listings": [],
-    "sonic_signature": "Classic warm Sansui: sweet, full and rich with an organic, forgiving presentation - a touch warmer and more forgiving than the AU-717. Non-fatiguing over long sessions while keeping real power and clarity."
+    "sonic_signature": "Classic warm Sansui: sweet, full and rich with an organic, forgiving presentation - a touch warmer and more forgiving than the AU-717. Non-fatiguing over long sessions while keeping real power and clarity.",
+    "usd_msrp": 450
   },
   {
     "id": "sansui-au-alpha707-1977",
@@ -2439,7 +2477,8 @@
     "price_thb_listings": [
       9500
     ],
-    "sonic_signature": "The definitive 'classic Sansui sound': warm, full and balanced - but warm never means dull; the detail is all there, with hard-hitting bass, a great soundstage and high musicality."
+    "sonic_signature": "The definitive 'classic Sansui sound': warm, full and balanced - but warm never means dull; the detail is all there, with hard-hitting bass, a great soundstage and high musicality.",
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-117ii-1978",
@@ -2450,7 +2489,7 @@
     "series": "Silver Era",
     "year_start": 1979,
     "year_end": 1979,
-    "japan_price_kyen": 190,
+    "japan_price_kyen": null,
     "watts_per_channel": null,
     "freq_response_hz": null,
     "thd_percent": null,
@@ -2488,7 +2527,7 @@
     },
     "best_buy": {
       "rating": 3,
-      "reason": "Fair value - upper-tier pricing."
+      "reason": "Fair value - average for the money."
     },
     "capacitors": [],
     "links": {
@@ -2502,7 +2541,8 @@
     "price_basis": null,
     "year_source": "serial-report",
     "price_thb_listings": [],
-    "sonic_signature": "17-series family character: the warm, musical Sansui house voice in a lighter, lower-powered package - forgiving and easy to listen to rather than analytical. (Family-level description; no model-specific reviews found.)"
+    "sonic_signature": "17-series family character: the warm, musical Sansui house voice in a lighter, lower-powered package - forgiving and easy to listen to rather than analytical. (Family-level description; no model-specific reviews found.)",
+    "usd_msrp": 190
   },
   {
     "id": "sansui-au-919-1978",
@@ -2513,7 +2553,7 @@
     "series": "Silver Era",
     "year_start": 1976,
     "year_end": 1980,
-    "japan_price_kyen": 800,
+    "japan_price_kyen": null,
     "watts_per_channel": 100,
     "freq_response_hz": "10-20000",
     "thd_percent": 0.008,
@@ -2550,8 +2590,8 @@
       ]
     },
     "best_buy": {
-      "rating": 4,
-      "reason": "Strong value - heavyweight build; very low distortion."
+      "rating": 5,
+      "reason": "Genuine bargain - heavyweight build; very low distortion."
     },
     "capacitors": [],
     "links": {
@@ -2565,7 +2605,8 @@
     "price_basis": null,
     "year_source": "serial-report",
     "price_thb_listings": [],
-    "sonic_signature": "A generation ahead in sophistication and accuracy: leaves the warm Sansui house voice behind for a transparent, uncoloured presentation with incredible detail and a remarkably wide soundstage."
+    "sonic_signature": "A generation ahead in sophistication and accuracy: leaves the warm Sansui house voice behind for a transparent, uncoloured presentation with incredible detail and a remarkably wide soundstage.",
+    "usd_msrp": 800
   },
   {
     "id": "sansui-au-d707-au-819-2nd-gen-1978",
@@ -2613,8 +2654,8 @@
       ]
     },
     "best_buy": {
-      "rating": 4,
-      "reason": "Strong value - classic bang-for-buck pick."
+      "rating": 5,
+      "reason": "Genuine bargain - heavyweight build; very low distortion."
     },
     "capacitors": [],
     "links": {
@@ -2629,7 +2670,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [],
     "sonic_signature": "Diamond Differential transparency: uncoloured and highly detailed with a wide soundstage - the neutral, accurate side of Sansui rather than the warm classic voice.",
-    "circuit_description": "DC pre-main amplifier in a '3 DC amplifier' configuration - equalizer, flat/tone and power stages are all direct-coupled with no input capacitors. The input uses low-noise, high-gm FETs in a full push-pull input circuit. The power amp's second stage is a diamond complementary circuit using dual differential, driving Sansui Custom NM (Non-Magnetic) transistors in a SEPP output stage with Darlington connection. The MC head amp is fully symmetrical push-pull; the equalizer uses a diamond differential circuit with dual-FET cascode bootstrap and constant-current loading. Power comes from a single EI transformer carrying two dedicated windings and two rectifier circuits for complete left/right channel independence, plus a separate dedicated winding for the preamp, with 15,000uF x4 of filtering."
+    "circuit_description": "DC pre-main amplifier in a '3 DC amplifier' configuration - equalizer, flat/tone and power stages are all direct-coupled with no input capacitors. The input uses low-noise, high-gm FETs in a full push-pull input circuit. The power amp's second stage is a diamond complementary circuit using dual differential, driving Sansui Custom NM (Non-Magnetic) transistors in a SEPP output stage with Darlington connection. The MC head amp is fully symmetrical push-pull; the equalizer uses a diamond differential circuit with dual-FET cascode bootstrap and constant-current loading. Power comes from a single EI transformer carrying two dedicated windings and two rectifier circuits for complete left/right channel independence, plus a separate dedicated winding for the preamp, with 15,000uF x4 of filtering.",
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-d907-au-919-2nd-gen-1978",
@@ -2693,7 +2735,8 @@
     "year_source": "serial-report (trimmed stragglers)",
     "price_thb_listings": [],
     "sonic_signature": "A generation ahead in sophistication and accuracy: leaves the warm Sansui house voice behind for a transparent, uncoloured presentation with incredible detail and a remarkably wide soundstage.",
-    "circuit_description": "Wide-range DC pre-main amplifier, direct-coupled throughout with FET inputs on every stage and no input capacitors in any block. The power amp runs three stages: a constant-current dual-FET input, Sansui's patent-pending Diamond operation circuit (dual complementary) to suppress TIM distortion, then a current-operation push-pull stage driving symmetrical Sansui Custom NM (Non-Magnetic) output transistors. The equalizer uses a diamond drive circuit and the flat/tone amp runs open-loop to minimise distortion. Fed by four independent supply systems (Penta-Power): a high-regulation twin-winding toroidal for the power amp, an EI transformer giving two independent supplies for the pre-drive stage, plus stabilised supplies for the MC head amp and the DC flat amp."
+    "circuit_description": "Wide-range DC pre-main amplifier, direct-coupled throughout with FET inputs on every stage and no input capacitors in any block. The power amp runs three stages: a constant-current dual-FET input, Sansui's patent-pending Diamond operation circuit (dual complementary) to suppress TIM distortion, then a current-operation push-pull stage driving symmetrical Sansui Custom NM (Non-Magnetic) output transistors. The equalizer uses a diamond drive circuit and the flat/tone amp runs open-loop to minimise distortion. Fed by four independent supply systems (Penta-Power): a high-regulation twin-winding toroidal for the power amp, an EI transformer giving two independent supplies for the pre-drive stage, plus stabilised supplies for the MC head amp and the DC flat amp.",
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-217-1979",
@@ -2704,7 +2747,7 @@
     "series": "Silver Era",
     "year_start": 1976,
     "year_end": 1980,
-    "japan_price_kyen": 230,
+    "japan_price_kyen": null,
     "watts_per_channel": 30,
     "freq_response_hz": "10-50000",
     "thd_percent": 0.06,
@@ -2741,8 +2784,8 @@
       ]
     },
     "best_buy": {
-      "rating": 3,
-      "reason": "Fair value - capable daily-driver."
+      "rating": 4,
+      "reason": "Strong value - capable daily-driver; affordable in TH (THB 3,700)."
     },
     "capacitors": [],
     "links": {
@@ -2758,7 +2801,8 @@
     "price_thb_listings": [
       3700
     ],
-    "sonic_signature": "17-series family character: the warm, musical Sansui house voice in a lighter, lower-powered package - forgiving and easy to listen to rather than analytical. (Family-level description; no model-specific reviews found.)"
+    "sonic_signature": "17-series family character: the warm, musical Sansui house voice in a lighter, lower-powered package - forgiving and easy to listen to rather than analytical. (Family-level description; no model-specific reviews found.)",
+    "usd_msrp": 230
   },
   {
     "id": "sansui-au-417-1979",
@@ -2769,7 +2813,7 @@
     "series": "Silver Era",
     "year_start": 1979,
     "year_end": 1980,
-    "japan_price_kyen": 395,
+    "japan_price_kyen": null,
     "watts_per_channel": 65,
     "freq_response_hz": "5-100000",
     "thd_percent": 0.02,
@@ -2806,8 +2850,8 @@
       ]
     },
     "best_buy": {
-      "rating": 3,
-      "reason": "Fair value - capable daily-driver."
+      "rating": 4,
+      "reason": "Strong value - capable daily-driver."
     },
     "capacitors": [],
     "links": {
@@ -2821,7 +2865,8 @@
     "price_basis": null,
     "year_source": "serial-report",
     "price_thb_listings": [],
-    "sonic_signature": "Essentially an AU-517 with a single power supply rather than dual-mono - the same warm, full 17-series voice with a little less grip and drive."
+    "sonic_signature": "Essentially an AU-517 with a single power supply rather than dual-mono - the same warm, full 17-series voice with a little less grip and drive.",
+    "usd_msrp": 395
   },
   {
     "id": "sansui-au-519-1979",
@@ -2832,7 +2877,7 @@
     "series": "Silver Era",
     "year_start": 1977,
     "year_end": 1980,
-    "japan_price_kyen": 500,
+    "japan_price_kyen": null,
     "watts_per_channel": 70,
     "freq_response_hz": "10-20000",
     "thd_percent": 0.008,
@@ -2869,8 +2914,8 @@
       ]
     },
     "best_buy": {
-      "rating": 3,
-      "reason": "Fair value - very low distortion."
+      "rating": 4,
+      "reason": "Strong value - very low distortion; capable daily-driver."
     },
     "capacitors": [],
     "links": {
@@ -2884,7 +2929,8 @@
     "price_basis": null,
     "year_source": "serial-report",
     "price_thb_listings": [],
-    "sonic_signature": "An evolution of the AU-517: similar in design to the AU-717 (slightly more power) but voiced closer to the AU-919 - more transparent and uncoloured than the warm 17-series."
+    "sonic_signature": "An evolution of the AU-517: similar in design to the AU-717 (slightly more power) but voiced closer to the AU-919 - more transparent and uncoloured than the warm 17-series.",
+    "usd_msrp": 500
   },
   {
     "id": "sansui-au-719-1979",
@@ -2895,7 +2941,7 @@
     "series": "Silver Era",
     "year_start": 1979,
     "year_end": 1980,
-    "japan_price_kyen": 575,
+    "japan_price_kyen": null,
     "watts_per_channel": 80,
     "freq_response_hz": "20-20000",
     "thd_percent": 0.08,
@@ -2932,8 +2978,8 @@
       ]
     },
     "best_buy": {
-      "rating": 3,
-      "reason": "Fair value - heavyweight build."
+      "rating": 4,
+      "reason": "Strong value - heavyweight build; capable daily-driver."
     },
     "capacitors": [],
     "links": {
@@ -2947,7 +2993,8 @@
     "price_basis": null,
     "year_source": "serial-report",
     "price_thb_listings": [],
-    "sonic_signature": "Diamond Differential circuitry borrowed from its big brother the AU-919 - sonically much closer to the 919's transparent, detailed neutrality than to the warmer AU-717."
+    "sonic_signature": "Diamond Differential circuitry borrowed from its big brother the AU-919 - sonically much closer to the 919's transparent, detailed neutrality than to the warmer AU-717.",
+    "usd_msrp": 575
   },
   {
     "id": "sansui-au-819-1979",
@@ -2958,7 +3005,7 @@
     "series": "Silver Era",
     "year_start": 1979,
     "year_end": 1979,
-    "japan_price_kyen": 700,
+    "japan_price_kyen": null,
     "watts_per_channel": 90,
     "freq_response_hz": "10-20000",
     "thd_percent": 0.008,
@@ -2995,8 +3042,8 @@
       ]
     },
     "best_buy": {
-      "rating": 3,
-      "reason": "Fair value - heavyweight build."
+      "rating": 4,
+      "reason": "Strong value - heavyweight build; very low distortion."
     },
     "capacitors": [],
     "links": {
@@ -3011,7 +3058,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [],
     "sonic_signature": "Diamond Differential transparency: uncoloured and highly detailed with a wide soundstage - the neutral, accurate side of Sansui rather than the warm classic voice.",
-    "circuit_description": "DC pre-main amplifier in a '3 DC amplifier' configuration - equalizer, flat/tone and power stages are all direct-coupled with no input capacitors. The input uses low-noise, high-gm FETs in a full push-pull input circuit. The power amp's second stage is a diamond complementary circuit using dual differential, driving Sansui Custom NM (Non-Magnetic) transistors in a SEPP output stage with Darlington connection. The MC head amp is fully symmetrical push-pull; the equalizer uses a diamond differential circuit with dual-FET cascode bootstrap and constant-current loading. Power comes from a single EI transformer carrying two dedicated windings and two rectifier circuits for complete left/right channel independence, plus a separate dedicated winding for the preamp, with 15,000uF x4 of filtering."
+    "circuit_description": "DC pre-main amplifier in a '3 DC amplifier' configuration - equalizer, flat/tone and power stages are all direct-coupled with no input capacitors. The input uses low-noise, high-gm FETs in a full push-pull input circuit. The power amp's second stage is a diamond complementary circuit using dual differential, driving Sansui Custom NM (Non-Magnetic) transistors in a SEPP output stage with Darlington connection. The MC head amp is fully symmetrical push-pull; the equalizer uses a diamond differential circuit with dual-FET cascode bootstrap and constant-current loading. Power comes from a single EI transformer carrying two dedicated windings and two rectifier circuits for complete left/right channel independence, plus a separate dedicated winding for the preamp, with 15,000uF x4 of filtering.",
+    "usd_msrp": 700
   },
   {
     "id": "sansui-au-x1-1979",
@@ -3058,8 +3106,8 @@
       ]
     },
     "best_buy": {
-      "rating": 3,
-      "reason": "Fair value - heavyweight build."
+      "rating": 2,
+      "reason": "Priced for collectors - flagship pricing; pricey on the used market."
     },
     "capacitors": [],
     "links": {
@@ -3076,7 +3124,8 @@
     "price_thb_listings": [
       23000
     ],
-    "circuit_description": "Flagship DC integrated built around Sansui's diamond differential circuit, direct-coupled from input to output. The power stage uses a triple push-pull connection of then-new NM-LAPT (Non-Magnetic Linear Amplifier Power Transistor) devices held at optimised linear operating points to minimise distortion. Head amp: symmetrical push-pull DC amp with parallel low-noise FETs, direct-coupled input. Equalizer: direct-coupled DC amp with diamond differential and cascode bootstrap. Flat amp: push-pull drive DC amp with differential FET input. The power supply fills roughly half the chassis - eight supply configurations with independent left and right channels, a 600VA toroidal plus an 80VA EI transformer, 10,000uF x8 custom electrolytics and 1.2mm copper-plate grounding."
+    "circuit_description": "Flagship DC integrated built around Sansui's diamond differential circuit, direct-coupled from input to output. The power stage uses a triple push-pull connection of then-new NM-LAPT (Non-Magnetic Linear Amplifier Power Transistor) devices held at optimised linear operating points to minimise distortion. Head amp: symmetrical push-pull DC amp with parallel low-noise FETs, direct-coupled input. Equalizer: direct-coupled DC amp with diamond differential and cascode bootstrap. Flat amp: push-pull drive DC amp with differential FET input. The power supply fills roughly half the chassis - eight supply configurations with independent left and right channels, a 600VA toroidal plus an 80VA EI transformer, 10,000uF x8 custom electrolytics and 1.2mm copper-plate grounding.",
+    "usd_msrp": null
   },
   {
     "id": "sansui-a-m99-1980",
@@ -3137,7 +3186,8 @@
     "verified": false,
     "avg_price_usd_3mo": null,
     "price_basis": null,
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-d55f-1980",
@@ -3201,7 +3251,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [
       3900
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-d707f-au-d9-3rd-gen-1980",
@@ -3263,7 +3314,8 @@
     "avg_price_usd_3mo": 700,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-d907f-3rd-gen-1980",
@@ -3325,7 +3377,8 @@
     "avg_price_usd_3mo": 900,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-d33-1981",
@@ -3387,7 +3440,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-d55x-1981",
@@ -3449,7 +3503,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-d607f-extra-4th-gen-1981",
@@ -3513,7 +3568,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [
       5933
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-d7-1981",
@@ -3575,7 +3631,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-d707f-extra-4th-gen-1981",
@@ -3637,7 +3694,8 @@
     "avg_price_usd_3mo": 750,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-d9-1981",
@@ -3699,7 +3757,8 @@
     "avg_price_usd_3mo": 900,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-d11ii-1982",
@@ -3761,7 +3820,8 @@
     "avg_price_usd_3mo": 1300,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-d22-1982",
@@ -3823,7 +3883,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-d101-1983",
@@ -3885,7 +3946,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-d77x-1983",
@@ -3947,7 +4009,8 @@
     "avg_price_usd_3mo": 600,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-d907g-5th-gen-1983",
@@ -4008,7 +4071,8 @@
     "verified": false,
     "avg_price_usd_3mo": 950,
     "price_basis": null,
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-d607x-6th-gen-1984",
@@ -4072,7 +4136,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [
       8000
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-d907x-6th-gen-1984",
@@ -4134,7 +4199,8 @@
     "avg_price_usd_3mo": 1800,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-g99x-1984",
@@ -4196,7 +4262,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-ba-90-1970",
@@ -4256,7 +4323,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-ba-202-1973",
@@ -4267,7 +4335,7 @@
     "series": "Classic Era",
     "year_start": 1967,
     "year_end": 1968,
-    "japan_price_kyen": 150,
+    "japan_price_kyen": 42.2,
     "watts_per_channel": 11,
     "freq_response_hz": "20-30000",
     "thd_percent": 0.5,
@@ -4303,7 +4371,7 @@
     },
     "best_buy": {
       "rating": 3,
-      "reason": "Fair value - upper-tier pricing."
+      "reason": "Fair value - average for the money."
     },
     "capacitors": [],
     "links": {
@@ -4316,7 +4384,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": 150
   },
   {
     "id": "sansui-ba-60-1973",
@@ -4376,7 +4445,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-ba-3000-1976",
@@ -4436,7 +4506,8 @@
     "avg_price_usd_3mo": 600,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-ba-5000-1976",
@@ -4496,7 +4567,8 @@
     "avg_price_usd_3mo": 1200,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-ba-2000-1977",
@@ -4556,7 +4628,8 @@
     "avg_price_usd_3mo": 500,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-ba-f1-1979",
@@ -4616,7 +4689,8 @@
     "price_basis": null,
     "ps_type": "Dual Mono",
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-qa-7000-1973",
@@ -4676,7 +4750,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-ca-303-1973",
@@ -4687,7 +4762,7 @@
     "series": "Classic Era",
     "year_start": 1967,
     "year_end": 1968,
-    "japan_price_kyen": 150,
+    "japan_price_kyen": 88.0,
     "watts_per_channel": null,
     "freq_response_hz": "10-50000",
     "thd_percent": 0.1,
@@ -4722,8 +4797,8 @@
       ]
     },
     "best_buy": {
-      "rating": 3,
-      "reason": "Fair value - upper-tier pricing."
+      "rating": 4,
+      "reason": "Strong value - mid-tier value sweet spot."
     },
     "capacitors": [],
     "links": {
@@ -4736,7 +4811,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": 150
   },
   {
     "id": "sansui-ca-3000-1976",
@@ -4796,7 +4872,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-ca-2000-1977",
@@ -4807,7 +4884,7 @@
     "series": "Silver Era",
     "year_start": 1975,
     "year_end": 1984,
-    "japan_price_kyen": 440,
+    "japan_price_kyen": 80.0,
     "watts_per_channel": null,
     "freq_response_hz": "10-80000",
     "thd_percent": 0.03,
@@ -4842,8 +4919,8 @@
       ]
     },
     "best_buy": {
-      "rating": 3,
-      "reason": "Fair value - classic bang-for-buck pick."
+      "rating": 4,
+      "reason": "Strong value - mid-tier value sweet spot; classic bang-for-buck pick."
     },
     "capacitors": [],
     "links": {
@@ -4856,7 +4933,8 @@
     "avg_price_usd_3mo": 500,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": 440
   },
   {
     "id": "sansui-ca-f1-1979",
@@ -4916,7 +4994,8 @@
     "price_basis": null,
     "ps_type": "Dual Mono",
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-qsd-1-1976",
@@ -4976,7 +5055,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-qs-1-1971",
@@ -5036,7 +5116,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-qs-100-1973",
@@ -5096,7 +5177,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-qs-500-1973",
@@ -5156,7 +5238,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-3000-1968",
@@ -5218,7 +5301,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-3000a-1968",
@@ -5280,7 +5364,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-350-1968",
@@ -5342,7 +5427,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-400-1968",
@@ -5404,7 +5490,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-800-1968",
@@ -5468,7 +5555,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [
       4000
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-2000-1969",
@@ -5532,7 +5620,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [
       5000
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-5000-1969",
@@ -5594,7 +5683,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-5000a-1970",
@@ -5656,7 +5746,8 @@
     "avg_price_usd_3mo": 500,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-1000x-1970",
@@ -5718,7 +5809,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-661-00-1971",
@@ -5779,7 +5871,8 @@
     "verified": false,
     "avg_price_usd_3mo": null,
     "price_basis": null,
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-2000a-1971",
@@ -5843,7 +5936,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [
       4000
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-4000-1971",
@@ -5907,7 +6001,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [
       3000
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-5000x-1971",
@@ -5969,7 +6064,8 @@
     "avg_price_usd_3mo": 600,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-eight-deluxe-1971",
@@ -6030,7 +6126,8 @@
     "verified": false,
     "avg_price_usd_3mo": 450,
     "price_basis": null,
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-200-1973",
@@ -6092,7 +6189,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-210-1973",
@@ -6154,7 +6252,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-220-1973",
@@ -6216,7 +6315,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-350a-1973",
@@ -6278,7 +6378,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-500-1973",
@@ -6340,7 +6441,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-dcs-3000k-1973",
@@ -6401,7 +6503,8 @@
     "verified": false,
     "avg_price_usd_3mo": null,
     "price_basis": null,
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-eight-1973",
@@ -6462,7 +6565,8 @@
     "verified": false,
     "avg_price_usd_3mo": 400,
     "price_basis": null,
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-sax-100-1973",
@@ -6524,7 +6628,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-sax-200-1973",
@@ -6586,7 +6691,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-seven-1973",
@@ -6647,7 +6753,8 @@
     "verified": false,
     "avg_price_usd_3mo": null,
     "price_basis": null,
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-six-1973",
@@ -6708,7 +6815,8 @@
     "verified": false,
     "avg_price_usd_3mo": null,
     "price_basis": null,
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-sm-12m-1973",
@@ -6770,7 +6878,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-sm-26-1973",
@@ -6831,7 +6940,8 @@
     "verified": false,
     "avg_price_usd_3mo": null,
     "price_basis": null,
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-sm-32-1973",
@@ -6892,7 +7002,8 @@
     "verified": false,
     "avg_price_usd_3mo": null,
     "price_basis": null,
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-sm-34-1973",
@@ -6953,7 +7064,8 @@
     "verified": false,
     "avg_price_usd_3mo": null,
     "price_basis": null,
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-221-1974",
@@ -7015,7 +7127,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-331-1974",
@@ -7077,7 +7190,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-441-1974",
@@ -7139,7 +7253,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-551-1974",
@@ -7203,7 +7318,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [
       4500
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-661-1974",
@@ -7265,7 +7381,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-771-1974",
@@ -7327,7 +7444,8 @@
     "avg_price_usd_3mo": 300,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-881-1974",
@@ -7389,7 +7507,8 @@
     "avg_price_usd_3mo": 400,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-9090-1975",
@@ -7451,7 +7570,8 @@
     "avg_price_usd_3mo": 2000,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-b-50-1975",
@@ -7512,7 +7632,8 @@
     "verified": false,
     "avg_price_usd_3mo": null,
     "price_basis": null,
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-1010-1977",
@@ -7574,7 +7695,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-2020-1977",
@@ -7636,7 +7758,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-5050-1977",
@@ -7698,7 +7821,8 @@
     "avg_price_usd_3mo": 350,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-6060-1977",
@@ -7760,7 +7884,8 @@
     "avg_price_usd_3mo": 450,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-7070-1977",
@@ -7875,7 +8000,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [
       14900
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-8080-1977",
@@ -7937,7 +8063,8 @@
     "avg_price_usd_3mo": 700,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-8080db-1977",
@@ -7999,7 +8126,8 @@
     "avg_price_usd_3mo": 1000,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-9090db-1977",
@@ -8061,7 +8189,8 @@
     "avg_price_usd_3mo": 3000,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-g-2000-1977",
@@ -8125,7 +8254,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [
       2600
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-g-3000-1977",
@@ -8187,7 +8317,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-g-22000-1978",
@@ -8249,7 +8380,8 @@
     "avg_price_usd_3mo": 3500,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-g-33000-1978",
@@ -8311,7 +8443,8 @@
     "avg_price_usd_3mo": 9000,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-g-5000-1978",
@@ -8359,8 +8492,8 @@
       ]
     },
     "best_buy": {
-      "rating": 2,
-      "reason": "Priced for collectors - flagship pricing."
+      "rating": 3,
+      "reason": "Fair value - capable daily-driver."
     },
     "capacitors": [],
     "links": {
@@ -8375,7 +8508,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [
       8700
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-g-5500-1978",
@@ -8437,7 +8571,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-g-5700-1978",
@@ -8550,7 +8685,8 @@
     "price_basis": "restored",
     "ps_type": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-g-6000-1978",
@@ -8612,7 +8748,8 @@
     "avg_price_usd_3mo": 500,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-g-7000-1978",
@@ -8674,7 +8811,8 @@
     "avg_price_usd_3mo": 900,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-g-8000-1978",
@@ -8736,7 +8874,8 @@
     "avg_price_usd_3mo": 1800,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-g-8700db-1978",
@@ -8796,7 +8935,8 @@
     "avg_price_usd_3mo": 450,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-g-9000-1978",
@@ -8858,7 +8998,8 @@
     "avg_price_usd_3mo": 3500,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-g-9000db-1978",
@@ -8920,7 +9061,8 @@
     "avg_price_usd_3mo": 2200,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-g-3500-1979",
@@ -8982,7 +9124,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-g-4500-1979",
@@ -9044,7 +9187,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-g-7500-1979",
@@ -9106,7 +9250,8 @@
     "avg_price_usd_3mo": 550,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-ta-500-1979",
@@ -9168,7 +9313,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-g-4700-1980",
@@ -9230,7 +9376,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-g-6700-1980",
@@ -9295,7 +9442,8 @@
     "price_thb_listings": [
       18000,
       18000
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-g-7700-1980",
@@ -9357,7 +9505,8 @@
     "price_basis": null,
     "ps_type": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-g-9700-1980",
@@ -9419,7 +9568,8 @@
     "price_basis": null,
     "ps_type": "Dual Power Supply",
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-qr-1500-1973",
@@ -9479,7 +9629,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-qr-4500-1973",
@@ -9539,7 +9690,8 @@
     "avg_price_usd_3mo": 350,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-qr-500-1973",
@@ -9599,7 +9751,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-qr-6500-1973",
@@ -9645,8 +9798,8 @@
       ]
     },
     "best_buy": {
-      "rating": 2,
-      "reason": "Priced for collectors - flagship pricing."
+      "rating": 3,
+      "reason": "Fair value - heavyweight build."
     },
     "capacitors": [],
     "links": {
@@ -9661,7 +9814,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [
       6500
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-qrx-3500-1973",
@@ -9724,7 +9878,8 @@
     "price_thb_listings": [
       9900,
       5800
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-qrx-5500-1973",
@@ -9786,7 +9941,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [
       15500
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-qrx-6500-1973",
@@ -9846,7 +10002,8 @@
     "avg_price_usd_3mo": 350,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-qrx-7500-1973",
@@ -9908,7 +10065,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [
       16900
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-qrx-3000-1974",
@@ -9919,7 +10077,7 @@
     "series": "Classic Era",
     "year_start": 1973,
     "year_end": 1974,
-    "japan_price_kyen": 440,
+    "japan_price_kyen": 99.8,
     "watts_per_channel": 8,
     "freq_response_hz": "30-30000",
     "thd_percent": 0.5,
@@ -9954,8 +10112,8 @@
       ]
     },
     "best_buy": {
-      "rating": 3,
-      "reason": "Fair value - affordable in TH (THB 5,900)."
+      "rating": 4,
+      "reason": "Strong value - mid-tier value sweet spot; affordable in TH (THB 5,900)."
     },
     "capacitors": [],
     "links": {
@@ -9970,7 +10128,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [
       5900
-    ]
+    ],
+    "usd_msrp": 440
   },
   {
     "id": "sansui-qrx-6001-1974",
@@ -10030,7 +10189,8 @@
     "avg_price_usd_3mo": 400,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-qrx-7001-1974",
@@ -10090,7 +10250,8 @@
     "avg_price_usd_3mo": 450,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-qrx-5001-1976",
@@ -10150,7 +10311,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-qrx-8001-1978",
@@ -10210,7 +10372,8 @@
     "avg_price_usd_3mo": 450,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-qrx-9001-1979",
@@ -10270,7 +10433,8 @@
     "avg_price_usd_3mo": 600,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-sd-7000-1970",
@@ -10331,7 +10495,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-sd-5000-1973",
@@ -10392,7 +10557,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-qd-5500-1973",
@@ -10453,7 +10619,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-ra-500-1977",
@@ -10512,7 +10679,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-ra-700-1978",
@@ -10571,7 +10739,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-tu-999-1970",
@@ -10582,7 +10751,7 @@
     "series": "Early Transistor",
     "year_start": 1970,
     "year_end": 1973,
-    "japan_price_kyen": 280,
+    "japan_price_kyen": 59.9,
     "watts_per_channel": null,
     "freq_response_hz": null,
     "thd_percent": null,
@@ -10619,8 +10788,8 @@
       ]
     },
     "best_buy": {
-      "rating": 2,
-      "reason": "Priced for collectors - flagship pricing; accessory / narrower appeal."
+      "rating": 4,
+      "reason": "Strong value - mid-tier value sweet spot."
     },
     "capacitors": [],
     "links": {
@@ -10633,7 +10802,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": 280
   },
   {
     "id": "sansui-tu-555-1971",
@@ -10644,7 +10814,7 @@
     "series": "Early Transistor",
     "year_start": 1968,
     "year_end": 1972,
-    "japan_price_kyen": 130,
+    "japan_price_kyen": 28.9,
     "watts_per_channel": null,
     "freq_response_hz": null,
     "thd_percent": null,
@@ -10682,7 +10852,7 @@
     },
     "best_buy": {
       "rating": 3,
-      "reason": "Fair value - upper-tier pricing."
+      "reason": "Fair value - accessory / narrower appeal."
     },
     "capacitors": [],
     "links": {
@@ -10695,7 +10865,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": 130
   },
   {
     "id": "sansui-tu-666-1971",
@@ -10757,7 +10928,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-tu-9500-1973",
@@ -10768,7 +10940,7 @@
     "series": "Classic Era",
     "year_start": 1972,
     "year_end": 1975,
-    "japan_price_kyen": 350,
+    "japan_price_kyen": 74.8,
     "watts_per_channel": null,
     "freq_response_hz": null,
     "thd_percent": null,
@@ -10805,8 +10977,8 @@
       ]
     },
     "best_buy": {
-      "rating": 2,
-      "reason": "Priced for collectors - flagship pricing; accessory / narrower appeal."
+      "rating": 3,
+      "reason": "Fair value - mid-tier value sweet spot."
     },
     "capacitors": [],
     "links": {
@@ -10819,7 +10991,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": 350
   },
   {
     "id": "sansui-tu-505-1974",
@@ -10881,7 +11054,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-tu-7500-1974",
@@ -10892,7 +11066,7 @@
     "series": "Classic Era",
     "year_start": 1972,
     "year_end": 1974,
-    "japan_price_kyen": 260,
+    "japan_price_kyen": 54.3,
     "watts_per_channel": null,
     "freq_response_hz": null,
     "thd_percent": null,
@@ -10929,8 +11103,8 @@
       ]
     },
     "best_buy": {
-      "rating": 2,
-      "reason": "Priced for collectors - flagship pricing; accessory / narrower appeal."
+      "rating": 3,
+      "reason": "Fair value - mid-tier value sweet spot."
     },
     "capacitors": [],
     "links": {
@@ -10943,7 +11117,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": 260
   },
   {
     "id": "sansui-tu-7700-1974",
@@ -11005,7 +11180,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-tu-4400-1976",
@@ -11067,7 +11243,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-tu-9900-1976",
@@ -11078,7 +11255,7 @@
     "series": "Silver Era",
     "year_start": 1974,
     "year_end": 1978,
-    "japan_price_kyen": 570,
+    "japan_price_kyen": 89.8,
     "watts_per_channel": null,
     "freq_response_hz": null,
     "thd_percent": null,
@@ -11115,8 +11292,8 @@
       ]
     },
     "best_buy": {
-      "rating": 2,
-      "reason": "Priced for collectors - flagship pricing; accessory / narrower appeal."
+      "rating": 3,
+      "reason": "Fair value - mid-tier value sweet spot."
     },
     "capacitors": [],
     "links": {
@@ -11129,7 +11306,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": 570
   },
   {
     "id": "sansui-tu-3900-1977",
@@ -11191,7 +11369,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-tu-5500-1977",
@@ -11255,7 +11434,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [
       1250
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-tu-5900-1977",
@@ -11317,7 +11497,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-tu-717-1977",
@@ -11328,7 +11509,7 @@
     "series": "Silver Era",
     "year_start": 1977,
     "year_end": 1979,
-    "japan_price_kyen": 370,
+    "japan_price_kyen": null,
     "watts_per_channel": null,
     "freq_response_hz": null,
     "thd_percent": null,
@@ -11365,8 +11546,8 @@
       ]
     },
     "best_buy": {
-      "rating": 2,
-      "reason": "Priced for collectors - flagship pricing; accessory / narrower appeal."
+      "rating": 3,
+      "reason": "Fair value - accessory / narrower appeal."
     },
     "capacitors": [],
     "links": {
@@ -11379,7 +11560,8 @@
     "avg_price_usd_3mo": 200,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": 370
   },
   {
     "id": "sansui-tu-7900-1977",
@@ -11441,7 +11623,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-tu-217-1978",
@@ -11452,7 +11635,7 @@
     "series": "Silver Era",
     "year_start": 1977,
     "year_end": 1980,
-    "japan_price_kyen": 190,
+    "japan_price_kyen": null,
     "watts_per_channel": null,
     "freq_response_hz": null,
     "thd_percent": null,
@@ -11490,7 +11673,7 @@
     },
     "best_buy": {
       "rating": 3,
-      "reason": "Fair value - upper-tier pricing."
+      "reason": "Fair value - accessory / narrower appeal."
     },
     "capacitors": [],
     "links": {
@@ -11503,7 +11686,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": 190
   },
   {
     "id": "sansui-tu-317-1978",
@@ -11514,7 +11698,7 @@
     "series": "Silver Era",
     "year_start": 1977,
     "year_end": 1980,
-    "japan_price_kyen": 240,
+    "japan_price_kyen": null,
     "watts_per_channel": null,
     "freq_response_hz": null,
     "thd_percent": null,
@@ -11551,8 +11735,8 @@
       ]
     },
     "best_buy": {
-      "rating": 2,
-      "reason": "Priced for collectors - flagship pricing; accessory / narrower appeal."
+      "rating": 3,
+      "reason": "Fair value - accessory / narrower appeal."
     },
     "capacitors": [],
     "links": {
@@ -11565,7 +11749,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": 240
   },
   {
     "id": "sansui-tu-517-1978",
@@ -11576,7 +11761,7 @@
     "series": "Silver Era",
     "year_start": 1978,
     "year_end": 1982,
-    "japan_price_kyen": 300,
+    "japan_price_kyen": null,
     "watts_per_channel": null,
     "freq_response_hz": null,
     "thd_percent": null,
@@ -11613,8 +11798,8 @@
       ]
     },
     "best_buy": {
-      "rating": 2,
-      "reason": "Priced for collectors - flagship pricing; accessory / narrower appeal."
+      "rating": 3,
+      "reason": "Fair value - accessory / narrower appeal."
     },
     "capacitors": [],
     "links": {
@@ -11627,7 +11812,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": 300
   },
   {
     "id": "sansui-tu-919-1979",
@@ -11689,7 +11875,8 @@
     "avg_price_usd_3mo": 250,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-tu-x1-1980",
@@ -11751,7 +11938,8 @@
     "avg_price_usd_3mo": 400,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-70-1964",
@@ -11813,7 +12001,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-111-1965",
@@ -11878,7 +12067,8 @@
     "price_thb_listings": [
       59000,
       49000
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-1000-1963",
@@ -11939,7 +12129,8 @@
     "verified": false,
     "avg_price_usd_3mo": null,
     "price_basis": null,
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-250-1965",
@@ -12003,7 +12194,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [
       6500
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-1000a-1967",
@@ -12065,7 +12257,8 @@
     "avg_price_usd_3mo": 900,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-1000ea-1967",
@@ -12126,7 +12319,8 @@
     "verified": false,
     "avg_price_usd_3mo": null,
     "price_basis": null,
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-dalpha607-2nd-gen-1978",
@@ -12187,7 +12381,8 @@
     "verified": false,
     "avg_price_usd_3mo": 700,
     "price_basis": null,
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-dalpha907-limited-1979",
@@ -12248,7 +12443,8 @@
     "verified": false,
     "avg_price_usd_3mo": 1200,
     "price_basis": null,
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha307-1986",
@@ -12310,7 +12506,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha507-1986",
@@ -12372,7 +12569,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha607-7th-gen-1986",
@@ -12434,7 +12632,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "user (spec sheet)",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha707-7th-gen-1986",
@@ -12496,7 +12695,8 @@
     "avg_price_usd_3mo": 450,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha907-1986",
@@ -12558,7 +12758,8 @@
     "avg_price_usd_3mo": 1200,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha507i-1987",
@@ -12620,7 +12821,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha606i-1987",
@@ -12681,7 +12883,8 @@
     "verified": false,
     "avg_price_usd_3mo": null,
     "price_basis": null,
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha607i-1987",
@@ -12743,7 +12946,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha707i-1987",
@@ -12805,7 +13009,8 @@
     "avg_price_usd_3mo": 500,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha907i-1987",
@@ -12867,7 +13072,8 @@
     "avg_price_usd_3mo": 1000,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha907i-mos-limited-1987",
@@ -12929,7 +13135,8 @@
     "avg_price_usd_3mo": 2500,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha507extra-1988",
@@ -12990,7 +13197,8 @@
     "verified": false,
     "avg_price_usd_3mo": null,
     "price_basis": null,
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha607extra-1988",
@@ -13052,7 +13260,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha707extra-1988",
@@ -13114,7 +13323,8 @@
     "avg_price_usd_3mo": 550,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha907extra-1988",
@@ -13175,7 +13385,8 @@
     "verified": false,
     "avg_price_usd_3mo": 1300,
     "price_basis": null,
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha777dg-1988",
@@ -13237,7 +13448,8 @@
     "avg_price_usd_3mo": 700,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha607l-extra-1989",
@@ -13299,7 +13511,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha707l-extra-1989",
@@ -13361,7 +13574,8 @@
     "avg_price_usd_3mo": 700,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha907l-extra-1989",
@@ -13423,7 +13637,8 @@
     "avg_price_usd_3mo": 2000,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha999dg-1989",
@@ -13485,7 +13700,8 @@
     "avg_price_usd_3mo": 900,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha607dr-1990",
@@ -13547,7 +13763,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha707dr-1990",
@@ -13609,7 +13826,8 @@
     "avg_price_usd_3mo": 650,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha907dr-1990",
@@ -13671,7 +13889,8 @@
     "avg_price_usd_3mo": 1800,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha607-mos-premium-1991",
@@ -13733,7 +13952,8 @@
     "avg_price_usd_3mo": 450,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha607kx-1992",
@@ -13795,7 +14015,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha707kx-1992",
@@ -13857,7 +14078,8 @@
     "avg_price_usd_3mo": 500,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha907kx-1992",
@@ -13919,7 +14141,8 @@
     "avg_price_usd_3mo": 1100,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha507xr-1993",
@@ -13981,7 +14204,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha607xr-1993",
@@ -14043,7 +14267,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha707xr-1993",
@@ -14105,7 +14330,8 @@
     "avg_price_usd_3mo": 500,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha907xr-1993",
@@ -14167,7 +14393,8 @@
     "avg_price_usd_3mo": 1100,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha907-limited-1994",
@@ -14229,7 +14456,8 @@
     "avg_price_usd_3mo": 2200,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha607mr-1995",
@@ -14291,7 +14519,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha707mr-1995",
@@ -14353,7 +14582,8 @@
     "avg_price_usd_3mo": 600,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha907mr-1995",
@@ -14415,7 +14645,8 @@
     "avg_price_usd_3mo": 1300,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-07-anniversary-1996",
@@ -14477,7 +14708,8 @@
     "avg_price_usd_3mo": 1600,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha607nra-1997",
@@ -14541,7 +14773,8 @@
     "year_source": "serial-report",
     "price_thb_listings": [
       13900
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha707nra-1997",
@@ -14603,7 +14836,8 @@
     "avg_price_usd_3mo": 600,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha907nra-1997",
@@ -14665,7 +14899,8 @@
     "avg_price_usd_3mo": 1500,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha607nra-ii-1999",
@@ -14727,7 +14962,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha607-mos-limited-1999",
@@ -14789,7 +15025,8 @@
     "avg_price_usd_3mo": 500,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-111-vintage-2001",
@@ -14851,7 +15088,8 @@
     "avg_price_usd_3mo": 2500,
     "price_basis": null,
     "year_source": "manual",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-111g-vintage-2001",
@@ -14913,7 +15151,8 @@
     "avg_price_usd_3mo": 2700,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-x11-1981",
@@ -14975,7 +15214,8 @@
     "avg_price_usd_3mo": 1500,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-x111-mos-1984",
@@ -15036,7 +15276,8 @@
     "verified": false,
     "avg_price_usd_3mo": 2000,
     "price_basis": null,
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-x1111-mos-1988",
@@ -15097,7 +15338,8 @@
     "verified": false,
     "avg_price_usd_3mo": 2800,
     "price_basis": null,
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-x711-1989",
@@ -15159,7 +15401,8 @@
     "avg_price_usd_3mo": 1600,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-b-2301-1982",
@@ -15219,7 +15462,8 @@
     "avg_price_usd_3mo": 700,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-b-2201-1983",
@@ -15278,7 +15522,8 @@
     "verified": false,
     "avg_price_usd_3mo": 500,
     "price_basis": null,
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-b-2201l-1985",
@@ -15338,7 +15583,8 @@
     "avg_price_usd_3mo": 600,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-b-2102-mos-1988",
@@ -15398,7 +15644,8 @@
     "avg_price_usd_3mo": 650,
     "price_basis": null,
     "year_source": "user (spec sheet)",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-b-2302v-1990",
@@ -15457,7 +15704,8 @@
     "verified": false,
     "avg_price_usd_3mo": 900,
     "price_basis": null,
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-b-2103-mos-vintage-1992",
@@ -15517,7 +15765,8 @@
     "avg_price_usd_3mo": 1000,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-b-209-the-tube-1995",
@@ -15576,7 +15825,8 @@
     "verified": false,
     "avg_price_usd_3mo": 2500,
     "price_basis": null,
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-b2105v-1997",
@@ -15635,7 +15885,8 @@
     "verified": false,
     "avg_price_usd_3mo": 700,
     "price_basis": null,
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-c-2302v-1992",
@@ -15694,7 +15945,8 @@
     "verified": false,
     "avg_price_usd_3mo": 400,
     "price_basis": null,
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-c-2105v-1997",
@@ -15753,7 +16005,8 @@
     "verified": false,
     "avg_price_usd_3mo": 350,
     "price_basis": null,
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-c-2302p-1999",
@@ -15813,7 +16066,8 @@
     "avg_price_usd_3mo": 400,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-d607g-extra-1983",
@@ -15877,7 +16131,8 @@
     "year_source": "user (spec sheet)",
     "price_thb_listings": [
       4000
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-d607-1979",
@@ -15941,7 +16196,8 @@
     "year_source": "user (spec sheet)",
     "price_thb_listings": [
       3900
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-c-2102-1986",
@@ -16002,7 +16258,8 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "user (spec sheet)",
-    "price_thb_listings": []
+    "price_thb_listings": [],
+    "usd_msrp": null
   },
   {
     "id": "sansui-b-2102-1986",
@@ -16065,7 +16322,8 @@
     "year_source": "user (spec sheet)",
     "price_thb_listings": [
       22900
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha317x",
@@ -16126,7 +16384,8 @@
     "year_source": "research",
     "price_thb_listings": [
       3500
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-alpha555vs",
@@ -16187,7 +16446,8 @@
     "year_source": "research",
     "price_thb_listings": [
       4500
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-tu-707",
@@ -16248,7 +16508,8 @@
     "year_source": "research",
     "price_thb_listings": [
       3500
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-888",
@@ -16309,7 +16570,8 @@
     "year_source": "research",
     "price_thb_listings": [
       20000
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-tr-707a",
@@ -16370,7 +16632,8 @@
     "year_source": "research",
     "price_thb_listings": [
       4000
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-3500",
@@ -16431,7 +16694,8 @@
     "year_source": "research",
     "price_thb_listings": [
       5500
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-500a",
@@ -16492,7 +16756,8 @@
     "year_source": "research",
     "price_thb_listings": [
       9000
-    ]
+    ],
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-d707x-1984",
@@ -16553,7 +16818,8 @@
     "verified": false,
     "avg_price_usd_3mo": null,
     "price_basis": null,
-    "year_source": "research"
+    "year_source": "research",
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-d507x-1984",
@@ -16614,7 +16880,8 @@
     "verified": false,
     "avg_price_usd_3mo": null,
     "price_basis": null,
-    "year_source": "research"
+    "year_source": "research",
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-d607f-1980",
@@ -16675,7 +16942,8 @@
     "verified": false,
     "avg_price_usd_3mo": null,
     "price_basis": null,
-    "year_source": "research"
+    "year_source": "research",
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-d11-1982",
@@ -16736,7 +17004,8 @@
     "verified": false,
     "avg_price_usd_3mo": null,
     "price_basis": null,
-    "year_source": "research"
+    "year_source": "research",
+    "usd_msrp": null
   },
   {
     "id": "sansui-b-2101-1985",
@@ -16797,7 +17066,8 @@
     "verified": false,
     "avg_price_usd_3mo": null,
     "price_basis": null,
-    "year_source": "research"
+    "year_source": "research",
+    "usd_msrp": null
   },
   {
     "id": "sansui-c-2301-1985",
@@ -16858,7 +17128,8 @@
     "verified": false,
     "avg_price_usd_3mo": null,
     "price_basis": null,
-    "year_source": "research"
+    "year_source": "research",
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-d907-limited-1979",
@@ -16919,7 +17190,8 @@
     "verified": false,
     "avg_price_usd_3mo": null,
     "price_basis": null,
-    "year_source": "research"
+    "year_source": "research",
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-d907f-extra-1981",
@@ -16980,7 +17252,8 @@
     "verified": false,
     "avg_price_usd_3mo": null,
     "price_basis": null,
-    "year_source": "research"
+    "year_source": "research",
+    "usd_msrp": null
   },
   {
     "id": "sansui-au-d907g-extra-1983",
@@ -17041,6 +17314,7 @@
     "verified": false,
     "avg_price_usd_3mo": null,
     "price_basis": null,
-    "year_source": "research"
+    "year_source": "research",
+    "usd_msrp": null
   }
 ]
