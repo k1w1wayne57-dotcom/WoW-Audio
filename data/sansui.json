@@ -16036,8 +16036,8 @@
     "watts_per_channel": 110,
     "freq_response_hz": "DC-300000",
     "thd_percent": 0.008,
-    "ps_type": null,
-    "amp_circuit": "MOS-FET output stereo power amplifier",
+    "ps_type": "Dual Mono",
+    "amp_circuit": "MOS-FET output, NEW diamond differential, twin-monaural construction",
     "weight_kg": 35.0,
     "special_features": "MOS-FET output stage; 150W+150W @ 6ohm; damping factor 200; slew rate 150V/us; subsonic filter 10Hz; power 350W; dims 450 x 176 x 477 mm",
     "pros": null,
@@ -16058,7 +16058,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 3,
-      "recap_notes": null,
+      "recap_notes": "CAUTION - check before grounding: the factory description states a balanced power supply forming a closed loop independent of the ground circuit. If the outputs are balanced-drive, the black (-) speaker terminals are live and must never be commoned together or tied to chassis/test ground. Confirm against the service manual before connecting a common ground.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -16083,7 +16083,8 @@
     "year_source": "user (spec sheet)",
     "price_thb_listings": [],
     "usd_msrp": null,
-    "market": null
+    "market": null,
+    "circuit_description": "Twin-monaural construction: the power amplifier blocks are arranged symmetrically so mutual interference between channels is eliminated. The NEW diamond differential circuit is used, with an FET cascade in the initial stage to reduce the effect of impedance differences between connected devices. MOS-FETs in the output stage give excellent frequency and transient characteristics. The supply uses custom-made heavy-duty transformers and a balanced power supply configuration forming a closed loop independent of the ground circuit. 150W/ch at 6 ohm, 110W/ch at 8 ohm."
   },
   {
     "id": "sansui-b-2302v-1990",
@@ -16664,7 +16665,7 @@
     "freq_response_hz": "1-300000",
     "thd_percent": 0.003,
     "ps_type": null,
-    "amp_circuit": "Stereo control (pre) amplifier",
+    "amp_circuit": "Semi-balanced control (pre) amplifier, high-grade audio components",
     "weight_kg": 5.5,
     "special_features": "Input sens. 0.25mV MC / 2.5mV MM / 150mV line; pre-out 1V (max 15V); S/N 70dB MC / 88dB MM / 110dB line; dims 430 x 119 x 326 mm",
     "pros": null,
@@ -16712,7 +16713,8 @@
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": "The matching partner to the B-2102. The B/C series was voiced for accurate reproduction of digital sources while keeping Sansui's musicality - aimed at listeners who appreciate sonic subtleties."
+    "sonic_signature": "The matching partner to the B-2102. The B/C series was voiced for accurate reproduction of digital sources while keeping Sansui's musicality - aimed at listeners who appreciate sonic subtleties.",
+    "circuit_description": "Semi-balanced architecture built with high-grade audio components; widely regarded as one of Sansui's premium late-era audiophile products. Designed as the matching control amplifier for the B-2102."
   },
   {
     "id": "sansui-b-2102-1986",
@@ -17496,8 +17498,8 @@
     "watts_per_channel": 200,
     "freq_response_hz": "1-300000",
     "thd_percent": 0.003,
-    "ps_type": null,
-    "amp_circuit": "Stereo power amplifier",
+    "ps_type": "X-Balanced",
+    "amp_circuit": "X-Balanced stereo power amplifier, twin-mono, double parallel push-pull",
     "weight_kg": 18,
     "special_features": null,
     "pros": null,
@@ -17520,7 +17522,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 3,
-      "recap_notes": null,
+      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -17545,7 +17547,8 @@
     "year_source": "research",
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": "Close sibling of the B-2102 with near-identical specs, but voiced a touch less sweet - the B-2102 is the warmer, sweeter of the pair."
+    "sonic_signature": "Close sibling of the B-2102 with near-identical specs, but voiced a touch less sweet - the B-2102 is the warmer, sweeter of the pair.",
+    "circuit_description": "X-Balanced Amp System - circuitry that eliminates ground-related problems such as IHM distortion for a cleaner, crisper sound. Twin-mono construction with three power supplies keeps each channel physically and electrically separate. Output stage uses 16 oversized power transistors in a double parallel push-pull configuration. 200W RMS/ch; 2x350W into 4 ohm (DIN) and 2x680W dynamic at 2 ohm. Fluorescent 24-segment peak level meters with peak hold, and separate L/R input attenuators."
   },
   {
     "id": "sansui-c-2301-1985",
