@@ -1187,7 +1187,7 @@
     "year_start": 1980,
     "year_end": 1982,
     "japan_price_kyen": null,
-    "watts_per_channel": 16,
+    "watts_per_channel": 75,
     "freq_response_hz": "5-100000",
     "thd_percent": 0.03,
     "ps_type": null,
@@ -1196,7 +1196,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 40-50",
+    "collector_ranking": "Top 30-40",
     "price_confidence": "None",
     "last_price_check": null,
     "collector_info": {
@@ -1224,7 +1224,7 @@
     },
     "best_buy": {
       "rating": 4,
-      "reason": "Strong value - affordable in TH (THB 3,000)."
+      "reason": "Strong value - capable daily-driver; seen cheap in TH (from THB 3,000)."
     },
     "capacitors": [],
     "links": {
