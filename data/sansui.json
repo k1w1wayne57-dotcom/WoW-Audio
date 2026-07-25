@@ -1215,7 +1215,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 30-40",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -1252,7 +1252,7 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 250,
+    "avg_price_usd_3mo": 300,
     "price_basis": null,
     "year_source": "serial-report",
     "price_thb_listings": [
@@ -1744,7 +1744,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 10-20",
-    "price_confidence": "None",
+    "price_confidence": "Medium",
     "last_price_check": null,
     "collector_info": {
       "known_issues": null,
@@ -1782,7 +1782,7 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": null,
+    "avg_price_usd_3mo": 350,
     "price_basis": null,
     "year_source": "manual",
     "price_thb_listings": [],
@@ -5294,7 +5294,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Unranked",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -5329,7 +5329,7 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 150,
+    "avg_price_usd_3mo": 350,
     "price_basis": null,
     "year_source": "serial-report",
     "price_thb_listings": [
@@ -5685,7 +5685,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 30-40",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -5722,7 +5722,7 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 175,
+    "avg_price_usd_3mo": 300,
     "price_basis": null,
     "year_source": "serial-report",
     "price_thb_listings": [
@@ -5753,7 +5753,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 30-40",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-07",
     "collector_info": {
       "known_issues": null,
@@ -5790,7 +5790,7 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 225,
+    "avg_price_usd_3mo": 300,
     "price_basis": null,
     "year_source": "serial-report",
     "price_thb_listings": [
@@ -5821,7 +5821,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 30-40",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-07",
     "collector_info": {
       "known_issues": null,
@@ -5858,7 +5858,7 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 200,
+    "avg_price_usd_3mo": 275,
     "price_basis": null,
     "year_source": "serial-report",
     "price_thb_listings": [
@@ -6220,7 +6220,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 30-40",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-07",
     "collector_info": {
       "known_issues": null,
@@ -6257,7 +6257,7 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 250,
+    "avg_price_usd_3mo": 450,
     "price_basis": null,
     "year_source": "serial-report",
     "price_thb_listings": [
@@ -6947,7 +6947,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 40-50",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -6984,7 +6984,7 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 200,
+    "avg_price_usd_3mo": 350,
     "price_basis": null,
     "year_source": "serial-report",
     "price_thb_listings": [
@@ -7604,7 +7604,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 40-50",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -8582,7 +8582,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 30-40",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -8619,7 +8619,7 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 150,
+    "avg_price_usd_3mo": 175,
     "price_basis": null,
     "year_source": "serial-report",
     "price_thb_listings": [
@@ -9069,7 +9069,7 @@
     },
     "notes": "Produced 1978-1980. Dimensions 465 x 177 x 405mm.",
     "verified": false,
-    "avg_price_usd_3mo": 1399,
+    "avg_price_usd_3mo": 450,
     "price_basis": "restored",
     "ps_type": null,
     "year_source": "serial-report",
@@ -11903,7 +11903,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Unranked",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-07",
     "collector_info": {
       "known_issues": null,
@@ -11940,7 +11940,7 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 150,
+    "avg_price_usd_3mo": 175,
     "price_basis": null,
     "year_source": "serial-report",
     "price_thb_listings": [
@@ -12690,7 +12690,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Unranked",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": null,
     "collector_info": {
       "known_issues": null,
@@ -12727,7 +12727,7 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 300,
+    "avg_price_usd_3mo": 325,
     "price_basis": null,
     "year_source": "serial-report",
     "price_thb_listings": [
@@ -16811,7 +16811,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 10-20",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -16848,7 +16848,7 @@
     },
     "notes": null,
     "verified": true,
-    "avg_price_usd_3mo": 500,
+    "avg_price_usd_3mo": 400,
     "price_basis": null,
     "year_source": "user (spec sheet)",
     "price_thb_listings": [
@@ -17146,7 +17146,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 20-30",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-07",
     "collector_info": {
       "known_issues": null,
@@ -17180,7 +17180,7 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 500,
+    "avg_price_usd_3mo": 475,
     "price_basis": null,
     "year_source": "research",
     "price_thb_listings": [
@@ -17211,7 +17211,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Unranked",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-07",
     "collector_info": {
       "known_issues": null,
@@ -17245,7 +17245,7 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 200,
+    "avg_price_usd_3mo": 175,
     "price_basis": null,
     "year_source": "research",
     "price_thb_listings": [
@@ -17340,7 +17340,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 40-50",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -17374,7 +17374,7 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 300,
+    "avg_price_usd_3mo": 285,
     "price_basis": null,
     "year_source": "research",
     "price_thb_listings": [
@@ -17405,7 +17405,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Unranked",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-07",
     "collector_info": {
       "known_issues": null,
@@ -17439,7 +17439,7 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 250,
+    "avg_price_usd_3mo": 225,
     "price_basis": null,
     "year_source": "research",
     "price_thb_listings": [
@@ -17470,7 +17470,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 30-40",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -17504,7 +17504,7 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 350,
+    "avg_price_usd_3mo": 400,
     "price_basis": null,
     "year_source": "research",
     "price_thb_listings": [
