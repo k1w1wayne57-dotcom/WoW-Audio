@@ -263,6 +263,11 @@ tbody td {
   vertical-align: middle;
 }
 
+.thb-badge { display: inline-block; font-size: 0.62rem; font-weight: 700; padding: 1px 6px;
+  border-radius: 8px; letter-spacing: 0.03em; vertical-align: middle; }
+.thb-sold { background: #7a2230; color: #ffd8de; }
+.thb-sale { background: #1f5c3a; color: #d3f5e0; }
+
 .model-cell { min-width: 180px; white-space: nowrap; }
 .model-cell .model-jdm { font-weight: 600; color: var(--text); font-size: 0.98rem; white-space: nowrap; }
 .model-cell .model-int { display: block; font-size: 0.75rem; color: var(--text-secondary); white-space: nowrap; }

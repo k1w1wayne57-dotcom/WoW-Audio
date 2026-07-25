@@ -244,7 +244,7 @@ function render() {
       <td>${escapeHtml(item.amp_circuit || "—")}</td>
       <td>${wrenchDisplay(item.restorer_info && item.restorer_info.recap_difficulty)}</td>
       <td>${item.best_buy && item.best_buy.rating ? `<span class="bestbuy-star">${"⭐".repeat(item.best_buy.rating)}</span>` : "—"}</td>
-      <td class="price-cell ${priceClass(item.avg_price_usd_3mo)}">${formatPrice(item)}</td>
+      <td class="price-cell ${priceClass(item.avg_price_usd_3mo)}">${formatPrice(item)}${item.thb_status ? ` <span class="thb-badge thb-${item.thb_status === "Sold" ? "sold" : "sale"}">${item.thb_status === "Sold" ? "SOLD" : "FOR SALE"}</span>` : ""}</td>
       <td class="links-cell">
         ${item.links && item.links.brochure ? `<a class="link-icon" href="${item.links.brochure}" target="_blank" rel="noopener" title="Brochure" onclick="event.stopPropagation()">📖</a>` : ""}
         ${item.links && item.links.audio_database ? `<a class="link-icon" href="${item.links.audio_database}" target="_blank" rel="noopener" title="Audio Database" onclick="event.stopPropagation()">📄</a>` : ""}
@@ -314,6 +314,7 @@ function openModal(item) {
       <h3>🏆 Collector Information</h3>
       <p class="info-line"><span class="il-label">Collector Ranking:</span><strong>${item.collector_ranking || "Unranked"}</strong></p>
       <p class="info-line"><span class="il-label">3-Mo Price:</span>${formatPrice(item)}${item.price_basis ? ` <em>(${item.price_basis})</em>` : ""}${item.price_thb_listings && item.price_thb_listings.length ? " <em>· each ฿ = a separate Thai listing</em>" : ""}</p>
+      ${item.thb_status ? `<p class="info-line"><span class="il-label">Thai Status:</span><span class="thb-badge thb-${item.thb_status === "Sold" ? "sold" : "sale"}">${item.thb_status === "Sold" ? "SOLD" : "FOR SALE"}</span> <em>(as of ${escapeHtml(item.last_price_check || "")})</em></p>` : ""}
       <p class="info-line"><span class="il-label">Price Confidence:</span>${escapeHtml(item.price_confidence || "None")}</p>
       ${item.collector_info && item.collector_info.known_issues ? `<p class="info-line"><span class="il-label">Known Issues:</span>${escapeHtml(item.collector_info.known_issues)}</p>` : ""}
       ${item.collector_info && item.collector_info.collector_notes ? `<p class="info-line"><span class="il-label">Collector Notes:</span>${escapeHtml(item.collector_info.collector_notes)}</p>` : ""}
