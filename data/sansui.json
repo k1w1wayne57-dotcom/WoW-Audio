@@ -18228,5 +18228,70 @@
     "usd_msrp": null,
     "market": null,
     "year_source": "research"
+  },
+  {
+    "id": "sansui-b-7000-1973",
+    "brand": "Sansui",
+    "jdm_model": "B-7000",
+    "int_model": null,
+    "type": "Power Amp",
+    "series": "Quad (QS) Era",
+    "year_start": 1973,
+    "year_end": 1976,
+    "japan_price_kyen": null,
+    "watts_per_channel": null,
+    "freq_response_hz": null,
+    "thd_percent": null,
+    "ps_type": null,
+    "amp_circuit": "4-channel solid-state power amplifier (dedicated, no preamp)",
+    "weight_kg": null,
+    "special_features": "Dedicated 4-channel (quadraphonic) power amplifier — the power-only counterpart to Sansui's QS-matrix quad line. Multi-voltage export chassis (AC120/220/240 V). Faceplate rates 340 W total power consumption.",
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "sonic_signature": null,
+    "circuit_description": null,
+    "price_confidence": "None",
+    "last_price_check": null,
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": "Owned by Wayne (faceplate-confirmed: B-7000 4-Channel Stereo Power Amplifier, Made in Japan, S/N 4905001711). Rare — little published spec data; output rating unverified."
+    },
+    "restorer_info": {
+      "known_failure_points": [
+        "Output transistor bias drifts with age",
+        "Electrolytic caps in power supply dry out",
+        "Protection relay contacts oxidize"
+      ],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": 3,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": [
+        "Protection relay trips on power-up",
+        "DC offset out of spec",
+        "Channel imbalance across the four outputs"
+      ]
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null,
+      "sansui_us": null
+    },
+    "notes": "Output power/channel, weight, and price need verification — no reliable published source found. See NEEDS_DATA.md.",
+    "verified": false,
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": "research (quad-era estimate)",
+    "price_thb_listings": [],
+    "usd_msrp": null,
+    "market": "International",
+    "thb_status": null
   }
 ]

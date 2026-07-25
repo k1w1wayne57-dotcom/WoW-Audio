@@ -18,6 +18,10 @@ most useful fields.
 - **250** (1967) — missing weight
 - **500** (1965) — missing weight
 
+## Quad-era power amps
+
+- **B-7000** (~1973–76, 4-Channel Power Amp) — Wayne owns one (faceplate-confirmed, S/N 4905001711). Only the faceplate is documented: 4-channel stereo power amplifier, 340 W rated power consumption, AC120/220/240 V, Made in Japan. **Need: output watts/ch (stereo + 4ch), freq response, THD, weight, year, price.** No reliable published source found — a service manual or the rear-panel spec block would fill this in.
+
 ## Weight only (specs otherwise complete)
 
 - **AU-6900** (1976) — weight not found
