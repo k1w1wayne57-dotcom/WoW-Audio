@@ -10258,8 +10258,7 @@
     "price_basis": null,
     "year_source": "serial-report",
     "price_thb_listings": [
-      11600,
-      6500
+      11600
     ],
     "usd_msrp": null,
     "market": null,
@@ -17016,10 +17015,10 @@
     "cons": null,
     "collector_ranking": "Top 20-30",
     "price_confidence": "Low",
-    "last_price_check": "2026-07",
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
-      "collector_notes": null
+      "collector_notes": "Bought by Wayne (Aug 2026, THB 20,000)."
     },
     "restorer_info": {
       "known_failure_points": [
@@ -17055,7 +17054,7 @@
     "price_basis": null,
     "year_source": "user (spec sheet)",
     "price_thb_listings": [
-      22900
+      20000
     ],
     "usd_msrp": null,
     "market": null,
@@ -18101,5 +18100,133 @@
     "market": null,
     "sonic_signature": "Super Feedforward voicing: clean and low in distortion, notably good with strings, but with slightly less punch and bottom-end weight than the earlier warm Sansuis. (Family-level: Super Feedforward D-series.)",
     "thb_status": null
+  },
+  {
+    "id": "sansui-a-80-1980",
+    "brand": "Sansui",
+    "jdm_model": "A-80",
+    "int_model": null,
+    "type": "Integrated",
+    "series": "Silver Era",
+    "year_start": 1980,
+    "year_end": 1982,
+    "japan_price_kyen": null,
+    "watts_per_channel": 65,
+    "freq_response_hz": "5-70000",
+    "thd_percent": 0.05,
+    "ps_type": null,
+    "amp_circuit": "Integrated DC servo amplifier (with meters)",
+    "weight_kg": 7.1,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "sonic_signature": "Silver-era Sansui: the warm, musical house sound of Sansui's peak years - full-bodied and rich with a smooth top end and an engaging, non-fatiguing presentation. (Family-level: mid/late-70s silver-face line.)",
+    "price_thb_listings": [
+      6500
+    ],
+    "thb_status": "For sale",
+    "price_confidence": "Low",
+    "last_price_check": "2026-08",
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": "Listed for sale as a combo with a D-100 cassette deck (combo THB 6,500)."
+    },
+    "restorer_info": {
+      "known_failure_points": [
+        "Electrolytic caps throughout the signal path dry out",
+        "Protection relay/switch contacts oxidize over time"
+      ],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": 3,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": [
+        "Scratchy pots and switches",
+        "Channel imbalance after long storage"
+      ]
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null,
+      "sansui_us": null
+    },
+    "notes": null,
+    "verified": false,
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "usd_msrp": null,
+    "market": null,
+    "year_source": "research"
+  },
+  {
+    "id": "sansui-au-alpha305rx-1997",
+    "brand": "Sansui",
+    "jdm_model": "AU-Alpha-305RX",
+    "int_model": null,
+    "type": "Integrated",
+    "series": "Alpha Series",
+    "year_start": 1997,
+    "year_end": null,
+    "japan_price_kyen": 40,
+    "watts_per_channel": 65,
+    "freq_response_hz": "10-70000",
+    "thd_percent": 0.04,
+    "ps_type": null,
+    "amp_circuit": "Integrated DC amp, alpha-X Balanced (entry model)",
+    "weight_kg": 8.8,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "sonic_signature": "Alpha-series voicing: a move to a more neutral tone with very good clarity and detail while staying musically involving - refined, with layers of depth, pinpoint imaging and crisper, more refined highs than the older warm Sansuis. (Family-level: alpha-X Balanced series.)",
+    "price_thb_listings": [
+      5500
+    ],
+    "thb_status": "For sale",
+    "price_confidence": "Low",
+    "last_price_check": "2026-08",
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": "Entry Alpha-series integrated."
+    },
+    "restorer_info": {
+      "known_failure_points": [
+        "Electrolytic caps throughout the signal path dry out",
+        "Protection relay/switch contacts oxidize over time"
+      ],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": 3,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": [
+        "Scratchy pots and switches",
+        "Channel imbalance after long storage"
+      ]
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null,
+      "sansui_us": null
+    },
+    "notes": null,
+    "verified": false,
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "usd_msrp": null,
+    "market": null,
+    "year_source": "research"
   }
 ]
