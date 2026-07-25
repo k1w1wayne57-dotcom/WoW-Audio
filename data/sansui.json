@@ -18293,5 +18293,70 @@
     "usd_msrp": null,
     "market": "International",
     "thb_status": null
+  },
+  {
+    "id": "sansui-7000-1971",
+    "brand": "Sansui",
+    "jdm_model": "7000",
+    "int_model": null,
+    "type": "Receiver",
+    "series": "Early Solid State",
+    "year_start": 1971,
+    "year_end": 1972,
+    "japan_price_kyen": null,
+    "watts_per_channel": 70,
+    "freq_response_hz": "20-50000",
+    "thd_percent": 0.4,
+    "ps_type": null,
+    "amp_circuit": "Solid-state, capacitor-coupled output",
+    "weight_kg": 15.0,
+    "special_features": "Sansui's last and most powerful capacitor-coupled receiver; made for roughly one year, relatively rare. Walnut wood case.",
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "sonic_signature": "Early-70s Sansui warmth: a full, rich, slightly soft cap-coupled sound - smooth and easy on the ears rather than tight and modern. (Family-level: early solid-state era.)",
+    "circuit_description": null,
+    "price_confidence": "Medium",
+    "last_price_check": "2026-07",
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": "Confirmed real by Wayne. Rare - one-year production run; the top of Sansui's early cap-coupled solid-state line."
+    },
+    "restorer_info": {
+      "known_failure_points": [
+        "Large output coupling caps dry out (cap-coupled design)",
+        "Power-supply electrolytics dry out",
+        "Dial lamps and switch contacts degrade"
+      ],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": 3,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": [
+        "Scratchy controls",
+        "Weak/uneven channel from aged caps",
+        "FM drift until warmed up"
+      ]
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": "https://www.hifiengine.com/manual_library/sansui/7000.shtml",
+      "sansui_us": null
+    },
+    "notes": "Dimensions 444 x 140 x 327 mm. Sensitivity: 2mV MM, 200mV line. S/N 70dB MM / 80dB line. Channel separation 50dB. Damping 30. Specs confirmed by Wayne from HiFi Engine sheet.",
+    "verified": true,
+    "avg_price_usd_3mo": 450,
+    "price_basis": "Reverb/US Audio Mart used listings (good units ask $675-700)",
+    "year_source": "research",
+    "price_thb_listings": [],
+    "usd_msrp": 500,
+    "market": "International",
+    "thb_status": null
   }
 ]
