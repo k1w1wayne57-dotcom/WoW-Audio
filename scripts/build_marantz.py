@@ -82,6 +82,38 @@ DATA = [
 ]
 
 
+# Sourced specs (still verified=false — for Wayne to confirm). Japan-market figures where the
+# source is audio-database.com; US figures from classicreceivers.com / vintageaudioexchange.
+# w=watts/ch into 8ohm, thd=%, fr=freq response Hz, wt=weight kg, yen=price in thousands of yen.
+# ys/ye override the roadmap years only when the source gives a firmer figure.
+SPECS = {
+    # --- Integrated / PM (audio-database.com, Japan-market) ---
+    "1030":   dict(ys=1972, w=15,  thd=0.5,   fr="15-40000", wt=7.7,  yen=39.9,  ckt="Entry pre-main; simplified Marantz design", src="audio-database.com"),
+    "1060":   dict(ys=1972, w=30,  thd=0.5,   fr="20-20000", wt=8.4,  yen=54.9,  ckt="Quasi-complementary; 3-stage direct-coupled NF equalizer", src="audio-database.com"),
+    "1070":   dict(ys=1975, w=40,  thd=0.3,   fr="20-20000", wt=8.4,  yen=69.9,  ckt="Inverting Darlington; mid-range tone control; speaker matrix", src="audio-database.com"),
+    "1150":   dict(ys=1975, w=80,  thd=0.1,   fr="20-20000", wt=15.0, yen=125.0, ckt="Direct-coupled push-pull, inverted Darlington output", src="audio-database.com"),
+    "1200":   dict(ys=1972, w=100, thd=0.15,  fr="6-80000",  wt=14.1, yen=295.0, ckt="Differential input, pure-complementary all-stage direct-coupled OCL, Class AB", src="audio-database.com"),
+    "1200B":  dict(ys=1974, w=100, thd=0.15,  fr="20-20000", wt=14.1, yen=325.0, ckt="Model 3300 preamp + Model 240 power amp in one; variable overlap drive", src="audio-database.com"),
+    "1250":   dict(ys=1976, w=130, thd=0.1,   fr="20-20000", wt=18.5, yen=195.0, ckt="3-stage direct-coupled NF differential equalizer; tri-circuit routing", src="audio-database.com"),
+    "PM-5 Esotec": dict(w=80, thd=0.015, fr="20-20000", wt=13.0, yen=100.0, ckt="Switchable pure Class A (20W) / Class AB (80W); complete push-pull DC amplifier", src="audio-database.com"),
+    "PM-54":  dict(ys=1984, w=80,  thd=0.015, fr="20-20000", wt=8.8,  yen=62.0,  ckt="AVSS (Auto Voltage Shift Supply)", src="audio-database.com"),
+    "PM-84":  dict(ys=1983, w=120, thd=0.015, fr="20-20000", wt=18.0, yen=125.0, ckt="Quarter-A circuit + AVSS; pure Class A to 1/4 power", src="audio-database.com"),
+    "PM-80":  dict(ys=1989, w=100, thd=0.0008, fr="10-100000", wt=17.5, yen=65.0, ckt="Parallel push-pull, 3-stage Darlington; Class A (20W) / AB (100W) switchable", src="audio-database.com"),
+    "PM-94":  dict(ys=1985, w=140, thd=0.005, fr="20-20000", wt=23.0, yen=228.0, ckt="Triple push-pull MOS-FET; Quarter-A circuit; Class A (35W) / AB (140W)", src="audio-database.com"),
+    "PM66 KI Signature": dict(w=50, thd=0.03, fr="10-100000", wt=6.6, ckt="Ken Ishiwata Signature; figures from base PM-66SE (KI edition may differ)", src="audio-database.com"),
+    # --- US receivers / quad (classicreceivers.com, vintageaudioexchange) ---
+    "2215":  dict(w=15, ckt="Stereophonic solid-state receiver", src="Marantz 22xx convention (2270/2265/2215B corroborated)"),
+    "2230":  dict(w=30, ckt="Stereophonic solid-state receiver", src="Marantz 22xx convention (2270/2265/2215B corroborated)"),
+    "2245":  dict(w=45, ckt="Stereophonic solid-state receiver", src="Marantz 22xx convention (2270/2265/2215B corroborated)"),
+    "2270":  dict(ys=1971, ye=1976, w=70, thd=0.3, wt=17.5, ckt="Stereophonic solid-state receiver", src="classicreceivers.com"),
+    "2265":  dict(w=65, ckt="Stereophonic solid-state receiver", src="classicreceivers.com"),
+    "2215B": dict(w=15, ckt="Stereophonic solid-state receiver", src="hqaudios/classicreceivers"),
+    "4230":  dict(ys=1973, ye=1978, w=30,  wt=14.2, ckt="Quadradial 2+4 receiver; 30W/ch stereo, 12W/ch quad (8ohm)", src="classicreceivers.com"),
+    "4270":  dict(ys=1974, w=70,  wt=18.4, ckt="Quadradial 2+4 receiver; 70W/ch stereo, 25W/ch quad (8ohm)", src="classicreceivers.com"),
+    "4400":  dict(ys=1974, ye=1978, w=125, ckt="Quadradial 2+4 receiver; 125W/ch stereo, 50W/ch quad", src="classicreceivers.com"),
+}
+
+
 def slug(model):
     return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", model.lower())).strip("-")
 
@@ -91,6 +123,11 @@ def build():
     for (model, mtype, ys, ye, series, thb, usd, extra) in DATA:
         has_price = bool(thb) or usd is not None
         note = SOURCE_NOTE + (f" {extra}." if extra else "")
+        sp = SPECS.get(model, {})
+        if sp:
+            ys = sp.get("ys", ys)
+            ye = sp.get("ye", ye)
+            note += f" Specs sourced from {sp['src']} (still unverified)."
         rec = {
             "id": f"marantz-{slug(model)}" + (f"-{ys}" if ys else ""),
             "brand": "Marantz",
@@ -100,13 +137,13 @@ def build():
             "series": series,
             "year_start": ys,
             "year_end": ye,
-            "japan_price_kyen": None,
-            "watts_per_channel": None,
-            "freq_response_hz": None,
-            "thd_percent": None,
+            "japan_price_kyen": sp.get("yen"),
+            "watts_per_channel": sp.get("w"),
+            "freq_response_hz": sp.get("fr"),
+            "thd_percent": sp.get("thd"),
             "ps_type": None,
-            "amp_circuit": None,
-            "weight_kg": None,
+            "amp_circuit": sp.get("ckt"),
+            "weight_kg": sp.get("wt"),
             "special_features": None,
             "pros": None,
             "cons": None,
@@ -130,7 +167,7 @@ def build():
             "verified": False,
             "avg_price_usd_3mo": usd,
             "price_basis": None,
-            "year_source": "wayne-list (FB/YouTube, unverified)",
+            "year_source": sp.get("src", "wayne-list (FB/YouTube, unverified)"),
             "price_thb_listings": thb or [],
             "usd_msrp": None,
             "market": None,
