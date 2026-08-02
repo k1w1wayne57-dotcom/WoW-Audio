@@ -20,7 +20,7 @@ DATA = [
     ("Model 14", None, 1966, 1969, "Early Solid-State", None, None, None),
     ("Model 15", None, 1966, 1969, "Early Solid-State", None, None, "Early solid-state; type unconfirmed"),
     ("Model 16", None, 1966, 1969, "Early Solid-State", None, None, "Early solid-state; type unconfirmed"),
-    ("Superscope BLA-530", None, 1967, 1971, "Superscope", None, None, "Superscope budget line; details unconfirmed"),
+    ("Superscope BLA-530", None, 1967, 1971, "Superscope", None, None, None),
     # --- Japan-market models ---
     ("Model 18", "Receiver", None, None, "Japan-market", None, None, None),
     ("Model 19", "Receiver", None, None, "Japan-market", None, None, None),
@@ -92,6 +92,8 @@ SPECS = {
     "Model 8": dict(ys=1959, ye=1962, w=30, ckt="Stereo tube power amp; 2x30W, EL34/6CA7 output (8 tubes); revised as Model 8B", src="radiomuseum.org"),
     "Model 9": dict(ys=1961, ye=1968, w=70, fr="12-40000", ckt="Mono tube monoblock (EL34 push-pull); 40W triode-switchable; pair for stereo", src="radiomuseum/stereophile"),
     "Model 14": dict(ys=1968, type="Power Amp", w=60, thd=0.1, fr="10-60000", wt=8.17, ckt="Solid-state mono (single-channel) power amp; 60W into 8ohm / 70W into 4ohm", src="radiomuseum.org"),
+    "Superscope BLA-530": dict(ys=1978, ye=None, type="Integrated", thd=0.1, fr="20-50000", ckt="Superscope (Marantz budget division) stereo integrated amp; 30W/ch into 4ohm, damping 45", src="hifiengine/websearch"),
+    "Model 22": dict(ys=1969, w=40, thd=0.3, wt=16.8, ckt="Stereophonic solid-state receiver", src="classicreceivers.com"),
     # --- Integrated / PM (audio-database.com, Japan-market) ---
     "1030":   dict(ys=1972, w=15,  thd=0.5,   fr="15-40000", wt=7.7,  yen=39.9,  ckt="Entry pre-main; simplified Marantz design", src="audio-database.com"),
     "1090":   dict(ys=1977, w=45,  thd=0.1,   fr="10-60000", wt=9.5,  ckt="Console stereo integrated amplifier", src="reverb/hifivintage"),
