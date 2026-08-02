@@ -268,16 +268,22 @@ function openModal(item) {
   const recap = (item.restorer_info && item.restorer_info.recap_difficulty) || null;
   const failurePoints = (item.restorer_info && item.restorer_info.known_failure_points) || [];
   const commonFaults = (item.restorer_info && item.restorer_info.common_faults) || [];
+  let typeDisplay = item.type || "";
+  if (/integrated/i.test(typeDisplay)) typeDisplay += " Amplifier";
 
   modalContent.innerHTML = `
     <div class="modal-header">
       <div>
         <h2>${escapeHtml(item.jdm_model)}${item.int_model ? " / " + escapeHtml(item.int_model) : ""}</h2>
-        <p class="modal-sub">${escapeHtml(item.type || "")} | ${years}</p>
+        <p class="modal-sub"><strong>${escapeHtml(typeDisplay)}</strong> | ${years}</p>
         <div class="modal-badges">
           <span class="rank-badge ${rankClass(item.collector_ranking)}">${item.collector_ranking || "Unranked"}</span>
-          ${item.best_buy && item.best_buy.rating ? `<span class="bestbuy-star">⭐ Best Buy</span>` : ""}
         </div>
+        ${item.best_buy && item.best_buy.rating ? `
+        <div class="modal-bestbuy-top">
+          <span class="bestbuy-star">${"⭐".repeat(item.best_buy.rating)}</span> <strong>Best Buy</strong>
+          ${item.best_buy.reason ? `<p class="bestbuy-reason">${escapeHtml(item.best_buy.reason)}</p>` : ""}
+        </div>` : ""}
       </div>
     </div>
 
@@ -285,15 +291,15 @@ function openModal(item) {
       <h3>Specifications</h3>
       <div class="spec-grid">
         <div class="spec-row"><span class="spec-label">Watts</span><span class="spec-value">${item.watts_per_channel ? item.watts_per_channel + "w/ch" : "—"}</span></div>
-        <div class="spec-row"><span class="spec-label">Weight</span><span class="spec-value">${item.weight_kg ? item.weight_kg + " kg" : "—"}</span></div>
-        <div class="spec-row"><span class="spec-label">Freq Response</span><span class="spec-value">${escapeHtml(item.freq_response_hz || "—")}</span></div>
-        <div class="spec-row"><span class="spec-label">THD</span><span class="spec-value">${item.thd_percent !== null && item.thd_percent !== undefined ? item.thd_percent + "%" : "—"}</span></div>
-        <div class="spec-row"><span class="spec-label">PS Type</span><span class="spec-value">${escapeHtml(item.ps_type || "—")}</span></div>
-        <div class="spec-row"><span class="spec-label">Circuit</span><span class="spec-value">${escapeHtml(item.amp_circuit || "—")}</span></div>
         <div class="spec-row"><span class="spec-label">Japan Price</span><span class="spec-value">${item.japan_price_kyen ? "¥" + (item.japan_price_kyen * 1000).toLocaleString() : "—"}</span></div>
-        <div class="spec-row"><span class="spec-label">US List</span><span class="spec-value">${item.usd_msrp ? "$" + item.usd_msrp.toLocaleString() : "—"}</span></div>
-        <div class="spec-row"><span class="spec-label">Market</span><span class="spec-value">${item.market === "International" ? "International (export badge)" : item.market === "JDM" ? "Japan domestic (JDM)" : "—"}</span></div>
-        <div class="spec-row"><span class="spec-label">${item.market === "International" ? "JDM Model" : "Int'l Model"}</span><span class="spec-value">${escapeHtml(item.int_model || "—")}</span></div>
+        <div class="spec-row"><span class="spec-label">Freq Response</span><span class="spec-value">${escapeHtml(item.freq_response_hz || "—")}</span></div>
+        <div class="spec-row"><span class="spec-label">Last 3-Mo Avg Price</span><span class="spec-value">${item.avg_price_usd_3mo ? "$" + item.avg_price_usd_3mo.toLocaleString() + (item.price_basis === "restored" ? " (rest.)" : "") : "—"}</span></div>
+        <div class="spec-row"><span class="spec-label">THD</span><span class="spec-value">${item.thd_percent !== null && item.thd_percent !== undefined ? item.thd_percent + "%" : "—"}</span></div>
+        <div class="spec-row"><span class="spec-label">Target Market</span><span class="spec-value">${item.market === "International" ? "International (export badge)" : item.market === "JDM" ? "Japan domestic (JDM)" : "—"}</span></div>
+        <div class="spec-row"><span class="spec-label">Weight</span><span class="spec-value">${item.weight_kg ? item.weight_kg + " kg" : "—"}</span></div>
+        <div class="spec-row"><span class="spec-label">International Model</span><span class="spec-value">${escapeHtml(item.int_model || "—")}</span></div>
+        <div class="spec-row"><span class="spec-label">PS Type</span><span class="spec-value">${escapeHtml(item.ps_type || "—")}</span></div>
+        <div class="spec-row"><span class="spec-label">Amplifier Circuit</span><span class="spec-value">${escapeHtml(item.amp_circuit || "—")}</span></div>
       </div>
       ${item.special_features ? `<p class="info-line"><span class="il-label">Special Features:</span>${escapeHtml(item.special_features)}</p>` : ""}
     </div>
@@ -329,13 +335,6 @@ function openModal(item) {
       ${failurePoints.length ? `<p class="info-line" style="margin-top:12px;"><strong>Known Failure Points:</strong></p><ul class="fault-list">${failurePoints.map(f => `<li>${escapeHtml(f)}</li>`).join("")}</ul>` : ""}
       ${commonFaults.length ? `<p class="info-line" style="margin-top:12px;"><strong>Common Faults:</strong></p><ul class="fault-list simple">${commonFaults.map(f => `<li>${escapeHtml(f)}</li>`).join("")}</ul>` : ""}
     </div>
-
-    ${item.best_buy && item.best_buy.rating ? `
-    <div class="modal-section">
-      <h3>⭐ Best Buy Rating</h3>
-      <p class="info-line">Rating: <span class="bestbuy-star">${"⭐".repeat(item.best_buy.rating)}</span></p>
-      ${item.best_buy.reason ? `<p class="info-line">Reason: ${escapeHtml(item.best_buy.reason)}</p>` : ""}
-    </div>` : ""}
 
     <div class="modal-section">
       <h3>🔩 Capacitor List</h3>
