@@ -86,9 +86,14 @@ DATA = [
 # source is audio-database.com; US figures from classicreceivers.com / vintageaudioexchange.
 # w=watts/ch into 8ohm, thd=%, fr=freq response Hz, wt=weight kg, yen=price in thousands of yen.
 # ys/ye override the roadmap years only when the source gives a firmer figure.
+CONV = "Marantz 22xx model-number convention (last two digits = W/ch; corroborated by 8+ sourced models)"
 SPECS = {
+    # --- Tube era (radiomuseum / stereophile / hifiengine) ---
+    "Model 8": dict(ys=1959, ckt="Stereo tube power amplifier (EL34 push-pull; revised as Model 8B)", src="stereophile/hifiengine"),
+    "Model 9": dict(ys=1961, ye=1968, w=70, fr="12-40000", ckt="Mono tube monoblock (EL34 push-pull); 40W triode-switchable; pair for stereo", src="radiomuseum/stereophile"),
     # --- Integrated / PM (audio-database.com, Japan-market) ---
     "1030":   dict(ys=1972, w=15,  thd=0.5,   fr="15-40000", wt=7.7,  yen=39.9,  ckt="Entry pre-main; simplified Marantz design", src="audio-database.com"),
+    "1090":   dict(ys=1977, w=45,  thd=0.1,   fr="10-60000", wt=9.5,  ckt="Console stereo integrated amplifier", src="reverb/hifivintage"),
     "1060":   dict(ys=1972, w=30,  thd=0.5,   fr="20-20000", wt=8.4,  yen=54.9,  ckt="Quasi-complementary; 3-stage direct-coupled NF equalizer", src="audio-database.com"),
     "1070":   dict(ys=1975, w=40,  thd=0.3,   fr="20-20000", wt=8.4,  yen=69.9,  ckt="Inverting Darlington; mid-range tone control; speaker matrix", src="audio-database.com"),
     "1150":   dict(ys=1975, w=80,  thd=0.1,   fr="20-20000", wt=15.0, yen=125.0, ckt="Direct-coupled push-pull, inverted Darlington output", src="audio-database.com"),
@@ -110,7 +115,26 @@ SPECS = {
     "2215B": dict(w=15, ckt="Stereophonic solid-state receiver", src="hqaudios/classicreceivers"),
     "4230":  dict(ys=1973, ye=1978, w=30,  wt=14.2, ckt="Quadradial 2+4 receiver; 30W/ch stereo, 12W/ch quad (8ohm)", src="classicreceivers.com"),
     "4270":  dict(ys=1974, w=70,  wt=18.4, ckt="Quadradial 2+4 receiver; 70W/ch stereo, 25W/ch quad (8ohm)", src="classicreceivers.com"),
+    "4300":  dict(ys=1972, ye=1978, w=100, ckt="Quadradial 2+4 receiver; 100W/ch stereo", src="classicreceivers.com"),
     "4400":  dict(ys=1974, ye=1978, w=125, ckt="Quadradial 2+4 receiver; 125W/ch stereo, 50W/ch quad", src="classicreceivers.com"),
+    # --- 22xx B-models: watts from Marantz naming convention (year/weight not sourced) ---
+    "2210":  dict(w=10, ckt="Stereophonic solid-state receiver", src=CONV),
+    "2216B": dict(w=16, ckt="Stereophonic solid-state receiver", src=CONV),
+    "2218":  dict(w=18, ckt="Stereophonic solid-state receiver", src=CONV),
+    "2220B": dict(w=20, ckt="Stereophonic solid-state receiver", src=CONV),
+    "2235B": dict(w=35, ckt="Stereophonic solid-state receiver", src=CONV),
+    "2238B": dict(ys=1977, w=38, ckt="Stereophonic solid-state receiver", src="classicreceivers.com"),
+    "2250":  dict(w=50, ckt="Stereophonic solid-state receiver", src=CONV),
+    "2250B": dict(w=50, ckt="Stereophonic solid-state receiver", src=CONV),
+    "2260":  dict(w=60, ckt="Stereophonic solid-state receiver", src=CONV),
+    "2285B": dict(ys=1977, w=85, ckt="Stereophonic solid-state receiver (heavyweight 22xx)", src="classicreceivers.com"),
+    # --- 23xx heavyweight receivers ---
+    "2325":  dict(ys=1974, ye=1976, w=125, thd=0.1,  wt=22.5, ckt="Stereophonic solid-state receiver", src="classicreceivers.com"),
+    "2330B": dict(ys=1977, ye=1979, w=130, thd=0.07, wt=22.5, ckt="Stereophonic solid-state receiver", src="classicreceivers.com"),
+    "2385":  dict(ys=1977, ye=1980, w=185, wt=26.0,  ckt="Stereophonic solid-state receiver (flagship 23xx)", src="classicreceivers.com"),
+    # --- Champagne / Monster receiver era ---
+    "2500":  dict(ys=1977, ye=1979, w=250, thd=0.05, wt=27.0, ckt="Monster-era flagship receiver", src="classicreceivers.com"),
+    "2600":  dict(ys=1978, w=300, ckt="Flagship monster receiver", src="classicreceivers.com"),
 }
 
 
