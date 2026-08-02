@@ -2,6 +2,7 @@
 
 let DB = [];
 let currentSort = "collector";
+let currentBrand = "all";
 let currentType = "all";
 let currentEra = "all";
 let bestBuyOnly = false;
@@ -15,17 +16,43 @@ const noResults = document.getElementById("no-results");
 
 init();
 
+const DATA_FILES = ["data/sansui.json", "data/marantz.json"];
+
 async function init() {
-  try {
-    const res = await fetch("data/sansui.json");
-    DB = await res.json();
-  } catch (e) {
-    tableBody.innerHTML = `<tr><td colspan="11" style="padding:24px;text-align:center;color:var(--text-secondary)">Could not load database (data/sansui.json). If opening this file directly, run a local server instead.</td></tr>`;
+  const results = await Promise.all(
+    DATA_FILES.map(f => fetch(f).then(r => (r.ok ? r.json() : [])).catch(() => []))
+  );
+  DB = results.flat();
+  if (!DB.length) {
+    tableBody.innerHTML = `<tr><td colspan="11" style="padding:24px;text-align:center;color:var(--text-secondary)">Could not load database. If opening this file directly, run a local server instead.</td></tr>`;
     return;
   }
+  populateBrands();
   populateStats();
   bindControls();
   render();
+}
+
+function populateBrands() {
+  const row = document.getElementById("brand-row");
+  if (!row) return;
+  const brands = [...new Set(DB.map(d => d.brand).filter(Boolean))].sort();
+  if (brands.length < 2) { row.style.display = "none"; return; }
+  const makeBtn = (label, value, active) => {
+    const b = document.createElement("button");
+    b.className = "btn brand-btn" + (active ? " active" : "");
+    b.dataset.brand = value;
+    b.textContent = label;
+    b.addEventListener("click", () => {
+      row.querySelectorAll(".brand-btn").forEach(x => x.classList.remove("active"));
+      b.classList.add("active");
+      currentBrand = value;
+      render();
+    });
+    return b;
+  };
+  row.appendChild(makeBtn("All", "all", true));
+  brands.forEach(br => row.appendChild(makeBtn(br, br, false)));
 }
 
 function populateStats() {
@@ -139,6 +166,7 @@ function matchesSearch(item, term) {
 
 function getFiltered() {
   return DB.filter(item =>
+    (currentBrand === "all" || item.brand === currentBrand) &&
     matchesType(item, currentType) &&
     matchesEra(item, currentEra) &&
     matchesSearch(item, searchTerm) &&
@@ -234,6 +262,7 @@ function render() {
     tr.innerHTML = `
       <td><span class="rank-badge ${rankClass(item.collector_ranking)}">${item.collector_ranking || "Unranked"}</span></td>
       <td class="model-cell">
+        ${item.brand ? `<span class="model-brand">${escapeHtml(item.brand)}</span>` : ""}
         <span class="model-jdm">${escapeHtml(item.jdm_model)}</span>
         ${item.int_model ? `<span class="model-int">${escapeHtml(item.int_model)}</span>` : ""}
       </td>
@@ -274,6 +303,7 @@ function openModal(item) {
   modalContent.innerHTML = `
     <div class="modal-header">
       <div>
+        ${item.brand ? `<p class="modal-brand">${escapeHtml(item.brand)}</p>` : ""}
         <h2>${escapeHtml(item.jdm_model)}${item.int_model ? " / " + escapeHtml(item.int_model) : ""}</h2>
         <p class="modal-sub"><strong>${escapeHtml(typeDisplay)}</strong> | ${years}</p>
         <div class="modal-badges">
@@ -297,7 +327,7 @@ function openModal(item) {
         <div class="spec-row"><span class="spec-label">THD</span><span class="spec-value">${item.thd_percent !== null && item.thd_percent !== undefined ? item.thd_percent + "%" : "—"}</span></div>
         <div class="spec-row"><span class="spec-label">Target Market</span><span class="spec-value">${item.market === "International" ? "International (export badge)" : item.market === "JDM" ? "Japan domestic (JDM)" : "—"}</span></div>
         <div class="spec-row"><span class="spec-label">Weight</span><span class="spec-value">${item.weight_kg ? item.weight_kg + " kg" : "—"}</span></div>
-        <div class="spec-row"><span class="spec-label">International Model</span><span class="spec-value">${escapeHtml(item.int_model || "—")}</span></div>
+        <div class="spec-row"><span class="spec-label">International Model</span><span class="spec-value">${item.market === "International" ? "—" : escapeHtml(item.int_model || "—")}</span></div>
         <div class="spec-row"><span class="spec-label">PS Type</span><span class="spec-value">${escapeHtml(item.ps_type || "—")}</span></div>
         <div class="spec-row"><span class="spec-label">Amplifier Circuit</span><span class="spec-value">${escapeHtml(item.amp_circuit || "—")}</span></div>
       </div>
@@ -360,8 +390,8 @@ function openModal(item) {
         ${item.links && item.links.audio_database ? `<a href="${item.links.audio_database}" target="_blank" rel="noopener">📄 Audio Database</a>` : ""}
         ${item.links && item.links.hifi_engine ? `<a href="${item.links.hifi_engine}" target="_blank" rel="noopener">📋 HiFi Engine</a>` : ""}
         ${item.links && item.links.sansui_us ? `<a href="${item.links.sansui_us}" target="_blank" rel="noopener">🌐 Sansui.us</a>` : ""}
-        <a href="https://hifishark.com/?s=${encodeURIComponent("sansui " + item.jdm_model)}" target="_blank" rel="noopener">🔍 Search HiFi Shark</a>
-        <a href="https://www.ebay.com/sch/i.html?_nkw=${encodeURIComponent("sansui " + item.jdm_model)}" target="_blank" rel="noopener">🔍 Search eBay</a>
+        <a href="https://hifishark.com/?s=${encodeURIComponent((item.brand || "") + " " + item.jdm_model)}" target="_blank" rel="noopener">🔍 Search HiFi Shark</a>
+        <a href="https://www.ebay.com/sch/i.html?_nkw=${encodeURIComponent((item.brand || "") + " " + item.jdm_model)}" target="_blank" rel="noopener">🔍 Search eBay</a>
       </div>
     </div>
 
