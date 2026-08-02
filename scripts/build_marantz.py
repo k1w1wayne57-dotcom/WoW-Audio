@@ -89,7 +89,7 @@ DATA = [
 CONV = "Marantz 22xx model-number convention (last two digits = W/ch; corroborated by 8+ sourced models)"
 SPECS = {
     # --- Tube era (radiomuseum / stereophile / hifiengine) ---
-    "Model 8": dict(ys=1959, ckt="Stereo tube power amplifier (EL34 push-pull; revised as Model 8B)", src="stereophile/hifiengine"),
+    "Model 8": dict(ys=1959, ye=1962, w=30, ckt="Stereo tube power amp; 2x30W, EL34/6CA7 output (8 tubes); revised as Model 8B", src="radiomuseum.org"),
     "Model 9": dict(ys=1961, ye=1968, w=70, fr="12-40000", ckt="Mono tube monoblock (EL34 push-pull); 40W triode-switchable; pair for stereo", src="radiomuseum/stereophile"),
     # --- Integrated / PM (audio-database.com, Japan-market) ---
     "1030":   dict(ys=1972, w=15,  thd=0.5,   fr="15-40000", wt=7.7,  yen=39.9,  ckt="Entry pre-main; simplified Marantz design", src="audio-database.com"),
