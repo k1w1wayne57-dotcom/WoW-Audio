@@ -1,3 +1,6 @@
 .claude/
 __pycache__/
 *.pyc
+
+# Local reference PDFs — large, not versioned
+Service manuals/
