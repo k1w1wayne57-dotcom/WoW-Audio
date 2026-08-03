@@ -3411,9 +3411,9 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 30-40",
+    "collector_ranking": "Top 10-20",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": null,
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -3428,8 +3428,8 @@
       "common_faults": []
     },
     "best_buy": {
-      "rating": 3,
-      "reason": "Model 250 power amp (~$500 USD clean/refurbished); this ฿3,900 (~$110) example is rough — a fair project-unit price, not a bargain."
+      "rating": null,
+      "reason": null
     },
     "capacitors": [],
     "links": {
@@ -3438,15 +3438,13 @@
       "sansui_us": null,
       "source": null
     },
-    "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. US-designed, Japan-produced; dual VU meters. Specs sourced from audio-database.com (still unverified).",
+    "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Sidney Smith-era US power amp; dual VU meters. Specs sourced from audio-database.com (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": 500,
+    "avg_price_usd_3mo": 1950,
     "price_basis": "hifishark median 2026",
     "year_source": "audio-database.com",
-    "price_thb_listings": [
-      3900
-    ],
+    "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
@@ -3973,6 +3971,66 @@
     "price_basis": "hifishark median 2026",
     "year_source": "audio-database.com",
     "price_thb_listings": [],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": null,
+    "thb_status": null
+  },
+  {
+    "id": "marantz-pm-250-1979",
+    "brand": "Marantz",
+    "jdm_model": "PM-250",
+    "int_model": null,
+    "type": "Integrated",
+    "series": "PM Series",
+    "year_start": 1979,
+    "year_end": 1981,
+    "japan_price_kyen": null,
+    "watts_per_channel": 25,
+    "freq_response_hz": "20-50000",
+    "thd_percent": 0.1,
+    "ps_type": null,
+    "amp_circuit": "Console stereo integrated amp; damping 100 (do not confuse with the Model 250 power amp)",
+    "weight_kg": null,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "price_confidence": "Medium",
+    "last_price_check": "2026-08",
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": 2,
+      "reason": "PM-250 console integrated (~$300 typical, ~$500 clean/refurbished); this ฿3,900 (~$110) unit is rough — a modest project buy."
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": "https://www.hifiengine.com/manual_library/marantz/pm250.shtml",
+      "sansui_us": null,
+      "source": null
+    },
+    "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. US-designed, Japan-produced console integrated (distinct from the Model 250 power amp). Specs sourced from hifi-wiki/hifiengine (still unverified).",
+    "verified": false,
+    "verification": "sourced",
+    "avg_price_usd_3mo": 300,
+    "price_basis": "hifishark median 2026",
+    "year_source": "hifi-wiki/hifiengine",
+    "price_thb_listings": [
+      3900
+    ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
