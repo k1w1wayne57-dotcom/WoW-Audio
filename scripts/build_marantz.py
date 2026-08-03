@@ -183,6 +183,32 @@ RANKINGS = {
 }
 
 
+# Latest USD market price (HiFiShark median, ~2026), approximates collectability. EUR->USD ~1.08.
+PRICES = {
+    "2270": 1135, "2265": 1200, "2238B": 870, "2215B": 490, "2218": 400, "2216B": 565,
+    "4230": 790, "4270": 1950, "4400": 3300,
+    "1070": 380, "1090": 400, "PM-710 DC": 630, "PM 500": 300, "PM-5 Esotec": 790,
+}
+
+# Best Buy (1-5 stars) = collectability (USD price) AND how cheap the Thai baht price is vs USD.
+# Only the Thai-priced models can be scored (needs both a Thai price and a USD market price).
+BESTBUY = {
+    "4400": (5, "Grail quadradial (~$3,300 USD) turning up in Thailand near ฿39k (~$1,100) — exceptional value for a flagship."),
+    "4270": (4, "Sought-after quad (~$1,950 USD) at ~฿34k (~$970) — strong value on a collectable receiver."),
+    "2238B": (4, "38W receiver (~$870 USD) around ฿16.5k (~$470) — a good discount to the global market."),
+    "2216B": (4, "~$565 USD abroad vs ~฿7k (~$200) locally — well under market."),
+    "2215B": (4, "Entry blue-dial 22xx (~$490 USD) at ฿5.2k (~$150) — a cheap way into the line."),
+    "PM-710 DC": (4, "DC integrated (~$630 USD) at ฿6.9k (~$200) — a big discount to overseas prices."),
+    "4230": (4, "Quad receiver (~$790 USD) at ฿15k (~$430) — good value entry to Quadradial."),
+    "2265": (3, "Collectable 65W (~$1,200 USD), but ฿27.8k (~$790) is close to global pricing."),
+    "1070": (3, "Modest integrated (~$380 USD) at ฿5.9k (~$170) — fair value."),
+    "PM-5 Esotec": (3, "Class-A Esotec (~$790 USD) at ฿16.5–18.5k (~$470–530) — reasonable."),
+    "2218": (3, "18W receiver (~$400 USD) at ฿8.2k (~$235) — modest value."),
+    "1090": (2, "45W integrated (~$400 USD) at ฿9k (~$260) — only a small discount."),
+    "PM 500": (2, "Budget-era console (~$300 USD) at ฿8.5k (~$245) — little upside."),
+}
+
+
 def slug(model):
     return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", model.lower())).strip("-")
 
@@ -251,14 +277,15 @@ def build():
                 "estimated_recap_cost_usd": None,
                 "common_faults": [],
             },
-            "best_buy": {"rating": None, "reason": None},
+            "best_buy": {"rating": BESTBUY.get(model, (None,))[0],
+                         "reason": BESTBUY[model][1] if model in BESTBUY else None},
             "capacitors": [],
             "links": links,
             "notes": note,
             "verified": False,
             "verification": verification,
-            "avg_price_usd_3mo": usd,
-            "price_basis": None,
+            "avg_price_usd_3mo": PRICES.get(model, usd),
+            "price_basis": "hifishark median 2026" if model in PRICES else None,
             "year_source": sp.get("src", "wayne-list (FB/YouTube, unverified)"),
             "price_thb_listings": thb or [],
             "usd_msrp": None,

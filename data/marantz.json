@@ -905,8 +905,8 @@
       "common_faults": []
     },
     "best_buy": {
-      "rating": null,
-      "reason": null
+      "rating": 3,
+      "reason": "Modest integrated (~$380 USD) at ฿5.9k (~$170) — fair value."
     },
     "capacitors": [],
     "links": {
@@ -918,8 +918,8 @@
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from audio-database.com (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 380,
+    "price_basis": "hifishark median 2026",
     "year_source": "audio-database.com",
     "price_thb_listings": [
       5900
@@ -965,8 +965,8 @@
       "common_faults": []
     },
     "best_buy": {
-      "rating": null,
-      "reason": null
+      "rating": 2,
+      "reason": "45W integrated (~$400 USD) at ฿9k (~$260) — only a small discount."
     },
     "capacitors": [],
     "links": {
@@ -978,8 +978,8 @@
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from hifivintage.eu (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 400,
+    "price_basis": "hifishark median 2026",
     "year_source": "hifivintage.eu",
     "price_thb_listings": [
       9000
@@ -1315,8 +1315,8 @@
       "common_faults": []
     },
     "best_buy": {
-      "rating": null,
-      "reason": null
+      "rating": 4,
+      "reason": "DC integrated (~$630 USD) at ฿6.9k (~$200) — a big discount to overseas prices."
     },
     "capacitors": [],
     "links": {
@@ -1328,8 +1328,8 @@
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from radiomuseum/hifi-wiki (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 630,
+    "price_basis": "hifishark median 2026",
     "year_source": "radiomuseum/hifi-wiki",
     "price_thb_listings": [
       6900
@@ -1491,8 +1491,8 @@
       "common_faults": []
     },
     "best_buy": {
-      "rating": null,
-      "reason": null
+      "rating": 4,
+      "reason": "Entry blue-dial 22xx (~$490 USD) at ฿5.2k (~$150) — a cheap way into the line."
     },
     "capacitors": [],
     "links": {
@@ -1504,8 +1504,8 @@
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from hqaudios/classicreceivers (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 490,
+    "price_basis": "hifishark median 2026",
     "year_source": "hqaudios/classicreceivers",
     "price_thb_listings": [
       5200
@@ -1551,8 +1551,8 @@
       "common_faults": []
     },
     "best_buy": {
-      "rating": null,
-      "reason": null
+      "rating": 4,
+      "reason": "~$565 USD abroad vs ~฿7k (~$200) locally — well under market."
     },
     "capacitors": [],
     "links": {
@@ -1564,8 +1564,8 @@
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from Marantz 22xx model-number convention (last two digits = W/ch; corroborated by 8+ sourced models) (still unverified).",
     "verified": false,
     "verification": "unconfirmed",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 565,
+    "price_basis": "hifishark median 2026",
     "year_source": "Marantz 22xx model-number convention (last two digits = W/ch; corroborated by 8+ sourced models)",
     "price_thb_listings": [
       7000
@@ -1611,8 +1611,8 @@
       "common_faults": []
     },
     "best_buy": {
-      "rating": null,
-      "reason": null
+      "rating": 3,
+      "reason": "18W receiver (~$400 USD) at ฿8.2k (~$235) — modest value."
     },
     "capacitors": [],
     "links": {
@@ -1624,8 +1624,8 @@
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from Marantz 22xx model-number convention (last two digits = W/ch; corroborated by 8+ sourced models) (still unverified).",
     "verified": false,
     "verification": "unconfirmed",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 400,
+    "price_basis": "hifishark median 2026",
     "year_source": "Marantz 22xx model-number convention (last two digits = W/ch; corroborated by 8+ sourced models)",
     "price_thb_listings": [
       8200
@@ -1845,8 +1845,8 @@
       "common_faults": []
     },
     "best_buy": {
-      "rating": null,
-      "reason": null
+      "rating": 4,
+      "reason": "38W receiver (~$870 USD) around ฿16.5k (~$470) — a good discount to the global market."
     },
     "capacitors": [],
     "links": {
@@ -1858,8 +1858,8 @@
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from classicreceivers.com (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 870,
+    "price_basis": "hifishark median 2026",
     "year_source": "classicreceivers.com",
     "price_thb_listings": [
       16500
@@ -2137,8 +2137,8 @@
       "common_faults": []
     },
     "best_buy": {
-      "rating": null,
-      "reason": null
+      "rating": 3,
+      "reason": "Collectable 65W (~$1,200 USD), but ฿27.8k (~$790) is close to global pricing."
     },
     "capacitors": [],
     "links": {
@@ -2150,8 +2150,8 @@
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from classicreceivers.com (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 1200,
+    "price_basis": "hifishark median 2026",
     "year_source": "classicreceivers.com",
     "price_thb_listings": [
       27800
@@ -2210,8 +2210,8 @@
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from classicreceivers.com (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 1135,
+    "price_basis": "hifishark median 2026",
     "year_source": "classicreceivers.com",
     "price_thb_listings": [],
     "usd_msrp": null,
@@ -2661,8 +2661,8 @@
       "common_faults": []
     },
     "best_buy": {
-      "rating": null,
-      "reason": null
+      "rating": 4,
+      "reason": "Quad receiver (~$790 USD) at ฿15k (~$430) — good value entry to Quadradial."
     },
     "capacitors": [],
     "links": {
@@ -2674,8 +2674,8 @@
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from classicreceivers.com (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": 575,
-    "price_basis": null,
+    "avg_price_usd_3mo": 790,
+    "price_basis": "hifishark median 2026",
     "year_source": "classicreceivers.com",
     "price_thb_listings": [
       15000
@@ -2721,8 +2721,8 @@
       "common_faults": []
     },
     "best_buy": {
-      "rating": null,
-      "reason": null
+      "rating": 4,
+      "reason": "Sought-after quad (~$1,950 USD) at ~฿34k (~$970) — strong value on a collectable receiver."
     },
     "capacitors": [],
     "links": {
@@ -2734,8 +2734,8 @@
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from classicreceivers.com (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 1950,
+    "price_basis": "hifishark median 2026",
     "year_source": "classicreceivers.com",
     "price_thb_listings": [
       34000
@@ -2839,8 +2839,8 @@
       "common_faults": []
     },
     "best_buy": {
-      "rating": null,
-      "reason": null
+      "rating": 5,
+      "reason": "Grail quadradial (~$3,300 USD) turning up in Thailand near ฿39k (~$1,100) — exceptional value for a flagship."
     },
     "capacitors": [],
     "links": {
@@ -2852,8 +2852,8 @@
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from classicreceivers.com (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 3300,
+    "price_basis": "hifishark median 2026",
     "year_source": "classicreceivers.com",
     "price_thb_listings": [
       39000
@@ -2899,8 +2899,8 @@
       "common_faults": []
     },
     "best_buy": {
-      "rating": null,
-      "reason": null
+      "rating": 3,
+      "reason": "Class-A Esotec (~$790 USD) at ฿16.5–18.5k (~$470–530) — reasonable."
     },
     "capacitors": [],
     "links": {
@@ -2912,8 +2912,8 @@
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Class A; one Thai listing noted as 220V. Specs sourced from audio-database.com (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 790,
+    "price_basis": "hifishark median 2026",
     "year_source": "audio-database.com",
     "price_thb_listings": [
       18500,
@@ -2960,8 +2960,8 @@
       "common_faults": []
     },
     "best_buy": {
-      "rating": null,
-      "reason": null
+      "rating": 2,
+      "reason": "Budget-era console (~$300 USD) at ฿8.5k (~$245) — little upside."
     },
     "capacitors": [],
     "links": {
@@ -2973,8 +2973,8 @@
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from radiomuseum/hifiengine (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 300,
+    "price_basis": "hifishark median 2026",
     "year_source": "radiomuseum/hifiengine",
     "price_thb_listings": [
       8500
