@@ -82,7 +82,7 @@ DATA = [
     # --- Notable models added from HiFiShark sweep (grails + mainstream 22xx we'd skipped) ---
     ("Model 7", "Preamp", 1958, 1967, "Tube Era", None, None, "Model 7/7C tube control preamp — the definitive vintage tube preamp"),
     ("Model 10B", "Tuner", 1964, 1968, "Tube Era", None, None, "Tube FM tuner with CRT scope — regarded a top-3 vintage tuner"),
-    ("Model 250", "Power Amp", 1971, 1973, "Separates", None, None, "Pairs with the Model 3300 preamp"),
+    ("Model 250", "Power Amp", 1971, 1973, "Separates", [3900], None, "US-designed, Japan-produced; dual VU meters"),
     ("2240", "Receiver", 1974, 1975, "22XX Receiver (1st gen)", None, None, None),
     ("2275", "Receiver", 1975, 1977, "22XX Heavyweight", None, None, None),
     ("2252B", "Receiver", 1977, 1979, "22XX B Receiver", None, None, None),
@@ -90,6 +90,8 @@ DATA = [
     ("4430", "Receiver 4-ch", 1972, 1974, "Quadradial 4-channel", None, None, None),
     ("SR-2000", "Receiver", 1980, 1982, "SR Series", [4000], None, None),
     ("170DC", "Power Amp", 1978, 1980, "Separates", [21500], None, None),
+    ("Model 2", "Tube Power Amp", 1956, 1962, "Tube Era", None, None, "Marantz's first power amp; mono tube monoblock (pair for stereo)"),
+    ("Model 240", "Power Amp", 1974, 1977, "Separates", None, None, "The solid-state partner to the Model 3300 preamp (as in the 1200B)"),
 ]
 
 
@@ -174,6 +176,8 @@ SPECS = {
     "170DC": dict(ys=1978, ye=1980, w=86, thd=0.03, fr="20-20000", wt=14.1, ckt="Solid-state stereo power amp; 53 transistors; damping 60", src="hifiengine.com", url="https://www.hifiengine.com/manual_library/marantz/170dc.shtml",
         sonic="Warm and tube-like — controlled bass, smooth, slightly rolled treble; on the romantic side of the sound.",
         cnote="Balanced dealer/servicer view (weighed over effusive owner reviews): cosmetically stunning and a decent amp, but middling watt-for-watt and dollar-for-dollar — the 2265B/2285B receivers gave ~85% of the performance for similar money. Still commands high prices for the Marantz name."),
+    "Model 2": dict(ys=1956, ye=1962, type="Tube Power Amp", w=40, ckt="Mono tube power amp; 40W ultralinear / 20W triode-switchable; Marantz's first amplifier", src="stereonomono/hifiengine", url="https://www.hifiengine.com/manual_library/marantz/2.shtml"),
+    "Model 240": dict(ys=1974, ye=1977, type="Power Amp", w=120, ckt="Solid-state stereo power amp; the partner to the Model 3300 preamp", src="audio-database.com", url="https://audio-database.com/MARANTZ/amp/model240-e.html"),
 }
 
 
@@ -209,6 +213,7 @@ RANKINGS = {
     "2275": "Top 10-20", "Model 7": "Top 10-20", "Model 250": "Top 10-20", "2240": "Top 10-20",
     "2252B": "Top 20-30", "4415": "Top 20-30", "4430": "Top 30-40",
     "170DC": "Top 10-20", "SR-2000": "Top 40-50",
+    "Model 2": "Top 10", "Model 240": "Top 20-30",
 }
 
 
@@ -223,7 +228,7 @@ PRICES = {
     "Model 27": 500, "2230": 490, "2215": 490, "2215B": 490, "PM-80": 450, "PM66 KI Signature": 400,
     "1090": 400, "2218": 400, "1070": 380, "PM 500": 300,
     "Model 10B": 3400, "2275": 2400, "Model 7": 2000, "Model 250": 1950, "2240": 1420, "2252B": 870,
-    "4415": 780, "170DC": 1500, "SR-2000": 450,
+    "4415": 780, "170DC": 1500, "SR-2000": 450, "Model 240": 1000,
 }
 
 # Best Buy (1-5 stars) = collectability (USD price) AND how cheap the Thai baht price is vs USD.
@@ -237,6 +242,7 @@ BESTBUY = {
     "170DC": (4, "Well-regarded 86W power amp (~$1,500 USD) at ฿21.5k (~$615) — strong value."),
     "3300": (3, "Marantz control preamp (~$925 USD) at ฿21.5k (~$615) — a fair discount."),
     "SR-2000": (3, "Entry SR receiver (~$450 USD) at ฿4k (~$115) — cheap, though a modest unit."),
+    "Model 250": (5, "Model 250 power amp (~$1,950 USD) spotted in Thailand at just ฿3,900 (~$110) — an extraordinary price if the unit is genuine and working."),
     "PM-710 DC": (4, "DC integrated (~$630 USD) at ฿6.9k (~$200) — a big discount to overseas prices."),
     "4230": (4, "Quad receiver (~$790 USD) at ฿15k (~$430) — good value entry to Quadradial."),
     "2265": (3, "Collectable 65W (~$1,200 USD), but ฿27.8k (~$790) is close to global pricing."),

@@ -3413,7 +3413,7 @@
     "cons": null,
     "collector_ranking": "Top 10-20",
     "price_confidence": "Medium",
-    "last_price_check": null,
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -3428,8 +3428,8 @@
       "common_faults": []
     },
     "best_buy": {
-      "rating": null,
-      "reason": null
+      "rating": 5,
+      "reason": "Model 250 power amp (~$1,950 USD) spotted in Thailand at just ฿3,900 (~$110) — an extraordinary price if the unit is genuine and working."
     },
     "capacitors": [],
     "links": {
@@ -3438,13 +3438,15 @@
       "sansui_us": null,
       "source": null
     },
-    "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Pairs with the Model 3300 preamp. Specs sourced from audio-database.com (still unverified).",
+    "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. US-designed, Japan-produced; dual VU meters. Specs sourced from audio-database.com (still unverified).",
     "verified": false,
     "verification": "sourced",
     "avg_price_usd_3mo": 1950,
     "price_basis": "hifishark median 2026",
     "year_source": "audio-database.com",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      3900
+    ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
@@ -3858,6 +3860,122 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Warm and tube-like — controlled bass, smooth, slightly rolled treble; on the romantic side of the sound.",
+    "thb_status": null
+  },
+  {
+    "id": "marantz-model-2-1956",
+    "brand": "Marantz",
+    "jdm_model": "Model 2",
+    "int_model": null,
+    "type": "Tube Power Amp",
+    "series": "Tube Era",
+    "year_start": 1956,
+    "year_end": 1962,
+    "japan_price_kyen": null,
+    "watts_per_channel": 40,
+    "freq_response_hz": null,
+    "thd_percent": null,
+    "ps_type": null,
+    "amp_circuit": "Mono tube power amp; 40W ultralinear / 20W triode-switchable; Marantz's first amplifier",
+    "weight_kg": null,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Top 10",
+    "price_confidence": "None",
+    "last_price_check": null,
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": "https://www.hifiengine.com/manual_library/marantz/2.shtml",
+      "sansui_us": null,
+      "source": null
+    },
+    "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Marantz's first power amp; mono tube monoblock (pair for stereo). Specs sourced from stereonomono/hifiengine (still unverified).",
+    "verified": false,
+    "verification": "sourced",
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": "stereonomono/hifiengine",
+    "price_thb_listings": [],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": null,
+    "thb_status": null
+  },
+  {
+    "id": "marantz-model-240-1974",
+    "brand": "Marantz",
+    "jdm_model": "Model 240",
+    "int_model": null,
+    "type": "Power Amp",
+    "series": "Separates",
+    "year_start": 1974,
+    "year_end": 1977,
+    "japan_price_kyen": null,
+    "watts_per_channel": 120,
+    "freq_response_hz": null,
+    "thd_percent": null,
+    "ps_type": null,
+    "amp_circuit": "Solid-state stereo power amp; the partner to the Model 3300 preamp",
+    "weight_kg": null,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Top 20-30",
+    "price_confidence": "Medium",
+    "last_price_check": null,
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": "https://audio-database.com/MARANTZ/amp/model240-e.html",
+      "hifi_engine": null,
+      "sansui_us": null,
+      "source": null
+    },
+    "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. The solid-state partner to the Model 3300 preamp (as in the 1200B). Specs sourced from audio-database.com (still unverified).",
+    "verified": false,
+    "verification": "sourced",
+    "avg_price_usd_3mo": 1000,
+    "price_basis": "hifishark median 2026",
+    "year_source": "audio-database.com",
+    "price_thb_listings": [],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": null,
     "thb_status": null
   }
 ]
