@@ -291,6 +291,26 @@ function escapeHtml(str) {
   }[c]));
 }
 
+// Three-tier trust model. "verified" = Wayne confirmed it himself. "sourced" = backed by a
+// reference DB / period spec sheet, not personally checked. "unconfirmed" = single listing or
+// naming convention only. Legacy records (no `verification` field) that aren't Wayne-verified
+// are treated as "sourced", matching how the Sansui data was compiled.
+function trustTier(item) {
+  if (item.verified) return "verified";
+  return item.verification || "sourced";
+}
+
+const TRUST = {
+  verified: { cls: "verified", label: "✅ Verified by Wayne" },
+  sourced: { cls: "sourced", label: "📚 Sourced — from period catalogs / reference databases, not personally verified" },
+  unconfirmed: { cls: "unconfirmed", label: "⚠️ Unconfirmed — from a single listing or the model-number naming convention, not a datasheet" }
+};
+
+function trustBadge(item) {
+  const t = TRUST[trustTier(item)] || TRUST.sourced;
+  return `<span class="${t.cls}">${t.label}</span>`;
+}
+
 function openModal(item) {
   const modalContent = document.getElementById("modal-content");
   const years = item.year_start ? `${item.year_start}${item.year_end ? "–" + item.year_end : ""}` : "Year unknown";
@@ -388,6 +408,7 @@ function openModal(item) {
       <div class="modal-links">
         ${item.links && item.links.brochure ? `<a href="${item.links.brochure}" target="_blank" rel="noopener">📖 Brochure</a>` : ""}
         ${item.links && item.links.audio_database ? `<a href="${item.links.audio_database}" target="_blank" rel="noopener">📄 Audio Database</a>` : ""}
+        ${item.links && item.links.source ? `<a href="${item.links.source}" target="_blank" rel="noopener">📚 Source</a>` : ""}
         ${item.links && item.links.hifi_engine ? `<a href="${item.links.hifi_engine}" target="_blank" rel="noopener">📋 HiFi Engine</a>` : ""}
         ${item.links && item.links.sansui_us ? `<a href="${item.links.sansui_us}" target="_blank" rel="noopener">🌐 Sansui.us</a>` : ""}
         <a href="https://hifishark.com/?s=${encodeURIComponent((item.brand || "") + " " + item.jdm_model)}" target="_blank" rel="noopener">🔍 Search HiFi Shark</a>
@@ -396,7 +417,7 @@ function openModal(item) {
     </div>
 
     <div class="modal-section data-status">
-      <span class="${item.verified ? "verified" : "unverified"}">${item.verified ? "✅ Verified by Wayne" : "⚠️ Unverified — specs sourced from web/period catalogs, not manually confirmed"}</span>
+      ${trustBadge(item)}
       <span>Last price check: ${escapeHtml(item.last_price_check || "—")}</span>
     </div>
   `;

@@ -89,55 +89,55 @@ DATA = [
 CONV = "Marantz 22xx model-number convention (last two digits = W/ch; corroborated by 8+ sourced models)"
 SPECS = {
     # --- Tube era (radiomuseum / stereophile / hifiengine) ---
-    "Model 8": dict(ys=1959, ye=1962, w=30, ckt="Stereo tube power amp; 2x30W, EL34/6CA7 output (8 tubes); revised as Model 8B", src="radiomuseum.org"),
-    "Model 9": dict(ys=1961, ye=1968, w=70, fr="12-40000", ckt="Mono tube monoblock (EL34 push-pull); 40W triode-switchable; pair for stereo", src="radiomuseum/stereophile"),
-    "Model 14": dict(ys=1968, type="Power Amp", w=60, thd=0.1, fr="10-60000", wt=8.17, ckt="Solid-state mono (single-channel) power amp; 60W into 8ohm / 70W into 4ohm", src="radiomuseum.org"),
-    "Superscope BLA-530": dict(ys=1978, ye=None, type="Integrated", thd=0.1, fr="20-50000", ckt="Superscope (Marantz budget division) stereo integrated amp; 30W/ch into 4ohm, damping 45", src="hifiengine/websearch"),
-    "Model 22": dict(ys=1969, w=40, thd=0.3, wt=16.8, ckt="Stereophonic solid-state receiver", src="classicreceivers.com"),
+    "Model 8": dict(ys=1959, ye=1962, w=30, ckt="Stereo tube power amp; 2x30W, EL34/6CA7 output (8 tubes); revised as Model 8B", src="radiomuseum.org", url="https://www.radiomuseum.org/r/marantz_model_8.html"),
+    "Model 9": dict(ys=1961, ye=1968, w=70, fr="12-40000", ckt="Mono tube monoblock (EL34 push-pull); 40W triode-switchable; pair for stereo", src="radiomuseum.org", url="https://www.radiomuseum.org/r/marantz_model_9.html"),
+    "Model 14": dict(ys=1968, type="Power Amp", w=60, thd=0.1, fr="10-60000", wt=8.17, ckt="Solid-state mono (single-channel) power amp; 60W into 8ohm / 70W into 4ohm", src="radiomuseum.org", url="https://www.radiomuseum.org/r/marantz_single_channel_amplifier_model_fourteen_14.html"),
+    "Superscope BLA-530": dict(ys=1978, ye=None, type="Integrated", thd=0.1, fr="20-50000", ckt="Superscope (Marantz budget division) stereo integrated amp; 30W/ch into 4ohm, damping 45", src="hifiengine.com", url="https://www.hifiengine.com/manual_library/superscope/bla-530.shtml"),
+    "Model 22": dict(ys=1969, w=40, thd=0.3, wt=16.8, ckt="Stereophonic solid-state receiver", src="classicreceivers.com", url="https://classicreceivers.com/marantz-model-22"),
     # --- Integrated / PM (audio-database.com, Japan-market) ---
-    "1030":   dict(ys=1972, w=15,  thd=0.5,   fr="15-40000", wt=7.7,  yen=39.9,  ckt="Entry pre-main; simplified Marantz design", src="audio-database.com"),
-    "1090":   dict(ys=1977, w=45,  thd=0.1,   fr="10-60000", wt=9.5,  ckt="Console stereo integrated amplifier", src="reverb/hifivintage"),
-    "1060":   dict(ys=1972, w=30,  thd=0.5,   fr="20-20000", wt=8.4,  yen=54.9,  ckt="Quasi-complementary; 3-stage direct-coupled NF equalizer", src="audio-database.com"),
-    "1070":   dict(ys=1975, w=40,  thd=0.3,   fr="20-20000", wt=8.4,  yen=69.9,  ckt="Inverting Darlington; mid-range tone control; speaker matrix", src="audio-database.com"),
-    "1150":   dict(ys=1975, w=80,  thd=0.1,   fr="20-20000", wt=15.0, yen=125.0, ckt="Direct-coupled push-pull, inverted Darlington output", src="audio-database.com"),
-    "1200":   dict(ys=1972, w=100, thd=0.15,  fr="6-80000",  wt=14.1, yen=295.0, ckt="Differential input, pure-complementary all-stage direct-coupled OCL, Class AB", src="audio-database.com"),
-    "1200B":  dict(ys=1974, w=100, thd=0.15,  fr="20-20000", wt=14.1, yen=325.0, ckt="Model 3300 preamp + Model 240 power amp in one; variable overlap drive", src="audio-database.com"),
-    "1250":   dict(ys=1976, w=130, thd=0.1,   fr="20-20000", wt=18.5, yen=195.0, ckt="3-stage direct-coupled NF differential equalizer; tri-circuit routing", src="audio-database.com"),
-    "PM-5 Esotec": dict(w=80, thd=0.015, fr="20-20000", wt=13.0, yen=100.0, ckt="Switchable pure Class A (20W) / Class AB (80W); complete push-pull DC amplifier", src="audio-database.com"),
-    "PM-54":  dict(ys=1984, w=80,  thd=0.015, fr="20-20000", wt=8.8,  yen=62.0,  ckt="AVSS (Auto Voltage Shift Supply)", src="audio-database.com"),
-    "PM-84":  dict(ys=1983, w=120, thd=0.015, fr="20-20000", wt=18.0, yen=125.0, ckt="Quarter-A circuit + AVSS; pure Class A to 1/4 power", src="audio-database.com"),
-    "PM-80":  dict(ys=1989, w=100, thd=0.0008, fr="10-100000", wt=17.5, yen=65.0, ckt="Parallel push-pull, 3-stage Darlington; Class A (20W) / AB (100W) switchable", src="audio-database.com"),
-    "PM-94":  dict(ys=1985, w=140, thd=0.005, fr="20-20000", wt=23.0, yen=228.0, ckt="Triple push-pull MOS-FET; Quarter-A circuit; Class A (35W) / AB (140W)", src="audio-database.com"),
-    "PM66 KI Signature": dict(w=50, thd=0.03, fr="10-100000", wt=6.6, ckt="Ken Ishiwata Signature; figures from base PM-66SE (KI edition may differ)", src="audio-database.com"),
+    "1030":   dict(ys=1972, w=15,  thd=0.5,   fr="15-40000", wt=7.7,  yen=39.9,  ckt="Entry pre-main; simplified Marantz design", src="audio-database.com", url="https://audio-database.com/MARANTZ/amp/model1030-e.html"),
+    "1090":   dict(ys=1977, w=45,  thd=0.1,   fr="10-60000", wt=9.5,  ckt="Console stereo integrated amplifier", src="hifivintage.eu", url="https://hifivintage.eu/en/amplifiers/5595-marantz-model-1090.html"),
+    "1060":   dict(ys=1972, w=30,  thd=0.5,   fr="20-20000", wt=8.4,  yen=54.9,  ckt="Quasi-complementary; 3-stage direct-coupled NF equalizer", src="audio-database.com", url="https://audio-database.com/MARANTZ/amp/model1060-e.html"),
+    "1070":   dict(ys=1975, w=40,  thd=0.3,   fr="20-20000", wt=8.4,  yen=69.9,  ckt="Inverting Darlington; mid-range tone control; speaker matrix", src="audio-database.com", url="https://audio-database.com/MARANTZ/amp/model1070.html"),
+    "1150":   dict(ys=1975, w=80,  thd=0.1,   fr="20-20000", wt=15.0, yen=125.0, ckt="Direct-coupled push-pull, inverted Darlington output", src="audio-database.com", url="https://audio-database.com/MARANTZ/amp/model1150-e.html"),
+    "1200":   dict(ys=1972, w=100, thd=0.15,  fr="6-80000",  wt=14.1, yen=295.0, ckt="Differential input, pure-complementary all-stage direct-coupled OCL, Class AB", src="audio-database.com", url="https://audio-database.com/MARANTZ/amp/model1200-e.html"),
+    "1200B":  dict(ys=1974, w=100, thd=0.15,  fr="20-20000", wt=14.1, yen=325.0, ckt="Model 3300 preamp + Model 240 power amp in one; variable overlap drive", src="audio-database.com", url="https://audio-database.com/MARANTZ/amp/model1200b.html"),
+    "1250":   dict(ys=1976, w=130, thd=0.1,   fr="20-20000", wt=18.5, yen=195.0, ckt="3-stage direct-coupled NF differential equalizer; tri-circuit routing", src="audio-database.com", url="https://audio-database.com/MARANTZ/amp/model1250-e.html"),
+    "PM-5 Esotec": dict(w=80, thd=0.015, fr="20-20000", wt=13.0, yen=100.0, ckt="Switchable pure Class A (20W) / Class AB (80W); complete push-pull DC amplifier", src="audio-database.com", url="https://audio-database.com/MARANTZ/amp/pm-5-e.html"),
+    "PM-54":  dict(ys=1984, w=80,  thd=0.015, fr="20-20000", wt=8.8,  yen=62.0,  ckt="AVSS (Auto Voltage Shift Supply)", src="audio-database.com", url="https://audio-database.com/MARANTZ/amp/pm-54-e.html"),
+    "PM-84":  dict(ys=1983, w=120, thd=0.015, fr="20-20000", wt=18.0, yen=125.0, ckt="Quarter-A circuit + AVSS; pure Class A to 1/4 power", src="audio-database.com", url="https://audio-database.com/MARANTZ/amp/pm-84-e.html"),
+    "PM-80":  dict(ys=1989, w=100, thd=0.0008, fr="10-100000", wt=17.5, yen=65.0, ckt="Parallel push-pull, 3-stage Darlington; Class A (20W) / AB (100W) switchable", src="audio-database.com", url="https://audio-database.com/MARANTZ/amp/pm-80-e.html"),
+    "PM-94":  dict(ys=1985, w=140, thd=0.005, fr="20-20000", wt=23.0, yen=228.0, ckt="Triple push-pull MOS-FET; Quarter-A circuit; Class A (35W) / AB (140W)", src="audio-database.com", url="https://audio-database.com/MARANTZ/amp/pm-94-e.html"),
+    "PM66 KI Signature": dict(w=50, thd=0.03, fr="10-100000", wt=6.6, ckt="Ken Ishiwata Signature; figures from base PM-66SE (KI edition may differ)", src="audio-database.com", url="https://audio-database.com/MARANTZ/amp/pm-66sev-e.html"),
     # --- US receivers / quad (classicreceivers.com, vintageaudioexchange) ---
     "2215":  dict(w=15, ckt="Stereophonic solid-state receiver", src="Marantz 22xx convention (2270/2265/2215B corroborated)"),
     "2230":  dict(w=30, ckt="Stereophonic solid-state receiver", src="Marantz 22xx convention (2270/2265/2215B corroborated)"),
     "2245":  dict(w=45, ckt="Stereophonic solid-state receiver", src="Marantz 22xx convention (2270/2265/2215B corroborated)"),
-    "2270":  dict(ys=1971, ye=1976, w=70, thd=0.3, wt=17.5, ckt="Stereophonic solid-state receiver", src="classicreceivers.com"),
+    "2270":  dict(ys=1971, ye=1976, w=70, thd=0.3, wt=17.5, ckt="Stereophonic solid-state receiver", src="classicreceivers.com", url="https://classicreceivers.com/marantz-2270"),
     "2265":  dict(w=65, ckt="Stereophonic solid-state receiver", src="classicreceivers.com"),
     "2215B": dict(w=15, ckt="Stereophonic solid-state receiver", src="hqaudios/classicreceivers"),
-    "4230":  dict(ys=1973, ye=1978, w=30,  wt=14.2, ckt="Quadradial 2+4 receiver; 30W/ch stereo, 12W/ch quad (8ohm)", src="classicreceivers.com"),
-    "4270":  dict(ys=1974, w=70,  wt=18.4, ckt="Quadradial 2+4 receiver; 70W/ch stereo, 25W/ch quad (8ohm)", src="classicreceivers.com"),
-    "4300":  dict(ys=1972, ye=1978, w=100, ckt="Quadradial 2+4 receiver; 100W/ch stereo", src="classicreceivers.com"),
-    "4400":  dict(ys=1974, ye=1978, w=125, ckt="Quadradial 2+4 receiver; 125W/ch stereo, 50W/ch quad", src="classicreceivers.com"),
+    "4230":  dict(ys=1973, ye=1978, w=30,  wt=14.2, ckt="Quadradial 2+4 receiver; 30W/ch stereo, 12W/ch quad (8ohm)", src="classicreceivers.com", url="https://classicreceivers.com/marantz-4230"),
+    "4270":  dict(ys=1974, w=70,  wt=18.4, ckt="Quadradial 2+4 receiver; 70W/ch stereo, 25W/ch quad (8ohm)", src="classicreceivers.com", url="https://classicreceivers.com/marantz-4270-quad"),
+    "4300":  dict(ys=1972, ye=1978, w=100, ckt="Quadradial 2+4 receiver; 100W/ch stereo", src="classicreceivers.com", url="https://classicreceivers.com/marantz-4300"),
+    "4400":  dict(ys=1974, ye=1978, w=125, ckt="Quadradial 2+4 receiver; 125W/ch stereo, 50W/ch quad", src="classicreceivers.com", url="https://classicreceivers.com/marantz-4400"),
     # --- 22xx B-models: watts from Marantz naming convention (year/weight not sourced) ---
     "2210":  dict(w=10, ckt="Stereophonic solid-state receiver", src=CONV),
     "2216B": dict(w=16, ckt="Stereophonic solid-state receiver", src=CONV),
     "2218":  dict(w=18, ckt="Stereophonic solid-state receiver", src=CONV),
     "2220B": dict(w=20, ckt="Stereophonic solid-state receiver", src=CONV),
     "2235B": dict(w=35, ckt="Stereophonic solid-state receiver", src=CONV),
-    "2238B": dict(ys=1977, w=38, ckt="Stereophonic solid-state receiver", src="classicreceivers.com"),
+    "2238B": dict(ys=1977, w=38, ckt="Stereophonic solid-state receiver", src="classicreceivers.com", url="https://classicreceivers.com/marantz-2238b"),
     "2250":  dict(w=50, ckt="Stereophonic solid-state receiver", src=CONV),
     "2250B": dict(w=50, ckt="Stereophonic solid-state receiver", src=CONV),
     "2260":  dict(w=60, ckt="Stereophonic solid-state receiver", src=CONV),
-    "2285B": dict(ys=1977, w=85, ckt="Stereophonic solid-state receiver (heavyweight 22xx)", src="classicreceivers.com"),
+    "2285B": dict(ys=1977, w=85, ckt="Stereophonic solid-state receiver (heavyweight 22xx)", src="classicreceivers.com", url="https://classicreceivers.com/marantz-2285b"),
     # --- 23xx heavyweight receivers ---
-    "2325":  dict(ys=1974, ye=1976, w=125, thd=0.1,  wt=22.5, ckt="Stereophonic solid-state receiver", src="classicreceivers.com"),
-    "2330B": dict(ys=1977, ye=1979, w=130, thd=0.07, wt=22.5, ckt="Stereophonic solid-state receiver", src="classicreceivers.com"),
-    "2385":  dict(ys=1977, ye=1980, w=185, wt=26.0,  ckt="Stereophonic solid-state receiver (flagship 23xx)", src="classicreceivers.com"),
+    "2325":  dict(ys=1974, ye=1976, w=125, thd=0.1,  wt=22.5, ckt="Stereophonic solid-state receiver", src="classicreceivers.com", url="https://classicreceivers.com/marantz-2325"),
+    "2330B": dict(ys=1977, ye=1979, w=130, thd=0.07, wt=22.5, ckt="Stereophonic solid-state receiver", src="classicreceivers.com", url="https://classicreceivers.com/marantz-2330"),
+    "2385":  dict(ys=1977, ye=1980, w=185, wt=26.0,  ckt="Stereophonic solid-state receiver (flagship 23xx)", src="classicreceivers.com", url="https://classicreceivers.com/marantz-2385"),
     # --- Champagne / Monster receiver era ---
-    "2500":  dict(ys=1977, ye=1979, w=250, thd=0.05, wt=27.0, ckt="Monster-era flagship receiver", src="classicreceivers.com"),
-    "2600":  dict(ys=1978, w=300, ckt="Flagship monster receiver", src="classicreceivers.com"),
+    "2500":  dict(ys=1977, ye=1979, w=250, thd=0.05, wt=27.0, ckt="Monster-era flagship receiver", src="classicreceivers.com", url="https://classicreceivers.com/marantz-2500"),
+    "2600":  dict(ys=1978, w=300, ckt="Flagship monster receiver", src="classicreceivers.com", url="https://classicreceivers.com/marantz-2600"),
 }
 
 
@@ -156,6 +156,24 @@ def build():
             ye = sp.get("ye", ye)
             mtype = sp.get("type", mtype)
             note += f" Specs sourced from {sp['src']} (still unverified)."
+        # Trust tier: "sourced" if backed by a reference DB / spec sheet. Convention-derived
+        # wattages and roadmap/FB-only records are "unconfirmed". "verified" is reserved for
+        # Wayne's own confirmation.
+        src_str = sp.get("src", "")
+        if sp and "convention" not in src_str.lower():
+            verification = "sourced"
+        else:
+            verification = "unconfirmed"
+        # Route the source page URL into the links block for a clickable provenance link.
+        links = {"audio_database": None, "hifi_engine": None, "sansui_us": None, "source": None}
+        src_url = sp.get("url")
+        if src_url:
+            if "audio-database.com" in src_url:
+                links["audio_database"] = src_url
+            elif "hifiengine.com" in src_url:
+                links["hifi_engine"] = src_url
+            else:
+                links["source"] = src_url
         rec = {
             "id": f"marantz-{slug(model)}" + (f"-{ys}" if ys else ""),
             "brand": "Marantz",
@@ -190,9 +208,10 @@ def build():
             },
             "best_buy": {"rating": None, "reason": None},
             "capacitors": [],
-            "links": {"audio_database": None, "hifi_engine": None, "sansui_us": None},
+            "links": links,
             "notes": note,
             "verified": False,
+            "verification": verification,
             "avg_price_usd_3mo": usd,
             "price_basis": None,
             "year_source": sp.get("src", "wayne-list (FB/YouTube, unverified)"),

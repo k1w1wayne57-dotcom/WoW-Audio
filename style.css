@@ -463,6 +463,8 @@ tbody td {
 
 .data-status .unverified { color: #e0b85c; }
 .data-status .verified { color: var(--green); }
+.data-status .sourced { color: var(--gold-bright); }
+.data-status .unconfirmed { color: #e0885c; }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 720px) {

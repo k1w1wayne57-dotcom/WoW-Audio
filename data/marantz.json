@@ -42,10 +42,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": "https://www.radiomuseum.org/r/marantz_model_8.html"
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from radiomuseum.org (still unverified).",
     "verified": false,
+    "verification": "sourced",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "radiomuseum.org",
@@ -98,13 +100,15 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": "https://www.radiomuseum.org/r/marantz_model_9.html"
     },
-    "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from radiomuseum/stereophile (still unverified).",
+    "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from radiomuseum.org (still unverified).",
     "verified": false,
+    "verification": "sourced",
     "avg_price_usd_3mo": null,
     "price_basis": null,
-    "year_source": "radiomuseum/stereophile",
+    "year_source": "radiomuseum.org",
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
@@ -154,10 +158,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": "https://www.radiomuseum.org/r/marantz_single_channel_amplifier_model_fourteen_14.html"
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from radiomuseum.org (still unverified).",
     "verified": false,
+    "verification": "sourced",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "radiomuseum.org",
@@ -210,10 +216,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Early solid-state; type unconfirmed.",
     "verified": false,
+    "verification": "unconfirmed",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "wayne-list (FB/YouTube, unverified)",
@@ -266,10 +274,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Early solid-state; type unconfirmed.",
     "verified": false,
+    "verification": "unconfirmed",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "wayne-list (FB/YouTube, unverified)",
@@ -321,14 +331,16 @@
     "capacitors": [],
     "links": {
       "audio_database": null,
-      "hifi_engine": null,
-      "sansui_us": null
+      "hifi_engine": "https://www.hifiengine.com/manual_library/superscope/bla-530.shtml",
+      "sansui_us": null,
+      "source": null
     },
-    "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from hifiengine/websearch (still unverified).",
+    "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from hifiengine.com (still unverified).",
     "verified": false,
+    "verification": "sourced",
     "avg_price_usd_3mo": null,
     "price_basis": null,
-    "year_source": "hifiengine/websearch",
+    "year_source": "hifiengine.com",
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
@@ -378,10 +390,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed.",
     "verified": false,
+    "verification": "unconfirmed",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "wayne-list (FB/YouTube, unverified)",
@@ -434,10 +448,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed.",
     "verified": false,
+    "verification": "unconfirmed",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "wayne-list (FB/YouTube, unverified)",
@@ -490,10 +506,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": "https://classicreceivers.com/marantz-model-22"
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from classicreceivers.com (still unverified).",
     "verified": false,
+    "verification": "sourced",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "classicreceivers.com",
@@ -546,10 +564,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed.",
     "verified": false,
+    "verification": "unconfirmed",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "wayne-list (FB/YouTube, unverified)",
@@ -602,10 +622,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed.",
     "verified": false,
+    "verification": "unconfirmed",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "wayne-list (FB/YouTube, unverified)",
@@ -658,10 +680,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed.",
     "verified": false,
+    "verification": "unconfirmed",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "wayne-list (FB/YouTube, unverified)",
@@ -714,10 +738,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed.",
     "verified": false,
+    "verification": "unconfirmed",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "wayne-list (FB/YouTube, unverified)",
@@ -768,12 +794,14 @@
     },
     "capacitors": [],
     "links": {
-      "audio_database": null,
+      "audio_database": "https://audio-database.com/MARANTZ/amp/model1030-e.html",
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from audio-database.com (still unverified).",
     "verified": false,
+    "verification": "sourced",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "audio-database.com",
@@ -824,12 +852,14 @@
     },
     "capacitors": [],
     "links": {
-      "audio_database": null,
+      "audio_database": "https://audio-database.com/MARANTZ/amp/model1060-e.html",
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from audio-database.com (still unverified).",
     "verified": false,
+    "verification": "sourced",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "audio-database.com",
@@ -880,12 +910,14 @@
     },
     "capacitors": [],
     "links": {
-      "audio_database": null,
+      "audio_database": "https://audio-database.com/MARANTZ/amp/model1070.html",
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from audio-database.com (still unverified).",
     "verified": false,
+    "verification": "sourced",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "audio-database.com",
@@ -940,13 +972,15 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": "https://hifivintage.eu/en/amplifiers/5595-marantz-model-1090.html"
     },
-    "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from reverb/hifivintage (still unverified).",
+    "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from hifivintage.eu (still unverified).",
     "verified": false,
+    "verification": "sourced",
     "avg_price_usd_3mo": null,
     "price_basis": null,
-    "year_source": "reverb/hifivintage",
+    "year_source": "hifivintage.eu",
     "price_thb_listings": [
       9000
     ],
@@ -996,12 +1030,14 @@
     },
     "capacitors": [],
     "links": {
-      "audio_database": null,
+      "audio_database": "https://audio-database.com/MARANTZ/amp/model1150-e.html",
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from audio-database.com (still unverified).",
     "verified": false,
+    "verification": "sourced",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "audio-database.com",
@@ -1052,12 +1088,14 @@
     },
     "capacitors": [],
     "links": {
-      "audio_database": null,
+      "audio_database": "https://audio-database.com/MARANTZ/amp/model1200-e.html",
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from audio-database.com (still unverified).",
     "verified": false,
+    "verification": "sourced",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "audio-database.com",
@@ -1108,12 +1146,14 @@
     },
     "capacitors": [],
     "links": {
-      "audio_database": null,
+      "audio_database": "https://audio-database.com/MARANTZ/amp/model1200b.html",
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from audio-database.com (still unverified).",
     "verified": false,
+    "verification": "sourced",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "audio-database.com",
@@ -1164,12 +1204,14 @@
     },
     "capacitors": [],
     "links": {
-      "audio_database": null,
+      "audio_database": "https://audio-database.com/MARANTZ/amp/model1250-e.html",
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from audio-database.com (still unverified).",
     "verified": false,
+    "verification": "sourced",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "audio-database.com",
@@ -1222,10 +1264,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Flagship DC integrated.",
     "verified": false,
+    "verification": "unconfirmed",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "wayne-list (FB/YouTube, unverified)",
@@ -1278,10 +1322,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed.",
     "verified": false,
+    "verification": "unconfirmed",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "wayne-list (FB/YouTube, unverified)",
@@ -1336,10 +1382,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from Marantz 22xx model-number convention (last two digits = W/ch; corroborated by 8+ sourced models) (still unverified).",
     "verified": false,
+    "verification": "unconfirmed",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "Marantz 22xx model-number convention (last two digits = W/ch; corroborated by 8+ sourced models)",
@@ -1392,10 +1440,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from Marantz 22xx convention (2270/2265/2215B corroborated) (still unverified).",
     "verified": false,
+    "verification": "unconfirmed",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "Marantz 22xx convention (2270/2265/2215B corroborated)",
@@ -1448,10 +1498,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from hqaudios/classicreceivers (still unverified).",
     "verified": false,
+    "verification": "sourced",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "hqaudios/classicreceivers",
@@ -1506,10 +1558,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from Marantz 22xx model-number convention (last two digits = W/ch; corroborated by 8+ sourced models) (still unverified).",
     "verified": false,
+    "verification": "unconfirmed",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "Marantz 22xx model-number convention (last two digits = W/ch; corroborated by 8+ sourced models)",
@@ -1564,10 +1618,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from Marantz 22xx model-number convention (last two digits = W/ch; corroborated by 8+ sourced models) (still unverified).",
     "verified": false,
+    "verification": "unconfirmed",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "Marantz 22xx model-number convention (last two digits = W/ch; corroborated by 8+ sourced models)",
@@ -1622,10 +1678,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from Marantz 22xx model-number convention (last two digits = W/ch; corroborated by 8+ sourced models) (still unverified).",
     "verified": false,
+    "verification": "unconfirmed",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "Marantz 22xx model-number convention (last two digits = W/ch; corroborated by 8+ sourced models)",
@@ -1678,10 +1736,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from Marantz 22xx convention (2270/2265/2215B corroborated) (still unverified).",
     "verified": false,
+    "verification": "unconfirmed",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "Marantz 22xx convention (2270/2265/2215B corroborated)",
@@ -1734,10 +1794,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from Marantz 22xx model-number convention (last two digits = W/ch; corroborated by 8+ sourced models) (still unverified).",
     "verified": false,
+    "verification": "unconfirmed",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "Marantz 22xx model-number convention (last two digits = W/ch; corroborated by 8+ sourced models)",
@@ -1790,10 +1852,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": "https://classicreceivers.com/marantz-2238b"
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from classicreceivers.com (still unverified).",
     "verified": false,
+    "verification": "sourced",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "classicreceivers.com",
@@ -1848,10 +1912,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from Marantz 22xx convention (2270/2265/2215B corroborated) (still unverified).",
     "verified": false,
+    "verification": "unconfirmed",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "Marantz 22xx convention (2270/2265/2215B corroborated)",
@@ -1904,10 +1970,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from Marantz 22xx model-number convention (last two digits = W/ch; corroborated by 8+ sourced models) (still unverified).",
     "verified": false,
+    "verification": "unconfirmed",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "Marantz 22xx model-number convention (last two digits = W/ch; corroborated by 8+ sourced models)",
@@ -1960,10 +2028,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from Marantz 22xx model-number convention (last two digits = W/ch; corroborated by 8+ sourced models) (still unverified).",
     "verified": false,
+    "verification": "unconfirmed",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "Marantz 22xx model-number convention (last two digits = W/ch; corroborated by 8+ sourced models)",
@@ -2016,10 +2086,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from Marantz 22xx model-number convention (last two digits = W/ch; corroborated by 8+ sourced models) (still unverified).",
     "verified": false,
+    "verification": "unconfirmed",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "Marantz 22xx model-number convention (last two digits = W/ch; corroborated by 8+ sourced models)",
@@ -2072,10 +2144,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from classicreceivers.com (still unverified).",
     "verified": false,
+    "verification": "sourced",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "classicreceivers.com",
@@ -2130,10 +2204,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": "https://classicreceivers.com/marantz-2270"
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from classicreceivers.com (still unverified).",
     "verified": false,
+    "verification": "sourced",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "classicreceivers.com",
@@ -2186,10 +2262,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": "https://classicreceivers.com/marantz-2285b"
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from classicreceivers.com (still unverified).",
     "verified": false,
+    "verification": "sourced",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "classicreceivers.com",
@@ -2242,10 +2320,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": "https://classicreceivers.com/marantz-2325"
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from classicreceivers.com (still unverified).",
     "verified": false,
+    "verification": "sourced",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "classicreceivers.com",
@@ -2298,10 +2378,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": "https://classicreceivers.com/marantz-2330"
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from classicreceivers.com (still unverified).",
     "verified": false,
+    "verification": "sourced",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "classicreceivers.com",
@@ -2354,10 +2436,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": "https://classicreceivers.com/marantz-2385"
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from classicreceivers.com (still unverified).",
     "verified": false,
+    "verification": "sourced",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "classicreceivers.com",
@@ -2410,10 +2494,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": "https://classicreceivers.com/marantz-2500"
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from classicreceivers.com (still unverified).",
     "verified": false,
+    "verification": "sourced",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "classicreceivers.com",
@@ -2466,10 +2552,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": "https://classicreceivers.com/marantz-2600"
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from classicreceivers.com (still unverified).",
     "verified": false,
+    "verification": "sourced",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "classicreceivers.com",
@@ -2522,10 +2610,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Source lists under Quad; the Marantz 3300 is commonly a stereo preamp — verify type.",
     "verified": false,
+    "verification": "unconfirmed",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "wayne-list (FB/YouTube, unverified)",
@@ -2578,10 +2668,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": "https://classicreceivers.com/marantz-4230"
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from classicreceivers.com (still unverified).",
     "verified": false,
+    "verification": "sourced",
     "avg_price_usd_3mo": 575,
     "price_basis": null,
     "year_source": "classicreceivers.com",
@@ -2636,10 +2728,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": "https://classicreceivers.com/marantz-4270-quad"
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from classicreceivers.com (still unverified).",
     "verified": false,
+    "verification": "sourced",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "classicreceivers.com",
@@ -2694,10 +2788,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": "https://classicreceivers.com/marantz-4300"
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from classicreceivers.com (still unverified).",
     "verified": false,
+    "verification": "sourced",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "classicreceivers.com",
@@ -2750,10 +2846,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": "https://classicreceivers.com/marantz-4400"
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from classicreceivers.com (still unverified).",
     "verified": false,
+    "verification": "sourced",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "classicreceivers.com",
@@ -2806,12 +2904,14 @@
     },
     "capacitors": [],
     "links": {
-      "audio_database": null,
+      "audio_database": "https://audio-database.com/MARANTZ/amp/pm-5-e.html",
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Class A; one Thai listing noted as 220V. Specs sourced from audio-database.com (still unverified).",
     "verified": false,
+    "verification": "sourced",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "audio-database.com",
@@ -2867,10 +2967,12 @@
     "links": {
       "audio_database": null,
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed.",
     "verified": false,
+    "verification": "unconfirmed",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "wayne-list (FB/YouTube, unverified)",
@@ -2923,12 +3025,14 @@
     },
     "capacitors": [],
     "links": {
-      "audio_database": null,
+      "audio_database": "https://audio-database.com/MARANTZ/amp/pm-54-e.html",
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from audio-database.com (still unverified).",
     "verified": false,
+    "verification": "sourced",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "audio-database.com",
@@ -2979,12 +3083,14 @@
     },
     "capacitors": [],
     "links": {
-      "audio_database": null,
+      "audio_database": "https://audio-database.com/MARANTZ/amp/pm-84-e.html",
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from audio-database.com (still unverified).",
     "verified": false,
+    "verification": "sourced",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "audio-database.com",
@@ -3035,12 +3141,14 @@
     },
     "capacitors": [],
     "links": {
-      "audio_database": null,
+      "audio_database": "https://audio-database.com/MARANTZ/amp/pm-80-e.html",
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from audio-database.com (still unverified).",
     "verified": false,
+    "verification": "sourced",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "audio-database.com",
@@ -3091,12 +3199,14 @@
     },
     "capacitors": [],
     "links": {
-      "audio_database": null,
+      "audio_database": "https://audio-database.com/MARANTZ/amp/pm-94-e.html",
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from audio-database.com (still unverified).",
     "verified": false,
+    "verification": "sourced",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "audio-database.com",
@@ -3147,12 +3257,14 @@
     },
     "capacitors": [],
     "links": {
-      "audio_database": null,
+      "audio_database": "https://audio-database.com/MARANTZ/amp/pm-66sev-e.html",
       "hifi_engine": null,
-      "sansui_us": null
+      "sansui_us": null,
+      "source": null
     },
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Ken Ishiwata Signature. Specs sourced from audio-database.com (still unverified).",
     "verified": false,
+    "verification": "sourced",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "audio-database.com",
