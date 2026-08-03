@@ -29,7 +29,7 @@ DATA = [
     ("Model 26", "Receiver", 1969, 1971, "Japan-market", None, None, None),
     ("Model 27", "Receiver", 1969, 1971, "Japan-market", None, None, None),
     # --- Integrated amps 10xx/12xx ---
-    ("1015",  "Integrated", 1971, 1978, "10xx/12xx Integrated", None, None, None),
+    ("1015",  "Tape Deck", 1980, 1980, "Cassette Deck", None, None, "Full model is Marantz SD-1015"),
     ("1030",  "Integrated", 1971, 1978, "10xx/12xx Integrated", None, None, None),
     ("1060",  "Integrated", 1971, 1978, "10xx/12xx Integrated", None, None, None),
     ("1070",  "Integrated", 1971, 1978, "10xx/12xx Integrated", [5900], None, None),
@@ -96,6 +96,10 @@ SPECS = {
     "Model 16": dict(ys=1969, ye=1973, type="Power Amp", w=100, thd=0.1, fr="10-60000", wt=14.5, ps="Dual Mono", yen=195.0, ckt="Solid-state stereo power amp; fully dual-mono (independent L/R power)", src="audio-database.com", url="https://audio-database.com/MARANTZ/amp/model16.html"),
     "Superscope BLA-530": dict(ys=1978, ye=None, type="Integrated", thd=0.1, fr="20-50000", ckt="Superscope (Marantz budget division) stereo integrated amp; 30W/ch into 4ohm, damping 45", src="hifiengine.com", url="https://www.hifiengine.com/manual_library/superscope/bla-530.shtml"),
     "Model 22": dict(ys=1969, w=40, thd=0.3, wt=16.8, ckt="Stereophonic solid-state receiver", src="classicreceivers.com", url="https://classicreceivers.com/marantz-model-22"),
+    "Model 25": dict(ys=1969, w=30, thd=0.3, fr="20-20000", ckt="Stereophonic solid-state receiver", src="hifiengine/reverb", url="https://www.hifiengine.com/manual_library/marantz/model-25.shtml"),
+    "Model 26": dict(ys=1970, w=14, ckt="Stereophonic solid-state receiver (smallest of the early series)", src="hifiengine/reverb", url="https://www.hifiengine.com/manual_library/marantz/model-26.shtml"),
+    "Model 27": dict(ys=1970, w=30, thd=0.3, fr="20-20000", wt=6.4, ckt="Stereophonic solid-state receiver", src="hifiengine/reverb", url="https://www.hifiengine.com/manual_library/marantz/model-27.shtml"),
+    "1015":   dict(ys=1980, type="Tape Deck", fr="35-17000", wt=5.7, ckt="SD-1015 2-head stereo cassette deck; Dolby-B, normal/chrome/metal tape", src="radiomuseum/cassettedeck.org", url="https://www.hifiengine.com/manual_library/marantz/sd1015.shtml"),
     # --- Integrated / PM (audio-database.com, Japan-market) ---
     "1030":   dict(ys=1972, w=15,  thd=0.5,   fr="15-40000", wt=7.7,  yen=39.9,  ckt="Entry pre-main; simplified Marantz design", src="audio-database.com", url="https://audio-database.com/MARANTZ/amp/model1030-e.html"),
     "1090":   dict(ys=1977, w=45,  thd=0.1,   fr="10-60000", wt=9.5,  ckt="Console stereo integrated amplifier", src="hifivintage.eu", url="https://hifivintage.eu/en/amplifiers/5595-marantz-model-1090.html"),
@@ -111,6 +115,9 @@ SPECS = {
     "PM-80":  dict(ys=1989, w=100, thd=0.0008, fr="10-100000", wt=17.5, yen=65.0, ckt="Parallel push-pull, 3-stage Darlington; Class A (20W) / AB (100W) switchable", src="audio-database.com", url="https://audio-database.com/MARANTZ/amp/pm-80-e.html"),
     "PM-94":  dict(ys=1985, w=140, thd=0.005, fr="20-20000", wt=23.0, yen=228.0, ckt="Triple push-pull MOS-FET; Quarter-A circuit; Class A (35W) / AB (140W)", src="audio-database.com", url="https://audio-database.com/MARANTZ/amp/pm-94-e.html"),
     "PM66 KI Signature": dict(w=50, thd=0.03, fr="10-100000", wt=6.6, ckt="Ken Ishiwata Signature; figures from base PM-66SE (KI edition may differ)", src="audio-database.com", url="https://audio-database.com/MARANTZ/amp/pm-66sev-e.html"),
+    "1300 DC":   dict(ys=1978, ye=1982, w=150, thd=0.03, fr="20-20000", wt=24.5, ckt="Flagship DC integrated; direct-coupled, high-current output", src="hifi-wiki/reverb", url="https://www.hifiengine.com/manual_library/marantz/1300dc.shtml"),
+    "PM-710 DC": dict(ys=1981, ye=1983, w=80, thd=0.03, fr="10-60000", wt=15.0, ckt="Console DC integrated amplifier", src="radiomuseum/hifi-wiki", url="https://www.hifiengine.com/manual_library/marantz/pm710dc.shtml"),
+    "PM 500":    dict(ys=1980, ye=1981, w=50, thd=0.03, fr="10-60000", wt=13.0, ckt="Console integrated amplifier (built-in EQ)", src="radiomuseum/hifiengine", url="https://www.hifiengine.com/manual_library/marantz/pm500.shtml"),
     # --- US receivers / quad (classicreceivers.com, vintageaudioexchange) ---
     "2215":  dict(w=15, ckt="Stereophonic solid-state receiver", src="Marantz 22xx convention (2270/2265/2215B corroborated)"),
     "2230":  dict(w=30, ckt="Stereophonic solid-state receiver", src="Marantz 22xx convention (2270/2265/2215B corroborated)"),
