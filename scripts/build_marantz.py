@@ -43,7 +43,7 @@ DATA = [
     # --- 22XX receivers ---
     ("2210",  "Receiver", None, None, "22XX Receiver", None, None, None),
     ("2215",  "Receiver", 1971, 1974, "22XX Receiver (1st gen)", None, None, None),
-    ("2215B", "Receiver", 1974, 1977, "22XX B Receiver", [5200], None, None),
+    ("2215B", "Receiver", 1974, 1977, "22XX B Receiver", [4800], None, None),
     ("2216B", "Receiver", 1974, 1977, "22XX B Receiver", [7000], None, None),
     ("2218",  "Receiver", None, None, "22XX Receiver", [8200], None, None),
     ("2220B", "Receiver", 1974, 1977, "22XX B Receiver", None, None, None),
@@ -65,7 +65,7 @@ DATA = [
     ("2500",  "Receiver", 1978, 1980, "Champagne / Monster Receiver", None, None, None),
     ("2600",  "Receiver", 1978, 1980, "Champagne / Monster Receiver", None, None, None),
     # --- Quadradial 4-channel ---
-    ("3300",  None,          1975, 1977, "Preamp / Control", None, None,
+    ("3300",  None,          1975, 1977, "Preamp / Control", [21500], None,
         "Stereo control preamplifier (Wayne's list had it under Quad; confirmed a preamp via the Model 1200B, which pairs it with the Model 240 power amp)"),
     ("4230",  "Receiver 4-ch", 1972, 1976, "Quadradial 4-channel", [15000], 575, None),
     ("4270",  "Receiver 4-ch", 1972, 1976, "Quadradial 4-channel", [34000], None, None),
@@ -88,6 +88,8 @@ DATA = [
     ("2252B", "Receiver", 1977, 1979, "22XX B Receiver", None, None, None),
     ("4415", "Receiver 4-ch", 1973, 1973, "Quadradial 4-channel", None, None, None),
     ("4430", "Receiver 4-ch", 1972, 1974, "Quadradial 4-channel", None, None, None),
+    ("SR-2000", "Receiver", 1980, 1982, "SR Series", [4000], None, None),
+    ("170DC", "Power Amp", 1978, 1980, "Separates", [21500], None, None),
 ]
 
 
@@ -168,6 +170,10 @@ SPECS = {
     "2252B": dict(ys=1977, ye=1979, w=52, fr="20-20000", wt=14.2, ckt="Stereophonic solid-state receiver", src="radiomuseum/VTA", url="https://vintagetechnologyarchive.com/audio/marantz/2252b/"),
     "4415": dict(ys=1973, w=15, thd=1.0, fr="30-20000", wt=12.0, ckt="Quadradial 4-channel receiver; 15W/ch in quad (model number = quad watts); damping 45", src="reverb/worthpoint", url="https://www.hifiengine.com/manual_library/marantz/4415.shtml"),
     "4430": dict(ys=1972, ye=1974, w=30, thd=0.3, fr="20-20000", wt=16.3, ckt="Quadradial 4-channel receiver; 30W/ch in quad (model number = quad watts)", src="reverb/VTA", url="https://www.hifiengine.com/manual_library/marantz/4430.shtml"),
+    "SR-2000": dict(ys=1980, ye=1982, w=30, thd=0.04, fr="15-50000", wt=8.0, ckt="Stereo receiver; damping 36", src="hifiengine/VTA", url="https://www.hifiengine.com/manual_library/marantz/sr2000.shtml"),
+    "170DC": dict(ys=1978, ye=1980, w=86, thd=0.03, fr="20-20000", wt=14.1, ckt="Solid-state stereo power amp; 53 transistors; damping 60", src="hifiengine.com", url="https://www.hifiengine.com/manual_library/marantz/170dc.shtml",
+        sonic="Warm and tube-like — controlled bass, smooth, slightly rolled treble; on the romantic side of the sound.",
+        cnote="Balanced dealer/servicer view (weighed over effusive owner reviews): cosmetically stunning and a decent amp, but middling watt-for-watt and dollar-for-dollar — the 2265B/2285B receivers gave ~85% of the performance for similar money. Still commands high prices for the Marantz name."),
 }
 
 
@@ -202,6 +208,7 @@ RANKINGS = {
     "Model 10B": "Top 10",
     "2275": "Top 10-20", "Model 7": "Top 10-20", "Model 250": "Top 10-20", "2240": "Top 10-20",
     "2252B": "Top 20-30", "4415": "Top 20-30", "4430": "Top 30-40",
+    "170DC": "Top 10-20", "SR-2000": "Top 40-50",
 }
 
 
@@ -216,7 +223,7 @@ PRICES = {
     "Model 27": 500, "2230": 490, "2215": 490, "2215B": 490, "PM-80": 450, "PM66 KI Signature": 400,
     "1090": 400, "2218": 400, "1070": 380, "PM 500": 300,
     "Model 10B": 3400, "2275": 2400, "Model 7": 2000, "Model 250": 1950, "2240": 1420, "2252B": 870,
-    "4415": 780,
+    "4415": 780, "170DC": 1500, "SR-2000": 450,
 }
 
 # Best Buy (1-5 stars) = collectability (USD price) AND how cheap the Thai baht price is vs USD.
@@ -226,7 +233,10 @@ BESTBUY = {
     "4270": (4, "Sought-after quad (~$1,950 USD) at ~฿34k (~$970) — strong value on a collectable receiver."),
     "2238B": (4, "38W receiver (~$870 USD) around ฿16.5k (~$470) — a good discount to the global market."),
     "2216B": (4, "~$565 USD abroad vs ~฿7k (~$200) locally — well under market."),
-    "2215B": (4, "Entry blue-dial 22xx (~$490 USD) at ฿5.2k (~$150) — a cheap way into the line."),
+    "2215B": (4, "~$490 USD abroad, now down to ฿4.8k (~$137) locally — a cheap way into the 22xx line."),
+    "170DC": (4, "Well-regarded 86W power amp (~$1,500 USD) at ฿21.5k (~$615) — strong value."),
+    "3300": (3, "Marantz control preamp (~$925 USD) at ฿21.5k (~$615) — a fair discount."),
+    "SR-2000": (3, "Entry SR receiver (~$450 USD) at ฿4k (~$115) — cheap, though a modest unit."),
     "PM-710 DC": (4, "DC integrated (~$630 USD) at ฿6.9k (~$200) — a big discount to overseas prices."),
     "4230": (4, "Quad receiver (~$790 USD) at ฿15k (~$430) — good value entry to Quadradial."),
     "2265": (3, "Collectable 65W (~$1,200 USD), but ฿27.8k (~$790) is close to global pricing."),
@@ -296,7 +306,7 @@ def build():
             "collector_ranking": RANKINGS.get(model, "Unranked"),
             "price_confidence": "Medium" if model in PRICES else ("Low" if has_price else "None"),
             "last_price_check": LAST_CHECK if has_price else None,
-            "collector_info": {"known_issues": None, "collector_notes": None},
+            "collector_info": {"known_issues": None, "collector_notes": sp.get("cnote")},
             "restorer_info": {
                 "known_failure_points": [],
                 "bias_spec_mv": None,
@@ -319,7 +329,7 @@ def build():
             "price_thb_listings": thb or [],
             "usd_msrp": None,
             "market": None,
-            "sonic_signature": None,
+            "sonic_signature": sp.get("sonic"),
             "thb_status": None,
         }
         records.append(rec)

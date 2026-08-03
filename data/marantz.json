@@ -1492,7 +1492,7 @@
     },
     "best_buy": {
       "rating": 4,
-      "reason": "Entry blue-dial 22xx (~$490 USD) at ฿5.2k (~$150) — a cheap way into the line."
+      "reason": "~$490 USD abroad, now down to ฿4.8k (~$137) locally — a cheap way into the 22xx line."
     },
     "capacitors": [],
     "links": {
@@ -1508,7 +1508,7 @@
     "price_basis": "hifishark median 2026",
     "year_source": "hqaudios/classicreceivers",
     "price_thb_listings": [
-      5200
+      4800
     ],
     "usd_msrp": null,
     "market": null,
@@ -2588,7 +2588,7 @@
     "cons": null,
     "collector_ranking": "Top 20-30",
     "price_confidence": "Medium",
-    "last_price_check": null,
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -2603,8 +2603,8 @@
       "common_faults": []
     },
     "best_buy": {
-      "rating": null,
-      "reason": null
+      "rating": 3,
+      "reason": "Marantz control preamp (~$925 USD) at ฿21.5k (~$615) — a fair discount."
     },
     "capacitors": [],
     "links": {
@@ -2619,7 +2619,9 @@
     "avg_price_usd_3mo": 925,
     "price_basis": "hifishark median 2026",
     "year_source": "audio-database.com",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      21500
+    ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
@@ -3736,6 +3738,126 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
+    "thb_status": null
+  },
+  {
+    "id": "marantz-sr-2000-1980",
+    "brand": "Marantz",
+    "jdm_model": "SR-2000",
+    "int_model": null,
+    "type": "Receiver",
+    "series": "SR Series",
+    "year_start": 1980,
+    "year_end": 1982,
+    "japan_price_kyen": null,
+    "watts_per_channel": 30,
+    "freq_response_hz": "15-50000",
+    "thd_percent": 0.04,
+    "ps_type": null,
+    "amp_circuit": "Stereo receiver; damping 36",
+    "weight_kg": 8.0,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Top 40-50",
+    "price_confidence": "Medium",
+    "last_price_check": "2026-08",
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": 3,
+      "reason": "Entry SR receiver (~$450 USD) at ฿4k (~$115) — cheap, though a modest unit."
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": "https://www.hifiengine.com/manual_library/marantz/sr2000.shtml",
+      "sansui_us": null,
+      "source": null
+    },
+    "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from hifiengine/VTA (still unverified).",
+    "verified": false,
+    "verification": "sourced",
+    "avg_price_usd_3mo": 450,
+    "price_basis": "hifishark median 2026",
+    "year_source": "hifiengine/VTA",
+    "price_thb_listings": [
+      4000
+    ],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": null,
+    "thb_status": null
+  },
+  {
+    "id": "marantz-170dc-1978",
+    "brand": "Marantz",
+    "jdm_model": "170DC",
+    "int_model": null,
+    "type": "Power Amp",
+    "series": "Separates",
+    "year_start": 1978,
+    "year_end": 1980,
+    "japan_price_kyen": null,
+    "watts_per_channel": 86,
+    "freq_response_hz": "20-20000",
+    "thd_percent": 0.03,
+    "ps_type": null,
+    "amp_circuit": "Solid-state stereo power amp; 53 transistors; damping 60",
+    "weight_kg": 14.1,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Top 10-20",
+    "price_confidence": "Medium",
+    "last_price_check": "2026-08",
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": "Balanced dealer/servicer view (weighed over effusive owner reviews): cosmetically stunning and a decent amp, but middling watt-for-watt and dollar-for-dollar — the 2265B/2285B receivers gave ~85% of the performance for similar money. Still commands high prices for the Marantz name."
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": 4,
+      "reason": "Well-regarded 86W power amp (~$1,500 USD) at ฿21.5k (~$615) — strong value."
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": "https://www.hifiengine.com/manual_library/marantz/170dc.shtml",
+      "sansui_us": null,
+      "source": null
+    },
+    "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from hifiengine.com (still unverified).",
+    "verified": false,
+    "verification": "sourced",
+    "avg_price_usd_3mo": 1500,
+    "price_basis": "hifishark median 2026",
+    "year_source": "hifiengine.com",
+    "price_thb_listings": [
+      21500
+    ],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": "Warm and tube-like — controlled bass, smooth, slightly rolled treble; on the romantic side of the sound.",
     "thb_status": null
   }
 ]
