@@ -3411,7 +3411,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 10-20",
+    "collector_ranking": "Top 30-40",
     "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
@@ -3428,8 +3428,8 @@
       "common_faults": []
     },
     "best_buy": {
-      "rating": 5,
-      "reason": "Model 250 power amp (~$1,950 USD) spotted in Thailand at just ฿3,900 (~$110) — an extraordinary price if the unit is genuine and working."
+      "rating": 3,
+      "reason": "Model 250 power amp (~$500 USD clean/refurbished); this ฿3,900 (~$110) example is rough — a fair project-unit price, not a bargain."
     },
     "capacitors": [],
     "links": {
@@ -3441,7 +3441,7 @@
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. US-designed, Japan-produced; dual VU meters. Specs sourced from audio-database.com (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": 1950,
+    "avg_price_usd_3mo": 500,
     "price_basis": "hifishark median 2026",
     "year_source": "audio-database.com",
     "price_thb_listings": [

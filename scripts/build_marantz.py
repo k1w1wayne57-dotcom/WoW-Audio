@@ -210,10 +210,10 @@ RANKINGS = {
     "PM 500": "Unranked", "1015": "Unranked", "Superscope BLA-530": "Unranked",
     # Added models (placed by price tier)
     "Model 10B": "Top 10",
-    "2275": "Top 10-20", "Model 7": "Top 10-20", "Model 250": "Top 10-20", "2240": "Top 10-20",
+    "2275": "Top 10-20", "Model 7": "Top 10-20", "2240": "Top 10-20",
     "2252B": "Top 20-30", "4415": "Top 20-30", "4430": "Top 30-40",
     "170DC": "Top 10-20", "SR-2000": "Top 40-50",
-    "Model 2": "Top 10", "Model 240": "Top 20-30",
+    "Model 2": "Top 10", "Model 240": "Top 20-30", "Model 250": "Top 30-40",
 }
 
 
@@ -227,7 +227,7 @@ PRICES = {
     "PM-5 Esotec": 790, "Model 22": 650, "1200": 650, "PM-710 DC": 630, "2216B": 565,
     "Model 27": 500, "2230": 490, "2215": 490, "2215B": 490, "PM-80": 450, "PM66 KI Signature": 400,
     "1090": 400, "2218": 400, "1070": 380, "PM 500": 300,
-    "Model 10B": 3400, "2275": 2400, "Model 7": 2000, "Model 250": 1950, "2240": 1420, "2252B": 870,
+    "Model 10B": 3400, "2275": 2400, "Model 7": 2000, "Model 250": 500, "2240": 1420, "2252B": 870,
     "4415": 780, "170DC": 1500, "SR-2000": 450, "Model 240": 1000,
 }
 
@@ -242,7 +242,7 @@ BESTBUY = {
     "170DC": (4, "Well-regarded 86W power amp (~$1,500 USD) at ฿21.5k (~$615) — strong value."),
     "3300": (3, "Marantz control preamp (~$925 USD) at ฿21.5k (~$615) — a fair discount."),
     "SR-2000": (3, "Entry SR receiver (~$450 USD) at ฿4k (~$115) — cheap, though a modest unit."),
-    "Model 250": (5, "Model 250 power amp (~$1,950 USD) spotted in Thailand at just ฿3,900 (~$110) — an extraordinary price if the unit is genuine and working."),
+    "Model 250": (3, "Model 250 power amp (~$500 USD clean/refurbished); this ฿3,900 (~$110) example is rough — a fair project-unit price, not a bargain."),
     "PM-710 DC": (4, "DC integrated (~$630 USD) at ฿6.9k (~$200) — a big discount to overseas prices."),
     "4230": (4, "Quad receiver (~$790 USD) at ฿15k (~$430) — good value entry to Quadradial."),
     "2265": (3, "Collectable 65W (~$1,200 USD), but ฿27.8k (~$790) is close to global pricing."),
