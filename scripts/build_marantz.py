@@ -138,7 +138,7 @@ SPECS = {
     "4230":  dict(ys=1973, ye=1978, w=30,  wt=14.2, ckt="Quadradial 2+4 receiver; 30W/ch stereo, 12W/ch quad (8ohm)", src="classicreceivers.com", url="https://classicreceivers.com/marantz-4230"),
     "4270":  dict(ys=1974, w=70,  wt=18.4, ckt="Quadradial 2+4 receiver; 70W/ch stereo, 25W/ch quad (8ohm)", src="classicreceivers.com", url=["https://classicreceivers.com/marantz-4270-quad", "https://www.hifiengine.com/manual_library/marantz/4270.shtml"]),
     "4300":  dict(ys=1972, ye=1978, w=100, ckt="Quadradial 2+4 receiver; 100W/ch stereo", src="classicreceivers.com", url="https://classicreceivers.com/marantz-4300"),
-    "4400":  dict(ys=1974, ye=1978, w=125, ckt="Quadradial 2+4 receiver; 125W/ch stereo, 50W/ch quad", src="classicreceivers.com", url="https://classicreceivers.com/marantz-4400"),
+    "4400":  dict(ys=1976, ye=1977, w=125, thd=0.15, fr="20-20000", wt=23.4, ckt="Quadradial 2+4 receiver; 125W/ch stereo, 50W/ch quad; damping 40", src="hifiengine/classicreceivers", url=["https://classicreceivers.com/marantz-4400", "https://www.hifiengine.com/manual_library/marantz/4400.shtml"]),
     # --- 22xx B-models: watts from Marantz naming convention (year/weight not sourced) ---
     "2210":  dict(w=10, ckt="Stereophonic solid-state receiver", src=CONV),
     "2216B": dict(w=16, ckt="Stereophonic solid-state receiver", src=CONV),
