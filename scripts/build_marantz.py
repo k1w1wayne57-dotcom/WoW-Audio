@@ -79,6 +79,13 @@ DATA = [
     ("PM-80",  "Integrated", 1987, 1990, "Quarter-A / High-End PM", None, None, None),
     ("PM-94",  "Integrated", 1987, 1990, "Quarter-A / High-End PM", None, None, None),
     ("PM66 KI Signature", "Integrated", 1998, 1998, "KI Signature", None, None, "Ken Ishiwata Signature"),
+    # --- Notable models added from HiFiShark sweep (grails + mainstream 22xx we'd skipped) ---
+    ("Model 7", "Preamp", 1958, 1967, "Tube Era", None, None, "Model 7/7C tube control preamp — the definitive vintage tube preamp"),
+    ("Model 10B", "Tuner", 1964, 1968, "Tube Era", None, None, "Tube FM tuner with CRT scope — regarded a top-3 vintage tuner"),
+    ("Model 250", "Power Amp", 1971, 1973, "Separates", None, None, "Pairs with the Model 3300 preamp"),
+    ("2240", "Receiver", 1974, 1975, "22XX Receiver (1st gen)", None, None, None),
+    ("2275", "Receiver", 1975, 1977, "22XX Heavyweight", None, None, None),
+    ("2252B", "Receiver", 1977, 1979, "22XX B Receiver", None, None, None),
 ]
 
 
@@ -150,6 +157,13 @@ SPECS = {
     # --- Champagne / Monster receiver era ---
     "2500":  dict(ys=1977, ye=1979, w=250, thd=0.05, wt=27.0, ckt="Monster-era flagship receiver", src="classicreceivers.com", url="https://classicreceivers.com/marantz-2500"),
     "2600":  dict(ys=1978, w=300, ckt="Flagship monster receiver", src="classicreceivers.com", url="https://classicreceivers.com/marantz-2600"),
+    # --- Added models (HiFiShark sweep) ---
+    "Model 7": dict(ys=1958, ye=1967, type="Preamp", wt=6.8, ckt="Tube control preamplifier; 3x 12AX7 per channel; ~130,000 made", src="theabsolutesound/VTA", url="https://vintagetechnologyarchive.com/audio/marantz/model-7c/"),
+    "Model 10B": dict(ys=1964, ye=1968, type="Tuner", ckt="Tube FM stereo tuner; 22 tubes, CRT tuning scope; a top-3 vintage tuner", src="radiomuseum/VTA", url="https://www.radiomuseum.org/r/marantz_stereo_fm_tuner_10b.html"),
+    "Model 250": dict(ys=1971, ye=1973, type="Power Amp", w=125, ckt="Solid-state stereo power amp; 125W (8ohm) / 150W (4ohm); dual VU meters", src="audio-database.com", url="https://audio-database.com/MARANTZ/amp/model250-e.html"),
+    "2240": dict(ys=1974, w=40, thd=0.25, fr="20-20000", wt=14.0, ckt="Stereophonic solid-state receiver", src="classicreceivers.com", url="https://classicreceivers.com/marantz-2240"),
+    "2275": dict(ys=1975, ye=1977, w=75, thd=0.25, fr="20-20000", wt=17.7, ckt="Stereophonic solid-state receiver", src="classicreceivers.com", url="https://classicreceivers.com/marantz-2275"),
+    "2252B": dict(ys=1977, ye=1979, w=52, fr="20-20000", wt=14.2, ckt="Stereophonic solid-state receiver", src="radiomuseum/VTA", url="https://vintagetechnologyarchive.com/audio/marantz/2252b/"),
 }
 
 
@@ -180,6 +194,10 @@ RANKINGS = {
     # Unranked — budget / cassette / lowest market
     "Model 26": "Unranked", "2210": "Unranked", "1030": "Unranked",
     "PM 500": "Unranked", "1015": "Unranked", "Superscope BLA-530": "Unranked",
+    # Added models (placed by price tier)
+    "Model 10B": "Top 10",
+    "2275": "Top 10-20", "Model 7": "Top 10-20", "Model 250": "Top 10-20", "2240": "Top 10-20",
+    "2252B": "Top 20-30",
 }
 
 
@@ -193,6 +211,7 @@ PRICES = {
     "PM-5 Esotec": 790, "Model 22": 650, "1200": 650, "PM-710 DC": 630, "2216B": 565,
     "Model 27": 500, "2230": 490, "2215": 490, "2215B": 490, "PM-80": 450, "PM66 KI Signature": 400,
     "1090": 400, "2218": 400, "1070": 380, "PM 500": 300,
+    "Model 10B": 3400, "2275": 2400, "Model 7": 2000, "Model 250": 1950, "2240": 1420, "2252B": 870,
 }
 
 # Best Buy (1-5 stars) = collectability (USD price) AND how cheap the Thai baht price is vs USD.
