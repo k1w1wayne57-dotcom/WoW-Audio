@@ -65,8 +65,8 @@ DATA = [
     ("2500",  "Receiver", 1978, 1980, "Champagne / Monster Receiver", None, None, None),
     ("2600",  "Receiver", 1978, 1980, "Champagne / Monster Receiver", None, None, None),
     # --- Quadradial 4-channel ---
-    ("3300",  None,          1972, 1976, "Quadradial 4-channel", None, None,
-        "Source lists under Quad; the Marantz 3300 is commonly a stereo preamp — verify type"),
+    ("3300",  None,          1975, 1977, "Preamp / Control", None, None,
+        "Stereo control preamplifier (Wayne's list had it under Quad; confirmed a preamp via the Model 1200B, which pairs it with the Model 240 power amp)"),
     ("4230",  "Receiver 4-ch", 1972, 1976, "Quadradial 4-channel", [15000], 575, None),
     ("4270",  "Receiver 4-ch", 1972, 1976, "Quadradial 4-channel", [34000], None, None),
     ("4300",  "Receiver 4-ch", 1972, 1976, "Quadradial 4-channel", None, None, None),
@@ -99,6 +99,9 @@ SPECS = {
     "Model 25": dict(ys=1969, w=30, thd=0.3, fr="20-20000", ckt="Stereophonic solid-state receiver", src="hifiengine/reverb", url="https://www.hifiengine.com/manual_library/marantz/model-25.shtml"),
     "Model 26": dict(ys=1970, w=14, ckt="Stereophonic solid-state receiver (smallest of the early series)", src="hifiengine/reverb", url="https://www.hifiengine.com/manual_library/marantz/model-26.shtml"),
     "Model 27": dict(ys=1970, w=30, thd=0.3, fr="20-20000", wt=6.4, ckt="Stereophonic solid-state receiver", src="hifiengine/reverb", url="https://www.hifiengine.com/manual_library/marantz/model-27.shtml"),
+    "Model 18": dict(ys=1968, w=40, thd=0.2, fr="20-20000", ckt="First Marantz receiver; solid-state with tube oscilloscope tuning display", src="soundandvision/classicreceivers", url="https://www.hifiengine.com/manual_library/marantz/model-18.shtml"),
+    "Model 19": dict(ys=1973, ye=1974, w=50, thd=0.15, fr="20-20000", wt=20.9, ckt="Solid-state receiver with built-in oscilloscope tuning display", src="marantz.com/reverb", url="https://www.hifiengine.com/manual_library/marantz/model-19.shtml"),
+    "3300":   dict(type="Preamp", ckt="Stereo control preamplifier; paired with the Model 240 power amp in the 1200B", src="audio-database.com", url="https://audio-database.com/MARANTZ/amp/model3300-e.html"),
     "1015":   dict(ys=1980, type="Tape Deck", fr="35-17000", wt=5.7, ckt="SD-1015 2-head stereo cassette deck; Dolby-B, normal/chrome/metal tape", src="radiomuseum/cassettedeck.org", url="https://www.hifiengine.com/manual_library/marantz/sd1015.shtml"),
     # --- Integrated / PM (audio-database.com, Japan-market) ---
     "1030":   dict(ys=1972, w=15,  thd=0.5,   fr="15-40000", wt=7.7,  yen=39.9,  ckt="Entry pre-main; simplified Marantz design", src="audio-database.com", url="https://audio-database.com/MARANTZ/amp/model1030-e.html"),
