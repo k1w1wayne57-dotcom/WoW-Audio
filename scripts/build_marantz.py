@@ -153,6 +153,36 @@ SPECS = {
 }
 
 
+# Per-brand collector ranking (Sansui-style bands). SUBJECTIVE first pass based on general
+# Marantz collector desirability, for Wayne to adjust. Grails (tube, scope, monster receivers,
+# flagships) up top; everyday models mid; budget/newer/non-amp gear at the tail.
+RANKINGS = {
+    # Top 10 — the grails
+    "Model 9": "Top 10", "Model 8": "Top 10", "Model 19": "Top 10", "Model 18": "Top 10",
+    "2600": "Top 10", "2500": "Top 10", "2385": "Top 10", "2270": "Top 10",
+    "2330B": "Top 10", "1300 DC": "Top 10",
+    # Top 10-20 — very collectable
+    "2325": "Top 10-20", "2265": "Top 10-20", "2285B": "Top 10-20", "2245": "Top 10-20",
+    "2230": "Top 10-20", "Model 16": "Top 10-20", "Model 15": "Top 10-20", "2215": "Top 10-20",
+    "1250": "Top 10-20", "2260": "Top 10-20",
+    # Top 20-30
+    "2250": "Top 20-30", "2250B": "Top 20-30", "2238B": "Top 20-30", "2235B": "Top 20-30",
+    "1200": "Top 20-30", "1200B": "Top 20-30", "1150": "Top 20-30", "PM-94": "Top 20-30",
+    "Model 14": "Top 20-30", "2215B": "Top 20-30",
+    # Top 30-40
+    "2220B": "Top 30-40", "2218": "Top 30-40", "2216B": "Top 30-40", "2210": "Top 30-40",
+    "PM-84": "Top 30-40", "1090": "Top 30-40", "1070": "Top 30-40", "1060": "Top 30-40",
+    "PM-80": "Top 30-40", "4400": "Top 30-40",
+    # Top 40-50
+    "4270": "Top 40-50", "4300": "Top 40-50", "4230": "Top 40-50", "Model 22": "Top 40-50",
+    "Model 25": "Top 40-50", "Model 27": "Top 40-50", "1030": "Top 40-50",
+    "PM66 KI Signature": "Top 40-50", "PM-5 Esotec": "Top 40-50", "3300": "Top 40-50",
+    # Unranked — budget / newer / non-amp
+    "Model 26": "Unranked", "1015": "Unranked", "Superscope BLA-530": "Unranked",
+    "PM 500": "Unranked", "PM-710 DC": "Unranked", "PM-54": "Unranked",
+}
+
+
 def slug(model):
     return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", model.lower())).strip("-")
 
@@ -205,7 +235,7 @@ def build():
             "special_features": None,
             "pros": None,
             "cons": None,
-            "collector_ranking": "Unranked",
+            "collector_ranking": RANKINGS.get(model, "Unranked"),
             "price_confidence": "Low" if has_price else "None",
             "last_price_check": LAST_CHECK if has_price else None,
             "collector_info": {"known_issues": None, "collector_notes": None},
