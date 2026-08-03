@@ -153,41 +153,46 @@ SPECS = {
 }
 
 
-# Per-brand collector ranking (Sansui-style bands). SUBJECTIVE first pass based on general
-# Marantz collector desirability, for Wayne to adjust. Grails (tube, scope, monster receivers,
-# flagships) up top; everyday models mid; budget/newer/non-amp gear at the tail.
+# Per-brand collector ranking (Sansui-style bands), ordered by HiFiShark market price
+# (Wayne's rule: price approximates collectability). Models without a reliable price are placed
+# by estimate/type and noted. Adjustable — a beloved-but-common model like the 2270 sits by its
+# price, not its fame; say the word to hand-boost any.
 RANKINGS = {
-    # Top 10 — the grails
-    "Model 9": "Top 10", "Model 8": "Top 10", "Model 19": "Top 10", "Model 18": "Top 10",
-    "2600": "Top 10", "2500": "Top 10", "2385": "Top 10", "2270": "Top 10",
-    "2330B": "Top 10", "1300 DC": "Top 10",
-    # Top 10-20 — very collectable
-    "2325": "Top 10-20", "2265": "Top 10-20", "2285B": "Top 10-20", "2245": "Top 10-20",
-    "2230": "Top 10-20", "Model 16": "Top 10-20", "Model 15": "Top 10-20", "2215": "Top 10-20",
-    "1250": "Top 10-20", "2260": "Top 10-20",
-    # Top 20-30
-    "2250": "Top 20-30", "2250B": "Top 20-30", "2238B": "Top 20-30", "2235B": "Top 20-30",
-    "1200": "Top 20-30", "1200B": "Top 20-30", "1150": "Top 20-30", "PM-94": "Top 20-30",
-    "Model 14": "Top 20-30", "2215B": "Top 20-30",
-    # Top 30-40
-    "2220B": "Top 30-40", "2218": "Top 30-40", "2216B": "Top 30-40", "2210": "Top 30-40",
-    "PM-84": "Top 30-40", "1090": "Top 30-40", "1070": "Top 30-40", "1060": "Top 30-40",
-    "PM-80": "Top 30-40", "4400": "Top 30-40",
-    # Top 40-50
-    "4270": "Top 40-50", "4300": "Top 40-50", "4230": "Top 40-50", "Model 22": "Top 40-50",
-    "Model 25": "Top 40-50", "Model 27": "Top 40-50", "1030": "Top 40-50",
-    "PM66 KI Signature": "Top 40-50", "PM-5 Esotec": "Top 40-50", "3300": "Top 40-50",
-    # Unranked — budget / newer / non-amp
-    "Model 26": "Unranked", "1015": "Unranked", "Superscope BLA-530": "Unranked",
-    "PM 500": "Unranked", "PM-710 DC": "Unranked", "PM-54": "Unranked",
+    # Top 10 — grails ($3k+ market)
+    "2600": "Top 10", "Model 9": "Top 10", "2500": "Top 10", "2385": "Top 10", "1300 DC": "Top 10",
+    "2330B": "Top 10", "4400": "Top 10", "Model 8": "Top 10", "2325": "Top 10", "Model 19": "Top 10",
+    # Top 10-20 — ~$1.1k-2k
+    "4270": "Top 10-20", "2285B": "Top 10-20", "1250": "Top 10-20", "4300": "Top 10-20",
+    "2265": "Top 10-20", "PM-94": "Top 10-20", "2270": "Top 10-20", "1200B": "Top 10-20",
+    "Model 15": "Top 10-20", "2245": "Top 10-20",
+    # Top 20-30 — ~$800-1k
+    "2250": "Top 20-30", "2250B": "Top 20-30", "Model 18": "Top 20-30", "3300": "Top 20-30",
+    "PM-84": "Top 20-30", "1150": "Top 20-30", "2260": "Top 20-30", "2238B": "Top 20-30",
+    "Model 16": "Top 20-30", "4230": "Top 20-30",
+    # Top 30-40 — ~$550-790
+    "PM-5 Esotec": "Top 30-40", "Model 22": "Top 30-40", "1200": "Top 30-40", "PM-710 DC": "Top 30-40",
+    "2235B": "Top 30-40", "2216B": "Top 30-40", "Model 25": "Top 30-40", "Model 14": "Top 30-40",
+    "Model 27": "Top 30-40", "PM-80": "Top 30-40",
+    # Top 40-50 — ~$350-490
+    "PM66 KI Signature": "Top 40-50", "2230": "Top 40-50", "2215": "Top 40-50", "2215B": "Top 40-50",
+    "2220B": "Top 40-50", "1090": "Top 40-50", "2218": "Top 40-50", "PM-54": "Top 40-50",
+    "1070": "Top 40-50", "1060": "Top 40-50",
+    # Unranked — budget / cassette / lowest market
+    "Model 26": "Unranked", "2210": "Unranked", "1030": "Unranked",
+    "PM 500": "Unranked", "1015": "Unranked", "Superscope BLA-530": "Unranked",
 }
 
 
 # Latest USD market price (HiFiShark median, ~2026), approximates collectability. EUR->USD ~1.08.
 PRICES = {
-    "2270": 1135, "2265": 1200, "2238B": 870, "2215B": 490, "2218": 400, "2216B": 565,
-    "4230": 790, "4270": 1950, "4400": 3300,
-    "1070": 380, "1090": 400, "PM-710 DC": 630, "PM 500": 300, "PM-5 Esotec": 790,
+    "2600": 13000, "Model 9": 12000, "2500": 9000, "2385": 4900, "1300 DC": 4300,
+    "2330B": 3300, "4400": 3300, "Model 8": 3100, "2325": 3000,
+    "4270": 1950, "2285B": 1900, "1250": 1650, "4300": 1400, "2265": 1200, "PM-94": 1200,
+    "2270": 1135, "1200B": 1100, "Model 15": 1100, "2245": 1100, "2250": 1000, "Model 18": 1000,
+    "3300": 925, "PM-84": 925, "1150": 925, "2238B": 870, "Model 16": 800, "4230": 790,
+    "PM-5 Esotec": 790, "Model 22": 650, "1200": 650, "PM-710 DC": 630, "2216B": 565,
+    "Model 27": 500, "2230": 490, "2215": 490, "2215B": 490, "PM-80": 450, "PM66 KI Signature": 400,
+    "1090": 400, "2218": 400, "1070": 380, "PM 500": 300,
 }
 
 # Best Buy (1-5 stars) = collectability (USD price) AND how cheap the Thai baht price is vs USD.
@@ -265,7 +270,7 @@ def build():
             "pros": None,
             "cons": None,
             "collector_ranking": RANKINGS.get(model, "Unranked"),
-            "price_confidence": "Low" if has_price else "None",
+            "price_confidence": "Medium" if model in PRICES else ("Low" if has_price else "None"),
             "last_price_check": LAST_CHECK if has_price else None,
             "collector_info": {"known_issues": None, "collector_notes": None},
             "restorer_info": {
