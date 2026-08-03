@@ -2727,7 +2727,7 @@
     "capacitors": [],
     "links": {
       "audio_database": null,
-      "hifi_engine": null,
+      "hifi_engine": "https://www.hifiengine.com/manual_library/marantz/4270.shtml",
       "sansui_us": null,
       "source": "https://classicreceivers.com/marantz-4270-quad"
     },

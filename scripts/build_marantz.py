@@ -129,7 +129,7 @@ SPECS = {
     "2265":  dict(w=65, ckt="Stereophonic solid-state receiver", src="classicreceivers.com"),
     "2215B": dict(w=15, ckt="Stereophonic solid-state receiver", src="hqaudios/classicreceivers"),
     "4230":  dict(ys=1973, ye=1978, w=30,  wt=14.2, ckt="Quadradial 2+4 receiver; 30W/ch stereo, 12W/ch quad (8ohm)", src="classicreceivers.com", url="https://classicreceivers.com/marantz-4230"),
-    "4270":  dict(ys=1974, w=70,  wt=18.4, ckt="Quadradial 2+4 receiver; 70W/ch stereo, 25W/ch quad (8ohm)", src="classicreceivers.com", url="https://classicreceivers.com/marantz-4270-quad"),
+    "4270":  dict(ys=1974, w=70,  wt=18.4, ckt="Quadradial 2+4 receiver; 70W/ch stereo, 25W/ch quad (8ohm)", src="classicreceivers.com", url=["https://classicreceivers.com/marantz-4270-quad", "https://www.hifiengine.com/manual_library/marantz/4270.shtml"]),
     "4300":  dict(ys=1972, ye=1978, w=100, ckt="Quadradial 2+4 receiver; 100W/ch stereo", src="classicreceivers.com", url="https://classicreceivers.com/marantz-4300"),
     "4400":  dict(ys=1974, ye=1978, w=125, ckt="Quadradial 2+4 receiver; 125W/ch stereo, 50W/ch quad", src="classicreceivers.com", url="https://classicreceivers.com/marantz-4400"),
     # --- 22xx B-models: watts from Marantz naming convention (year/weight not sourced) ---
@@ -208,14 +208,17 @@ def build():
             verification = "unconfirmed"
         # Route the source page URL into the links block for a clickable provenance link.
         links = {"audio_database": None, "hifi_engine": None, "sansui_us": None, "source": None}
-        src_url = sp.get("url")
-        if src_url:
-            if "audio-database.com" in src_url:
-                links["audio_database"] = src_url
-            elif "hifiengine.com" in src_url:
-                links["hifi_engine"] = src_url
-            else:
-                links["source"] = src_url
+        src_urls = sp.get("url")
+        if src_urls:
+            if isinstance(src_urls, str):
+                src_urls = [src_urls]
+            for u in src_urls:
+                if "audio-database.com" in u:
+                    links["audio_database"] = u
+                elif "hifiengine.com" in u:
+                    links["hifi_engine"] = u
+                else:
+                    links["source"] = u
         rec = {
             "id": f"marantz-{slug(model)}" + (f"-{ys}" if ys else ""),
             "brand": "Marantz",
