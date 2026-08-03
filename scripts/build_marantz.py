@@ -18,7 +18,7 @@ DATA = [
     ("Model 9",  "Tube Power Amp", 1960, 1964, "Tube Era", None, None, None),
     # --- Early solid-state ---
     ("Model 14", None, 1966, 1969, "Early Solid-State", None, None, None),
-    ("Model 15", None, 1966, 1969, "Early Solid-State", None, None, "Early solid-state; type unconfirmed"),
+    ("Model 15", None, 1966, 1969, "Early Solid-State", None, None, None),
     ("Model 16", None, 1966, 1969, "Early Solid-State", None, None, "Early solid-state; type unconfirmed"),
     ("Superscope BLA-530", None, 1967, 1971, "Superscope", None, None, None),
     # --- Japan-market models ---
@@ -92,6 +92,7 @@ SPECS = {
     "Model 8": dict(ys=1959, ye=1962, w=30, ckt="Stereo tube power amp; 2x30W, EL34/6CA7 output (8 tubes); revised as Model 8B", src="radiomuseum.org", url="https://www.radiomuseum.org/r/marantz_model_8.html"),
     "Model 9": dict(ys=1961, ye=1968, w=70, fr="12-40000", ckt="Mono tube monoblock (EL34 push-pull); 40W triode-switchable; pair for stereo", src="radiomuseum.org", url="https://www.radiomuseum.org/r/marantz_model_9.html"),
     "Model 14": dict(ys=1968, type="Power Amp", w=60, thd=0.1, fr="10-60000", wt=8.17, ckt="Solid-state mono (single-channel) power amp; 60W into 8ohm / 70W into 4ohm", src="radiomuseum.org", url="https://www.radiomuseum.org/r/marantz_single_channel_amplifier_model_fourteen_14.html"),
+    "Model 15": dict(ys=1966, type="Power Amp", w=60, thd=0.1, fr="10-60000", wt=15.4, ps="Dual Mono", ckt="Solid-state stereo power amp; dual-mono (separate power supply per channel); 60W into 8ohm / 70W into 4ohm", src="hifiengine.com", url="https://www.hifiengine.com/manual_library/marantz/15.shtml"),
     "Superscope BLA-530": dict(ys=1978, ye=None, type="Integrated", thd=0.1, fr="20-50000", ckt="Superscope (Marantz budget division) stereo integrated amp; 30W/ch into 4ohm, damping 45", src="hifiengine.com", url="https://www.hifiengine.com/manual_library/superscope/bla-530.shtml"),
     "Model 22": dict(ys=1969, w=40, thd=0.3, wt=16.8, ckt="Stereophonic solid-state receiver", src="classicreceivers.com", url="https://classicreceivers.com/marantz-model-22"),
     # --- Integrated / PM (audio-database.com, Japan-market) ---
@@ -187,7 +188,7 @@ def build():
             "watts_per_channel": sp.get("w"),
             "freq_response_hz": sp.get("fr"),
             "thd_percent": sp.get("thd"),
-            "ps_type": None,
+            "ps_type": sp.get("ps"),
             "amp_circuit": sp.get("ckt"),
             "weight_kg": sp.get("wt"),
             "special_features": None,
