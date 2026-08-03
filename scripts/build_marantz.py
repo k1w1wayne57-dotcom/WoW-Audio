@@ -86,6 +86,8 @@ DATA = [
     ("2240", "Receiver", 1974, 1975, "22XX Receiver (1st gen)", None, None, None),
     ("2275", "Receiver", 1975, 1977, "22XX Heavyweight", None, None, None),
     ("2252B", "Receiver", 1977, 1979, "22XX B Receiver", None, None, None),
+    ("4415", "Receiver 4-ch", 1973, 1973, "Quadradial 4-channel", None, None, None),
+    ("4430", "Receiver 4-ch", 1972, 1974, "Quadradial 4-channel", None, None, None),
 ]
 
 
@@ -164,6 +166,8 @@ SPECS = {
     "2240": dict(ys=1974, w=40, thd=0.25, fr="20-20000", wt=14.0, ckt="Stereophonic solid-state receiver", src="classicreceivers.com", url="https://classicreceivers.com/marantz-2240"),
     "2275": dict(ys=1975, ye=1977, w=75, thd=0.25, fr="20-20000", wt=17.7, ckt="Stereophonic solid-state receiver", src="classicreceivers.com", url="https://classicreceivers.com/marantz-2275"),
     "2252B": dict(ys=1977, ye=1979, w=52, fr="20-20000", wt=14.2, ckt="Stereophonic solid-state receiver", src="radiomuseum/VTA", url="https://vintagetechnologyarchive.com/audio/marantz/2252b/"),
+    "4415": dict(ys=1973, w=15, thd=1.0, fr="30-20000", wt=12.0, ckt="Quadradial 4-channel receiver; 15W/ch in quad (model number = quad watts); damping 45", src="reverb/worthpoint", url="https://www.hifiengine.com/manual_library/marantz/4415.shtml"),
+    "4430": dict(ys=1972, ye=1974, w=30, thd=0.3, fr="20-20000", wt=16.3, ckt="Quadradial 4-channel receiver; 30W/ch in quad (model number = quad watts)", src="reverb/VTA", url="https://www.hifiengine.com/manual_library/marantz/4430.shtml"),
 }
 
 
@@ -197,7 +201,7 @@ RANKINGS = {
     # Added models (placed by price tier)
     "Model 10B": "Top 10",
     "2275": "Top 10-20", "Model 7": "Top 10-20", "Model 250": "Top 10-20", "2240": "Top 10-20",
-    "2252B": "Top 20-30",
+    "2252B": "Top 20-30", "4415": "Top 20-30", "4430": "Top 30-40",
 }
 
 
@@ -212,6 +216,7 @@ PRICES = {
     "Model 27": 500, "2230": 490, "2215": 490, "2215B": 490, "PM-80": 450, "PM66 KI Signature": 400,
     "1090": 400, "2218": 400, "1070": 380, "PM 500": 300,
     "Model 10B": 3400, "2275": 2400, "Model 7": 2000, "Model 250": 1950, "2240": 1420, "2252B": 870,
+    "4415": 780,
 }
 
 # Best Buy (1-5 stars) = collectability (USD price) AND how cheap the Thai baht price is vs USD.

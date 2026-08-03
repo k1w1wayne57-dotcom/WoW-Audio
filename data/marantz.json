@@ -3621,5 +3621,121 @@
     "market": null,
     "sonic_signature": null,
     "thb_status": null
+  },
+  {
+    "id": "marantz-4415-1973",
+    "brand": "Marantz",
+    "jdm_model": "4415",
+    "int_model": null,
+    "type": "Receiver 4-ch",
+    "series": "Quadradial 4-channel",
+    "year_start": 1973,
+    "year_end": 1973,
+    "japan_price_kyen": null,
+    "watts_per_channel": 15,
+    "freq_response_hz": "30-20000",
+    "thd_percent": 1.0,
+    "ps_type": null,
+    "amp_circuit": "Quadradial 4-channel receiver; 15W/ch in quad (model number = quad watts); damping 45",
+    "weight_kg": 12.0,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Top 20-30",
+    "price_confidence": "Medium",
+    "last_price_check": null,
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": "https://www.hifiengine.com/manual_library/marantz/4415.shtml",
+      "sansui_us": null,
+      "source": null
+    },
+    "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from reverb/worthpoint (still unverified).",
+    "verified": false,
+    "verification": "sourced",
+    "avg_price_usd_3mo": 780,
+    "price_basis": "hifishark median 2026",
+    "year_source": "reverb/worthpoint",
+    "price_thb_listings": [],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": null,
+    "thb_status": null
+  },
+  {
+    "id": "marantz-4430-1972",
+    "brand": "Marantz",
+    "jdm_model": "4430",
+    "int_model": null,
+    "type": "Receiver 4-ch",
+    "series": "Quadradial 4-channel",
+    "year_start": 1972,
+    "year_end": 1974,
+    "japan_price_kyen": null,
+    "watts_per_channel": 30,
+    "freq_response_hz": "20-20000",
+    "thd_percent": 0.3,
+    "ps_type": null,
+    "amp_circuit": "Quadradial 4-channel receiver; 30W/ch in quad (model number = quad watts)",
+    "weight_kg": 16.3,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Top 30-40",
+    "price_confidence": "None",
+    "last_price_check": null,
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": "https://www.hifiengine.com/manual_library/marantz/4430.shtml",
+      "sansui_us": null,
+      "source": null
+    },
+    "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from reverb/VTA (still unverified).",
+    "verified": false,
+    "verification": "sourced",
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": "reverb/VTA",
+    "price_thb_listings": [],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": null,
+    "thb_status": null
   }
 ]
