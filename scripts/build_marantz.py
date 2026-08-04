@@ -115,7 +115,7 @@ SPECS = {
     "Model 27": dict(ys=1970, w=30, thd=0.3, fr="20-20000", wt=6.4, ckt="Stereophonic solid-state receiver", src="hifiengine/reverb", url="https://www.hifiengine.com/manual_library/marantz/model-27.shtml"),
     "Model 18": dict(ys=1968, w=40, thd=0.2, fr="20-20000", ckt="First Marantz receiver; solid-state with tube oscilloscope tuning display", src="soundandvision/classicreceivers", url="https://www.hifiengine.com/manual_library/marantz/model-18.shtml"),
     "Model 19": dict(ys=1973, ye=1974, w=50, thd=0.15, fr="20-20000", wt=20.9, ckt="Solid-state receiver with built-in oscilloscope tuning display", src="marantz.com/reverb", url="https://www.hifiengine.com/manual_library/marantz/model-19.shtml"),
-    "3300":   dict(type="Preamp", ckt="Stereo control preamplifier; paired with the Model 240 power amp in the 1200B", src="audio-database.com", url="https://audio-database.com/MARANTZ/amp/model3300-e.html"),
+    "3300":   dict(ys=1973, type="Preamp", thd=0.02, fr="6-80000", wt=6.4, ckt="Stereo control preamplifier; paired with the Model 240 power amp in the 1200B", src="audio-database.com", url=["https://audio-database.com/MARANTZ/amp/model3300-e.html", "https://www.hifiengine.com/manual_library/marantz/3300.shtml"]),
     "1015":   dict(ys=1980, type="Tape Deck", fr="35-17000", wt=5.7, ckt="SD-1015 2-head stereo cassette deck; Dolby-B, normal/chrome/metal tape", src="radiomuseum/cassettedeck.org", url="https://www.hifiengine.com/manual_library/marantz/sd1015.shtml"),
     # --- Integrated / PM (audio-database.com, Japan-market) ---
     "1030":   dict(ys=1972, w=15,  thd=0.5,   fr="15-40000", wt=7.7,  yen=39.9,  ckt="Entry pre-main; simplified Marantz design", src="audio-database.com", url="https://audio-database.com/MARANTZ/amp/model1030-e.html"),
@@ -140,7 +140,7 @@ SPECS = {
     "2230":  dict(w=30, ckt="Stereophonic solid-state receiver", src="Marantz 22xx convention (2270/2265/2215B corroborated)"),
     "2245":  dict(w=45, ckt="Stereophonic solid-state receiver", src="Marantz 22xx convention (2270/2265/2215B corroborated)"),
     "2270":  dict(ys=1971, ye=1976, w=70, thd=0.3, wt=17.5, ckt="Stereophonic solid-state receiver", src="classicreceivers.com", url="https://classicreceivers.com/marantz-2270"),
-    "2265":  dict(w=65, ckt="Stereophonic solid-state receiver", src="classicreceivers.com"),
+    "2265":  dict(w=65, thd=0.08, fr="20-20000", wt=16.0, ckt="Stereophonic solid-state receiver; damping 55", src="hifiengine/classicreceivers", url="https://www.hifiengine.com/manual_library/marantz/2265.shtml"),
     "2215B": dict(w=15, ckt="Stereophonic solid-state receiver", src="hqaudios/classicreceivers"),
     "4230":  dict(ys=1973, ye=1978, w=30,  wt=14.2, ckt="Quadradial 2+4 receiver; 30W/ch stereo, 12W/ch quad (8ohm)", src="classicreceivers.com", url="https://classicreceivers.com/marantz-4230"),
     "4270":  dict(ys=1974, w=70,  wt=18.4, ckt="Quadradial 2+4 receiver; 70W/ch stereo, 25W/ch quad (8ohm)", src="classicreceivers.com", url=["https://classicreceivers.com/marantz-4270-quad", "https://www.hifiengine.com/manual_library/marantz/4270.shtml"]),
@@ -148,11 +148,11 @@ SPECS = {
     "4400":  dict(ys=1976, ye=1977, w=125, thd=0.15, fr="20-20000", wt=23.4, ckt="Quadradial 2+4 receiver; 125W/ch stereo, 50W/ch quad; damping 40", src="hifiengine/classicreceivers", url=["https://classicreceivers.com/marantz-4400", "https://www.hifiengine.com/manual_library/marantz/4400.shtml"]),
     # --- 22xx B-models: watts from Marantz naming convention (year/weight not sourced) ---
     "2210":  dict(w=10, ckt="Stereophonic solid-state receiver", src=CONV),
-    "2216B": dict(w=16, ckt="Stereophonic solid-state receiver", src=CONV),
-    "2218":  dict(w=18, ckt="Stereophonic solid-state receiver", src=CONV),
+    "2216B": dict(ys=1977, ye=1978, w=16, thd=0.15, wt=9.0, ckt="Stereophonic solid-state receiver", src="classicreceivers.com", url="https://classicreceivers.com/marantz-2216b"),
+    "2218":  dict(ys=1978, ye=1979, w=18, thd=0.08, fr="20-20000", wt=10.5, ckt="Stereophonic solid-state receiver; damping 40", src="hifiengine/reverb", url="https://www.hifiengine.com/manual_library/marantz/2218.shtml"),
     "2220B": dict(w=20, ckt="Stereophonic solid-state receiver", src=CONV),
     "2235B": dict(w=35, ckt="Stereophonic solid-state receiver", src=CONV),
-    "2238B": dict(ys=1977, w=38, ckt="Stereophonic solid-state receiver", src="classicreceivers.com", url="https://classicreceivers.com/marantz-2238b"),
+    "2238B": dict(ys=1977, w=38, thd=0.1, fr="10-40000", wt=12.5, ckt="Stereophonic solid-state receiver; damping 40", src="stereonet/classicreceivers", url="https://classicreceivers.com/marantz-2238b"),
     "2250":  dict(w=50, ckt="Stereophonic solid-state receiver", src=CONV),
     "2250B": dict(w=50, ckt="Stereophonic solid-state receiver", src=CONV),
     "2260":  dict(w=60, ckt="Stereophonic solid-state receiver", src=CONV),
@@ -179,7 +179,7 @@ SPECS = {
         cnote="Balanced dealer/servicer view (weighed over effusive owner reviews): cosmetically stunning and a decent amp, but middling watt-for-watt and dollar-for-dollar — the 2265B/2285B receivers gave ~85% of the performance for similar money. Still commands high prices for the Marantz name."),
     "Model 2": dict(ys=1956, ye=1962, type="Tube Power Amp", w=40, ckt="Mono tube power amp; 40W ultralinear / 20W triode-switchable; Marantz's first amplifier", src="stereonomono/hifiengine", url="https://www.hifiengine.com/manual_library/marantz/2.shtml"),
     "Model 240": dict(ys=1974, ye=1977, type="Power Amp", w=120, ckt="Solid-state stereo power amp; the partner to the Model 3300 preamp", src="audio-database.com", url="https://audio-database.com/MARANTZ/amp/model240-e.html"),
-    "PM-250": dict(ys=1979, ye=1981, w=25, thd=0.1, fr="20-50000", ckt="Console stereo integrated amp; damping 100 (do not confuse with the Model 250 power amp)", src="hifi-wiki/hifiengine", url="https://www.hifiengine.com/manual_library/marantz/pm250.shtml"),
+    "PM-250": dict(ys=1979, ye=1981, w=25, thd=0.1, fr="20-50000", wt=6.5, ckt="Console stereo integrated amp; damping 100 (do not confuse with the Model 250 power amp)", src="hifi-wiki/hifiengine", url="https://www.hifiengine.com/manual_library/marantz/pm250.shtml"),
 }
 
 
