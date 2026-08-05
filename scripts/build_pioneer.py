@@ -60,11 +60,11 @@ DATA = [
     ("M-77",    "Power Amp", None, None, "Separates", [17900], None, None),
     ("M-1500",  "Power Amp", None, None, "Separates", [4500], None, None),
     ("SM-1500", "Power Amp", None, None, "Separates", [20000], None, "The ฿20k listing bundles SM-1500 power amp + C-1500 preamp + a CD player"),
-    ("C-200",   None, None, None, "Separates", [7500], None, "Unidentified — possibly a preamp (verify)"),
+    ("C-200",   None, None, None, "Tube Era", [7500], None, None),
     ("EX-700",  None, None, None, None, [4500], None, "Compact stereo system / coaxial speakers (verify — likely not a component)"),
     ("ES-1000", None, None, None, None, [3900], None, "1972 stereo audio system (verify)"),
     ("E-3000A", None, None, None, None, [4200], None, "Stereo audio system (verify)"),
-    ("MR-1000", None, 1975, None, None, [3900], None, "Unidentified vintage Pioneer unit (verify)"),
+    ("MR-1000", None, 1975, None, "SX Receiver", [3900], None, None),
 ]
 # Drop the SX-1280 placeholder (kept above only to make the list order obvious); remove it here.
 DATA = [row for row in DATA if row[0] != "SX-1280"]
@@ -107,11 +107,24 @@ SPECS = {
     "M-1500":  dict(ys=1978, w=50, type="Power Amp", ckt="JDM premium power amp; partners the C-1500 preamp", src="audio-database"),
     "SM-1500": dict(ys=1980, type="Power Amp", ckt="DC power amp (SM-1500II era)", src="audio-database"),
     "QX-8000": dict(ys=1971, ye=1972, w=25, type="Receiver 4-ch", thd=1.0, fr="5-100000", wt=15.6, ckt="Quadraphonic 4-channel receiver; 25W/ch stereo, 20W/ch quad", src="classicreceivers/hifiengine"),
+    # --- Refinement pass: mid SA/SX, tuner, mystery IDs ---
+    "SA-70":   dict(ys=1971, ye=1973, w=85, thd=0.05, fr="20-40000", ckt="Early high-power integrated amplifier", src="audio-database/VTA"),
+    "SA-7700": dict(ys=1978, ckt="Integrated amplifier", src="radiomuseum/hifiengine", url="https://www.hifiengine.com/manual_library/pioneer/sa-7700.shtml"),
+    "SA-6700": dict(ys=1978, ckt="Integrated amplifier", src="audio-database/hifiengine", url="https://www.hifiengine.com/manual_library/pioneer/sa-6700.shtml"),
+    "SA-6600II": dict(ys=1976, ckt="Integrated amplifier", src="hifiengine", url="https://www.hifiengine.com/manual_library/pioneer/sa-6600.shtml"),
+    "SA-6300": dict(ckt="Integrated amplifier", src="hifiengine", url="https://www.hifiengine.com/manual_library/pioneer/sa-6300.shtml"),
+    "SX-636":  dict(ys=1974, w=25, ckt="SX stereo receiver", src="classicreceivers/hifiengine", url="https://www.hifiengine.com/manual_library/pioneer/sx-636.shtml"),
+    "SX-440":  dict(ys=1969, ye=1971, ckt="SX stereo receiver (early)", src="hifiengine", url="https://www.hifiengine.com/manual_library/pioneer/sx-440.shtml"),
+    "SX-424":  dict(ys=1972, ye=1974, ckt="Entry SX stereo receiver", src="hifiengine", url="https://www.hifiengine.com/manual_library/pioneer/sx-424.shtml"),
+    "SX-6000": dict(ckt="SX stereo receiver", src="hifiengine", url="https://www.hifiengine.com/manual_library/pioneer/sx-6000.shtml"),
+    "TX-7800": dict(ys=1979, ye=1981, wt=7.5, thd=0.3, fr="20-15000", ckt="AM/FM servo-lock quartz stereo tuner", src="radiomuseum/hifi-wiki", url="https://www.hifiengine.com/manual_library/pioneer/tx-7800.shtml"),
+    "C-200":   dict(type="Receiver", ckt="1960s vacuum-tube AM/FM receiver-amplifier (identity to confirm)", src="ebay/websearch"),
+    "MR-1000": dict(ys=1975, type="Receiver", w=54, ckt="Stereo receiver (~54W); also sold as the 'Rondo 2000' — rare/obscure", src="audiokarma/ebay"),
 }
 
 # Latest USD market price (search-based ~2026; HiFiShark cert was down, so rougher than usual).
 PRICES = {
-    "SX-1980": 5000, "SX-1250": 1800, "SX-2000": 1500, "SX-1050": 1300, "SA-9900": 1200,
+    "SX-1980": 5000, "SX-1250": 2500, "SX-2000": 1500, "SX-1050": 1300, "SA-9900": 1200,
     "M-77": 1200, "SX-1010": 800, "SA-9800": 800, "SX-950": 750, "SA-9100": 600, "SX-850": 600,
     "M-1500": 600, "SA-8800II": 500, "SX-750": 450, "SX-650": 400, "SA-6850": 400, "QX-8000": 400,
 }
