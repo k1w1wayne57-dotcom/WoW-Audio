@@ -102,7 +102,7 @@ SPECS = {
     "SA-6850": dict(w=45, ckt="Integrated amplifier (JDM)", src="reverb"),
     "SA-6800II": dict(ys=1976, ye=1980, ckt="Integrated amplifier", src="hifi-wiki"),
     # --- Separates / quad ---
-    "M-77":    dict(ys=1980, w=250, type="Power Amp", thd=0.1, ckt="High-power stereo amp; JDM twin of the USA SPEC-4; 250W/ch (0.05% THD at 125W)", src="audio-database",
+    "M-77":    dict(ys=1980, w=250, type="Power Amp", intl="SPEC-4", thd=0.1, ckt="High-power stereo amp; JDM twin of the USA SPEC-4; 250W/ch (0.05% THD at 125W)", src="audio-database",
         cnote="The JDM version of the SPEC-4 — a 250W/ch powerhouse; hence the high Thai price."),
     "M-1500":  dict(ys=1978, w=50, type="Power Amp", ckt="JDM premium power amp; partners the C-1500 preamp", src="audio-database"),
     "SM-1500": dict(ys=1980, type="Power Amp", ckt="DC power amp (SM-1500II era)", src="audio-database"),
@@ -180,7 +180,7 @@ def build():
             "id": f"pioneer-{slug(model)}" + (f"-{ys}" if ys else ""),
             "brand": "Pioneer",
             "jdm_model": model,
-            "int_model": None,
+            "int_model": sp.get("intl"),
             "type": mtype,
             "series": series,
             "year_start": ys,
