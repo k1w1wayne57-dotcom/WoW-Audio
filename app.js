@@ -14,7 +14,7 @@ const RANK_ORDER = { "Top 10": 1, "Top 10-20": 2, "Top 20-30": 3, "Top 30-40": 4
 const tableBody = document.getElementById("table-body");
 const noResults = document.getElementById("no-results");
 
-const DATA_FILES = ["data/sansui.json", "data/marantz.json"];
+const DATA_FILES = ["data/sansui.json", "data/marantz.json", "data/pioneer.json"];
 
 init();
 
