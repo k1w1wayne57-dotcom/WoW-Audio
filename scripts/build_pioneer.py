@@ -120,11 +120,15 @@ SPECS = {
     "TX-7800": dict(ys=1979, ye=1981, wt=7.5, thd=0.3, fr="20-15000", ckt="AM/FM servo-lock quartz stereo tuner", src="radiomuseum/hifi-wiki", url="https://www.hifiengine.com/manual_library/pioneer/tx-7800.shtml"),
     "C-200":   dict(type="Receiver", ckt="1960s vacuum-tube AM/FM receiver-amplifier (identity to confirm)", src="ebay/websearch"),
     "MR-1000": dict(ys=1975, type="Receiver", w=54, ckt="Stereo receiver (~54W); also sold as the 'Rondo 2000' — rare/obscure", src="audiokarma/ebay"),
+    "SX-580":  dict(ys=1978, ye=1980, w=20, thd=0.3, fr="5-100000", ckt="SX stereo receiver", src="classicreceivers/hifiengine", url="https://www.hifiengine.com/manual_library/pioneer/sx-580.shtml"),
+    "SX-550":  dict(ys=1976, ye=1978, w=20, thd=0.3, ckt="SX stereo receiver", src="classicreceivers/hifiengine", url="https://www.hifiengine.com/manual_library/pioneer/sx-550.shtml"),
+    "SA-4400": dict(ys=1979, ckt="Pre-main (integrated) amplifier", src="audio-database", url="https://audio-database.com/PIONEER-EXCLUSIVE/amp/sa-4400-e.html"),
+    "TX-70":   dict(ys=1969, type="Tuner", ckt="AM/FM stereo tuner with FM preset dials (equivalent to the TX-700)", src="audio-database", url="https://audio-database.com/PIONEER-EXCLUSIVE/tuner/tx-70-e.html"),
 }
 
 # Latest USD market price (search-based ~2026; HiFiShark cert was down, so rougher than usual).
 PRICES = {
-    "SX-1980": 5000, "SX-1250": 2500, "SX-2000": 1500, "SX-1050": 1300, "SA-9900": 1200,
+    "SX-1980": 7000, "SX-1250": 2500, "SX-2000": 1500, "SX-1050": 1300, "SA-9900": 1050,
     "M-77": 1200, "SX-1010": 800, "SA-9800": 800, "SX-950": 750, "SA-9100": 600, "SX-850": 600,
     "M-1500": 600, "SA-8800II": 500, "SX-750": 450, "SX-650": 400, "SA-6850": 400, "QX-8000": 400,
 }
@@ -141,8 +145,8 @@ RANKINGS = {
     "SX-6000": "Top 20-30", "SA-70": "Top 20-30",
     "SX-580": "Top 30-40", "SX-3700": "Top 30-40", "SX-440": "Top 30-40", "SA-4400": "Top 30-40",
     "SX-550": "Top 30-40", "SX-450": "Top 30-40", "SX-424": "Top 30-40", "TX-7800": "Top 30-40",
-    "TX-70": "Top 30-40", "EX-700": "Top 30-40",
-    "ES-1000": "Unranked", "E-3000A": "Unranked", "MR-1000": "Unranked",
+    "TX-70": "Top 30-40",
+    "EX-700": "Unranked", "ES-1000": "Unranked", "E-3000A": "Unranked", "MR-1000": "Unranked",
 }
 
 # Best Buy (1-5) = collectability x how cheap the Thai price is vs USD. Only models with both.
