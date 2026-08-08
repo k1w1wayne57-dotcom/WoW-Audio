@@ -412,7 +412,7 @@
     "int_model": null,
     "type": "Receiver",
     "series": "Japan-market",
-    "year_start": 1973,
+    "year_start": 1970,
     "year_end": 1974,
     "japan_price_kyen": null,
     "watts_per_channel": 50,
@@ -421,28 +421,31 @@
     "ps_type": null,
     "amp_circuit": "Solid-state receiver with built-in oscilloscope tuning display",
     "weight_kg": 20.9,
-    "special_features": null,
+    "special_features": "Built-in oscilloscope tuning display. 'Custom Calibrated' — hand-built and aligned by Marantz technicians. Full complementary output stage, ahead of its time. ~46 lb (20.9 kg).",
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 10",
-    "price_confidence": "None",
-    "last_price_check": null,
+    "price_confidence": "Medium",
+    "last_price_check": "2026-08",
     "collector_info": {
-      "known_issues": null,
-      "collector_notes": null
+      "known_issues": "Scope circuit and hand-calibrated FM section make restoration specialist work, not a weekend recap. Buy only if you can hear it play first — confirm the scope tube lights and FM alignment before committing.",
+      "collector_notes": "The only true flagship on Wayne's list. Introduced 1970 at ~$1,000 (raised to ~$1,200 a year later); tuning circuit similar to the 20B; 50W/ch; 46 lb. Most built in Japan with American components — only the first run was California. Comparables: $1,590 serviced, $1,850 with box + WC-9 case, €1,500 Germany, CA$3,450 asking. ฿45,000 for a working 220V unit is fair-to-good."
     },
     "restorer_info": {
-      "known_failure_points": [],
+      "known_failure_points": [
+        "Oscilloscope tube / scope drive circuit",
+        "FM alignment drift (hand-calibrated from factory)"
+      ],
       "bias_spec_mv": null,
       "service_manual_link": null,
-      "recap_difficulty": null,
-      "recap_notes": null,
+      "recap_difficulty": 4,
+      "recap_notes": "Scope tuning circuit plus a hand-calibrated FM section — specialist restoration. Realignment needs test gear; not a weekend recap.",
       "estimated_recap_cost_usd": null,
       "common_faults": []
     },
     "best_buy": {
-      "rating": null,
-      "reason": null
+      "rating": 3,
+      "reason": "Fair-to-good at ฿45,000 (~$1,364) for the only true flagship here, but the scope + hand-calibrated FM section make restoration a specialist job — buy only after hearing it play."
     },
     "capacitors": [],
     "links": {
@@ -451,17 +454,19 @@
       "sansui_us": null,
       "source": null
     },
-    "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from marantz.com/reverb (still unverified).",
+    "notes": "Unverified — Thai listing observed on Facebook/YouTube; not independently confirmed. Specs from classicreceivers.com + Audio (Mar 1971). Production start (1970) per classicreceivers/Audio; HiFi Engine's 1973-74 is disputed and not trusted here.",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
-    "year_source": "marantz.com/reverb",
-    "price_thb_listings": [],
-    "usd_msrp": null,
+    "avg_price_usd_3mo": 1600,
+    "price_basis": "global comparables 2026 (serviced $1,590; w/ box+WC-9 $1,850; €1,500 DE)",
+    "year_source": "classicreceivers.com + Audio review Mar 1971 (HFE's 1973-74 disputed)",
+    "price_thb_listings": [
+      45000
+    ],
+    "usd_msrp": 1000,
     "market": null,
-    "sonic_signature": null,
-    "thb_status": null
+    "sonic_signature": "Flagship-grade: a full complementary output stage that was ahead of its time, hand-calibrated for low distortion. The refined end of the classic Marantz sound rather than the soft 'two-martini' voice of the 22xx receivers.",
+    "thb_status": "For Sale"
   },
   {
     "id": "marantz-model-22-1969",
@@ -1532,14 +1537,14 @@
     "amp_circuit": "Stereophonic solid-state receiver",
     "weight_kg": 9.0,
     "special_features": null,
-    "pros": null,
-    "cons": null,
+    "pros": "Impressive output for its compact size",
+    "cons": "No pre-outs (the only 22xx without them), Comes up short on most speakers, Clipping kills tweeters — wants ~95 dB efficient speakers, Non-B 2216 has audible opamp phono hiss",
     "collector_ranking": "Top 30-40",
     "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
-      "known_issues": null,
-      "collector_notes": null
+      "known_issues": "Opamp phono stage (audible hiss, worse on the non-B 2216). No pre-outs. Clips into tweeter-killing territory on inefficient speakers.",
+      "collector_notes": "Bedroom/desk receiver; wants ~95 dB-efficient speakers. The entry point of the line — not the warm Marantz sound Wayne is chasing. Listed at ฿7,500 (~$227)."
     },
     "restorer_info": {
       "known_failure_points": [],
@@ -1552,7 +1557,7 @@
     },
     "best_buy": {
       "rating": 4,
-      "reason": "~$565 USD abroad vs ~฿7k (~$200) locally — well under market."
+      "reason": "฿7,500 (~$227) is well under the ~$565 it fetches abroad — good value, but it's a desk/bedroom receiver, not the classic 22xx sound."
     },
     "capacitors": [],
     "links": {
@@ -1568,12 +1573,12 @@
     "price_basis": "hifishark median 2026",
     "year_source": "classicreceivers.com",
     "price_thb_listings": [
-      7000
+      7500
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
-    "thb_status": null
+    "sonic_signature": "The entry point of the 22xx line — clean but light; comes up short on most speakers and clips easily. Not the warm 'two-martini' Marantz voice.",
+    "thb_status": "For Sale"
   },
   {
     "id": "marantz-2218-1978",
@@ -1583,7 +1588,7 @@
     "type": "Receiver",
     "series": "22XX Receiver",
     "year_start": 1978,
-    "year_end": 1979,
+    "year_end": 1980,
     "japan_price_kyen": null,
     "watts_per_channel": 18,
     "freq_response_hz": "20-20000",
@@ -1593,13 +1598,13 @@
     "weight_kg": 10.5,
     "special_features": null,
     "pros": null,
-    "cons": null,
+    "cons": "Bottom of the range (18W), Silver-dial post-classic generation — not the warm sound, ฿13,800/220V listing is 2235 money for half the power",
     "collector_ranking": "Top 40-50",
     "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
-      "collector_notes": null
+      "collector_notes": "Externally identical and internally very similar to the 2216B, but with a beefier PSU (different transformer, 2×6800 µF main filter caps vs 2×4700 µF) and a different power-amp section. Japan-built, silver dial, 1978-80. Two local listings: ฿13,800 (220V) and ฿9,500. The ฿13,800 is a bad buy — 2235 money for half the power and the wrong generation; even ฿9,500 is above US market (voltage on that one unstated)."
     },
     "restorer_info": {
       "known_failure_points": [],
@@ -1611,8 +1616,8 @@
       "common_faults": []
     },
     "best_buy": {
-      "rating": 3,
-      "reason": "18W receiver (~$400 USD) at ฿8.2k (~$235) — modest value."
+      "rating": 2,
+      "reason": "Only worth it at the ฿9,500 end, and even that's above US market. The ฿13,800/220V listing is a skip — half a 2235's power for 2235 money."
     },
     "capacitors": [],
     "links": {
@@ -1628,12 +1633,13 @@
     "price_basis": "hifishark median 2026",
     "year_source": "hifiengine/reverb",
     "price_thb_listings": [
-      8200
+      13800,
+      9500
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
-    "thb_status": null
+    "sonic_signature": "Bottom of the range and a silver-dial, post-classic-generation receiver — not the warm 22xx sound. Effectively a 2216B with a bigger power supply.",
+    "thb_status": "For Sale"
   },
   {
     "id": "marantz-2220b-1974",
@@ -1714,10 +1720,10 @@
     "cons": null,
     "collector_ranking": "Top 40-50",
     "price_confidence": "Medium",
-    "last_price_check": null,
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
-      "collector_notes": null
+      "collector_notes": "★ Most-liked overall (consensus classic Marantz). The affordable entry to the classic sound. Working ~$300; nice/serviced $700–1,195; occasional $1,800+ restored (2026)."
     },
     "restorer_info": {
       "known_failure_points": [],
@@ -1742,14 +1748,74 @@
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from Marantz 22xx convention (2270/2265/2215B corroborated) (still unverified).",
     "verified": false,
     "verification": "unconfirmed",
-    "avg_price_usd_3mo": 490,
-    "price_basis": "hifishark median 2026",
+    "avg_price_usd_3mo": 500,
+    "price_basis": "ebay/market 2026 (working ~$300; serviced ~$1k)",
     "year_source": "Marantz 22xx convention (2270/2265/2215B corroborated)",
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The warm, gentle 'two-martini' 22xx sound in its most affordable form — 30W, sweet and musical; the classic Marantz voice on a budget.",
     "thb_status": null
+  },
+  {
+    "id": "marantz-2235-1975",
+    "brand": "Marantz",
+    "jdm_model": "2235",
+    "int_model": null,
+    "type": "Receiver",
+    "series": "22XX Receiver",
+    "year_start": 1975,
+    "year_end": 1976,
+    "japan_price_kyen": null,
+    "watts_per_channel": 35,
+    "freq_response_hz": null,
+    "thd_percent": 0.25,
+    "ps_type": null,
+    "amp_circuit": "Stereophonic solid-state receiver; 35W/ch at 0.25% THD. Pre-B generation (~1975): capacitor-coupled, visually near-identical to the 2235B but lacks the FM tuning meter.",
+    "weight_kg": null,
+    "special_features": null,
+    "pros": "Warm euphonic 'two-martini' 22xx sound, 35W actually drives normal speakers, Best sound-per-baht on the list",
+    "cons": null,
+    "collector_ranking": "Top 30-40",
+    "price_confidence": "Medium",
+    "last_price_check": "2026-08",
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": "The 22xx line is widely called the epiphany of the warm 'two-martini' Marantz sound, and the 2235 is the sweet spot where that character meets usable power. Capacitor-coupled (the softer/'tubier' voicing), unlike the direct-coupled B models. Non-B, ~1975, a year or so before the 2235B. Listed at ฿14,500 for a working 220V unit."
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": 5,
+      "reason": "Best sound-per-baht on Wayne's Thai list — ฿14,500 (~$440) for the genuine warm 22xx sound at a usable 35W/ch."
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": "https://www.hifiengine.com/manual_library/marantz/2235.shtml",
+      "sansui_us": null,
+      "source": null
+    },
+    "notes": "Unverified — Thai listing observed on Facebook/YouTube; not independently confirmed. Specs from the Marantz 22xx model-number convention corroborated against the 2235B. Capacitor-coupled (non-B era); the direct-coupled B models are the later revision.",
+    "verified": false,
+    "verification": "unconfirmed",
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": "Marantz 22xx model-number convention; ~1975 (pre-2235B)",
+    "price_thb_listings": [
+      14500
+    ],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": "Warm, euphonic classic Marantz voice — fuller and less dry at the bottom than modern solid-state. 35W/ch drives normal speakers, so you get the real 'two-martini' 22xx character without needing horn-efficient speakers.",
+    "thb_status": "For Sale"
   },
   {
     "id": "marantz-2235b-1974",
@@ -1775,7 +1841,7 @@
     "last_price_check": null,
     "collector_info": {
       "known_issues": null,
-      "collector_notes": null
+      "collector_notes": "Direct-coupled (B series). The non-B 2235 (~1975) is a year or so earlier, visually near-identical, and internally very close but capacitor-coupled — both deliver the warm 22xx sound."
     },
     "restorer_info": {
       "known_failure_points": [],
@@ -1806,8 +1872,69 @@
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "Warm, euphonic classic Marantz voice — the 35W B-series version of the 22xx sound. Visually near-identical to the non-B 2235; adds an FM tuning meter with very little internal difference.",
     "thb_status": null
+  },
+  {
+    "id": "marantz-2226b-1977",
+    "brand": "Marantz",
+    "jdm_model": "2226B",
+    "int_model": null,
+    "type": "Receiver",
+    "series": "22XX B Receiver",
+    "year_start": 1977,
+    "year_end": 1979,
+    "japan_price_kyen": null,
+    "watts_per_channel": 26,
+    "freq_response_hz": null,
+    "thd_percent": null,
+    "ps_type": null,
+    "amp_circuit": "Stereophonic solid-state receiver; direct-coupled (B series). Discrete-transistor phono stage.",
+    "weight_kg": null,
+    "special_features": null,
+    "pros": "Best-sounding of the lower-end Marantz, Discrete-transistor phono (much quieter than the 2216's opamp), Warm classic B-series sound",
+    "cons": "Modest 26W power",
+    "collector_ranking": "Top 20-30",
+    "price_confidence": "Medium",
+    "last_price_check": "2026-08",
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": "Called 'the best of the lower-end Marantz.' Phono stage uses discrete transistors and is much quieter than the 2216's opamp phono preamp. Two local listings at ฿11,000 and ฿11,500 (~$333-348); would be ~$200-250 in the US. HiFi Shark 3-mo median still pending."
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": 4,
+      "reason": "Fair local price (฿11,000-11,500) for the best-sounding of the lower-end Marantz — the discrete phono alone lifts it over the 2216B."
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": "https://www.hifiengine.com/manual_library/marantz/2226b.shtml",
+      "sansui_us": null,
+      "source": null
+    },
+    "notes": "Unverified — Thai listings observed on Facebook/YouTube; not independently confirmed. Specs sourced from classic-receiver references, not personally checked.",
+    "verified": false,
+    "verification": "sourced",
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": "Marantz 22xx B-series convention (~1977-79)",
+    "price_thb_listings": [
+      11000,
+      11500
+    ],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": "Warm classic Marantz character with cleaner detail than the entry models. The discrete-transistor phono stage is notably quieter than the opamp phono in the 2216 — the reason it's regarded as the best of the lower-end line.",
+    "thb_status": "For Sale"
   },
   {
     "id": "marantz-2238b-1977",
@@ -2125,7 +2252,7 @@
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
-      "collector_notes": null
+      "collector_notes": "★ Most-liked overall (consensus classic Marantz). 65W blue-dial classic. Realized ~$950 working abroad (a 2265B sold ~$920 on eBay, Aug 2025); local ฿27,800 (~$843) is roughly in line."
     },
     "restorer_info": {
       "known_failure_points": [],
@@ -2138,7 +2265,7 @@
     },
     "best_buy": {
       "rating": 3,
-      "reason": "Collectable 65W (~$1,200 USD), but ฿27.8k (~$790) is close to global pricing."
+      "reason": "65W blue-dial classic (~$950 working abroad); ฿27,800 (~$843) is roughly in line — fair, not a steal."
     },
     "capacitors": [],
     "links": {
@@ -2150,15 +2277,15 @@
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from hifiengine/classicreceivers (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": 1200,
-    "price_basis": "hifishark median 2026",
+    "avg_price_usd_3mo": 950,
+    "price_basis": "ebay/market 2026 (working)",
     "year_source": "hifiengine/classicreceivers",
     "price_thb_listings": [
       27800
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "Warm, smooth classic Marantz sound with solid 65W grip — one of the sweet spots of the blue-dial 22xx line.",
     "thb_status": null
   },
   {
@@ -2182,10 +2309,10 @@
     "cons": null,
     "collector_ranking": "Top 10-20",
     "price_confidence": "Medium",
-    "last_price_check": null,
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
-      "collector_notes": "Iconic gyro-touch flywheel tuning and the signature blue faceplate; among the most beloved vintage receivers ever made."
+      "collector_notes": "★ Most-liked overall (consensus classic Marantz). Iconic gyro-touch flywheel tuning and the signature blue faceplate; among the most beloved vintage receivers ever made. Working units realize ~$1,300; professionally restored examples $2,000–3,800 (eBay/market 2026)."
     },
     "restorer_info": {
       "known_failure_points": [],
@@ -2210,8 +2337,8 @@
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from classicreceivers.com (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": 1135,
-    "price_basis": "hifishark median 2026",
+    "avg_price_usd_3mo": 1300,
+    "price_basis": "ebay/market 2026 (working; restored higher)",
     "year_source": "classicreceivers.com",
     "price_thb_listings": [],
     "usd_msrp": null,
@@ -2240,10 +2367,10 @@
     "cons": null,
     "collector_ranking": "Top 10-20",
     "price_confidence": "Medium",
-    "last_price_check": null,
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
-      "collector_notes": null
+      "collector_notes": "★ Most-liked overall (consensus classic Marantz). Flagship-tier 85W. Working units ~$1,400–1,800; restored $2,100–2,999 (usaudiomart/hifishark 2026)."
     },
     "restorer_info": {
       "known_failure_points": [],
@@ -2268,13 +2395,13 @@
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from classicreceivers.com (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": 1900,
-    "price_basis": "hifishark median 2026",
+    "avg_price_usd_3mo": 1700,
+    "price_basis": "ebay/market 2026 (working; restored ~$2.5k)",
     "year_source": "classicreceivers.com",
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "Warm Marantz character scaled up to 85W — effortless, musical, and able to drive difficult speakers. A flagship-tier version of the classic sound.",
     "thb_status": null
   },
   {
@@ -2298,10 +2425,10 @@
     "cons": null,
     "collector_ranking": "Top 10",
     "price_confidence": "Medium",
-    "last_price_check": null,
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
-      "collector_notes": "Late-70s heavyweight, 125W/ch — a big, imposing collector favorite (often lumped with the 2500/2600 monsters, though it is 125W, not 300W)."
+      "collector_notes": "★ Most-liked overall (consensus classic Marantz). Late-70s heavyweight, 125W/ch — a big, imposing collector favorite (often lumped with the 2500/2600 monsters, though it is 125W, not 300W). Restored examples realize ~$2,700–3,250 (€2,500–2,995, CA$2,900, 2026); working units less."
     },
     "restorer_info": {
       "known_failure_points": [],
@@ -2326,13 +2453,13 @@
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from classicreceivers.com (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": 3000,
-    "price_basis": "hifishark median 2026",
+    "avg_price_usd_3mo": 2900,
+    "price_basis": "ebay/market 2026 (restored; working less)",
     "year_source": "classicreceivers.com",
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The 125W flagship voice — the warm Marantz signature with authority and grip to spare; big, imposing, and endlessly musical.",
     "thb_status": null
   },
   {
