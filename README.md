@@ -42,6 +42,38 @@ project notes. Key points:
 The site fetches `data/sansui.json` via `fetch()`, which browsers block on `file://` URLs. Serve the folder
 over HTTP instead, e.g. with any static file server, then open `http://localhost:<port>/index.html`.
 
+## Editing models on the fly (local admin server)
+
+`serve.py` is a small local-only Flask server (binds to `127.0.0.1`, never exposed). It serves the existing
+static site **and** a write API, so you can add/update models from the browser instead of hand-editing JSON:
+
+```
+python -m pip install -r requirements.txt
+python serve.py
+```
+
+Then open `http://127.0.0.1:8137/admin.html`. Pick a brand, choose an existing model to edit (or leave it on
+"— new model —"), fill the form, and **Save** — it writes straight into `data/<brand>.json`, preserving each
+file's exact line endings and BOM so the git diff stays clean. `index.html` and the public GitHub Pages site
+are untouched (they stay a static, read-only copy). After editing, `git commit && git push` to publish.
+
+Notes:
+- New records start from a canonical template, so every field exists; edits deep-merge, so untouched fields
+  (e.g. `capacitors`) are preserved.
+- IDs auto-generate as `<brand>-<model>-<year>` when left blank; existing IDs are immutable.
+
+## Web scraper
+
+`scripts/scrape.py` (Playwright + BeautifulSoup) drives a headless Chromium — see its docstring. HiFi Shark
+price research with `--update` into the brand JSON:
+
+```
+python scripts/scrape.py --brand marantz --model 2285B --months 3 --update
+```
+
+Cloudflare-walled sites (usaudiomart, canuckaudiomart, eBay) need `--headful --profile <dir>` (clear the
+challenge yourself once) or an official API. Requires `python -m playwright install chromium`.
+
 ## Research helper script
 
 ```

@@ -1,0 +1,8 @@
+# WoW Audio — Python dependencies
+# Install:  python -m pip install -r requirements.txt
+# Then, for the scraper's browser:  python -m playwright install chromium
+
+flask            # local admin server (serve.py)
+beautifulsoup4   # HTML parsing (scripts/scrape.py, scripts/research.py)
+requests         # simple HTTP fetches (scripts/research.py)
+playwright       # headless-browser scraping (scripts/scrape.py)

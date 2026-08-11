@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WoW Audio — Admin</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+  .admin-wrap { max-width: 1000px; margin: 0 auto; padding: 24px; }
+  .admin-bar {
+    display: flex; flex-wrap: wrap; gap: 12px; align-items: center;
+    background: var(--bg-alt); border: 1px solid var(--border);
+    border-radius: 10px; padding: 14px 16px; margin-bottom: 18px;
+    position: sticky; top: 0; z-index: 20;
+  }
+  .admin-bar select, .admin-bar input {
+    background: var(--bg); color: var(--text); border: 1px solid var(--border);
+    border-radius: 6px; padding: 8px 10px; font-family: inherit; font-size: .9rem;
+  }
+  .admin-bar .spacer { flex: 1; }
+  .mode-pill { font-size: .8rem; padding: 4px 10px; border-radius: 999px;
+    border: 1px solid var(--gold); color: var(--gold-bright); }
+  .offline-banner {
+    display: none; background: #3a1f1f; border: 1px solid var(--red);
+    color: #f0c0c0; padding: 12px 16px; border-radius: 8px; margin-bottom: 16px;
+  }
+  .offline-banner code { color: var(--gold-bright); }
+  form fieldset {
+    border: 1px solid var(--border); border-radius: 10px;
+    margin: 0 0 18px; padding: 14px 16px 6px; background: var(--bg-alt);
+  }
+  form legend {
+    font-family: 'Playfair Display', serif; color: var(--gold-bright);
+    padding: 0 8px; font-size: 1.05rem;
+  }
+  .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px 18px; }
+  .field.full { grid-column: 1 / -1; }
+  .field label { display: block; font-size: .78rem; color: var(--text-secondary);
+    margin-bottom: 4px; letter-spacing: .3px; }
+  .field input, .field textarea, .field select {
+    width: 100%; background: var(--bg); color: var(--text);
+    border: 1px solid var(--border); border-radius: 6px; padding: 8px 10px;
+    font-family: inherit; font-size: .9rem;
+  }
+  .field textarea { min-height: 60px; resize: vertical; }
+  .field .hint { font-size: .7rem; color: var(--text-secondary); margin-top: 3px; }
+  .field.check { display: flex; align-items: center; gap: 8px; }
+  .field.check input { width: auto; }
+  .save-bar {
+    position: sticky; bottom: 0; display: flex; gap: 14px; align-items: center;
+    background: var(--bg-alt); border: 1px solid var(--border);
+    border-radius: 10px; padding: 14px 16px; margin-top: 6px;
+  }
+  .btn-primary {
+    background: var(--gold); color: #1a1a2e; border: none; font-weight: 700;
+    padding: 10px 22px; border-radius: 8px; cursor: pointer; font-size: .95rem;
+  }
+  .btn-primary:hover { background: var(--gold-bright); }
+  .btn-ghost {
+    background: transparent; color: var(--text); border: 1px solid var(--border);
+    padding: 10px 16px; border-radius: 8px; cursor: pointer; font-size: .9rem;
+  }
+  .status { font-size: .85rem; }
+  .status.ok { color: var(--green); }
+  .status.err { color: var(--red); }
+  .commit-note { font-size: .78rem; color: var(--text-secondary); }
+  h1.admin-title { font-size: 1.6rem; }
+  h1.admin-title span { color: var(--gold); }
+  .top-link { font-size: .85rem; }
+</style>
+</head>
+<body>
+<div class="admin-wrap">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:14px;">
+    <h1 class="admin-title">WoW <span>Audio</span> — Admin</h1>
+    <a class="top-link" href="index.html">← Back to site</a>
+  </div>
+
+  <div class="offline-banner" id="offline">
+    Backend not reachable. Start it with <code>python serve.py</code> and open this page at
+    <code>http://127.0.0.1:8137/admin.html</code> (not via file:// or GitHub Pages).
+  </div>
+
+  <div class="admin-bar">
+    <label style="font-size:.8rem;color:var(--text-secondary)">Brand
+      <select id="brand"></select>
+    </label>
+    <label style="font-size:.8rem;color:var(--text-secondary)">Edit existing
+      <select id="existing"><option value="">— new model —</option></select>
+    </label>
+    <input type="text" id="filter" placeholder="filter models…" style="width:150px">
+    <div class="spacer"></div>
+    <span class="mode-pill" id="mode">NEW MODEL</span>
+    <button class="btn-ghost" id="newBtn" type="button">＋ New</button>
+  </div>
+
+  <form id="form"><!-- fields injected by admin.js --></form>
+
+  <div class="save-bar">
+    <button class="btn-primary" id="saveBtn" type="button">Save</button>
+    <button class="btn-ghost" id="revertBtn" type="button">Reset form</button>
+    <span class="status" id="status"></span>
+    <div class="spacer"></div>
+    <span class="commit-note">Writes to <code id="target">data/…</code> — commit &amp; push to publish.</span>
+  </div>
+</div>
+
+<script src="admin.js"></script>
+</body>
+</html>
