@@ -211,15 +211,27 @@ def summarize_usd(listings, months, headful=False, profile=None):
             "low": usd[0], "high": usd[-1], "skipped_currencies": sorted(skipped_cur)}
 
 
-def research_hifishark(brand, model, months, update, headful, profile):
+def research_hifishark(brand, model, months, update, headful, profile, emit_json=False):
     url = hifishark_search_url(brand, model)
-    print(f"HiFi Shark: {brand} {model}  (last {months} mo)")
-    print(f"  {url}")
+    if not emit_json:
+        print(f"HiFi Shark: {brand} {model}  (last {months} mo)")
+        print(f"  {url}")
     html = fetch_rendered(url, wait_selector="a.search-product-row",
                           headful=headful, profile=profile)
     soup = BeautifulSoup(html, "html.parser")
     listings = parse_hifishark(soup, url)
     summary = summarize_usd(listings, months)
+
+    if emit_json:
+        # Machine-readable one-liner for serve.py's /api/price endpoint.
+        if not summary:
+            print(json.dumps({"ok": False, "error": "no dated, priced listings in window",
+                              "count": 0, "brand": brand, "model": model, "months": months}))
+        else:
+            print(json.dumps({"ok": True, "brand": brand, "model": model,
+                              "months": months, **summary}))
+        return
+
     if not summary:
         print("  No dated, priced listings in window.")
         return
@@ -280,6 +292,8 @@ def main():
     ap.add_argument("--months", type=int, default=3, help="price window in months (default 3)")
     ap.add_argument("--update", action="store_true",
                     help="write avg_price_usd_3mo into data/<brand>.json (HiFi Shark mode)")
+    ap.add_argument("--json", dest="as_json", action="store_true",
+                    help="HiFi Shark mode: print the summary as one JSON line (for serve.py)")
     ap.add_argument("--dump", action="store_true",
                     help="ad-hoc mode: print all price-like text instead of parsing")
     ap.add_argument("--headful", action="store_true", help="show the browser")
@@ -290,7 +304,8 @@ def main():
     # HiFi Shark research mode
     if args.brand and args.model:
         research_hifishark(args.brand, args.model, args.months,
-                           args.update, args.headful, args.profile)
+                           args.update, args.headful, args.profile,
+                           emit_json=args.as_json)
         return
 
     if not args.url:

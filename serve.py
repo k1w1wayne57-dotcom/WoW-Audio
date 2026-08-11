@@ -20,14 +20,15 @@ Requires: flask   (pip install flask)
 """
 
 import re
-import csv
+import sys
 import json
 import copy
 import argparse
 import datetime
+import subprocess
 from pathlib import Path
 
-from flask import Flask, request, jsonify, send_from_directory, Response
+from flask import Flask, request, jsonify, send_from_directory
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
@@ -144,6 +145,46 @@ def add_record():
     data.append(new)
     save_db(data, meta)
     return jsonify(ok=True, id=rid, record=new)
+
+
+@app.get("/api/price")
+def price():
+    """Run the HiFi Shark scraper for one model and return a USD price summary.
+
+    Uses scripts/scrape.py in a subprocess (--json) so Playwright never runs
+    inside the Flask thread. Does NOT write anything — the browser fills the
+    field and the user reviews before hitting Save.
+    """
+    brand = request.args.get("brand", "")
+    model = request.args.get("model", "").strip()
+    months = request.args.get("months", "3")
+    if brand not in BRAND_NAMES:
+        return bad(f"unknown brand '{brand}'")
+    if not model:
+        return bad("model is required")
+    try:
+        months_i = max(1, min(60, int(months)))
+    except ValueError:
+        months_i = 3
+    cmd = [sys.executable, str(ROOT / "scripts" / "scrape.py"),
+           "--brand", brand, "--model", model, "--months", str(months_i), "--json"]
+    try:
+        proc = subprocess.run(cmd, capture_output=True, text=True,
+                              encoding="utf-8", timeout=120)
+    except subprocess.TimeoutExpired:
+        return bad("scraper timed out (HiFi Shark slow or blocked)", 504)
+    line = next((l for l in reversed(proc.stdout.splitlines()) if l.strip().startswith("{")), "")
+    if not line:
+        return bad("scraper returned no data: " + (proc.stderr.strip()[-300:] or "unknown error"), 502)
+    try:
+        summary = json.loads(line)
+    except json.JSONDecodeError:
+        return bad("could not parse scraper output", 502)
+    if not summary.get("ok"):
+        return jsonify(ok=True, found=False, **summary)
+    summary["found"] = True
+    summary["price_basis"] = f"hifishark {months_i}mo median (FX->USD) {datetime.date.today():%Y-%m}"
+    return jsonify(**summary)
 
 
 @app.put("/api/records/<rid>")

@@ -260,6 +260,41 @@ async function save() {
 }
 
 
+async function refreshPrice() {
+  const model = $("f_jdm_model").value.trim();
+  if (!model) { setPriceStatus("Enter a model first.", "err"); return; }
+  const months = parseInt($("priceMonths").value, 10) || 3;
+  const btn = $("refreshPriceBtn");
+  btn.disabled = true;
+  setPriceStatus(`Fetching from HiFi Shark… (~10–20s)`);
+  try {
+    const j = await api(`/api/price?brand=${brand}&model=${encodeURIComponent(model)}&months=${months}`);
+    if (!j.found) {
+      setPriceStatus(`No dated listings for "${model}" in the last ${months} mo.`, "err");
+      return;
+    }
+    $("f_avg_price_usd_3mo").value = j.median;
+    $("f_price_basis").value = j.price_basis;
+    let msg = `median $${j.median.toLocaleString()} from ${j.count} listings ` +
+              `(range $${j.low.toLocaleString()}–$${j.high.toLocaleString()}). Review, then Save.`;
+    if (j.skipped_currencies && j.skipped_currencies.length) {
+      msg += ` [skipped: ${j.skipped_currencies.join(", ")}]`;
+    }
+    setPriceStatus(msg, "ok");
+  } catch (e) {
+    setPriceStatus("Error: " + e.message, "err");
+  } finally {
+    btn.disabled = false;
+  }
+}
+
+function setPriceStatus(msg, cls) {
+  const s = $("priceStatus");
+  s.textContent = msg;
+  s.className = "status" + (cls ? " " + cls : "");
+}
+
+
 // ---------- init ----------
 async function init() {
   buildForm();
@@ -286,6 +321,7 @@ async function init() {
   $("newBtn").addEventListener("click", () => { editingId = null; fillForm(null); setMode(); $("existing").value = ""; setStatus(""); });
   $("revertBtn").addEventListener("click", () => selectExisting(editingId || ""));
   $("saveBtn").addEventListener("click", save);
+  $("refreshPriceBtn").addEventListener("click", refreshPrice);
 
   setMode();
   await loadRecords();
