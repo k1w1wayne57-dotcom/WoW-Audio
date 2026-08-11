@@ -4,3 +4,7 @@ __pycache__/
 
 # Local reference PDFs — large, not versioned
 Service manuals/
+
+# Playwright persistent browser profiles — session data, not versioned
+.pw-profile/
+*.pw-profile/
