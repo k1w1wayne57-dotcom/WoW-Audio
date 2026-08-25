@@ -24,18 +24,8 @@ most useful fields.
 
 ## Weight only (specs otherwise complete)
 
-- **AU-6900** (1976) — weight not found
-- **AU-3900** (1976) — weight (sources conflict 7 vs 8.5 kg)
-- **BA-3000** (1975) — weight not found
-- **AU-519** (1979) — weight not found
-- **8080DB** (1976) — weight not found
-- **AU-D707F** (1980) — weight not found
-- **AU-D907G** (1983) — weight not found
-- **AU-D55X** (1983) — weight not found
 - **AU-D11II** (1983) — weight not found
 - **AU-D77X** (1983) — freq, THD, weight not found (have 110 W, Super GF)
-- **AU-D101** (1983) — weight not found
-- **AU-X11** (1981) — weight not found
 - **AU-X711** (1989) — freq, THD, weight, price not found (have 100 W)
 - **AU-alpha907EXTRA** (1988) — full specs not found (sources only cover the base 907 / L Extra)
 - **AU-alpha606i** (1987) — full specs not found
