@@ -7,6 +7,7 @@ let currentType = "all";
 let currentEra = "all";
 let bestBuyOnly = false;
 let thaiPriceOnly = false;
+let intlOnly = false;
 let searchTerm = "";
 
 const RANK_ORDER = { "Top 10": 1, "Top 10-20": 2, "Top 20-30": 3, "Top 30-40": 4, "Top 40-50": 5, "Unranked": 6 };
@@ -107,6 +108,13 @@ function bindControls() {
     render();
   });
 
+  const intlBtn = document.getElementById("intl-filter");
+  intlBtn.addEventListener("click", () => {
+    intlOnly = !intlOnly;
+    intlBtn.classList.toggle("active", intlOnly);
+    render();
+  });
+
   document.getElementById("search-input").addEventListener("input", (e) => {
     searchTerm = e.target.value.trim().toLowerCase();
     render();
@@ -171,7 +179,8 @@ function getFiltered() {
     matchesEra(item, currentEra) &&
     matchesSearch(item, searchTerm) &&
     (!bestBuyOnly || (item.best_buy && item.best_buy.rating)) &&
-    (!thaiPriceOnly || (item.price_thb_listings && item.price_thb_listings.length > 0))
+    (!thaiPriceOnly || (item.price_thb_listings && item.price_thb_listings.length > 0)) &&
+    (!intlOnly || item.market === "International")
   );
 }
 
