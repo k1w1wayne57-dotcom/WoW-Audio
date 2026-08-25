@@ -8,3 +8,6 @@ Service manuals/
 # Playwright persistent browser profiles — session data, not versioned
 .pw-profile/
 *.pw-profile/
+
+# Audio Database fetch cache (backfill_specs.py) — regenerable, not versioned
+scripts/.adb_cache/

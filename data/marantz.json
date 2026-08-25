@@ -604,8 +604,8 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Unranked",
-    "price_confidence": "None",
-    "last_price_check": null,
+    "price_confidence": "Low",
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -633,14 +633,20 @@
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from hifiengine/reverb (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 378,
+    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "hifiengine/reverb",
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 4,
+      "median_usd": 378
+    }
   },
   {
     "id": "marantz-model-27-1970",
@@ -720,8 +726,8 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Unranked",
-    "price_confidence": "None",
-    "last_price_check": null,
+    "price_confidence": "Medium",
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -749,14 +755,20 @@
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Full model is Marantz SD-1015. Specs sourced from radiomuseum/cassettedeck.org (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 162,
+    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "radiomuseum/cassettedeck.org",
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 8,
+      "median_usd": 162
+    }
   },
   {
     "id": "marantz-1030-1972",
@@ -778,8 +790,8 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Unranked",
-    "price_confidence": "None",
-    "last_price_check": null,
+    "price_confidence": "Medium",
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -807,14 +819,20 @@
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from audio-database.com (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 216,
+    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "audio-database.com",
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 20,
+      "median_usd": 216
+    }
   },
   {
     "id": "marantz-1060-1972",
@@ -836,8 +854,8 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 40-50",
-    "price_confidence": "None",
-    "last_price_check": null,
+    "price_confidence": "Medium",
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -865,14 +883,20 @@
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from audio-database.com (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 432,
+    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "audio-database.com",
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Pure, punchy analog sound; a budget-friendly classic integrated.",
-    "thb_status": null
+    "thb_status": null,
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 25,
+      "median_usd": 432
+    }
   },
   {
     "id": "marantz-1070-1975",
@@ -1661,8 +1685,8 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 40-50",
-    "price_confidence": "None",
-    "last_price_check": null,
+    "price_confidence": "Medium",
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -1690,14 +1714,20 @@
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from Marantz 22xx model-number convention (last two digits = W/ch; corroborated by 8+ sourced models) (still unverified).",
     "verified": false,
     "verification": "unconfirmed",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 516,
+    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "Marantz 22xx model-number convention (last two digits = W/ch; corroborated by 8+ sourced models)",
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 8,
+      "median_usd": 516
+    }
   },
   {
     "id": "marantz-2230-1971",
@@ -1806,8 +1836,8 @@
     "notes": "Unverified — Thai listing observed on Facebook/YouTube; not independently confirmed. Specs from the Marantz 22xx model-number convention corroborated against the 2235B. Capacitor-coupled (non-B era); the direct-coupled B models are the later revision.",
     "verified": false,
     "verification": "unconfirmed",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 502,
+    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "Marantz 22xx model-number convention; ~1975 (pre-2235B)",
     "price_thb_listings": [
       14500
@@ -1815,7 +1845,13 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Warm, euphonic classic Marantz voice — fuller and less dry at the bottom than modern solid-state. 35W/ch drives normal speakers, so you get the real 'two-martini' 22xx character without needing horn-efficient speakers.",
-    "thb_status": "For Sale"
+    "thb_status": "For Sale",
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 8,
+      "median_usd": 502
+    }
   },
   {
     "id": "marantz-2235b-1974",
@@ -1837,8 +1873,8 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 30-40",
-    "price_confidence": "None",
-    "last_price_check": null,
+    "price_confidence": "Medium",
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
       "collector_notes": "Direct-coupled (B series). The non-B 2235 (~1975) is a year or so earlier, visually near-identical, and internally very close but capacitor-coupled — both deliver the warm 22xx sound."
@@ -1866,14 +1902,20 @@
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from Marantz 22xx model-number convention (last two digits = W/ch; corroborated by 8+ sourced models) (still unverified).",
     "verified": false,
     "verification": "unconfirmed",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 464,
+    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "Marantz 22xx model-number convention (last two digits = W/ch; corroborated by 8+ sourced models)",
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Warm, euphonic classic Marantz voice — the 35W B-series version of the 22xx sound. Visually near-identical to the non-B 2235; adds an FM tuning meter with very little internal difference.",
-    "thb_status": null
+    "thb_status": null,
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 7,
+      "median_usd": 464
+    }
   },
   {
     "id": "marantz-2226b-1977",
@@ -1924,8 +1966,8 @@
     "notes": "Unverified — Thai listings observed on Facebook/YouTube; not independently confirmed. Specs sourced from classic-receiver references, not personally checked.",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 588,
+    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "Marantz 22xx B-series convention (~1977-79)",
     "price_thb_listings": [
       11000,
@@ -1934,7 +1976,13 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Warm classic Marantz character with cleaner detail than the entry models. The discrete-transistor phono stage is notably quieter than the opamp phono in the 2216 — the reason it's regarded as the best of the lower-end line.",
-    "thb_status": "For Sale"
+    "thb_status": "For Sale",
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 16,
+      "median_usd": 588
+    }
   },
   {
     "id": "marantz-2238b-1977",
@@ -2132,8 +2180,8 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 20-30",
-    "price_confidence": "None",
-    "last_price_check": null,
+    "price_confidence": "Low",
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -2161,14 +2209,20 @@
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from Marantz 22xx model-number convention (last two digits = W/ch; corroborated by 8+ sourced models) (still unverified).",
     "verified": false,
     "verification": "unconfirmed",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 1619,
+    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "Marantz 22xx model-number convention (last two digits = W/ch; corroborated by 8+ sourced models)",
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 3,
+      "median_usd": 1619
+    }
   },
   {
     "id": "marantz-2260",
@@ -2703,7 +2757,7 @@
     "series": "Preamp / Control",
     "year_start": 1973,
     "year_end": 1977,
-    "japan_price_kyen": null,
+    "japan_price_kyen": 195,
     "watts_per_channel": null,
     "freq_response_hz": "6-80000",
     "thd_percent": 0.02,
@@ -2752,7 +2806,14 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_specs": {
+      "source": "audio-database.com",
+      "date": "2026-08",
+      "fields": [
+        "japan_price_kyen"
+      ]
+    }
   },
   {
     "id": "marantz-4230-1973",
@@ -3133,8 +3194,8 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 40-50",
-    "price_confidence": "None",
-    "last_price_check": null,
+    "price_confidence": "Medium",
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -3162,14 +3223,20 @@
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from audio-database.com (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 121,
+    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "audio-database.com",
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 9,
+      "median_usd": 121
+    }
   },
   {
     "id": "marantz-pm-84-1983",
@@ -3354,7 +3421,7 @@
     "series": "KI Signature",
     "year_start": 1998,
     "year_end": 1998,
-    "japan_price_kyen": null,
+    "japan_price_kyen": 40,
     "watts_per_channel": 50,
     "freq_response_hz": "10-100000",
     "thd_percent": 0.03,
@@ -3401,7 +3468,14 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_specs": {
+      "source": "audio-database.com",
+      "date": "2026-08",
+      "fields": [
+        "japan_price_kyen"
+      ]
+    }
   },
   {
     "id": "marantz-model-7-1958",
@@ -3528,13 +3602,13 @@
     "series": "Separates",
     "year_start": 1971,
     "year_end": 1973,
-    "japan_price_kyen": null,
+    "japan_price_kyen": 245,
     "watts_per_channel": 125,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "freq_response_hz": "2-100000",
+    "thd_percent": 0.1,
     "ps_type": null,
     "amp_circuit": "Solid-state stereo power amp; 125W (8ohm) / 150W (4ohm); dual VU meters",
-    "weight_kg": null,
+    "weight_kg": 12.7,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -3575,7 +3649,17 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_specs": {
+      "source": "audio-database.com",
+      "date": "2026-08",
+      "fields": [
+        "thd_percent",
+        "freq_response_hz",
+        "weight_kg",
+        "japan_price_kyen"
+      ]
+    }
   },
   {
     "id": "marantz-2240-1974",
@@ -4007,8 +4091,8 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 10",
-    "price_confidence": "None",
-    "last_price_check": null,
+    "price_confidence": "Medium",
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -4036,14 +4120,20 @@
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Marantz's first power amp; mono tube monoblock (pair for stereo). Specs sourced from stereonomono/hifiengine (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 799,
+    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "stereonomono/hifiengine",
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 10,
+      "median_usd": 799
+    }
   },
   {
     "id": "marantz-model-240-1974",
@@ -4054,13 +4144,13 @@
     "series": "Separates",
     "year_start": 1974,
     "year_end": 1977,
-    "japan_price_kyen": null,
+    "japan_price_kyen": 195,
     "watts_per_channel": 120,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "freq_response_hz": "2-100000",
+    "thd_percent": 0.1,
     "ps_type": null,
     "amp_circuit": "Solid-state stereo power amp; the partner to the Model 3300 preamp",
-    "weight_kg": null,
+    "weight_kg": 11.8,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -4101,7 +4191,17 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_specs": {
+      "source": "audio-database.com",
+      "date": "2026-08",
+      "fields": [
+        "thd_percent",
+        "freq_response_hz",
+        "weight_kg",
+        "japan_price_kyen"
+      ]
+    }
   },
   {
     "id": "marantz-pm-250-1979",

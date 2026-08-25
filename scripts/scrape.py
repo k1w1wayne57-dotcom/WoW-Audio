@@ -188,6 +188,17 @@ def hifishark_search_url(brand, model):
     return "https://www.hifishark.com/search?q=" + quote_plus(f"{brand} {model}")
 
 
+# Parts/manuals/accessories masquerading as the amp in HiFi Shark results.
+# Filtering by title removes them regardless of price, so the median reflects
+# whole, working units — not a pile of $80 faceplates.
+JUNK_RE = re.compile(
+    r"\b(manual|faceplate|face\s?plate|front\s?panel|knob|meter|manuals|parts|"
+    r"for\s?parts|repair|not\s?working|as[-\s]?is|dial|lamp|bulb|glass|wood\s?case|"
+    r"wooden\s?case|cabinet\s?only|case\s?only|badge|emblem|logo|switch|capacitor|"
+    r"cap\s?kit|recap|restoration\s?kit|pcb|circuit\s?board|schematic|service|"
+    r"remote|cover|feet|screw|transformer|output\s?board)\b", re.I)
+
+
 def summarize_usd(listings, months, headful=False, profile=None):
     """Filter to the last `months`, convert to USD, return a summary dict."""
     cutoff = datetime.date.today() - datetime.timedelta(days=int(30.4 * months))
@@ -195,6 +206,8 @@ def summarize_usd(listings, months, headful=False, profile=None):
     for x in listings:
         if x["price"] is None or not x["currency"]:
             continue
+        if x.get("title") and JUNK_RE.search(x["title"]):
+            continue  # skip parts, manuals, faceplates, etc.
         if x["date"] and x["date"] < cutoff:
             continue
         rate = FX_TO_USD.get(x["currency"])
@@ -205,10 +218,27 @@ def summarize_usd(listings, months, headful=False, profile=None):
         kept.append(x)
     if not usd:
         return None
+    raw_n = len(usd)
+    # Trim junk before averaging: a hard floor/ceiling kills parts, manuals and
+    # knobs (too cheap) and price typos (too dear); then an IQR fence removes the
+    # remaining outliers so the median reflects real amplifier sales.
+    FLOOR, CEIL = 60, 20000
+    usd = [v for v in usd if FLOOR <= v <= CEIL]
+    if not usd:
+        return None
     usd.sort()
+    if len(usd) >= 4:
+        q1 = usd[len(usd) // 4]
+        q3 = usd[(3 * len(usd)) // 4]
+        iqr = q3 - q1
+        lo, hi = q1 - 1.5 * iqr, q3 + 1.5 * iqr
+        fenced = [v for v in usd if lo <= v <= hi]
+        if fenced:
+            usd = fenced
     mid = usd[len(usd) // 2] if len(usd) % 2 else round((usd[len(usd) // 2 - 1] + usd[len(usd) // 2]) / 2)
-    return {"count": len(usd), "avg": round(sum(usd) / len(usd)), "median": mid,
-            "low": usd[0], "high": usd[-1], "skipped_currencies": sorted(skipped_cur)}
+    return {"count": len(usd), "raw_count": raw_n, "avg": round(sum(usd) / len(usd)),
+            "median": mid, "low": usd[0], "high": usd[-1],
+            "skipped_currencies": sorted(skipped_cur)}
 
 
 def research_hifishark(brand, model, months, update, headful, profile, emit_json=False):

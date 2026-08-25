@@ -485,7 +485,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 20-30",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -514,8 +514,8 @@
     "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Specs sourced from classicreceivers/hifiengine (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 288,
+    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "classicreceivers/hifiengine",
     "price_thb_listings": [
       3800
@@ -523,7 +523,13 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 22,
+      "median_usd": 288
+    }
   },
   {
     "id": "pioneer-sx-6000",
@@ -665,8 +671,8 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 30-40",
-    "price_confidence": "None",
-    "last_price_check": null,
+    "price_confidence": "Medium",
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -694,14 +700,20 @@
     "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Specs sourced from classicreceivers/hifiengine (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 210,
+    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "classicreceivers/hifiengine",
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 8,
+      "median_usd": 210
+    }
   },
   {
     "id": "pioneer-sx-450",
@@ -723,8 +735,8 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 30-40",
-    "price_confidence": "None",
-    "last_price_check": null,
+    "price_confidence": "Medium",
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -752,14 +764,20 @@
     "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Specs sourced from classicreceivers (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 157,
+    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "classicreceivers",
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 21,
+      "median_usd": 157
+    }
   },
   {
     "id": "pioneer-sx-440-1969",
@@ -781,7 +799,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 30-40",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -810,8 +828,8 @@
     "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Specs sourced from hifiengine (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 216,
+    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "hifiengine",
     "price_thb_listings": [
       3500
@@ -819,7 +837,13 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 8,
+      "median_usd": 216
+    }
   },
   {
     "id": "pioneer-sx-424-1972",
@@ -841,7 +865,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 30-40",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -870,8 +894,8 @@
     "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Specs sourced from hifiengine (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 134,
+    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "hifiengine",
     "price_thb_listings": [
       2000
@@ -879,7 +903,13 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 16,
+      "median_usd": 134
+    }
   },
   {
     "id": "pioneer-sx-3700",
@@ -1021,7 +1051,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 10",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -1050,8 +1080,8 @@
     "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Early tube receiver (1962). Specs sourced from wayne-list (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 319,
+    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "wayne-list",
     "price_thb_listings": [
       9200
@@ -1059,7 +1089,13 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 9,
+      "median_usd": 319
+    }
   },
   {
     "id": "pioneer-sa-9900-1975",
@@ -1070,13 +1106,13 @@
     "series": "SA Amplifier",
     "year_start": 1975,
     "year_end": 1979,
-    "japan_price_kyen": null,
+    "japan_price_kyen": 185,
     "watts_per_channel": 110,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "freq_response_hz": "10-80000",
+    "thd_percent": 0.1,
     "ps_type": null,
     "amp_circuit": "Flagship integrated amplifier",
-    "weight_kg": null,
+    "weight_kg": 20.0,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -1102,7 +1138,7 @@
     },
     "capacitors": [],
     "links": {
-      "audio_database": null,
+      "audio_database": "https://audio-database.com/PIONEER-EXCLUSIVE/amp/sa-9900-e.html",
       "hifi_engine": null,
       "sansui_us": null,
       "source": null
@@ -1117,7 +1153,17 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_specs": {
+      "source": "audio-database.com",
+      "date": "2026-08",
+      "fields": [
+        "thd_percent",
+        "freq_response_hz",
+        "weight_kg",
+        "japan_price_kyen"
+      ]
+    }
   },
   {
     "id": "pioneer-sa-9800-1976",
@@ -1128,13 +1174,13 @@
     "series": "SA Amplifier",
     "year_start": 1976,
     "year_end": 1981,
-    "japan_price_kyen": null,
+    "japan_price_kyen": 110,
     "watts_per_channel": 100,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "freq_response_hz": "10-80000",
+    "thd_percent": 0.1,
     "ps_type": null,
     "amp_circuit": "Integrated amplifier",
-    "weight_kg": null,
+    "weight_kg": 17.2,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -1160,7 +1206,7 @@
     },
     "capacitors": [],
     "links": {
-      "audio_database": null,
+      "audio_database": "https://audio-database.com/PIONEER-EXCLUSIVE/amp/sa-9800-e.html",
       "hifi_engine": null,
       "sansui_us": null,
       "source": null
@@ -1175,7 +1221,17 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_specs": {
+      "source": "audio-database.com",
+      "date": "2026-08",
+      "fields": [
+        "thd_percent",
+        "freq_response_hz",
+        "weight_kg",
+        "japan_price_kyen"
+      ]
+    }
   },
   {
     "id": "pioneer-sa-9100-1973",
@@ -1244,13 +1300,13 @@
     "series": "SA Amplifier",
     "year_start": 1979,
     "year_end": 1981,
-    "japan_price_kyen": null,
+    "japan_price_kyen": 60,
     "watts_per_channel": 80,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "freq_response_hz": "5-100000",
+    "thd_percent": 0.05,
     "ps_type": null,
     "amp_circuit": "US integrated amplifier (dual-mono)",
-    "weight_kg": null,
+    "weight_kg": 13.8,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -1276,7 +1332,7 @@
     },
     "capacitors": [],
     "links": {
-      "audio_database": null,
+      "audio_database": "https://audio-database.com/PIONEER-EXCLUSIVE/amp/sa-8800ii-e.html",
       "hifi_engine": null,
       "sansui_us": null,
       "source": null
@@ -1293,7 +1349,17 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_specs": {
+      "source": "audio-database.com",
+      "date": "2026-08",
+      "fields": [
+        "thd_percent",
+        "freq_response_hz",
+        "weight_kg",
+        "japan_price_kyen"
+      ]
+    }
   },
   {
     "id": "pioneer-sa-7700-1978",
@@ -1315,7 +1381,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 20-30",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -1344,8 +1410,8 @@
     "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Specs sourced from radiomuseum/hifiengine (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 209,
+    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "radiomuseum/hifiengine",
     "price_thb_listings": [
       2900
@@ -1353,7 +1419,13 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 12,
+      "median_usd": 209
+    }
   },
   {
     "id": "pioneer-sa-7500",
@@ -1375,7 +1447,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 20-30",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -1404,8 +1476,8 @@
     "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Specs sourced from hifi-wiki (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 318,
+    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "hifi-wiki",
     "price_thb_listings": [
       2900
@@ -1413,7 +1485,13 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 23,
+      "median_usd": 318
+    }
   },
   {
     "id": "pioneer-sa-6850",
@@ -1484,13 +1562,13 @@
     "series": "SA Amplifier",
     "year_start": 1976,
     "year_end": 1980,
-    "japan_price_kyen": null,
-    "watts_per_channel": null,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "japan_price_kyen": 40,
+    "watts_per_channel": 50,
+    "freq_response_hz": "20-20000",
+    "thd_percent": 0.1,
     "ps_type": null,
     "amp_circuit": "Integrated amplifier",
-    "weight_kg": null,
+    "weight_kg": 8.7,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -1516,7 +1594,7 @@
     },
     "capacitors": [],
     "links": {
-      "audio_database": null,
+      "audio_database": "https://audio-database.com/PIONEER-EXCLUSIVE/amp/sa-6800ii-e.html",
       "hifi_engine": null,
       "sansui_us": null,
       "source": null
@@ -1534,7 +1612,18 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_specs": {
+      "source": "audio-database.com",
+      "date": "2026-08",
+      "fields": [
+        "watts_per_channel",
+        "thd_percent",
+        "freq_response_hz",
+        "weight_kg",
+        "japan_price_kyen"
+      ]
+    }
   },
   {
     "id": "pioneer-sa-6750",
@@ -1605,18 +1694,18 @@
     "series": "SA Amplifier",
     "year_start": 1978,
     "year_end": null,
-    "japan_price_kyen": null,
-    "watts_per_channel": null,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "japan_price_kyen": 36,
+    "watts_per_channel": 40,
+    "freq_response_hz": "30-15000",
+    "thd_percent": 0.1,
     "ps_type": null,
     "amp_circuit": "Integrated amplifier",
-    "weight_kg": null,
+    "weight_kg": 7.6,
     "special_features": null,
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 20-30",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -1637,7 +1726,7 @@
     },
     "capacitors": [],
     "links": {
-      "audio_database": null,
+      "audio_database": "https://audio-database.com/PIONEER-EXCLUSIVE/amp/sa-6700-e.html",
       "hifi_engine": "https://www.hifiengine.com/manual_library/pioneer/sa-6700.shtml",
       "sansui_us": null,
       "source": null
@@ -1645,8 +1734,8 @@
     "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Specs sourced from audio-database/hifiengine (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 248,
+    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "audio-database/hifiengine",
     "price_thb_listings": [
       2350,
@@ -1655,7 +1744,24 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_specs": {
+      "source": "audio-database.com",
+      "date": "2026-08",
+      "fields": [
+        "watts_per_channel",
+        "thd_percent",
+        "freq_response_hz",
+        "weight_kg",
+        "japan_price_kyen"
+      ]
+    },
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 12,
+      "median_usd": 248
+    }
   },
   {
     "id": "pioneer-sa-6600ii-1976",
@@ -1666,13 +1772,13 @@
     "series": "SA Amplifier",
     "year_start": 1976,
     "year_end": null,
-    "japan_price_kyen": null,
-    "watts_per_channel": null,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "japan_price_kyen": 30,
+    "watts_per_channel": 27,
+    "freq_response_hz": "20-20000",
+    "thd_percent": 0.1,
     "ps_type": null,
     "amp_circuit": "Integrated amplifier",
-    "weight_kg": null,
+    "weight_kg": 7.2,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -1698,7 +1804,7 @@
     },
     "capacitors": [],
     "links": {
-      "audio_database": null,
+      "audio_database": "https://audio-database.com/PIONEER-EXCLUSIVE/amp/sa-6600ii-e.html",
       "hifi_engine": "https://www.hifiengine.com/manual_library/pioneer/sa-6600.shtml",
       "sansui_us": null,
       "source": null
@@ -1715,7 +1821,18 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_specs": {
+      "source": "audio-database.com",
+      "date": "2026-08",
+      "fields": [
+        "watts_per_channel",
+        "thd_percent",
+        "freq_response_hz",
+        "weight_kg",
+        "japan_price_kyen"
+      ]
+    }
   },
   {
     "id": "pioneer-sa-6300",
@@ -1724,20 +1841,20 @@
     "int_model": null,
     "type": "Integrated",
     "series": "SA Amplifier",
-    "year_start": null,
+    "year_start": 1975,
     "year_end": null,
-    "japan_price_kyen": null,
-    "watts_per_channel": null,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "japan_price_kyen": 30,
+    "watts_per_channel": 20,
+    "freq_response_hz": "30-15000",
+    "thd_percent": 0.8,
     "ps_type": null,
     "amp_circuit": "Integrated amplifier",
-    "weight_kg": null,
+    "weight_kg": 6.4,
     "special_features": null,
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 20-30",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -1758,7 +1875,7 @@
     },
     "capacitors": [],
     "links": {
-      "audio_database": null,
+      "audio_database": "https://audio-database.com/PIONEER-EXCLUSIVE/amp/sa-6300-e.html",
       "hifi_engine": "https://www.hifiengine.com/manual_library/pioneer/sa-6300.shtml",
       "sansui_us": null,
       "source": null
@@ -1766,8 +1883,8 @@
     "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Specs sourced from hifiengine (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 194,
+    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "hifiengine",
     "price_thb_listings": [
       3600
@@ -1775,7 +1892,25 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_specs": {
+      "source": "audio-database.com",
+      "date": "2026-08",
+      "fields": [
+        "watts_per_channel",
+        "thd_percent",
+        "freq_response_hz",
+        "weight_kg",
+        "japan_price_kyen",
+        "year_start"
+      ]
+    },
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 17,
+      "median_usd": 194
+    }
   },
   {
     "id": "pioneer-sa-4400-1979",
@@ -1786,13 +1921,13 @@
     "series": "SA Amplifier",
     "year_start": 1979,
     "year_end": null,
-    "japan_price_kyen": null,
-    "watts_per_channel": null,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "japan_price_kyen": 25,
+    "watts_per_channel": 15,
+    "freq_response_hz": "20-20000",
+    "thd_percent": 0.5,
     "ps_type": null,
     "amp_circuit": "Pre-main (integrated) amplifier",
-    "weight_kg": null,
+    "weight_kg": 4.6,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -1826,8 +1961,8 @@
     "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Specs sourced from audio-database (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 251,
+    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "audio-database",
     "price_thb_listings": [
       1800
@@ -1835,7 +1970,24 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_specs": {
+      "source": "audio-database.com",
+      "date": "2026-08",
+      "fields": [
+        "watts_per_channel",
+        "thd_percent",
+        "freq_response_hz",
+        "weight_kg",
+        "japan_price_kyen"
+      ]
+    },
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 3,
+      "median_usd": 251
+    }
   },
   {
     "id": "pioneer-sa-70-1971",
@@ -1846,18 +1998,18 @@
     "series": "SA Amplifier",
     "year_start": 1971,
     "year_end": 1973,
-    "japan_price_kyen": null,
+    "japan_price_kyen": 40,
     "watts_per_channel": 85,
     "freq_response_hz": "20-40000",
     "thd_percent": 0.05,
     "ps_type": null,
     "amp_circuit": "Early high-power integrated amplifier",
-    "weight_kg": null,
+    "weight_kg": 7.7,
     "special_features": null,
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 20-30",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -1878,7 +2030,7 @@
     },
     "capacitors": [],
     "links": {
-      "audio_database": null,
+      "audio_database": "https://audio-database.com/PIONEER-EXCLUSIVE/amp/sa-70-e.html",
       "hifi_engine": null,
       "sansui_us": null,
       "source": null
@@ -1886,8 +2038,8 @@
     "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Specs sourced from audio-database/VTA (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 170,
+    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "audio-database/VTA",
     "price_thb_listings": [
       5900
@@ -1895,7 +2047,21 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_specs": {
+      "source": "audio-database.com",
+      "date": "2026-08",
+      "fields": [
+        "weight_kg",
+        "japan_price_kyen"
+      ]
+    },
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 14,
+      "median_usd": 170
+    }
   },
   {
     "id": "pioneer-tx-70-1969",
@@ -1906,18 +2072,18 @@
     "series": "TX Tuner",
     "year_start": 1969,
     "year_end": null,
-    "japan_price_kyen": null,
+    "japan_price_kyen": 40,
     "watts_per_channel": null,
     "freq_response_hz": null,
     "thd_percent": null,
     "ps_type": null,
     "amp_circuit": "AM/FM stereo tuner with FM preset dials (equivalent to the TX-700)",
-    "weight_kg": null,
+    "weight_kg": 5.6,
     "special_features": null,
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 30-40",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -1946,8 +2112,8 @@
     "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Specs sourced from audio-database (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 361,
+    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "audio-database",
     "price_thb_listings": [
       1350
@@ -1955,7 +2121,21 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_specs": {
+      "source": "audio-database.com",
+      "date": "2026-08",
+      "fields": [
+        "weight_kg",
+        "japan_price_kyen"
+      ]
+    },
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 8,
+      "median_usd": 361
+    }
   },
   {
     "id": "pioneer-tx-7800-1979",
@@ -1977,7 +2157,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 30-40",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -2006,8 +2186,8 @@
     "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Specs sourced from radiomuseum/hifi-wiki (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 210,
+    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "radiomuseum/hifi-wiki",
     "price_thb_listings": [
       1500
@@ -2015,7 +2195,13 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 8,
+      "median_usd": 210
+    }
   },
   {
     "id": "pioneer-qx-8000-1971",
