@@ -1,0 +1,297 @@
+# Source: Audiokarma "Sansui Product History: Amplifiers 1967-2000" (JimEGR, V.06/27/23)
+# https://audiokarma.org/forums/threads/sansui-product-history-amplifiers-1967-2000.1008935/
+# Format: section headings start with ---, topology/series headings are quoted "...",
+# model lines are: <year> <model> <watts> watts (notes)
+
+--- INTEGRATED ---
+
+--- First Generation ---
+1967 AU-777 25 watts
+1968 AU-222 18 watts
+1968 AU-555 20 watts
+1969 AU-777D 30 watts (JDM version of AU-777A)
+1969 AU-777A 30 watts
+1970 AU-555A 25 watts
+1970 AU-666 35 watts
+1970 AU-888 45 watts
+1970 AU-999 50 watts
+1971 AU-101 15 watts
+1972 AU-505 12 watts
+1973 AU-2000 13 watts (JDM version AU-505)
+
+--- Second Generation ---
+1972 AU-6500 30 watts
+1972 AU-7500 32 watts
+1972 AU-9500 75 watts
+1973 AU-8500 60 watts
+1974 AU-22 13 watts (JDM)
+1974 AU-33 20 watts (JDM)
+1974 AU-2200 10 watts
+1974 AU-4400 20 watts
+1974 AU-5500 35 watts
+1974 AU-6600 42 watts
+1974 AU-7700 54 watts
+1974 AU-7900 80 watts
+1975 AU-3900 25 watts
+1975 AU-4900 38 watts
+1975 AU-5900 45 watts
+1975 AU-6900 60 watts
+1976 AU-2900 15 watts
+1975 AU-1100 22 watts (JDM)
+1975 AU-3300 35 watts (JDM)
+1975 AU-1500 22 watts (JDM)
+1975 AU-3500 35 watts (JDM)
+"Professional Series"
+1975 AU-9900 80 watts
+1975 AU-11000 110 watts
+1975 AU-20000 170 watts
+1977 AU-9900A 80 watts
+1977 AU-11000A 110 watts
+1977 AU-10000 110 watts (JDM)
+
+--- Third Generation ---
+1977 AU-207 30 watts (JDM version of AU-217)
+1977 AU-307 50 watts (JDM version of AU-317)
+1977 AU-507 60 watts (JDM version of AU-417)
+1976 AU-607 65 watts (JDM version of AU-517)
+1976 AU-707 85 watts (JDM version of AU-717)
+1977 AU-117 15 watts
+1977 AU-217 30 watts
+1977 AU-317 50 watts
+1977 AU-417 65 watts
+1977 AU-517 65 watts
+1977 AU-717 85 watts
+1977 AU-710 85 watts (AAFES version of AU-717)
+1978 AU-D607 70 watts (JDM version of AU-519)
+1978 AU-D707 90 watts (JDM version of AU-819)
+1978 AU-D907 100 watts (JDM version of AU-919)
+1978 AU-D907 Limited 100 watts (JDM)
+1978 AU-919 100 watts
+1979 AU-107ii 25 watts (JDM version of AU-117ii)
+1979 AU-207ii 40 watts (JDM version of AU-217ii)
+1979 AU-307ii 60 watts (JDM version of AU-317ii)
+1979 AU-117ii 25 watts
+1979 AU-217ii 40 watts
+1979 AU-317ii 60 watts
+1979 AU-417 65 watts
+1979 AU-519 70 watts
+1979 AU-719 90 watts
+1979 AU-819 90 watts
+
+--- Fourth Generation ---
+"Direct Coupled - Diamond Differential"
+1978 AU-X1 160 watts (JDM) (and international)
+"Direct Coupled - Diamond Differential - Super FeedForward"
+1980 AU-D607F 75 watts (JDM)
+1980 AU-D707F 95 watts (JDM)
+1980 AU-D907F 130 watts (JDM)
+"Direct Coupled"
+1982 AU-D5 65 watts
+1982 AU-D7 80 watts
+"Direct Coupled - Diamond Differential - Super FeedForward"
+1980 AU-D9 95 watts
+1980 AU-D11 120 watts
+"Direct Coupled"
+1980 A-40 25 watts
+1980 A-60 45 watts
+1980 A-80 65 watts
+"Direct Coupled - Diamond Differential - Super FeedForward (Extra = copper chassis, non-magnetic)"
+1981 AU-D607F Extra 80 watts (JDM)
+1981 AU-D707F Extra 100 watts (JDM)
+1981 AU-D907F Extra 130 watts (JDM) + MOS-FET
+"Direct Coupled - Diamond Differential - Super FeedForward"
+1981 AU-X11 160 watts (JDM) (and international)
+"Direct Coupled - Super FeedForward"
+1981 AU-D55F 50 watts (JDM version of AU-D33)
+"Direct Coupled"
+1982 A-5 25 watts
+1982 A-7 45 watts
+1982 A-9 65 watts
+"Direct Coupled (A-series)"
+1982 A-500 30 watts
+1982 A-501 30 watts
+1982 A-Classique501 30 watts
+1982 A-505 30 watts
+1982 A-510 30 watts
+1982 A-700 55 watts
+1982 A-707 50 watts
+1982 A-900 70 watts
+1982 A-909 70 watts
+1982 A-930P 70 watts
+1982 A-1000 100 watts
+1982 A-1001 100 watts
+1982 A-1010 100 watts
+1982 A-1100 100 watts
+1982 A-1100P 100 watts
+1982 A-1100R 100 watts
+1982 A-1110 100 watts
+1982 A-1130 100 watts
+1982 A-1130P 100 watts
+1982 A-1200 125 watts
+1982 A-1200P 125 watts
+1982 A-1200R 125 watts
+1982 A-1230 125 watts
+1982 A-1230P 125 watts
+1982 A-1500R 160 watts
+"Direct Coupled (M-series)"
+1983 AU-M7 25 watts
+1983 AU-M70 25 watts
+1983 AU-M77 25 watts
+1983 A-M800 25 watts
+1983 A-M9 70 watts
+"Direct Coupled - Super FeedForward (Wikipedia-noted group)"
+1983 AU-D101 30 watts (UK/EUR 220/240V)
+1983 AU-D22 35 watts
+1983 AU-D33 50 watts
+"Direct Coupled - Super FeedForward"
+1983 AU-D55X 70 watts
+"Direct Coupled - Super Ground Free"
+1983 AU-D77X 110 watts
+"Direct Coupled - Diamond Differential - Super FeedForward - Ground Free"
+1983 AU-D11ii 130 watts (special version of the AU-D707X)
+"Direct Coupled - Diamond Differential - Super FeedForward - Ground Free (Extra = copper chassis)"
+1983 AU-D607G Extra 90 watts (JDM)
+1983 AU-D707G Extra 110 watts (JDM)
+1983 AU-D907G Extra 130 watts (JDM)
+"Direct Coupled - Diamond Differential - Ground Free - X Balanced"
+1984 AU-D607X 90 watts (JDM)
+1984 AU-D707X 130 watts (JDM)
+1984 AU-D907X 160 watts (JDM)
+"Direct Coupled - Ground Free - X Balanced (G-series)"
+1984 AU-G11X 25 watts
+1984 AU-G33X 45 watts
+1984 AU-G55X 65 watts
+1984 AU-G77X 110 watts
+1984 AU-G99X 160 watts
+1984 AU-G30X 45 watts
+1984 AU-G50X 45 watts
+1984 AU-G90X 130 watts
+"Direct Coupled - Twin Diamond X Balanced (Decade)"
+1984 AU-D607X Decade 90 watts (JDM)
+1984 AU-D707X Decade 130 watts (JDM)
+1984 AU-D907X Decade 160 watts (JDM)
+1984 AU-D707XCD Decade 130 watts (JDM)
+"Uncompromising selection / hearing-test tuned"
+1985 AU-X111MOS Vintage 110 watts (JDM)
+"Direct Coupled"
+1985 A-500 30 watts
+1985 A-710 55 watts
+1985 A-730 55 watts
+1985 A-770 55 watts
+1985 A-M90 70 watts
+1985 A-M900 70 watts
+1985 A-M99 70 watts
+
+--- Alpha Series ---
+"Direct Coupled - Alpha"
+1986 AU-a307 65 watts (JDM)
+1986 AU-a507 80 watts (JDM)
+"Direct Coupled - Alpha X Balanced"
+1986 AU-a607 90 watts (JDM)
+1986 AU-a707 130 watts (JDM)
+1986 AU-a907 180 watts (JDM)
+"Direct Coupled - Alpha"
+1987 AU-a307i 65 watts (JDM)
+1987 AU-a507i 80 watts (JDM)
+"Direct Coupled - Alpha - Custom Capacitors"
+1987 AU-a607i 90 watts (JDM version of AU-X701)
+1987 AU-a707i 130 watts (JDM version of AU-X901)
+1987 AU-a907i 160 watts (JDM)
+1987 AU-a907i MOS Limited 80 watts (JDM)
+"Direct Coupled - Alpha X Balanced - Ground Free (international X-series)"
+1987 AU-X201 30 watts
+1987 AU-X301 65 watts
+1987 AU-X501 80 watts
+1987 AU-X701 90 watts (int version of JDM AU-a607i)
+1987 AU-X901 130 watts (int version of JDM AU-a707i)
+1987 AU-X711 100 watts
+"Uncompromising selection / hearing-test tuned"
+1988 AU-X1111MOS Vintage 110 watts (JDM) (and international)
+"Direct Coupled - Alpha - Ground Free"
+1988 AU-a307 65 watts (JDM)
+1988 AU-a507 Extra 80 watts (JDM)
+1988 AU-a607 Extra 90 watts (JDM)
+1988 AU-a707 Extra 130 watts (JDM)
+1988 AU-a907 Extra (JDM) (prototype, not mass produced)
+1989 AU-X111 30 watts
+1989 AU-X911DG 100 watts
+"L Extra (first nonmagnetic transistors)"
+1989 AU-a607L Extra 90 watts (JDM)
+1989 AU-a707L Extra 130 watts (JDM)
+1989 AU-a901L Extra 160 watts (JDM)
+1989 AU-a555VS 80 watts (JDM)
+1989 AU-a777DG 90 watts (JDM)
+1989 AU-a999DG 95 watts (JDM)
+"DR and later (upgraded circuitry)"
+1991 AU-a607DR 90 watts (JDM)
+1991 AU-a707DR 130 watts (JDM)
+1990 AU-a907DR 160 watts (JDM)
+1991 AU-a607 MOS Premium 45 watts (JDM)
+1992 A-X750 40 watts
+1992 AU-a507R 65 watts
+"Alpha - X Balanced (KX)"
+1992 AU-a607KX 90 watts (JDM)
+1992 AU-a707KX 130 watts (JDM)
+1992 AU-a907KX 160 watts (JDM)
+"Hyper Alpha - X Balanced (XR)"
+1993 AU-a507XR 70 watts (JDM)
+1993 AU-a607XR 90 watts (JDM)
+1993 AU-a707XR 130 watts (JDM)
+1993 AU-a907XR 160 watts (JDM)
+"Alpha (K / misc)"
+1994 AU-a117K 30 watts (JDM)
+1994 AU-a317K 55 watts (JDM)
+1994 AU-a505XR 60 watts (JDM)
+1994 AU-a907 Limited 80 watts (JDM)
+1994 A-a7 50 watts (JDM)
+1994 A-a9 50 watts (JDM)
+"New Hyper Alpha - X Balanced (MR)"
+1995 AU-a607MR 90 watts (JDM)
+1995 AU-a707MR 130 watts (JDM)
+1995 AU-a907MR 160 watts (JDM)
+1995 AU-X517R 65 watts
+1995 AU-X619R 65 watts
+1996 AU-07 Anniversary 90 watts (JDM)
+1996 A-E350 25 watts
+1996 A-E550 55 watts
+1996 A-E750 90 watts
+1996 A-E770 75 watts
+"MRX (international 230V variants of MR)"
+1996 AU-a607MRX 90 watts
+1997 AU-a907MRX 160 watts
+"Alpha - later small integrateds"
+1997 A-a77 50 watts (JDM)
+1997 A-a99 50 watts (JDM)
+1997 AU-a205 30 watts (JDM)
+1997 AU-a305R 55 watts (JDM)
+1997 AU-a305RX 65 watts (JDM)
+1997 AU-a505RX 80 watts (JDM)
+"Ultimate Alpha - X Balanced (NRA)"
+1998 AU-a507NRA 60 watts (JDM)
+1998 AU-a607NRA 80 watts (JDM)
+1998 AU-a707NRA 130 watts (JDM)
+1998 AU-a907NRA 160 watts (JDM)
+1999 AU-405 60 watts (JDM)
+1999 AU-a607 NRA ii 80 watts (JDM)
+1999 AU-a607 MOS Limited 50 watts (JDM) (last solid-state Sansui)
+
+--- SEPARATES (not a complete list) ---
+"Pre Amplifiers"
+1968 TC-505 (JDM)
+1970 CA-606 (JDM)
+"Power Amplifiers"
+1968 BA-60 20 watts
+1968 BA-90 28 watts
+1971 BA-100 30 watts (JDM)
+1970 BA-150 45 watts (JDM)
+"Pre Amplifiers - Definition / Professional Series"
+1975 CA-3000
+1976 CA-2000
+"Power Amplifiers - Definition / Professional Series"
+1975 BA-3000 170 watts
+1975 BA-5000 300 watts
+1976 BA-2000 110 watts
+1975 BA-1000 45 watts (VFET amplifier)
+"F-1 flagship separates"
+1979 CA-F1
+1979 BA-F1 110 watts

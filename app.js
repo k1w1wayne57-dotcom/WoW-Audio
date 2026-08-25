@@ -9,6 +9,11 @@ let bestBuyOnly = false;
 let thaiPriceOnly = false;
 let intlOnly = false;
 let searchTerm = "";
+let HISTORY = null;         // Sansui product-history reference (timeline view)
+let historyMode = false;
+let historyRendered = false;
+
+const normModel = (s) => String(s || "").toLowerCase().replace(/[^a-z0-9]/g, "");
 
 const RANK_ORDER = { "Top 10": 1, "Top 10-20": 2, "Top 20-30": 3, "Top 30-40": 4, "Top 40-50": 5, "Unranked": 6 };
 
@@ -28,6 +33,7 @@ async function init() {
     tableBody.innerHTML = `<tr><td colspan="11" style="padding:24px;text-align:center;color:var(--text-secondary)">Could not load database. If opening this file directly, run a local server instead.</td></tr>`;
     return;
   }
+  HISTORY = await fetch("data/sansui_history.json").then(r => (r.ok ? r.json() : null)).catch(() => null);
   populateBrands();
   populateStats();
   bindControls();
@@ -113,6 +119,26 @@ function bindControls() {
     intlOnly = !intlOnly;
     intlBtn.classList.toggle("active", intlOnly);
     render();
+  });
+
+  const histBtn = document.getElementById("history-view");
+  histBtn.addEventListener("click", () => {
+    historyMode = !historyMode;
+    histBtn.classList.toggle("active", historyMode);
+    document.getElementById("history-section").hidden = !historyMode;
+    document.querySelector(".table-section").hidden = historyMode;
+    ["sort-row", "brand-row", "type-row", "era-row"].forEach(id => {
+      const el = document.getElementById(id);
+      if (el) el.hidden = historyMode;
+    });
+    if (historyMode && !historyRendered) { renderHistory(); historyRendered = true; }
+  });
+
+  document.getElementById("history-content").addEventListener("click", (e) => {
+    const chip = e.target.closest(".hist-model.in-db");
+    if (!chip) return;
+    const item = DB.find(d => normModel(d.jdm_model) === chip.dataset.model && d.brand === "Sansui");
+    if (item) openModal(item);
   });
 
   document.getElementById("search-input").addEventListener("input", (e) => {
@@ -247,6 +273,38 @@ function wrenchDisplay(level) {
   const filled = "🔧".repeat(level);
   const empty = "⬜".repeat(5 - level);
   return `<span class="recap-wrench" title="${level}/5">${filled}${empty}</span>`;
+}
+
+function renderHistory() {
+  const el = document.getElementById("history-content");
+  if (!HISTORY || !HISTORY.sections) { el.innerHTML = "<p>History reference unavailable.</p>"; return; }
+  const owned = new Set(DB.filter(d => d.brand === "Sansui").map(d => normModel(d.jdm_model)));
+  const src = HISTORY.source || {};
+  let html = `<div class="hist-head">
+      <h1>Sansui Amplifier History</h1>
+      <p class="hist-note">${escapeHtml(src.note || "")} ${src.url ? `<a href="${escapeHtml(src.url)}" target="_blank" rel="noopener">Source ↗</a>` : ""}</p>
+      <p class="hist-legend"><span class="hist-swatch in-db"></span> In your database (click for details) &nbsp; <span class="hist-swatch"></span> Reference only</p>
+    </div>`;
+  let lastCat = null;
+  HISTORY.sections.forEach(sec => {
+    if (sec.category && sec.category !== lastCat) {
+      html += `<h2 class="hist-cat">${escapeHtml(sec.category)}</h2>`;
+      lastCat = sec.category;
+    }
+    if (sec.generation) html += `<h3 class="hist-gen">${escapeHtml(sec.generation)}</h3>`;
+    sec.groups.forEach(g => {
+      if (g.topology) html += `<h4 class="hist-topo">${escapeHtml(g.topology)}</h4>`;
+      html += `<div class="hist-models">`;
+      g.models.forEach(m => {
+        const inDb = owned.has(normModel(m.model));
+        const meta = [m.year, m.watts ? m.watts + "W" : null, m.market].filter(Boolean).join(" · ");
+        const pair = m.pair ? ` <span class="hist-pair">↔ ${escapeHtml(m.pair)}</span>` : "";
+        html += `<span class="hist-model${inDb ? " in-db" : ""}" data-model="${normModel(m.model)}" title="${inDb ? "In your database — click for details" : "Reference only"}"><b>${escapeHtml(m.model)}</b> <span class="hist-meta">${escapeHtml(meta)}</span>${pair}</span>`;
+      });
+      html += `</div>`;
+    });
+  });
+  el.innerHTML = html;
 }
 
 function render() {

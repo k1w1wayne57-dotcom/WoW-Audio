@@ -1,0 +1,2163 @@
+{
+  "source": {
+    "title": "Sansui Product History: Amplifiers 1967-2000 (JimEGR, Audiokarma)",
+    "url": "https://audiokarma.org/forums/threads/sansui-product-history-amplifiers-1967-2000.1008935/",
+    "note": "Community-maintained, peer-reviewed. Not a complete list. A historical reference — many models were never sold outside Japan."
+  },
+  "sections": [
+    {
+      "category": "INTEGRATED",
+      "generation": "First Generation",
+      "groups": [
+        {
+          "topology": null,
+          "models": [
+            {
+              "year": 1967,
+              "model": "AU-777",
+              "watts": 25,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1968,
+              "model": "AU-222",
+              "watts": 18,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1968,
+              "model": "AU-555",
+              "watts": 20,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1969,
+              "model": "AU-777D",
+              "watts": 30,
+              "market": "JDM",
+              "pair": "AU-777A",
+              "note": "JDM version of AU-777A"
+            },
+            {
+              "year": 1969,
+              "model": "AU-777A",
+              "watts": 30,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1970,
+              "model": "AU-555A",
+              "watts": 25,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1970,
+              "model": "AU-666",
+              "watts": 35,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1970,
+              "model": "AU-888",
+              "watts": 45,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1970,
+              "model": "AU-999",
+              "watts": 50,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1971,
+              "model": "AU-101",
+              "watts": 15,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1972,
+              "model": "AU-505",
+              "watts": 12,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1973,
+              "model": "AU-2000",
+              "watts": 13,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM version AU-505"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "INTEGRATED",
+      "generation": "Second Generation",
+      "groups": [
+        {
+          "topology": null,
+          "models": [
+            {
+              "year": 1972,
+              "model": "AU-6500",
+              "watts": 30,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1972,
+              "model": "AU-7500",
+              "watts": 32,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1972,
+              "model": "AU-9500",
+              "watts": 75,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1973,
+              "model": "AU-8500",
+              "watts": 60,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1974,
+              "model": "AU-22",
+              "watts": 13,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1974,
+              "model": "AU-33",
+              "watts": 20,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1974,
+              "model": "AU-2200",
+              "watts": 10,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1974,
+              "model": "AU-4400",
+              "watts": 20,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1974,
+              "model": "AU-5500",
+              "watts": 35,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1974,
+              "model": "AU-6600",
+              "watts": 42,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1974,
+              "model": "AU-7700",
+              "watts": 54,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1974,
+              "model": "AU-7900",
+              "watts": 80,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1975,
+              "model": "AU-3900",
+              "watts": 25,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1975,
+              "model": "AU-4900",
+              "watts": 38,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1975,
+              "model": "AU-5900",
+              "watts": 45,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1975,
+              "model": "AU-6900",
+              "watts": 60,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1976,
+              "model": "AU-2900",
+              "watts": 15,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1975,
+              "model": "AU-1100",
+              "watts": 22,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1975,
+              "model": "AU-3300",
+              "watts": 35,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1975,
+              "model": "AU-1500",
+              "watts": 22,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1975,
+              "model": "AU-3500",
+              "watts": 35,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            }
+          ]
+        },
+        {
+          "topology": "Professional Series",
+          "models": [
+            {
+              "year": 1975,
+              "model": "AU-9900",
+              "watts": 80,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1975,
+              "model": "AU-11000",
+              "watts": 110,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1975,
+              "model": "AU-20000",
+              "watts": 170,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1977,
+              "model": "AU-9900A",
+              "watts": 80,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1977,
+              "model": "AU-11000A",
+              "watts": 110,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1977,
+              "model": "AU-10000",
+              "watts": 110,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "INTEGRATED",
+      "generation": "Third Generation",
+      "groups": [
+        {
+          "topology": null,
+          "models": [
+            {
+              "year": 1977,
+              "model": "AU-207",
+              "watts": 30,
+              "market": "JDM",
+              "pair": "AU-217",
+              "note": "JDM version of AU-217"
+            },
+            {
+              "year": 1977,
+              "model": "AU-307",
+              "watts": 50,
+              "market": "JDM",
+              "pair": "AU-317",
+              "note": "JDM version of AU-317"
+            },
+            {
+              "year": 1977,
+              "model": "AU-507",
+              "watts": 60,
+              "market": "JDM",
+              "pair": "AU-417",
+              "note": "JDM version of AU-417"
+            },
+            {
+              "year": 1976,
+              "model": "AU-607",
+              "watts": 65,
+              "market": "JDM",
+              "pair": "AU-517",
+              "note": "JDM version of AU-517"
+            },
+            {
+              "year": 1976,
+              "model": "AU-707",
+              "watts": 85,
+              "market": "JDM",
+              "pair": "AU-717",
+              "note": "JDM version of AU-717"
+            },
+            {
+              "year": 1977,
+              "model": "AU-117",
+              "watts": 15,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1977,
+              "model": "AU-217",
+              "watts": 30,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1977,
+              "model": "AU-317",
+              "watts": 50,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1977,
+              "model": "AU-417",
+              "watts": 65,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1977,
+              "model": "AU-517",
+              "watts": 65,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1977,
+              "model": "AU-717",
+              "watts": 85,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1977,
+              "model": "AU-710",
+              "watts": 85,
+              "market": null,
+              "pair": null,
+              "note": "AAFES version of AU-717"
+            },
+            {
+              "year": 1978,
+              "model": "AU-D607",
+              "watts": 70,
+              "market": "JDM",
+              "pair": "AU-519",
+              "note": "JDM version of AU-519"
+            },
+            {
+              "year": 1978,
+              "model": "AU-D707",
+              "watts": 90,
+              "market": "JDM",
+              "pair": "AU-819",
+              "note": "JDM version of AU-819"
+            },
+            {
+              "year": 1978,
+              "model": "AU-D907",
+              "watts": 100,
+              "market": "JDM",
+              "pair": "AU-919",
+              "note": "JDM version of AU-919"
+            },
+            {
+              "year": 1978,
+              "model": "AU-D907 Limited",
+              "watts": 100,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1978,
+              "model": "AU-919",
+              "watts": 100,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1979,
+              "model": "AU-107ii",
+              "watts": 25,
+              "market": "JDM",
+              "pair": "AU-117ii",
+              "note": "JDM version of AU-117ii"
+            },
+            {
+              "year": 1979,
+              "model": "AU-207ii",
+              "watts": 40,
+              "market": "JDM",
+              "pair": "AU-217ii",
+              "note": "JDM version of AU-217ii"
+            },
+            {
+              "year": 1979,
+              "model": "AU-307ii",
+              "watts": 60,
+              "market": "JDM",
+              "pair": "AU-317ii",
+              "note": "JDM version of AU-317ii"
+            },
+            {
+              "year": 1979,
+              "model": "AU-117ii",
+              "watts": 25,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1979,
+              "model": "AU-217ii",
+              "watts": 40,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1979,
+              "model": "AU-317ii",
+              "watts": 60,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1979,
+              "model": "AU-417",
+              "watts": 65,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1979,
+              "model": "AU-519",
+              "watts": 70,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1979,
+              "model": "AU-719",
+              "watts": 90,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1979,
+              "model": "AU-819",
+              "watts": 90,
+              "market": null,
+              "pair": null,
+              "note": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "INTEGRATED",
+      "generation": "Fourth Generation",
+      "groups": [
+        {
+          "topology": "Direct Coupled - Diamond Differential",
+          "models": [
+            {
+              "year": 1978,
+              "model": "AU-X1",
+              "watts": 160,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM; and international"
+            }
+          ]
+        },
+        {
+          "topology": "Direct Coupled - Diamond Differential - Super FeedForward",
+          "models": [
+            {
+              "year": 1980,
+              "model": "AU-D607F",
+              "watts": 75,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1980,
+              "model": "AU-D707F",
+              "watts": 95,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1980,
+              "model": "AU-D907F",
+              "watts": 130,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            }
+          ]
+        },
+        {
+          "topology": "Direct Coupled",
+          "models": [
+            {
+              "year": 1982,
+              "model": "AU-D5",
+              "watts": 65,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1982,
+              "model": "AU-D7",
+              "watts": 80,
+              "market": null,
+              "pair": null,
+              "note": null
+            }
+          ]
+        },
+        {
+          "topology": "Direct Coupled - Diamond Differential - Super FeedForward",
+          "models": [
+            {
+              "year": 1980,
+              "model": "AU-D9",
+              "watts": 95,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1980,
+              "model": "AU-D11",
+              "watts": 120,
+              "market": null,
+              "pair": null,
+              "note": null
+            }
+          ]
+        },
+        {
+          "topology": "Direct Coupled",
+          "models": [
+            {
+              "year": 1980,
+              "model": "A-40",
+              "watts": 25,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1980,
+              "model": "A-60",
+              "watts": 45,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1980,
+              "model": "A-80",
+              "watts": 65,
+              "market": null,
+              "pair": null,
+              "note": null
+            }
+          ]
+        },
+        {
+          "topology": "Direct Coupled - Diamond Differential - Super FeedForward (Extra = copper chassis, non-magnetic)",
+          "models": [
+            {
+              "year": 1981,
+              "model": "AU-D607F Extra",
+              "watts": 80,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1981,
+              "model": "AU-D707F Extra",
+              "watts": 100,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1981,
+              "model": "AU-D907F Extra",
+              "watts": 130,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            }
+          ]
+        },
+        {
+          "topology": "Direct Coupled - Diamond Differential - Super FeedForward",
+          "models": [
+            {
+              "year": 1981,
+              "model": "AU-X11",
+              "watts": 160,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM; and international"
+            }
+          ]
+        },
+        {
+          "topology": "Direct Coupled - Super FeedForward",
+          "models": [
+            {
+              "year": 1981,
+              "model": "AU-D55F",
+              "watts": 50,
+              "market": "JDM",
+              "pair": "AU-D33",
+              "note": "JDM version of AU-D33"
+            }
+          ]
+        },
+        {
+          "topology": "Direct Coupled",
+          "models": [
+            {
+              "year": 1982,
+              "model": "A-5",
+              "watts": 25,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1982,
+              "model": "A-7",
+              "watts": 45,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1982,
+              "model": "A-9",
+              "watts": 65,
+              "market": null,
+              "pair": null,
+              "note": null
+            }
+          ]
+        },
+        {
+          "topology": "Direct Coupled (A-series)",
+          "models": [
+            {
+              "year": 1982,
+              "model": "A-500",
+              "watts": 30,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1982,
+              "model": "A-501",
+              "watts": 30,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1982,
+              "model": "A-Classique501",
+              "watts": 30,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1982,
+              "model": "A-505",
+              "watts": 30,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1982,
+              "model": "A-510",
+              "watts": 30,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1982,
+              "model": "A-700",
+              "watts": 55,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1982,
+              "model": "A-707",
+              "watts": 50,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1982,
+              "model": "A-900",
+              "watts": 70,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1982,
+              "model": "A-909",
+              "watts": 70,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1982,
+              "model": "A-930P",
+              "watts": 70,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1982,
+              "model": "A-1000",
+              "watts": 100,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1982,
+              "model": "A-1001",
+              "watts": 100,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1982,
+              "model": "A-1010",
+              "watts": 100,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1982,
+              "model": "A-1100",
+              "watts": 100,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1982,
+              "model": "A-1100P",
+              "watts": 100,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1982,
+              "model": "A-1100R",
+              "watts": 100,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1982,
+              "model": "A-1110",
+              "watts": 100,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1982,
+              "model": "A-1130",
+              "watts": 100,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1982,
+              "model": "A-1130P",
+              "watts": 100,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1982,
+              "model": "A-1200",
+              "watts": 125,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1982,
+              "model": "A-1200P",
+              "watts": 125,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1982,
+              "model": "A-1200R",
+              "watts": 125,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1982,
+              "model": "A-1230",
+              "watts": 125,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1982,
+              "model": "A-1230P",
+              "watts": 125,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1982,
+              "model": "A-1500R",
+              "watts": 160,
+              "market": null,
+              "pair": null,
+              "note": null
+            }
+          ]
+        },
+        {
+          "topology": "Direct Coupled (M-series)",
+          "models": [
+            {
+              "year": 1983,
+              "model": "AU-M7",
+              "watts": 25,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1983,
+              "model": "AU-M70",
+              "watts": 25,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1983,
+              "model": "AU-M77",
+              "watts": 25,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1983,
+              "model": "A-M800",
+              "watts": 25,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1983,
+              "model": "A-M9",
+              "watts": 70,
+              "market": null,
+              "pair": null,
+              "note": null
+            }
+          ]
+        },
+        {
+          "topology": "Direct Coupled - Super FeedForward (Wikipedia-noted group)",
+          "models": [
+            {
+              "year": 1983,
+              "model": "AU-D101",
+              "watts": 30,
+              "market": null,
+              "pair": null,
+              "note": "UK/EUR 220/240V"
+            },
+            {
+              "year": 1983,
+              "model": "AU-D22",
+              "watts": 35,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1983,
+              "model": "AU-D33",
+              "watts": 50,
+              "market": null,
+              "pair": null,
+              "note": null
+            }
+          ]
+        },
+        {
+          "topology": "Direct Coupled - Super FeedForward",
+          "models": [
+            {
+              "year": 1983,
+              "model": "AU-D55X",
+              "watts": 70,
+              "market": null,
+              "pair": null,
+              "note": null
+            }
+          ]
+        },
+        {
+          "topology": "Direct Coupled - Super Ground Free",
+          "models": [
+            {
+              "year": 1983,
+              "model": "AU-D77X",
+              "watts": 110,
+              "market": null,
+              "pair": null,
+              "note": null
+            }
+          ]
+        },
+        {
+          "topology": "Direct Coupled - Diamond Differential - Super FeedForward - Ground Free",
+          "models": [
+            {
+              "year": 1983,
+              "model": "AU-D11ii",
+              "watts": 130,
+              "market": null,
+              "pair": null,
+              "note": "special version of the AU-D707X"
+            }
+          ]
+        },
+        {
+          "topology": "Direct Coupled - Diamond Differential - Super FeedForward - Ground Free (Extra = copper chassis)",
+          "models": [
+            {
+              "year": 1983,
+              "model": "AU-D607G Extra",
+              "watts": 90,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1983,
+              "model": "AU-D707G Extra",
+              "watts": 110,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1983,
+              "model": "AU-D907G Extra",
+              "watts": 130,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            }
+          ]
+        },
+        {
+          "topology": "Direct Coupled - Diamond Differential - Ground Free - X Balanced",
+          "models": [
+            {
+              "year": 1984,
+              "model": "AU-D607X",
+              "watts": 90,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1984,
+              "model": "AU-D707X",
+              "watts": 130,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1984,
+              "model": "AU-D907X",
+              "watts": 160,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            }
+          ]
+        },
+        {
+          "topology": "Direct Coupled - Ground Free - X Balanced (G-series)",
+          "models": [
+            {
+              "year": 1984,
+              "model": "AU-G11X",
+              "watts": 25,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1984,
+              "model": "AU-G33X",
+              "watts": 45,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1984,
+              "model": "AU-G55X",
+              "watts": 65,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1984,
+              "model": "AU-G77X",
+              "watts": 110,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1984,
+              "model": "AU-G99X",
+              "watts": 160,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1984,
+              "model": "AU-G30X",
+              "watts": 45,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1984,
+              "model": "AU-G50X",
+              "watts": 45,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1984,
+              "model": "AU-G90X",
+              "watts": 130,
+              "market": null,
+              "pair": null,
+              "note": null
+            }
+          ]
+        },
+        {
+          "topology": "Direct Coupled - Twin Diamond X Balanced (Decade)",
+          "models": [
+            {
+              "year": 1984,
+              "model": "AU-D607X Decade",
+              "watts": 90,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1984,
+              "model": "AU-D707X Decade",
+              "watts": 130,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1984,
+              "model": "AU-D907X Decade",
+              "watts": 160,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1984,
+              "model": "AU-D707XCD Decade",
+              "watts": 130,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            }
+          ]
+        },
+        {
+          "topology": "Uncompromising selection / hearing-test tuned",
+          "models": [
+            {
+              "year": 1985,
+              "model": "AU-X111MOS Vintage",
+              "watts": 110,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            }
+          ]
+        },
+        {
+          "topology": "Direct Coupled",
+          "models": [
+            {
+              "year": 1985,
+              "model": "A-500",
+              "watts": 30,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1985,
+              "model": "A-710",
+              "watts": 55,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1985,
+              "model": "A-730",
+              "watts": 55,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1985,
+              "model": "A-770",
+              "watts": 55,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1985,
+              "model": "A-M90",
+              "watts": 70,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1985,
+              "model": "A-M900",
+              "watts": 70,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1985,
+              "model": "A-M99",
+              "watts": 70,
+              "market": null,
+              "pair": null,
+              "note": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "INTEGRATED",
+      "generation": "Alpha Series",
+      "groups": [
+        {
+          "topology": "Direct Coupled - Alpha",
+          "models": [
+            {
+              "year": 1986,
+              "model": "AU-a307",
+              "watts": 65,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1986,
+              "model": "AU-a507",
+              "watts": 80,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            }
+          ]
+        },
+        {
+          "topology": "Direct Coupled - Alpha X Balanced",
+          "models": [
+            {
+              "year": 1986,
+              "model": "AU-a607",
+              "watts": 90,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1986,
+              "model": "AU-a707",
+              "watts": 130,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1986,
+              "model": "AU-a907",
+              "watts": 180,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            }
+          ]
+        },
+        {
+          "topology": "Direct Coupled - Alpha",
+          "models": [
+            {
+              "year": 1987,
+              "model": "AU-a307i",
+              "watts": 65,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1987,
+              "model": "AU-a507i",
+              "watts": 80,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            }
+          ]
+        },
+        {
+          "topology": "Direct Coupled - Alpha - Custom Capacitors",
+          "models": [
+            {
+              "year": 1987,
+              "model": "AU-a607i",
+              "watts": 90,
+              "market": "JDM",
+              "pair": "AU-X701",
+              "note": "JDM version of AU-X701"
+            },
+            {
+              "year": 1987,
+              "model": "AU-a707i",
+              "watts": 130,
+              "market": "JDM",
+              "pair": "AU-X901",
+              "note": "JDM version of AU-X901"
+            },
+            {
+              "year": 1987,
+              "model": "AU-a907i",
+              "watts": 160,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1987,
+              "model": "AU-a907i MOS Limited",
+              "watts": 80,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            }
+          ]
+        },
+        {
+          "topology": "Direct Coupled - Alpha X Balanced - Ground Free (international X-series)",
+          "models": [
+            {
+              "year": 1987,
+              "model": "AU-X201",
+              "watts": 30,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1987,
+              "model": "AU-X301",
+              "watts": 65,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1987,
+              "model": "AU-X501",
+              "watts": 80,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1987,
+              "model": "AU-X701",
+              "watts": 90,
+              "market": "International",
+              "pair": "AU-a607i",
+              "note": "int version of JDM AU-a607i"
+            },
+            {
+              "year": 1987,
+              "model": "AU-X901",
+              "watts": 130,
+              "market": "International",
+              "pair": "AU-a707i",
+              "note": "int version of JDM AU-a707i"
+            },
+            {
+              "year": 1987,
+              "model": "AU-X711",
+              "watts": 100,
+              "market": null,
+              "pair": null,
+              "note": null
+            }
+          ]
+        },
+        {
+          "topology": "Uncompromising selection / hearing-test tuned",
+          "models": [
+            {
+              "year": 1988,
+              "model": "AU-X1111MOS Vintage",
+              "watts": 110,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM; and international"
+            }
+          ]
+        },
+        {
+          "topology": "Direct Coupled - Alpha - Ground Free",
+          "models": [
+            {
+              "year": 1988,
+              "model": "AU-a307",
+              "watts": 65,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1988,
+              "model": "AU-a507 Extra",
+              "watts": 80,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1988,
+              "model": "AU-a607 Extra",
+              "watts": 90,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1988,
+              "model": "AU-a707 Extra",
+              "watts": 130,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1988,
+              "model": "AU-a907 Extra",
+              "watts": null,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM; prototype, not mass produced"
+            },
+            {
+              "year": 1989,
+              "model": "AU-X111",
+              "watts": 30,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1989,
+              "model": "AU-X911DG",
+              "watts": 100,
+              "market": null,
+              "pair": null,
+              "note": null
+            }
+          ]
+        },
+        {
+          "topology": "L Extra (first nonmagnetic transistors)",
+          "models": [
+            {
+              "year": 1989,
+              "model": "AU-a607L Extra",
+              "watts": 90,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1989,
+              "model": "AU-a707L Extra",
+              "watts": 130,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1989,
+              "model": "AU-a901L Extra",
+              "watts": 160,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1989,
+              "model": "AU-a555VS",
+              "watts": 80,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1989,
+              "model": "AU-a777DG",
+              "watts": 90,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1989,
+              "model": "AU-a999DG",
+              "watts": 95,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            }
+          ]
+        },
+        {
+          "topology": "DR and later (upgraded circuitry)",
+          "models": [
+            {
+              "year": 1991,
+              "model": "AU-a607DR",
+              "watts": 90,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1991,
+              "model": "AU-a707DR",
+              "watts": 130,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1990,
+              "model": "AU-a907DR",
+              "watts": 160,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1991,
+              "model": "AU-a607 MOS Premium",
+              "watts": 45,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1992,
+              "model": "A-X750",
+              "watts": 40,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1992,
+              "model": "AU-a507R",
+              "watts": 65,
+              "market": null,
+              "pair": null,
+              "note": null
+            }
+          ]
+        },
+        {
+          "topology": "Alpha - X Balanced (KX)",
+          "models": [
+            {
+              "year": 1992,
+              "model": "AU-a607KX",
+              "watts": 90,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1992,
+              "model": "AU-a707KX",
+              "watts": 130,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1992,
+              "model": "AU-a907KX",
+              "watts": 160,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            }
+          ]
+        },
+        {
+          "topology": "Hyper Alpha - X Balanced (XR)",
+          "models": [
+            {
+              "year": 1993,
+              "model": "AU-a507XR",
+              "watts": 70,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1993,
+              "model": "AU-a607XR",
+              "watts": 90,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1993,
+              "model": "AU-a707XR",
+              "watts": 130,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1993,
+              "model": "AU-a907XR",
+              "watts": 160,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            }
+          ]
+        },
+        {
+          "topology": "Alpha (K / misc)",
+          "models": [
+            {
+              "year": 1994,
+              "model": "AU-a117K",
+              "watts": 30,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1994,
+              "model": "AU-a317K",
+              "watts": 55,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1994,
+              "model": "AU-a505XR",
+              "watts": 60,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1994,
+              "model": "AU-a907 Limited",
+              "watts": 80,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1994,
+              "model": "A-a7",
+              "watts": 50,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1994,
+              "model": "A-a9",
+              "watts": 50,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            }
+          ]
+        },
+        {
+          "topology": "New Hyper Alpha - X Balanced (MR)",
+          "models": [
+            {
+              "year": 1995,
+              "model": "AU-a607MR",
+              "watts": 90,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1995,
+              "model": "AU-a707MR",
+              "watts": 130,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1995,
+              "model": "AU-a907MR",
+              "watts": 160,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1995,
+              "model": "AU-X517R",
+              "watts": 65,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1995,
+              "model": "AU-X619R",
+              "watts": 65,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1996,
+              "model": "AU-07 Anniversary",
+              "watts": 90,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1996,
+              "model": "A-E350",
+              "watts": 25,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1996,
+              "model": "A-E550",
+              "watts": 55,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1996,
+              "model": "A-E750",
+              "watts": 90,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1996,
+              "model": "A-E770",
+              "watts": 75,
+              "market": null,
+              "pair": null,
+              "note": null
+            }
+          ]
+        },
+        {
+          "topology": "MRX (international 230V variants of MR)",
+          "models": [
+            {
+              "year": 1996,
+              "model": "AU-a607MRX",
+              "watts": 90,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1997,
+              "model": "AU-a907MRX",
+              "watts": 160,
+              "market": null,
+              "pair": null,
+              "note": null
+            }
+          ]
+        },
+        {
+          "topology": "Alpha - later small integrateds",
+          "models": [
+            {
+              "year": 1997,
+              "model": "A-a77",
+              "watts": 50,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1997,
+              "model": "A-a99",
+              "watts": 50,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1997,
+              "model": "AU-a205",
+              "watts": 30,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1997,
+              "model": "AU-a305R",
+              "watts": 55,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1997,
+              "model": "AU-a305RX",
+              "watts": 65,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1997,
+              "model": "AU-a505RX",
+              "watts": 80,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            }
+          ]
+        },
+        {
+          "topology": "Ultimate Alpha - X Balanced (NRA)",
+          "models": [
+            {
+              "year": 1998,
+              "model": "AU-a507NRA",
+              "watts": 60,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1998,
+              "model": "AU-a607NRA",
+              "watts": 80,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1998,
+              "model": "AU-a707NRA",
+              "watts": 130,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1998,
+              "model": "AU-a907NRA",
+              "watts": 160,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1999,
+              "model": "AU-405",
+              "watts": 60,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1999,
+              "model": "AU-a607 NRA ii",
+              "watts": 80,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1999,
+              "model": "AU-a607 MOS Limited",
+              "watts": 50,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM; last solid-state Sansui"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "SEPARATES (not a complete list)",
+      "generation": null,
+      "groups": [
+        {
+          "topology": "Pre Amplifiers",
+          "models": [
+            {
+              "year": 1968,
+              "model": "TC-505",
+              "watts": null,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1970,
+              "model": "CA-606",
+              "watts": null,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            }
+          ]
+        },
+        {
+          "topology": "Power Amplifiers",
+          "models": [
+            {
+              "year": 1968,
+              "model": "BA-60",
+              "watts": 20,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1968,
+              "model": "BA-90",
+              "watts": 28,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1971,
+              "model": "BA-100",
+              "watts": 30,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            },
+            {
+              "year": 1970,
+              "model": "BA-150",
+              "watts": 45,
+              "market": "JDM",
+              "pair": null,
+              "note": "JDM"
+            }
+          ]
+        },
+        {
+          "topology": "Pre Amplifiers - Definition / Professional Series",
+          "models": [
+            {
+              "year": 1975,
+              "model": "CA-3000",
+              "watts": null,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1976,
+              "model": "CA-2000",
+              "watts": null,
+              "market": null,
+              "pair": null,
+              "note": null
+            }
+          ]
+        },
+        {
+          "topology": "Power Amplifiers - Definition / Professional Series",
+          "models": [
+            {
+              "year": 1975,
+              "model": "BA-3000",
+              "watts": 170,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1975,
+              "model": "BA-5000",
+              "watts": 300,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1976,
+              "model": "BA-2000",
+              "watts": 110,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1975,
+              "model": "BA-1000",
+              "watts": 45,
+              "market": null,
+              "pair": null,
+              "note": "VFET amplifier"
+            }
+          ]
+        },
+        {
+          "topology": "F-1 flagship separates",
+          "models": [
+            {
+              "year": 1979,
+              "model": "CA-F1",
+              "watts": null,
+              "market": null,
+              "pair": null,
+              "note": null
+            },
+            {
+              "year": 1979,
+              "model": "BA-F1",
+              "watts": 110,
+              "market": null,
+              "pair": null,
+              "note": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
