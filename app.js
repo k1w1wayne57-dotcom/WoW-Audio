@@ -304,6 +304,38 @@ function renderHistory() {
       html += `</div>`;
     });
   });
+
+  // Everything in the database that the Audiokarma list doesn't cover — it's an
+  // amplifier history, so receivers/tuners/decks live here. Built from the DB at
+  // render time, so it stays in sync as models are added.
+  const listed = new Set();
+  HISTORY.sections.forEach(s => s.groups.forEach(g =>
+    g.models.forEach(m => listed.add(normModel(m.model)))));
+  const extra = DB.filter(d => d.brand === "Sansui" && !listed.has(normModel(d.jdm_model)));
+  if (extra.length) {
+    html += `<h2 class="hist-cat">Also in your database</h2>`;
+    html += `<p class="hist-note">${extra.length} models the amplifier list doesn't cover — receivers, tuners, decks and later variants. All clickable.</p>`;
+    const decade = (y) => (typeof y === "number" && y ? Math.floor(y / 10) * 10 : null);
+    const decades = [...new Set(extra.map(d => decade(d.year_start)))]
+      .sort((a, b) => (a === null) - (b === null) || a - b);
+    decades.forEach(dec => {
+      const inDec = extra.filter(d => decade(d.year_start) === dec);
+      html += `<h3 class="hist-gen">${dec ? dec + "s" : "Year unknown"}</h3>`;
+      const types = [...new Set(inDec.map(d => d.type || "Other"))].sort();
+      types.forEach(t => {
+        const rows = inDec.filter(d => (d.type || "Other") === t)
+          .sort((a, b) => (a.year_start || 9999) - (b.year_start || 9999));
+        html += `<h4 class="hist-topo">${escapeHtml(t)}</h4><div class="hist-models">`;
+        rows.forEach(d => {
+          const meta = [d.year_start, d.watts_per_channel ? d.watts_per_channel + "W" : null,
+                        d.market].filter(Boolean).join(" · ");
+          const pair = d.int_model ? ` <span class="hist-pair">↔ ${escapeHtml(d.int_model)}</span>` : "";
+          html += `<span class="hist-model in-db" data-model="${normModel(d.jdm_model)}" title="In your database — click for details"><b>${escapeHtml(d.jdm_model)}</b> <span class="hist-meta">${escapeHtml(meta)}</span>${pair}</span>`;
+        });
+        html += `</div>`;
+      });
+    });
+  }
   el.innerHTML = html;
 }
 

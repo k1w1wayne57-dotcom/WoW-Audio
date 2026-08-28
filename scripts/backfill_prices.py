@@ -64,17 +64,28 @@ def price_one(brand, model, months):
     return scrape.summarize_usd(listings, months)
 
 
-def run(brands, months, limit):
+def in_years(rec, years):
+    """years = (lo, hi) on year_start, or None for all."""
+    if not years:
+        return True
+    y = rec.get("year_start")
+    return isinstance(y, int) and years[0] <= y <= years[1]
+
+
+def run(brands, months, limit, refresh=False, years=None):
     review = ["\t".join(["brand", "model", "median_usd", "n", "confidence",
                          "range", "status"])]
     done = attempted = 0
     for brand in brands:
         data, meta = load_db(brand)
-        gaps = [r for r in data if r.get("avg_price_usd_3mo") in EMPTY
+        gaps = [r for r in data
+                if (refresh or r.get("avg_price_usd_3mo") in EMPTY)
+                and in_years(r, years)
                 and (r.get("jdm_model") or r.get("model"))]
         if limit:
             gaps = gaps[:limit]
-        print(f"{brand}: {len(gaps)} records missing a price", flush=True)
+        what = "records to (re)price" if refresh else "records missing a price"
+        print(f"{brand}: {len(gaps)} {what}", flush=True)
         for i, rec in enumerate(gaps, 1):
             model = str(rec.get("jdm_model") or rec.get("model")).strip()
             attempted += 1
@@ -87,12 +98,15 @@ def run(brands, months, limit):
                 time.sleep(0.5)
                 continue
             conf = "Medium" if s["count"] >= 5 else "Low"
+            prev = rec.get("avg_price_usd_3mo")
             rec["avg_price_usd_3mo"] = s["median"]
             rec["price_basis"] = f"hifishark {months}mo median (FX->USD) {TODAY}"
             rec["price_confidence"] = conf
             rec["last_price_check"] = TODAY
             rec["auto_price"] = {"source": "hifishark.com", "date": TODAY,
                                  "n": s["count"], "median_usd": s["median"]}
+            if prev not in EMPTY and prev != s["median"]:
+                rec["auto_price"]["previous_usd"] = prev   # keep the old figure visible
             save_db(data, meta)   # save after every write -> resumable
             done += 1
             print(f"${s['median']:,} (n={s['count']}, {conf})", flush=True)
@@ -110,8 +124,17 @@ def main():
     ap.add_argument("--brand", choices=BRANDS)
     ap.add_argument("--months", type=int, default=6)
     ap.add_argument("--limit", type=int, default=0)
+    ap.add_argument("--refresh", action="store_true",
+                    help="also re-price records that already have a price")
+    ap.add_argument("--years", metavar="LO-HI",
+                    help="only records with year_start in this range, e.g. 1970-1979")
     args = ap.parse_args()
-    run([args.brand] if args.brand else BRANDS, args.months, args.limit)
+    years = None
+    if args.years:
+        lo, hi = args.years.split("-")
+        years = (int(lo), int(hi))
+    run([args.brand] if args.brand else BRANDS, args.months, args.limit,
+        refresh=args.refresh, years=years)
 
 
 if __name__ == "__main__":
