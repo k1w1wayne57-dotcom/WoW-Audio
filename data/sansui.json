@@ -258,8 +258,8 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 114,
-    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
+    "avg_price_usd_3mo": 366,
+    "price_basis": "hifishark US 12mo listing median (AUD->USD), n=5, 2026-08",
     "year_source": "serial-report",
     "price_thb_listings": [],
     "usd_msrp": 120,
@@ -267,10 +267,13 @@
     "sonic_signature": "Classic-era Sansui: warm, organic midrange with smooth clarity - often described as 'tube-like', with a lush, engaging presentation and a smooth top end. (Family-level: late-60s/early-70s AU line.)",
     "thb_status": null,
     "auto_price": {
-      "source": "hifishark.com",
+      "source": "hifishark.com (US region, 12mo export)",
       "date": "2026-08",
-      "n": 8,
-      "median_usd": 114
+      "n": 5,
+      "median_usd": 366,
+      "low": 330,
+      "high": 459,
+      "previous_usd": 114
     }
   },
   {
@@ -293,7 +296,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Unranked",
-    "price_confidence": "Medium",
+    "price_confidence": "Low",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -330,8 +333,8 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 539,
-    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
+    "avg_price_usd_3mo": 550,
+    "price_basis": "hifishark US 12mo listing median (AUD->USD), n=3, 2026-08",
     "year_source": "serial-report",
     "price_thb_listings": [],
     "usd_msrp": 160,
@@ -339,10 +342,13 @@
     "sonic_signature": "Classic-era Sansui: warm, organic midrange with smooth clarity - often described as 'tube-like', with a lush, engaging presentation and a smooth top end. (Family-level: late-60s/early-70s AU line.)",
     "thb_status": null,
     "auto_price": {
-      "source": "hifishark.com",
+      "source": "hifishark.com (US region, 12mo export)",
       "date": "2026-08",
-      "n": 11,
-      "median_usd": 539
+      "n": 3,
+      "median_usd": 550,
+      "low": 412,
+      "high": 596,
+      "previous_usd": 539
     }
   },
   {
@@ -365,8 +371,8 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 10-20",
-    "price_confidence": "Low",
-    "last_price_check": "2026-06",
+    "price_confidence": "Medium",
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -402,8 +408,8 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 1500,
-    "price_basis": null,
+    "avg_price_usd_3mo": 734,
+    "price_basis": "hifishark US 12mo listing median (AUD->USD), n=6, 2026-08",
     "year_source": "serial-report",
     "price_thb_listings": [
       15000
@@ -411,7 +417,16 @@
     "usd_msrp": 300,
     "market": null,
     "sonic_signature": "Classic-era Sansui: warm, organic midrange with smooth clarity - often described as 'tube-like', with a lush, engaging presentation and a smooth top end. (Family-level: late-60s/early-70s AU line.)",
-    "thb_status": "Sold"
+    "thb_status": "Sold",
+    "auto_price": {
+      "source": "hifishark.com (US region, 12mo export)",
+      "date": "2026-08",
+      "n": 6,
+      "median_usd": 734,
+      "low": 595,
+      "high": 917,
+      "previous_usd": 1500
+    }
   },
   {
     "id": "sansui-au-555a-1971",
@@ -470,8 +485,8 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 621,
-    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
+    "avg_price_usd_3mo": 348,
+    "price_basis": "hifishark US 12mo listing median (AUD->USD), n=7, 2026-08",
     "year_source": "serial-report",
     "price_thb_listings": [],
     "usd_msrp": 170,
@@ -479,10 +494,13 @@
     "sonic_signature": "Classic-era Sansui: warm, organic midrange with smooth clarity - often described as 'tube-like', with a lush, engaging presentation and a smooth top end. (Family-level: late-60s/early-70s AU line.)",
     "thb_status": null,
     "auto_price": {
-      "source": "hifishark.com",
+      "source": "hifishark.com (US region, 12mo export)",
       "date": "2026-08",
-      "n": 8,
-      "median_usd": 621
+      "n": 7,
+      "median_usd": 348,
+      "low": 252,
+      "high": 688,
+      "previous_usd": 621
     }
   },
   {
@@ -505,7 +523,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 10-20",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -542,8 +560,8 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 900,
-    "price_basis": null,
+    "avg_price_usd_3mo": 1008,
+    "price_basis": "hifishark US 12mo listing median (AUD->USD), n=5, 2026-08",
     "year_source": "serial-report",
     "price_thb_listings": [
       8900
@@ -551,7 +569,16 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Classic-era Sansui: warm, organic midrange with smooth clarity - often described as 'tube-like', with a lush, engaging presentation and a smooth top end. (Family-level: late-60s/early-70s AU line.)",
-    "thb_status": "For sale"
+    "thb_status": "For sale",
+    "auto_price": {
+      "source": "hifishark.com (US region, 12mo export)",
+      "date": "2026-08",
+      "n": 5,
+      "median_usd": 1008,
+      "low": 614,
+      "high": 2064,
+      "previous_usd": 900
+    }
   },
   {
     "id": "sansui-dca-1001-1972",
@@ -710,7 +737,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 40-50",
-    "price_confidence": "Medium",
+    "price_confidence": "Low",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -747,8 +774,8 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 270,
-    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
+    "avg_price_usd_3mo": 320,
+    "price_basis": "hifishark US 12mo listing median (AUD->USD), n=3, 2026-08",
     "year_source": "serial-report",
     "price_thb_listings": [],
     "usd_msrp": null,
@@ -756,10 +783,13 @@
     "sonic_signature": "Classic-era Sansui: warm, organic midrange with smooth clarity - often described as 'tube-like', with a lush, engaging presentation and a smooth top end. (Family-level: late-60s/early-70s AU line.)",
     "thb_status": null,
     "auto_price": {
-      "source": "hifishark.com",
+      "source": "hifishark.com (US region, 12mo export)",
       "date": "2026-08",
-      "n": 12,
-      "median_usd": 270
+      "n": 3,
+      "median_usd": 320,
+      "low": 274,
+      "high": 641,
+      "previous_usd": 270
     }
   },
   {
@@ -994,7 +1024,7 @@
     "cons": null,
     "collector_ranking": "Top 40-50",
     "price_confidence": "Low",
-    "last_price_check": "2026-06",
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -1030,14 +1060,23 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 350,
-    "price_basis": null,
+    "avg_price_usd_3mo": 457,
+    "price_basis": "hifishark US 12mo listing median (AUD->USD), n=4, 2026-08",
     "year_source": "serial-report",
     "price_thb_listings": [],
     "usd_msrp": 360,
     "market": null,
     "sonic_signature": "Silver-era Sansui: the warm, musical house sound of Sansui's peak years - full-bodied and rich with a smooth top end and an engaging, non-fatiguing presentation. (Family-level: mid/late-70s silver-face line.)",
-    "thb_status": null
+    "thb_status": null,
+    "auto_price": {
+      "source": "hifishark.com (US region, 12mo export)",
+      "date": "2026-08",
+      "n": 4,
+      "median_usd": 457,
+      "low": 457,
+      "high": 457,
+      "previous_usd": 350
+    }
   },
   {
     "id": "sansui-au-7500-1974",
@@ -1192,7 +1231,7 @@
     "cons": null,
     "collector_ranking": "Top 10-20",
     "price_confidence": "Low",
-    "last_price_check": "2026-06",
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -1228,14 +1267,23 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 1100,
-    "price_basis": null,
+    "avg_price_usd_3mo": 1330,
+    "price_basis": "hifishark US 12mo listing median (AUD->USD), n=3, 2026-08",
     "year_source": "serial-report",
     "price_thb_listings": [],
     "usd_msrp": 600,
     "market": null,
     "sonic_signature": "Silver-era Sansui: the warm, musical house sound of Sansui's peak years - full-bodied and rich with a smooth top end and an engaging, non-fatiguing presentation. (Family-level: mid/late-70s silver-face line.)",
-    "thb_status": null
+    "thb_status": null,
+    "auto_price": {
+      "source": "hifishark.com (US region, 12mo export)",
+      "date": "2026-08",
+      "n": 3,
+      "median_usd": 1330,
+      "low": 1096,
+      "high": 1467,
+      "previous_usd": 1100
+    }
   },
   {
     "id": "sansui-5900z-1975",
@@ -1535,8 +1583,8 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 10",
-    "price_confidence": "Low",
-    "last_price_check": "2026-06",
+    "price_confidence": "Medium",
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
       "collector_notes": "Among the most respected AU-Series integrated amplifiers."
@@ -1572,14 +1620,23 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 3200,
-    "price_basis": null,
+    "avg_price_usd_3mo": 7337,
+    "price_basis": "hifishark US 12mo listing median (AUD->USD), n=5, 2026-08",
     "year_source": "serial-report",
     "price_thb_listings": [],
     "usd_msrp": 1000,
     "market": null,
     "sonic_signature": "Silver-era Sansui: the warm, musical house sound of Sansui's peak years - full-bodied and rich with a smooth top end and an engaging, non-fatiguing presentation. (Family-level: mid/late-70s silver-face line.)",
-    "thb_status": null
+    "thb_status": null,
+    "auto_price": {
+      "source": "hifishark.com (US region, 12mo export)",
+      "date": "2026-08",
+      "n": 5,
+      "median_usd": 7337,
+      "low": 5503,
+      "high": 8163,
+      "previous_usd": 3200
+    }
   },
   {
     "id": "sansui-au-4400-1976",
@@ -1673,8 +1730,8 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 30-40",
-    "price_confidence": "Low",
-    "last_price_check": "2026-06",
+    "price_confidence": "Medium",
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -1710,14 +1767,23 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 550,
-    "price_basis": null,
+    "avg_price_usd_3mo": 848,
+    "price_basis": "hifishark US 12mo listing median (AUD->USD), n=6, 2026-08",
     "year_source": "serial-report",
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Silver-era Sansui: the warm, musical house sound of Sansui's peak years - full-bodied and rich with a smooth top end and an engaging, non-fatiguing presentation. (Family-level: mid/late-70s silver-face line.)",
-    "thb_status": null
+    "thb_status": null,
+    "auto_price": {
+      "source": "hifishark.com (US region, 12mo export)",
+      "date": "2026-08",
+      "n": 6,
+      "median_usd": 848,
+      "low": 574,
+      "high": 1371,
+      "previous_usd": 550
+    }
   },
   {
     "id": "sansui-au-2900-1974",
@@ -1950,7 +2016,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 30-40",
-    "price_confidence": "Medium",
+    "price_confidence": "Low",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -1987,8 +2053,8 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 324,
-    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
+    "avg_price_usd_3mo": 366,
+    "price_basis": "hifishark US 12mo listing median (AUD->USD), n=4, 2026-08",
     "year_source": "serial-report",
     "price_thb_listings": [],
     "sonic_signature": "17-series family character: the warm, musical Sansui house voice in a lighter, lower-powered package - forgiving and easy to listen to rather than analytical. (Family-level description; no model-specific reviews found.)",
@@ -1996,10 +2062,13 @@
     "market": "International",
     "thb_status": null,
     "auto_price": {
-      "source": "hifishark.com",
+      "source": "hifishark.com (US region, 12mo export)",
       "date": "2026-08",
-      "n": 14,
-      "median_usd": 324
+      "n": 4,
+      "median_usd": 366,
+      "low": 265,
+      "high": 527,
+      "previous_usd": 324
     }
   },
   {
@@ -2229,8 +2298,8 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 10",
-    "price_confidence": "Low",
-    "last_price_check": "2026-06",
+    "price_confidence": "Medium",
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -2266,14 +2335,23 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 1000,
-    "price_basis": null,
+    "avg_price_usd_3mo": 916,
+    "price_basis": "hifishark US 12mo listing median (AUD->USD), n=14, 2026-08",
     "year_source": "serial-report",
     "price_thb_listings": [],
     "sonic_signature": "The definitive 'classic Sansui sound': warm, full and balanced - but warm never means dull; the detail is all there, with hard-hitting bass, a great soundstage and high musicality.",
     "usd_msrp": 550,
     "market": "International",
-    "thb_status": null
+    "thb_status": null,
+    "auto_price": {
+      "source": "hifishark.com (US region, 12mo export)",
+      "date": "2026-08",
+      "n": 14,
+      "median_usd": 916,
+      "low": 549,
+      "high": 1467,
+      "previous_usd": 1000
+    }
   },
   {
     "id": "sansui-au-9900a-1977",
@@ -2578,7 +2656,7 @@
     "cons": null,
     "collector_ranking": "Top 10-20",
     "price_confidence": "Low",
-    "last_price_check": "2026-06",
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -2614,14 +2692,23 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 500,
-    "price_basis": null,
+    "avg_price_usd_3mo": 526,
+    "price_basis": "hifishark US 12mo listing median (AUD->USD), n=4, 2026-08",
     "year_source": "serial-report",
     "price_thb_listings": [],
     "sonic_signature": "Classic warm Sansui: sweet, full and rich with an organic, forgiving presentation - a touch warmer and more forgiving than the AU-717. Non-fatiguing over long sessions while keeping real power and clarity.",
     "usd_msrp": 450,
     "market": "International",
-    "thb_status": null
+    "thb_status": null,
+    "auto_price": {
+      "source": "hifishark.com (US region, 12mo export)",
+      "date": "2026-08",
+      "n": 4,
+      "median_usd": 526,
+      "low": 436,
+      "high": 847,
+      "previous_usd": 500
+    }
   },
   {
     "id": "sansui-au-alpha707-1977",
@@ -3191,7 +3278,7 @@
     "cons": null,
     "collector_ranking": "Top 10-20",
     "price_confidence": "Low",
-    "last_price_check": "2026-06",
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -3227,14 +3314,23 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 600,
-    "price_basis": null,
+    "avg_price_usd_3mo": 641,
+    "price_basis": "hifishark US 12mo listing median (AUD->USD), n=3, 2026-08",
     "year_source": "serial-report",
     "price_thb_listings": [],
     "sonic_signature": "Diamond Differential circuitry borrowed from its big brother the AU-919 - sonically much closer to the 919's transparent, detailed neutrality than to the warmer AU-717.",
     "usd_msrp": 575,
     "market": "International",
-    "thb_status": null
+    "thb_status": null,
+    "auto_price": {
+      "source": "hifishark.com (US region, 12mo export)",
+      "date": "2026-08",
+      "n": 3,
+      "median_usd": 641,
+      "low": 596,
+      "high": 641,
+      "previous_usd": 600
+    }
   },
   {
     "id": "sansui-au-819-1979",
