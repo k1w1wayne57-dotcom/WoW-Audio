@@ -56,8 +56,19 @@ TODAY = f"{datetime.date.today():%Y-%m}"
 
 
 def norm_model(s):
-    """AU-717 / au-717 / 'AU 717' -> 'AU717' for matching DB models to adb slugs."""
-    return re.sub(r"[^a-z0-9]", "", str(s).lower())
+    """AU-717 / au-717 / 'AU 717' -> 'au717' for matching DB models to adb slugs.
+
+    Sansui's Alpha series is written every which way — 'AU-α607MR' on listings,
+    'AU-Alpha-607MR' in this DB, sometimes 'AU-a607MR' — so the alpha glyph and
+    the bare 'a' prefix are both folded to 'alpha' before stripping.
+    """
+    s = str(s).lower().replace("α", "alpha").replace("Α", "alpha")
+    s = re.sub(r"\bau[\s-]*a(?=\d)", "aualpha", s)     # AU-a607 -> AU-alpha607
+    s = re.sub(r"[^a-z0-9]", "", s)
+    # Sellers often drop the alpha entirely ("Au-907mr"). No plain AU-607/707/907
+    # ever carried an MR/DR/KX/XR/NRA suffix, so those are unambiguously Alpha.
+    s = re.sub(r"^au([679]07)(mr|mrx|dr|kx|xr|nra)", r"aualpha\1\2", s)
+    return s
 
 # Factual fields we may fill (blank-only). Judgment fields are deliberately absent.
 YEN = r"[¥￥]"

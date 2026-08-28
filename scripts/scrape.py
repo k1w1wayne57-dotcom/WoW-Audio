@@ -212,9 +212,15 @@ VARIANT_SUFFIX = {"mr", "mrx", "xr", "kx", "dr", "nra", "mos", "limited", "extra
 
 
 def _tokens(s):
-    """'Sansui AU-607 MR' -> ['sansui', 'au607', 'mr']"""
+    """'Sansui AU-607 MR' -> ['sansui', 'au607', 'mr']
+
+    The Alpha series appears as 'AU-α607', 'AU-a607' or 'AU-Alpha-607'
+    depending on the seller, so those are folded together first.
+    """
+    s = str(s or "").lower().replace("α", "alpha")
+    s = re.sub(r"\bau[\s-]*a(?=\d)", "au-alpha", s)
     return [re.sub(r"[^a-z0-9]", "", t)
-            for t in re.split(r"\s+", str(s or "").lower()) if t.strip()]
+            for t in re.split(r"\s+", s) if t.strip()]
 
 
 def title_matches(title, model):

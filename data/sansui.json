@@ -864,6 +864,80 @@
     }
   },
   {
+    "id": "sansui-au-8500-1973",
+    "brand": "Sansui",
+    "jdm_model": "AU-8500",
+    "int_model": null,
+    "type": "Integrated",
+    "series": "Classic Era",
+    "year_start": 1973,
+    "year_end": null,
+    "japan_price_kyen": 118,
+    "watts_per_channel": 60,
+    "freq_response_hz": "3-50000",
+    "thd_percent": 0.05,
+    "ps_type": null,
+    "amp_circuit": null,
+    "weight_kg": 20.5,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "price_confidence": "Low",
+    "last_price_check": "2026-08",
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": "https://audio-database.com/SANSUI/amp/au-8500-e.html"
+    },
+    "notes": null,
+    "verified": false,
+    "avg_price_usd_3mo": 1132,
+    "price_basis": "hifishark US 12mo listing median (AUD->USD), n=3, 2026-08",
+    "year_source": "audio-database",
+    "price_thb_listings": [],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": null,
+    "thb_status": null,
+    "auto_specs": {
+      "source": "audio-database.com",
+      "date": "2026-08",
+      "fields": [
+        "watts_per_channel",
+        "thd_percent",
+        "freq_response_hz",
+        "weight_kg",
+        "japan_price_kyen",
+        "year_start"
+      ]
+    },
+    "auto_price": {
+      "source": "hifishark.com (US region, 12mo export)",
+      "date": "2026-08",
+      "n": 3,
+      "median_usd": 1132,
+      "low": 641,
+      "high": 1191
+    }
+  },
+  {
     "id": "sansui-au-5500-1974",
     "brand": "Sansui",
     "jdm_model": "AU-5500",
@@ -1878,7 +1952,7 @@
     "cons": null,
     "collector_ranking": "Top 10-20",
     "price_confidence": "Medium",
-    "last_price_check": null,
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
       "collector_notes": "First-generation AU-607 (1977). Start of the long-running 607 integrated line."
@@ -1915,14 +1989,23 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 350,
-    "price_basis": null,
+    "avg_price_usd_3mo": 980,
+    "price_basis": "hifishark 12mo listing median, intl/Japan-export asking (FX->USD) 2026-08",
     "year_source": "manual",
     "price_thb_listings": [],
     "sonic_signature": "Classic warm Sansui: sweet, full and rich with an organic, forgiving presentation - a touch warmer and more forgiving than the AU-717. Non-fatiguing over long sessions while keeping real power and clarity.",
     "usd_msrp": null,
     "market": "JDM",
-    "thb_status": null
+    "thb_status": null,
+    "auto_price": {
+      "source": "hifishark.com (international)",
+      "date": "2026-08",
+      "n": 20,
+      "median_usd": 980,
+      "low": 800,
+      "high": 2019,
+      "previous_usd": 350
+    }
   },
   {
     "id": "sansui-au-2200-1977",
