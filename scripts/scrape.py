@@ -199,7 +199,40 @@ JUNK_RE = re.compile(
     r"remote|cover|feet|screw|transformer|output\s?board)\b", re.I)
 
 
-def summarize_usd(listings, months, headful=False, profile=None):
+# Model-name suffixes that mark a DIFFERENT (usually later, dearer) model.
+# "AU-607" must not match "AU-607 MR"; "Model 250" must not match "Model 250M".
+VARIANT_SUFFIX = {"mr", "mrx", "xr", "kx", "dr", "nra", "mos", "limited", "extra",
+                  "ii", "iii", "decade", "anniversary", "vintage", "premium",
+                  "ltd", "mkii", "mk2", "signature"}
+
+
+def _tokens(s):
+    """'Sansui AU-607 MR' -> ['sansui', 'au607', 'mr']"""
+    return [re.sub(r"[^a-z0-9]", "", t)
+            for t in re.split(r"\s+", str(s or "").lower()) if t.strip()]
+
+
+def title_matches(title, model):
+    """True if `title` is really about `model` and not a variant of it.
+
+    Matches the model's tokens as a contiguous run, then rejects when the very
+    next token is a variant marker. A trailing-letter variant (250 vs 250M)
+    fails the token match outright.
+    """
+    if not title or not model:
+        return True                      # nothing to check against
+    mt = [t for t in _tokens(model) if t]
+    tt = [t for t in _tokens(title) if t]
+    if not mt:
+        return True
+    for i in range(len(tt) - len(mt) + 1):
+        if tt[i:i + len(mt)] == mt:
+            nxt = tt[i + len(mt)] if i + len(mt) < len(tt) else ""
+            return nxt not in VARIANT_SUFFIX
+    return False
+
+
+def summarize_usd(listings, months, headful=False, profile=None, model=None):
     """Filter to the last `months`, convert to USD, return a summary dict."""
     cutoff = datetime.date.today() - datetime.timedelta(days=int(30.4 * months))
     usd, kept, skipped_cur = [], [], set()
@@ -208,6 +241,8 @@ def summarize_usd(listings, months, headful=False, profile=None):
             continue
         if x.get("title") and JUNK_RE.search(x["title"]):
             continue  # skip parts, manuals, faceplates, etc.
+        if model and not title_matches(x.get("title"), model):
+            continue  # different model / variant
         if x["date"] and x["date"] < cutoff:
             continue
         rate = FX_TO_USD.get(x["currency"])
@@ -250,7 +285,7 @@ def research_hifishark(brand, model, months, update, headful, profile, emit_json
                           headful=headful, profile=profile)
     soup = BeautifulSoup(html, "html.parser")
     listings = parse_hifishark(soup, url)
-    summary = summarize_usd(listings, months)
+    summary = summarize_usd(listings, months, model=model)
 
     if emit_json:
         # Machine-readable one-liner for serve.py's /api/price endpoint.

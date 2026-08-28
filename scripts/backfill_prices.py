@@ -61,7 +61,7 @@ def price_one(brand, model, months):
     except Exception:
         return None
     listings = scrape.parse_hifishark(BeautifulSoup(html, "html.parser"), url)
-    return scrape.summarize_usd(listings, months)
+    return scrape.summarize_usd(listings, months, model=model)
 
 
 def in_years(rec, years):
@@ -100,7 +100,7 @@ def run(brands, months, limit, refresh=False, years=None):
             conf = "Medium" if s["count"] >= 5 else "Low"
             prev = rec.get("avg_price_usd_3mo")
             rec["avg_price_usd_3mo"] = s["median"]
-            rec["price_basis"] = f"hifishark {months}mo median (FX->USD) {TODAY}"
+            rec["price_basis"] = f"hifishark {months}mo listing median, asking prices (FX->USD) {TODAY}"
             rec["price_confidence"] = conf
             rec["last_price_check"] = TODAY
             rec["auto_price"] = {"source": "hifishark.com", "date": TODAY,
