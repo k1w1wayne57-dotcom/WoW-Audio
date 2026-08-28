@@ -17026,11 +17026,13 @@
     "avg_price_usd_3mo": 650,
     "price_basis": null,
     "year_source": "user (spec sheet)",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      28000
+    ],
     "usd_msrp": null,
     "market": null,
     "circuit_description": "Twin-monaural construction: the power amplifier blocks are arranged symmetrically so mutual interference between channels is eliminated. The NEW diamond differential circuit is used, with an FET cascade in the initial stage to reduce the effect of impedance differences between connected devices. MOS-FETs in the output stage give excellent frequency and transient characteristics. The supply uses custom-made heavy-duty transformers and a balanced power supply configuration forming a closed loop independent of the ground circuit. 150W/ch at 6 ohm, 110W/ch at 8 ohm.",
-    "thb_status": null
+    "thb_status": "For Sale"
   },
   {
     "id": "sansui-b-2302v-1990",
