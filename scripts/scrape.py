@@ -192,17 +192,22 @@ def hifishark_search_url(brand, model):
 # Filtering by title removes them regardless of price, so the median reflects
 # whole, working units — not a pile of $80 faceplates.
 JUNK_RE = re.compile(
-    r"\b(manual|faceplate|face\s?plate|front\s?panel|knob|meter|manuals|parts|"
-    r"for\s?parts|repair|not\s?working|as[-\s]?is|dial|lamp|bulb|glass|wood\s?case|"
+    r"(\b(manual|faceplate|face\s?plate|front\s?panel|knob|meter|manuals|parts|"
+    r"for\s?parts|repair|not\s?working|as[-\s]?is|dial|bulb|glass|wood\s?case|"
     r"wooden\s?case|cabinet\s?only|case\s?only|badge|emblem|logo|switch|capacitor|"
     r"cap\s?kit|recap|restoration\s?kit|pcb|circuit\s?board|schematic|service|"
-    r"remote|cover|feet|screw|transformer|output\s?board)\b", re.I)
+    r"remote|cover|feet|screw|transformer|output\s?board|kit|instruction|"
+    r"instructions|anleitung|prospekt|katalog|brochure|sticker|decal|"
+    r"replacement|rebuild)\b|lamp)", re.I)
 
 
 # Model-name suffixes that mark a DIFFERENT (usually later, dearer) model.
 # "AU-607" must not match "AU-607 MR"; "Model 250" must not match "Model 250M".
+# note: "vintage" is deliberately absent — it's a stock word in vintage-audio
+# listing titles ("Top Vintage Endstufe"), and "mos" already guards the real
+# MOS Vintage models.
 VARIANT_SUFFIX = {"mr", "mrx", "xr", "kx", "dr", "nra", "mos", "limited", "extra",
-                  "ii", "iii", "decade", "anniversary", "vintage", "premium",
+                  "ii", "iii", "decade", "anniversary", "premium",
                   "ltd", "mkii", "mk2", "signature"}
 
 
@@ -215,20 +220,27 @@ def _tokens(s):
 def title_matches(title, model):
     """True if `title` is really about `model` and not a variant of it.
 
-    Matches the model's tokens as a contiguous run, then rejects when the very
-    next token is a variant marker. A trailing-letter variant (250 vs 250M)
-    fails the token match outright.
+    Listings spell a model every which way — "BA-5000", "BA 5000", "Ba5000" —
+    so the model's tokens are joined and compared against joins of up to four
+    adjacent title tokens. Once matched, the following token is checked: a
+    variant marker (MR, XR, MOS Limited, ...) means it's a different amp.
+    A trailing-letter variant (250 vs 250M) fails the join comparison outright.
     """
     if not title or not model:
         return True                      # nothing to check against
-    mt = [t for t in _tokens(model) if t]
+    want = "".join(t for t in _tokens(model) if t)
     tt = [t for t in _tokens(title) if t]
-    if not mt:
+    if not want:
         return True
-    for i in range(len(tt) - len(mt) + 1):
-        if tt[i:i + len(mt)] == mt:
-            nxt = tt[i + len(mt)] if i + len(mt) < len(tt) else ""
-            return nxt not in VARIANT_SUFFIX
+    for i in range(len(tt)):
+        joined = ""
+        for j in range(i, min(i + 4, len(tt))):
+            joined += tt[j]
+            if joined == want:
+                nxt = tt[j + 1] if j + 1 < len(tt) else ""
+                return nxt not in VARIANT_SUFFIX
+            if len(joined) > len(want):
+                break
     return False
 
 

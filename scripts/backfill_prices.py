@@ -33,7 +33,9 @@ DATA = ROOT / "data"
 BRANDS = ["sansui", "marantz", "pioneer"]
 TODAY = f"{datetime.date.today():%Y-%m}"
 EMPTY = (None, "", "—", [], {})
-MIN_LISTINGS = 3          # fewer than this = don't trust it, leave blank
+MIN_LISTINGS = 5          # fewer than this = don't trust it, leave blank
+MAX_SPREAD = 8            # high/low beyond this = incoherent sample (mixed
+                          # variants, part-outs, multi-unit lots) -> leave blank
 REVIEW = Path(__file__).resolve().parent / "backfill_prices_review.tsv"
 
 
@@ -97,7 +99,15 @@ def run(brands, months, limit, refresh=False, years=None):
                 review.append("\t".join([brand, model, "", str(n), "", "", "too few"]))
                 time.sleep(0.5)
                 continue
-            conf = "Medium" if s["count"] >= 5 else "Low"
+            spread = s["high"] / max(s["low"], 1)
+            if spread > MAX_SPREAD:
+                print(f"skip (spread {spread:.0f}x — ${s['low']:,}-${s['high']:,}, "
+                      f"incoherent)", flush=True)
+                review.append("\t".join([brand, model, "", str(s["count"]), "",
+                                         f"${s['low']:,}-${s['high']:,}", "spread"]))
+                time.sleep(0.5)
+                continue
+            conf = "Medium" if s["count"] >= 8 else "Low"
             prev = rec.get("avg_price_usd_3mo")
             rec["avg_price_usd_3mo"] = s["median"]
             rec["price_basis"] = f"hifishark {months}mo listing median, asking prices (FX->USD) {TODAY}"
