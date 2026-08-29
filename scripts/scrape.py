@@ -253,6 +253,29 @@ def title_matches(title, model):
     return False
 
 
+# Sellers advertise one of two stories, and the market may price them
+# differently: "recapped / fully serviced" versus "all original / unmolested".
+# Classifying each listing lets us measure whether originality carries a premium
+# instead of guessing.
+RESTORED_RE = re.compile(
+    r"\b(recap(ped)?|restor(ed|ation)|serviced|refurb(ished)?|rebuilt|"
+    r"gone\s?through|overhauled)\b", re.I)
+ORIGINAL_RE = re.compile(
+    r"\b(all[-\s]?original|original\s?parts|unmolested|untouched|never\s?opened|"
+    r"survivor|unrestored|original\s?condition)\b", re.I)
+
+
+def condition_of(title):
+    t = title or ""
+    orig = bool(ORIGINAL_RE.search(t))
+    rest = bool(RESTORED_RE.search(t))
+    if orig and not rest:
+        return "original"
+    if rest and not orig:
+        return "restored"
+    return "unknown"          # both claimed, or neither stated
+
+
 def summarize_usd(listings, months, headful=False, profile=None, model=None):
     """Filter to the last `months`, convert to USD, return a summary dict."""
     cutoff = datetime.date.today() - datetime.timedelta(days=int(30.4 * months))
@@ -271,7 +294,7 @@ def summarize_usd(listings, months, headful=False, profile=None, model=None):
             skipped_cur.add(x["currency"])
             continue
         usd.append(round(x["price"] * rate))
-        kept.append(x)
+        kept.append((round(x["price"] * rate), condition_of(x.get("title"))))
     if not usd:
         return None
     raw_n = len(usd)
@@ -294,8 +317,16 @@ def summarize_usd(listings, months, headful=False, profile=None, model=None):
     mid = usd[len(usd) // 2] if len(usd) % 2 else round((usd[len(usd) // 2 - 1] + usd[len(usd) // 2]) / 2)
     q1 = usd[len(usd) // 4]
     q3 = usd[(3 * len(usd)) // 4]
+    # per-condition medians, over the same trimmed window
+    lo_v, hi_v = usd[0], usd[-1]
+    by_cond = {}
+    for cond in ("restored", "original", "unknown"):
+        vals = sorted(v for v, c in kept if c == cond and lo_v <= v <= hi_v)
+        if vals:
+            m = vals[len(vals) // 2] if len(vals) % 2 else round((vals[len(vals)//2-1] + vals[len(vals)//2]) / 2)
+            by_cond[cond] = {"n": len(vals), "median": m}
     return {"count": len(usd), "raw_count": raw_n, "avg": round(sum(usd) / len(usd)),
-            "median": mid, "low": usd[0], "high": usd[-1], "q1": q1, "q3": q3,
+            "median": mid, "low": usd[0], "high": usd[-1], "q1": q1, "q3": q3, "by_condition": by_cond,
             "skipped_currencies": sorted(skipped_cur)}
 
 

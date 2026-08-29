@@ -9906,7 +9906,6 @@
     "restorer_info": {
       "known_failure_points": [
         "Digital frequency readout fails - the MSM5540RS chip on board F-3000. THE CHIP IS NO LONGER OBTAINABLE (Wayne searched, 2026); a 2021 owner report of buying one from Consolidated Electronics no longer holds. A donor unit is realistically the only source, so treat a dead readout as permanent when pricing a purchase. The amplifier and tuner sections are unaffected by it",
-        "CD-4 demodulator alignment drifts",
         "Electrolytic caps age throughout signal path",
         "Switch contacts for matrix/discrete mode oxidize",
         "Dry/cracked solder joints around the display board - worth reflowing while the board is out for the chip"
@@ -9918,8 +9917,7 @@
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Loss of rear channel separation",
-        "Crackling on mode switching",
-        "Demodulator mistracking on CD-4 source"
+        "Crackling on mode switching"
       ]
     },
     "best_buy": {
