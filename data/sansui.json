@@ -9595,7 +9595,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 2,
-      "recap_notes": "Third-party restoration kits exist for this model (Nichicon/Rubycon/United Chemicon based, 5,000-12,000hr rated) - recommended over piecemeal sourcing given unverified exact schematic values here. Full board-by-board replacement recommended, not a partial kit.\n\nTONE BOARD CAP SELECTION (F-2863) — Wayne's own G-5700, swaps done and compared by ear with three listeners. The finding is that cap choice in the tone stage is audible and POSITION-DEPENDENT: Nichicon Muse KZ was rejected at the 10uF tone-stage coupling (C07/C08) but chosen at the 100uF tone/output coupling (C24/C25). Muse KW sounded muffled and was rejected. Muse FG was the settled choice for C07/C08 — though the tone board was reflowed in the same session, so solder joints may share the credit. Bipolar positions (C01/C02, C27/C29) took Nichicon Muse BP/ES. Caveat from Wayne: the log is partial, not every cap tried was recorded.",
+      "recap_notes": "Third-party restoration kits exist for this model (Nichicon/Rubycon/United Chemicon based, 5,000-12,000hr rated) - recommended over piecemeal sourcing given unverified exact schematic values here. Full board-by-board replacement recommended, not a partial kit.\n\nTONE BOARD CAP SELECTION (F-2863) — Wayne's own G-5700, swaps done and compared by ear with three listeners. The finding is that cap choice in the tone stage is audible and POSITION-DEPENDENT: Nichicon Muse KZ was rejected at the 10uF tone-stage coupling (C07/C08) but chosen at the 100uF tone/output coupling (C24/C25). Muse KW sounded muffled and was rejected. Muse FG was the settled choice for C07/C08 — though the tone board was reflowed in the same session, so solder joints may share the credit. Bipolar positions (C01/C02, C27/C29) took Nichicon Muse BP/ES. Caveat from Wayne: the log is partial, not every cap tried was recorded.\n\nSTATUS (Wayne's own G-5700): recap completed 17 Jun 2026, last cap change 24 Jun 2026. Current verdict — 'sound is best yet' but 'STILL TOO SHARP'. The main bulk filter caps C612/C613 have NOT been changed yet, so the tone-board comparisons above are provisional: an aged bulk supply is itself a common cause of a hard, sharp top end, and it may be doing some of what is currently being blamed on the tone stage. Re-evaluate the FG-vs-KZ-vs-KW question once the supply is done.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Relay clicks but no sound on one or both channels",
@@ -9663,11 +9663,11 @@
         "location": "Tone board F-2863, C07/C08 — tone stage coupling",
         "original_value_uf": 10,
         "voltage": 25,
-        "modern_replacement": "Nichicon Muse FG 10uF 50V (Wayne's final choice)",
+        "modern_replacement": "Nichicon Muse FG 10uF 50V (current best, not final)",
         "priority": "sonic",
         "estimated_cost_usd": null,
         "supplier_links": [],
-        "notes": "LISTENING RESULT (verified by Wayne — fitted and listened to in his own unit): Muse KZ tried first — not happy with it. Muse KW — 'sounded muffled'. Settled on Muse FG, and reflowing the tone board at the same time was part of the improvement, so the two changes are not fully separable. Vishay/Sprague 10uF 50V (Digikey) also used in these positions. Polarised position."
+        "notes": "LISTENING RESULT (verified by Wayne, his own unit, three listeners): Muse KZ tried first - not happy. Muse KW - 'sounded muffled'. Muse FG is the current choice and the board was reflowed in the same session, so fresh joints may share the credit. VERDICT AS AT 24 Jun 2026: 'sound is best yet' but 'still too sharp' - improved, not finished. Vishay/Sprague 10uF 50V (Digikey) also used here. Polarised position."
       },
       {
         "location": "Tone board F-2863, C24/C25 — tone/output coupling",
@@ -9698,6 +9698,16 @@
         "estimated_cost_usd": null,
         "supplier_links": [],
         "notes": "LISTENING RESULT (verified by Wayne — fitted and listened to in his own unit): 'good midrange, clean'. Film is worth trying here and is on Wayne's list — untested so far."
+      },
+      {
+        "location": "Main filter caps C612/C613 (bulk PSU) - OUTSTANDING",
+        "original_value_uf": null,
+        "voltage": null,
+        "modern_replacement": "not yet selected",
+        "priority": "critical",
+        "estimated_cost_usd": null,
+        "supplier_links": [],
+        "notes": "STILL TO CHANGE as at 24 Jun 2026 - the recap is otherwise complete (17 Jun 2026). This matters for the tone-board evaluation: tired bulk filter caps raise supply ripple and stiffen transient recovery, which is a well-known cause of exactly the hard/sharp presentation Wayne is still hearing. Judge the tone-stage cap choice again AFTER these are done."
       }
     ],
     "links": {
