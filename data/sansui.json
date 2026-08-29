@@ -131,7 +131,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Classic-era Sansui: warm, organic midrange with smooth clarity - often described as 'tube-like', with a lush, engaging presentation and a smooth top end. (Family-level: late-60s/early-70s AU line.)",
-    "thb_status": "For sale"
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-au-777d-1969",
@@ -199,7 +200,8 @@
     "usd_msrp": null,
     "market": "JDM",
     "sonic_signature": "Classic-era Sansui: warm, organic midrange with smooth clarity - often described as 'tube-like', with a lush, engaging presentation and a smooth top end. (Family-level: late-60s/early-70s AU line.)",
-    "thb_status": "For sale"
+    "thb_status": "Sold",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-au-222-1970",
@@ -426,7 +428,8 @@
       "low": 595,
       "high": 917,
       "previous_usd": 1500
-    }
+    },
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-au-555a-1971",
@@ -569,7 +572,7 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Classic-era Sansui: warm, organic midrange with smooth clarity - often described as 'tube-like', with a lush, engaging presentation and a smooth top end. (Family-level: late-60s/early-70s AU line.)",
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "auto_price": {
       "source": "hifishark.com (US region, 12mo export)",
       "date": "2026-08",
@@ -578,7 +581,8 @@
       "low": 614,
       "high": 2064,
       "previous_usd": 900
-    }
+    },
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-dca-1001-1972",
@@ -1003,7 +1007,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Silver-era Sansui: the warm, musical house sound of Sansui's peak years - full-bodied and rich with a smooth top end and an engaging, non-fatiguing presentation. (Family-level: mid/late-70s silver-face line.)",
-    "thb_status": "Sold"
+    "thb_status": "Sold",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-au-6500-1974",
@@ -1420,11 +1425,12 @@
     "price_basis": null,
     "year_source": "serial-report",
     "price_thb_listings": [
-      3000
+      4300
     ],
     "usd_msrp": null,
     "market": null,
-    "thb_status": "For sale"
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-au-6900-1975",
@@ -2353,13 +2359,13 @@
     "price_basis": null,
     "year_source": "serial-report",
     "price_thb_listings": [
-      8900,
-      9500
+      8900
     ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Silver-era Sansui: the warm, musical house sound of Sansui's peak years - full-bodied and rich with a smooth top end and an engaging, non-fatiguing presentation. (Family-level: mid/late-70s silver-face line.)",
-    "thb_status": "Sold"
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-au-717-1977",
@@ -2859,7 +2865,8 @@
     "sonic_signature": "The definitive 'classic Sansui sound': warm, full and balanced - but warm never means dull; the detail is all there, with hard-hitting bass, a great soundstage and high musicality.",
     "usd_msrp": null,
     "market": "JDM",
-    "thb_status": "For sale"
+    "thb_status": "Sold",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-au-117ii-1978",
@@ -3200,7 +3207,8 @@
     "sonic_signature": "17-series family character: the warm, musical Sansui house voice in a lighter, lower-powered package - forgiving and easy to listen to rather than analytical. (Family-level description; no model-specific reviews found.)",
     "usd_msrp": 230,
     "market": "International",
-    "thb_status": "For sale"
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-au-417-1979",
@@ -3549,7 +3557,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Silver-era Sansui: the warm, musical house sound of Sansui's peak years - full-bodied and rich with a smooth top end and an engaging, non-fatiguing presentation. (Family-level: mid/late-70s silver-face line.)",
-    "thb_status": "Sold"
+    "thb_status": "Sold",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-a-m99-1980",
@@ -3681,7 +3690,7 @@
     "usd_msrp": null,
     "market": "JDM",
     "sonic_signature": "Super Feedforward voicing: clean and low in distortion, notably good with strings, but with slightly less punch and bottom-end weight than the earlier warm Sansuis. (Family-level: Super Feedforward D-series.)",
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "auto_specs": {
       "source": "audio-database.com",
       "date": "2026-08",
@@ -3689,7 +3698,8 @@
         "freq_response_hz",
         "japan_price_kyen"
       ]
-    }
+    },
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-au-d707f-au-d9-3rd-gen-1980",
@@ -3751,18 +3761,21 @@
     "avg_price_usd_3mo": 700,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      4800
+    ],
     "usd_msrp": null,
     "market": "JDM",
     "sonic_signature": "Super Feedforward voicing: clean and low in distortion, notably good with strings, but with slightly less punch and bottom-end weight than the earlier warm Sansuis. (Family-level: Super Feedforward D-series.)",
-    "thb_status": null,
+    "thb_status": "For sale",
     "auto_specs": {
       "source": "audio-database.com",
       "date": "2026-08",
       "fields": [
         "japan_price_kyen"
       ]
-    }
+    },
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-au-d907f-3rd-gen-1980",
@@ -4048,7 +4061,8 @@
         "freq_response_hz",
         "weight_kg"
       ]
-    }
+    },
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-au-d7-1981",
@@ -4681,7 +4695,8 @@
       "fields": [
         "japan_price_kyen"
       ]
-    }
+    },
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-au-d907x-6th-gen-1984",
@@ -5761,7 +5776,8 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "thb_status": "For sale"
+    "thb_status": "Sold",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-qs-100-1973",
@@ -6046,7 +6062,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Classic-era Sansui: warm, organic midrange with smooth clarity - often described as 'tube-like', with a lush, engaging presentation and a smooth top end. (Family-level: late-60s/early-70s AU line.)",
-    "thb_status": "For sale"
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-350-1968",
@@ -6186,7 +6203,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Classic-era Sansui: warm, organic midrange with smooth clarity - often described as 'tube-like', with a lush, engaging presentation and a smooth top end. (Family-level: late-60s/early-70s AU line.)",
-    "thb_status": "For sale"
+    "thb_status": "Sold",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-800-1968",
@@ -6254,7 +6272,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Classic-era Sansui: warm, organic midrange with smooth clarity - often described as 'tube-like', with a lush, engaging presentation and a smooth top end. (Family-level: late-60s/early-70s AU line.)",
-    "thb_status": "Sold"
+    "thb_status": "Sold",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-2000-1969",
@@ -6317,12 +6336,13 @@
     "price_basis": null,
     "year_source": "serial-report",
     "price_thb_listings": [
-      5000
+      6500
     ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Classic-era Sansui: warm, organic midrange with smooth clarity - often described as 'tube-like', with a lush, engaging presentation and a smooth top end. (Family-level: late-60s/early-70s AU line.)",
-    "thb_status": "Sold"
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-5000-1969",
@@ -6665,7 +6685,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Classic-era Sansui: warm, organic midrange with smooth clarity - often described as 'tube-like', with a lush, engaging presentation and a smooth top end. (Family-level: late-60s/early-70s AU line.)",
-    "thb_status": "Sold"
+    "thb_status": "Sold",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-4000-1971",
@@ -6733,7 +6754,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Classic-era Sansui: warm, organic midrange with smooth clarity - often described as 'tube-like', with a lush, engaging presentation and a smooth top end. (Family-level: late-60s/early-70s AU line.)",
-    "thb_status": "Sold"
+    "thb_status": "Sold",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-5000x-1971",
@@ -6801,7 +6823,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Classic-era Sansui: warm, organic midrange with smooth clarity - often described as 'tube-like', with a lush, engaging presentation and a smooth top end. (Family-level: late-60s/early-70s AU line.)",
-    "thb_status": "For sale"
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-eight-deluxe-1971",
@@ -7499,7 +7522,7 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Tube-era Sansui: the warm, rich valve presentation - smooth top end and a full, engaging midrange. (Family-level: tube era.)",
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "auto_specs": {
       "source": "audio-database.com",
       "date": "2026-08",
@@ -7507,7 +7530,8 @@
         "freq_response_hz",
         "weight_kg"
       ]
-    }
+    },
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-seven-1973",
@@ -8224,7 +8248,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Classic-era Sansui: warm, organic midrange with smooth clarity - often described as 'tube-like', with a lush, engaging presentation and a smooth top end. (Family-level: late-60s/early-70s AU line.)",
-    "thb_status": "For sale"
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-661-1974",
@@ -8948,7 +8973,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Monster-receiver voicing: warm, full-bodied and powerful with exceptional clarity - very musical, clear vocals and strong bass; rich enough that it doesn't need volume to come alive. (Family-level: 8080/9090-era receivers.)",
-    "thb_status": "Sold"
+    "thb_status": "Sold",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-8080-1977",
@@ -9214,7 +9240,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "G-series 1st generation: the classic silver-face voicing - warm and musical. (Family-level: G-series 1st gen.)",
-    "thb_status": "For sale"
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-g-3000-1977",
@@ -9486,7 +9513,8 @@
     "usd_msrp": null,
     "market": "JDM",
     "sonic_signature": "G-series 1st generation: the classic silver-face voicing - warm and musical. (Family-level: G-series 1st gen.)",
-    "thb_status": "Sold"
+    "thb_status": "Sold",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-g-5500-1978",
@@ -9722,12 +9750,13 @@
     "ps_type": null,
     "year_source": "serial-report",
     "price_thb_listings": [
-      12500
+      11500
     ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "G-series Pure Power DC: high-speed direct-coupled circuitry for lower distortion - cleaner and tighter than the warm first-generation G receivers. (Family-level: G-series 3rd gen.)",
-    "thb_status": "For sale"
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-g-6000-1978",
@@ -9855,11 +9884,14 @@
     "avg_price_usd_3mo": 900,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      25000
+    ],
     "usd_msrp": null,
     "market": "JDM",
     "sonic_signature": "G-series 1st generation: the classic silver-face voicing - warm and musical. (Family-level: G-series 1st gen.)",
-    "thb_status": null
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-g-8000-1978",
@@ -10274,17 +10306,20 @@
     "avg_price_usd_3mo": 974,
     "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "serial-report",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      5700
+    ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Silver-era Sansui: the warm, musical house sound of Sansui's peak years - full-bodied and rich with a smooth top end and an engaging, non-fatiguing presentation. (Family-level: mid/late-70s silver-face line.)",
-    "thb_status": null,
+    "thb_status": "For sale",
     "auto_price": {
       "source": "hifishark.com",
       "date": "2026-08",
       "n": 4,
       "median_usd": 974
-    }
+    },
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-g-7500-1979",
@@ -10556,7 +10591,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "G-series Pure Power DC: high-speed direct-coupled circuitry for lower distortion - cleaner and tighter than the warm first-generation G receivers. (Family-level: G-series 3rd gen.)",
-    "thb_status": "For sale"
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-g-7700-1980",
@@ -10834,7 +10870,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Classic-era Sansui: warm, organic midrange with smooth clarity - often described as 'tube-like', with a lush, engaging presentation and a smooth top end. (Family-level: late-60s/early-70s AU line.)",
-    "thb_status": "For sale"
+    "thb_status": "Sold",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-qr-500-1973",
@@ -10969,12 +11006,14 @@
     "price_basis": null,
     "year_source": "serial-report",
     "price_thb_listings": [
-      6500
+      6500,
+      15000
     ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Classic-era Sansui: warm, organic midrange with smooth clarity - often described as 'tube-like', with a lush, engaging presentation and a smooth top end. (Family-level: late-60s/early-70s AU line.)",
-    "thb_status": "For sale"
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-qrx-3500-1973",
@@ -11035,12 +11074,13 @@
     "price_basis": null,
     "year_source": "serial-report",
     "price_thb_listings": [
-      5700
+      9990
     ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Classic-era Sansui: warm, organic midrange with smooth clarity - often described as 'tube-like', with a lush, engaging presentation and a smooth top end. (Family-level: late-60s/early-70s AU line.)",
-    "thb_status": "For sale"
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-qrx-5500-1973",
@@ -11101,12 +11141,14 @@
     "price_basis": null,
     "year_source": "serial-report",
     "price_thb_listings": [
+      14900,
       15500
     ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Classic-era Sansui: warm, organic midrange with smooth clarity - often described as 'tube-like', with a lush, engaging presentation and a smooth top end. (Family-level: late-60s/early-70s AU line.)",
-    "thb_status": "For sale"
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-qrx-6500-1973",
@@ -11236,7 +11278,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Classic-era Sansui: warm, organic midrange with smooth clarity - often described as 'tube-like', with a lush, engaging presentation and a smooth top end. (Family-level: late-60s/early-70s AU line.)",
-    "thb_status": "Sold"
+    "thb_status": "Sold",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-qrx-3000-1974",
@@ -11302,7 +11345,8 @@
     "usd_msrp": 440,
     "market": null,
     "sonic_signature": "Classic-era Sansui: warm, organic midrange with smooth clarity - often described as 'tube-like', with a lush, engaging presentation and a smooth top end. (Family-level: late-60s/early-70s AU line.)",
-    "thb_status": "For sale"
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-qrx-6001-1974",
@@ -11427,12 +11471,13 @@
     "price_basis": null,
     "year_source": "serial-report",
     "price_thb_listings": [
-      20500
+      17000
     ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Silver-era Sansui: the warm, musical house sound of Sansui's peak years - full-bodied and rich with a smooth top end and an engaging, non-fatiguing presentation. (Family-level: mid/late-70s silver-face line.)",
-    "thb_status": "For sale"
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-qrx-5001-1976",
@@ -11556,11 +11601,14 @@
     "avg_price_usd_3mo": 450,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      27000
+    ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Silver-era Sansui: the warm, musical house sound of Sansui's peak years - full-bodied and rich with a smooth top end and an engaging, non-fatiguing presentation. (Family-level: mid/late-70s silver-face line.)",
-    "thb_status": null
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-qrx-9001-1979",
@@ -12447,17 +12495,20 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      2500
+    ],
     "usd_msrp": null,
     "market": null,
-    "thb_status": null,
+    "thb_status": "For sale",
     "auto_specs": {
       "source": "audio-database.com",
       "date": "2026-08",
       "fields": [
         "weight_kg"
       ]
-    }
+    },
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-tu-4400-1976",
@@ -12589,7 +12640,8 @@
     ],
     "usd_msrp": 570,
     "market": null,
-    "thb_status": "For sale"
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-tu-3900-1977",
@@ -12734,7 +12786,8 @@
       "fields": [
         "weight_kg"
       ]
-    }
+    },
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-tu-5900-1977",
@@ -12796,10 +12849,12 @@
     "avg_price_usd_3mo": 162,
     "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "serial-report",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      2700
+    ],
     "usd_msrp": null,
     "market": null,
-    "thb_status": null,
+    "thb_status": "For sale",
     "auto_specs": {
       "source": "audio-database.com",
       "date": "2026-08",
@@ -12812,7 +12867,8 @@
       "date": "2026-08",
       "n": 5,
       "median_usd": 162
-    }
+    },
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-tu-717-1977",
@@ -13011,16 +13067,19 @@
     "avg_price_usd_3mo": 129,
     "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "serial-report",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      2500
+    ],
     "usd_msrp": 190,
     "market": "International",
-    "thb_status": null,
+    "thb_status": "For sale",
     "auto_price": {
       "source": "hifishark.com",
       "date": "2026-08",
       "n": 9,
       "median_usd": 129
-    }
+    },
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-tu-317-1978",
@@ -13440,7 +13499,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Tube-era Sansui: the warm, rich valve presentation - smooth top end and a full, engaging midrange. (Family-level: tube era.)",
-    "thb_status": "Sold"
+    "thb_status": "Sold",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-1000-1963",
@@ -13579,7 +13639,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Tube-era Sansui: the warm, rich valve presentation - smooth top end and a full, engaging midrange. (Family-level: tube era.)",
-    "thb_status": "Sold"
+    "thb_status": "Sold",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-1000a-1967",
@@ -15943,7 +16004,8 @@
     "usd_msrp": null,
     "market": "JDM",
     "sonic_signature": "Alpha-series voicing: a move to a more neutral tone with very good clarity and detail while staying musically involving - refined, with layers of depth, pinpoint imaging and crisper, more refined highs than the older warm Sansuis. The 907 tier adds a beefier supply and the most even tonal balance. (Family-level: alpha-X Balanced series.)",
-    "thb_status": "For sale"
+    "thb_status": "Sold",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-au-alpha707mr-1995",
@@ -16212,12 +16274,13 @@
     "price_basis": null,
     "year_source": "serial-report",
     "price_thb_listings": [
-      13900
+      139000
     ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Alpha-series voicing: a move to a more neutral tone with very good clarity and detail while staying musically involving - refined, with layers of depth, pinpoint imaging and crisper, more refined highs than the older warm Sansuis. The 907 tier adds a beefier supply and the most even tonal balance. (Family-level: alpha-X Balanced series.)",
-    "thb_status": "For sale"
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-au-alpha707nra-1997",
@@ -16686,14 +16749,15 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "auto_specs": {
       "source": "audio-database.com",
       "date": "2026-08",
       "fields": [
         "japan_price_kyen"
       ]
-    }
+    },
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-au-x111-mos-1984",
@@ -17150,7 +17214,8 @@
     "usd_msrp": null,
     "market": null,
     "circuit_description": "Twin-monaural construction: the power amplifier blocks are arranged symmetrically so mutual interference between channels is eliminated. The NEW diamond differential circuit is used, with an FET cascade in the initial stage to reduce the effect of impedance differences between connected devices. MOS-FETs in the output stage give excellent frequency and transient characteristics. The supply uses custom-made heavy-duty transformers and a balanced power supply configuration forming a closed loop independent of the ground circuit. 150W/ch at 6 ohm, 110W/ch at 8 ohm.",
-    "thb_status": "For Sale"
+    "thb_status": "Sold",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-b-2302v-1990",
@@ -17664,7 +17729,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Super Feedforward voicing: clean and low in distortion, notably good with strings, but with slightly less punch and bottom-end weight than the earlier warm Sansuis. (Family-level: Super Feedforward D-series.)",
-    "thb_status": "For sale"
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-au-d607-1979",
@@ -17727,13 +17793,13 @@
     "price_basis": null,
     "year_source": "user (spec sheet)",
     "price_thb_listings": [
-      4900,
-      3900
+      4900
     ],
     "usd_msrp": null,
     "market": "JDM",
     "sonic_signature": "Silver-era Sansui: the warm, musical house sound of Sansui's peak years - full-bodied and rich with a smooth top end and an engaging, non-fatiguing presentation. (Family-level: mid/late-70s silver-face line.)",
-    "thb_status": "For sale"
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-c-2102-1986",
@@ -17873,7 +17939,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Sweet and extremely detailed - never brittle or cool. Wonderfully warm and detailed on voice, acoustic instruments and complex orchestral/choral/operatic material, with striking stereo imaging; noticeably sweeter than the B-2101 despite near-identical specs. Unusually load-tolerant for a Sansui power amp - drives speakers dipping to 2 ohms, with roughly 680W/ch instantaneous at 2 ohms. Pairs best with the matching C-2102.",
-    "thb_status": "Sold"
+    "thb_status": "Sold",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-au-alpha317x",
@@ -17938,7 +18005,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Alpha-series voicing: a move to a more neutral tone with very good clarity and detail while staying musically involving - refined, with layers of depth, pinpoint imaging and crisper, more refined highs than the older warm Sansuis. The 907 tier adds a beefier supply and the most even tonal balance. (Family-level: alpha-X Balanced series.)",
-    "thb_status": "For sale"
+    "thb_status": "Sold",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-au-alpha555vs",
@@ -17998,12 +18066,13 @@
     "price_basis": null,
     "year_source": "research",
     "price_thb_listings": [
-      4500
+      4400
     ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Alpha-series voicing: a move to a more neutral tone with very good clarity and detail while staying musically involving - refined, with layers of depth, pinpoint imaging and crisper, more refined highs than the older warm Sansuis. The 907 tier adds a beefier supply and the most even tonal balance. (Family-level: alpha-X Balanced series.)",
-    "thb_status": "Sold"
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-tu-707",
@@ -18067,7 +18136,8 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "thb_status": "Sold"
+    "thb_status": "Sold",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-au-888",
@@ -18127,12 +18197,16 @@
     "price_basis": null,
     "year_source": "research",
     "price_thb_listings": [
+      13000,
+      13300,
+      18000,
       20000
     ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Classic-era Sansui: warm, organic midrange with smooth clarity - often described as 'tube-like', with a lush, engaging presentation and a smooth top end. (Family-level: late-60s/early-70s AU line.)",
-    "thb_status": "For sale"
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-tr-707a",
@@ -18192,12 +18266,13 @@
     "price_basis": null,
     "year_source": "research",
     "price_thb_listings": [
-      4000
+      5900
     ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Classic-era Sansui: warm, organic midrange with smooth clarity - often described as 'tube-like', with a lush, engaging presentation and a smooth top end. (Family-level: late-60s/early-70s AU line.)",
-    "thb_status": "For sale"
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-au-3500",
@@ -18262,7 +18337,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Silver-era Sansui: the warm, musical house sound of Sansui's peak years - full-bodied and rich with a smooth top end and an engaging, non-fatiguing presentation. (Family-level: mid/late-70s silver-face line.)",
-    "thb_status": "Sold"
+    "thb_status": "Sold",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-500a",
@@ -18327,7 +18403,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Tube-era Sansui: the warm, rich valve presentation - smooth top end and a full, engaging midrange. (Family-level: tube era.)",
-    "thb_status": "For sale"
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-au-d707x-1984",
@@ -18855,7 +18932,9 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 10",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      13500
+    ],
     "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
@@ -18898,13 +18977,14 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Super Feedforward voicing: clean and low in distortion, notably good with strings, but with slightly less punch and bottom-end weight than the earlier warm Sansuis. (Family-level: Super Feedforward D-series.)",
-    "thb_status": null,
+    "thb_status": "For sale",
     "auto_price": {
       "source": "hifishark.com",
       "date": "2026-08",
       "n": 22,
       "median_usd": 732
-    }
+    },
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-au-d907g-extra-1983",
@@ -18926,7 +19006,9 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 10",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      11500
+    ],
     "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
@@ -18969,13 +19051,14 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Super Feedforward voicing: clean and low in distortion, notably good with strings, but with slightly less punch and bottom-end weight than the earlier warm Sansuis. (Family-level: Super Feedforward D-series.)",
-    "thb_status": null,
+    "thb_status": "For sale",
     "auto_price": {
       "source": "hifishark.com",
       "date": "2026-08",
       "n": 29,
       "median_usd": 1038
-    }
+    },
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-a-80-1980",
@@ -19039,7 +19122,8 @@
     "price_basis": null,
     "usd_msrp": null,
     "market": null,
-    "year_source": "research"
+    "year_source": "research",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-au-alpha305rx-1997",
@@ -19103,7 +19187,8 @@
     "price_basis": null,
     "usd_msrp": null,
     "market": null,
-    "year_source": "research"
+    "year_source": "research",
+    "thb_checked": "2026-08"
   },
   {
     "id": "sansui-b-7000-1973",

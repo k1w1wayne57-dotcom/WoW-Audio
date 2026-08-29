@@ -514,3 +514,5 @@ tbody td {
 .hist-genhead { color: #7aa7d9; font-size: .82rem; font-weight: 700; letter-spacing: .04em;
   margin: 14px 0 6px; text-transform: uppercase; }
 .hist-genhead .hist-tally { color: var(--text-secondary); font-weight: 500; }
+
+.thb-spread { color: var(--text-secondary); font-size: 0.78rem; font-weight: 400; }

@@ -263,7 +263,12 @@ function formatPrice(item) {
     parts.push(`$${item.avg_price_usd_3mo.toLocaleString()}${label}`);
   }
   if (item.price_thb_listings && item.price_thb_listings.length) {
-    parts.push(item.price_thb_listings.map(v => `฿${v.toLocaleString()}`).join(" · "));
+    const t = item.price_thb_listings;
+    // several listings for one model -> lead with the average, keep the spread
+    parts.push(t.length > 1
+      ? `฿${Math.round(t.reduce((a, b) => a + b, 0) / t.length).toLocaleString()} avg `
+        + `<span class="thb-spread">(${t.length} listings, ฿${Math.min(...t).toLocaleString()}–฿${Math.max(...t).toLocaleString()})</span>`
+      : `฿${t[0].toLocaleString()}`);
   }
   return parts.length ? parts.join(" / ") : "—";
 }
