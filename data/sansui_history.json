@@ -2631,5 +2631,729 @@
         }
       ]
     }
+  ],
+  "generations": {
+    "au517": {
+      "generation": "First Generation of 07 Series",
+      "gen_short": "1st Gen 07",
+      "model": "AU-517"
+    },
+    "au607": {
+      "generation": "First Generation of 07 Series",
+      "gen_short": "1st Gen 07",
+      "model": "AU-607"
+    },
+    "au717": {
+      "generation": "First Generation of 07 Series",
+      "gen_short": "1st Gen 07",
+      "model": "AU-717"
+    },
+    "au707": {
+      "generation": "First Generation of 07 Series",
+      "gen_short": "1st Gen 07",
+      "model": "AU-707"
+    },
+    "au317": {
+      "generation": null,
+      "gen_short": null,
+      "model": "AU-317"
+    },
+    "au519": {
+      "generation": "Second Generation of 07 Series",
+      "gen_short": "2nd Gen 07",
+      "model": "AU-519"
+    },
+    "aud607": {
+      "generation": "Second Generation of 07 Series",
+      "gen_short": "2nd Gen 07",
+      "model": "AU-D607"
+    },
+    "au819": {
+      "generation": "Second Generation of 07 Series",
+      "gen_short": "2nd Gen 07",
+      "model": "AU-819"
+    },
+    "aud707": {
+      "generation": "Second Generation of 07 Series",
+      "gen_short": "2nd Gen 07",
+      "model": "AU-D707"
+    },
+    "au919": {
+      "generation": "Second Generation of 07 Series",
+      "gen_short": "2nd Gen 07",
+      "model": "AU-919"
+    },
+    "aud907": {
+      "generation": "Second Generation of 07 Series",
+      "gen_short": "2nd Gen 07",
+      "model": "AU-D907"
+    },
+    "aud907limited": {
+      "generation": "LIMITED EDITION",
+      "gen_short": "Limited Edition",
+      "model": "AU-D907 LIMITED"
+    },
+    "aux1": {
+      "generation": "X 1 Series",
+      "gen_short": "X-1 Series",
+      "model": "AU-X1"
+    },
+    "aud607f": {
+      "generation": "Third Generation of 07 Series",
+      "gen_short": "3rd Gen 07",
+      "model": "AU-D607F"
+    },
+    "aud9": {
+      "generation": "Third Generation of 07 Series",
+      "gen_short": "3rd Gen 07",
+      "model": "AU-D9"
+    },
+    "aud707f": {
+      "generation": "Third Generation of 07 Series",
+      "gen_short": "3rd Gen 07",
+      "model": "AU-D707F"
+    },
+    "aud11": {
+      "generation": "Third Generation of 07 Series",
+      "gen_short": "3rd Gen 07",
+      "model": "AU-D11"
+    },
+    "aud907f": {
+      "generation": "Third Generation of 07 Series",
+      "gen_short": "3rd Gen 07",
+      "model": "AU-D907F"
+    },
+    "aud607fextra": {
+      "generation": "Fourth Generation of 07 Series",
+      "gen_short": "4th Gen 07",
+      "model": "AU-D607F EXTRA"
+    },
+    "aud707fextra": {
+      "generation": "Fourth Generation of 07 Series",
+      "gen_short": "4th Gen 07",
+      "model": "AU-D707F EXTRA"
+    },
+    "aud907fextra": {
+      "generation": "Fourth Generation of 07 Series",
+      "gen_short": "4th Gen 07",
+      "model": "AU-D907F EXTRA"
+    },
+    "aux11": {
+      "generation": "X 1 Series",
+      "gen_short": "X-1 Series",
+      "model": "AU-X11"
+    },
+    "b2301": {
+      "generation": "Power Amplifier",
+      "gen_short": "Power Amp",
+      "model": "B-2301"
+    },
+    "aud607gextra": {
+      "generation": "Fifth Generation of 07 Series",
+      "gen_short": "5th Gen 07",
+      "model": "AU-D607G EXTRA"
+    },
+    "aud707gextra": {
+      "generation": "Fifth Generation of 07 Series",
+      "gen_short": "5th Gen 07",
+      "model": "AU-D707G EXTRA"
+    },
+    "aud907gextra": {
+      "generation": "Fifth Generation of 07 Series",
+      "gen_short": "5th Gen 07",
+      "model": "AU-D907G EXTRA"
+    },
+    "b2201": {
+      "generation": "Power Amplifier",
+      "gen_short": "Power Amp",
+      "model": "B-2201"
+    },
+    "aud11ii": {
+      "generation": null,
+      "gen_short": null,
+      "model": "AU-D11 II"
+    },
+    "aud507x": {
+      "generation": "Sixth Generation of 07 Series",
+      "gen_short": "6th Gen 07",
+      "model": "AU-D507X"
+    },
+    "aud607x": {
+      "generation": "Sixth Generation of 07 Series",
+      "gen_short": "6th Gen 07",
+      "model": "AU-D607X"
+    },
+    "aud707x": {
+      "generation": "Sixth Generation of 07 Series",
+      "gen_short": "6th Gen 07",
+      "model": "AU-D707X"
+    },
+    "aud907x": {
+      "generation": "Sixth Generation of 07 Series",
+      "gen_short": "6th Gen 07",
+      "model": "AU-D907X"
+    },
+    "aux111mos": {
+      "generation": "X 1 Series",
+      "gen_short": "X-1 Series",
+      "model": "AU-X111 MOS"
+    },
+    "aux111": {
+      "generation": "X 1 Series",
+      "gen_short": "X-1 Series",
+      "model": "AU-X111"
+    },
+    "aug90x": {
+      "generation": null,
+      "gen_short": null,
+      "model": "AU-G90X"
+    },
+    "aug99x": {
+      "generation": null,
+      "gen_short": null,
+      "model": "AU-G99X"
+    },
+    "aud707xdecade": {
+      "generation": "LIMITED EDITION",
+      "gen_short": "Limited Edition",
+      "model": "AU-D707X DECADE"
+    },
+    "aud907xdecade": {
+      "generation": "LIMITED EDITION",
+      "gen_short": "Limited Edition",
+      "model": "AU-D907X DECADE"
+    },
+    "b2201l": {
+      "generation": "Power Amplifier",
+      "gen_short": "Power Amp",
+      "model": "B-2201L"
+    },
+    "aualpha307": {
+      "generation": "Seventh Generation of 07 Series Beginning of Alfa Series",
+      "gen_short": "7th Gen 07",
+      "model": "AU-AL307"
+    },
+    "aualpha507": {
+      "generation": "Seventh Generation of 07 Series Beginning of Alfa Series",
+      "gen_short": "7th Gen 07",
+      "model": "AU-AL507"
+    },
+    "aualpha607": {
+      "generation": "Seventh Generation of 07 Series Beginning of Alfa Series",
+      "gen_short": "7th Gen 07",
+      "model": "AU-AL607"
+    },
+    "aualpha707": {
+      "generation": "Seventh Generation of 07 Series Beginning of Alfa Series",
+      "gen_short": "7th Gen 07",
+      "model": "AU-AL707"
+    },
+    "aualpha907": {
+      "generation": "Seventh Generation of 07 Series Beginning of Alfa Series",
+      "gen_short": "7th Gen 07",
+      "model": "AU-AL907"
+    },
+    "aug77xii": {
+      "generation": null,
+      "gen_short": null,
+      "model": "AU-G77X II"
+    },
+    "aualpha507i": {
+      "generation": "Eighth Generation of 07 Series",
+      "gen_short": "8th Gen 07",
+      "model": "AU-AL507i"
+    },
+    "aualpha606i": {
+      "generation": "Eighth Generation of 07 Series",
+      "gen_short": "8th Gen 07",
+      "model": "AU-AL606i"
+    },
+    "aux701": {
+      "generation": "Eighth Generation of 07 Series",
+      "gen_short": "8th Gen 07",
+      "model": "AU-X701"
+    },
+    "aualpha607i": {
+      "generation": "Eighth Generation of 07 Series",
+      "gen_short": "8th Gen 07",
+      "model": "AU-AL607i"
+    },
+    "aux901": {
+      "generation": "Eighth Generation of 07 Series",
+      "gen_short": "8th Gen 07",
+      "model": "AU-X901"
+    },
+    "aualpha707i": {
+      "generation": "Eighth Generation of 07 Series",
+      "gen_short": "8th Gen 07",
+      "model": "AU-AL707i"
+    },
+    "aualpha907i": {
+      "generation": "Eighth Generation of 07 Series",
+      "gen_short": "8th Gen 07",
+      "model": "AU-AL907i"
+    },
+    "aualpha907imoslimited": {
+      "generation": "LIMITED EDITION",
+      "gen_short": "Limited Edition",
+      "model": "AU-AL907i MOS LIMITED"
+    },
+    "aualpha507extra": {
+      "generation": "Ninth Generation of 07 Series",
+      "gen_short": "9th Gen 07",
+      "model": "AU-AL507EXTRA"
+    },
+    "aualpha607extra": {
+      "generation": "Ninth Generation of 07 Series",
+      "gen_short": "9th Gen 07",
+      "model": "AU-AL607EXTRA"
+    },
+    "aualpha707extra": {
+      "generation": "Ninth Generation of 07 Series",
+      "gen_short": "9th Gen 07",
+      "model": "AU-AL707EXTRA"
+    },
+    "aualpha907extra": {
+      "generation": "Ninth Generation of 07 Series",
+      "gen_short": "9th Gen 07",
+      "model": "AU-AL907EXTRA"
+    },
+    "aux1111mos": {
+      "generation": "X 1 Series",
+      "gen_short": "X-1 Series",
+      "model": "AU-X1111 MOS"
+    },
+    "b2102mos": {
+      "generation": "Power Amplifier",
+      "gen_short": "Power Amp",
+      "model": "B-2102 MOS"
+    },
+    "aux911dg": {
+      "generation": "One Number Three Digit",
+      "gen_short": "3-Digit",
+      "model": "AU-X911DG"
+    },
+    "aualpha777dg": {
+      "generation": "One Number Three Digit",
+      "gen_short": "3-Digit",
+      "model": "AU-AL777DG"
+    },
+    "aux711": {
+      "generation": "Tenth Generation of 07 Series",
+      "gen_short": "10th Gen 07",
+      "model": "AU-X711"
+    },
+    "aualpha607lextra": {
+      "generation": "Tenth Generation of 07 Series",
+      "gen_short": "10th Gen 07",
+      "model": "AU-AL607L EXTRA"
+    },
+    "aualpha707lextra": {
+      "generation": "Tenth Generation of 07 Series",
+      "gen_short": "10th Gen 07",
+      "model": "AU-AL707L EXTRA"
+    },
+    "aualpha907lextra": {
+      "generation": "Tenth Generation of 07 Series",
+      "gen_short": "10th Gen 07",
+      "model": "AU-AL907L EXTRA"
+    },
+    "aualpha999dg": {
+      "generation": "One Number Three Digit",
+      "gen_short": "3-Digit",
+      "model": "AU-AL999DG"
+    },
+    "aualpha607dr": {
+      "generation": "Eleventh Generation of 07 Series",
+      "gen_short": "11th Gen 07",
+      "model": "AU-AL607DR"
+    },
+    "aualpha707dr": {
+      "generation": "Eleventh Generation of 07 Series",
+      "gen_short": "11th Gen 07",
+      "model": "AU-AL707DR"
+    },
+    "aualpha907dr": {
+      "generation": "Eleventh Generation of 07 Series",
+      "gen_short": "11th Gen 07",
+      "model": "AU-AL907DR"
+    },
+    "b2302v": {
+      "generation": "Power Amplifier",
+      "gen_short": "Power Amp",
+      "model": "B-2302V"
+    },
+    "aualpha607mospremium": {
+      "generation": "LIMITED EDITION",
+      "gen_short": "Limited Edition",
+      "model": "AU-AL607 MOS PREMIUM"
+    },
+    "aualpha507r": {
+      "generation": null,
+      "gen_short": null,
+      "model": "AU-AL507R"
+    },
+    "aualpha607kx": {
+      "generation": "Twelfth Generation of 07 Series",
+      "gen_short": "12th Gen 07",
+      "model": "AU-AL607KX"
+    },
+    "aualpha707kx": {
+      "generation": "Twelfth Generation of 07 Series",
+      "gen_short": "12th Gen 07",
+      "model": "AU-AL707KX"
+    },
+    "aualpha907kx": {
+      "generation": "Twelfth Generation of 07 Series",
+      "gen_short": "12th Gen 07",
+      "model": "AU-AL907KX"
+    },
+    "c2302v": {
+      "generation": "Pre Amplifier",
+      "gen_short": "Pre Amp",
+      "model": "C-2302V"
+    },
+    "b2103mosvintage": {
+      "generation": "Power Amplifier",
+      "gen_short": "Power Amp",
+      "model": "B-2103 MOS VINTAGE"
+    },
+    "aualpha507xr": {
+      "generation": "Thirteenth Generation of 07 Series",
+      "gen_short": "13th Gen 07",
+      "model": "AU-AL507XR"
+    },
+    "aualpha607xr": {
+      "generation": "Thirteenth Generation of 07 Series",
+      "gen_short": "13th Gen 07",
+      "model": "AU-AL607XR"
+    },
+    "aualpha707xr": {
+      "generation": "Thirteenth Generation of 07 Series",
+      "gen_short": "13th Gen 07",
+      "model": "AU-AL707XR"
+    },
+    "aualpha907xr": {
+      "generation": "Thirteenth Generation of 07 Series",
+      "gen_short": "13th Gen 07",
+      "model": "AU-AL907XR"
+    },
+    "aualpha907limited": {
+      "generation": "LIMITED EDITION",
+      "gen_short": "Limited Edition",
+      "model": "AU-AL907 LIMITED"
+    },
+    "aualpha607mrx": {
+      "generation": "Fourteenth Generation of 07 Series",
+      "gen_short": "14th Gen 07",
+      "model": "AU-607MRX"
+    },
+    "aualpha607mr": {
+      "generation": "Fourteenth Generation of 07 Series",
+      "gen_short": "14th Gen 07",
+      "model": "AU-AL607MR"
+    },
+    "aualpha707mr": {
+      "generation": "Fourteenth Generation of 07 Series",
+      "gen_short": "14th Gen 07",
+      "model": "AU-AL707MR"
+    },
+    "aualpha907mr": {
+      "generation": "Fourteenth Generation of 07 Series",
+      "gen_short": "14th Gen 07",
+      "model": "AU-AL907MR"
+    },
+    "b209thetube": {
+      "generation": "Tube Amplifier",
+      "gen_short": "Tube Amp",
+      "model": "B-209 The Tube"
+    },
+    "au07anniversary": {
+      "generation": "LIMITED EDITION",
+      "gen_short": "Limited Edition",
+      "model": "AU-07 ANNIVERSARY"
+    },
+    "c2105v": {
+      "generation": "Pre Amplifier",
+      "gen_short": "Pre Amp",
+      "model": "C-2105V"
+    },
+    "b2105v": {
+      "generation": "Power Amplifier",
+      "gen_short": "Power Amp",
+      "model": "B2105V"
+    },
+    "aualpha607nra": {
+      "generation": "Fifteenth Generation of 07 Series",
+      "gen_short": "15th Gen 07",
+      "model": "AU-AL607NRA"
+    },
+    "aualpha707nra": {
+      "generation": "Fifteenth Generation of 07 Series",
+      "gen_short": "15th Gen 07",
+      "model": "AU-AL707NRA"
+    },
+    "aualpha907nra": {
+      "generation": "Fifteenth Generation of 07 Series",
+      "gen_short": "15th Gen 07",
+      "model": "AU-AL907NRA"
+    },
+    "aualpha607nraii": {
+      "generation": null,
+      "gen_short": null,
+      "model": "AU-AL607NRA II"
+    },
+    "aualpha607moslimited": {
+      "generation": "LIMITED EDITION",
+      "gen_short": "Limited Edition",
+      "model": "AU-AL607 MOS LIMITED"
+    },
+    "c2302p": {
+      "generation": "Pre Amplifier",
+      "gen_short": "Pre Amp",
+      "model": "C-2302P"
+    },
+    "au111vintage": {
+      "generation": "LIMITED EDITION-TUBE INTEGRATED REPRODUCTION",
+      "gen_short": "Ltd Ed · Tube",
+      "model": "AU-111 VINTAGE"
+    },
+    "au111gvintage": {
+      "generation": "LIMITED EDITION-TUBE INTEGRATED",
+      "gen_short": "Ltd Ed · Tube",
+      "model": "AU-111G VINTAGE"
+    },
+    "g2000": {
+      "generation": "G-Series First Generation (silver face, 1977-79)",
+      "gen_short": "G 1st Gen",
+      "model": "G-2000"
+    },
+    "g301": {
+      "generation": "G-Series First Generation (silver face, 1977-79)",
+      "gen_short": "G 1st Gen",
+      "model": "G-301"
+    },
+    "g3000": {
+      "generation": "G-Series First Generation (silver face, 1977-79)",
+      "gen_short": "G 1st Gen",
+      "model": "G-3000"
+    },
+    "g501": {
+      "generation": "G-Series First Generation (silver face, 1977-79)",
+      "gen_short": "G 1st Gen",
+      "model": "G-501"
+    },
+    "g5000": {
+      "generation": "G-Series First Generation (silver face, 1977-79)",
+      "gen_short": "G 1st Gen",
+      "model": "G-5000"
+    },
+    "g601": {
+      "generation": "G-Series First Generation (silver face, 1977-79)",
+      "gen_short": "G 1st Gen",
+      "model": "G-601"
+    },
+    "g6000": {
+      "generation": "G-Series First Generation (silver face, 1977-79)",
+      "gen_short": "G 1st Gen",
+      "model": "G-6000"
+    },
+    "g701": {
+      "generation": "G-Series First Generation (silver face, 1977-79)",
+      "gen_short": "G 1st Gen",
+      "model": "G-701"
+    },
+    "g7000": {
+      "generation": "G-Series First Generation (silver face, 1977-79)",
+      "gen_short": "G 1st Gen",
+      "model": "G-7000"
+    },
+    "g801": {
+      "generation": "G-Series First Generation (silver face, 1977-79)",
+      "gen_short": "G 1st Gen",
+      "model": "G-801"
+    },
+    "g8000": {
+      "generation": "G-Series First Generation (silver face, 1977-79)",
+      "gen_short": "G 1st Gen",
+      "model": "G-8000"
+    },
+    "g901": {
+      "generation": "G-Series First Generation (silver face, 1977-79)",
+      "gen_short": "G 1st Gen",
+      "model": "G-901"
+    },
+    "g9000": {
+      "generation": "G-Series First Generation (silver face, 1977-79)",
+      "gen_short": "G 1st Gen",
+      "model": "G-9000"
+    },
+    "g9000db": {
+      "generation": "G-Series First Generation (silver face, 1977-79)",
+      "gen_short": "G 1st Gen",
+      "model": "G-9000DB"
+    },
+    "g22000": {
+      "generation": "G-Series Monster two-piece (1978-81)",
+      "gen_short": "G Monster",
+      "model": "G-22000"
+    },
+    "g33000": {
+      "generation": "G-Series Monster two-piece (1978-81)",
+      "gen_short": "G Monster",
+      "model": "G-33000"
+    },
+    "g3500": {
+      "generation": "G-Series Second Generation (x500, 1978-80)",
+      "gen_short": "G 2nd Gen",
+      "model": "G-3500"
+    },
+    "g4500": {
+      "generation": "G-Series Second Generation (x500, 1978-80)",
+      "gen_short": "G 2nd Gen",
+      "model": "G-4500"
+    },
+    "g5500": {
+      "generation": "G-Series Second Generation (x500, 1978-80)",
+      "gen_short": "G 2nd Gen",
+      "model": "G-5500"
+    },
+    "g4700": {
+      "generation": "G-Series Third Generation (Pure Power DC, 1979-82)",
+      "gen_short": "G 3rd Gen (DC)",
+      "model": "G-4700"
+    },
+    "g5700": {
+      "generation": "G-Series Third Generation (Pure Power DC, 1979-82)",
+      "gen_short": "G 3rd Gen (DC)",
+      "model": "G-5700"
+    },
+    "g6700": {
+      "generation": "G-Series Third Generation (Pure Power DC, 1979-82)",
+      "gen_short": "G 3rd Gen (DC)",
+      "model": "G-6700"
+    },
+    "g7700": {
+      "generation": "G-Series Third Generation (Pure Power DC, 1979-82)",
+      "gen_short": "G 3rd Gen (DC)",
+      "model": "G-7700"
+    },
+    "g871db": {
+      "generation": "G-Series Third Generation (Pure Power DC, 1979-82)",
+      "gen_short": "G 3rd Gen (DC)",
+      "model": "G-871DB"
+    },
+    "g8700db": {
+      "generation": "G-Series Third Generation (Pure Power DC, 1979-82)",
+      "gen_short": "G 3rd Gen (DC)",
+      "model": "G-8700DB"
+    },
+    "g9700": {
+      "generation": "G-Series Third Generation (Pure Power DC, 1979-82)",
+      "gen_short": "G 3rd Gen (DC)",
+      "model": "G-9700"
+    }
+  },
+  "gen_pairs": [
+    {
+      "jdm": "AU-607",
+      "intl": "AU-517",
+      "generation": "First Generation of 07 Series"
+    },
+    {
+      "jdm": "AU-707",
+      "intl": "AU-717",
+      "generation": "First Generation of 07 Series"
+    },
+    {
+      "jdm": "AU-D607",
+      "intl": "AU-519",
+      "generation": "Second Generation of 07 Series"
+    },
+    {
+      "jdm": "AU-D707",
+      "intl": "AU-819",
+      "generation": "Second Generation of 07 Series"
+    },
+    {
+      "jdm": "AU-D907",
+      "intl": "AU-919",
+      "generation": "Second Generation of 07 Series"
+    },
+    {
+      "jdm": "AU-D707F",
+      "intl": "AU-D9",
+      "generation": "Third Generation of 07 Series"
+    },
+    {
+      "jdm": "AU-D907F",
+      "intl": "AU-D11",
+      "generation": "Third Generation of 07 Series"
+    },
+    {
+      "jdm": "AU-X111",
+      "intl": "AU-X111 MOS",
+      "generation": "X 1 Series"
+    },
+    {
+      "jdm": "AU-AL607i",
+      "intl": "AU-X701",
+      "generation": "Eighth Generation of 07 Series"
+    },
+    {
+      "jdm": "AU-AL707i",
+      "intl": "AU-X901",
+      "generation": "Eighth Generation of 07 Series"
+    },
+    {
+      "jdm": "AU-AL777DG",
+      "intl": "AU-X911DG",
+      "generation": "One Number Three Digit"
+    },
+    {
+      "jdm": "AU-AL607L EXTRA",
+      "intl": "AU-X711",
+      "generation": "Tenth Generation of 07 Series"
+    },
+    {
+      "jdm": "AU-AL607MR",
+      "intl": "AU-607MRX",
+      "generation": "Fourteenth Generation of 07 Series"
+    },
+    {
+      "jdm": "G-3000",
+      "intl": "G-301",
+      "generation": "G-Series First Generation (silver face, 1977-79)"
+    },
+    {
+      "jdm": "G-5000",
+      "intl": "G-501",
+      "generation": "G-Series First Generation (silver face, 1977-79)"
+    },
+    {
+      "jdm": "G-6000",
+      "intl": "G-601",
+      "generation": "G-Series First Generation (silver face, 1977-79)"
+    },
+    {
+      "jdm": "G-7000",
+      "intl": "G-701",
+      "generation": "G-Series First Generation (silver face, 1977-79)"
+    },
+    {
+      "jdm": "G-8000",
+      "intl": "G-801",
+      "generation": "G-Series First Generation (silver face, 1977-79)"
+    },
+    {
+      "jdm": "G-9000",
+      "intl": "G-901",
+      "generation": "G-Series First Generation (silver face, 1977-79)"
+    },
+    {
+      "jdm": "G-8700DB",
+      "intl": "G-871DB",
+      "generation": "G-Series Third Generation (Pure Power DC, 1979-82)"
+    }
   ]
 }

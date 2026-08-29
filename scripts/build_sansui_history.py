@@ -6,6 +6,7 @@ topology headings + models) for the app's "History" timeline view. This is a
 RESOURCE only — it does not add records to the main brand tables.
 """
 import re
+import sys
 import json
 from pathlib import Path
 
@@ -78,6 +79,69 @@ def parse_model(line):
             "market": market, "pair": pair, "note": note}
 
 
+GEN_SRC = Path(__file__).resolve().parent / "sansui_generations.txt"
+
+# Share one normaliser with the backfill tools so 'AU-AL607', 'AU-α607' and
+# 'AU-Alpha-607' all resolve to the same key.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from backfill_specs import norm_model  # noqa: E402
+
+# Short labels for the chips — the full wording is kept for the tooltip.
+# G-series patterns MUST come first: "G-Series Third Generation" also contains
+# "third generation", which would otherwise mislabel receivers as 07-series.
+GEN_SHORT = [
+    (r"g-series first", "G 1st Gen"), (r"g-series monster", "G Monster"),
+    (r"g-series second", "G 2nd Gen"), (r"g-series third", "G 3rd Gen (DC)"),
+    (r"first generation", "1st Gen 07"), (r"second generation", "2nd Gen 07"),
+    (r"third generation", "3rd Gen 07"), (r"fourth generation", "4th Gen 07"),
+    (r"fifth generation", "5th Gen 07"), (r"sixth generation", "6th Gen 07"),
+    (r"seventh generation", "7th Gen 07"), (r"eighth generation", "8th Gen 07"),
+    (r"ninth generation", "9th Gen 07"), (r"tenth generation", "10th Gen 07"),
+    (r"eleventh generation", "11th Gen 07"), (r"twelfth generation", "12th Gen 07"),
+    (r"thirteenth generation", "13th Gen 07"), (r"fourteenth generation", "14th Gen 07"),
+    (r"fifteenth generation", "15th Gen 07"),
+    (r"x 1 series", "X-1 Series"), (r"limited edition-tube", "Ltd Ed · Tube"),
+    (r"limited edition", "Limited Edition"), (r"one number three digit", "3-Digit"),
+    (r"power amplifier", "Power Amp"), (r"pre amplifier", "Pre Amp"),
+    (r"tube amplifier", "Tube Amp"),
+]
+
+
+def short_gen(label):
+    low = (label or "").lower()
+    for pat, short in GEN_SHORT:
+        if re.search(pat, low):
+            return short
+    return None
+
+
+def parse_generations():
+    """Wayne's generation table -> {norm_model: {...}} plus JDM<->intl pairs."""
+    out, pairs = {}, []
+    if not GEN_SRC.exists():
+        return out, pairs
+    for raw in GEN_SRC.read_text(encoding="utf-8").splitlines():
+        line = raw.strip()
+        if not line or line.startswith("#") or "|" not in line:
+            continue
+        parts = [p.strip() for p in line.split("|")]
+        gen = parts[0] if parts else ""
+        intl = parts[1] if len(parts) > 1 else ""
+        jdm = parts[2] if len(parts) > 2 else ""
+        # skip aggregate/no-model rows like "AU-517,AU-717"
+        if "," in intl:
+            intl = ""
+        short = short_gen(gen)
+        for name in (intl, jdm):
+            if not name or name.lower().startswith("sansui au-@"):
+                continue
+            out[norm_model(name)] = {"generation": gen or None, "gen_short": short,
+                                     "model": name}
+        if intl and jdm and intl.lower() != jdm.lower() and "," not in intl:
+            pairs.append({"jdm": jdm, "intl": intl, "generation": gen or None})
+    return out, pairs
+
+
 def main():
     category = None
     generation = None
@@ -129,7 +193,10 @@ def main():
     # drop empty sections
     sections = [s for s in sections if any(g["models"] for g in s["groups"])]
     total = sum(len(g["models"]) for s in sections for g in s["groups"])
-    OUT.write_text(json.dumps({"source": SOURCE, "sections": sections},
+    gens, pairs = parse_generations()
+    print(f"  generations: {len(gens)} models labelled, {len(pairs)} JDM<->intl pairs")
+    OUT.write_text(json.dumps({"source": SOURCE, "sections": sections,
+                               "generations": gens, "gen_pairs": pairs},
                               ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Wrote {OUT.relative_to(ROOT)} — {len(sections)} sections, {total} models")
 

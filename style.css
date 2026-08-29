@@ -487,7 +487,9 @@ tbody td {
   text-transform: uppercase; margin: 42px 0 4px; padding-bottom: 6px; border-bottom: 2px solid var(--border); }
 .hist-tally { color: var(--text-secondary); font-size: .72rem; font-weight: 500; letter-spacing: 0; margin-left: 6px; }
 /* decade */
-.hist-gen { color: var(--text); font-size: 1.05rem; margin: 22px 0 8px; opacity: .9; }
+.hist-gen { color: var(--gold-bright); font-size: 1.05rem; font-weight: 700; letter-spacing: .06em;
+  text-transform: uppercase; margin: 24px 0 8px; padding-bottom: 5px;
+  border-bottom: 1px solid var(--border); }
 
 .hist-models { display: flex; flex-wrap: wrap; gap: 8px; }
 .hist-model { background: var(--bg-alt); border: 1px solid var(--border); border-radius: 8px;
@@ -507,3 +509,7 @@ tbody td {
 #hist-search:focus { outline: none; border-color: var(--gold); }
 #hist-search::placeholder { color: var(--text-secondary); }
 .hist-count { color: var(--text-secondary); font-size: .82rem; white-space: nowrap; }
+
+.hist-genlabel { color: #7aa7d9; font-size: .7rem; font-weight: 600;
+  border: 1px solid currentColor; border-radius: 4px; padding: 0 4px; margin-left: 6px;
+  opacity: .85; vertical-align: 1px; }

@@ -279,6 +279,7 @@ function renderHistory() {
   const el = document.getElementById("history-content");
   if (!HISTORY || !HISTORY.sections) { el.innerHTML = "<p>History reference unavailable.</p>"; return; }
   const src = HISTORY.source || {};
+  const GENS = HISTORY.generations || {};
 
   // One unified timeline: every Sansui we know about, from the database and
   // from the Audiokarma product history, merged and keyed by model. DB records
@@ -340,11 +341,14 @@ function renderHistory() {
       rows.forEach(i => {
         const bits = [i.watts ? i.watts + "W" : null, i.market].filter(Boolean).join(" · ");
         const pair = i.pair ? ` <span class="hist-pair">↔ ${escapeHtml(i.pair)}</span>` : "";
-        const tip = [i.topology, i.series].filter(Boolean).join(" — ")
+        const g = GENS[normModel(i.model)];
+        const gen = g && g.gen_short
+          ? ` <span class="hist-genlabel">${escapeHtml(g.gen_short)}</span>` : "";
+        const tip = [g && g.generation, i.topology, i.series].filter(Boolean).join(" — ")
                  || (i.inDb ? "In your database — click for details" : "Reference only");
         html += `<span class="hist-model${i.inDb ? " in-db" : ""}" data-model="${normModel(i.model)}"`
               + ` title="${escapeHtml(tip)}"><b class="hist-name">${escapeHtml(i.model)}</b> `
-              + `<b class="hist-year">${i.year || "—"}</b>`
+              + `<b class="hist-year">${i.year || "—"}</b>` + gen
               + (bits ? ` <span class="hist-meta">${escapeHtml(bits)}</span>` : "")
               + `${pair}</span>`;
       });

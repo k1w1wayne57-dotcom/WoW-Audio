@@ -1,0 +1,223 @@
+brand	model	median_usd	n	confidence	range	status
+sansui	AU-666	571	14	Medium	$94-$916	written
+sansui	AU-9500	1791	20	Medium	$855-$16,960	written
+sansui	DCA-1001		0			too few
+sansui	AU-101	216	21	Medium	$72-$542	written
+sansui	AU-505	216	13	Medium	$110-$902	written
+sansui	500S		0			too few
+sansui	AU-5500	290	22	Medium	$85-$702	written
+sansui	AU-6500	826	30	Medium	$486-$1,146	written
+sansui	AU-6600	853	5	Medium	$719-$918	written
+sansui	AU-7500	902	33	Medium	$465-$1,381	written
+sansui	AU-7700	704	16	Medium	$475-$862	written
+sansui	AU-9900	1619	15	Medium	$97-$3,073	written
+sansui	AU-6900	674	4	Low	$184-$1,080	written
+sansui	AU-11000	2382	6	Medium	$182-$4,299	written
+sansui	AU-11000A	2430	4	Low	$2,160-$3,229	written
+sansui	AU-20000	6100	7	Medium	$2,052-$10,789	written
+sansui	AU-4400	162	3	Low	$88-$324	written
+sansui	AU-7900	1294	7	Medium	$756-$2,085	written
+sansui	AU-2900	255	8	Medium	$140-$476	written
+sansui	AU-607	887	17	Medium	$736-$948	written
+sansui	AU-2200	253	6	Medium	$198-$264	written
+sansui	AU-317	324	5	Medium	$312-$400	written
+sansui	AU-3900	286	11	Medium	$194-$400	written
+sansui	AU-4900	104	9	Medium	$86-$454	written
+sansui	AU-5900	594	11	Medium	$399-$6,144	written
+sansui	AU-717	236	18	Medium	$127-$1,391	written
+sansui	AU-9900A	2015	3	Low	$1,836-$2,912	written
+sansui	AU-117	192	10	Medium	$86-$270	written
+sansui	AU-217II		2			too few
+sansui	AU-317II		1			too few
+sansui	AU-517	648	7	Medium	$432-$1,368	written
+sansui	AU-707	948	29	Medium	$695-$1,269	written
+sansui	AU-117II		0			too few
+sansui	AU-919	1296	13	Medium	$110-$2,160	written
+sansui	AU-D707	910	4	Low	$864-$958	written
+sansui	AU-D907	4731	3	Low	$864-$10,468	written
+sansui	AU-217	194	12	Medium	$155-$243	written
+sansui	AU-417	391	13	Medium	$97-$756	written
+sansui	AU-519	391	3	Low	$110-$600	written
+sansui	AU-719	930	8	Medium	$64-$1,404	written
+sansui	AU-819		1			too few
+sansui	AU-X1	219	3	Low	$110-$15,841	written
+sansui	BA-3000	3258	14	Medium	$2,599-$4,120	written
+sansui	BA-5000	110	15	Medium	$85-$10,950	written
+sansui	BA-2000	2436	20	Medium	$1,296-$3,024	written
+sansui	BA-F1	985	9	Medium	$146-$2,653	written
+sansui	QA-7000	1576	9	Medium	$1,501-$1,602	written
+sansui	CA-3000	2455	11	Medium	$110-$18,029	written
+sansui	CA-2000	1393	14	Medium	$795-$2,484	written
+sansui	CA-F1		2			too few
+sansui	QSD-1		1			too few
+sansui	QS-1	2000	23	Medium	$73-$5,006	written
+sansui	QS-100	192	6	Medium	$110-$300	written
+sansui	QS-500	250	7	Medium	$149-$525	written
+sansui	1000X	418	11	Medium	$224-$799	written
+sansui	661.00		0			too few
+sansui	5000X	290	4	Low	$104-$645	written
+sansui	Eight Deluxe		1			too few
+sansui	210	180	9	Medium	$104-$258	written
+sansui	350A	300	9	Medium	$69-$475	written
+sansui	DCS-3000K		0			too few
+sansui	Eight	5777	4	Low	$234-$14,502	written
+sansui	Seven	712	6	Medium	$63-$1,000	written
+sansui	Six	313	5	Medium	$140-$1,349	written
+sansui	SM-26		0			too few
+sansui	SM-32		1			too few
+sansui	SM-34		0			too few
+sansui	221	169	7	Medium	$120-$238	written
+sansui	331	247	8	Medium	$162-$370	written
+sansui	441	270	4	Low	$162-$384	written
+sansui	551	284	6	Medium	$215-$342	written
+sansui	661	121	9	Medium	$97-$486	written
+sansui	771	593	9	Medium	$325-$755	written
+sansui	881	1177	7	Medium	$64-$3,681	written
+sansui	9090	2429	12	Medium	$86-$4,000	written
+sansui	B-50		0			too few
+sansui	1010		1			too few
+sansui	2020	124	4	Low	$95-$215	written
+sansui	5050	508	9	Medium	$132-$899	written
+sansui	6060	594	6	Medium	$449-$918	written
+sansui	7070	834	4	Low	$132-$1,512	written
+sansui	8080	122	7	Medium	$75-$1,700	written
+sansui	8080DB	1352	12	Medium	$119-$2,564	written
+sansui	9090DB	1999	13	Medium	$100-$3,240	written
+sansui	G-2000	492	10	Medium	$60-$1,840	written
+sansui	G-3000	438	11	Medium	$192-$702	written
+sansui	G-22000	148	12	Medium	$125-$14,500	written
+sansui	G-33000		2			too few
+sansui	G-5000	838	6	Medium	$132-$1,233	written
+sansui	G-5500	504	4	Low	$62-$2,200	written
+sansui	G-5700	675	6	Medium	$511-$1,597	written
+sansui	G-6000	89	4	Low	$89-$89	written
+sansui	G-7000	1250	7	Medium	$65-$3,543	written
+sansui	G-8000	1564	10	Medium	$195-$3,780	written
+sansui	G-8700DB	1890	6	Medium	$391-$2,695	written
+sansui	G-9000	174	8	Medium	$143-$253	written
+sansui	G-9000DB	4000	3	Low	$3,600-$5,750	written
+sansui	G-3500	629	5	Medium	$600-$3,199	written
+sansui	G-4500	964	3	Low	$768-$2,760	written
+sansui	G-7500	99	9	Medium	$86-$110	written
+sansui	TA-500	978	17	Medium	$160-$994	written
+sansui	G-4700		2			too few
+sansui	G-6700	1069	5	Medium	$800-$1,303	written
+sansui	G-7700	1326	10	Medium	$434-$2,592	written
+sansui	G-9700	3870	6	Medium	$95-$7,199	written
+sansui	QR-1500	199	3	Low	$189-$239	written
+sansui	QR-4500	540	5	Medium	$275-$699	written
+sansui	QR-500		1			too few
+sansui	QR-6500		2			too few
+sansui	QRX-3500	370	10	Medium	$175-$423	written
+sansui	QRX-5500	849	9	Medium	$300-$1,200	written
+sansui	QRX-6500	648	3	Low	$594-$649	written
+sansui	QRX-7500		1			too few
+sansui	QRX-3000		2			too few
+sansui	QRX-6001	982	6	Medium	$200-$1,400	written
+sansui	QRX-7001	101	10	Medium	$86-$402	written
+sansui	QRX-5001		1			too few
+sansui	QRX-8001		1			too few
+sansui	QRX-9001	2824	4	Low	$2,095-$4,657	written
+sansui	SD-7000		1			too few
+sansui	SD-5000	438	21	Medium	$366-$449	written
+sansui	QD-5500	103	11	Medium	$86-$509	written
+sansui	RA-500	252	10	Medium	$99-$540	written
+sansui	RA-700	238	4	Low	$97-$300	written
+sansui	TU-999	447	6	Medium	$408-$499	written
+sansui	TU-666	1815	23	Medium	$91-$4,703	written
+sansui	TU-9500	438	6	Medium	$110-$1,189	written
+sansui	TU-505		1			too few
+sansui	TU-7500	302	5	Medium	$99-$839	written
+sansui	TU-7700	63	3	Low	$60-$306	written
+sansui	TU-4400	102	3	Low	$99-$127	written
+sansui	TU-9900	1032	23	Medium	$432-$1,349	written
+sansui	TU-3900	146	12	Medium	$70-$647	written
+sansui	TU-5500		2			too few
+sansui	TU-5900	176	6	Medium	$99-$227	written
+sansui	TU-717	575	13	Medium	$299-$795	written
+sansui	TU-7900	324	3	Low	$110-$367	written
+sansui	TU-217	130	16	Medium	$80-$238	written
+sansui	TU-317	108	5	Medium	$86-$184	written
+sansui	TU-517	300	8	Medium	$99-$600	written
+sansui	TU-919	110	6	Medium	$102-$699	written
+sansui	TU-X1	1296	15	Medium	$594-$3,806	written
+sansui	AU-D-Alpha-607		0			too few
+sansui	AU-D-Alpha-907 LIMITED		0			too few
+sansui	AU-D607	916	13	Medium	$521-$6,972	written
+sansui	TU-707	1856	10	Medium	$391-$4,707	written
+sansui	AU-3500		1			too few
+sansui	AU-D907 LIMITED	3733	12	Medium	$469-$4,549	written
+sansui	B-7000		0			too few
+sansui	7000	478	4	Low	$415-$700	written
+marantz	Superscope BLA-530		0			too few
+marantz	Model 19		1			too few
+marantz	Model 26		2			too few
+marantz	Model 27		1			too few
+marantz	1030	281	25	Medium	$80-$590	written
+marantz	1060	442	28	Medium	$100-$900	written
+marantz	1070	504	20	Medium	$275-$1,595	written
+marantz	1090	330	26	Medium	$104-$825	written
+marantz	1150	142	16	Medium	$117-$1,242	written
+marantz	1200	972	11	Medium	$121-$1,643	written
+marantz	1200B	1099	7	Medium	$108-$1,799	written
+marantz	1250	225	19	Medium	$98-$18,000	written
+marantz	1300 DC		1			too few
+marantz	2215	324	9	Medium	$110-$499	written
+marantz	2215B	481	8	Medium	$64-$900	written
+marantz	2216B	539	7	Medium	$375-$675	written
+marantz	2218	460	8	Medium	$138-$649	written
+marantz	2220B	725	10	Medium	$268-$1,099	written
+marantz	2230	477	20	Medium	$100-$1,359	written
+marantz	2235	143	3	Low	$143-$1,050	written
+marantz	2235B	559	10	Medium	$292-$918	written
+marantz	2226B	594	12	Medium	$365-$1,200	written
+marantz	2238B	900	21	Medium	$497-$1,500	written
+marantz	2245	950	19	Medium	$69-$2,450	written
+marantz	2250B	1278	5	Medium	$142-$1,619	written
+marantz	2270	972	25	Medium	$103-$2,862	written
+marantz	2285B	2106	9	Medium	$164-$2,999	written
+marantz	2325	2554	21	Medium	$60-$4,000	written
+marantz	2330B	112	22	Medium	$69-$156	written
+marantz	2385	5399	9	Medium	$4,320-$7,020	written
+marantz	2500	8500	9	Medium	$5,292-$13,932	written
+marantz	2600	9180	6	Medium	$154-$15,500	written
+marantz	3300	918	11	Medium	$108-$1,728	written
+marantz	4230	240	18	Medium	$100-$1,250	written
+marantz	4270	1512	14	Medium	$86-$2,799	written
+marantz	4300	1695	15	Medium	$78-$3,023	written
+marantz	4400	3239	12	Medium	$60-$9,999	written
+marantz	Model 250	1728	3	Low	$1,206-$1,933	written
+marantz	2240	1249	7	Medium	$112-$1,513	written
+marantz	2275	2160	11	Medium	$1,369-$3,750	written
+marantz	2252B	1079	9	Medium	$225-$1,850	written
+marantz	4415	446	4	Low	$143-$876	written
+marantz	4430	925	6	Medium	$143-$1,975	written
+marantz	170DC	1448	14	Medium	$803-$3,023	written
+marantz	Model 240	1190	8	Medium	$701-$1,562	written
+marantz	PM-250	194	9	Medium	$82-$323	written
+pioneer	SX-1980	8995	21	Medium	$73-$14,728	written
+pioneer	SX-1250	3999	14	Medium	$102-$6,500	written
+pioneer	SX-1050	1710	8	Medium	$89-$2,699	written
+pioneer	SX-1010	622	6	Medium	$97-$2,149	written
+pioneer	SX-850	447	12	Medium	$92-$1,500	written
+pioneer	SX-750	699	11	Medium	$154-$1,134	written
+pioneer	SX-636	308	19	Medium	$80-$594	written
+pioneer	SX-580	274	8	Medium	$132-$399	written
+pioneer	SX-550	225	11	Medium	$130-$400	written
+pioneer	SX-424	118	14	Medium	$72-$248	written
+pioneer	SX-2000		0			too few
+pioneer	SA-9900	990	16	Medium	$536-$2,124	written
+pioneer	SA-9800	2322	20	Medium	$91-$8,928	written
+pioneer	SA-9100	351	9	Medium	$108-$1,295	written
+pioneer	SA-8800II	421	7	Medium	$388-$531	written
+pioneer	SA-7700	88	13	Medium	$72-$600	written
+pioneer	SA-6800II		1			too few
+pioneer	SA-6700	1804	12	Medium	$138-$5,604	written
+pioneer	SA-6600II		1			too few
+pioneer	SA-6300	194	17	Medium	$92-$450	written
+pioneer	SA-4400	231	4	Low	$198-$544	written
+pioneer	SA-70		0			too few
+pioneer	TX-7800	394	8	Medium	$205-$572	written
+pioneer	QX-8000	108	11	Medium	$76-$313	written
+pioneer	M-1500		2			too few
+pioneer	MR-1000		0			too few

@@ -63,7 +63,8 @@ def norm_model(s):
     the bare 'a' prefix are both folded to 'alpha' before stripping.
     """
     s = str(s).lower().replace("α", "alpha").replace("Α", "alpha")
-    s = re.sub(r"\bau[\s-]*a(?=\d)", "aualpha", s)     # AU-a607 -> AU-alpha607
+    s = re.sub(r"\bau[\s-]*al(?=\d)", "aualpha", s)    # AU-AL607 -> AU-alpha607
+    s = re.sub(r"\bau[\s-]*a(?=\d)", "aualpha", s)     # AU-a607  -> AU-alpha607
     s = re.sub(r"[^a-z0-9]", "", s)
     # Sellers often drop the alpha entirely ("Au-907mr"). No plain AU-607/707/907
     # ever carried an MR/DR/KX/XR/NRA suffix, so those are unambiguously Alpha.

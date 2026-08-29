@@ -1,0 +1,112 @@
+# Sansui generation table (supplied by Wayne).
+# Columns: generation | international model | JDM model
+# Blank cells mean "no separate model for that market".
+# "AU-AL###" is this table's spelling of the Alpha series (AU-a### / AU-Alpha-###).
+First Generation of 07 Series|AU-517|AU-607
+First Generation of 07 Series|AU-717|AU-707
+|AU-517,AU-717|
+|AU-317|
+Second Generation of 07 Series|AU-519|AU-D607
+Second Generation of 07 Series|AU-819|AU-D707
+Second Generation of 07 Series|AU-919|AU-D907
+G7000||
+LIMITED EDITION||AU-D907 LIMITED
+X 1 Series|AU-X1|AU-X1
+Third Generation of 07 Series||AU-D607F
+Third Generation of 07 Series|AU-D9|AU-D707F
+Third Generation of 07 Series|AU-D11|AU-D907F
+Fourth Generation of 07 Series||AU-D607F EXTRA
+Fourth Generation of 07 Series||AU-D707F EXTRA
+Fourth Generation of 07 Series||AU-D907F EXTRA
+X 1 Series|AU-X11|AU-X11
+Power Amplifier||B-2301
+Fifth Generation of 07 Series||AU-D607G EXTRA
+Fifth Generation of 07 Series||AU-D707G EXTRA
+Fifth Generation of 07 Series||AU-D907G EXTRA
+Power Amplifier||B-2201
+|AU-D11 II|
+Sixth Generation of 07 Series||AU-D507X
+Sixth Generation of 07 Series||AU-D607X
+Sixth Generation of 07 Series||AU-D707X
+Sixth Generation of 07 Series||AU-D907X
+X 1 Series|AU-X111 MOS|AU-X111
+|AU-G90X|
+|AU-G99X|
+LIMITED EDITION||AU-D707X DECADE
+LIMITED EDITION||AU-D907X DECADE
+Power Amplifier||B-2201L
+Seventh Generation of 07 Series Beginning of Alfa Series||AU-AL307
+Seventh Generation of 07 Series Beginning of Alfa Series||AU-AL507
+Seventh Generation of 07 Series Beginning of Alfa Series||AU-AL607
+Seventh Generation of 07 Series Beginning of Alfa Series||AU-AL707
+Seventh Generation of 07 Series Beginning of Alfa Series||AU-AL907
+|AU-G77X II|
+||Sansui au-@507 1987
+Eighth Generation of 07 Series||AU-AL507i
+Eighth Generation of 07 Series||AU-AL606i
+Eighth Generation of 07 Series|AU-X701|AU-AL607i
+Eighth Generation of 07 Series|AU-X901|AU-AL707i
+Eighth Generation of 07 Series||AU-AL907i
+LIMITED EDITION||AU-AL907i MOS LIMITED
+Ninth Generation of 07 Series||AU-AL507EXTRA
+Ninth Generation of 07 Series||AU-AL607EXTRA
+Ninth Generation of 07 Series||AU-AL707EXTRA
+Ninth Generation of 07 Series||AU-AL907EXTRA
+X 1 Series|AU-X1111 MOS|AU-X1111 MOS
+Power Amplifier||B-2102 MOS
+One Number Three Digit|AU-X911DG|AU-AL777DG
+Tenth Generation of 07 Series|AU-X711|AU-AL607L EXTRA
+Tenth Generation of 07 Series||AU-AL707L EXTRA
+Tenth Generation of 07 Series||AU-AL907L EXTRA
+One Number Three Digit||AU-AL999DG
+Eleventh Generation of 07 Series||AU-AL607DR
+Eleventh Generation of 07 Series||AU-AL707DR
+Eleventh Generation of 07 Series||AU-AL907DR
+Power Amplifier||B-2302V
+LIMITED EDITION||AU-AL607 MOS PREMIUM
+|AU-AL507R|
+Twelfth Generation of 07 Series||AU-AL607KX
+Twelfth Generation of 07 Series||AU-AL707KX
+Twelfth Generation of 07 Series||AU-AL907KX
+Pre Amplifier||C-2302V
+Power Amplifier||B-2103 MOS VINTAGE
+Thirteenth Generation of 07 Series||AU-AL507XR
+Thirteenth Generation of 07 Series||AU-AL607XR
+Thirteenth Generation of 07 Series||AU-AL707XR
+Thirteenth Generation of 07 Series||AU-AL907XR
+LIMITED EDITION||AU-AL907 LIMITED
+Fourteenth Generation of 07 Series|AU-607MRX|AU-AL607MR
+Fourteenth Generation of 07 Series||AU-AL707MR
+Fourteenth Generation of 07 Series||AU-AL907MR
+Tube Amplifier||B-209 The Tube
+LIMITED EDITION||AU-07 ANNIVERSARY
+Pre Amplifier||C-2105V
+Power Amplifier||B2105V
+Fifteenth Generation of 07 Series||AU-AL607NRA
+Fifteenth Generation of 07 Series||AU-AL707NRA
+Fifteenth Generation of 07 Series||AU-AL907NRA
+||AU-AL607NRA II
+LIMITED EDITION||AU-AL607 MOS LIMITED
+Pre Amplifier||C-2302P
+LIMITED EDITION-TUBE INTEGRATED REPRODUCTION||AU-111 VINTAGE
+LIMITED EDITION-TUBE INTEGRATED||AU-111G VINTAGE
+# --- G-series receivers (supplied by Wayne). Columns: generation|international|JDM
+G-Series First Generation (silver face, 1977-79)||G-2000
+G-Series First Generation (silver face, 1977-79)|G-301|G-3000
+G-Series First Generation (silver face, 1977-79)|G-501|G-5000
+G-Series First Generation (silver face, 1977-79)|G-601|G-6000
+G-Series First Generation (silver face, 1977-79)|G-701|G-7000
+G-Series First Generation (silver face, 1977-79)|G-801|G-8000
+G-Series First Generation (silver face, 1977-79)|G-901|G-9000
+G-Series First Generation (silver face, 1977-79)||G-9000DB
+G-Series Monster two-piece (1978-81)||G-22000
+G-Series Monster two-piece (1978-81)||G-33000
+G-Series Second Generation (x500, 1978-80)||G-3500
+G-Series Second Generation (x500, 1978-80)||G-4500
+G-Series Second Generation (x500, 1978-80)||G-5500
+G-Series Third Generation (Pure Power DC, 1979-82)||G-4700
+G-Series Third Generation (Pure Power DC, 1979-82)||G-5700
+G-Series Third Generation (Pure Power DC, 1979-82)||G-6700
+G-Series Third Generation (Pure Power DC, 1979-82)||G-7700
+G-Series Third Generation (Pure Power DC, 1979-82)|G-871DB|G-8700DB
+G-Series Third Generation (Pure Power DC, 1979-82)||G-9700
