@@ -9595,7 +9595,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 2,
-      "recap_notes": "Third-party restoration kits exist for this model (Nichicon/Rubycon/United Chemicon based, 5,000-12,000hr rated) - recommended over piecemeal sourcing given unverified exact schematic values here. Full board-by-board replacement recommended, not a partial kit.",
+      "recap_notes": "Third-party restoration kits exist for this model (Nichicon/Rubycon/United Chemicon based, 5,000-12,000hr rated) - recommended over piecemeal sourcing given unverified exact schematic values here. Full board-by-board replacement recommended, not a partial kit.\n\nTONE BOARD CAP SELECTION (F-2863) — Wayne's own G-5700, swaps done and compared by ear with three listeners. The finding is that cap choice in the tone stage is audible and POSITION-DEPENDENT: Nichicon Muse KZ was rejected at the 10uF tone-stage coupling (C07/C08) but chosen at the 100uF tone/output coupling (C24/C25). Muse KW sounded muffled and was rejected. Muse FG was the settled choice for C07/C08 — though the tone board was reflowed in the same session, so solder joints may share the credit. Bipolar positions (C01/C02, C27/C29) took Nichicon Muse BP/ES. Caveat from Wayne: the log is partial, not every cap tried was recorded.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Relay clicks but no sound on one or both channels",
@@ -9658,6 +9658,46 @@
         "estimated_cost_usd": 8,
         "supplier_links": [],
         "notes": "Lower priority unless FM section shows drift/noise symptoms."
+      },
+      {
+        "location": "Tone board F-2863, C07/C08 — tone stage coupling",
+        "original_value_uf": 10,
+        "voltage": 25,
+        "modern_replacement": "Nichicon Muse FG 10uF 50V (Wayne's final choice)",
+        "priority": "sonic",
+        "estimated_cost_usd": null,
+        "supplier_links": [],
+        "notes": "LISTENING RESULT (verified by Wayne — fitted and listened to in his own unit): Muse KZ tried first — not happy with it. Muse KW — 'sounded muffled'. Settled on Muse FG, and reflowing the tone board at the same time was part of the improvement, so the two changes are not fully separable. Vishay/Sprague 10uF 50V (Digikey) also used in these positions. Polarised position."
+      },
+      {
+        "location": "Tone board F-2863, C24/C25 — tone/output coupling",
+        "original_value_uf": 100,
+        "voltage": 35,
+        "modern_replacement": "Nichicon Muse KZ 100uF (Elna Silmic II 100uF 63V the alternative)",
+        "priority": "sonic",
+        "estimated_cost_usd": null,
+        "supplier_links": [],
+        "notes": "LISTENING RESULT (verified by Wayne — fitted and listened to in his own unit): Muse KZ works well HERE, in the 100uF output-coupling position — note it was rejected at C07/C08. The right cap is position-dependent, not a blanket brand choice. Elna Silmic II 100uF 63V also fitted/considered. Polarised position."
+      },
+      {
+        "location": "Tone board F-2863, C27/C29 — bipolar positions",
+        "original_value_uf": 10,
+        "voltage": 35,
+        "modern_replacement": "Nichicon Muse BP (ES) 4.7uF 50V bipolar",
+        "priority": "sonic",
+        "estimated_cost_usd": null,
+        "supplier_links": [],
+        "notes": "BIPOLAR CONFIRMED — a bipolar cap belongs in this position; do not fit a polarised one. Original shown as 2x10uF combining to 4.7uF. C28/C30 are the matching 2x5uF->4.7uF positions and were left alone. (verified by Wayne — fitted and listened to in his own unit)"
+      },
+      {
+        "location": "C01/C02 — 0.47uF bipolar coupling",
+        "original_value_uf": 0.47,
+        "voltage": 50,
+        "modern_replacement": "Nichicon Muse BP (ES) 0.47uF 50V bipolar",
+        "priority": "sonic",
+        "estimated_cost_usd": null,
+        "supplier_links": [],
+        "notes": "LISTENING RESULT (verified by Wayne — fitted and listened to in his own unit): 'good midrange, clean'. Film is worth trying here and is on Wayne's list — untested so far."
       }
     ],
     "links": {
@@ -9666,7 +9706,7 @@
       "sansui_us": null
     },
     "notes": "Produced 1978-1980. Dimensions 465 x 177 x 405mm.",
-    "verified": false,
+    "verified": true,
     "avg_price_usd_3mo": 450,
     "price_basis": "restored",
     "ps_type": null,
