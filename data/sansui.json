@@ -9901,20 +9901,20 @@
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
-      "collector_notes": "Very well regarded by owners - \"the best receiver I have ever had\", \"a gorgeous behemoth\" with glass face and illuminated dial. 160W/ch, genuinely heavy, drives demanding speakers (Klipsch Forte reported). DISPUTED - the FM tuner: two owners call it the weak spot (poor sensitivity, drifts off frequency), but a third pushes back, saying there is nothing wrong with the tuner and that an antenna is simply required. Notably one of the critics admits they never fitted one. Treat \"weak tuner\" as unproven - check the antenna before condemning it. Owners also report prices rising sharply, which matches the current market read."
+      "collector_notes": "Very well regarded by owners - \"the best receiver I have ever had\", \"a gorgeous behemoth\" with glass face and illuminated dial. 160W/ch, genuinely heavy, drives demanding speakers (Klipsch Forte reported). DISPUTED - the FM tuner: two owners call it the weak spot (poor sensitivity, drifts off frequency), but a third pushes back, saying there is nothing wrong with the tuner and that an antenna is simply required. Notably one of the critics admits they never fitted one. Treat \"weak tuner\" as unproven - check the antenna before condemning it. Owners also report prices rising sharply, which matches the current market read. BUYING NOTE: check the digital readout works before committing - the MSM5540RS chip that drives it is unobtainable in 2026 (Wayne searched), so a dead display cannot be put right without a donor unit."
     },
     "restorer_info": {
       "known_failure_points": [
+        "Digital frequency readout fails - the MSM5540RS chip on board F-3000. THE CHIP IS NO LONGER OBTAINABLE (Wayne searched, 2026); a 2021 owner report of buying one from Consolidated Electronics no longer holds. A donor unit is realistically the only source, so treat a dead readout as permanent when pricing a purchase. The amplifier and tuner sections are unaffected by it",
         "CD-4 demodulator alignment drifts",
         "Electrolytic caps age throughout signal path",
         "Switch contacts for matrix/discrete mode oxidize",
-        "Digital frequency readout goes sketchy - traced to the MSM5540RS chip on board F-3000. The chip is still obtainable (one owner sourced it from Consolidated Electronics, Dayton OH) and a competent tech can fit it, so a dead readout is not a write-off",
         "Dry/cracked solder joints around the display board - worth reflowing while the board is out for the chip"
       ],
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 3,
-      "recap_notes": "DISPLAY FAULT (owner reports via HiFi Engine): the digital readout is the known weak spot - the MSM5540RS chip on board F-3000. Replacement chips have been sourced and fitted successfully. Re-solder nearby joints while you are in there.",
+      "recap_notes": "DISPLAY FAULT: the digital readout is the known weak spot - the MSM5540RS chip on board F-3000. Wayne has searched (2026) and the chip is NOT available anywhere; the older owner reports of sourcing one are out of date. Barring a donor chassis this is unrepairable, so buy on the assumption a dead display stays dead - and knock the price down accordingly. It does not affect the amp or tuner sections. Re-solder joints around the display board while you are in there.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Loss of rear channel separation",
