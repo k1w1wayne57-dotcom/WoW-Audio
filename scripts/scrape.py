@@ -192,11 +192,14 @@ def hifishark_search_url(brand, model):
 # Filtering by title removes them regardless of price, so the median reflects
 # whole, working units — not a pile of $80 faceplates.
 JUNK_RE = re.compile(
-    r"(\b(manual|faceplate|face\s?plate|front\s?panel|knob|meter|manuals|parts|"
-    r"for\s?parts|repair|not\s?working|as[-\s]?is|dial|bulb|glass|wood\s?case|"
+    # "parts"/"repair" match only in their junk senses: "Vintage Original Parts"
+    # and "professionally repaired" describe whole working units.
+    r"(\b(manual|faceplate|face\s?plate|front\s?panel|knob|meter|manuals|"
+    r"for\s?parts|parts\s?only|parts\s?[/&]\s?repair|needs\s?repair|for\s?repair|"
+    r"not\s?working|as[-\s]?is|dial|bulb|glass|wood\s?case|"
     r"wooden\s?case|cabinet\s?only|case\s?only|badge|emblem|logo|switch|capacitor|"
     r"cap\s?kit|recap|restoration\s?kit|pcb|circuit\s?board|schematic|service|"
-    r"remote|cover|feet|screw|transformer|output\s?board|kit|instruction|"
+    r"remote|cover|feet|screw|transformer|board|terminal|kit|instruction|"
     r"instructions|anleitung|prospekt|katalog|brochure|sticker|decal|"
     r"replacement|rebuild)\b|lamp)", re.I)
 
@@ -289,8 +292,10 @@ def summarize_usd(listings, months, headful=False, profile=None, model=None):
         if fenced:
             usd = fenced
     mid = usd[len(usd) // 2] if len(usd) % 2 else round((usd[len(usd) // 2 - 1] + usd[len(usd) // 2]) / 2)
+    q1 = usd[len(usd) // 4]
+    q3 = usd[(3 * len(usd)) // 4]
     return {"count": len(usd), "raw_count": raw_n, "avg": round(sum(usd) / len(usd)),
-            "median": mid, "low": usd[0], "high": usd[-1],
+            "median": mid, "low": usd[0], "high": usd[-1], "q1": q1, "q3": q3,
             "skipped_currencies": sorted(skipped_cur)}
 
 

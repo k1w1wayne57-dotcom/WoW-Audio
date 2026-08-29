@@ -34,7 +34,7 @@ BRANDS = ["sansui", "marantz", "pioneer"]
 TODAY = f"{datetime.date.today():%Y-%m}"
 EMPTY = (None, "", "—", [], {})
 MIN_LISTINGS = 5          # fewer than this = don't trust it, leave blank
-MAX_SPREAD = 8            # high/low beyond this = incoherent sample (mixed
+MAX_SPREAD = 5            # high/low beyond this = incoherent sample (mixed
                           # variants, part-outs, multi-unit lots) -> leave blank
 REVIEW = Path(__file__).resolve().parent / "backfill_prices_review.tsv"
 
@@ -99,7 +99,9 @@ def run(brands, months, limit, refresh=False, years=None):
                 review.append("\t".join([brand, model, "", str(n), "", "", "too few"]))
                 time.sleep(0.5)
                 continue
-            spread = s["high"] / max(s["low"], 1)
+            # Quartile ratio, not high/low: one part-out listing shouldn't veto
+            # an otherwise coherent sample the median already ignores.
+            spread = s.get("q3", s["high"]) / max(s.get("q1", s["low"]), 1)
             if spread > MAX_SPREAD:
                 print(f"skip (spread {spread:.0f}x — ${s['low']:,}-${s['high']:,}, "
                       f"incoherent)", flush=True)

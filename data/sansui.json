@@ -9897,22 +9897,24 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 40-50",
-    "price_confidence": "Low",
-    "last_price_check": "2026-06",
+    "price_confidence": "Medium",
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
-      "collector_notes": null
+      "collector_notes": "Very well regarded by owners - \"the best receiver I have ever had\", \"a gorgeous behemoth\" with glass face and illuminated dial. 160W/ch, genuinely heavy, drives demanding speakers (Klipsch Forte reported). DISPUTED - the FM tuner: two owners call it the weak spot (poor sensitivity, drifts off frequency), but a third pushes back, saying there is nothing wrong with the tuner and that an antenna is simply required. Notably one of the critics admits they never fitted one. Treat \"weak tuner\" as unproven - check the antenna before condemning it. Owners also report prices rising sharply, which matches the current market read."
     },
     "restorer_info": {
       "known_failure_points": [
         "CD-4 demodulator alignment drifts",
         "Electrolytic caps age throughout signal path",
-        "Switch contacts for matrix/discrete mode oxidize"
+        "Switch contacts for matrix/discrete mode oxidize",
+        "Digital frequency readout goes sketchy - traced to the MSM5540RS chip on board F-3000. The chip is still obtainable (one owner sourced it from Consolidated Electronics, Dayton OH) and a competent tech can fit it, so a dead readout is not a write-off",
+        "Dry/cracked solder joints around the display board - worth reflowing while the board is out for the chip"
       ],
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 3,
-      "recap_notes": null,
+      "recap_notes": "DISPLAY FAULT (owner reports via HiFi Engine): the digital readout is the known weak spot - the MSM5540RS chip on board F-3000. Replacement chips have been sourced and fitted successfully. Re-solder nearby joints while you are in there.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Loss of rear channel separation",
@@ -9931,9 +9933,9 @@
       "sansui_us": null
     },
     "notes": null,
-    "verified": false,
-    "avg_price_usd_3mo": 450,
-    "price_basis": null,
+    "verified": true,
+    "avg_price_usd_3mo": 1890,
+    "price_basis": "hifishark 12mo listing median, asking prices (FX->USD) 2026-08",
     "year_source": "serial-report",
     "price_thb_listings": [],
     "usd_msrp": null,
@@ -9949,6 +9951,15 @@
         "weight_kg",
         "special_features"
       ]
+    },
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 10,
+      "median_usd": 1890,
+      "q1": 1200,
+      "q3": 2699,
+      "previous_usd": 450
     }
   },
   {
