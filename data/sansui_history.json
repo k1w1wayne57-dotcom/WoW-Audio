@@ -18,7 +18,9 @@
               "watts": 25,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1968,
@@ -26,7 +28,9 @@
               "watts": 18,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1968,
@@ -34,7 +38,9 @@
               "watts": 20,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1969,
@@ -42,7 +48,9 @@
               "watts": 30,
               "market": "JDM",
               "pair": "AU-777A",
-              "note": "JDM version of AU-777A"
+              "note": "JDM version of AU-777A",
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1969,
@@ -50,7 +58,9 @@
               "watts": 30,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1970,
@@ -58,7 +68,9 @@
               "watts": 25,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1970,
@@ -66,7 +78,9 @@
               "watts": 35,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1970,
@@ -74,7 +88,9 @@
               "watts": 45,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1970,
@@ -82,7 +98,9 @@
               "watts": 50,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1971,
@@ -90,7 +108,9 @@
               "watts": 15,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1972,
@@ -98,7 +118,9 @@
               "watts": 12,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1973,
@@ -106,7 +128,9 @@
               "watts": 13,
               "market": "JDM",
               "pair": null,
-              "note": "JDM version AU-505"
+              "note": "JDM version AU-505",
+              "type": "Integrated",
+              "topology": null
             }
           ]
         }
@@ -125,7 +149,9 @@
               "watts": 30,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1972,
@@ -133,7 +159,9 @@
               "watts": 32,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1972,
@@ -141,7 +169,9 @@
               "watts": 75,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1973,
@@ -149,7 +179,9 @@
               "watts": 60,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1974,
@@ -157,7 +189,9 @@
               "watts": 13,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1974,
@@ -165,7 +199,9 @@
               "watts": 20,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1974,
@@ -173,7 +209,9 @@
               "watts": 10,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1974,
@@ -181,7 +219,9 @@
               "watts": 20,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1974,
@@ -189,7 +229,9 @@
               "watts": 35,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1974,
@@ -197,7 +239,9 @@
               "watts": 42,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1974,
@@ -205,7 +249,9 @@
               "watts": 54,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1974,
@@ -213,7 +259,9 @@
               "watts": 80,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1975,
@@ -221,7 +269,9 @@
               "watts": 25,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1975,
@@ -229,7 +279,9 @@
               "watts": 38,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1975,
@@ -237,7 +289,9 @@
               "watts": 45,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1975,
@@ -245,7 +299,9 @@
               "watts": 60,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1976,
@@ -253,7 +309,9 @@
               "watts": 15,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1975,
@@ -261,7 +319,9 @@
               "watts": 22,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1975,
@@ -269,7 +329,9 @@
               "watts": 35,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1975,
@@ -277,7 +339,9 @@
               "watts": 22,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1975,
@@ -285,7 +349,9 @@
               "watts": 35,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": null
             }
           ]
         },
@@ -298,7 +364,9 @@
               "watts": 80,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Professional Series"
             },
             {
               "year": 1975,
@@ -306,7 +374,9 @@
               "watts": 110,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Professional Series"
             },
             {
               "year": 1975,
@@ -314,7 +384,9 @@
               "watts": 170,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Professional Series"
             },
             {
               "year": 1977,
@@ -322,7 +394,9 @@
               "watts": 80,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Professional Series"
             },
             {
               "year": 1977,
@@ -330,7 +404,9 @@
               "watts": 110,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Professional Series"
             },
             {
               "year": 1977,
@@ -338,7 +414,9 @@
               "watts": 110,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Professional Series"
             }
           ]
         }
@@ -357,7 +435,9 @@
               "watts": 30,
               "market": "JDM",
               "pair": "AU-217",
-              "note": "JDM version of AU-217"
+              "note": "JDM version of AU-217",
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1977,
@@ -365,7 +445,9 @@
               "watts": 50,
               "market": "JDM",
               "pair": "AU-317",
-              "note": "JDM version of AU-317"
+              "note": "JDM version of AU-317",
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1977,
@@ -373,7 +455,9 @@
               "watts": 60,
               "market": "JDM",
               "pair": "AU-417",
-              "note": "JDM version of AU-417"
+              "note": "JDM version of AU-417",
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1976,
@@ -381,7 +465,9 @@
               "watts": 65,
               "market": "JDM",
               "pair": "AU-517",
-              "note": "JDM version of AU-517"
+              "note": "JDM version of AU-517",
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1976,
@@ -389,7 +475,9 @@
               "watts": 85,
               "market": "JDM",
               "pair": "AU-717",
-              "note": "JDM version of AU-717"
+              "note": "JDM version of AU-717",
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1977,
@@ -397,7 +485,9 @@
               "watts": 15,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1977,
@@ -405,7 +495,9 @@
               "watts": 30,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1977,
@@ -413,7 +505,9 @@
               "watts": 50,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1977,
@@ -421,7 +515,9 @@
               "watts": 65,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1977,
@@ -429,7 +525,9 @@
               "watts": 65,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1977,
@@ -437,7 +535,9 @@
               "watts": 85,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1977,
@@ -445,7 +545,9 @@
               "watts": 85,
               "market": null,
               "pair": null,
-              "note": "AAFES version of AU-717"
+              "note": "AAFES version of AU-717",
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1978,
@@ -453,7 +555,9 @@
               "watts": 70,
               "market": "JDM",
               "pair": "AU-519",
-              "note": "JDM version of AU-519"
+              "note": "JDM version of AU-519",
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1978,
@@ -461,7 +565,9 @@
               "watts": 90,
               "market": "JDM",
               "pair": "AU-819",
-              "note": "JDM version of AU-819"
+              "note": "JDM version of AU-819",
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1978,
@@ -469,7 +575,9 @@
               "watts": 100,
               "market": "JDM",
               "pair": "AU-919",
-              "note": "JDM version of AU-919"
+              "note": "JDM version of AU-919",
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1978,
@@ -477,7 +585,9 @@
               "watts": 100,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1978,
@@ -485,7 +595,9 @@
               "watts": 100,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1979,
@@ -493,7 +605,9 @@
               "watts": 25,
               "market": "JDM",
               "pair": "AU-117ii",
-              "note": "JDM version of AU-117ii"
+              "note": "JDM version of AU-117ii",
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1979,
@@ -501,7 +615,9 @@
               "watts": 40,
               "market": "JDM",
               "pair": "AU-217ii",
-              "note": "JDM version of AU-217ii"
+              "note": "JDM version of AU-217ii",
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1979,
@@ -509,7 +625,9 @@
               "watts": 60,
               "market": "JDM",
               "pair": "AU-317ii",
-              "note": "JDM version of AU-317ii"
+              "note": "JDM version of AU-317ii",
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1979,
@@ -517,7 +635,9 @@
               "watts": 25,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1979,
@@ -525,7 +645,9 @@
               "watts": 40,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1979,
@@ -533,7 +655,9 @@
               "watts": 60,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1979,
@@ -541,7 +665,9 @@
               "watts": 65,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1979,
@@ -549,7 +675,9 @@
               "watts": 70,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1979,
@@ -557,7 +685,9 @@
               "watts": 90,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             },
             {
               "year": 1979,
@@ -565,7 +695,9 @@
               "watts": 90,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": null
             }
           ]
         }
@@ -584,7 +716,9 @@
               "watts": 160,
               "market": "JDM",
               "pair": null,
-              "note": "JDM; and international"
+              "note": "JDM; and international",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Diamond Differential"
             }
           ]
         },
@@ -597,7 +731,9 @@
               "watts": 75,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Diamond Differential - Super FeedForward"
             },
             {
               "year": 1980,
@@ -605,7 +741,9 @@
               "watts": 95,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Diamond Differential - Super FeedForward"
             },
             {
               "year": 1980,
@@ -613,7 +751,9 @@
               "watts": 130,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Diamond Differential - Super FeedForward"
             }
           ]
         },
@@ -626,7 +766,9 @@
               "watts": 65,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled"
             },
             {
               "year": 1982,
@@ -634,7 +776,9 @@
               "watts": 80,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled"
             }
           ]
         },
@@ -647,7 +791,9 @@
               "watts": 95,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled - Diamond Differential - Super FeedForward"
             },
             {
               "year": 1980,
@@ -655,7 +801,9 @@
               "watts": 120,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled - Diamond Differential - Super FeedForward"
             }
           ]
         },
@@ -668,7 +816,9 @@
               "watts": 25,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled"
             },
             {
               "year": 1980,
@@ -676,7 +826,9 @@
               "watts": 45,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled"
             },
             {
               "year": 1980,
@@ -684,7 +836,9 @@
               "watts": 65,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled"
             }
           ]
         },
@@ -697,7 +851,9 @@
               "watts": 80,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Diamond Differential - Super FeedForward (Extra = copper chassis, non-magnetic)"
             },
             {
               "year": 1981,
@@ -705,7 +861,9 @@
               "watts": 100,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Diamond Differential - Super FeedForward (Extra = copper chassis, non-magnetic)"
             },
             {
               "year": 1981,
@@ -713,7 +871,9 @@
               "watts": 130,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Diamond Differential - Super FeedForward (Extra = copper chassis, non-magnetic)"
             }
           ]
         },
@@ -726,7 +886,9 @@
               "watts": 160,
               "market": "JDM",
               "pair": null,
-              "note": "JDM; and international"
+              "note": "JDM; and international",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Diamond Differential - Super FeedForward"
             }
           ]
         },
@@ -739,7 +901,9 @@
               "watts": 50,
               "market": "JDM",
               "pair": "AU-D33",
-              "note": "JDM version of AU-D33"
+              "note": "JDM version of AU-D33",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Super FeedForward"
             }
           ]
         },
@@ -752,7 +916,9 @@
               "watts": 25,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled"
             },
             {
               "year": 1982,
@@ -760,7 +926,9 @@
               "watts": 45,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled"
             },
             {
               "year": 1982,
@@ -768,7 +936,9 @@
               "watts": 65,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled"
             }
           ]
         },
@@ -781,7 +951,9 @@
               "watts": 30,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled (A-series)"
             },
             {
               "year": 1982,
@@ -789,7 +961,9 @@
               "watts": 30,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled (A-series)"
             },
             {
               "year": 1982,
@@ -797,7 +971,9 @@
               "watts": 30,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled (A-series)"
             },
             {
               "year": 1982,
@@ -805,7 +981,9 @@
               "watts": 30,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled (A-series)"
             },
             {
               "year": 1982,
@@ -813,7 +991,9 @@
               "watts": 30,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled (A-series)"
             },
             {
               "year": 1982,
@@ -821,7 +1001,9 @@
               "watts": 55,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled (A-series)"
             },
             {
               "year": 1982,
@@ -829,7 +1011,9 @@
               "watts": 50,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled (A-series)"
             },
             {
               "year": 1982,
@@ -837,7 +1021,9 @@
               "watts": 70,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled (A-series)"
             },
             {
               "year": 1982,
@@ -845,7 +1031,9 @@
               "watts": 70,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled (A-series)"
             },
             {
               "year": 1982,
@@ -853,7 +1041,9 @@
               "watts": 70,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled (A-series)"
             },
             {
               "year": 1982,
@@ -861,7 +1051,9 @@
               "watts": 100,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled (A-series)"
             },
             {
               "year": 1982,
@@ -869,7 +1061,9 @@
               "watts": 100,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled (A-series)"
             },
             {
               "year": 1982,
@@ -877,7 +1071,9 @@
               "watts": 100,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled (A-series)"
             },
             {
               "year": 1982,
@@ -885,7 +1081,9 @@
               "watts": 100,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled (A-series)"
             },
             {
               "year": 1982,
@@ -893,7 +1091,9 @@
               "watts": 100,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled (A-series)"
             },
             {
               "year": 1982,
@@ -901,7 +1101,9 @@
               "watts": 100,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled (A-series)"
             },
             {
               "year": 1982,
@@ -909,7 +1111,9 @@
               "watts": 100,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled (A-series)"
             },
             {
               "year": 1982,
@@ -917,7 +1121,9 @@
               "watts": 100,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled (A-series)"
             },
             {
               "year": 1982,
@@ -925,7 +1131,9 @@
               "watts": 100,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled (A-series)"
             },
             {
               "year": 1982,
@@ -933,7 +1141,9 @@
               "watts": 125,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled (A-series)"
             },
             {
               "year": 1982,
@@ -941,7 +1151,9 @@
               "watts": 125,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled (A-series)"
             },
             {
               "year": 1982,
@@ -949,7 +1161,9 @@
               "watts": 125,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled (A-series)"
             },
             {
               "year": 1982,
@@ -957,7 +1171,9 @@
               "watts": 125,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled (A-series)"
             },
             {
               "year": 1982,
@@ -965,7 +1181,9 @@
               "watts": 125,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled (A-series)"
             },
             {
               "year": 1982,
@@ -973,7 +1191,9 @@
               "watts": 160,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled (A-series)"
             }
           ]
         },
@@ -986,7 +1206,9 @@
               "watts": 25,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled (M-series)"
             },
             {
               "year": 1983,
@@ -994,7 +1216,9 @@
               "watts": 25,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled (M-series)"
             },
             {
               "year": 1983,
@@ -1002,7 +1226,9 @@
               "watts": 25,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled (M-series)"
             },
             {
               "year": 1983,
@@ -1010,7 +1236,9 @@
               "watts": 25,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled (M-series)"
             },
             {
               "year": 1983,
@@ -1018,7 +1246,9 @@
               "watts": 70,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled (M-series)"
             }
           ]
         },
@@ -1031,7 +1261,9 @@
               "watts": 30,
               "market": null,
               "pair": null,
-              "note": "UK/EUR 220/240V"
+              "note": "UK/EUR 220/240V",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Super FeedForward (Wikipedia-noted group)"
             },
             {
               "year": 1983,
@@ -1039,7 +1271,9 @@
               "watts": 35,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled - Super FeedForward (Wikipedia-noted group)"
             },
             {
               "year": 1983,
@@ -1047,7 +1281,9 @@
               "watts": 50,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled - Super FeedForward (Wikipedia-noted group)"
             }
           ]
         },
@@ -1060,7 +1296,9 @@
               "watts": 70,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled - Super FeedForward"
             }
           ]
         },
@@ -1073,7 +1311,9 @@
               "watts": 110,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled - Super Ground Free"
             }
           ]
         },
@@ -1086,7 +1326,9 @@
               "watts": 130,
               "market": null,
               "pair": null,
-              "note": "special version of the AU-D707X"
+              "note": "special version of the AU-D707X",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Diamond Differential - Super FeedForward - Ground Free"
             }
           ]
         },
@@ -1099,7 +1341,9 @@
               "watts": 90,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Diamond Differential - Super FeedForward - Ground Free (Extra = copper chassis)"
             },
             {
               "year": 1983,
@@ -1107,7 +1351,9 @@
               "watts": 110,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Diamond Differential - Super FeedForward - Ground Free (Extra = copper chassis)"
             },
             {
               "year": 1983,
@@ -1115,7 +1361,9 @@
               "watts": 130,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Diamond Differential - Super FeedForward - Ground Free (Extra = copper chassis)"
             }
           ]
         },
@@ -1128,7 +1376,9 @@
               "watts": 90,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Diamond Differential - Ground Free - X Balanced"
             },
             {
               "year": 1984,
@@ -1136,7 +1386,9 @@
               "watts": 130,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Diamond Differential - Ground Free - X Balanced"
             },
             {
               "year": 1984,
@@ -1144,7 +1396,9 @@
               "watts": 160,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Diamond Differential - Ground Free - X Balanced"
             }
           ]
         },
@@ -1157,7 +1411,9 @@
               "watts": 25,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled - Ground Free - X Balanced (G-series)"
             },
             {
               "year": 1984,
@@ -1165,7 +1421,9 @@
               "watts": 45,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled - Ground Free - X Balanced (G-series)"
             },
             {
               "year": 1984,
@@ -1173,7 +1431,9 @@
               "watts": 65,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled - Ground Free - X Balanced (G-series)"
             },
             {
               "year": 1984,
@@ -1181,7 +1441,9 @@
               "watts": 110,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled - Ground Free - X Balanced (G-series)"
             },
             {
               "year": 1984,
@@ -1189,7 +1451,9 @@
               "watts": 160,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled - Ground Free - X Balanced (G-series)"
             },
             {
               "year": 1984,
@@ -1197,7 +1461,9 @@
               "watts": 45,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled - Ground Free - X Balanced (G-series)"
             },
             {
               "year": 1984,
@@ -1205,7 +1471,9 @@
               "watts": 45,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled - Ground Free - X Balanced (G-series)"
             },
             {
               "year": 1984,
@@ -1213,7 +1481,9 @@
               "watts": 130,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled - Ground Free - X Balanced (G-series)"
             }
           ]
         },
@@ -1226,7 +1496,9 @@
               "watts": 90,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Twin Diamond X Balanced (Decade)"
             },
             {
               "year": 1984,
@@ -1234,7 +1506,9 @@
               "watts": 130,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Twin Diamond X Balanced (Decade)"
             },
             {
               "year": 1984,
@@ -1242,7 +1516,9 @@
               "watts": 160,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Twin Diamond X Balanced (Decade)"
             },
             {
               "year": 1984,
@@ -1250,7 +1526,9 @@
               "watts": 130,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Twin Diamond X Balanced (Decade)"
             }
           ]
         },
@@ -1263,7 +1541,9 @@
               "watts": 110,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Uncompromising selection / hearing-test tuned"
             }
           ]
         },
@@ -1276,7 +1556,9 @@
               "watts": 30,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled"
             },
             {
               "year": 1985,
@@ -1284,7 +1566,9 @@
               "watts": 55,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled"
             },
             {
               "year": 1985,
@@ -1292,7 +1576,9 @@
               "watts": 55,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled"
             },
             {
               "year": 1985,
@@ -1300,7 +1586,9 @@
               "watts": 55,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled"
             },
             {
               "year": 1985,
@@ -1308,7 +1596,9 @@
               "watts": 70,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled"
             },
             {
               "year": 1985,
@@ -1316,7 +1606,9 @@
               "watts": 70,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled"
             },
             {
               "year": 1985,
@@ -1324,7 +1616,9 @@
               "watts": 70,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled"
             }
           ]
         }
@@ -1343,7 +1637,9 @@
               "watts": 65,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Alpha"
             },
             {
               "year": 1986,
@@ -1351,7 +1647,9 @@
               "watts": 80,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Alpha"
             }
           ]
         },
@@ -1364,7 +1662,9 @@
               "watts": 90,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Alpha X Balanced"
             },
             {
               "year": 1986,
@@ -1372,7 +1672,9 @@
               "watts": 130,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Alpha X Balanced"
             },
             {
               "year": 1986,
@@ -1380,7 +1682,9 @@
               "watts": 180,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Alpha X Balanced"
             }
           ]
         },
@@ -1393,7 +1697,9 @@
               "watts": 65,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Alpha"
             },
             {
               "year": 1987,
@@ -1401,7 +1707,9 @@
               "watts": 80,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Alpha"
             }
           ]
         },
@@ -1414,7 +1722,9 @@
               "watts": 90,
               "market": "JDM",
               "pair": "AU-X701",
-              "note": "JDM version of AU-X701"
+              "note": "JDM version of AU-X701",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Alpha - Custom Capacitors"
             },
             {
               "year": 1987,
@@ -1422,7 +1732,9 @@
               "watts": 130,
               "market": "JDM",
               "pair": "AU-X901",
-              "note": "JDM version of AU-X901"
+              "note": "JDM version of AU-X901",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Alpha - Custom Capacitors"
             },
             {
               "year": 1987,
@@ -1430,7 +1742,9 @@
               "watts": 160,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Alpha - Custom Capacitors"
             },
             {
               "year": 1987,
@@ -1438,7 +1752,9 @@
               "watts": 80,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Alpha - Custom Capacitors"
             }
           ]
         },
@@ -1451,7 +1767,9 @@
               "watts": 30,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled - Alpha X Balanced - Ground Free (international X-series)"
             },
             {
               "year": 1987,
@@ -1459,7 +1777,9 @@
               "watts": 65,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled - Alpha X Balanced - Ground Free (international X-series)"
             },
             {
               "year": 1987,
@@ -1467,7 +1787,9 @@
               "watts": 80,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled - Alpha X Balanced - Ground Free (international X-series)"
             },
             {
               "year": 1987,
@@ -1475,7 +1797,9 @@
               "watts": 90,
               "market": "International",
               "pair": "AU-a607i",
-              "note": "int version of JDM AU-a607i"
+              "note": "int version of JDM AU-a607i",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Alpha X Balanced - Ground Free (international X-series)"
             },
             {
               "year": 1987,
@@ -1483,7 +1807,9 @@
               "watts": 130,
               "market": "International",
               "pair": "AU-a707i",
-              "note": "int version of JDM AU-a707i"
+              "note": "int version of JDM AU-a707i",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Alpha X Balanced - Ground Free (international X-series)"
             },
             {
               "year": 1987,
@@ -1491,7 +1817,9 @@
               "watts": 100,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled - Alpha X Balanced - Ground Free (international X-series)"
             }
           ]
         },
@@ -1504,7 +1832,9 @@
               "watts": 110,
               "market": "JDM",
               "pair": null,
-              "note": "JDM; and international"
+              "note": "JDM; and international",
+              "type": "Integrated",
+              "topology": "Uncompromising selection / hearing-test tuned"
             }
           ]
         },
@@ -1517,7 +1847,9 @@
               "watts": 65,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Alpha - Ground Free"
             },
             {
               "year": 1988,
@@ -1525,7 +1857,9 @@
               "watts": 80,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Alpha - Ground Free"
             },
             {
               "year": 1988,
@@ -1533,7 +1867,9 @@
               "watts": 90,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Alpha - Ground Free"
             },
             {
               "year": 1988,
@@ -1541,7 +1877,9 @@
               "watts": 130,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Alpha - Ground Free"
             },
             {
               "year": 1988,
@@ -1549,7 +1887,9 @@
               "watts": null,
               "market": "JDM",
               "pair": null,
-              "note": "JDM; prototype, not mass produced"
+              "note": "JDM; prototype, not mass produced",
+              "type": "Integrated",
+              "topology": "Direct Coupled - Alpha - Ground Free"
             },
             {
               "year": 1989,
@@ -1557,7 +1897,9 @@
               "watts": 30,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled - Alpha - Ground Free"
             },
             {
               "year": 1989,
@@ -1565,7 +1907,9 @@
               "watts": 100,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "Direct Coupled - Alpha - Ground Free"
             }
           ]
         },
@@ -1578,7 +1922,9 @@
               "watts": 90,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "L Extra (first nonmagnetic transistors)"
             },
             {
               "year": 1989,
@@ -1586,7 +1932,9 @@
               "watts": 130,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "L Extra (first nonmagnetic transistors)"
             },
             {
               "year": 1989,
@@ -1594,7 +1942,9 @@
               "watts": 160,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "L Extra (first nonmagnetic transistors)"
             },
             {
               "year": 1989,
@@ -1602,7 +1952,9 @@
               "watts": 80,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "L Extra (first nonmagnetic transistors)"
             },
             {
               "year": 1989,
@@ -1610,7 +1962,9 @@
               "watts": 90,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "L Extra (first nonmagnetic transistors)"
             },
             {
               "year": 1989,
@@ -1618,7 +1972,9 @@
               "watts": 95,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "L Extra (first nonmagnetic transistors)"
             }
           ]
         },
@@ -1631,7 +1987,9 @@
               "watts": 90,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "DR and later (upgraded circuitry)"
             },
             {
               "year": 1991,
@@ -1639,7 +1997,9 @@
               "watts": 130,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "DR and later (upgraded circuitry)"
             },
             {
               "year": 1990,
@@ -1647,7 +2007,9 @@
               "watts": 160,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "DR and later (upgraded circuitry)"
             },
             {
               "year": 1991,
@@ -1655,7 +2017,9 @@
               "watts": 45,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "DR and later (upgraded circuitry)"
             },
             {
               "year": 1992,
@@ -1663,7 +2027,9 @@
               "watts": 40,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "DR and later (upgraded circuitry)"
             },
             {
               "year": 1992,
@@ -1671,7 +2037,9 @@
               "watts": 65,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "DR and later (upgraded circuitry)"
             }
           ]
         },
@@ -1684,7 +2052,9 @@
               "watts": 90,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Alpha - X Balanced (KX)"
             },
             {
               "year": 1992,
@@ -1692,7 +2062,9 @@
               "watts": 130,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Alpha - X Balanced (KX)"
             },
             {
               "year": 1992,
@@ -1700,7 +2072,9 @@
               "watts": 160,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Alpha - X Balanced (KX)"
             }
           ]
         },
@@ -1713,7 +2087,9 @@
               "watts": 70,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Hyper Alpha - X Balanced (XR)"
             },
             {
               "year": 1993,
@@ -1721,7 +2097,9 @@
               "watts": 90,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Hyper Alpha - X Balanced (XR)"
             },
             {
               "year": 1993,
@@ -1729,7 +2107,9 @@
               "watts": 130,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Hyper Alpha - X Balanced (XR)"
             },
             {
               "year": 1993,
@@ -1737,7 +2117,9 @@
               "watts": 160,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Hyper Alpha - X Balanced (XR)"
             }
           ]
         },
@@ -1750,7 +2132,9 @@
               "watts": 30,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Alpha (K / misc)"
             },
             {
               "year": 1994,
@@ -1758,7 +2142,9 @@
               "watts": 55,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Alpha (K / misc)"
             },
             {
               "year": 1994,
@@ -1766,7 +2152,9 @@
               "watts": 60,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Alpha (K / misc)"
             },
             {
               "year": 1994,
@@ -1774,7 +2162,9 @@
               "watts": 80,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Alpha (K / misc)"
             },
             {
               "year": 1994,
@@ -1782,7 +2172,9 @@
               "watts": 50,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Alpha (K / misc)"
             },
             {
               "year": 1994,
@@ -1790,7 +2182,9 @@
               "watts": 50,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Alpha (K / misc)"
             }
           ]
         },
@@ -1803,7 +2197,9 @@
               "watts": 90,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "New Hyper Alpha - X Balanced (MR)"
             },
             {
               "year": 1995,
@@ -1811,7 +2207,9 @@
               "watts": 130,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "New Hyper Alpha - X Balanced (MR)"
             },
             {
               "year": 1995,
@@ -1819,7 +2217,9 @@
               "watts": 160,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "New Hyper Alpha - X Balanced (MR)"
             },
             {
               "year": 1995,
@@ -1827,7 +2227,9 @@
               "watts": 65,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "New Hyper Alpha - X Balanced (MR)"
             },
             {
               "year": 1995,
@@ -1835,7 +2237,9 @@
               "watts": 65,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "New Hyper Alpha - X Balanced (MR)"
             },
             {
               "year": 1996,
@@ -1843,7 +2247,9 @@
               "watts": 90,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "New Hyper Alpha - X Balanced (MR)"
             },
             {
               "year": 1996,
@@ -1851,7 +2257,9 @@
               "watts": 25,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "New Hyper Alpha - X Balanced (MR)"
             },
             {
               "year": 1996,
@@ -1859,7 +2267,9 @@
               "watts": 55,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "New Hyper Alpha - X Balanced (MR)"
             },
             {
               "year": 1996,
@@ -1867,7 +2277,9 @@
               "watts": 90,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "New Hyper Alpha - X Balanced (MR)"
             },
             {
               "year": 1996,
@@ -1875,7 +2287,9 @@
               "watts": 75,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "New Hyper Alpha - X Balanced (MR)"
             }
           ]
         },
@@ -1888,7 +2302,9 @@
               "watts": 90,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "MRX (international 230V variants of MR)"
             },
             {
               "year": 1997,
@@ -1896,7 +2312,9 @@
               "watts": 160,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Integrated",
+              "topology": "MRX (international 230V variants of MR)"
             }
           ]
         },
@@ -1909,7 +2327,9 @@
               "watts": 50,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Alpha - later small integrateds"
             },
             {
               "year": 1997,
@@ -1917,7 +2337,9 @@
               "watts": 50,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Alpha - later small integrateds"
             },
             {
               "year": 1997,
@@ -1925,7 +2347,9 @@
               "watts": 30,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Alpha - later small integrateds"
             },
             {
               "year": 1997,
@@ -1933,7 +2357,9 @@
               "watts": 55,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Alpha - later small integrateds"
             },
             {
               "year": 1997,
@@ -1941,7 +2367,9 @@
               "watts": 65,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Alpha - later small integrateds"
             },
             {
               "year": 1997,
@@ -1949,7 +2377,9 @@
               "watts": 80,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Alpha - later small integrateds"
             }
           ]
         },
@@ -1962,7 +2392,9 @@
               "watts": 60,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Ultimate Alpha - X Balanced (NRA)"
             },
             {
               "year": 1998,
@@ -1970,7 +2402,9 @@
               "watts": 80,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Ultimate Alpha - X Balanced (NRA)"
             },
             {
               "year": 1998,
@@ -1978,7 +2412,9 @@
               "watts": 130,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Ultimate Alpha - X Balanced (NRA)"
             },
             {
               "year": 1998,
@@ -1986,7 +2422,9 @@
               "watts": 160,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Ultimate Alpha - X Balanced (NRA)"
             },
             {
               "year": 1999,
@@ -1994,7 +2432,9 @@
               "watts": 60,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Ultimate Alpha - X Balanced (NRA)"
             },
             {
               "year": 1999,
@@ -2002,7 +2442,9 @@
               "watts": 80,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Integrated",
+              "topology": "Ultimate Alpha - X Balanced (NRA)"
             },
             {
               "year": 1999,
@@ -2010,7 +2452,9 @@
               "watts": 50,
               "market": "JDM",
               "pair": null,
-              "note": "JDM; last solid-state Sansui"
+              "note": "JDM; last solid-state Sansui",
+              "type": "Integrated",
+              "topology": "Ultimate Alpha - X Balanced (NRA)"
             }
           ]
         }
@@ -2029,7 +2473,9 @@
               "watts": null,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Preamp",
+              "topology": "Pre Amplifiers"
             },
             {
               "year": 1970,
@@ -2037,7 +2483,9 @@
               "watts": null,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Preamp",
+              "topology": "Pre Amplifiers"
             }
           ]
         },
@@ -2050,7 +2498,9 @@
               "watts": 20,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Power Amp",
+              "topology": "Power Amplifiers"
             },
             {
               "year": 1968,
@@ -2058,7 +2508,9 @@
               "watts": 28,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Power Amp",
+              "topology": "Power Amplifiers"
             },
             {
               "year": 1971,
@@ -2066,7 +2518,9 @@
               "watts": 30,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Power Amp",
+              "topology": "Power Amplifiers"
             },
             {
               "year": 1970,
@@ -2074,7 +2528,9 @@
               "watts": 45,
               "market": "JDM",
               "pair": null,
-              "note": "JDM"
+              "note": "JDM",
+              "type": "Power Amp",
+              "topology": "Power Amplifiers"
             }
           ]
         },
@@ -2087,7 +2543,9 @@
               "watts": null,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Preamp",
+              "topology": "Pre Amplifiers - Definition / Professional Series"
             },
             {
               "year": 1976,
@@ -2095,7 +2553,9 @@
               "watts": null,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Preamp",
+              "topology": "Pre Amplifiers - Definition / Professional Series"
             }
           ]
         },
@@ -2108,7 +2568,9 @@
               "watts": 170,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Power Amp",
+              "topology": "Power Amplifiers - Definition / Professional Series"
             },
             {
               "year": 1975,
@@ -2116,7 +2578,9 @@
               "watts": 300,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Power Amp",
+              "topology": "Power Amplifiers - Definition / Professional Series"
             },
             {
               "year": 1976,
@@ -2124,7 +2588,9 @@
               "watts": 110,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Power Amp",
+              "topology": "Power Amplifiers - Definition / Professional Series"
             },
             {
               "year": 1975,
@@ -2132,7 +2598,9 @@
               "watts": 45,
               "market": null,
               "pair": null,
-              "note": "VFET amplifier"
+              "note": "VFET amplifier",
+              "type": "Power Amp",
+              "topology": "Power Amplifiers - Definition / Professional Series"
             }
           ]
         },
@@ -2145,7 +2613,9 @@
               "watts": null,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Preamp",
+              "topology": "F-1 flagship separates"
             },
             {
               "year": 1979,
@@ -2153,7 +2623,9 @@
               "watts": 110,
               "market": null,
               "pair": null,
-              "note": null
+              "note": null,
+              "type": "Power Amp",
+              "topology": "F-1 flagship separates"
             }
           ]
         }

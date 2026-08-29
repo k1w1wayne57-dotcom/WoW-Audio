@@ -278,65 +278,116 @@ function wrenchDisplay(level) {
 function renderHistory() {
   const el = document.getElementById("history-content");
   if (!HISTORY || !HISTORY.sections) { el.innerHTML = "<p>History reference unavailable.</p>"; return; }
-  const owned = new Set(DB.filter(d => d.brand === "Sansui").map(d => normModel(d.jdm_model)));
   const src = HISTORY.source || {};
-  let html = `<div class="hist-head">
-      <h1>Sansui Amplifier History</h1>
-      <p class="hist-note">${escapeHtml(src.note || "")} ${src.url ? `<a href="${escapeHtml(src.url)}" target="_blank" rel="noopener">Source ↗</a>` : ""}</p>
-      <p class="hist-legend"><span class="hist-swatch in-db"></span> In your database (click for details) &nbsp; <span class="hist-swatch"></span> Reference only</p>
-    </div>`;
-  let lastCat = null;
-  HISTORY.sections.forEach(sec => {
-    if (sec.category && sec.category !== lastCat) {
-      html += `<h2 class="hist-cat">${escapeHtml(sec.category)}</h2>`;
-      lastCat = sec.category;
+
+  // One unified timeline: every Sansui we know about, from the database and
+  // from the Audiokarma product history, merged and keyed by model. DB records
+  // win on facts; the AK list contributes its topology/generation wording and
+  // any models we don't hold.
+  const byKey = new Map();
+  DB.filter(d => d.brand === "Sansui").forEach(d => {
+    byKey.set(normModel(d.jdm_model), {
+      model: d.jdm_model, year: d.year_start, type: d.type || "Other",
+      watts: d.watts_per_channel, market: d.market, pair: d.int_model,
+      series: d.series, inDb: true, topology: null
+    });
+  });
+  HISTORY.sections.forEach(sec => sec.groups.forEach(g => g.models.forEach(m => {
+    const k = normModel(m.model);
+    const hit = byKey.get(k);
+    if (hit) {                       // known amp — keep DB facts, add AK topology
+      hit.topology = hit.topology || g.topology || null;
+      if (!hit.pair && m.pair) hit.pair = m.pair;
+    } else {
+      byKey.set(k, {
+        model: m.model, year: m.year, type: m.type || "Integrated",
+        watts: m.watts, market: m.market, pair: m.pair,
+        series: null, inDb: false, topology: g.topology || null
+      });
     }
-    if (sec.generation) html += `<h3 class="hist-gen">${escapeHtml(sec.generation)}</h3>`;
-    sec.groups.forEach(g => {
-      if (g.topology) html += `<h4 class="hist-topo">${escapeHtml(g.topology)}</h4>`;
-      html += `<div class="hist-models">`;
-      g.models.forEach(m => {
-        const inDb = owned.has(normModel(m.model));
-        const meta = [m.year, m.watts ? m.watts + "W" : null, m.market].filter(Boolean).join(" · ");
-        const pair = m.pair ? ` <span class="hist-pair">↔ ${escapeHtml(m.pair)}</span>` : "";
-        html += `<span class="hist-model${inDb ? " in-db" : ""}" data-model="${normModel(m.model)}" title="${inDb ? "In your database — click for details" : "Reference only"}"><b>${escapeHtml(m.model)}</b> <span class="hist-meta">${escapeHtml(meta)}</span>${pair}</span>`;
+  })));
+
+  const items = [...byKey.values()];
+  const TYPE_ORDER = ["Integrated", "Tube Integrated", "Receiver", "Tube Receiver",
+                      "Receiver 4-ch", "Preamp", "Power Amp", "Power Amp 4-ch",
+                      "Tuner", "Quad Decoder", "Quad Synth", "Tape Deck", "Reverb Unit"];
+  const typeRank = t => { const i = TYPE_ORDER.indexOf(t); return i < 0 ? 99 : i; };
+  const decadeOf = y => (typeof y === "number" && y ? Math.floor(y / 10) * 10 : null);
+
+  const inDbCount = items.filter(i => i.inDb).length;
+  let html = `<div class="hist-head">
+      <h1>Sansui — The Complete Timeline</h1>
+      <p class="hist-note">${items.length} models by type, then by decade —
+        ${inDbCount} from this database, ${items.length - inDbCount} reference-only from the
+        ${src.url ? `<a href="${escapeHtml(src.url)}" target="_blank" rel="noopener">Audiokarma product history ↗</a>` : "Audiokarma product history"}.
+        Neither list is complete.</p>
+      <p class="hist-legend"><span class="hist-swatch in-db"></span> In your database (click for details)
+        &nbsp; <span class="hist-swatch"></span> Reference only</p>
+    </div>`;
+
+  const types = [...new Set(items.map(i => i.type))]
+    .sort((a, b) => typeRank(a) - typeRank(b) || a.localeCompare(b));
+
+  types.forEach(t => {
+    const inType = items.filter(i => i.type === t);
+    html += `<h2 class="hist-cat">${escapeHtml(t)} <span class="hist-tally">${inType.length}</span></h2>`;
+    const decades = [...new Set(inType.map(i => decadeOf(i.year)))]
+      .sort((a, b) => (a === null) - (b === null) || a - b);
+    decades.forEach(dec => {
+      const rows = inType.filter(i => decadeOf(i.year) === dec)
+        .sort((a, b) => (a.year || 9999) - (b.year || 9999) || a.model.localeCompare(b.model));
+      html += `<h3 class="hist-gen">${dec ? dec + "s" : "Year unknown"}</h3><div class="hist-models">`;
+      rows.forEach(i => {
+        const bits = [i.watts ? i.watts + "W" : null, i.market].filter(Boolean).join(" · ");
+        const pair = i.pair ? ` <span class="hist-pair">↔ ${escapeHtml(i.pair)}</span>` : "";
+        const tip = [i.topology, i.series].filter(Boolean).join(" — ")
+                 || (i.inDb ? "In your database — click for details" : "Reference only");
+        html += `<span class="hist-model${i.inDb ? " in-db" : ""}" data-model="${normModel(i.model)}"`
+              + ` title="${escapeHtml(tip)}"><b class="hist-name">${escapeHtml(i.model)}</b> `
+              + `<b class="hist-year">${i.year || "—"}</b>`
+              + (bits ? ` <span class="hist-meta">${escapeHtml(bits)}</span>` : "")
+              + `${pair}</span>`;
       });
       html += `</div>`;
     });
   });
 
-  // Everything in the database that the Audiokarma list doesn't cover — it's an
-  // amplifier history, so receivers/tuners/decks live here. Built from the DB at
-  // render time, so it stays in sync as models are added.
-  const listed = new Set();
-  HISTORY.sections.forEach(s => s.groups.forEach(g =>
-    g.models.forEach(m => listed.add(normModel(m.model)))));
-  const extra = DB.filter(d => d.brand === "Sansui" && !listed.has(normModel(d.jdm_model)));
-  if (extra.length) {
-    html += `<h2 class="hist-cat">Also in your database</h2>`;
-    html += `<p class="hist-note">${extra.length} models the amplifier list doesn't cover — receivers, tuners, decks and later variants. All clickable.</p>`;
-    const decade = (y) => (typeof y === "number" && y ? Math.floor(y / 10) * 10 : null);
-    const decades = [...new Set(extra.map(d => decade(d.year_start)))]
-      .sort((a, b) => (a === null) - (b === null) || a - b);
-    decades.forEach(dec => {
-      const inDec = extra.filter(d => decade(d.year_start) === dec);
-      html += `<h3 class="hist-gen">${dec ? dec + "s" : "Year unknown"}</h3>`;
-      const types = [...new Set(inDec.map(d => d.type || "Other"))].sort();
-      types.forEach(t => {
-        const rows = inDec.filter(d => (d.type || "Other") === t)
-          .sort((a, b) => (a.year_start || 9999) - (b.year_start || 9999));
-        html += `<h4 class="hist-topo">${escapeHtml(t)}</h4><div class="hist-models">`;
-        rows.forEach(d => {
-          const meta = [d.year_start, d.watts_per_channel ? d.watts_per_channel + "W" : null,
-                        d.market].filter(Boolean).join(" · ");
-          const pair = d.int_model ? ` <span class="hist-pair">↔ ${escapeHtml(d.int_model)}</span>` : "";
-          html += `<span class="hist-model in-db" data-model="${normModel(d.jdm_model)}" title="In your database — click for details"><b>${escapeHtml(d.jdm_model)}</b> <span class="hist-meta">${escapeHtml(meta)}</span>${pair}</span>`;
-        });
-        html += `</div>`;
+  el.innerHTML = html;
+  wireHistorySearch(el);
+}
+
+// Filter the timeline by model name. Headings whose models all disappear are
+// hidden too, so the page collapses to just the matches.
+function wireHistorySearch(el) {
+  const box = document.getElementById("hist-search");
+  const count = document.getElementById("hist-count");
+  if (!box) return;
+  const chips = Array.from(el.querySelectorAll(".hist-model"));
+  const total = chips.length;
+  const apply = () => {
+    const q = normModel(box.value);
+    chips.forEach(c => {
+      c.hidden = q ? !normModel(c.textContent).includes(q) : false;
+    });
+    // hide model rows that are now empty, then headings with nothing under them
+    el.querySelectorAll(".hist-models").forEach(row => {
+      row.hidden = !row.querySelector(".hist-model:not([hidden])");
+    });
+    ["hist-topo", "hist-gen", "hist-cat"].forEach(cls => {
+      el.querySelectorAll("." + cls).forEach(h => {
+        let n = h.nextElementSibling, live = false;
+        while (n && !n.classList.contains(cls) && !n.classList.contains("hist-cat")) {
+          if (n.classList.contains("hist-models") && !n.hidden) { live = true; break; }
+          n = n.nextElementSibling;
+        }
+        h.hidden = q ? !live : false;
       });
     });
-  }
-  el.innerHTML = html;
+    const shown = chips.filter(c => !c.hidden).length;
+    count.textContent = q ? `${shown} of ${total}` : `${total} models`;
+  };
+  box.addEventListener("input", apply);
+  apply();
 }
 
 function render() {

@@ -21,6 +21,28 @@ SOURCE = {
 }
 
 
+def infer_type(model, category, topology):
+    """Give every AK-list model a type so it can merge with the DB records.
+
+    The list is amplifiers only, split into INTEGRATED and SEPARATES; within
+    SEPARATES the topology heading says pre or power. Model prefixes settle the
+    rest (Sansui is consistent: CA-/C- pre, BA-/B- power, TU- tuner)."""
+    m = (model or "").upper()
+    topo = (topology or "").lower()
+    if m.startswith(("CA-", "C-", "TC-")):
+        return "Preamp"
+    if m.startswith(("BA-", "B-")):
+        return "Power Amp"
+    if m.startswith("TU-"):
+        return "Tuner"
+    if "separates" in (category or "").lower():
+        if "pre" in topo:
+            return "Preamp"
+        if "power" in topo:
+            return "Power Amp"
+    return "Integrated"
+
+
 def parse_model(line):
     m = re.match(r"^(\d{4})\s+(.*)$", line)
     if not m:
@@ -100,6 +122,8 @@ def main():
         rec = parse_model(line)
         if rec:
             ensure_group(topology)
+            rec["type"] = infer_type(rec["model"], category, topology)
+            rec["topology"] = topology        # carried through for the tooltip
             cur_group["models"].append(rec)
 
     # drop empty sections

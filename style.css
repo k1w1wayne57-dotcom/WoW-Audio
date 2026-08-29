@@ -474,20 +474,36 @@ tbody td {
   thead th, tbody td { padding: 8px 10px; }
 }
 
-/* ---- History / timeline view ---- */
-.history-section { max-width: 1100px; margin: 0 auto; padding: 24px 20px 60px; }
+/* ---- History / unified timeline ---- */
+.history-section { max-width: 1100px; margin: 0 auto; padding: 8px 20px 60px; }
 .hist-head h1 { color: var(--gold); font-size: 1.9rem; margin: 0 0 8px; }
-.hist-note { color: var(--text-secondary); font-size: .9rem; max-width: 720px; line-height: 1.5; }
+.hist-note { color: var(--text-secondary); font-size: .9rem; max-width: 780px; line-height: 1.55; }
 .hist-legend { color: var(--text-secondary); font-size: .82rem; margin-top: 12px; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
 .hist-swatch { display: inline-block; width: 14px; height: 14px; border-radius: 3px; background: var(--bg-alt); border: 1px solid var(--border); vertical-align: middle; }
 .hist-swatch.in-db { border-color: var(--gold); background: rgba(201,168,76,.18); }
-.hist-cat { color: var(--gold-bright); font-size: 1.35rem; letter-spacing: .08em; text-transform: uppercase; margin: 40px 0 4px; padding-bottom: 6px; border-bottom: 2px solid var(--border); }
-.hist-gen { color: var(--text); font-size: 1.1rem; margin: 26px 0 6px; }
-.hist-topo { color: var(--text-secondary); font-size: .85rem; font-style: italic; font-weight: 500; margin: 16px 0 8px; }
+
+/* type = top level, bold */
+.hist-cat { color: var(--gold-bright); font-size: 1.3rem; font-weight: 700; letter-spacing: .06em;
+  text-transform: uppercase; margin: 42px 0 4px; padding-bottom: 6px; border-bottom: 2px solid var(--border); }
+.hist-tally { color: var(--text-secondary); font-size: .72rem; font-weight: 500; letter-spacing: 0; margin-left: 6px; }
+/* decade */
+.hist-gen { color: var(--text); font-size: 1.05rem; margin: 22px 0 8px; opacity: .9; }
+
 .hist-models { display: flex; flex-wrap: wrap; gap: 8px; }
-.hist-model { background: var(--bg-alt); border: 1px solid var(--border); border-radius: 8px; padding: 6px 10px; font-size: .85rem; color: var(--text); line-height: 1.3; }
-.hist-model b { font-weight: 600; }
-.hist-model .hist-meta { color: var(--text-secondary); font-size: .78rem; margin-left: 4px; }
-.hist-model .hist-pair { color: var(--green); font-size: .75rem; }
+.hist-model { background: var(--bg-alt); border: 1px solid var(--border); border-radius: 8px;
+  padding: 6px 10px; font-size: .85rem; color: var(--text); line-height: 1.35; }
+.hist-model[hidden] { display: none; }
+.hist-name { font-weight: 600; }
+.hist-year { font-weight: 700; color: var(--gold); margin-left: 7px; }   /* year bold */
+.hist-meta { color: var(--text-secondary); font-size: .78rem; margin-left: 5px; }
+.hist-pair { color: var(--green); font-size: .75rem; }
 .hist-model.in-db { border-color: var(--gold); background: rgba(201,168,76,.12); cursor: pointer; }
 .hist-model.in-db:hover { background: rgba(201,168,76,.24); border-color: var(--gold-bright); }
+
+/* search */
+.hist-search-wrap { max-width: 1100px; margin: 0 auto; padding: 20px 20px 0; display: flex; gap: 12px; align-items: center; }
+#hist-search { flex: 1; padding: 10px 14px; background: var(--bg-alt); border: 1px solid var(--border);
+  border-radius: 8px; color: var(--text); font-size: .92rem; }
+#hist-search:focus { outline: none; border-color: var(--gold); }
+#hist-search::placeholder { color: var(--text-secondary); }
+.hist-count { color: var(--text-secondary); font-size: .82rem; white-space: nowrap; }
