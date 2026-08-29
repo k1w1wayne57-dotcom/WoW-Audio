@@ -292,6 +292,21 @@ def condition_of(title):
     return "unknown"          # both claimed, or neither stated
 
 
+# Wayne's standing rule: never price from Japanese or Hong Kong sellers. Their
+# asking prices are export-optimistic and include shipping, and they dominate
+# JDM-model results, which skews every figure upward.
+EXPORT_SELLER_RE = re.compile(
+    r"\b(from\s?japan|japan\s?import|imported\s?from\s?japan|japanese\s?market|"
+    r"made\s?in\s?japan\s?used|hong\s?kong)\b", re.I)
+BANNED_CURRENCIES = {"HKD", "JPY"}
+
+
+def is_export_seller(listing):
+    if listing.get("currency") in BANNED_CURRENCIES:
+        return True
+    return bool(EXPORT_SELLER_RE.search(listing.get("title") or ""))
+
+
 def summarize_usd(listings, months, headful=False, profile=None, model=None):
     """Filter to the last `months`, convert to USD, return a summary dict."""
     cutoff = datetime.date.today() - datetime.timedelta(days=int(30.4 * months))
@@ -303,6 +318,8 @@ def summarize_usd(listings, months, headful=False, profile=None, model=None):
             continue  # skip parts, manuals, faceplates, etc.
         if model and not title_matches(x.get("title"), model):
             continue  # different model / variant
+        if is_export_seller(x):
+            continue  # Japan / Hong Kong export sellers - never priced from
         if x["date"] and x["date"] < cutoff:
             continue
         rate = FX_TO_USD.get(x["currency"])
