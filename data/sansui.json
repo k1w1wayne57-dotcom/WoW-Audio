@@ -9882,18 +9882,18 @@
     "brand": "Sansui",
     "jdm_model": "G-8700DB",
     "int_model": "G-871DB",
-    "type": "Receiver 4-ch",
+    "type": "Receiver",
     "series": "Silver Era",
     "year_start": 1979,
     "year_end": 1980,
     "japan_price_kyen": 920,
     "watts_per_channel": 160,
-    "freq_response_hz": null,
+    "freq_response_hz": "5-80000",
     "thd_percent": 0.025,
     "ps_type": "Dual Power Supply",
     "amp_circuit": "Pure Power DC stereo receiver, Dolby FM",
-    "weight_kg": 24.9,
-    "special_features": "G-series 3rd generation, Pure Power DC (1979-82, digital readout)",
+    "weight_kg": 21.0,
+    "special_features": "Dolby FM (the \"DB\" suffix). 3-stage tone control (bass/mid/treble), subsonic filter 16Hz, high filter 3kHz, loudness, two RIAA phono inputs, two tape loops. Damping factor 60. 560 x 201 x 475 mm.",
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 40-50",
@@ -9927,7 +9927,7 @@
     "capacitors": [],
     "links": {
       "audio_database": null,
-      "hifi_engine": null,
+      "hifi_engine": "https://www.hifiengine.com/manual_library/sansui/g-8700db.shtml",
       "sansui_us": null
     },
     "notes": null,
@@ -9939,7 +9939,17 @@
     "usd_msrp": null,
     "market": "JDM",
     "sonic_signature": "G-series Pure Power DC: high-speed direct-coupled circuitry for lower distortion - cleaner and tighter than the warm first-generation G receivers. (Family-level: G-series 3rd gen.)",
-    "thb_status": null
+    "thb_status": null,
+    "auto_specs": {
+      "source": "hifiengine.com",
+      "date": "2026-08",
+      "fields": [
+        "type",
+        "freq_response_hz",
+        "weight_kg",
+        "special_features"
+      ]
+    }
   },
   {
     "id": "sansui-g-9000-1978",
