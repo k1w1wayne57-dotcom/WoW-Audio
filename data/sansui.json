@@ -122,8 +122,8 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 300,
-    "price_basis": null,
+    "avg_price_usd_3mo": 672,
+    "price_basis": "hifishark 12mo listing median, asking prices (FX->USD) 2026-08",
     "year_source": "serial-report",
     "price_thb_listings": [
       9900
@@ -132,7 +132,14 @@
     "market": null,
     "sonic_signature": "Classic-era Sansui: warm, organic midrange with smooth clarity - often described as 'tube-like', with a lush, engaging presentation and a smooth top end. (Family-level: late-60s/early-70s AU line.)",
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 17,
+      "median_usd": 672,
+      "previous_usd": 300
+    }
   },
   {
     "id": "sansui-au-777d-1969",
@@ -2318,8 +2325,8 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 40-50",
-    "price_confidence": "Low",
-    "last_price_check": "2026-07",
+    "price_confidence": "Medium",
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -2355,8 +2362,8 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 350,
-    "price_basis": null,
+    "avg_price_usd_3mo": 540,
+    "price_basis": "hifishark 12mo listing median, asking prices (FX->USD) 2026-08",
     "year_source": "serial-report",
     "price_thb_listings": [
       8900
@@ -2365,7 +2372,14 @@
     "market": null,
     "sonic_signature": "Silver-era Sansui: the warm, musical house sound of Sansui's peak years - full-bodied and rich with a smooth top end and an engaging, non-fatiguing presentation. (Family-level: mid/late-70s silver-face line.)",
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 12,
+      "median_usd": 540,
+      "previous_usd": 350
+    }
   },
   {
     "id": "sansui-au-717-1977",
@@ -3198,8 +3212,8 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 230,
-    "price_basis": null,
+    "avg_price_usd_3mo": 194,
+    "price_basis": "hifishark 12mo listing median, asking prices (FX->USD) 2026-08",
     "year_source": "serial-report",
     "price_thb_listings": [
       5900
@@ -3208,7 +3222,14 @@
     "usd_msrp": 230,
     "market": "International",
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 21,
+      "median_usd": 194,
+      "previous_usd": 230
+    }
   },
   {
     "id": "sansui-au-417-1979",
@@ -3721,8 +3742,8 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 20-30",
-    "price_confidence": "Low",
-    "last_price_check": "2026-06",
+    "price_confidence": "Medium",
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
       "collector_notes": "3rd-generation 707 D-series."
@@ -3758,8 +3779,8 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 700,
-    "price_basis": null,
+    "avg_price_usd_3mo": 735,
+    "price_basis": "hifishark 12mo listing median, asking prices (FX->USD) 2026-08",
     "year_source": "serial-report",
     "price_thb_listings": [
       4800
@@ -3775,7 +3796,14 @@
         "japan_price_kyen"
       ]
     },
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 18,
+      "median_usd": 735,
+      "previous_usd": 700
+    }
   },
   {
     "id": "sansui-au-d907f-3rd-gen-1980",
@@ -4007,7 +4035,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 30-40",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -4044,8 +4072,8 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 450,
-    "price_basis": null,
+    "avg_price_usd_3mo": 574,
+    "price_basis": "hifishark 12mo listing median, asking prices (FX->USD) 2026-08",
     "year_source": "serial-report",
     "price_thb_listings": [
       7500
@@ -4062,7 +4090,14 @@
         "weight_kg"
       ]
     },
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 28,
+      "median_usd": 574,
+      "previous_usd": 450
+    }
   },
   {
     "id": "sansui-au-d7-1981",
@@ -4679,8 +4714,8 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 800,
-    "price_basis": null,
+    "avg_price_usd_3mo": 772,
+    "price_basis": "hifishark 12mo listing median, asking prices (FX->USD) 2026-08",
     "year_source": "serial-report",
     "price_thb_listings": [
       8000
@@ -4696,7 +4731,14 @@
         "japan_price_kyen"
       ]
     },
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 32,
+      "median_usd": 772,
+      "previous_usd": 800
+    }
   },
   {
     "id": "sansui-au-d907x-6th-gen-1984",
@@ -6053,8 +6095,8 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 150,
-    "price_basis": null,
+    "avg_price_usd_3mo": 228,
+    "price_basis": "hifishark 12mo listing median, asking prices (FX->USD) 2026-08",
     "year_source": "serial-report",
     "price_thb_listings": [
       8500
@@ -6063,7 +6105,14 @@
     "market": null,
     "sonic_signature": "Classic-era Sansui: warm, organic midrange with smooth clarity - often described as 'tube-like', with a lush, engaging presentation and a smooth top end. (Family-level: late-60s/early-70s AU line.)",
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 8,
+      "median_usd": 228,
+      "previous_usd": 150
+    }
   },
   {
     "id": "sansui-350-1968",
@@ -6295,8 +6344,8 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 30-40",
-    "price_confidence": "Medium",
-    "last_price_check": "2026-07",
+    "price_confidence": "Low",
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -6332,8 +6381,8 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 275,
-    "price_basis": null,
+    "avg_price_usd_3mo": 318,
+    "price_basis": "hifishark 12mo listing median, asking prices (FX->USD) 2026-08",
     "year_source": "serial-report",
     "price_thb_listings": [
       6500
@@ -6342,7 +6391,14 @@
     "market": null,
     "sonic_signature": "Classic-era Sansui: warm, organic midrange with smooth clarity - often described as 'tube-like', with a lush, engaging presentation and a smooth top end. (Family-level: late-60s/early-70s AU line.)",
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 6,
+      "median_usd": 318,
+      "previous_usd": 275
+    }
   },
   {
     "id": "sansui-5000-1969",
@@ -8202,7 +8258,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 40-50",
-    "price_confidence": "Medium",
+    "price_confidence": "Low",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -8239,8 +8295,8 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 175,
-    "price_basis": null,
+    "avg_price_usd_3mo": 321,
+    "price_basis": "hifishark 12mo listing median, asking prices (FX->USD) 2026-08",
     "year_source": "serial-report",
     "price_thb_listings": [
       5200
@@ -8249,7 +8305,14 @@
     "market": null,
     "sonic_signature": "Classic-era Sansui: warm, organic midrange with smooth clarity - often described as 'tube-like', with a lush, engaging presentation and a smooth top end. (Family-level: late-60s/early-70s AU line.)",
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 6,
+      "median_usd": 321,
+      "previous_usd": 175
+    }
   },
   {
     "id": "sansui-661-1974",
@@ -9231,8 +9294,8 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 175,
-    "price_basis": null,
+    "avg_price_usd_3mo": 492,
+    "price_basis": "hifishark 12mo listing median, asking prices (FX->USD) 2026-08",
     "year_source": "serial-report",
     "price_thb_listings": [
       2600
@@ -9241,7 +9304,14 @@
     "market": null,
     "sonic_signature": "G-series 1st generation: the classic silver-face voicing - warm and musical. (Family-level: G-series 1st gen.)",
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 14,
+      "median_usd": 492,
+      "previous_usd": 175
+    }
   },
   {
     "id": "sansui-g-3000-1977",
@@ -9745,8 +9815,8 @@
     },
     "notes": "Produced 1978-1980. Dimensions 465 x 177 x 405mm.",
     "verified": true,
-    "avg_price_usd_3mo": 450,
-    "price_basis": "restored",
+    "avg_price_usd_3mo": 1906,
+    "price_basis": "hifishark 12mo listing median, asking prices (FX->USD) 2026-08",
     "ps_type": null,
     "year_source": "serial-report",
     "price_thb_listings": [
@@ -9756,7 +9826,14 @@
     "market": null,
     "sonic_signature": "G-series Pure Power DC: high-speed direct-coupled circuitry for lower distortion - cleaner and tighter than the warm first-generation G receivers. (Family-level: G-series 3rd gen.)",
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 18,
+      "median_usd": 1906,
+      "previous_usd": 450
+    }
   },
   {
     "id": "sansui-g-6000-1978",
@@ -11002,8 +11079,8 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 400,
-    "price_basis": null,
+    "avg_price_usd_3mo": 508,
+    "price_basis": "hifishark 12mo listing median, asking prices (FX->USD) 2026-08",
     "year_source": "serial-report",
     "price_thb_listings": [
       6500,
@@ -11013,7 +11090,14 @@
     "market": null,
     "sonic_signature": "Classic-era Sansui: warm, organic midrange with smooth clarity - often described as 'tube-like', with a lush, engaging presentation and a smooth top end. (Family-level: late-60s/early-70s AU line.)",
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 5,
+      "median_usd": 508,
+      "previous_usd": 400
+    }
   },
   {
     "id": "sansui-qrx-3500-1973",
@@ -11071,7 +11155,7 @@
     "notes": null,
     "verified": false,
     "avg_price_usd_3mo": 350,
-    "price_basis": null,
+    "price_basis": "hifishark 12mo listing median, asking prices (FX->USD) 2026-08",
     "year_source": "serial-report",
     "price_thb_listings": [
       9990
@@ -11080,7 +11164,13 @@
     "market": null,
     "sonic_signature": "Classic-era Sansui: warm, organic midrange with smooth clarity - often described as 'tube-like', with a lush, engaging presentation and a smooth top end. (Family-level: late-60s/early-70s AU line.)",
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 12,
+      "median_usd": 350
+    }
   },
   {
     "id": "sansui-qrx-5500-1973",
@@ -12632,8 +12722,8 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 700,
-    "price_basis": null,
+    "avg_price_usd_3mo": 946,
+    "price_basis": "hifishark 12mo listing median, asking prices (FX->USD) 2026-08",
     "year_source": "serial-report",
     "price_thb_listings": [
       8550
@@ -12641,7 +12731,14 @@
     "usd_msrp": 570,
     "market": null,
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 28,
+      "median_usd": 946,
+      "previous_usd": 700
+    }
   },
   {
     "id": "sansui-tu-3900-1977",
@@ -12809,7 +12906,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Unranked",
-    "price_confidence": "Medium",
+    "price_confidence": "Low",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -12847,7 +12944,7 @@
     "notes": null,
     "verified": false,
     "avg_price_usd_3mo": 162,
-    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
+    "price_basis": "hifishark 12mo listing median, asking prices (FX->USD) 2026-08",
     "year_source": "serial-report",
     "price_thb_listings": [
       2700
@@ -13064,8 +13161,8 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 129,
-    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
+    "avg_price_usd_3mo": 119,
+    "price_basis": "hifishark 12mo listing median, asking prices (FX->USD) 2026-08",
     "year_source": "serial-report",
     "price_thb_listings": [
       2500
@@ -13076,8 +13173,9 @@
     "auto_price": {
       "source": "hifishark.com",
       "date": "2026-08",
-      "n": 9,
-      "median_usd": 129
+      "n": 21,
+      "median_usd": 119,
+      "previous_usd": 129
     },
     "thb_checked": "2026-08"
   },
@@ -18193,8 +18291,8 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 750,
-    "price_basis": null,
+    "avg_price_usd_3mo": 940,
+    "price_basis": "hifishark 12mo listing median, asking prices (FX->USD) 2026-08",
     "year_source": "research",
     "price_thb_listings": [
       13000,
@@ -18206,7 +18304,14 @@
     "market": null,
     "sonic_signature": "Classic-era Sansui: warm, organic midrange with smooth clarity - often described as 'tube-like', with a lush, engaging presentation and a smooth top end. (Family-level: late-60s/early-70s AU line.)",
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 28,
+      "median_usd": 940,
+      "previous_usd": 750
+    }
   },
   {
     "id": "sansui-tr-707a",
@@ -19045,8 +19150,8 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 1038,
-    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
+    "avg_price_usd_3mo": 1083,
+    "price_basis": "hifishark 12mo listing median, asking prices (FX->USD) 2026-08",
     "year_source": "research",
     "usd_msrp": null,
     "market": null,
@@ -19055,8 +19160,9 @@
     "auto_price": {
       "source": "hifishark.com",
       "date": "2026-08",
-      "n": 29,
-      "median_usd": 1038
+      "n": 33,
+      "median_usd": 1083,
+      "previous_usd": 1038
     },
     "thb_checked": "2026-08"
   },
@@ -19118,12 +19224,19 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 275,
-    "price_basis": null,
+    "avg_price_usd_3mo": 327,
+    "price_basis": "hifishark 12mo listing median, asking prices (FX->USD) 2026-08",
     "usd_msrp": null,
     "market": null,
     "year_source": "research",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_price": {
+      "source": "hifishark.com",
+      "date": "2026-08",
+      "n": 10,
+      "median_usd": 327,
+      "previous_usd": 275
+    }
   },
   {
     "id": "sansui-au-alpha305rx-1997",

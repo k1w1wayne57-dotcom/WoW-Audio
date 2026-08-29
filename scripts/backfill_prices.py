@@ -74,7 +74,7 @@ def in_years(rec, years):
     return isinstance(y, int) and years[0] <= y <= years[1]
 
 
-def run(brands, months, limit, refresh=False, years=None):
+def run(brands, months, limit, refresh=False, years=None, for_sale=False):
     review = ["\t".join(["brand", "model", "median_usd", "n", "confidence",
                          "range", "status"])]
     done = attempted = 0
@@ -83,6 +83,7 @@ def run(brands, months, limit, refresh=False, years=None):
         gaps = [r for r in data
                 if (refresh or r.get("avg_price_usd_3mo") in EMPTY)
                 and in_years(r, years)
+                and (not for_sale or r.get("thb_status") == "For sale")
                 and (r.get("jdm_model") or r.get("model"))]
         if limit:
             gaps = gaps[:limit]
@@ -138,6 +139,8 @@ def main():
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--refresh", action="store_true",
                     help="also re-price records that already have a price")
+    ap.add_argument("--for-sale", dest="for_sale", action="store_true",
+                    help="only records currently listed for sale in Thailand")
     ap.add_argument("--years", metavar="LO-HI",
                     help="only records with year_start in this range, e.g. 1970-1979")
     args = ap.parse_args()
@@ -146,7 +149,7 @@ def main():
         lo, hi = args.years.split("-")
         years = (int(lo), int(hi))
     run([args.brand] if args.brand else BRANDS, args.months, args.limit,
-        refresh=args.refresh, years=years)
+        refresh=args.refresh, years=years, for_sale=args.for_sale)
 
 
 if __name__ == "__main__":
