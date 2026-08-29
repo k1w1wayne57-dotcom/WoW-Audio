@@ -33,7 +33,9 @@ DATA = ROOT / "data"
 BRANDS = ["sansui", "marantz", "pioneer"]
 TODAY = f"{datetime.date.today():%Y-%m}"
 EMPTY = (None, "", "—", [], {})
-MIN_LISTINGS = 5          # fewer than this = don't trust it, leave blank
+MIN_LISTINGS = 1          # rare models (tuners, oddballs) are better served by a
+                          # thin figure honestly flagged than by no figure at all;
+                          # auto_price.n always records how thin it was
 MAX_SPREAD = 5            # high/low beyond this = incoherent sample (mixed
                           # variants, part-outs, multi-unit lots) -> leave blank
 REVIEW = Path(__file__).resolve().parent / "backfill_prices_review.tsv"
@@ -102,15 +104,17 @@ def run(brands, months, limit, refresh=False, years=None, for_sale=False):
                 continue
             # Quartile ratio, not high/low: one part-out listing shouldn't veto
             # an otherwise coherent sample the median already ignores.
+            # Quartiles are meaningless on 1-3 points, so only police the spread
+            # once there is enough of a sample to have quartiles.
             spread = s.get("q3", s["high"]) / max(s.get("q1", s["low"]), 1)
-            if spread > MAX_SPREAD:
+            if s["count"] >= 4 and spread > MAX_SPREAD:
                 print(f"skip (spread {spread:.0f}x — ${s['low']:,}-${s['high']:,}, "
                       f"incoherent)", flush=True)
                 review.append("\t".join([brand, model, "", str(s["count"]), "",
                                          f"${s['low']:,}-${s['high']:,}", "spread"]))
                 time.sleep(0.5)
                 continue
-            conf = "Medium" if s["count"] >= 8 else "Low"
+            conf = "Medium" if s["count"] >= 8 else "Low"   # n is kept in auto_price
             prev = rec.get("avg_price_usd_3mo")
             rec["avg_price_usd_3mo"] = s["median"]
             rec["price_basis"] = f"hifishark {months}mo listing median, asking prices (FX->USD) {TODAY}"

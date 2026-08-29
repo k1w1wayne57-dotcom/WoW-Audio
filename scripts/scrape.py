@@ -51,14 +51,22 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
 
 # Multi-char symbols MUST come before single-char ones (CA$ before A$, US$ before $).
 CURRENCY = {"US$": "USD", "CA$": "CAD", "C$": "CAD", "A$": "AUD", "AU$": "AUD",
+            "HK$": "HKD", "NT$": "TWD", "NZ$": "NZD", "SG$": "SGD", "S$": "SGD",
+            "R$": "BRL", "MX$": "MXN", "zł": "PLN", "PLN": "PLN", "CHF": "CHF",
             "$": "USD", "€": "EUR", "£": "GBP", "¥": "JPY", "฿": "THB"}
-PRICE_RE = re.compile(r"(US\$|CA\$|C\$|AU\$|A\$|[$€£¥฿])\s?([\d.,]{2,})")
+# Longest prefixes first — "HK$" must be tried before the bare "$", or Hong Kong
+# listings are read as US dollars and come out ~8x too dear.
+PRICE_RE = re.compile(
+    r"(US\$|CA\$|C\$|AU\$|A\$|HK\$|NT\$|NZ\$|SG\$|S\$|R\$|MX\$|zł|PLN|CHF|[$€£¥฿])"
+    r"\s?([\d.,]{2,})")
 DATE_RE = re.compile(r"([A-Z][a-z]{2})\s+(\d{1,2}),\s+(20\d{2})")
 
 # Approximate FX -> USD, ~Aug 2026. HiFi Shark aggregates many currencies; edit
 # these if they drift. Used only to average mixed-currency listings into USD.
 FX_TO_USD = {"USD": 1.0, "EUR": 1.08, "GBP": 1.27, "AUD": 0.66,
-             "CAD": 0.73, "JPY": 0.0067, "THB": 0.030}
+             "CAD": 0.73, "JPY": 0.0067, "THB": 0.030, "HKD": 0.128,
+             "TWD": 0.031, "NZD": 0.60, "SGD": 0.74, "BRL": 0.18,
+             "MXN": 0.050, "PLN": 0.25, "CHF": 1.12}
 
 
 # ---------------------------------------------------------------------------
@@ -184,8 +192,16 @@ def dump_prices(soup, limit=40):
 # ---------------------------------------------------------------------------
 # HiFi Shark research mode
 # ---------------------------------------------------------------------------
+def search_term(model):
+    """The DB spells the Alpha series 'AU-Alpha-607NRA'; sellers write 'AU-α607NRA'
+    and HiFi Shark's search does poorly with the word 'Alpha' — querying the plain
+    'AU-607NRA' returns roughly twice as many real listings. The title guard still
+    rejects the wrong variants afterwards."""
+    return re.sub(r"\bAU[-\s]*Alpha[-\s]*", "AU-", str(model or ""), flags=re.I)
+
+
 def hifishark_search_url(brand, model):
-    return "https://www.hifishark.com/search?q=" + quote_plus(f"{brand} {model}")
+    return "https://www.hifishark.com/search?q=" + quote_plus(f"{brand} {search_term(model)}")
 
 
 # Parts/manuals/accessories masquerading as the amp in HiFi Shark results.
