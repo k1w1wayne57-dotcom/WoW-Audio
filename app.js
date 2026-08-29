@@ -337,22 +337,43 @@ function renderHistory() {
     decades.forEach(dec => {
       const rows = inType.filter(i => decadeOf(i.year) === dec)
         .sort((a, b) => (a.year || 9999) - (b.year || 9999) || a.model.localeCompare(b.model));
-      html += `<h3 class="hist-gen">${dec ? dec + "s" : "Year unknown"}</h3><div class="hist-models">`;
+      html += `<h3 class="hist-gen">${dec ? dec + "s" : "Year unknown"}</h3>`;
+
+      // Split the decade into generation runs. A label that just restates the
+      // type ("Power Amp" under Power Amp) is dropped as noise.
+      const groups = new Map();
       rows.forEach(i => {
-        const bits = [i.watts ? i.watts + "W" : null, i.market].filter(Boolean).join(" · ");
-        const pair = i.pair ? ` <span class="hist-pair">↔ ${escapeHtml(i.pair)}</span>` : "";
         const g = GENS[normModel(i.model)];
-        const gen = g && g.gen_short
-          ? ` <span class="hist-genlabel">${escapeHtml(g.gen_short)}</span>` : "";
-        const tip = [g && g.generation, i.topology, i.series].filter(Boolean).join(" — ")
-                 || (i.inDb ? "In your database — click for details" : "Reference only");
-        html += `<span class="hist-model${i.inDb ? " in-db" : ""}" data-model="${normModel(i.model)}"`
-              + ` title="${escapeHtml(tip)}"><b class="hist-name">${escapeHtml(i.model)}</b> `
-              + `<b class="hist-year">${i.year || "—"}</b>` + gen
-              + (bits ? ` <span class="hist-meta">${escapeHtml(bits)}</span>` : "")
-              + `${pair}</span>`;
+        let label = (g && g.gen_short) || null;
+        if (label && normModel(label) === normModel(t)) label = null;
+        if (!groups.has(label)) groups.set(label, []);
+        groups.get(label).push(i);
       });
-      html += `</div>`;
+      const firstYear = list => Math.min(...list.map(x => x.year || 9999));
+      const ordered = [...groups.entries()].sort((a, b) =>
+        (a[0] === null ? -1 : b[0] === null ? 1 : firstYear(a[1]) - firstYear(b[1])));
+
+      ordered.forEach(([label, list]) => {
+        if (label) {
+          const full = (GENS[normModel(list[0].model)] || {}).generation;
+          html += `<h4 class="hist-genhead" title="${escapeHtml(full || label)}">`
+                + `${escapeHtml(label)} <span class="hist-tally">${list.length}</span></h4>`;
+        }
+        html += `<div class="hist-models">`;
+        list.forEach(i => {
+          const bits = [i.watts ? i.watts + "W" : null, i.market].filter(Boolean).join(" · ");
+          const pair = i.pair ? ` <span class="hist-pair">↔ ${escapeHtml(i.pair)}</span>` : "";
+          const g = GENS[normModel(i.model)];
+          const tip = [g && g.generation, i.topology, i.series].filter(Boolean).join(" — ")
+                   || (i.inDb ? "In your database — click for details" : "Reference only");
+          html += `<span class="hist-model${i.inDb ? " in-db" : ""}" data-model="${normModel(i.model)}"`
+                + ` title="${escapeHtml(tip)}"><b class="hist-name">${escapeHtml(i.model)}</b> `
+                + `<b class="hist-year">${i.year || "—"}</b>`
+                + (bits ? ` <span class="hist-meta">${escapeHtml(bits)}</span>` : "")
+                + `${pair}</span>`;
+        });
+        html += `</div>`;
+      });
     });
   });
 
@@ -377,7 +398,7 @@ function wireHistorySearch(el) {
     el.querySelectorAll(".hist-models").forEach(row => {
       row.hidden = !row.querySelector(".hist-model:not([hidden])");
     });
-    ["hist-topo", "hist-gen", "hist-cat"].forEach(cls => {
+    ["hist-genhead", "hist-topo", "hist-gen", "hist-cat"].forEach(cls => {
       el.querySelectorAll("." + cls).forEach(h => {
         let n = h.nextElementSibling, live = false;
         while (n && !n.classList.contains(cls) && !n.classList.contains("hist-cat")) {

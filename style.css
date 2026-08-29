@@ -510,6 +510,7 @@ tbody td {
 #hist-search::placeholder { color: var(--text-secondary); }
 .hist-count { color: var(--text-secondary); font-size: .82rem; white-space: nowrap; }
 
-.hist-genlabel { color: #7aa7d9; font-size: .7rem; font-weight: 600;
-  border: 1px solid currentColor; border-radius: 4px; padding: 0 4px; margin-left: 6px;
-  opacity: .85; vertical-align: 1px; }
+
+.hist-genhead { color: #7aa7d9; font-size: .82rem; font-weight: 700; letter-spacing: .04em;
+  margin: 14px 0 6px; text-transform: uppercase; }
+.hist-genhead .hist-tally { color: var(--text-secondary); font-weight: 500; }
