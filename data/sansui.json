@@ -9595,7 +9595,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 2,
-      "recap_notes": "Third-party restoration kits exist for this model (Nichicon/Rubycon/United Chemicon based, 5,000-12,000hr rated) - recommended over piecemeal sourcing given unverified exact schematic values here. Full board-by-board replacement recommended, not a partial kit.\n\nTONE BOARD CAP SELECTION (F-2863) — Wayne's own G-5700, swaps done and compared by ear with three listeners. The finding is that cap choice in the tone stage is audible and POSITION-DEPENDENT: Nichicon Muse KZ was rejected at the 10uF tone-stage coupling (C07/C08) but chosen at the 100uF tone/output coupling (C24/C25). Muse KW sounded muffled and was rejected. Muse FG was the settled choice for C07/C08 — though the tone board was reflowed in the same session, so solder joints may share the credit. Bipolar positions (C01/C02, C27/C29) took Nichicon Muse BP/ES. Caveat from Wayne: the log is partial, not every cap tried was recorded.\n\nSTATUS (Wayne's own G-5700): recap completed 17 Jun 2026, last cap change 24 Jun 2026. Current verdict — 'sound is best yet' but 'STILL TOO SHARP'. The main bulk filter caps C612/C613 have NOT been changed yet, so the tone-board comparisons above are provisional: an aged bulk supply is itself a common cause of a hard, sharp top end, and it may be doing some of what is currently being blamed on the tone stage. Re-evaluate the FG-vs-KZ-vs-KW question once the supply is done.",
+      "recap_notes": "Third-party restoration kits exist for this model (Nichicon/Rubycon/United Chemicon based, 5,000-12,000hr rated) - recommended over piecemeal sourcing given unverified exact schematic values here. Full board-by-board replacement recommended, not a partial kit.\n\nTONE BOARD CAP SELECTION (F-2863) — Wayne's own G-5700, swaps done and compared by ear with three listeners. The finding is that cap choice in the tone stage is audible and POSITION-DEPENDENT: Nichicon Muse KZ was rejected at the 10uF tone-stage coupling (C07/C08) but chosen at the 100uF tone/output coupling (C24/C25). Muse KW sounded muffled and was rejected. Muse FG was the settled choice for C07/C08 — though the tone board was reflowed in the same session, so solder joints may share the credit. Bipolar positions (C01/C02, C27/C29) took Nichicon Muse BP/ES. Caveat from Wayne: the log is partial, not every cap tried was recorded.\n\nSTATUS (Wayne's own G-5700): recap completed 17 Jun 2026; last tone-board cap change 24 Jun 2026. Verdict then — 'sound is best yet' but 'still too sharp'. C612/C613 (10000uF 63V, main board PS) were changed AFTER the tone board and improved speed. The main filter caps are a separate, later job. Wayne's cap log exists in several versions and is being reconciled, so treat the ordering and the per-cap verdicts above as provisional until he confirms a canonical sheet.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Relay clicks but no sound on one or both channels",
@@ -9700,14 +9700,14 @@
         "notes": "LISTENING RESULT (verified by Wayne — fitted and listened to in his own unit): 'good midrange, clean'. Film is worth trying here and is on Wayne's list — untested so far."
       },
       {
-        "location": "Main filter caps C612/C613 (bulk PSU) - OUTSTANDING",
-        "original_value_uf": null,
-        "voltage": null,
-        "modern_replacement": "not yet selected",
+        "location": "Main board PS, C612/C613 — DONE",
+        "original_value_uf": 10000,
+        "voltage": 63,
+        "modern_replacement": "10000uF 63V (fitted)",
         "priority": "critical",
         "estimated_cost_usd": null,
         "supplier_links": [],
-        "notes": "STILL TO CHANGE as at 24 Jun 2026 - the recap is otherwise complete (17 Jun 2026). This matters for the tone-board evaluation: tired bulk filter caps raise supply ripple and stiffen transient recovery, which is a well-known cause of exactly the hard/sharp presentation Wayne is still hearing. Judge the tone-stage cap choice again AFTER these are done."
+        "notes": "CHANGED (verified by Wayne, his own unit) — done after the tone board work. Result: improved SPEED. Note these are the main-board power-supply caps, not the main filter caps, which are a separate job still to come."
       }
     ],
     "links": {
