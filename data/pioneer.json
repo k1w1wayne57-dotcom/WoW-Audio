@@ -274,31 +274,37 @@
     "int_model": null,
     "type": "Receiver",
     "series": "SX Receiver",
-    "year_start": null,
-    "year_end": null,
+    "year_start": 1976,
+    "year_end": 1977,
     "japan_price_kyen": null,
     "watts_per_channel": 85,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "freq_response_hz": "15-40000",
+    "thd_percent": 0.1,
     "ps_type": null,
     "amp_circuit": "SX stereo receiver — a popular sweet spot",
-    "weight_kg": null,
-    "special_features": null,
+    "weight_kg": 19.1,
+    "special_features": "85W/ch 20Hz-20kHz at 0.1% THD, damping factor 25. Twin-meter silver-face SX flagship-adjacent model.",
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 10",
     "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
-      "known_issues": null,
+      "known_issues": "The sweet spot of the silver-face SX line - big enough to be desirable, common enough to be findable. Well regarded and holds value.",
       "collector_notes": null
     },
     "restorer_info": {
-      "known_failure_points": [],
+      "known_failure_points": [
+        "2SA725 PNP differential-pair transistors age badly and produce shot noise - the classic SX-950 fault. Replace with a modern low-noise equivalent (Fairchild KSA992 is the usual choice), matched as a pair",
+        "Protection relay trips from a failing DC nulling system; there is no snubber diode across the relay coil and the relay driver transistors can blow",
+        "Electrolytics in the protection circuit go leaky and cause random de-energise cycles - relay chatter is the symptom",
+        "Power supply rectification stage benefits from modern parts; quieter and more reliable afterwards",
+        "Needs speakers connected to complete the power circuit - a unit that seems dead on the bench may simply have nothing attached"
+      ],
       "bias_spec_mv": null,
       "service_manual_link": null,
-      "recap_difficulty": null,
-      "recap_notes": null,
+      "recap_difficulty": 3,
+      "recap_notes": "Do the 2SA725 differential pair at the same time as the recap - it is the known failure and the board is already open. Check the protection relay and its driver transistors while in there.",
       "estimated_recap_cost_usd": null,
       "common_faults": []
     },
@@ -318,11 +324,11 @@
     "verification": "sourced",
     "avg_price_usd_3mo": 1704,
     "price_basis": "hifishark 8mo listing median (AUD->USD), n=17, 2026-08",
-    "year_source": "audioexchange",
+    "year_source": "classicreceivers.com / highperformancestereo.com",
     "price_thb_listings": [
       25000
     ],
-    "usd_msrp": null,
+    "usd_msrp": 600,
     "market": null,
     "sonic_signature": null,
     "thb_status": "For sale",
@@ -335,6 +341,18 @@
       "low": 1151,
       "high": 2763,
       "previous_usd": 750
+    },
+    "auto_specs": {
+      "source": "classicreceivers.com + highperformancestereo.com",
+      "date": "2026-08",
+      "fields": [
+        "year_start",
+        "watts_per_channel",
+        "freq_response_hz",
+        "thd_percent",
+        "weight_kg",
+        "usd_msrp"
+      ]
     }
   },
   {
@@ -478,30 +496,30 @@
     "int_model": null,
     "type": "Receiver",
     "series": "SX Receiver",
-    "year_start": null,
-    "year_end": null,
+    "year_start": 1976,
+    "year_end": 1977,
     "japan_price_kyen": null,
     "watts_per_channel": 35,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "freq_response_hz": "10-50000",
+    "thd_percent": 0.3,
     "ps_type": null,
     "amp_circuit": "SX stereo receiver — popular budget classic",
-    "weight_kg": null,
-    "special_features": null,
+    "weight_kg": 13.1,
+    "special_features": "35W/ch into 8 ohm. Dimensions 480 x 149 x 371 mm.",
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 10-20",
     "price_confidence": "Low",
     "last_price_check": "2026-08",
     "collector_info": {
-      "known_issues": null,
+      "known_issues": "The budget classic of the silver-face era - modest power but the same styling and build feel as its bigger brothers, which is most of why people want one.",
       "collector_notes": null
     },
     "restorer_info": {
       "known_failure_points": [],
       "bias_spec_mv": null,
       "service_manual_link": null,
-      "recap_difficulty": null,
+      "recap_difficulty": 2,
       "recap_notes": null,
       "estimated_recap_cost_usd": null,
       "common_faults": []
@@ -522,11 +540,11 @@
     "verification": "sourced",
     "avg_price_usd_3mo": 737,
     "price_basis": "hifishark 8mo listing median (AUD->USD), n=3, 2026-08",
-    "year_source": "audioexchange",
+    "year_source": "classicreceivers.com",
     "price_thb_listings": [
       7900
     ],
-    "usd_msrp": null,
+    "usd_msrp": 300,
     "market": null,
     "sonic_signature": null,
     "thb_status": "For sale",
@@ -539,6 +557,18 @@
       "low": 737,
       "high": 757,
       "previous_usd": 400
+    },
+    "auto_specs": {
+      "source": "classicreceivers.com + hifiengine.com",
+      "date": "2026-08",
+      "fields": [
+        "year_start",
+        "watts_per_channel",
+        "freq_response_hz",
+        "thd_percent",
+        "weight_kg",
+        "usd_msrp"
+      ]
     }
   },
   {
@@ -1429,15 +1459,21 @@
     "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
-      "known_issues": null,
+      "known_issues": "Dual-mono 80W/ch integrated, well built and well liked. The catch is the MT-100 output package - unobtainable, so a dead output stage is effectively terminal.",
       "collector_notes": null
     },
     "restorer_info": {
-      "known_failure_points": [],
+      "known_failure_points": [
+        "OUTPUT DEVICES ARE UNOBTAINABLE - the MT-100 package is no longer made. If an output transistor has failed, the amp is very hard to put right; check both channels drive properly before buying",
+        "General transistor trouble with age - intermittent output on either channel is the usual first symptom",
+        "Power supply ripple shows up as hum at the outputs",
+        "Tone controls go intermittent or dead on one channel",
+        "Crackling on one channel, typically a dirty or failing pot or a drifting bias"
+      ],
       "bias_spec_mv": null,
       "service_manual_link": null,
-      "recap_difficulty": null,
-      "recap_notes": null,
+      "recap_difficulty": 3,
+      "recap_notes": "Before committing, confirm BOTH channels drive cleanly. The MT-100 output devices cannot be replaced with an off-the-shelf part, so a blown output stage is the one fault that can write this amp off.",
       "estimated_recap_cost_usd": null,
       "common_faults": []
     },
