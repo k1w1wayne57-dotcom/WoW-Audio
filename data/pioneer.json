@@ -1459,7 +1459,7 @@
     "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
-      "known_issues": "Dual-mono 80W/ch integrated, well built and well liked. The catch is the MT-100 output package - unobtainable, so a dead output stage is effectively terminal.",
+      "known_issues": "AVOID (Wayne): the MT-100 output package is unobtainable, so a blown output stage is terminal. Dual-mono 80W/ch integrated, well built and well liked. The catch is the MT-100 output package - unobtainable, so a dead output stage is effectively terminal.",
       "collector_notes": null
     },
     "restorer_info": {
