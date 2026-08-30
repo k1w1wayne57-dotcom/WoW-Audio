@@ -885,7 +885,7 @@
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
-      "collector_notes": null
+      "collector_notes": "Seen on Facebook Marketplace (Thailand) at THB 1,600, Aug 2026."
     },
     "restorer_info": {
       "known_failure_points": [],
@@ -911,15 +911,15 @@
     "verified": false,
     "verification": "sourced",
     "avg_price_usd_3mo": 1012,
-    "price_basis": "hifishark 8mo listing median (AUD->USD), n=1, 2026-08",
+    "price_basis": "hifishark 8mo, ONE listing only - not a reliable benchmark",
     "year_source": "hifiengine",
     "price_thb_listings": [
-      3500
+      1600
     ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": "Sold",
+    "thb_status": "For sale",
     "auto_price": {
       "source": "hifishark.com (Wayne's SX export, 8mo)",
       "date": "2026-08",
