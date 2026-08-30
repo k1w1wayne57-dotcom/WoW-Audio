@@ -341,11 +341,14 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "hifiengine.com",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      15000
+    ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   },
   {
     "id": "marantz-model-18-1968",
@@ -466,7 +469,8 @@
     "usd_msrp": 1000,
     "market": null,
     "sonic_signature": "Flagship-grade: a full complementary output stage that was ahead of its time, hand-calibrated for low distortion. The refined end of the classic Marantz sound rather than the soft 'two-martini' voice of the 22xx receivers.",
-    "thb_status": "For Sale"
+    "thb_status": "Sold",
+    "thb_checked": "2026-08"
   },
   {
     "id": "marantz-model-22-1969",
@@ -956,7 +960,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": "Sold",
+    "thb_checked": "2026-08"
   },
   {
     "id": "marantz-1090-1977",
@@ -1016,7 +1021,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": "Sold",
+    "thb_checked": "2026-08"
   },
   {
     "id": "marantz-1150-1975",
@@ -1070,11 +1076,15 @@
     "avg_price_usd_3mo": 925,
     "price_basis": "hifishark median 2026",
     "year_source": "audio-database.com",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      22000,
+      25000
+    ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   },
   {
     "id": "marantz-1200-1972",
@@ -1366,7 +1376,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": "Sold",
+    "thb_checked": "2026-08"
   },
   {
     "id": "marantz-2210",
@@ -1542,7 +1553,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   },
   {
     "id": "marantz-2216b-1977",
@@ -1602,7 +1614,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "The entry point of the 22xx line — clean but light; comes up short on most speakers and clips easily. Not the warm 'two-martini' Marantz voice.",
-    "thb_status": "For Sale"
+    "thb_status": "Sold",
+    "thb_checked": "2026-08"
   },
   {
     "id": "marantz-2218-1978",
@@ -1658,12 +1671,13 @@
     "year_source": "hifiengine/reverb",
     "price_thb_listings": [
       13800,
-      9500
+      13800
     ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Bottom of the range and a silver-dial, post-classic-generation receiver — not the warm 22xx sound. Effectively a 2216B with a bigger power supply.",
-    "thb_status": "For Sale"
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   },
   {
     "id": "marantz-2220b-1974",
@@ -1845,13 +1859,14 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Warm, euphonic classic Marantz voice — fuller and less dry at the bottom than modern solid-state. 35W/ch drives normal speakers, so you get the real 'two-martini' 22xx character without needing horn-efficient speakers.",
-    "thb_status": "For Sale",
+    "thb_status": "Sold",
     "auto_price": {
       "source": "hifishark.com",
       "date": "2026-08",
       "n": 8,
       "median_usd": 502
-    }
+    },
+    "thb_checked": "2026-08"
   },
   {
     "id": "marantz-2235b-1974",
@@ -1970,19 +1985,21 @@
     "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "Marantz 22xx B-series convention (~1977-79)",
     "price_thb_listings": [
-      11000,
-      11500
+      8500,
+      12900,
+      30000
     ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Warm classic Marantz character with cleaner detail than the entry models. The discrete-transistor phono stage is notably quieter than the opamp phono in the 2216 — the reason it's regarded as the best of the lower-end line.",
-    "thb_status": "For Sale",
+    "thb_status": "For sale",
     "auto_price": {
       "source": "hifishark.com",
       "date": "2026-08",
       "n": 16,
       "median_usd": 588
-    }
+    },
+    "thb_checked": "2026-08"
   },
   {
     "id": "marantz-2238b-1977",
@@ -2037,12 +2054,14 @@
     "price_basis": "hifishark median 2026",
     "year_source": "stereonet/classicreceivers",
     "price_thb_listings": [
+      16500,
       16500
     ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   },
   {
     "id": "marantz-2245-1971",
@@ -2340,7 +2359,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Warm, smooth classic Marantz sound with solid 65W grip — one of the sweet spots of the blue-dial 22xx line.",
-    "thb_status": null
+    "thb_status": "Sold",
+    "thb_checked": "2026-08"
   },
   {
     "id": "marantz-2270-1971",
@@ -2806,14 +2826,15 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null,
+    "thb_status": "Sold",
     "auto_specs": {
       "source": "audio-database.com",
       "date": "2026-08",
       "fields": [
         "japan_price_kyen"
       ]
-    }
+    },
+    "thb_checked": "2026-08"
   },
   {
     "id": "marantz-4230-1973",
@@ -2873,7 +2894,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": "Sold",
+    "thb_checked": "2026-08"
   },
   {
     "id": "marantz-4270-1974",
@@ -2933,7 +2955,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": "Sold",
+    "thb_checked": "2026-08"
   },
   {
     "id": "marantz-4300-1972",
@@ -3046,12 +3069,13 @@
     "price_basis": "hifishark median 2026",
     "year_source": "hifiengine/classicreceivers",
     "price_thb_listings": [
-      39000
+      43000
     ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   },
   {
     "id": "marantz-pm-5-esotec-1980",
@@ -3112,7 +3136,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": "Sold",
+    "thb_checked": "2026-08"
   },
   {
     "id": "marantz-pm-500-1980",
@@ -3172,7 +3197,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": "Sold",
+    "thb_checked": "2026-08"
   },
   {
     "id": "marantz-pm-54-1984",
@@ -3348,11 +3374,14 @@
     "avg_price_usd_3mo": 450,
     "price_basis": "hifishark median 2026",
     "year_source": "audio-database.com",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      11500
+    ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   },
   {
     "id": "marantz-pm-94-1985",
@@ -4009,7 +4038,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": "Sold",
+    "thb_checked": "2026-08"
   },
   {
     "id": "marantz-170dc-1978",
@@ -4069,7 +4099,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Warm and tube-like — controlled bass, smooth, slightly rolled treble; on the romantic side of the sound.",
-    "thb_status": null
+    "thb_status": "Sold",
+    "thb_checked": "2026-08"
   },
   {
     "id": "marantz-model-2-1956",
@@ -4261,6 +4292,472 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
+  },
+  {
+    "id": "marantz-1010",
+    "brand": "Marantz",
+    "jdm_model": "1010",
+    "int_model": null,
+    "type": "Integrated",
+    "series": null,
+    "year_start": null,
+    "year_end": null,
+    "japan_price_kyen": null,
+    "watts_per_channel": null,
+    "freq_response_hz": null,
+    "thd_percent": null,
+    "ps_type": null,
+    "amp_circuit": null,
+    "weight_kg": null,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "price_confidence": null,
+    "last_price_check": null,
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null
+    },
+    "notes": "Added from Wayne's Thai price list. No Audio Database page — specs not yet sourced.",
+    "verified": false,
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": null,
+    "price_thb_listings": [
+      6900
+    ],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": null,
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
+  },
+  {
+    "id": "marantz-mr-230",
+    "brand": "Marantz",
+    "jdm_model": "MR-230",
+    "int_model": null,
+    "type": "Receiver",
+    "series": null,
+    "year_start": null,
+    "year_end": null,
+    "japan_price_kyen": null,
+    "watts_per_channel": null,
+    "freq_response_hz": null,
+    "thd_percent": null,
+    "ps_type": null,
+    "amp_circuit": null,
+    "weight_kg": null,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "price_confidence": null,
+    "last_price_check": null,
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null
+    },
+    "notes": "Added from Wayne's Thai price list. No Audio Database page — specs not yet sourced.",
+    "verified": false,
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": null,
+    "price_thb_listings": [
+      7000
+    ],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": null,
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
+  },
+  {
+    "id": "marantz-2226",
+    "brand": "Marantz",
+    "jdm_model": "2226",
+    "int_model": null,
+    "type": "Receiver",
+    "series": null,
+    "year_start": null,
+    "year_end": null,
+    "japan_price_kyen": null,
+    "watts_per_channel": null,
+    "freq_response_hz": null,
+    "thd_percent": null,
+    "ps_type": null,
+    "amp_circuit": null,
+    "weight_kg": null,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "price_confidence": null,
+    "last_price_check": null,
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null
+    },
+    "notes": "Added from Wayne's Thai price list. No Audio Database page — specs not yet sourced.",
+    "verified": false,
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": null,
+    "price_thb_listings": [
+      12900,
+      15000
+    ],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": null,
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
+  },
+  {
+    "id": "marantz-1120",
+    "brand": "Marantz",
+    "jdm_model": "1120",
+    "int_model": null,
+    "type": "Integrated",
+    "series": null,
+    "year_start": null,
+    "year_end": null,
+    "japan_price_kyen": null,
+    "watts_per_channel": null,
+    "freq_response_hz": null,
+    "thd_percent": null,
+    "ps_type": null,
+    "amp_circuit": null,
+    "weight_kg": null,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "price_confidence": null,
+    "last_price_check": null,
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null
+    },
+    "notes": "Added from Wayne's Thai price list. No Audio Database page — specs not yet sourced.",
+    "verified": false,
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": null,
+    "price_thb_listings": [
+      19500
+    ],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": null,
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
+  },
+  {
+    "id": "marantz-1125",
+    "brand": "Marantz",
+    "jdm_model": "1125",
+    "int_model": null,
+    "type": "Integrated",
+    "series": null,
+    "year_start": null,
+    "year_end": null,
+    "japan_price_kyen": null,
+    "watts_per_channel": null,
+    "freq_response_hz": null,
+    "thd_percent": null,
+    "ps_type": null,
+    "amp_circuit": null,
+    "weight_kg": null,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "price_confidence": null,
+    "last_price_check": null,
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null
+    },
+    "notes": "Added from Wayne's Thai price list. No Audio Database page — specs not yet sourced.",
+    "verified": false,
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": null,
+    "price_thb_listings": [
+      19500
+    ],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": null,
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
+  },
+  {
+    "id": "marantz-1150ii",
+    "brand": "Marantz",
+    "jdm_model": "1150II",
+    "int_model": null,
+    "type": "Integrated",
+    "series": null,
+    "year_start": null,
+    "year_end": null,
+    "japan_price_kyen": null,
+    "watts_per_channel": null,
+    "freq_response_hz": null,
+    "thd_percent": null,
+    "ps_type": null,
+    "amp_circuit": null,
+    "weight_kg": null,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "price_confidence": null,
+    "last_price_check": null,
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null
+    },
+    "notes": "Added from Wayne's Thai price list. No Audio Database page — specs not yet sourced.",
+    "verified": false,
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": null,
+    "price_thb_listings": [
+      25000
+    ],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": null,
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
+  },
+  {
+    "id": "marantz-2285",
+    "brand": "Marantz",
+    "jdm_model": "2285",
+    "int_model": null,
+    "type": "Receiver",
+    "series": null,
+    "year_start": null,
+    "year_end": null,
+    "japan_price_kyen": null,
+    "watts_per_channel": null,
+    "freq_response_hz": null,
+    "thd_percent": null,
+    "ps_type": null,
+    "amp_circuit": null,
+    "weight_kg": null,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "price_confidence": null,
+    "last_price_check": null,
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null
+    },
+    "notes": "Added from Wayne's Thai price list. No Audio Database page — specs not yet sourced.",
+    "verified": false,
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": null,
+    "price_thb_listings": [
+      28500
+    ],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": null,
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
+  },
+  {
+    "id": "marantz-2265b",
+    "brand": "Marantz",
+    "jdm_model": "2265B",
+    "int_model": null,
+    "type": "Receiver",
+    "series": null,
+    "year_start": null,
+    "year_end": null,
+    "japan_price_kyen": null,
+    "watts_per_channel": null,
+    "freq_response_hz": null,
+    "thd_percent": null,
+    "ps_type": null,
+    "amp_circuit": null,
+    "weight_kg": null,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "price_confidence": null,
+    "last_price_check": null,
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null
+    },
+    "notes": "Added from Wayne's Thai price list. No Audio Database page — specs not yet sourced.",
+    "verified": false,
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": null,
+    "price_thb_listings": [
+      30000
+    ],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": null,
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   }
 ]
