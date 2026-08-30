@@ -871,27 +871,31 @@
     "year_start": 1969,
     "year_end": 1971,
     "japan_price_kyen": null,
-    "watts_per_channel": null,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "watts_per_channel": 12,
+    "freq_response_hz": "20-70000",
+    "thd_percent": 1.0,
     "ps_type": null,
     "amp_circuit": "SX stereo receiver (early)",
-    "weight_kg": null,
-    "special_features": null,
+    "weight_kg": 8.0,
+    "special_features": "AM/FM tuner, phono (MM) and AUX inputs, 4-16 ohm speaker rating. Dimensions 405 x 135 x 330 mm. Five 6.3V screw-in dial lamps. Input sensitivity 3mV MM / 130mV line; S/N 75dB MM, 85dB line.",
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 30-40",
     "price_confidence": "Low",
     "last_price_check": "2026-08",
     "collector_info": {
-      "known_issues": null,
+      "known_issues": "Entry-level of the early SX line at 12W/ch - not a monster receiver, and it will not drive low-impedance loads well (rated 4-16 ohm but reported poor below 8 ohm). The phono stage and tuner are both well regarded for the price bracket.",
       "collector_notes": "Seen on Facebook Marketplace (Thailand) at THB 1,600, Aug 2026."
     },
     "restorer_info": {
-      "known_failure_points": [],
+      "known_failure_points": [
+        "Speaker plugs are frequently missing on used units - the early SX models use proprietary plugs that need sourcing or replacing",
+        "Dial lamp sockets are brittle and break if handled roughly (five 6.3V screw-in bulbs)",
+        "Benefits noticeably from a recap - it is a 1969 unit"
+      ],
       "bias_spec_mv": null,
       "service_manual_link": null,
-      "recap_difficulty": null,
+      "recap_difficulty": 2,
       "recap_notes": null,
       "estimated_recap_cost_usd": null,
       "common_faults": []
@@ -907,16 +911,16 @@
       "sansui_us": null,
       "source": null
     },
-    "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Specs sourced from hifiengine (still unverified).",
+    "notes": "Specs from Classic Receivers and HiFi Engine (12W/ch, 20Hz-70kHz, 1% THD, 8kg, $299.99 launch). No Audio Database page. Thai listing seen on Facebook Marketplace Aug 2026.",
     "verified": false,
     "verification": "sourced",
     "avg_price_usd_3mo": 1012,
     "price_basis": "hifishark 8mo, ONE listing only - not a reliable benchmark",
-    "year_source": "hifiengine",
+    "year_source": "classicreceivers.com",
     "price_thb_listings": [
       1600
     ],
-    "usd_msrp": null,
+    "usd_msrp": 300,
     "market": null,
     "sonic_signature": null,
     "thb_status": "For sale",
@@ -929,7 +933,19 @@
       "high": 1012,
       "previous_usd": 216
     },
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_specs": {
+      "source": "classicreceivers.com + hifiengine.com",
+      "date": "2026-08",
+      "fields": [
+        "watts_per_channel",
+        "freq_response_hz",
+        "thd_percent",
+        "weight_kg",
+        "usd_msrp",
+        "special_features"
+      ]
+    }
   },
   {
     "id": "pioneer-sx-424-1972",
