@@ -20,7 +20,7 @@
     "cons": null,
     "collector_ranking": "Top 10",
     "price_confidence": "Medium",
-    "last_price_check": null,
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
       "collector_notes": "270W/ch flagship (1978) — rare and the most sought-after Pioneer receiver; prices have climbed steeply."
@@ -48,14 +48,23 @@
     "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Specs sourced from wikipedia/classicreceivers (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": 7000,
-    "price_basis": "hifishark median 2026",
+    "avg_price_usd_3mo": 8750,
+    "price_basis": "hifishark 8mo listing median (AUD->USD), n=31, 2026-08",
     "year_source": "wikipedia/classicreceivers",
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Huge, effortless power with the classic Pioneer warmth.",
-    "thb_status": null
+    "thb_status": null,
+    "auto_price": {
+      "source": "hifishark.com (Wayne's SX export, 8mo)",
+      "date": "2026-08",
+      "n": 31,
+      "median_usd": 8750,
+      "low": 5987,
+      "high": 17680,
+      "previous_usd": 7000
+    }
   },
   {
     "id": "pioneer-sx-1250-1976",
@@ -78,7 +87,7 @@
     "cons": null,
     "collector_ranking": "Top 10",
     "price_confidence": "Medium",
-    "last_price_check": null,
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -106,14 +115,23 @@
     "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Specs sourced from classicreceivers (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": 2500,
-    "price_basis": "hifishark median 2026",
+    "avg_price_usd_3mo": 3638,
+    "price_basis": "hifishark 8mo listing median (AUD->USD), n=17, 2026-08",
     "year_source": "classicreceivers",
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_price": {
+      "source": "hifishark.com (Wayne's SX export, 8mo)",
+      "date": "2026-08",
+      "n": 17,
+      "median_usd": 3638,
+      "low": 2301,
+      "high": 5987,
+      "previous_usd": 2500
+    }
   },
   {
     "id": "pioneer-sx-1050-1976",
@@ -135,8 +153,8 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 10",
-    "price_confidence": "Medium",
-    "last_price_check": null,
+    "price_confidence": "Low",
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -164,14 +182,23 @@
     "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Specs sourced from classicreceivers (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": 1300,
-    "price_basis": "hifishark median 2026",
+    "avg_price_usd_3mo": 2303,
+    "price_basis": "hifishark 8mo listing median (AUD->USD), n=7, 2026-08",
     "year_source": "classicreceivers",
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_price": {
+      "source": "hifishark.com (Wayne's SX export, 8mo)",
+      "date": "2026-08",
+      "n": 7,
+      "median_usd": 2303,
+      "low": 1381,
+      "high": 6033,
+      "previous_usd": 1300
+    }
   },
   {
     "id": "pioneer-sx-1010-1974",
@@ -193,8 +220,8 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 10",
-    "price_confidence": "Medium",
-    "last_price_check": null,
+    "price_confidence": "Low",
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -222,14 +249,23 @@
     "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Specs sourced from audioexchange (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": 800,
-    "price_basis": "hifishark median 2026",
+    "avg_price_usd_3mo": 1377,
+    "price_basis": "hifishark 8mo listing median (AUD->USD), n=3, 2026-08",
     "year_source": "audioexchange",
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_price": {
+      "source": "hifishark.com (Wayne's SX export, 8mo)",
+      "date": "2026-08",
+      "n": 3,
+      "median_usd": 1377,
+      "low": 921,
+      "high": 1565,
+      "previous_usd": 800
+    }
   },
   {
     "id": "pioneer-sx-950",
@@ -252,7 +288,7 @@
     "cons": null,
     "collector_ranking": "Top 10",
     "price_confidence": "Medium",
-    "last_price_check": null,
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -280,8 +316,8 @@
     "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Specs sourced from audioexchange (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": 750,
-    "price_basis": "hifishark median 2026",
+    "avg_price_usd_3mo": 1704,
+    "price_basis": "hifishark 8mo listing median (AUD->USD), n=17, 2026-08",
     "year_source": "audioexchange",
     "price_thb_listings": [
       25000
@@ -290,7 +326,16 @@
     "market": null,
     "sonic_signature": null,
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_price": {
+      "source": "hifishark.com (Wayne's SX export, 8mo)",
+      "date": "2026-08",
+      "n": 17,
+      "median_usd": 1704,
+      "low": 1151,
+      "high": 2763,
+      "previous_usd": 750
+    }
   },
   {
     "id": "pioneer-sx-850-1976",
@@ -313,7 +358,7 @@
     "cons": null,
     "collector_ranking": "Top 10-20",
     "price_confidence": "Medium",
-    "last_price_check": null,
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -341,14 +386,23 @@
     "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Specs sourced from classicreceivers (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": 600,
-    "price_basis": "hifishark median 2026",
+    "avg_price_usd_3mo": 1520,
+    "price_basis": "hifishark 8mo listing median (AUD->USD), n=13, 2026-08",
     "year_source": "classicreceivers",
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_price": {
+      "source": "hifishark.com (Wayne's SX export, 8mo)",
+      "date": "2026-08",
+      "n": 13,
+      "median_usd": 1520,
+      "low": 921,
+      "high": 3454,
+      "previous_usd": 600
+    }
   },
   {
     "id": "pioneer-sx-750-1976",
@@ -370,8 +424,8 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 10-20",
-    "price_confidence": "Medium",
-    "last_price_check": null,
+    "price_confidence": "Low",
+    "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -399,14 +453,23 @@
     "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Specs sourced from audioexchange (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": 450,
-    "price_basis": "hifishark median 2026",
+    "avg_price_usd_3mo": 1060,
+    "price_basis": "hifishark 8mo listing median (AUD->USD), n=2, 2026-08",
     "year_source": "audioexchange",
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "auto_price": {
+      "source": "hifishark.com (Wayne's SX export, 8mo)",
+      "date": "2026-08",
+      "n": 2,
+      "median_usd": 1060,
+      "low": 829,
+      "high": 1290,
+      "previous_usd": 450
+    }
   },
   {
     "id": "pioneer-sx-650",
@@ -428,7 +491,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 10-20",
-    "price_confidence": "Medium",
+    "price_confidence": "Low",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -457,8 +520,8 @@
     "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Specs sourced from audioexchange (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": 400,
-    "price_basis": "hifishark median 2026",
+    "avg_price_usd_3mo": 737,
+    "price_basis": "hifishark 8mo listing median (AUD->USD), n=3, 2026-08",
     "year_source": "audioexchange",
     "price_thb_listings": [
       7900
@@ -467,7 +530,16 @@
     "market": null,
     "sonic_signature": null,
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_price": {
+      "source": "hifishark.com (Wayne's SX export, 8mo)",
+      "date": "2026-08",
+      "n": 3,
+      "median_usd": 737,
+      "low": 737,
+      "high": 757,
+      "previous_usd": 400
+    }
   },
   {
     "id": "pioneer-sx-636-1974",
@@ -742,7 +814,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 30-40",
-    "price_confidence": "Medium",
+    "price_confidence": "Low",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -771,8 +843,8 @@
     "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Specs sourced from classicreceivers (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": 157,
-    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
+    "avg_price_usd_3mo": 787,
+    "price_basis": "hifishark 8mo listing median (AUD->USD), n=2, 2026-08",
     "year_source": "classicreceivers",
     "price_thb_listings": [],
     "usd_msrp": null,
@@ -780,10 +852,13 @@
     "sonic_signature": null,
     "thb_status": null,
     "auto_price": {
-      "source": "hifishark.com",
+      "source": "hifishark.com (Wayne's SX export, 8mo)",
       "date": "2026-08",
-      "n": 21,
-      "median_usd": 157
+      "n": 2,
+      "median_usd": 787,
+      "low": 787,
+      "high": 787,
+      "previous_usd": 157
     }
   },
   {
@@ -806,7 +881,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 30-40",
-    "price_confidence": "Medium",
+    "price_confidence": "Low",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -835,8 +910,8 @@
     "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Specs sourced from hifiengine (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": 216,
-    "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
+    "avg_price_usd_3mo": 1012,
+    "price_basis": "hifishark 8mo listing median (AUD->USD), n=1, 2026-08",
     "year_source": "hifiengine",
     "price_thb_listings": [
       3500
@@ -846,10 +921,13 @@
     "sonic_signature": null,
     "thb_status": "Sold",
     "auto_price": {
-      "source": "hifishark.com",
+      "source": "hifishark.com (Wayne's SX export, 8mo)",
       "date": "2026-08",
-      "n": 8,
-      "median_usd": 216
+      "n": 1,
+      "median_usd": 1012,
+      "low": 1012,
+      "high": 1012,
+      "previous_usd": 216
     },
     "thb_checked": "2026-08"
   },
@@ -1001,7 +1079,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 10",
-    "price_confidence": "Medium",
+    "price_confidence": "Low",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -1030,8 +1108,8 @@
     "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Tube receiver. Specs sourced from reverb/radiomuseum (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": 1500,
-    "price_basis": "hifishark median 2026",
+    "avg_price_usd_3mo": 1288,
+    "price_basis": "hifishark 8mo listing median (AUD->USD), n=2, 2026-08",
     "year_source": "reverb/radiomuseum",
     "price_thb_listings": [
       9500
@@ -1040,7 +1118,16 @@
     "market": null,
     "sonic_signature": "Rich, classic tube sound.",
     "thb_status": "Sold",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_price": {
+      "source": "hifishark.com (Wayne's SX export, 8mo)",
+      "date": "2026-08",
+      "n": 2,
+      "median_usd": 1288,
+      "low": 917,
+      "high": 1658,
+      "previous_usd": 1500
+    }
   },
   {
     "id": "pioneer-sx-34-1962",
