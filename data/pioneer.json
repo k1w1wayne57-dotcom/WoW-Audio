@@ -2775,5 +2775,248 @@
     "sonic_signature": null,
     "thb_status": "For sale",
     "thb_checked": "2026-08"
+  },
+  {
+    "id": "pioneer-sa-7600",
+    "brand": "Pioneer",
+    "jdm_model": "SA-7600",
+    "int_model": null,
+    "type": "Integrated",
+    "series": null,
+    "year_start": null,
+    "year_end": null,
+    "japan_price_kyen": null,
+    "watts_per_channel": null,
+    "freq_response_hz": null,
+    "thd_percent": null,
+    "ps_type": null,
+    "amp_circuit": null,
+    "weight_kg": null,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "price_confidence": null,
+    "last_price_check": null,
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null
+    },
+    "notes": "Added from Wayne's Thai price list. No Audio Database page — specs not yet sourced.",
+    "verified": false,
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": null,
+    "price_thb_listings": [
+      5900
+    ],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": null,
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
+  },
+  {
+    "id": "pioneer-sa-7600-ii",
+    "brand": "Pioneer",
+    "jdm_model": "SA-7600-II",
+    "int_model": null,
+    "type": "Integrated",
+    "series": null,
+    "year_start": 1979,
+    "year_end": null,
+    "japan_price_kyen": 45,
+    "watts_per_channel": 45,
+    "freq_response_hz": "20-20000",
+    "thd_percent": 0.04,
+    "ps_type": null,
+    "amp_circuit": null,
+    "weight_kg": 7.3,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "price_confidence": null,
+    "last_price_check": null,
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": "https://audio-database.com/PIONEER-EXCLUSIVE/amp/sa-7600-2.html"
+    },
+    "notes": "Added from Wayne's Thai price list.",
+    "verified": false,
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": null,
+    "price_thb_listings": [
+      4700
+    ],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": null,
+    "thb_status": "For sale",
+    "thb_checked": "2026-08",
+    "auto_specs": {
+      "source": "audio-database.com",
+      "date": "2026-08",
+      "fields": [
+        "watts_per_channel",
+        "thd_percent",
+        "freq_response_hz",
+        "weight_kg",
+        "japan_price_kyen",
+        "year_start"
+      ]
+    }
+  },
+  {
+    "id": "pioneer-sx-515",
+    "brand": "Pioneer",
+    "jdm_model": "SX-515",
+    "int_model": null,
+    "type": "Receiver",
+    "series": null,
+    "year_start": null,
+    "year_end": null,
+    "japan_price_kyen": null,
+    "watts_per_channel": null,
+    "freq_response_hz": null,
+    "thd_percent": null,
+    "ps_type": null,
+    "amp_circuit": null,
+    "weight_kg": null,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "price_confidence": null,
+    "last_price_check": null,
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null
+    },
+    "notes": "Added from Wayne's Thai price list. No Audio Database page — specs not yet sourced.",
+    "verified": false,
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": null,
+    "price_thb_listings": [
+      4800
+    ],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": null,
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
+  },
+  {
+    "id": "pioneer-qx-8000a",
+    "brand": "Pioneer",
+    "jdm_model": "QX-8000A",
+    "int_model": null,
+    "type": "Receiver 4-ch",
+    "series": null,
+    "year_start": null,
+    "year_end": null,
+    "japan_price_kyen": null,
+    "watts_per_channel": null,
+    "freq_response_hz": null,
+    "thd_percent": null,
+    "ps_type": null,
+    "amp_circuit": null,
+    "weight_kg": null,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "price_confidence": null,
+    "last_price_check": null,
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null
+    },
+    "notes": "Added from Wayne's Thai price list. No Audio Database page — specs not yet sourced.",
+    "verified": false,
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": null,
+    "price_thb_listings": [
+      7000
+    ],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": null,
+    "thb_status": "For sale",
+    "thb_checked": "2026-08"
   }
 ]
