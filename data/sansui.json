@@ -19001,7 +19001,7 @@
       "hifi_engine": null,
       "sansui_us": null
     },
-    "notes": null,
+    "notes": "Rare, and poorly documented. Placed in AU-xx00 by number shape and by its near-twin the AU-3300, but that is inference, not a source. Circuit unknown: the AU-3300 is direct-coupled OCL, so the capacitor-coupled family it had inherited was probably wrong and was cleared rather than swapped for another guess. Owner confirmation would settle both.",
     "verified": false,
     "avg_price_usd_3mo": 225,
     "price_basis": null,
