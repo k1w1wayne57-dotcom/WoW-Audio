@@ -2770,9 +2770,10 @@
       "model": "B-2201"
     },
     "aud11ii": {
-      "generation": null,
-      "gen_short": null,
-      "model": "AU-D11 II"
+      "generation": "AU-D Series",
+      "gen_short": "AU-D",
+      "model": "AU-D11II",
+      "added_by": "wow-audio"
     },
     "aud507x": {
       "generation": "Sixth Generation of 07 Series",
@@ -2810,9 +2811,10 @@
       "model": "AU-G90X"
     },
     "aug99x": {
-      "generation": null,
-      "gen_short": null,
-      "model": "AU-G99X"
+      "generation": "AU-G Series",
+      "gen_short": "AU-G",
+      "model": "AU-G99X",
+      "added_by": "wow-audio"
     },
     "aud707xdecade": {
       "generation": "LIMITED EDITION",
@@ -3368,9 +3370,75 @@
       "added_by": "wow-audio"
     },
     "am99": {
-      "generation": "A Series",
-      "gen_short": "A Series",
+      "generation": "A-M Series",
+      "gen_short": "A-M",
       "model": "A-M99",
+      "added_by": "wow-audio"
+    },
+    "aud55x": {
+      "generation": "AU-D Series",
+      "gen_short": "AU-D",
+      "model": "AU-D55X",
+      "added_by": "wow-audio"
+    },
+    "aud7": {
+      "generation": "AU-D Series",
+      "gen_short": "AU-D",
+      "model": "AU-D7",
+      "added_by": "wow-audio"
+    },
+    "aud22": {
+      "generation": "AU-D Series",
+      "gen_short": "AU-D",
+      "model": "AU-D22",
+      "added_by": "wow-audio"
+    },
+    "aud101": {
+      "generation": "AU-D Series",
+      "gen_short": "AU-D",
+      "model": "AU-D101",
+      "added_by": "wow-audio"
+    },
+    "aud77x": {
+      "generation": "AU-D Series",
+      "gen_short": "AU-D",
+      "model": "AU-D77X",
+      "added_by": "wow-audio"
+    },
+    "aud907g": {
+      "generation": "AU-D Series",
+      "gen_short": "AU-D",
+      "model": "AU-D907G",
+      "added_by": "wow-audio"
+    },
+    "b2102mosvintage": {
+      "generation": "Power Amplifier",
+      "gen_short": "Power Amp",
+      "model": "B-2102 MOS Vintage",
+      "added_by": "wow-audio"
+    },
+    "c2102": {
+      "generation": "Pre Amplifier",
+      "gen_short": "Pre Amp",
+      "model": "C-2102",
+      "added_by": "wow-audio"
+    },
+    "b2102": {
+      "generation": "Power Amplifier",
+      "gen_short": "Power Amp",
+      "model": "B-2102",
+      "added_by": "wow-audio"
+    },
+    "b2101": {
+      "generation": "Power Amplifier",
+      "gen_short": "Power Amp",
+      "model": "B-2101",
+      "added_by": "wow-audio"
+    },
+    "c2301": {
+      "generation": "Pre Amplifier",
+      "gen_short": "Pre Amp",
+      "model": "C-2301",
       "added_by": "wow-audio"
     }
   },
