@@ -140,7 +140,12 @@ def audit(brand):
     # Two records that name each other are one amp sold in two markets, not a
     # duplicate. Weight and power legitimately differ (240V vs 100V transformers,
     # sometimes bigger main caps on the export unit), so those are not checked.
-    # The faceplate era is the same physical amp either way, so it must agree.
+    #
+    # `series` used to hold the faceplate era, which had to match across a pair.
+    # It now holds the naming generation, and those can legitimately differ by
+    # market -- AU-X711 is the export name for the JDM AU-Alpha-607L EXTRA, so
+    # grouping the X models together necessarily splits that pair. Reported as
+    # LOW: worth seeing, not an error.
     paired = set()
     for r in data:
         im, m = r.get("int_model"), r.get("jdm_model")
@@ -156,7 +161,7 @@ def audit(brand):
             continue
         paired.add(key)
         if r.get("series") != other.get("series"):
-            out.append(("MED", m, "pair-series",
+            out.append(("LOW", m, "pair-series",
                         f"{m} is {r.get('series')!r} but its market twin "
                         f"{im} is {other.get('series')!r}"))
     return out
