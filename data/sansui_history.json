@@ -2654,9 +2654,10 @@
       "model": "AU-707"
     },
     "au317": {
-      "generation": null,
-      "gen_short": null,
-      "model": "AU-317"
+      "generation": "x17 Junior Series",
+      "gen_short": "x17 Junior",
+      "model": "AU-317",
+      "added_by": "wow-audio"
     },
     "au519": {
       "generation": "Second Generation of 07 Series",
@@ -3252,6 +3253,125 @@
       "generation": "G-Series Third Generation (Pure Power DC, 1979-82)",
       "gen_short": "G 3rd Gen (DC)",
       "model": "G-9700"
+    },
+    "au719": {
+      "generation": "Second Generation of 07 Series",
+      "gen_short": "2nd Gen 07",
+      "model": "AU-719"
+    },
+    "au117": {
+      "generation": "x17 Junior Series",
+      "gen_short": "x17 Junior",
+      "model": "AU-117",
+      "added_by": "wow-audio"
+    },
+    "au217": {
+      "generation": "x17 Junior Series",
+      "gen_short": "x17 Junior",
+      "model": "AU-217",
+      "added_by": "wow-audio"
+    },
+    "au417": {
+      "generation": "x17 Junior Series",
+      "gen_short": "x17 Junior",
+      "model": "AU-417",
+      "added_by": "wow-audio"
+    },
+    "au117ii": {
+      "generation": "x17 II Series",
+      "gen_short": "x17 II",
+      "model": "AU-117 II",
+      "added_by": "wow-audio"
+    },
+    "au217ii": {
+      "generation": "x17 II Series",
+      "gen_short": "x17 II",
+      "model": "AU-217 II",
+      "added_by": "wow-audio"
+    },
+    "au317ii": {
+      "generation": "x17 II Series",
+      "gen_short": "x17 II",
+      "model": "AU-317 II",
+      "added_by": "wow-audio"
+    },
+    "tu217": {
+      "generation": "x17 Series Tuners",
+      "gen_short": "x17 Tuner",
+      "model": "TU-217",
+      "added_by": "wow-audio"
+    },
+    "tu317": {
+      "generation": "x17 Series Tuners",
+      "gen_short": "x17 Tuner",
+      "model": "TU-317",
+      "added_by": "wow-audio"
+    },
+    "tu517": {
+      "generation": "x17 Series Tuners",
+      "gen_short": "x17 Tuner",
+      "model": "TU-517",
+      "added_by": "wow-audio"
+    },
+    "tu707": {
+      "generation": "x17 Series Tuners",
+      "gen_short": "x17 Tuner",
+      "model": "TU-707",
+      "added_by": "wow-audio"
+    },
+    "tu717": {
+      "generation": "x17 Series Tuners",
+      "gen_short": "x17 Tuner",
+      "model": "TU-717",
+      "added_by": "wow-audio"
+    },
+    "tu919": {
+      "generation": "x19 Series Tuners",
+      "gen_short": "x19 Tuner",
+      "model": "TU-919",
+      "added_by": "wow-audio"
+    },
+    "tux1": {
+      "generation": "X 1 Series",
+      "gen_short": "X-1 Series",
+      "model": "TU-X1",
+      "added_by": "wow-audio"
+    },
+    "baf1": {
+      "generation": "F-1 Series",
+      "gen_short": "F-1",
+      "model": "BA-F1",
+      "added_by": "wow-audio"
+    },
+    "caf1": {
+      "generation": "F-1 Series",
+      "gen_short": "F-1",
+      "model": "CA-F1",
+      "added_by": "wow-audio"
+    },
+    "aud55f": {
+      "generation": "Super Feedforward Series",
+      "gen_short": "Super FF",
+      "model": "AU-D55F",
+      "added_by": "wow-audio"
+    },
+    "aud33": {
+      "generation": "Super Feedforward Series",
+      "gen_short": "Super FF",
+      "model": "AU-D33",
+      "added_by": "wow-audio"
+    },
+    "a80": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-80",
+      "added_by": "wow-audio"
+    },
+    "am99": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-M99",
+      "added_by": "wow-audio"
     }
   },
   "gen_pairs": [
