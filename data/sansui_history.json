@@ -4051,7 +4051,7 @@
       "added_by": "wow-audio"
     },
     "au5500": {
-      "generation": "Doubled-Digit Series",
+      "generation": "AU-xx00 Series",
       "gen_short": "AU-xx00",
       "model": "AU-5500",
       "added_by": "wow-audio"
@@ -4063,7 +4063,7 @@
       "added_by": "wow-audio"
     },
     "au6600": {
-      "generation": "Doubled-Digit Series",
+      "generation": "AU-xx00 Series",
       "gen_short": "AU-xx00",
       "model": "AU-6600",
       "added_by": "wow-audio"
@@ -4075,7 +4075,7 @@
       "added_by": "wow-audio"
     },
     "au7700": {
-      "generation": "Doubled-Digit Series",
+      "generation": "AU-xx00 Series",
       "gen_short": "AU-xx00",
       "model": "AU-7700",
       "added_by": "wow-audio"
@@ -4111,7 +4111,7 @@
       "added_by": "wow-audio"
     },
     "au4400": {
-      "generation": "Doubled-Digit Series",
+      "generation": "AU-xx00 Series",
       "gen_short": "AU-xx00",
       "model": "AU-4400",
       "added_by": "wow-audio"
@@ -4129,7 +4129,7 @@
       "added_by": "wow-audio"
     },
     "au2200": {
-      "generation": "Doubled-Digit Series",
+      "generation": "AU-xx00 Series",
       "gen_short": "AU-xx00",
       "model": "AU-2200",
       "added_by": "wow-audio"
@@ -4339,8 +4339,8 @@
       "added_by": "wow-audio"
     },
     "au3500": {
-      "generation": "x500 Series",
-      "gen_short": "AU-x500",
+      "generation": "AU-xx00 Series",
+      "gen_short": "AU-xx00",
       "model": "AU-3500",
       "added_by": "wow-audio"
     },
@@ -4354,6 +4354,30 @@
       "generation": "x000 Receivers",
       "gen_short": "x000",
       "model": "7000",
+      "added_by": "wow-audio"
+    },
+    "au2000": {
+      "generation": "AU-xx00 Series",
+      "gen_short": "AU-xx00",
+      "model": "AU-2000",
+      "added_by": "wow-audio"
+    },
+    "au1100": {
+      "generation": "AU-xx00 Series",
+      "gen_short": "AU-xx00",
+      "model": "AU-1100",
+      "added_by": "wow-audio"
+    },
+    "au3300": {
+      "generation": "AU-xx00 Series",
+      "gen_short": "AU-xx00",
+      "model": "AU-3300",
+      "added_by": "wow-audio"
+    },
+    "au1500": {
+      "generation": "AU-xx00 Series",
+      "gen_short": "AU-xx00",
+      "model": "AU-1500",
       "added_by": "wow-audio"
     }
   },
