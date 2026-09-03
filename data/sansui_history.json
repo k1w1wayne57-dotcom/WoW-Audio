@@ -3467,6 +3467,534 @@
       "gen_short": "Z Series",
       "model": "5900Z",
       "added_by": "wow-audio"
+    },
+    "a1000": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-1000",
+      "added_by": "wow-audio"
+    },
+    "a1001": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-1001",
+      "added_by": "wow-audio"
+    },
+    "a1010": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-1010",
+      "added_by": "wow-audio"
+    },
+    "a1100": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-1100",
+      "added_by": "wow-audio"
+    },
+    "a1100p": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-1100P",
+      "added_by": "wow-audio"
+    },
+    "a1100r": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-1100R",
+      "added_by": "wow-audio"
+    },
+    "a1110": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-1110",
+      "added_by": "wow-audio"
+    },
+    "a1130": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-1130",
+      "added_by": "wow-audio"
+    },
+    "a1130p": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-1130P",
+      "added_by": "wow-audio"
+    },
+    "a1200": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-1200",
+      "added_by": "wow-audio"
+    },
+    "a1200p": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-1200P",
+      "added_by": "wow-audio"
+    },
+    "a1200r": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-1200R",
+      "added_by": "wow-audio"
+    },
+    "a1230": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-1230",
+      "added_by": "wow-audio"
+    },
+    "a1230p": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-1230P",
+      "added_by": "wow-audio"
+    },
+    "a1500r": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-1500R",
+      "added_by": "wow-audio"
+    },
+    "a40": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-40",
+      "added_by": "wow-audio"
+    },
+    "a5": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-5",
+      "added_by": "wow-audio"
+    },
+    "a500": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-500",
+      "added_by": "wow-audio"
+    },
+    "a501": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-501",
+      "added_by": "wow-audio"
+    },
+    "a505": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-505",
+      "added_by": "wow-audio"
+    },
+    "a510": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-510",
+      "added_by": "wow-audio"
+    },
+    "a60": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-60",
+      "added_by": "wow-audio"
+    },
+    "a7": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-7",
+      "added_by": "wow-audio"
+    },
+    "a700": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-700",
+      "added_by": "wow-audio"
+    },
+    "a707": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-707",
+      "added_by": "wow-audio"
+    },
+    "a710": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-710",
+      "added_by": "wow-audio"
+    },
+    "a730": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-730",
+      "added_by": "wow-audio"
+    },
+    "a770": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-770",
+      "added_by": "wow-audio"
+    },
+    "a9": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-9",
+      "added_by": "wow-audio"
+    },
+    "a900": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-900",
+      "added_by": "wow-audio"
+    },
+    "a909": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-909",
+      "added_by": "wow-audio"
+    },
+    "a930p": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-930P",
+      "added_by": "wow-audio"
+    },
+    "aa7": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-a7",
+      "added_by": "wow-audio"
+    },
+    "aa77": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-a77",
+      "added_by": "wow-audio"
+    },
+    "aa9": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-a9",
+      "added_by": "wow-audio"
+    },
+    "aa99": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-a99",
+      "added_by": "wow-audio"
+    },
+    "aclassique501": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-Classique501",
+      "added_by": "wow-audio"
+    },
+    "ae350": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-E350",
+      "added_by": "wow-audio"
+    },
+    "ae550": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-E550",
+      "added_by": "wow-audio"
+    },
+    "ae750": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-E750",
+      "added_by": "wow-audio"
+    },
+    "ae770": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-E770",
+      "added_by": "wow-audio"
+    },
+    "am800": {
+      "generation": "A-M Series",
+      "gen_short": "A-M",
+      "model": "A-M800",
+      "added_by": "wow-audio"
+    },
+    "am9": {
+      "generation": "A-M Series",
+      "gen_short": "A-M",
+      "model": "A-M9",
+      "added_by": "wow-audio"
+    },
+    "am90": {
+      "generation": "A-M Series",
+      "gen_short": "A-M",
+      "model": "A-M90",
+      "added_by": "wow-audio"
+    },
+    "am900": {
+      "generation": "A-M Series",
+      "gen_short": "A-M",
+      "model": "A-M900",
+      "added_by": "wow-audio"
+    },
+    "aualpha117k": {
+      "generation": "Alpha Series",
+      "gen_short": "Alpha",
+      "model": "AU-a117K",
+      "added_by": "wow-audio"
+    },
+    "aualpha205": {
+      "generation": "Alpha Series",
+      "gen_short": "Alpha",
+      "model": "AU-a205",
+      "added_by": "wow-audio"
+    },
+    "aualpha305r": {
+      "generation": "Alpha Series",
+      "gen_short": "Alpha",
+      "model": "AU-a305R",
+      "added_by": "wow-audio"
+    },
+    "aualpha305rx": {
+      "generation": "Alpha Series",
+      "gen_short": "Alpha",
+      "model": "AU-a305RX",
+      "added_by": "wow-audio"
+    },
+    "aualpha307i": {
+      "generation": "Alpha Series",
+      "gen_short": "Alpha",
+      "model": "AU-a307i",
+      "added_by": "wow-audio"
+    },
+    "aualpha317k": {
+      "generation": "Alpha Series",
+      "gen_short": "Alpha",
+      "model": "AU-a317K",
+      "added_by": "wow-audio"
+    },
+    "aualpha505rx": {
+      "generation": "Alpha Series",
+      "gen_short": "Alpha",
+      "model": "AU-a505RX",
+      "added_by": "wow-audio"
+    },
+    "aualpha505xr": {
+      "generation": "Alpha Series",
+      "gen_short": "Alpha",
+      "model": "AU-a505XR",
+      "added_by": "wow-audio"
+    },
+    "aualpha507nra": {
+      "generation": "Alpha Series",
+      "gen_short": "Alpha",
+      "model": "AU-a507NRA",
+      "added_by": "wow-audio"
+    },
+    "aualpha555vs": {
+      "generation": "Alpha Series",
+      "gen_short": "Alpha",
+      "model": "AU-a555VS",
+      "added_by": "wow-audio"
+    },
+    "aualpha901lextra": {
+      "generation": "Alpha Series",
+      "gen_short": "Alpha",
+      "model": "AU-a901L Extra",
+      "added_by": "wow-audio"
+    },
+    "aualpha907mrx": {
+      "generation": "Alpha Series",
+      "gen_short": "Alpha",
+      "model": "AU-a907MRX",
+      "added_by": "wow-audio"
+    },
+    "aud5": {
+      "generation": "AU-D Series",
+      "gen_short": "AU-D",
+      "model": "AU-D5",
+      "added_by": "wow-audio"
+    },
+    "aud607xdecade": {
+      "generation": "AU-D Series",
+      "gen_short": "AU-D",
+      "model": "AU-D607X Decade",
+      "added_by": "wow-audio"
+    },
+    "aud707xcddecade": {
+      "generation": "AU-D Series",
+      "gen_short": "AU-D",
+      "model": "AU-D707XCD Decade",
+      "added_by": "wow-audio"
+    },
+    "aug11x": {
+      "generation": "AU-G Series",
+      "gen_short": "AU-G",
+      "model": "AU-G11X",
+      "added_by": "wow-audio"
+    },
+    "aug30x": {
+      "generation": "AU-G Series",
+      "gen_short": "AU-G",
+      "model": "AU-G30X",
+      "added_by": "wow-audio"
+    },
+    "aug33x": {
+      "generation": "AU-G Series",
+      "gen_short": "AU-G",
+      "model": "AU-G33X",
+      "added_by": "wow-audio"
+    },
+    "aug50x": {
+      "generation": "AU-G Series",
+      "gen_short": "AU-G",
+      "model": "AU-G50X",
+      "added_by": "wow-audio"
+    },
+    "aug55x": {
+      "generation": "AU-G Series",
+      "gen_short": "AU-G",
+      "model": "AU-G55X",
+      "added_by": "wow-audio"
+    },
+    "aug77x": {
+      "generation": "AU-G Series",
+      "gen_short": "AU-G",
+      "model": "AU-G77X",
+      "added_by": "wow-audio"
+    },
+    "aum7": {
+      "generation": "AU-M Series",
+      "gen_short": "AU-M",
+      "model": "AU-M7",
+      "added_by": "wow-audio"
+    },
+    "aum70": {
+      "generation": "AU-M Series",
+      "gen_short": "AU-M",
+      "model": "AU-M70",
+      "added_by": "wow-audio"
+    },
+    "aum77": {
+      "generation": "AU-M Series",
+      "gen_short": "AU-M",
+      "model": "AU-M77",
+      "added_by": "wow-audio"
+    },
+    "aux1111mosvintage": {
+      "generation": "X Series",
+      "gen_short": "X Series",
+      "model": "AU-X1111MOS Vintage",
+      "added_by": "wow-audio"
+    },
+    "aux111mosvintage": {
+      "generation": "X Series",
+      "gen_short": "X Series",
+      "model": "AU-X111MOS Vintage",
+      "added_by": "wow-audio"
+    },
+    "aux201": {
+      "generation": "X Series",
+      "gen_short": "X Series",
+      "model": "AU-X201",
+      "added_by": "wow-audio"
+    },
+    "aux301": {
+      "generation": "X Series",
+      "gen_short": "X Series",
+      "model": "AU-X301",
+      "added_by": "wow-audio"
+    },
+    "aux501": {
+      "generation": "X Series",
+      "gen_short": "X Series",
+      "model": "AU-X501",
+      "added_by": "wow-audio"
+    },
+    "aux517r": {
+      "generation": "X Series",
+      "gen_short": "X Series",
+      "model": "AU-X517R",
+      "added_by": "wow-audio"
+    },
+    "aux619r": {
+      "generation": "X Series",
+      "gen_short": "X Series",
+      "model": "AU-X619R",
+      "added_by": "wow-audio"
+    },
+    "ax750": {
+      "generation": "A Series",
+      "gen_short": "A Series",
+      "model": "A-X750",
+      "added_by": "wow-audio"
+    },
+    "ba100": {
+      "generation": "BA Series",
+      "gen_short": "BA",
+      "model": "BA-100",
+      "added_by": "wow-audio"
+    },
+    "ba1000": {
+      "generation": "BA Series",
+      "gen_short": "BA",
+      "model": "BA-1000",
+      "added_by": "wow-audio"
+    },
+    "ba150": {
+      "generation": "BA Series",
+      "gen_short": "BA",
+      "model": "BA-150",
+      "added_by": "wow-audio"
+    },
+    "ba2000": {
+      "generation": "BA Series",
+      "gen_short": "BA",
+      "model": "BA-2000",
+      "added_by": "wow-audio"
+    },
+    "ba3000": {
+      "generation": "BA Series",
+      "gen_short": "BA",
+      "model": "BA-3000",
+      "added_by": "wow-audio"
+    },
+    "ba5000": {
+      "generation": "BA Series",
+      "gen_short": "BA",
+      "model": "BA-5000",
+      "added_by": "wow-audio"
+    },
+    "ba60": {
+      "generation": "BA Series",
+      "gen_short": "BA",
+      "model": "BA-60",
+      "added_by": "wow-audio"
+    },
+    "ba90": {
+      "generation": "BA Series",
+      "gen_short": "BA",
+      "model": "BA-90",
+      "added_by": "wow-audio"
+    },
+    "ca2000": {
+      "generation": "CA Series",
+      "gen_short": "CA",
+      "model": "CA-2000",
+      "added_by": "wow-audio"
+    },
+    "ca3000": {
+      "generation": "CA Series",
+      "gen_short": "CA",
+      "model": "CA-3000",
+      "added_by": "wow-audio"
+    },
+    "ca606": {
+      "generation": "CA Series",
+      "gen_short": "CA",
+      "model": "CA-606",
+      "added_by": "wow-audio"
     }
   },
   "gen_pairs": [

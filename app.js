@@ -13,7 +13,20 @@ let HISTORY = null;         // Sansui product-history reference (timeline view)
 let historyMode = false;
 let historyRendered = false;
 
-const normModel = (s) => String(s || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+// Mirrors norm_model() in scripts/backfill_specs.py. The Alpha series is spelled
+// several ways across the data — 'AU-α607', 'AU-AL607' in the history file's
+// generation map, 'AU-a607' in its model lists — so fold them all before
+// stripping. Without this the two halves of sansui_history.json don't join, and
+// most Alpha models render with no generation heading at all.
+const normModel = (s) => {
+  let t = String(s || "").toLowerCase().replace(/α/g, "alpha");
+  t = t.replace(/\bau[\s-]*al(?=\d)/g, "aualpha");   // AU-AL607 -> aualpha607
+  t = t.replace(/\bau[\s-]*a(?=\d)/g, "aualpha");    // AU-a607  -> aualpha607
+  t = t.replace(/[^a-z0-9]/g, "");
+  // No plain AU-607/707/907 ever carried an MR/DR/KX/XR/NRA suffix, so those
+  // are unambiguously Alpha even when the alpha is dropped entirely.
+  return t.replace(/^au([679]07)(mrx|mr|dr|kx|xr|nra)/, "aualpha$1$2");
+};
 
 const RANK_ORDER = { "Top 10": 1, "Top 10-20": 2, "Top 20-30": 3, "Top 30-40": 4, "Top 40-50": 5, "Unranked": 6 };
 
