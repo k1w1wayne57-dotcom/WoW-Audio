@@ -19109,14 +19109,15 @@
     "year_source": "research",
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": "Silver-era Sansui: the warm, musical house sound of Sansui's peak years - full-bodied and rich with a smooth top end and an engaging, non-fatiguing presentation. (Family-level: mid/late-70s silver-face line.)",
+    "sonic_signature": "A premium AU-D907 variant developed with AU-X1 know-how - the same transparent, uncoloured presentation with exceptional detail and a wide soundstage rather than the warm 17-series house voice. Contested: some listeners hear a slight treble edge in this generation against the 517/717, others attribute that to speaker synergy rather than the amp.",
     "thb_status": null,
     "auto_price": {
       "source": "hifishark.com",
       "date": "2026-08",
       "n": 7,
       "median_usd": 3936
-    }
+    },
+    "sonic_source": "Corrected 2026-09-03: was mid-70s silver-face boilerplate on a black-era D907 variant"
   },
   {
     "id": "sansui-au-d907f-extra-1981",
