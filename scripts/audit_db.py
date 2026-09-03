@@ -135,6 +135,30 @@ def audit(brand):
         elif other.get("int_model") and B.norm_model(other["int_model"]) != B.norm_model(m):
             out.append(("MED", m, "int-model-mismatch",
                         f"{m} -> {im}, but {im} -> {other.get('int_model')}"))
+
+    # --- JDM/export market pairs ---
+    # Two records that name each other are one amp sold in two markets, not a
+    # duplicate. Weight and power legitimately differ (240V vs 100V transformers,
+    # sometimes bigger main caps on the export unit), so those are not checked.
+    # The faceplate era is the same physical amp either way, so it must agree.
+    paired = set()
+    for r in data:
+        im, m = r.get("int_model"), r.get("jdm_model")
+        if im in EMPTY:
+            continue
+        other = by_model.get(B.norm_model(im))
+        if other is None or other.get("int_model") in EMPTY:
+            continue
+        if B.norm_model(other["int_model"]) != B.norm_model(m):
+            continue                      # not reciprocal; int-model-mismatch has it
+        key = tuple(sorted([str(r.get("id")), str(other.get("id"))]))
+        if key in paired:
+            continue
+        paired.add(key)
+        if r.get("series") != other.get("series"):
+            out.append(("MED", m, "pair-series",
+                        f"{m} is {r.get('series')!r} but its market twin "
+                        f"{im} is {other.get('series')!r}"))
     return out
 
 
