@@ -344,26 +344,61 @@ function renderHistory() {
   types.forEach(t => {
     const inType = items.filter(i => i.type === t);
     html += `<h2 class="hist-cat">${escapeHtml(t)} <span class="hist-tally">${inType.length}</span></h2>`;
-    const decades = [...new Set(inType.map(i => decadeOf(i.year)))]
+
+    // A label that just restates the type ("Power Amp" under Power Amp) is noise.
+    const labelOf = i => {
+      const g = GENS[normModel(i.model)];
+      const l = (g && g.gen_short) || null;
+      return l && normModel(l) !== normModel(t) ? l : null;
+    };
+
+    // Keep a generation run whole. Placing each model in its own decade split
+    // series that straddle one — a lone AU-X1 (1978) headed an "X-1 Series" run
+    // wedged between 2nd and 3rd Gen, then the series appeared again in the 80s.
+    // Each run is assigned to the decade holding most of its models instead, so
+    // a heading never shows twice. Ties go to the earlier decade.
+    const tally = new Map();
+    inType.forEach(i => {
+      const l = labelOf(i), d = decadeOf(i.year);
+      if (!l || d === null) return;
+      if (!tally.has(l)) tally.set(l, new Map());
+      tally.get(l).set(d, (tally.get(l).get(d) || 0) + 1);
+    });
+    const runDecade = new Map();
+    tally.forEach((counts, l) => {
+      runDecade.set(l, [...counts.entries()]
+        .sort((a, b) => b[1] - a[1] || a[0] - b[0])[0][0]);
+    });
+    const decadeFor = i => {
+      const l = labelOf(i);
+      return l && runDecade.has(l) ? runDecade.get(l) : decadeOf(i.year);
+    };
+
+    const decades = [...new Set(inType.map(decadeFor))]
       .sort((a, b) => (a === null) - (b === null) || a - b);
     decades.forEach(dec => {
-      const rows = inType.filter(i => decadeOf(i.year) === dec)
+      const rows = inType.filter(i => decadeFor(i) === dec)
         .sort((a, b) => (a.year || 9999) - (b.year || 9999) || a.model.localeCompare(b.model));
       html += `<h3 class="hist-gen">${dec ? dec + "s" : "Year unknown"}</h3>`;
 
-      // Split the decade into generation runs. A label that just restates the
-      // type ("Power Amp" under Power Amp) is dropped as noise.
       const groups = new Map();
       rows.forEach(i => {
-        const g = GENS[normModel(i.model)];
-        let label = (g && g.gen_short) || null;
-        if (label && normModel(label) === normModel(t)) label = null;
+        const label = labelOf(i);
         if (!groups.has(label)) groups.set(label, []);
         groups.get(label).push(i);
       });
+      // Order runs by median year, not earliest. A series with one early
+      // outlier (AU-X1, 1978) would otherwise sort to the head of the decade
+      // and land back between 2nd and 3rd Gen, which is what we just moved it
+      // out of. The median tracks where the series actually sits.
+      const midYear = list => {
+        const ys = list.map(x => x.year).filter(Boolean).sort((p, q) => p - q);
+        return ys.length ? ys[Math.floor(ys.length / 2)] : 9999;
+      };
       const firstYear = list => Math.min(...list.map(x => x.year || 9999));
       const ordered = [...groups.entries()].sort((a, b) =>
-        (a[0] === null ? -1 : b[0] === null ? 1 : firstYear(a[1]) - firstYear(b[1])));
+        (a[0] === null ? -1 : b[0] === null ? 1
+          : midYear(a[1]) - midYear(b[1]) || firstYear(a[1]) - firstYear(b[1])));
 
       ordered.forEach(([label, list]) => {
         if (label) {
