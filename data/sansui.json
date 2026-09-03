@@ -1957,7 +1957,7 @@
     "jdm_model": "AU-607",
     "int_model": "AU-517",
     "type": "Integrated",
-    "series": "Silver Era",
+    "series": "Black Era",
     "year_start": 1977,
     "year_end": 1979,
     "japan_price_kyen": 69.8,
@@ -1974,7 +1974,7 @@
     "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
-      "known_issues": null,
+      "known_issues": "The pre/main coupling switch (DC vs capacitor-coupled) goes dirty and then mimics a dead channel. Units sell cheap as 'one channel out' when the switch is the whole fault - DeOxit clears it, good for a few years.",
       "collector_notes": "First-generation AU-607 (1977). Start of the long-running 607 integrated line."
     },
     "restorer_info": {
@@ -2013,7 +2013,7 @@
     "price_basis": "hifishark 12mo listing median, intl/Japan-export asking (FX->USD) 2026-08",
     "year_source": "manual",
     "price_thb_listings": [],
-    "sonic_signature": "Classic warm Sansui: sweet, full and rich with an organic, forgiving presentation - a touch warmer and more forgiving than the AU-717. Non-fatiguing over long sessions while keeping real power and clarity.",
+    "sonic_signature": "Classic warm Sansui: sweet, full and rich with an organic, forgiving presentation - a touch warmer than the AU-717 and non-fatiguing over long sessions. Owners single out a very smooth top end that still retrieves fine detail, and a dead-quiet noise floor that holds up on 103dB horns. Unusually speaker-agnostic, keeping its character from high-efficiency horns to acoustic suspension. The bass can read slightly loose on some speakers.",
     "usd_msrp": null,
     "market": "JDM",
     "thb_status": null,
@@ -2025,7 +2025,8 @@
       "low": 800,
       "high": 2019,
       "previous_usd": 350
-    }
+    },
+    "sonic_source": "AudioKarma thread 1069494 (Oct 2024), owner impressions; read 2026-09-03"
   },
   {
     "id": "sansui-au-2200-1977",
@@ -2105,7 +2106,7 @@
     "jdm_model": "AU-317",
     "int_model": "AU-307",
     "type": "Integrated",
-    "series": "Silver Era",
+    "series": "Black Era",
     "year_start": 1975,
     "year_end": 1981,
     "japan_price_kyen": null,
@@ -2160,7 +2161,7 @@
     "price_basis": "hifishark US 12mo listing median (AUD->USD), n=4, 2026-08",
     "year_source": "serial-report",
     "price_thb_listings": [],
-    "sonic_signature": "17-series family character: the warm, musical Sansui house voice in a lighter, lower-powered package - forgiving and easy to listen to rather than analytical. (Family-level description; no model-specific reviews found.)",
+    "sonic_signature": "Closer to the AU-517 than its single power supply suggests: an owner who had both found the gap far smaller than expected and rated the 317 the value pick over paying the 517/717 premium. Shares the warm, forgiving 17-series voice.",
     "usd_msrp": 350,
     "market": "International",
     "thb_status": null,
@@ -2172,7 +2173,8 @@
       "low": 265,
       "high": 527,
       "previous_usd": 324
-    }
+    },
+    "sonic_source": "AudioKarma thread 1069494 (Oct 2024), owner impressions; read 2026-09-03"
   },
   {
     "id": "sansui-au-3900-1977",
@@ -2394,7 +2396,7 @@
     "jdm_model": "AU-717",
     "int_model": "AU-707",
     "type": "Integrated",
-    "series": "Silver Era",
+    "series": "Black Era",
     "year_start": 1977,
     "year_end": 1979,
     "japan_price_kyen": null,
@@ -2751,7 +2753,7 @@
     "jdm_model": "AU-517",
     "int_model": "AU-607",
     "type": "Integrated",
-    "series": "Silver Era",
+    "series": "Black Era",
     "year_start": 1976,
     "year_end": 1980,
     "japan_price_kyen": null,
@@ -2768,7 +2770,7 @@
     "price_confidence": "Low",
     "last_price_check": "2026-08",
     "collector_info": {
-      "known_issues": null,
+      "known_issues": "The pre/main coupling switch (DC vs capacitor-coupled) goes dirty and then mimics a dead channel. Units sell cheap as 'one channel out' when the switch is the whole fault - DeOxit clears it, good for a few years.",
       "collector_notes": null
     },
     "restorer_info": {
@@ -2806,7 +2808,7 @@
     "price_basis": "hifishark US 12mo listing median (AUD->USD), n=4, 2026-08",
     "year_source": "serial-report",
     "price_thb_listings": [],
-    "sonic_signature": "Classic warm Sansui: sweet, full and rich with an organic, forgiving presentation - a touch warmer and more forgiving than the AU-717. Non-fatiguing over long sessions while keeping real power and clarity.",
+    "sonic_signature": "Classic warm Sansui: sweet, full and rich with an organic, forgiving presentation - a touch warmer than the AU-717 and non-fatiguing over long sessions. Owners single out a very smooth top end that still retrieves fine detail, and a dead-quiet noise floor that holds up on 103dB horns. Unusually speaker-agnostic, keeping its character from high-efficiency horns to acoustic suspension. The bass can read slightly loose on some speakers.",
     "usd_msrp": 450,
     "market": "International",
     "thb_status": null,
@@ -2818,7 +2820,8 @@
       "low": 436,
       "high": 847,
       "previous_usd": 500
-    }
+    },
+    "sonic_source": "AudioKarma thread 1069494 (Oct 2024), owner impressions; read 2026-09-03"
   },
   {
     "id": "sansui-au-alpha707-1977",
@@ -2826,7 +2829,7 @@
     "jdm_model": "AU-707",
     "int_model": "AU-717",
     "type": "Integrated",
-    "series": "Silver Era",
+    "series": "Black Era",
     "year_start": 1977,
     "year_end": 1979,
     "japan_price_kyen": 93.8,
@@ -2961,7 +2964,7 @@
     "jdm_model": "AU-919",
     "int_model": "AU-D907",
     "type": "Integrated",
-    "series": "Silver Era",
+    "series": "Black Era",
     "year_start": 1976,
     "year_end": 1980,
     "japan_price_kyen": null,
@@ -3016,10 +3019,11 @@
     "price_basis": null,
     "year_source": "serial-report",
     "price_thb_listings": [],
-    "sonic_signature": "A generation ahead in sophistication and accuracy: leaves the warm Sansui house voice behind for a transparent, uncoloured presentation with incredible detail and a remarkably wide soundstage.",
+    "sonic_signature": "A generation ahead in sophistication and accuracy: leaves the warm Sansui house voice behind for a transparent, uncoloured presentation with incredible detail and a remarkably wide soundstage. Contested: some listeners hear a slight treble edge against the 517/717, others attribute that to speaker synergy rather than the amp.",
     "usd_msrp": 800,
     "market": "International",
-    "thb_status": null
+    "thb_status": null,
+    "sonic_source": "AudioKarma thread 1069494 (Oct 2024), owner impressions; read 2026-09-03"
   },
   {
     "id": "sansui-au-d707-au-819-2nd-gen-1978",
@@ -3149,7 +3153,7 @@
     "price_basis": null,
     "year_source": "serial-report (trimmed stragglers)",
     "price_thb_listings": [],
-    "sonic_signature": "A generation ahead in sophistication and accuracy: leaves the warm Sansui house voice behind for a transparent, uncoloured presentation with incredible detail and a remarkably wide soundstage.",
+    "sonic_signature": "A generation ahead in sophistication and accuracy: leaves the warm Sansui house voice behind for a transparent, uncoloured presentation with incredible detail and a remarkably wide soundstage. Contested: some listeners hear a slight treble edge against the 517/717, others attribute that to speaker synergy rather than the amp.",
     "circuit_description": "Wide-range DC pre-main amplifier, direct-coupled throughout with FET inputs on every stage and no input capacitors in any block. The power amp runs three stages: a constant-current dual-FET input, Sansui's patent-pending Diamond operation circuit (dual complementary) to suppress TIM distortion, then a current-operation push-pull stage driving symmetrical Sansui Custom NM (Non-Magnetic) output transistors. The equalizer uses a diamond drive circuit and the flat/tone amp runs open-loop to minimise distortion. Fed by four independent supply systems (Penta-Power): a high-regulation twin-winding toroidal for the power amp, an EI transformer giving two independent supplies for the pre-drive stage, plus stabilised supplies for the MC head amp and the DC flat amp.",
     "usd_msrp": null,
     "market": "JDM",
@@ -3160,7 +3164,8 @@
       "fields": [
         "japan_price_kyen"
       ]
-    }
+    },
+    "sonic_source": "AudioKarma thread 1069494 (Oct 2024), owner impressions; read 2026-09-03"
   },
   {
     "id": "sansui-au-217-1979",
@@ -3309,7 +3314,7 @@
     "jdm_model": "AU-519",
     "int_model": "AU-D607",
     "type": "Integrated",
-    "series": "Silver Era",
+    "series": "Black Era",
     "year_start": 1977,
     "year_end": 1980,
     "japan_price_kyen": null,
@@ -3326,7 +3331,7 @@
     "price_confidence": "Low",
     "last_price_check": "2026-08",
     "collector_info": {
-      "known_issues": null,
+      "known_issues": "The pre/main connected-separated switch goes dirty and then mimics a dead channel - and left on 'separated' it plays nothing at all. Units sell cheap as faulty on both counts. The AU-719 has no such switch.",
       "collector_notes": null
     },
     "restorer_info": {
@@ -3364,7 +3369,7 @@
     "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "serial-report",
     "price_thb_listings": [],
-    "sonic_signature": "An evolution of the AU-517: similar in design to the AU-717 (slightly more power) but voiced closer to the AU-919 - more transparent and uncoloured than the warm 17-series.",
+    "sonic_signature": "Same DD/DC (Diamond Differential / DC) topology as the AU-719 with slightly less power - a difference owners call hard to hear. A step toward clarity and refinement over the warmer 517/717, voiced nearer the AU-919's transparency than the 17-series house sound. Unlike the 719 it keeps a pre/main separated switch.",
     "usd_msrp": 500,
     "market": "International",
     "thb_status": null,
@@ -3373,7 +3378,8 @@
       "date": "2026-08",
       "n": 3,
       "median_usd": 392
-    }
+    },
+    "sonic_source": "AudioKarma thread 1069494 (Oct 2024), owner impressions; read 2026-09-03"
   },
   {
     "id": "sansui-au-719-1979",
@@ -3381,7 +3387,7 @@
     "jdm_model": "AU-719",
     "int_model": null,
     "type": "Integrated",
-    "series": "Silver Era",
+    "series": "Black Era",
     "year_start": 1979,
     "year_end": 1980,
     "japan_price_kyen": null,
@@ -3436,7 +3442,7 @@
     "price_basis": "hifishark US 12mo listing median (AUD->USD), n=3, 2026-08",
     "year_source": "serial-report",
     "price_thb_listings": [],
-    "sonic_signature": "Diamond Differential circuitry borrowed from its big brother the AU-919 - sonically much closer to the 919's transparent, detailed neutrality than to the warmer AU-717.",
+    "sonic_signature": "Diamond Differential circuitry borrowed from its big brother the AU-919 - sonically much closer to the 919's transparent, detailed neutrality than to the warmer AU-717. Contested: some listeners hear a slight treble edge against the 517/717, while others who have owned both eras argue that is horn-speaker synergy exposing the speaker's own character rather than brightness in the amp.",
     "usd_msrp": 575,
     "market": "International",
     "thb_status": null,
@@ -3448,7 +3454,8 @@
       "low": 596,
       "high": 641,
       "previous_usd": 600
-    }
+    },
+    "sonic_source": "AudioKarma thread 1069494 (Oct 2024), owner impressions; read 2026-09-03"
   },
   {
     "id": "sansui-au-819-1979",
@@ -3456,7 +3463,7 @@
     "jdm_model": "AU-819",
     "int_model": "AU-D707",
     "type": "Integrated",
-    "series": "Silver Era",
+    "series": "Black Era",
     "year_start": 1979,
     "year_end": 1979,
     "japan_price_kyen": null,
@@ -3657,7 +3664,7 @@
     "jdm_model": "AU-D55F",
     "int_model": "AU-D33",
     "type": "Integrated",
-    "series": "Black Era",
+    "series": "Silver Era",
     "year_start": 1981,
     "year_end": 1983,
     "japan_price_kyen": 50,
@@ -3882,7 +3889,7 @@
     "jdm_model": "AU-D33",
     "int_model": "AU-D55F",
     "type": "Integrated",
-    "series": "DC Era",
+    "series": "Silver Era",
     "year_start": 1981,
     "year_end": 1984,
     "japan_price_kyen": null,
@@ -4262,7 +4269,7 @@
     "jdm_model": "AU-D9",
     "int_model": "AU-D707F",
     "type": "Integrated",
-    "series": "DC Era",
+    "series": "Black Era",
     "year_start": 1980,
     "year_end": 1983,
     "japan_price_kyen": null,
@@ -17927,7 +17934,7 @@
     "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
-      "known_issues": null,
+      "known_issues": "The pre/main connected-separated switch goes dirty and then mimics a dead channel - and left on 'separated' it plays nothing at all. Units sell cheap as faulty on both counts. The AU-719 has no such switch.",
       "collector_notes": null
     },
     "restorer_info": {
@@ -17969,7 +17976,7 @@
     ],
     "usd_msrp": null,
     "market": "JDM",
-    "sonic_signature": "Silver-era Sansui: the warm, musical house sound of Sansui's peak years - full-bodied and rich with a smooth top end and an engaging, non-fatiguing presentation. (Family-level: mid/late-70s silver-face line.)",
+    "sonic_signature": "Same DD/DC (Diamond Differential / DC) topology as the AU-719 with slightly less power - a difference owners call hard to hear. A step toward clarity and refinement over the warmer 517/717, voiced nearer the AU-919's transparency than the 17-series house sound. Unlike the 719 it keeps a pre/main separated switch.",
     "thb_status": "For sale",
     "thb_checked": "2026-08",
     "auto_price": {
@@ -17978,7 +17985,8 @@
       "n": 11,
       "median_usd": 748,
       "previous_usd": 450
-    }
+    },
+    "sonic_source": "AudioKarma thread 1069494 (Oct 2024), owner impressions; read 2026-09-03"
   },
   {
     "id": "sansui-c-2102-1986",

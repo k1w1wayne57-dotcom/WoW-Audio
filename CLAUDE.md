@@ -25,10 +25,11 @@ Extends `../CLAUDE.md`. Vintage audio reference DB: Sansui, Marantz, Pioneer.
 - Sources: Audio Database (specs, structured spec table), HiFi Engine (blocked to automation — Wayne pastes it), Classic Receivers, the Audiokarma product history.
 - `norm_model()` in `backfill_specs.py` is the shared key. It folds `AU-AL607` / `AU-α607` / `AU-a607` / `AU-Alpha-607`.
 - Faceplate photos outrank published sources. Two DB errors were caught that way (Black Era, Twin Diamond Balanced Drive).
+- **Paired JDM/export records are not duplicates.** Seven Sansui amps hold two records each (AU-517/607, 717/707, 919/D907, 819/D707, 519/D607, D9/D707F, D55F/D33). Each stores its *own* name in `jdm_model` and its counterpart in `int_model` — the fields are not swapped, the naming is just misleading. **Differing weights are real:** the export unit carries a 240V transformer against the JDM 100V, and international models may also have had larger main caps, so the heavier of a pair is the export one. Never merge them or "correct" the weight to match.
 
 ## Wayne's gear and preferences
 
-- **Owns:** B-2102 (1986 X-Balanced), AU-607, G-5700, B-7000. Edit those with extra care; they carry hands-on notes.
+- **Owns:** B-2102 (1986 X-Balanced), AU-607, G-5700. Edit those with extra care; they carry hands-on notes.
 - **Avoids any amp with a proprietary/obsolete output package** (e.g. Pioneer MT-100 — unobtainable, so a blown output stage is terminal). Flag it when recommending.
 - **Avoids Super Feedforward** — oscillates readily. He fought an AU-D9 and AU-D55F over it.
 - **Bargain hunter.** A large Thai-vs-world multiple matters more than prestige.
