@@ -3440,6 +3440,24 @@
       "gen_short": "Pre Amp",
       "model": "C-2301",
       "added_by": "wow-audio"
+    },
+    "3900z": {
+      "generation": "Z Series",
+      "gen_short": "Z Series",
+      "model": "3900Z",
+      "added_by": "wow-audio"
+    },
+    "4900z": {
+      "generation": "Z Series",
+      "gen_short": "Z Series",
+      "model": "4900Z",
+      "added_by": "wow-audio"
+    },
+    "5900z": {
+      "generation": "Z Series",
+      "gen_short": "Z Series",
+      "model": "5900Z",
+      "added_by": "wow-audio"
     }
   },
   "gen_pairs": [
