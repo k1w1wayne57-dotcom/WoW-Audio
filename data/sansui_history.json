@@ -3995,6 +3995,366 @@
       "gen_short": "CA",
       "model": "CA-606",
       "added_by": "wow-audio"
+    },
+    "au777": {
+      "generation": "Repeated-Digit Series",
+      "gen_short": "AU-x xx",
+      "model": "AU-777",
+      "added_by": "wow-audio"
+    },
+    "au666": {
+      "generation": "Repeated-Digit Series",
+      "gen_short": "AU-x xx",
+      "model": "AU-666",
+      "added_by": "wow-audio"
+    },
+    "au777d": {
+      "generation": "Repeated-Digit Series",
+      "gen_short": "AU-x xx",
+      "model": "AU-777D",
+      "added_by": "wow-audio"
+    },
+    "au222": {
+      "generation": "Repeated-Digit Series",
+      "gen_short": "AU-x xx",
+      "model": "AU-222",
+      "added_by": "wow-audio"
+    },
+    "au555": {
+      "generation": "Repeated-Digit Series",
+      "gen_short": "AU-x xx",
+      "model": "AU-555",
+      "added_by": "wow-audio"
+    },
+    "au999": {
+      "generation": "Repeated-Digit Series",
+      "gen_short": "AU-x xx",
+      "model": "AU-999",
+      "added_by": "wow-audio"
+    },
+    "au555a": {
+      "generation": "Repeated-Digit Series",
+      "gen_short": "AU-x xx",
+      "model": "AU-555A",
+      "added_by": "wow-audio"
+    },
+    "au9500": {
+      "generation": "x500 Series",
+      "gen_short": "AU-x500",
+      "model": "AU-9500",
+      "added_by": "wow-audio"
+    },
+    "au8500": {
+      "generation": "x500 Series",
+      "gen_short": "AU-x500",
+      "model": "AU-8500",
+      "added_by": "wow-audio"
+    },
+    "au5500": {
+      "generation": "Doubled-Digit Series",
+      "gen_short": "AU-xx00",
+      "model": "AU-5500",
+      "added_by": "wow-audio"
+    },
+    "au6500": {
+      "generation": "x500 Series",
+      "gen_short": "AU-x500",
+      "model": "AU-6500",
+      "added_by": "wow-audio"
+    },
+    "au6600": {
+      "generation": "Doubled-Digit Series",
+      "gen_short": "AU-xx00",
+      "model": "AU-6600",
+      "added_by": "wow-audio"
+    },
+    "au7500": {
+      "generation": "x500 Series",
+      "gen_short": "AU-x500",
+      "model": "AU-7500",
+      "added_by": "wow-audio"
+    },
+    "au7700": {
+      "generation": "Doubled-Digit Series",
+      "gen_short": "AU-xx00",
+      "model": "AU-7700",
+      "added_by": "wow-audio"
+    },
+    "au9900": {
+      "generation": "x900 Series",
+      "gen_short": "AU-x900",
+      "model": "AU-9900",
+      "added_by": "wow-audio"
+    },
+    "au6900": {
+      "generation": "x900 Series",
+      "gen_short": "AU-x900",
+      "model": "AU-6900",
+      "added_by": "wow-audio"
+    },
+    "au11000": {
+      "generation": "Flagship Series",
+      "gen_short": "Flagship",
+      "model": "AU-11000",
+      "added_by": "wow-audio"
+    },
+    "au11000a": {
+      "generation": "Flagship Series",
+      "gen_short": "Flagship",
+      "model": "AU-11000A",
+      "added_by": "wow-audio"
+    },
+    "au20000": {
+      "generation": "Flagship Series",
+      "gen_short": "Flagship",
+      "model": "AU-20000",
+      "added_by": "wow-audio"
+    },
+    "au4400": {
+      "generation": "Doubled-Digit Series",
+      "gen_short": "AU-xx00",
+      "model": "AU-4400",
+      "added_by": "wow-audio"
+    },
+    "au7900": {
+      "generation": "x900 Series",
+      "gen_short": "AU-x900",
+      "model": "AU-7900",
+      "added_by": "wow-audio"
+    },
+    "au2900": {
+      "generation": "x900 Series",
+      "gen_short": "AU-x900",
+      "model": "AU-2900",
+      "added_by": "wow-audio"
+    },
+    "au2200": {
+      "generation": "Doubled-Digit Series",
+      "gen_short": "AU-xx00",
+      "model": "AU-2200",
+      "added_by": "wow-audio"
+    },
+    "au3900": {
+      "generation": "x900 Series",
+      "gen_short": "AU-x900",
+      "model": "AU-3900",
+      "added_by": "wow-audio"
+    },
+    "au4900": {
+      "generation": "x900 Series",
+      "gen_short": "AU-x900",
+      "model": "AU-4900",
+      "added_by": "wow-audio"
+    },
+    "au5900": {
+      "generation": "x900 Series",
+      "gen_short": "AU-x900",
+      "model": "AU-5900",
+      "added_by": "wow-audio"
+    },
+    "au9900a": {
+      "generation": "x900 Series",
+      "gen_short": "AU-x900",
+      "model": "AU-9900A",
+      "added_by": "wow-audio"
+    },
+    "3000": {
+      "generation": "x000 Receivers",
+      "gen_short": "x000",
+      "model": "3000",
+      "added_by": "wow-audio"
+    },
+    "3000a": {
+      "generation": "x000 Receivers",
+      "gen_short": "x000",
+      "model": "3000A",
+      "added_by": "wow-audio"
+    },
+    "400": {
+      "generation": "Early 3-Digit Receivers",
+      "gen_short": "3-digit",
+      "model": "400",
+      "added_by": "wow-audio"
+    },
+    "800": {
+      "generation": "Early 3-Digit Receivers",
+      "gen_short": "3-digit",
+      "model": "800",
+      "added_by": "wow-audio"
+    },
+    "2000": {
+      "generation": "x000 Receivers",
+      "gen_short": "x000",
+      "model": "2000",
+      "added_by": "wow-audio"
+    },
+    "5000": {
+      "generation": "x000 Receivers",
+      "gen_short": "x000",
+      "model": "5000",
+      "added_by": "wow-audio"
+    },
+    "5000a": {
+      "generation": "x000 Receivers",
+      "gen_short": "x000",
+      "model": "5000A",
+      "added_by": "wow-audio"
+    },
+    "1000x": {
+      "generation": "x000 Receivers",
+      "gen_short": "x000",
+      "model": "1000X",
+      "added_by": "wow-audio"
+    },
+    "2000a": {
+      "generation": "x000 Receivers",
+      "gen_short": "x000",
+      "model": "2000A",
+      "added_by": "wow-audio"
+    },
+    "4000": {
+      "generation": "x000 Receivers",
+      "gen_short": "x000",
+      "model": "4000",
+      "added_by": "wow-audio"
+    },
+    "5000x": {
+      "generation": "x000 Receivers",
+      "gen_short": "x000",
+      "model": "5000X",
+      "added_by": "wow-audio"
+    },
+    "200": {
+      "generation": "Early 3-Digit Receivers",
+      "gen_short": "3-digit",
+      "model": "200",
+      "added_by": "wow-audio"
+    },
+    "500": {
+      "generation": "Early 3-Digit Receivers",
+      "gen_short": "3-digit",
+      "model": "500",
+      "added_by": "wow-audio"
+    },
+    "221": {
+      "generation": "Doubled-Digit Receivers",
+      "gen_short": "xx1",
+      "model": "221",
+      "added_by": "wow-audio"
+    },
+    "331": {
+      "generation": "Doubled-Digit Receivers",
+      "gen_short": "xx1",
+      "model": "331",
+      "added_by": "wow-audio"
+    },
+    "441": {
+      "generation": "Doubled-Digit Receivers",
+      "gen_short": "xx1",
+      "model": "441",
+      "added_by": "wow-audio"
+    },
+    "551": {
+      "generation": "Doubled-Digit Receivers",
+      "gen_short": "xx1",
+      "model": "551",
+      "added_by": "wow-audio"
+    },
+    "661": {
+      "generation": "Doubled-Digit Receivers",
+      "gen_short": "xx1",
+      "model": "661",
+      "added_by": "wow-audio"
+    },
+    "771": {
+      "generation": "Doubled-Digit Receivers",
+      "gen_short": "xx1",
+      "model": "771",
+      "added_by": "wow-audio"
+    },
+    "881": {
+      "generation": "Doubled-Digit Receivers",
+      "gen_short": "xx1",
+      "model": "881",
+      "added_by": "wow-audio"
+    },
+    "9090": {
+      "generation": "x0x0 Receivers",
+      "gen_short": "x0x0",
+      "model": "9090",
+      "added_by": "wow-audio"
+    },
+    "1010": {
+      "generation": "x0x0 Receivers",
+      "gen_short": "x0x0",
+      "model": "1010",
+      "added_by": "wow-audio"
+    },
+    "2020": {
+      "generation": "x0x0 Receivers",
+      "gen_short": "x0x0",
+      "model": "2020",
+      "added_by": "wow-audio"
+    },
+    "5050": {
+      "generation": "x0x0 Receivers",
+      "gen_short": "x0x0",
+      "model": "5050",
+      "added_by": "wow-audio"
+    },
+    "6060": {
+      "generation": "x0x0 Receivers",
+      "gen_short": "x0x0",
+      "model": "6060",
+      "added_by": "wow-audio"
+    },
+    "7070": {
+      "generation": "x0x0 Receivers",
+      "gen_short": "x0x0",
+      "model": "7070",
+      "added_by": "wow-audio"
+    },
+    "8080": {
+      "generation": "x0x0 Receivers",
+      "gen_short": "x0x0",
+      "model": "8080",
+      "added_by": "wow-audio"
+    },
+    "8080db": {
+      "generation": "x0x0 Receivers",
+      "gen_short": "x0x0",
+      "model": "8080DB",
+      "added_by": "wow-audio"
+    },
+    "9090db": {
+      "generation": "x0x0 Receivers",
+      "gen_short": "x0x0",
+      "model": "9090DB",
+      "added_by": "wow-audio"
+    },
+    "au888": {
+      "generation": "Repeated-Digit Series",
+      "gen_short": "AU-x xx",
+      "model": "AU-888",
+      "added_by": "wow-audio"
+    },
+    "au3500": {
+      "generation": "x500 Series",
+      "gen_short": "AU-x500",
+      "model": "AU-3500",
+      "added_by": "wow-audio"
+    },
+    "500a": {
+      "generation": "Early 3-Digit Receivers",
+      "gen_short": "3-digit",
+      "model": "500A",
+      "added_by": "wow-audio"
+    },
+    "7000": {
+      "generation": "x000 Receivers",
+      "gen_short": "x000",
+      "model": "7000",
+      "added_by": "wow-audio"
     }
   },
   "gen_pairs": [
