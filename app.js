@@ -180,8 +180,15 @@ function matchesType(item, type) {
 
 function matchesEra(item, era) {
   if (era === "all") return true;
-  if (era === "Tube Era") return item.series === "Tube Era";
-  if (era === "Alpha Series") return item.series === "Alpha Series";
+  // `series` now holds the generation heading from sansui_history.json, which
+  // is edited by hand, so match on a pattern rather than an exact string.
+  // Sansui's Alpha era begins in 1986; the headings spell it "Alfa".
+  if (era === "Tube Era") {
+    return /tube/i.test(item.series || "") || /^Tube/.test(item.type || "");
+  }
+  if (era === "Alpha Series") {
+    return /alpha|alfa/i.test(item.series || "") || item.year_start >= 1986;
+  }
   if (era === "1960s") return item.year_start >= 1960 && item.year_start <= 1969;
   if (era === "1970s") return item.year_start >= 1970 && item.year_start <= 1979;
   if (era === "1980s") return item.year_start >= 1980 && item.year_start <= 1989;
@@ -544,6 +551,8 @@ function openModal(item) {
     <div class="modal-section">
       <h3>🎵 Sonic Signature</h3>
       <p class="info-line">${escapeHtml(item.sonic_signature)}</p>
+      ${item.circuit_family ? `<p class="info-line"><span class="il-label">Circuit family:</span>${escapeHtml(item.circuit_family)}</p>` : ""}
+      ${item.series ? `<p class="info-line"><span class="il-label">Generation:</span>${escapeHtml(item.series)}</p>` : ""}
     </div>` : ""}
 
     <div class="modal-section">
