@@ -2911,7 +2911,7 @@
     "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "serial-report (decoded; first volume production year)",
     "price_thb_listings": [],
-    "sonic_signature": "17-series family character: the warm, musical Sansui house voice in a lighter, lower-powered package - forgiving and easy to listen to rather than analytical. (Family-level description; no model-specific reviews found.)",
+    "sonic_signature": "Direct-coupled output with no capacitor in the signal path, so the low end goes deeper and stays better controlled than the capacitor-coupled generation before it, while keeping the warm Sansui midrange. The trade-off is that DC offset must be held in check, which is what the servo and protection circuits are there for.",
     "usd_msrp": null,
     "market": "International",
     "thb_status": null,
@@ -2920,7 +2920,9 @@
       "date": "2026-08",
       "n": 3,
       "median_usd": 378
-    }
+    },
+    "circuit_family": "DC integrated",
+    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
   },
   {
     "id": "sansui-au-517-1978",
@@ -3130,10 +3132,12 @@
     "price_basis": null,
     "year_source": "serial-report (decoded; first volume production year)",
     "price_thb_listings": [],
-    "sonic_signature": "17-series family character: the warm, musical Sansui house voice in a lighter, lower-powered package - forgiving and easy to listen to rather than analytical. (Family-level description; no model-specific reviews found.)",
+    "sonic_signature": "Direct-coupled output with no capacitor in the signal path, so the low end goes deeper and stays better controlled than the capacitor-coupled generation before it, while keeping the warm Sansui midrange. The trade-off is that DC offset must be held in check, which is what the servo and protection circuits are there for.",
     "usd_msrp": 190,
     "market": "International",
-    "thb_status": null
+    "thb_status": null,
+    "circuit_family": "DC integrated",
+    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
   },
   {
     "id": "sansui-au-919-1978",
@@ -5719,7 +5723,7 @@
     "price_thb_listings": [],
     "usd_msrp": 150,
     "market": null,
-    "sonic_signature": "Tube-era Sansui: the warm, rich valve presentation - smooth top end and a full, engaging midrange. (Family-level: tube era.)",
+    "sonic_signature": null,
     "thb_status": null
   },
   {
@@ -9855,7 +9859,7 @@
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": "Silver-era Sansui: the warm, musical house sound of Sansui's peak years - full-bodied and rich with a smooth top end and an engaging, non-fatiguing presentation. (Family-level: mid/late-70s silver-face line.)",
+    "sonic_signature": null,
     "thb_status": null
   },
   {
@@ -10680,7 +10684,7 @@
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": "Silver-era Sansui: the warm, musical house sound of Sansui's peak years - full-bodied and rich with a smooth top end and an engaging, non-fatiguing presentation. (Family-level: mid/late-70s silver-face line.)",
+    "sonic_signature": null,
     "thb_status": null,
     "auto_price": {
       "source": "hifishark.com",
@@ -10898,7 +10902,7 @@
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": "Silver-era Sansui: the warm, musical house sound of Sansui's peak years - full-bodied and rich with a smooth top end and an engaging, non-fatiguing presentation. (Family-level: mid/late-70s silver-face line.)",
+    "sonic_signature": null,
     "thb_status": null,
     "auto_price": {
       "source": "hifishark.com",
@@ -13970,14 +13974,16 @@
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": "Tube-era Sansui: the warm, rich valve presentation - smooth top end and a full, engaging midrange. (Family-level: tube era.)",
+    "sonic_signature": "Valve output stage feeding an output transformer, so the source impedance is high and the damping factor low - the speaker's own impedance curve shapes the response rather than being driven through it. That interaction, with distortion weighted to even-order harmonics, is where the warmth and dimensionality of this era comes from.",
     "thb_status": null,
     "auto_price": {
       "source": "hifishark.com",
       "date": "2026-08",
       "n": 16,
       "median_usd": 248
-    }
+    },
+    "circuit_family": "Tube",
+    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
   },
   {
     "id": "sansui-au-111-1965",
@@ -14045,9 +14051,11 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": "Tube-era Sansui: the warm, rich valve presentation - smooth top end and a full, engaging midrange. (Family-level: tube era.)",
+    "sonic_signature": "Valve output stage feeding an output transformer, so the source impedance is high and the damping factor low - the speaker's own impedance curve shapes the response rather than being driven through it. That interaction, with distortion weighted to even-order harmonics, is where the warmth and dimensionality of this era comes from.",
     "thb_status": "Sold",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "circuit_family": "Tube",
+    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
   },
   {
     "id": "sansui-1000-1963",
@@ -14111,14 +14119,16 @@
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": "Tube-era Sansui: the warm, rich valve presentation - smooth top end and a full, engaging midrange. (Family-level: tube era.)",
+    "sonic_signature": "Valve output stage feeding an output transformer, so the source impedance is high and the damping factor low - the speaker's own impedance curve shapes the response rather than being driven through it. That interaction, with distortion weighted to even-order harmonics, is where the warmth and dimensionality of this era comes from.",
     "thb_status": null,
     "auto_price": {
       "source": "hifishark.com",
       "date": "2026-08",
       "n": 15,
       "median_usd": 432
-    }
+    },
+    "circuit_family": "Tube",
+    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
   },
   {
     "id": "sansui-250-1965",
@@ -14185,9 +14195,11 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": "Tube-era Sansui: the warm, rich valve presentation - smooth top end and a full, engaging midrange. (Family-level: tube era.)",
+    "sonic_signature": "Valve output stage feeding an output transformer, so the source impedance is high and the damping factor low - the speaker's own impedance curve shapes the response rather than being driven through it. That interaction, with distortion weighted to even-order harmonics, is where the warmth and dimensionality of this era comes from.",
     "thb_status": "Sold",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "circuit_family": "Tube",
+    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
   },
   {
     "id": "sansui-1000a-1967",
@@ -14252,8 +14264,10 @@
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": "Tube-era Sansui: the warm, rich valve presentation - smooth top end and a full, engaging midrange. (Family-level: tube era.)",
-    "thb_status": null
+    "sonic_signature": "Valve output stage feeding an output transformer, so the source impedance is high and the damping factor low - the speaker's own impedance curve shapes the response rather than being driven through it. That interaction, with distortion weighted to even-order harmonics, is where the warmth and dimensionality of this era comes from.",
+    "thb_status": null,
+    "circuit_family": "Tube",
+    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
   },
   {
     "id": "sansui-1000ea-1967",
@@ -14317,8 +14331,10 @@
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": "Tube-era Sansui: the warm, rich valve presentation - smooth top end and a full, engaging midrange. (Family-level: tube era.)",
-    "thb_status": null
+    "sonic_signature": "Valve output stage feeding an output transformer, so the source impedance is high and the damping factor low - the speaker's own impedance curve shapes the response rather than being driven through it. That interaction, with distortion weighted to even-order harmonics, is where the warmth and dimensionality of this era comes from.",
+    "thb_status": null,
+    "circuit_family": "Tube",
+    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
   },
   {
     "id": "sansui-au-alpha307-1986",
@@ -14816,8 +14832,10 @@
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": "Alpha-series voicing: a move to a more neutral tone with very good clarity and detail while staying musically involving - refined, with layers of depth, pinpoint imaging and crisper, more refined highs than the older warm Sansuis. The 907 tier adds a beefier supply and the most even tonal balance. (Family-level: alpha-X Balanced series.)",
-    "thb_status": null
+    "sonic_signature": "X-Balanced: the amplifier is balanced end to end, so both speaker terminals are driven rather than one being grounded. The result is very low distortion and high current delivery with a neutral, authoritative presentation. Safety: both speaker terminals are live - never bridge or ground either one.",
+    "thb_status": null,
+    "circuit_family": "X-Balanced / alpha-X Balanced",
+    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
   },
   {
     "id": "sansui-au-alpha607i-1987",
@@ -15159,8 +15177,10 @@
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": "Alpha-series voicing: a move to a more neutral tone with very good clarity and detail while staying musically involving - refined, with layers of depth, pinpoint imaging and crisper, more refined highs than the older warm Sansuis. The 907 tier adds a beefier supply and the most even tonal balance. (Family-level: alpha-X Balanced series.)",
-    "thb_status": null
+    "sonic_signature": "X-Balanced: the amplifier is balanced end to end, so both speaker terminals are driven rather than one being grounded. The result is very low distortion and high current delivery with a neutral, authoritative presentation. Safety: both speaker terminals are live - never bridge or ground either one.",
+    "thb_status": null,
+    "circuit_family": "X-Balanced / alpha-X Balanced",
+    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
   },
   {
     "id": "sansui-au-alpha607extra-1988",
@@ -15366,8 +15386,10 @@
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": "Alpha-series voicing: a move to a more neutral tone with very good clarity and detail while staying musically involving - refined, with layers of depth, pinpoint imaging and crisper, more refined highs than the older warm Sansuis. The 907 tier adds a beefier supply and the most even tonal balance. (Family-level: alpha-X Balanced series.)",
-    "thb_status": null
+    "sonic_signature": "X-Balanced: the amplifier is balanced end to end, so both speaker terminals are driven rather than one being grounded. The result is very low distortion and high current delivery with a neutral, authoritative presentation. Safety: both speaker terminals are live - never bridge or ground either one.",
+    "thb_status": null,
+    "circuit_family": "X-Balanced / alpha-X Balanced",
+    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
   },
   {
     "id": "sansui-au-alpha777dg-1988",
@@ -16813,7 +16835,7 @@
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": "Alpha-series voicing: a move to a more neutral tone with very good clarity and detail while staying musically involving - refined, with layers of depth, pinpoint imaging and crisper, more refined highs than the older warm Sansuis. The 907 tier adds a beefier supply and the most even tonal balance. (Family-level: alpha-X Balanced series.)",
+    "sonic_signature": "X-Balanced: the amplifier is balanced end to end, so both speaker terminals are driven rather than one being grounded. The result is very low distortion and high current delivery with a neutral, authoritative presentation. Safety: both speaker terminals are live - never bridge or ground either one.",
     "thb_status": null,
     "auto_specs": {
       "source": "audio-database.com",
@@ -16822,7 +16844,9 @@
         "freq_response_hz",
         "weight_kg"
       ]
-    }
+    },
+    "circuit_family": "X-Balanced / alpha-X Balanced",
+    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
   },
   {
     "id": "sansui-au-alpha607nra-1997",
@@ -17243,8 +17267,10 @@
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": "Tube-era Sansui: the warm, rich valve presentation - smooth top end and a full, engaging midrange. (Family-level: tube era.)",
-    "thb_status": null
+    "sonic_signature": "Valve output stage feeding an output transformer, so the source impedance is high and the damping factor low - the speaker's own impedance curve shapes the response rather than being driven through it. That interaction, with distortion weighted to even-order harmonics, is where the warmth and dimensionality of this era comes from.",
+    "thb_status": null,
+    "circuit_family": "Tube",
+    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
   },
   {
     "id": "sansui-au-111g-vintage-2001",
@@ -17309,8 +17335,10 @@
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": "Tube-era Sansui: the warm, rich valve presentation - smooth top end and a full, engaging midrange. (Family-level: tube era.)",
-    "thb_status": null
+    "sonic_signature": "Valve output stage feeding an output transformer, so the source impedance is high and the damping factor low - the speaker's own impedance curve shapes the response rather than being driven through it. That interaction, with distortion weighted to even-order harmonics, is where the warmth and dimensionality of this era comes from.",
+    "thb_status": null,
+    "circuit_family": "Tube",
+    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
   },
   {
     "id": "sansui-au-x11-1981",
@@ -18037,7 +18065,7 @@
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": "Tube-era Sansui: the warm, rich valve presentation - smooth top end and a full, engaging midrange. (Family-level: tube era.)",
+    "sonic_signature": "Valve output stage feeding an output transformer, so the source impedance is high and the damping factor low - the speaker's own impedance curve shapes the response rather than being driven through it. That interaction, with distortion weighted to even-order harmonics, is where the warmth and dimensionality of this era comes from.",
     "thb_status": null,
     "auto_specs": {
       "source": "audio-database.com",
@@ -18046,7 +18074,9 @@
         "freq_response_hz",
         "japan_price_kyen"
       ]
-    }
+    },
+    "circuit_family": "Tube",
+    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
   },
   {
     "id": "sansui-b2105v-1997",
@@ -19782,7 +19812,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Unranked",
-    "sonic_signature": "Silver-era Sansui: the warm, musical house sound of Sansui's peak years - full-bodied and rich with a smooth top end and an engaging, non-fatiguing presentation. (Family-level: mid/late-70s silver-face line.)",
+    "sonic_signature": null,
     "price_thb_listings": [
       6500
     ],
