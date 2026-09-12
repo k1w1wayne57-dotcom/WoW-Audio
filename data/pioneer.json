@@ -582,11 +582,11 @@
     "year_end": null,
     "japan_price_kyen": null,
     "watts_per_channel": 25,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "freq_response_hz": "20-30000",
+    "thd_percent": 0.5,
     "ps_type": null,
     "amp_circuit": "SX stereo receiver",
-    "weight_kg": null,
+    "weight_kg": 10.9,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -636,7 +636,16 @@
       "n": 22,
       "median_usd": 288
     },
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_specs": {
+      "source": "classicreceivers + hifiengine",
+      "date": "2026-09",
+      "fields": [
+        "freq_response_hz",
+        "thd_percent",
+        "weight_kg"
+      ]
+    }
   },
   {
     "id": "pioneer-sx-6000",
@@ -645,20 +654,20 @@
     "int_model": null,
     "type": "Receiver",
     "series": "SX Receiver",
-    "year_start": null,
+    "year_start": 1969,
     "year_end": null,
     "japan_price_kyen": null,
-    "watts_per_channel": null,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "watts_per_channel": 36,
+    "freq_response_hz": "5-100000",
+    "thd_percent": 1.0,
     "ps_type": null,
     "amp_circuit": "SX stereo receiver",
-    "weight_kg": null,
+    "weight_kg": 13.2,
     "special_features": null,
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 20-30",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -687,8 +696,8 @@
     "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Specs sourced from hifiengine (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 225,
+    "price_basis": "Reverb/eBay sold $200-250",
     "year_source": "hifiengine",
     "price_thb_listings": [
       3900
@@ -697,7 +706,18 @@
     "market": null,
     "sonic_signature": null,
     "thb_status": "Sold",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_specs": {
+      "source": "hifi-wiki + Reverb",
+      "date": "2026-09",
+      "fields": [
+        "watts_per_channel",
+        "freq_response_hz",
+        "thd_percent",
+        "weight_kg",
+        "year_start"
+      ]
+    }
   },
   {
     "id": "pioneer-sx-580-1978",
@@ -714,12 +734,12 @@
     "thd_percent": 0.3,
     "ps_type": null,
     "amp_circuit": "SX stereo receiver",
-    "weight_kg": null,
+    "weight_kg": 8.3,
     "special_features": null,
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 30-40",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -748,8 +768,8 @@
     "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Specs sourced from classicreceivers/hifiengine (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 125,
+    "price_basis": "classicreceivers/hifi-wiki $100-150",
     "year_source": "classicreceivers/hifiengine",
     "price_thb_listings": [
       3290
@@ -758,7 +778,14 @@
     "market": null,
     "sonic_signature": null,
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_specs": {
+      "source": "hifi-wiki + classicreceivers",
+      "date": "2026-09",
+      "fields": [
+        "weight_kg"
+      ]
+    }
   },
   {
     "id": "pioneer-sx-550-1976",
@@ -987,12 +1014,12 @@
     "year_start": 1972,
     "year_end": 1974,
     "japan_price_kyen": null,
-    "watts_per_channel": null,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "watts_per_channel": 12,
+    "freq_response_hz": "20-70000",
+    "thd_percent": 1.0,
     "ps_type": null,
     "amp_circuit": "Entry SX stereo receiver",
-    "weight_kg": null,
+    "weight_kg": 7.5,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -1042,7 +1069,17 @@
       "n": 16,
       "median_usd": 134
     },
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_specs": {
+      "source": "hifi-wiki + classicreceivers",
+      "date": "2026-09",
+      "fields": [
+        "watts_per_channel",
+        "freq_response_hz",
+        "thd_percent",
+        "weight_kg"
+      ]
+    }
   },
   {
     "id": "pioneer-sx-3700",
@@ -1051,20 +1088,20 @@
     "int_model": null,
     "type": "Receiver",
     "series": "SX Receiver",
-    "year_start": null,
+    "year_start": 1980,
     "year_end": null,
     "japan_price_kyen": null,
     "watts_per_channel": 45,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "freq_response_hz": "10-100000",
+    "thd_percent": 0.02,
     "ps_type": null,
     "amp_circuit": "SX stereo receiver (early 80s)",
-    "weight_kg": null,
+    "weight_kg": 11.6,
     "special_features": null,
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 30-40",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -1093,8 +1130,8 @@
     "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Specs sourced from vintageaudioexchange (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 110,
+    "price_basis": "Reverb/eBay used, good-condition ~$100",
     "year_source": "vintageaudioexchange",
     "price_thb_listings": [
       3200
@@ -1103,7 +1140,17 @@
     "market": null,
     "sonic_signature": null,
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_specs": {
+      "source": "hifiengine + theturntablestore",
+      "date": "2026-09",
+      "fields": [
+        "freq_response_hz",
+        "thd_percent",
+        "weight_kg",
+        "year_start"
+      ]
+    }
   },
   {
     "id": "pioneer-sx-2000-1970",
@@ -1190,7 +1237,7 @@
     "thd_percent": null,
     "ps_type": null,
     "amp_circuit": "Early Pioneer tube receiver",
-    "weight_kg": null,
+    "weight_kg": 10.8,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -1240,7 +1287,14 @@
       "n": 9,
       "median_usd": 319
     },
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_specs": {
+      "source": "radiomuseum (tube receiver)",
+      "date": "2026-09",
+      "fields": [
+        "weight_kg"
+      ]
+    }
   },
   {
     "id": "pioneer-sa-9900-1975",
@@ -1523,12 +1577,12 @@
     "year_start": 1978,
     "year_end": null,
     "japan_price_kyen": null,
-    "watts_per_channel": null,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "watts_per_channel": 60,
+    "freq_response_hz": "20-40000",
+    "thd_percent": 0.04,
     "ps_type": null,
     "amp_circuit": "Integrated amplifier",
-    "weight_kg": null,
+    "weight_kg": 11.1,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -1578,7 +1632,17 @@
       "n": 12,
       "median_usd": 209
     },
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_specs": {
+      "source": "hifiengine + classic-audio",
+      "date": "2026-09",
+      "fields": [
+        "watts_per_channel",
+        "freq_response_hz",
+        "thd_percent",
+        "weight_kg"
+      ]
+    }
   },
   {
     "id": "pioneer-sa-7500",
@@ -1587,12 +1651,12 @@
     "int_model": null,
     "type": "Integrated",
     "series": "SA Amplifier",
-    "year_start": null,
+    "year_start": 1975,
     "year_end": null,
     "japan_price_kyen": null,
     "watts_per_channel": 40,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "freq_response_hz": "10-70000",
+    "thd_percent": 0.1,
     "ps_type": null,
     "amp_circuit": "Integrated amplifier (US version of the 1975 SA-8800)",
     "weight_kg": null,
@@ -1645,7 +1709,16 @@
       "n": 23,
       "median_usd": 318
     },
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_specs": {
+      "source": "hifi-wiki",
+      "date": "2026-09",
+      "fields": [
+        "year_start",
+        "freq_response_hz",
+        "thd_percent"
+      ]
+    }
   },
   {
     "id": "pioneer-sa-6850",
@@ -1654,15 +1727,15 @@
     "int_model": null,
     "type": "Integrated",
     "series": "SA Amplifier",
-    "year_start": null,
+    "year_start": 1979,
     "year_end": null,
     "japan_price_kyen": null,
     "watts_per_channel": 45,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "freq_response_hz": "10-40000",
+    "thd_percent": 0.1,
     "ps_type": null,
     "amp_circuit": "Integrated amplifier (JDM)",
-    "weight_kg": null,
+    "weight_kg": 8.7,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -1706,7 +1779,17 @@
     "market": null,
     "sonic_signature": null,
     "thb_status": "Sold",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_specs": {
+      "source": "hifiengine + audio-database",
+      "date": "2026-09",
+      "fields": [
+        "freq_response_hz",
+        "thd_percent",
+        "weight_kg",
+        "year_start"
+      ]
+    }
   },
   {
     "id": "pioneer-sa-6800ii-1976",
@@ -1728,7 +1811,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 20-30",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
       "known_issues": null,
@@ -1757,8 +1840,8 @@
     "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Specs sourced from hifi-wiki (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 100,
+    "price_basis": "eBay sold $60-110",
     "year_source": "hifi-wiki",
     "price_thb_listings": [
       3800,
@@ -1969,8 +2052,8 @@
     "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Specs sourced from hifiengine (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 110,
+    "price_basis": "thin: one HifiShark listing; sibling-class estimate",
     "year_source": "hifiengine",
     "price_thb_listings": [
       3300
@@ -2438,11 +2521,11 @@
     "year_end": null,
     "japan_price_kyen": null,
     "watts_per_channel": 250,
-    "freq_response_hz": null,
+    "freq_response_hz": "5-80000",
     "thd_percent": 0.1,
     "ps_type": null,
     "amp_circuit": "High-power stereo amp; JDM twin of the USA SPEC-4; 250W/ch (0.05% THD at 125W)",
-    "weight_kg": null,
+    "weight_kg": 24.3,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -2486,7 +2569,15 @@
     "market": null,
     "sonic_signature": null,
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_specs": {
+      "source": "audio-database PIONEER-EXCLUSIVE",
+      "date": "2026-09",
+      "fields": [
+        "freq_response_hz",
+        "weight_kg"
+      ]
+    }
   },
   {
     "id": "pioneer-m-1500-1978",
@@ -2499,11 +2590,11 @@
     "year_end": null,
     "japan_price_kyen": null,
     "watts_per_channel": 50,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "freq_response_hz": "5-40000",
+    "thd_percent": 0.05,
     "ps_type": null,
     "amp_circuit": "JDM premium power amp; partners the C-1500 preamp",
-    "weight_kg": null,
+    "weight_kg": 7.7,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -2547,7 +2638,16 @@
     "market": null,
     "sonic_signature": null,
     "thb_status": "Sold",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_specs": {
+      "source": "audio-database PIONEER-EXCLUSIVE",
+      "date": "2026-09",
+      "fields": [
+        "freq_response_hz",
+        "thd_percent",
+        "weight_kg"
+      ]
+    }
   },
   {
     "id": "pioneer-sm-1500-1980",
@@ -2922,12 +3022,12 @@
     "int_model": null,
     "type": "Integrated",
     "series": null,
-    "year_start": null,
+    "year_start": 1978,
     "year_end": null,
     "japan_price_kyen": null,
-    "watts_per_channel": null,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "watts_per_channel": 45,
+    "freq_response_hz": "6-40000",
+    "thd_percent": 0.04,
     "ps_type": null,
     "amp_circuit": null,
     "weight_kg": null,
@@ -2971,7 +3071,17 @@
     "market": null,
     "sonic_signature": null,
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_specs": {
+      "source": "Reverb + audio-database",
+      "date": "2026-09",
+      "fields": [
+        "watts_per_channel",
+        "freq_response_hz",
+        "thd_percent",
+        "year_start"
+      ]
+    }
   },
   {
     "id": "pioneer-sa-7600-ii",
@@ -3049,12 +3159,12 @@
     "int_model": null,
     "type": "Receiver",
     "series": null,
-    "year_start": null,
+    "year_start": 1972,
     "year_end": null,
     "japan_price_kyen": null,
-    "watts_per_channel": null,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "watts_per_channel": 13,
+    "freq_response_hz": "10-45000",
+    "thd_percent": 1.0,
     "ps_type": null,
     "amp_circuit": null,
     "weight_kg": null,
@@ -3098,7 +3208,17 @@
     "market": null,
     "sonic_signature": null,
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_specs": {
+      "source": "audio-database + hifiengine",
+      "date": "2026-09",
+      "fields": [
+        "watts_per_channel",
+        "freq_response_hz",
+        "thd_percent",
+        "year_start"
+      ]
+    }
   },
   {
     "id": "pioneer-qx-8000a",
@@ -3107,10 +3227,10 @@
     "int_model": null,
     "type": "Receiver 4-ch",
     "series": null,
-    "year_start": null,
+    "year_start": 1972,
     "year_end": null,
     "japan_price_kyen": null,
-    "watts_per_channel": null,
+    "watts_per_channel": 27,
     "freq_response_hz": null,
     "thd_percent": null,
     "ps_type": null,
@@ -3156,6 +3276,14 @@
     "market": null,
     "sonic_signature": null,
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_specs": {
+      "source": "Reverb + hifi-wiki (quad receiver)",
+      "date": "2026-09",
+      "fields": [
+        "watts_per_channel",
+        "year_start"
+      ]
+    }
   }
 ]

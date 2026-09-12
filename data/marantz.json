@@ -299,12 +299,12 @@
     "year_start": 1978,
     "year_end": null,
     "japan_price_kyen": null,
-    "watts_per_channel": null,
+    "watts_per_channel": 30,
     "freq_response_hz": "20-50000",
     "thd_percent": 0.1,
     "ps_type": null,
     "amp_circuit": "Superscope (Marantz budget division) stereo integrated amp; 30W/ch into 4ohm, damping 45",
-    "weight_kg": null,
+    "weight_kg": 7.0,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -348,7 +348,15 @@
     "market": null,
     "sonic_signature": null,
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_specs": {
+      "source": "hifiengine (Superscope)",
+      "date": "2026-09",
+      "fields": [
+        "watts_per_channel",
+        "weight_kg"
+      ]
+    }
   },
   {
     "id": "marantz-model-18-1968",
@@ -1506,11 +1514,11 @@
     "year_end": 1977,
     "japan_price_kyen": null,
     "watts_per_channel": 15,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "freq_response_hz": "20-60000",
+    "thd_percent": 0.8,
     "ps_type": null,
     "amp_circuit": "Stereophonic solid-state receiver",
-    "weight_kg": null,
+    "weight_kg": 9.5,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -1554,7 +1562,16 @@
     "market": null,
     "sonic_signature": null,
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_specs": {
+      "source": "classicreceivers + hifi-wiki",
+      "date": "2026-09",
+      "fields": [
+        "freq_response_hz",
+        "thd_percent",
+        "weight_kg"
+      ]
+    }
   },
   {
     "id": "marantz-2216b-1977",
@@ -1567,7 +1584,7 @@
     "year_end": 1978,
     "japan_price_kyen": null,
     "watts_per_channel": 16,
-    "freq_response_hz": null,
+    "freq_response_hz": "15-35000",
     "thd_percent": 0.15,
     "ps_type": null,
     "amp_circuit": "Stereophonic solid-state receiver",
@@ -1615,7 +1632,14 @@
     "market": null,
     "sonic_signature": "The entry point of the 22xx line — clean but light; comes up short on most speakers and clips easily. Not the warm 'two-martini' Marantz voice.",
     "thb_status": "Sold",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_specs": {
+      "source": "classicreceivers + hifi-wiki",
+      "date": "2026-09",
+      "fields": [
+        "freq_response_hz"
+      ]
+    }
   },
   {
     "id": "marantz-2218-1978",
@@ -1812,11 +1836,11 @@
     "year_end": 1976,
     "japan_price_kyen": null,
     "watts_per_channel": 35,
-    "freq_response_hz": null,
+    "freq_response_hz": "20-20000",
     "thd_percent": 0.25,
     "ps_type": null,
     "amp_circuit": "Stereophonic solid-state receiver; 35W/ch at 0.25% THD. Pre-B generation (~1975): capacitor-coupled, visually near-identical to the 2235B but lacks the FM tuning meter.",
-    "weight_kg": null,
+    "weight_kg": 10.5,
     "special_features": null,
     "pros": "Warm euphonic 'two-martini' 22xx sound, 35W actually drives normal speakers, Best sound-per-baht on the list",
     "cons": null,
@@ -1866,7 +1890,15 @@
       "n": 8,
       "median_usd": 502
     },
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_specs": {
+      "source": "classicreceivers + hifi-wiki",
+      "date": "2026-09",
+      "fields": [
+        "freq_response_hz",
+        "weight_kg"
+      ]
+    }
   },
   {
     "id": "marantz-2235b-1974",
@@ -1943,11 +1975,11 @@
     "year_end": 1979,
     "japan_price_kyen": null,
     "watts_per_channel": 26,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "freq_response_hz": "10-40000",
+    "thd_percent": 0.3,
     "ps_type": null,
     "amp_circuit": "Stereophonic solid-state receiver; direct-coupled (B series). Discrete-transistor phono stage.",
-    "weight_kg": null,
+    "weight_kg": 11.3,
     "special_features": null,
     "pros": "Best-sounding of the lower-end Marantz, Discrete-transistor phono (much quieter than the 2216's opamp), Warm classic B-series sound",
     "cons": "Modest 26W power",
@@ -1999,7 +2031,16 @@
       "n": 16,
       "median_usd": 588
     },
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_specs": {
+      "source": "classicreceivers + hifi-wiki",
+      "date": "2026-09",
+      "fields": [
+        "freq_response_hz",
+        "thd_percent",
+        "weight_kg"
+      ]
+    }
   },
   {
     "id": "marantz-2238b-1977",
@@ -2308,7 +2349,7 @@
     "int_model": null,
     "type": "Receiver",
     "series": "22XX Receiver",
-    "year_start": null,
+    "year_start": 1977,
     "year_end": null,
     "japan_price_kyen": null,
     "watts_per_channel": 65,
@@ -2360,7 +2401,14 @@
     "market": null,
     "sonic_signature": "Warm, smooth classic Marantz sound with solid 65W grip — one of the sweet spots of the blue-dial 22xx line.",
     "thb_status": "Sold",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_specs": {
+      "source": "classicreceivers + hifi-wiki",
+      "date": "2026-09",
+      "fields": [
+        "year_start"
+      ]
+    }
   },
   {
     "id": "marantz-2270-1971",
@@ -2847,8 +2895,8 @@
     "year_end": 1978,
     "japan_price_kyen": null,
     "watts_per_channel": 30,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "freq_response_hz": "20-20000",
+    "thd_percent": 0.9,
     "ps_type": null,
     "amp_circuit": "Quadradial 2+4 receiver; 30W/ch stereo, 12W/ch quad (8ohm)",
     "weight_kg": 14.2,
@@ -2895,7 +2943,15 @@
     "market": null,
     "sonic_signature": null,
     "thb_status": "Sold",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_specs": {
+      "source": "classicreceivers + hifi-wiki",
+      "date": "2026-09",
+      "fields": [
+        "freq_response_hz",
+        "thd_percent"
+      ]
+    }
   },
   {
     "id": "marantz-4270-1974",
@@ -2908,8 +2964,8 @@
     "year_end": 1976,
     "japan_price_kyen": null,
     "watts_per_channel": 70,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "freq_response_hz": "20-20000",
+    "thd_percent": 0.3,
     "ps_type": null,
     "amp_circuit": "Quadradial 2+4 receiver; 70W/ch stereo, 25W/ch quad (8ohm)",
     "weight_kg": 18.4,
@@ -2956,7 +3012,15 @@
     "market": null,
     "sonic_signature": null,
     "thb_status": "Sold",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_specs": {
+      "source": "classicreceivers + hifi-wiki",
+      "date": "2026-09",
+      "fields": [
+        "freq_response_hz",
+        "thd_percent"
+      ]
+    }
   },
   {
     "id": "marantz-4300-1972",
@@ -4360,15 +4424,15 @@
     "int_model": null,
     "type": "Receiver",
     "series": null,
-    "year_start": null,
+    "year_start": 1978,
     "year_end": null,
     "japan_price_kyen": null,
-    "watts_per_channel": null,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "watts_per_channel": 30,
+    "freq_response_hz": "18-30000",
+    "thd_percent": 0.15,
     "ps_type": null,
     "amp_circuit": null,
-    "weight_kg": null,
+    "weight_kg": 11.0,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -4409,7 +4473,18 @@
     "market": null,
     "sonic_signature": null,
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_specs": {
+      "source": "classicreceivers + hifi-wiki",
+      "date": "2026-09",
+      "fields": [
+        "watts_per_channel",
+        "freq_response_hz",
+        "thd_percent",
+        "weight_kg",
+        "year_start"
+      ]
+    }
   },
   {
     "id": "marantz-2226",
@@ -4418,15 +4493,15 @@
     "int_model": null,
     "type": "Receiver",
     "series": null,
-    "year_start": null,
+    "year_start": 1977,
     "year_end": null,
     "japan_price_kyen": null,
-    "watts_per_channel": null,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "watts_per_channel": 26,
+    "freq_response_hz": "15-60000",
+    "thd_percent": 0.3,
     "ps_type": null,
     "amp_circuit": null,
-    "weight_kg": null,
+    "weight_kg": 11.5,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -4468,7 +4543,18 @@
     "market": null,
     "sonic_signature": null,
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_specs": {
+      "source": "classicreceivers + hifi-wiki",
+      "date": "2026-09",
+      "fields": [
+        "watts_per_channel",
+        "freq_response_hz",
+        "thd_percent",
+        "weight_kg",
+        "year_start"
+      ]
+    }
   },
   {
     "id": "marantz-1120",
@@ -4477,15 +4563,15 @@
     "int_model": null,
     "type": "Integrated",
     "series": null,
-    "year_start": null,
+    "year_start": 1973,
     "year_end": null,
     "japan_price_kyen": null,
-    "watts_per_channel": null,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "watts_per_channel": 60,
+    "freq_response_hz": "10-40000",
+    "thd_percent": 0.15,
     "ps_type": null,
     "amp_circuit": null,
-    "weight_kg": null,
+    "weight_kg": 14.7,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -4522,11 +4608,23 @@
     "price_thb_listings": [
       19500
     ],
-    "usd_msrp": null,
+    "usd_msrp": 450,
     "market": null,
     "sonic_signature": null,
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_specs": {
+      "source": "audio-database MARANTZ + classic-audio",
+      "date": "2026-09",
+      "fields": [
+        "watts_per_channel",
+        "freq_response_hz",
+        "thd_percent",
+        "weight_kg",
+        "year_start",
+        "usd_msrp"
+      ]
+    }
   },
   {
     "id": "marantz-1125",
@@ -4593,15 +4691,15 @@
     "int_model": null,
     "type": "Integrated",
     "series": null,
-    "year_start": null,
+    "year_start": 1977,
     "year_end": null,
-    "japan_price_kyen": null,
-    "watts_per_channel": null,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "japan_price_kyen": 129,
+    "watts_per_channel": 80,
+    "freq_response_hz": "20-20000",
+    "thd_percent": 0.1,
     "ps_type": null,
     "amp_circuit": null,
-    "weight_kg": null,
+    "weight_kg": 15.0,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -4642,7 +4740,19 @@
     "market": null,
     "sonic_signature": null,
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_specs": {
+      "source": "audio-database MARANTZ",
+      "date": "2026-09",
+      "fields": [
+        "watts_per_channel",
+        "freq_response_hz",
+        "thd_percent",
+        "weight_kg",
+        "year_start",
+        "japan_price_kyen"
+      ]
+    }
   },
   {
     "id": "marantz-2285",
@@ -4651,20 +4761,20 @@
     "int_model": null,
     "type": "Receiver",
     "series": null,
-    "year_start": null,
+    "year_start": 1977,
     "year_end": null,
     "japan_price_kyen": null,
-    "watts_per_channel": null,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "watts_per_channel": 85,
+    "freq_response_hz": "10-40000",
+    "thd_percent": 0.05,
     "ps_type": null,
     "amp_circuit": null,
-    "weight_kg": null,
+    "weight_kg": 17.0,
     "special_features": null,
     "pros": null,
     "cons": null,
     "collector_ranking": "Unranked",
-    "price_confidence": null,
+    "price_confidence": "Medium",
     "last_price_check": null,
     "collector_info": {
       "known_issues": null,
@@ -4690,17 +4800,29 @@
     },
     "notes": "Added from Wayne's Thai price list. No Audio Database page — specs not yet sourced.",
     "verified": false,
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 1200,
+    "price_basis": "Reverb sold $900-2000 (clean ~$2000); flagship 22xx",
     "year_source": null,
     "price_thb_listings": [
       28500
     ],
-    "usd_msrp": null,
+    "usd_msrp": 670,
     "market": null,
     "sonic_signature": null,
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_specs": {
+      "source": "classicreceivers + hifi-wiki",
+      "date": "2026-09",
+      "fields": [
+        "watts_per_channel",
+        "freq_response_hz",
+        "thd_percent",
+        "weight_kg",
+        "year_start",
+        "usd_msrp"
+      ]
+    }
   },
   {
     "id": "marantz-2265b",
@@ -4709,15 +4831,15 @@
     "int_model": null,
     "type": "Receiver",
     "series": null,
-    "year_start": null,
+    "year_start": 1977,
     "year_end": null,
     "japan_price_kyen": null,
-    "watts_per_channel": null,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "watts_per_channel": 65,
+    "freq_response_hz": "10-40000",
+    "thd_percent": 0.05,
     "ps_type": null,
     "amp_circuit": null,
-    "weight_kg": null,
+    "weight_kg": 14.5,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -4758,6 +4880,17 @@
     "market": null,
     "sonic_signature": null,
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_specs": {
+      "source": "classicreceivers + hifi-wiki",
+      "date": "2026-09",
+      "fields": [
+        "watts_per_channel",
+        "freq_response_hz",
+        "thd_percent",
+        "weight_kg",
+        "year_start"
+      ]
+    }
   }
 ]
