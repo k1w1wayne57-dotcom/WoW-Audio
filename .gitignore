@@ -11,3 +11,9 @@ Service manuals/
 
 # Audio Database fetch cache (backfill_specs.py) — regenerable, not versioned
 scripts/.adb_cache/
+
+# Cloudflare Wrangler local scratch (cache/tmp) — regenerable, not versioned
+.wrangler/
+
+# Memory export from another Claude context — personal, not part of the site
+claude-legacy-memory.md
