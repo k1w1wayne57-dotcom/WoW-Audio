@@ -78,6 +78,24 @@
   h1.admin-title { font-size: 1.6rem; }
   h1.admin-title span { color: var(--gold); }
   .top-link { font-size: .85rem; }
+
+  /* Quick-add popup */
+  .qa-overlay { position: fixed; inset: 0; background: rgba(0,0,0,.6);
+    display: flex; align-items: center; justify-content: center; z-index: 50; }
+  .qa-overlay[hidden] { display: none; }
+  .qa-modal { background: var(--bg-alt); border: 1px solid var(--border);
+    border-radius: 12px; padding: 22px 24px; width: min(420px, 92vw);
+    box-shadow: 0 20px 60px rgba(0,0,0,.5); }
+  .qa-modal h2 { font-family: 'Playfair Display', serif; color: var(--gold-bright);
+    margin: 0 0 4px; font-size: 1.3rem; }
+  .qa-modal .qa-sub { font-size: .78rem; color: var(--text-secondary); margin: 0 0 16px; }
+  .qa-field { margin-bottom: 12px; }
+  .qa-field label { display: block; font-size: .78rem; color: var(--text-secondary); margin-bottom: 4px; }
+  .qa-field input, .qa-field select {
+    width: 100%; background: var(--bg); color: var(--text);
+    border: 1px solid var(--border); border-radius: 6px; padding: 8px 10px;
+    font-family: inherit; font-size: .9rem; }
+  .qa-actions { display: flex; gap: 12px; align-items: center; margin-top: 18px; }
 </style>
 </head>
 <body>
@@ -102,7 +120,8 @@
     <input type="text" id="filter" placeholder="filter models…" style="width:150px">
     <div class="spacer"></div>
     <span class="mode-pill" id="mode">NEW MODEL</span>
-    <button class="btn-ghost" id="newBtn" type="button">＋ New</button>
+    <button class="btn-ghost" id="quickAddBtn" type="button">＋ Add Model</button>
+    <button class="btn-ghost" id="newBtn" type="button">Blank form</button>
   </div>
 
   <form id="form"><!-- fields injected by admin.js --></form>
@@ -124,6 +143,25 @@
     <span class="status" id="status"></span>
     <div class="spacer"></div>
     <span class="commit-note">Writes to <code id="target">data/…</code> — commit &amp; push to publish.</span>
+  </div>
+</div>
+
+<div class="qa-overlay" id="qaOverlay" hidden>
+  <div class="qa-modal">
+    <h2>Add Model</h2>
+    <p class="qa-sub">Quick stub from a Thai listing — pick brand, name it, drop in the ฿ price. Opens in the full editor after adding.</p>
+    <div class="qa-field"><label for="qaBrand">Brand</label><select id="qaBrand"></select></div>
+    <div class="qa-field"><label for="qaModel">Model *</label><input id="qaModel" placeholder="e.g. SA-9500 II" autocomplete="off"></div>
+    <div class="qa-field"><label for="qaType">Type</label><select id="qaType"></select></div>
+    <div class="qa-field"><label for="qaThb">Thai price (฿)</label><input id="qaThb" type="number" min="0" placeholder="e.g. 7500"></div>
+    <div class="qa-field"><label for="qaThbStatus">Thai status</label>
+      <select id="qaThbStatus"><option value="For Sale">For Sale</option><option value="Sold">Sold</option></select>
+    </div>
+    <div class="qa-actions">
+      <button class="btn-primary" id="qaSaveBtn" type="button">Add</button>
+      <button class="btn-ghost" id="qaCancelBtn" type="button">Cancel</button>
+      <span class="status" id="qaStatus"></span>
+    </div>
   </div>
 </div>
 

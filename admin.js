@@ -295,6 +295,61 @@ function setPriceStatus(msg, cls) {
 }
 
 
+// ---------- quick add ----------
+function setQaStatus(msg, cls) {
+  const s = $("qaStatus");
+  s.textContent = msg;
+  s.className = "status" + (cls ? " " + cls : "");
+}
+
+function openQuickAdd() {
+  $("qaBrand").value = brand;
+  $("qaModel").value = "";
+  $("qaThb").value = "";
+  $("qaThbStatus").value = "For Sale";
+  $("qaType").value = "Integrated";
+  setQaStatus("");
+  $("qaOverlay").hidden = false;
+  $("qaModel").focus();
+}
+
+function closeQuickAdd() { $("qaOverlay").hidden = true; }
+
+async function quickAddSave() {
+  const b = $("qaBrand").value;
+  const model = $("qaModel").value.trim();
+  if (!model) { setQaStatus("Model is required.", "err"); return; }
+  const thb = parseInt($("qaThb").value, 10);
+  const rec = { jdm_model: model, type: $("qaType").value || null };
+  if (!isNaN(thb) && thb > 0) {
+    rec.price_thb_listings = [thb];
+    rec.thb_status = $("qaThbStatus").value;
+    rec.last_price_check = new Date().toISOString().slice(0, 7);
+    rec.price_confidence = "Low";
+  }
+  $("qaSaveBtn").disabled = true;
+  setQaStatus("Adding…");
+  try {
+    const j = await api(`/api/records`, {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ brand: b, record: rec }),
+    });
+    brand = b;                       // switch the main editor to the new record
+    $("brand").value = b;
+    editingId = j.id;
+    await loadRecords();
+    fillForm(j.record);
+    setMode();
+    closeQuickAdd();
+    setStatus(`Added ${j.id} → data/${b}.json. Fill in the rest, then Save. Commit & push to publish.`, "ok");
+  } catch (e) {
+    setQaStatus("Error: " + e.message, "err");
+  } finally {
+    $("qaSaveBtn").disabled = false;
+  }
+}
+
+
 // ---------- init ----------
 async function init() {
   buildForm();
@@ -307,6 +362,18 @@ async function init() {
       bsel.appendChild(o);
     });
     bsel.value = brand;
+    const qb = $("qaBrand");
+    h.brands.forEach(b => {
+      const o = document.createElement("option");
+      o.value = b; o.textContent = b[0].toUpperCase() + b.slice(1);
+      qb.appendChild(o);
+    });
+    const qt = $("qaType");
+    TYPES.forEach(t => {
+      const o = document.createElement("option");
+      o.value = t; o.textContent = t;
+      qt.appendChild(o);
+    });
   } catch (e) {
     $("offline").style.display = "block";
     return;
@@ -322,6 +389,17 @@ async function init() {
   $("revertBtn").addEventListener("click", () => selectExisting(editingId || ""));
   $("saveBtn").addEventListener("click", save);
   $("refreshPriceBtn").addEventListener("click", refreshPrice);
+
+  $("quickAddBtn").addEventListener("click", openQuickAdd);
+  $("qaCancelBtn").addEventListener("click", closeQuickAdd);
+  $("qaSaveBtn").addEventListener("click", quickAddSave);
+  $("qaOverlay").addEventListener("click", e => { if (e.target === $("qaOverlay")) closeQuickAdd(); });
+  ["qaModel", "qaThb"].forEach(id => $(id).addEventListener("keydown", e => {
+    if (e.key === "Enter") { e.preventDefault(); quickAddSave(); }
+  }));
+  document.addEventListener("keydown", e => {
+    if (e.key === "Escape" && !$("qaOverlay").hidden) closeQuickAdd();
+  });
 
   setMode();
   await loadRecords();
