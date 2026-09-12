@@ -4130,7 +4130,9 @@
     "sonic_signature": "Early-80s Marantz receiver: a cleaner, more neutral take on the Marantz voice - smooth and listenable, tighter than the 70s 22xx warmth. (Family-level: early-80s SR series.)",
     "thb_status": "Sold",
     "thb_checked": "2026-08",
-    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "output_stage": "STK hybrid module",
+    "output_stage_source": "STK080G power amplifier modules (VTA / Oleg's Vintage Audio; STK080-family, modern replacements available)"
   },
   {
     "id": "marantz-170dc-1978",

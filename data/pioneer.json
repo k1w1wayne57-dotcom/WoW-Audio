@@ -1821,11 +1821,11 @@
     "type": "Integrated",
     "series": "SA Amplifier",
     "year_start": 1976,
-    "year_end": 1980,
+    "year_end": null,
     "japan_price_kyen": 40,
-    "watts_per_channel": 50,
-    "freq_response_hz": "20-20000",
-    "thd_percent": 0.1,
+    "watts_per_channel": 45,
+    "freq_response_hz": "10-40000",
+    "thd_percent": 0.05,
     "ps_type": null,
     "amp_circuit": "Integrated amplifier",
     "weight_kg": 8.7,
@@ -1864,7 +1864,7 @@
     "verification": "sourced",
     "avg_price_usd_3mo": 100,
     "price_basis": "eBay sold $60-110",
-    "year_source": "hifi-wiki",
+    "year_source": "audio-database.com",
     "price_thb_listings": [
       3800,
       3000
@@ -1885,7 +1885,10 @@
       ]
     },
     "thb_checked": "2026-08",
-    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "output_stage": "Discrete",
+    "output_stage_source": "Discrete OCL output, 34 transistors, no module (audio-database SA-6800II)",
+    "spec_source": "Corrected 2026-09: watts 50->45 and freq 20-20000->10-40000 per audio-database (SA-6800II is 45W/1976, 10-40kHz)."
   },
   {
     "id": "pioneer-sa-6750",
