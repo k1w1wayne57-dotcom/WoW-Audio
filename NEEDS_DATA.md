@@ -24,9 +24,8 @@ most useful fields.
 
 ## Weight only (specs otherwise complete)
 
-- **AU-D11II** (1983) — weight not found
-- **AU-D77X** (1983) — freq, THD, weight not found (have 110 W, Super GF)
-- **AU-X711** (1989) — freq, THD, weight, price not found (have 100 W)
+- **AU-D11II** (1983) — weight not found (have 130 W, freq, THD)
+- **AU-X711** (1989) — price only; export model, no yen figure (have 100 W, 20-20k, 0.008%, 17.2 kg)
 - **AU-alpha907EXTRA** (1988) — full specs not found (sources only cover the base 907 / L Extra)
 - **AU-alpha606i** (1987) — full specs not found
 - **AU-111G VINTAGE** (2001) — no specs found (only the 1999 AU-111 Vintage is documented)

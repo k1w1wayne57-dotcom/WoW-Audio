@@ -2410,7 +2410,14 @@
       "median_usd": 270
     },
     "circuit_family": "Classic solid-state (capacitor-coupled)",
-    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
+    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)",
+    "auto_specs": {
+      "source": "audio-database/hifi-engine/hifi-wiki/Reverb",
+      "date": "2026-09",
+      "fields": [
+        "weight_kg"
+      ]
+    }
   },
   {
     "id": "sansui-au-4900-1977",
@@ -3567,7 +3574,14 @@
       "median_usd": 392
     },
     "sonic_source": "AudioKarma thread 1069494 (Oct 2024), owner impressions; read 2026-09-03",
-    "circuit_family": "Diamond Differential"
+    "circuit_family": "Diamond Differential",
+    "auto_specs": {
+      "source": "audio-database/hifi-engine/hifi-wiki/Reverb",
+      "date": "2026-09",
+      "fields": [
+        "weight_kg"
+      ]
+    }
   },
   {
     "id": "sansui-au-719-1979",
@@ -4227,7 +4241,14 @@
       "median_usd": 324
     },
     "circuit_family": "Super Feedforward",
-    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
+    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)",
+    "auto_specs": {
+      "source": "audio-database/hifi-engine/hifi-wiki/Reverb",
+      "date": "2026-09",
+      "fields": [
+        "weight_kg"
+      ]
+    }
   },
   {
     "id": "sansui-au-d607f-extra-4th-gen-1981",
@@ -4748,7 +4769,14 @@
       "median_usd": 82
     },
     "circuit_family": "Super Feedforward",
-    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
+    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)",
+    "auto_specs": {
+      "source": "audio-database/hifi-engine/hifi-wiki/Reverb",
+      "date": "2026-09",
+      "fields": [
+        "weight_kg"
+      ]
+    }
   },
   {
     "id": "sansui-au-d77x-1983",
@@ -4761,11 +4789,11 @@
     "year_end": 1985,
     "japan_price_kyen": null,
     "watts_per_channel": 110,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "freq_response_hz": "20-20000",
+    "thd_percent": 0.003,
     "ps_type": "X-Balanced",
     "amp_circuit": "X-Balanced 'Super GF' integrated (Ground-Free circuit)",
-    "weight_kg": null,
+    "weight_kg": 11.7,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -4816,7 +4844,16 @@
     "sonic_signature": "X-Balanced: the amplifier is balanced end to end, so both speaker terminals are driven rather than one being grounded. The result is very low distortion and high current delivery with a neutral, authoritative presentation. Safety: both speaker terminals are live - never bridge or ground either one.",
     "thb_status": null,
     "circuit_family": "X-Balanced / alpha-X Balanced",
-    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
+    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)",
+    "auto_specs": {
+      "source": "hifiengine + hifispeaker.wiki",
+      "date": "2026-09",
+      "fields": [
+        "freq_response_hz",
+        "thd_percent",
+        "weight_kg"
+      ]
+    }
   },
   {
     "id": "sansui-au-d907g-5th-gen-1983",
@@ -4883,7 +4920,14 @@
     "sonic_signature": "Super Feedforward adds a second correction path that cancels output-stage distortion instead of leaning on global feedback alone, giving very low measured distortion and a fast, clean presentation. Caveat: the topology oscillates readily. An AU-D9 and an AU-D55F both proved awkward to stabilise in hands-on repair, so treat a misbehaving example as a real risk rather than a quick fix.",
     "thb_status": null,
     "circuit_family": "Super Feedforward",
-    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
+    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)",
+    "auto_specs": {
+      "source": "audio-database/hifi-engine/hifi-wiki/Reverb",
+      "date": "2026-09",
+      "fields": [
+        "weight_kg"
+      ]
+    }
   },
   {
     "id": "sansui-au-d607x-6th-gen-1984",
@@ -5376,7 +5420,14 @@
     "market": null,
     "sonic_signature": "Definition-series voicing: relaxed, warm and silky - gentle and delicate yet articulate, with details that jump out friskier than other amps, silky airy highs, lifelike mids and full, generous lows. Open and lush with a deep soundstage and full clarity.",
     "thb_status": null,
-    "circuit_family": "Classic solid-state (capacitor-coupled)"
+    "circuit_family": "Classic solid-state (capacitor-coupled)",
+    "auto_specs": {
+      "source": "audio-database/hifi-engine/hifi-wiki/Reverb",
+      "date": "2026-09",
+      "fields": [
+        "weight_kg"
+      ]
+    }
   },
   {
     "id": "sansui-ba-5000-1976",
@@ -9506,7 +9557,14 @@
     "sonic_signature": "Silver-face receiver. Capacitor-coupled output: a series capacitor sits between the output stage and the speaker, which high-passes the deep bass and softens the bottom end. That is where the warm, rounded voice of this generation comes from - a circuit consequence rather than a voicing choice. The result is a lush, organic midrange often described as tube-like, with smooth clarity and an unfussy top end.",
     "thb_status": null,
     "circuit_family": "Classic solid-state (capacitor-coupled)",
-    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
+    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)",
+    "auto_specs": {
+      "source": "audio-database/hifi-engine/hifi-wiki/Reverb",
+      "date": "2026-09",
+      "fields": [
+        "weight_kg"
+      ]
+    }
   },
   {
     "id": "sansui-9090db-1977",
@@ -17556,11 +17614,11 @@
     "year_end": 1992,
     "japan_price_kyen": null,
     "watts_per_channel": 100,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "freq_response_hz": "20-20000",
+    "thd_percent": 0.008,
     "ps_type": "X-Balanced",
     "amp_circuit": "X-Balanced integrated amplifier",
-    "weight_kg": null,
+    "weight_kg": 17.2,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -17611,7 +17669,16 @@
     "sonic_signature": "X-Balanced: the amplifier is balanced end to end, so both speaker terminals are driven rather than one being grounded. The result is very low distortion and high current delivery with a neutral, authoritative presentation. Safety: both speaker terminals are live - never bridge or ground either one.",
     "thb_status": null,
     "circuit_family": "X-Balanced / alpha-X Balanced",
-    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
+    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)",
+    "auto_specs": {
+      "source": "hifiengine + manualslib service manual",
+      "date": "2026-09",
+      "fields": [
+        "freq_response_hz",
+        "thd_percent",
+        "weight_kg"
+      ]
+    }
   },
   {
     "id": "sansui-b-2301-1982",
