@@ -94,6 +94,7 @@
       <button class="btn filter-btn" id="thai-price-filter">🇹🇭 Thai Price</button>
       <button class="btn filter-btn" id="intl-filter">🌍 International</button>
       <button class="btn filter-btn" id="history-view">📜 History</button>
+      <button class="btn filter-btn" id="add-model-btn" hidden>＋ Add Model</button>
       <div class="search-wrap">
         <input type="text" id="search-input" placeholder="Search model, type, notes, known issues…">
       </div>
@@ -156,6 +157,26 @@
   <div class="modal" id="modal">
     <button class="modal-close" id="modal-close">&times;</button>
     <div id="modal-content"></div>
+  </div>
+</div>
+
+<!-- Quick Add Model (only shown when the local admin backend is running) -->
+<div class="qa-overlay" id="qa-overlay" hidden>
+  <div class="qa-modal">
+    <h2>Add Model</h2>
+    <p class="qa-sub">Quick stub from a listing — pick brand, name it, drop in the ฿ price. Finish the details in the admin console.</p>
+    <div class="qa-field"><label for="qa-brand">Brand</label><select id="qa-brand"></select></div>
+    <div class="qa-field"><label for="qa-model">Model</label><input id="qa-model" placeholder="e.g. SA-9500 II" autocomplete="off"></div>
+    <div class="qa-field"><label for="qa-type">Type</label><select id="qa-type"></select></div>
+    <div class="qa-field"><label for="qa-thb">Thai price (฿)</label><input id="qa-thb" type="number" min="0" placeholder="e.g. 7500"></div>
+    <div class="qa-field"><label for="qa-thb-status">Thai status</label>
+      <select id="qa-thb-status"><option value="For Sale">For Sale</option><option value="Sold">Sold</option></select>
+    </div>
+    <div class="qa-actions">
+      <button class="btn" id="qa-save" type="button">Add</button>
+      <button class="btn" id="qa-cancel" type="button">Cancel</button>
+      <span class="qa-msg" id="qa-status"></span>
+    </div>
   </div>
 </div>
 

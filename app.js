@@ -51,6 +51,109 @@ async function init() {
   populateStats();
   bindControls();
   render();
+  setupQuickAdd();
+}
+
+// ---------- Quick Add Model (local admin backend only) ----------
+// The public GitHub Pages site is static and has no write API, so the button
+// stays hidden there. When the site is served by serve.py (localhost:8137),
+// /api/health responds and the button appears, posting to /api/records.
+const QA_TYPES = ["Receiver", "Integrated", "Power Amp", "Preamp", "Tuner",
+  "Tape Deck", "Quad", "Tube Power Amp", "Tube Preamp", "Turntable"];
+let qaBrands = [];
+
+async function setupQuickAdd() {
+  try {
+    const r = await fetch("/api/health");
+    if (!r.ok) return;
+    const h = await r.json();
+    if (!h.ok) return;
+    qaBrands = h.brands || ["sansui", "marantz", "pioneer"];
+  } catch { return; }              // no local backend -> leave Add Model hidden
+
+  const btn = document.getElementById("add-model-btn");
+  if (!btn) return;
+  btn.hidden = false;
+
+  const bsel = document.getElementById("qa-brand");
+  qaBrands.forEach(b => {
+    const o = document.createElement("option");
+    o.value = b; o.textContent = b[0].toUpperCase() + b.slice(1);
+    bsel.appendChild(o);
+  });
+  const tsel = document.getElementById("qa-type");
+  QA_TYPES.forEach(t => {
+    const o = document.createElement("option");
+    o.value = t; o.textContent = t;
+    tsel.appendChild(o);
+  });
+
+  btn.addEventListener("click", openQuickAdd);
+  document.getElementById("qa-cancel").addEventListener("click", closeQuickAdd);
+  document.getElementById("qa-save").addEventListener("click", quickAddSave);
+  document.getElementById("qa-overlay").addEventListener("click", e => {
+    if (e.target.id === "qa-overlay") closeQuickAdd();
+  });
+  document.getElementById("qa-model").addEventListener("keydown", e => {
+    if (e.key === "Enter") { e.preventDefault(); quickAddSave(); }
+  });
+  document.addEventListener("keydown", e => {
+    if (e.key === "Escape" && !document.getElementById("qa-overlay").hidden) closeQuickAdd();
+  });
+}
+
+function openQuickAdd() {
+  const cur = (currentBrand && currentBrand !== "all") ? currentBrand.toLowerCase() : qaBrands[0];
+  document.getElementById("qa-brand").value = qaBrands.includes(cur) ? cur : qaBrands[0];
+  document.getElementById("qa-model").value = "";
+  document.getElementById("qa-thb").value = "";
+  document.getElementById("qa-thb-status").value = "For Sale";
+  document.getElementById("qa-type").value = "Integrated";
+  setQaStatus("");
+  document.getElementById("qa-overlay").hidden = false;
+  document.getElementById("qa-model").focus();
+}
+
+function closeQuickAdd() { document.getElementById("qa-overlay").hidden = true; }
+
+function setQaStatus(msg, cls) {
+  const s = document.getElementById("qa-status");
+  s.textContent = msg;
+  s.className = "qa-msg" + (cls ? " " + cls : "");
+}
+
+async function quickAddSave() {
+  const brand = document.getElementById("qa-brand").value;
+  const model = document.getElementById("qa-model").value.trim();
+  if (!model) { setQaStatus("Model is required.", "err"); return; }
+  const thb = parseInt(document.getElementById("qa-thb").value, 10);
+  const rec = { jdm_model: model, type: document.getElementById("qa-type").value || null };
+  if (!isNaN(thb) && thb > 0) {
+    rec.price_thb_listings = [thb];
+    rec.thb_status = document.getElementById("qa-thb-status").value;
+    rec.last_price_check = new Date().toISOString().slice(0, 7);
+    rec.price_confidence = "Low";
+  }
+  const btn = document.getElementById("qa-save");
+  btn.disabled = true;
+  setQaStatus("Adding…");
+  try {
+    const r = await fetch("/api/records", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ brand, record: rec }),
+    });
+    const j = await r.json().catch(() => ({ ok: false, error: "bad response" }));
+    if (!r.ok || !j.ok) throw new Error(j.error || r.statusText);
+    DB.push(j.record);              // show it right away
+    populateStats();
+    render();
+    setQaStatus(`Added ${j.id}. Finish the details in the admin console, then commit & push.`, "ok");
+    setTimeout(closeQuickAdd, 1400);
+  } catch (e) {
+    setQaStatus("Error: " + e.message, "err");
+  } finally {
+    btn.disabled = false;
+  }
 }
 
 function populateBrands() {
