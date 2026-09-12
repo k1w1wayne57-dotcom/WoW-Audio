@@ -4936,5 +4936,86 @@
     "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
     "output_stage": "Discrete",
     "output_stage_source": "Marantz 22xx series is discrete-transistor (Classic Receivers / VTA; STK only appears in the later SR series)"
+  },
+  {
+    "id": "marantz-sr-1000-1980",
+    "brand": "Marantz",
+    "jdm_model": "SR-1000",
+    "int_model": null,
+    "type": "Receiver",
+    "series": null,
+    "year_start": 1980,
+    "year_end": null,
+    "japan_price_kyen": null,
+    "watts_per_channel": 20,
+    "freq_response_hz": "15-40000",
+    "thd_percent": 0.09,
+    "ps_type": null,
+    "amp_circuit": null,
+    "weight_kg": 7.3,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "price_confidence": "Low",
+    "last_price_check": "2026-09",
+    "collector_info": {
+      "known_issues": "Budget early-80s 20W SR-series receiver. Output is STK hybrid modules (STK461/463) which can fail and drop a channel - but the STK4xx family has substitutes/rebuilds, so it's repairable.",
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [
+        "STK output module (STK461/463) can fail - dead or weak channel; STK4xx-family replacements available",
+        "Dial lamps burn out",
+        "Power-supply electrolytics dry out with age"
+      ],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": 2,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": [
+        "Scratchy volume/selector",
+        "Weak channel from an aging STK module"
+      ]
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": "https://www.hifiengine.com/manual_library/marantz/sr1000.shtml",
+      "sansui_us": null,
+      "brochure": null,
+      "source": null
+    },
+    "notes": "Added 2026-09 (Wayne request). Budget early-80s SR-series receiver; STK output modules.",
+    "verified": false,
+    "verification": "sourced",
+    "avg_price_usd_3mo": 175,
+    "price_basis": "Reverb/Classic Receivers asking, budget SR-series (conservative; restored units run higher)",
+    "year_source": "hifiengine/classicreceivers",
+    "price_thb_listings": [],
+    "usd_msrp": 275,
+    "market": "International",
+    "sonic_signature": "Early-80s Marantz receiver: a cleaner, more neutral take on the Marantz voice - smooth and listenable, tighter than the 70s 22xx warmth. (Family-level: early-80s SR series.)",
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "thb_status": null,
+    "output_stage": "STK hybrid module",
+    "output_stage_source": "STK461/463 power modules (HiFi Engine SM / diyAudio SR-1000 thread); STK4xx-family replacements available",
+    "auto_specs": {
+      "source": "hifiengine/classicreceivers/Reverb",
+      "date": "2026-09",
+      "fields": [
+        "watts_per_channel",
+        "freq_response_hz",
+        "thd_percent",
+        "weight_kg",
+        "year_start",
+        "usd_msrp"
+      ]
+    }
   }
 ]
