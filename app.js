@@ -54,31 +54,57 @@ async function init() {
   setupQuickAdd();
 }
 
-// ---------- Quick Add Model (local admin backend only) ----------
-// The public GitHub Pages site is static and has no write API, so the button
-// stays hidden there. When the site is served by serve.py (localhost:8137),
-// /api/health responds and the button appears, posting to /api/records.
+// ---------- Quick Add Model ----------
+// The chip shows everywhere. When the local serve.py backend is up
+// (localhost:8137) "Add" saves straight to data/<brand>.json via /api/records.
+// On the static GitHub Pages site there is no write API, so it instead builds
+// the full JSON record and copies it to the clipboard, ready to paste into
+// data/<brand>.json and commit (or hand to Claude). It never pretends to save.
 const QA_TYPES = ["Receiver", "Integrated", "Power Amp", "Preamp", "Tuner",
   "Tape Deck", "Quad", "Tube Power Amp", "Tube Preamp", "Turntable"];
+const QA_BRAND_KEYS = ["sansui", "marantz", "pioneer"];
+const BRAND_LABEL = { sansui: "Sansui", marantz: "Marantz", pioneer: "Pioneer" };
 let qaBrands = [];
+let HAS_BACKEND = false;
+
+// Canonical record shape — mirrors CANONICAL in serve.py so a copied record is
+// complete and drops straight into the data file.
+const QA_CANONICAL = {
+  id: null, brand: null, jdm_model: null, int_model: null, type: null, series: null,
+  year_start: null, year_end: null, japan_price_kyen: null, watts_per_channel: null,
+  freq_response_hz: null, thd_percent: null, ps_type: null, amp_circuit: null,
+  weight_kg: null, special_features: null, pros: null, cons: null,
+  collector_ranking: null, price_confidence: "None", last_price_check: null,
+  collector_info: { known_issues: null, collector_notes: null },
+  restorer_info: {
+    known_failure_points: [], bias_spec_mv: null, service_manual_link: null,
+    recap_difficulty: null, recap_notes: null, estimated_recap_cost_usd: null,
+    common_faults: [],
+  },
+  best_buy: { rating: null, reason: null }, capacitors: [],
+  links: { audio_database: null, hifi_engine: null, sansui_us: null, brochure: null, source: null },
+  notes: null, verified: false, verification: "sourced",
+  avg_price_usd_3mo: null, price_basis: null, year_source: null,
+  price_thb_listings: [], usd_msrp: null, market: null, sonic_signature: null, thb_status: null,
+};
 
 async function setupQuickAdd() {
-  try {
-    const r = await fetch("/api/health");
-    if (!r.ok) return;
-    const h = await r.json();
-    if (!h.ok) return;
-    qaBrands = h.brands || ["sansui", "marantz", "pioneer"];
-  } catch { return; }              // no local backend -> leave Add Model hidden
-
   const btn = document.getElementById("add-model-btn");
   if (!btn) return;
-  btn.hidden = false;
+  try {
+    const r = await fetch("/api/health");
+    const h = r.ok ? await r.json() : null;
+    HAS_BACKEND = !!(h && h.ok);
+    if (h && h.brands && h.brands.length) qaBrands = h.brands;
+  } catch { HAS_BACKEND = false; }
+  if (!qaBrands.length) qaBrands = QA_BRAND_KEYS;
+
+  btn.hidden = false;              // chip is always visible now
 
   const bsel = document.getElementById("qa-brand");
   qaBrands.forEach(b => {
     const o = document.createElement("option");
-    o.value = b; o.textContent = b[0].toUpperCase() + b.slice(1);
+    o.value = b; o.textContent = BRAND_LABEL[b] || (b[0].toUpperCase() + b.slice(1));
     bsel.appendChild(o);
   });
   const tsel = document.getElementById("qa-type");
@@ -87,6 +113,12 @@ async function setupQuickAdd() {
     o.value = t; o.textContent = t;
     tsel.appendChild(o);
   });
+
+  const sub = document.querySelector("#qa-overlay .qa-sub");
+  if (sub) sub.textContent = HAS_BACKEND
+    ? "Saves straight to your local data file. Finish the details in the admin console, then commit & push."
+    : "The public site can't save, so this copies a ready-to-commit JSON record to your clipboard — paste it into data/<brand>.json (or send it to Claude).";
+  document.getElementById("qa-save").textContent = HAS_BACKEND ? "Add" : "Copy JSON";
 
   btn.addEventListener("click", openQuickAdd);
   document.getElementById("qa-cancel").addEventListener("click", closeQuickAdd);
@@ -122,38 +154,89 @@ function setQaStatus(msg, cls) {
   s.className = "qa-msg" + (cls ? " " + cls : "");
 }
 
+function qaSlug(s) { return String(s || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, ""); }
+function qaGenId(brand, rec) {
+  const parts = [brand, qaSlug(rec.jdm_model || "model")];
+  if (rec.year_start) parts.push(String(rec.year_start));
+  return parts.join("-");
+}
+function qaDeepMerge(base, over) {
+  for (const k of Object.keys(over)) {
+    const v = over[k];
+    if (v && typeof v === "object" && !Array.isArray(v) && base[k] && typeof base[k] === "object") {
+      qaDeepMerge(base[k], v);
+    } else { base[k] = v; }
+  }
+  return base;
+}
+function qaBuildRecord(brand, stub) {
+  const rec = qaDeepMerge(structuredClone(QA_CANONICAL), stub);
+  rec.id = qaGenId(brand, rec);
+  rec.brand = BRAND_LABEL[brand] || brand;
+  return rec;
+}
+async function qaCopy(text) {
+  try { await navigator.clipboard.writeText(text); return true; }
+  catch {
+    try {
+      const ta = document.createElement("textarea");
+      ta.value = text; ta.style.position = "fixed"; ta.style.opacity = "0";
+      document.body.appendChild(ta); ta.select();
+      const ok = document.execCommand("copy"); ta.remove(); return ok;
+    } catch { return false; }
+  }
+}
+
 async function quickAddSave() {
   const brand = document.getElementById("qa-brand").value;
   const model = document.getElementById("qa-model").value.trim();
   if (!model) { setQaStatus("Model is required.", "err"); return; }
   const thb = parseInt(document.getElementById("qa-thb").value, 10);
-  const rec = { jdm_model: model, type: document.getElementById("qa-type").value || null };
+  const stub = { jdm_model: model, type: document.getElementById("qa-type").value || null };
   if (!isNaN(thb) && thb > 0) {
-    rec.price_thb_listings = [thb];
-    rec.thb_status = document.getElementById("qa-thb-status").value;
-    rec.last_price_check = new Date().toISOString().slice(0, 7);
-    rec.price_confidence = "Low";
+    stub.price_thb_listings = [thb];
+    stub.thb_status = document.getElementById("qa-thb-status").value;
+    stub.last_price_check = new Date().toISOString().slice(0, 7);
+    stub.price_confidence = "Low";
   }
   const btn = document.getElementById("qa-save");
   btn.disabled = true;
-  setQaStatus("Adding…");
-  try {
-    const r = await fetch("/api/records", {
-      method: "POST", headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ brand, record: rec }),
-    });
-    const j = await r.json().catch(() => ({ ok: false, error: "bad response" }));
-    if (!r.ok || !j.ok) throw new Error(j.error || r.statusText);
-    DB.push(j.record);              // show it right away
-    populateStats();
-    render();
-    setQaStatus(`Added ${j.id}. Finish the details in the admin console, then commit & push.`, "ok");
-    setTimeout(closeQuickAdd, 1400);
-  } catch (e) {
-    setQaStatus("Error: " + e.message, "err");
-  } finally {
-    btn.disabled = false;
+
+  if (HAS_BACKEND) {
+    setQaStatus("Adding…");
+    try {
+      const r = await fetch("/api/records", {
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ brand, record: stub }),
+      });
+      const j = await r.json().catch(() => ({ ok: false, error: "bad response" }));
+      if (!r.ok || !j.ok) throw new Error(j.error || r.statusText);
+      DB.push(j.record);
+      populateStats();
+      render();
+      setQaStatus(`Added ${j.id}. Finish the details in the admin console, then commit & push.`, "ok");
+      setTimeout(closeQuickAdd, 1400);
+    } catch (e) {
+      setQaStatus("Error: " + e.message, "err");
+    } finally {
+      btn.disabled = false;
+    }
+    return;
   }
+
+  // Static site: build the full record and copy it — no fake persistence.
+  const rec = qaBuildRecord(brand, stub);
+  const json = JSON.stringify(rec, null, 2);
+  const copied = await qaCopy(json);
+  DB.push(rec);                    // preview it in the table this session only
+  populateStats();
+  render();
+  if (!copied) console.log(json);
+  setQaStatus(copied
+    ? `Copied JSON for ${rec.id}. Paste it into data/${brand}.json and commit — or send it to Claude. (Shown here for preview; not saved to the live site.)`
+    : `Built ${rec.id} but clipboard was blocked — the JSON is in the browser console.`,
+    copied ? "ok" : "err");
+  btn.disabled = false;
 }
 
 function populateBrands() {
