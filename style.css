@@ -268,6 +268,11 @@ tbody td {
 .thb-sold { background: #7a2230; color: #ffd8de; }
 .thb-sale { background: #1f5c3a; color: #d3f5e0; }
 
+.output-warn { margin-top: 8px; padding: 10px 12px; border-radius: 8px; font-size: 0.85rem;
+  line-height: 1.45; border-left: 3px solid; }
+.output-warn-stk { background: rgba(122, 34, 48, 0.14); border-color: #c65b6b; color: var(--text); }
+.output-warn-discrete { background: rgba(31, 92, 58, 0.14); border-color: #3f9b6a; color: var(--text); }
+
 .model-cell { min-width: 180px; white-space: nowrap; }
 .model-cell .model-brand { display: block; font-size: 0.66rem; font-weight: 700; letter-spacing: 0.06em;
   text-transform: uppercase; color: var(--gold); opacity: 0.85; }

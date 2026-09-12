@@ -346,7 +346,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "Superscope (Marantz's budget brand): a simpler, lighter version of the Marantz voice - pleasant and warmish but less refined and lower-powered than the Marantz-badged models. (Family-level: Superscope budget line.)",
     "thb_status": "For sale",
     "thb_checked": "2026-08",
     "auto_specs": {
@@ -356,7 +356,8 @@
         "watts_per_channel",
         "weight_kg"
       ]
-    }
+    },
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "marantz-model-18-1968",
@@ -967,9 +968,10 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Marantz sound in an integrated: warm, smooth and rich through the mids with a gentle top end - musical and non-fatiguing rather than analytical. (Family-level: 70s Marantz integrated.)",
     "thb_status": "Sold",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "marantz-1090-1977",
@@ -1028,9 +1030,10 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Marantz sound in an integrated: warm, smooth and rich through the mids with a gentle top end - musical and non-fatiguing rather than analytical. (Family-level: 70s Marantz integrated.)",
     "thb_status": "Sold",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "marantz-1150-1975",
@@ -1090,9 +1093,10 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Marantz sound in an integrated: warm, smooth and rich through the mids with a gentle top end - musical and non-fatiguing rather than analytical. (Family-level: 70s Marantz integrated.)",
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "marantz-1200-1972",
@@ -1383,9 +1387,10 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "80s Marantz: more neutral, tighter and faster than the warm 70s house sound, but still smooth and easy on the ears - detail without harshness. (Family-level: 80s PM series.)",
     "thb_status": "Sold",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "marantz-2210",
@@ -1560,7 +1565,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Marantz sound: warm, smooth and full-bodied with a sweet, slightly soft top end and rich midrange - forgiving and musical, made for long, easy listening. (Family-level: 70s 22xx blue-dial.)",
     "thb_status": "For sale",
     "thb_checked": "2026-08",
     "auto_specs": {
@@ -1571,7 +1576,10 @@
         "thd_percent",
         "weight_kg"
       ]
-    }
+    },
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "output_stage": "Discrete",
+    "output_stage_source": "Marantz 22xx series is discrete-transistor (Classic Receivers / VTA; STK only appears in the later SR series)"
   },
   {
     "id": "marantz-2216b-1977",
@@ -1639,7 +1647,9 @@
       "fields": [
         "freq_response_hz"
       ]
-    }
+    },
+    "output_stage": "Discrete",
+    "output_stage_source": "Marantz 22xx series is discrete-transistor (Classic Receivers / VTA; STK only appears in the later SR series)"
   },
   {
     "id": "marantz-2218-1978",
@@ -1898,7 +1908,9 @@
         "freq_response_hz",
         "weight_kg"
       ]
-    }
+    },
+    "output_stage": "Discrete",
+    "output_stage_source": "Marantz 22xx series is discrete-transistor (Classic Receivers / VTA; STK only appears in the later SR series)"
   },
   {
     "id": "marantz-2235b-1974",
@@ -2040,7 +2052,9 @@
         "thd_percent",
         "weight_kg"
       ]
-    }
+    },
+    "output_stage": "Discrete",
+    "output_stage_source": "Marantz 22xx series is discrete-transistor (Classic Receivers / VTA; STK only appears in the later SR series)"
   },
   {
     "id": "marantz-2238b-1977",
@@ -2100,9 +2114,12 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Marantz sound: warm, smooth and full-bodied with a sweet, slightly soft top end and rich midrange - forgiving and musical, made for long, easy listening. (Family-level: 70s 22xx blue-dial.)",
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "output_stage": "Discrete",
+    "output_stage_source": "Marantz 22xx series is discrete-transistor (Classic Receivers / VTA; STK only appears in the later SR series)"
   },
   {
     "id": "marantz-2245-1971",
@@ -2408,7 +2425,9 @@
       "fields": [
         "year_start"
       ]
-    }
+    },
+    "output_stage": "Discrete",
+    "output_stage_source": "Marantz 22xx series is discrete-transistor (Classic Receivers / VTA; STK only appears in the later SR series)"
   },
   {
     "id": "marantz-2270-1971",
@@ -2873,7 +2892,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "70s Marantz preamp: quiet and smooth with the warm Marantz midrange intact - a musical control centre rather than a clinical one. (Family-level: 70s solid-state preamp.)",
     "thb_status": "Sold",
     "auto_specs": {
       "source": "audio-database.com",
@@ -2882,7 +2901,8 @@
         "japan_price_kyen"
       ]
     },
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "marantz-4230-1973",
@@ -2941,7 +2961,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "Marantz's warm, smooth voice across four channels; in stereo it plays as a full-bodied, musical receiver of the Quadradial era. (Family-level: early-70s Quadradial.)",
     "thb_status": "Sold",
     "thb_checked": "2026-08",
     "auto_specs": {
@@ -2951,7 +2971,8 @@
         "freq_response_hz",
         "thd_percent"
       ]
-    }
+    },
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "marantz-4270-1974",
@@ -3010,7 +3031,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "Marantz's warm, smooth voice across four channels; in stereo it plays as a full-bodied, musical receiver of the Quadradial era. (Family-level: early-70s Quadradial.)",
     "thb_status": "Sold",
     "thb_checked": "2026-08",
     "auto_specs": {
@@ -3020,7 +3041,8 @@
         "freq_response_hz",
         "thd_percent"
       ]
-    }
+    },
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "marantz-4300-1972",
@@ -3137,9 +3159,10 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "Marantz's warm, smooth voice across four channels; in stereo it plays as a full-bodied, musical receiver of the Quadradial era. (Family-level: early-70s Quadradial.)",
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "marantz-pm-5-esotec-1980",
@@ -3199,9 +3222,10 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "80s Marantz: more neutral, tighter and faster than the warm 70s house sound, but still smooth and easy on the ears - detail without harshness. (Family-level: 80s PM series.)",
     "thb_status": "Sold",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "marantz-pm-500-1980",
@@ -3260,9 +3284,10 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "80s Marantz: more neutral, tighter and faster than the warm 70s house sound, but still smooth and easy on the ears - detail without harshness. (Family-level: 80s PM series.)",
     "thb_status": "Sold",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "marantz-pm-54-1984",
@@ -3443,9 +3468,10 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "80s Marantz: more neutral, tighter and faster than the warm 70s house sound, but still smooth and easy on the ears - detail without harshness. (Family-level: 80s PM series.)",
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "marantz-pm-94-1985",
@@ -4101,9 +4127,10 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "Early-80s Marantz receiver: a cleaner, more neutral take on the Marantz voice - smooth and listenable, tighter than the 70s 22xx warmth. (Family-level: early-80s SR series.)",
     "thb_status": "Sold",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "marantz-170dc-1978",
@@ -4355,9 +4382,10 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "80s Marantz: more neutral, tighter and faster than the warm 70s house sound, but still smooth and easy on the ears - detail without harshness. (Family-level: 80s PM series.)",
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "marantz-1010",
@@ -4413,9 +4441,10 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Marantz sound in an integrated: warm, smooth and rich through the mids with a gentle top end - musical and non-fatiguing rather than analytical. (Family-level: 70s Marantz integrated.)",
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "marantz-mr-230",
@@ -4471,7 +4500,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Marantz sound: warm, smooth and full-bodied with a sweet, slightly soft top end and rich midrange - forgiving and musical, made for long, easy listening. (Family-level: 70s 22xx blue-dial.)",
     "thb_status": "For sale",
     "thb_checked": "2026-08",
     "auto_specs": {
@@ -4484,7 +4513,8 @@
         "weight_kg",
         "year_start"
       ]
-    }
+    },
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "marantz-2226",
@@ -4541,7 +4571,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Marantz sound: warm, smooth and full-bodied with a sweet, slightly soft top end and rich midrange - forgiving and musical, made for long, easy listening. (Family-level: 70s 22xx blue-dial.)",
     "thb_status": "For sale",
     "thb_checked": "2026-08",
     "auto_specs": {
@@ -4554,7 +4584,10 @@
         "weight_kg",
         "year_start"
       ]
-    }
+    },
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "output_stage": "Discrete",
+    "output_stage_source": "Marantz 22xx series is discrete-transistor (Classic Receivers / VTA; STK only appears in the later SR series)"
   },
   {
     "id": "marantz-1120",
@@ -4610,7 +4643,7 @@
     ],
     "usd_msrp": 450,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Marantz sound in an integrated: warm, smooth and rich through the mids with a gentle top end - musical and non-fatiguing rather than analytical. (Family-level: 70s Marantz integrated.)",
     "thb_status": "For sale",
     "thb_checked": "2026-08",
     "auto_specs": {
@@ -4624,7 +4657,8 @@
         "year_start",
         "usd_msrp"
       ]
-    }
+    },
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "marantz-1125",
@@ -4680,9 +4714,10 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Marantz sound in an integrated: warm, smooth and rich through the mids with a gentle top end - musical and non-fatiguing rather than analytical. (Family-level: 70s Marantz integrated.)",
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "marantz-1150ii",
@@ -4738,7 +4773,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Marantz sound in an integrated: warm, smooth and rich through the mids with a gentle top end - musical and non-fatiguing rather than analytical. (Family-level: 70s Marantz integrated.)",
     "thb_status": "For sale",
     "thb_checked": "2026-08",
     "auto_specs": {
@@ -4752,7 +4787,8 @@
         "year_start",
         "japan_price_kyen"
       ]
-    }
+    },
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "marantz-2285",
@@ -4808,7 +4844,7 @@
     ],
     "usd_msrp": 670,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Marantz sound: warm, smooth and full-bodied with a sweet, slightly soft top end and rich midrange - forgiving and musical, made for long, easy listening. (Family-level: 70s 22xx blue-dial.)",
     "thb_status": "For sale",
     "thb_checked": "2026-08",
     "auto_specs": {
@@ -4822,7 +4858,10 @@
         "year_start",
         "usd_msrp"
       ]
-    }
+    },
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "output_stage": "Discrete",
+    "output_stage_source": "Marantz 22xx series is discrete-transistor (Classic Receivers / VTA; STK only appears in the later SR series)"
   },
   {
     "id": "marantz-2265b",
@@ -4878,7 +4917,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Marantz sound: warm, smooth and full-bodied with a sweet, slightly soft top end and rich midrange - forgiving and musical, made for long, easy listening. (Family-level: 70s 22xx blue-dial.)",
     "thb_status": "For sale",
     "thb_checked": "2026-08",
     "auto_specs": {
@@ -4891,6 +4930,9 @@
         "weight_kg",
         "year_start"
       ]
-    }
+    },
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "output_stage": "Discrete",
+    "output_stage_source": "Marantz 22xx series is discrete-transistor (Classic Receivers / VTA; STK only appears in the later SR series)"
   }
 ]

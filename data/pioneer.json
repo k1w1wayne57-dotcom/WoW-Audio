@@ -330,7 +330,7 @@
     ],
     "usd_msrp": 600,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Pioneer sound: clean, crisp and lively with tight, controlled bass and an open, slightly forward top end - punchy and dynamic rather than warm, and very listenable at volume. (Family-level: 70s silver-face SX receivers.)",
     "thb_status": "For sale",
     "thb_checked": "2026-08",
     "auto_price": {
@@ -353,7 +353,8 @@
         "weight_kg",
         "usd_msrp"
       ]
-    }
+    },
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "pioneer-sx-850-1976",
@@ -546,7 +547,7 @@
     ],
     "usd_msrp": 300,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Pioneer sound: clean, crisp and lively with tight, controlled bass and an open, slightly forward top end - punchy and dynamic rather than warm, and very listenable at volume. (Family-level: 70s silver-face SX receivers.)",
     "thb_status": "For sale",
     "thb_checked": "2026-08",
     "auto_price": {
@@ -569,7 +570,8 @@
         "weight_kg",
         "usd_msrp"
       ]
-    }
+    },
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "pioneer-sx-636-1974",
@@ -628,7 +630,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Pioneer sound: clean, crisp and lively with tight, controlled bass and an open, slightly forward top end - punchy and dynamic rather than warm, and very listenable at volume. (Family-level: 70s silver-face SX receivers.)",
     "thb_status": "Sold",
     "auto_price": {
       "source": "hifishark.com",
@@ -645,7 +647,8 @@
         "thd_percent",
         "weight_kg"
       ]
-    }
+    },
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "pioneer-sx-6000",
@@ -704,7 +707,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Pioneer sound: clean, crisp and lively with tight, controlled bass and an open, slightly forward top end - punchy and dynamic rather than warm, and very listenable at volume. (Family-level: 70s silver-face SX receivers.)",
     "thb_status": "Sold",
     "thb_checked": "2026-08",
     "auto_specs": {
@@ -717,7 +720,8 @@
         "weight_kg",
         "year_start"
       ]
-    }
+    },
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "pioneer-sx-580-1978",
@@ -776,7 +780,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Pioneer sound: clean, crisp and lively with tight, controlled bass and an open, slightly forward top end - punchy and dynamic rather than warm, and very listenable at volume. (Family-level: 70s silver-face SX receivers.)",
     "thb_status": "For sale",
     "thb_checked": "2026-08",
     "auto_specs": {
@@ -785,7 +789,10 @@
       "fields": [
         "weight_kg"
       ]
-    }
+    },
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "output_stage": "STK hybrid module",
+    "output_stage_source": "STK-0039 hybrid IC (Oleg's Vintage Audio / diyAudio; SX-580/680/780 are the STK-module tier)"
   },
   {
     "id": "pioneer-sx-550-1976",
@@ -979,7 +986,7 @@
     ],
     "usd_msrp": 300,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Pioneer sound: clean, crisp and lively with tight, controlled bass and an open, slightly forward top end - punchy and dynamic rather than warm, and very listenable at volume. (Family-level: 70s silver-face SX receivers.)",
     "thb_status": "For sale",
     "auto_price": {
       "source": "hifishark.com (Wayne's SX export, 8mo)",
@@ -1002,7 +1009,8 @@
         "usd_msrp",
         "special_features"
       ]
-    }
+    },
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "pioneer-sx-424-1972",
@@ -1061,7 +1069,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Pioneer sound: clean, crisp and lively with tight, controlled bass and an open, slightly forward top end - punchy and dynamic rather than warm, and very listenable at volume. (Family-level: 70s silver-face SX receivers.)",
     "thb_status": "Sold",
     "auto_price": {
       "source": "hifishark.com",
@@ -1079,7 +1087,8 @@
         "thd_percent",
         "weight_kg"
       ]
-    }
+    },
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "pioneer-sx-3700",
@@ -1138,7 +1147,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "Blue-line DC Pioneer: cleaner, faster and more neutral than the silver-face era - the direct-coupled design tightens the bass and lowers distortion while keeping Pioneer's lively, open top end. (Family-level: 1980-81 blue-line SX.)",
     "thb_status": "For sale",
     "thb_checked": "2026-08",
     "auto_specs": {
@@ -1150,7 +1159,10 @@
         "weight_kg",
         "year_start"
       ]
-    }
+    },
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "output_stage": "Discrete",
+    "output_stage_source": "2SC2525 discrete output transistors (WorthPoint OEM parts listing)"
   },
   {
     "id": "pioneer-sx-2000-1970",
@@ -1279,7 +1291,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "Early-60s Pioneer tube: warm, soft and romantic with a rich midrange and gently rolled-off extremes - a period tube character rather than a modern hi-fi sound. (Family-level: early-60s tube.)",
     "thb_status": "Sold",
     "auto_price": {
       "source": "hifishark.com",
@@ -1294,7 +1306,8 @@
       "fields": [
         "weight_kg"
       ]
-    }
+    },
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "pioneer-sa-9900-1975",
@@ -1497,10 +1510,10 @@
     "int_model": null,
     "type": "Integrated",
     "series": "SA Amplifier",
-    "year_start": 1979,
-    "year_end": 1981,
+    "year_start": 1976,
+    "year_end": null,
     "japan_price_kyen": 60,
-    "watts_per_channel": 80,
+    "watts_per_channel": 60,
     "freq_response_hz": "5-100000",
     "thd_percent": 0.05,
     "ps_type": null,
@@ -1513,12 +1526,12 @@
     "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
-      "known_issues": "AVOID (Wayne): the MT-100 output package is unobtainable, so a blown output stage is terminal. Dual-mono 80W/ch integrated, well built and well liked. The catch is the MT-100 output package - unobtainable, so a dead output stage is effectively terminal.",
+      "known_issues": "Dual-mono 60W/ch integrated, well built and well liked. Was previously flagged AVOID over a supposedly unobtainable 'MT-100 output package' - that was a misunderstanding. MT-100 is the socketed output-transistor format; the devices are discrete 2SC1445/2SA765 (subs 2SD587A/2SB617A), and a modern drop-in (Motronix MT-100 Rev.3) is made for exactly this socket. The output stage is repairable, not terminal.",
       "collector_notes": null
     },
     "restorer_info": {
       "known_failure_points": [
-        "OUTPUT DEVICES ARE UNOBTAINABLE - the MT-100 package is no longer made. If an output transistor has failed, the amp is very hard to put right; check both channels drive properly before buying",
+        "Aged output/driver transistors can fail - but the discrete devices 2SC1445/2SA765 (subs 2SD587A/2SB617A) and a modern Motronix MT-100 Rev.3 drop-in are available, so a blown output stage is repairable; still check both channels drive before buying",
         "General transistor trouble with age - intermittent output on either channel is the usual first symptom",
         "Power supply ripple shows up as hum at the outputs",
         "Tone controls go intermittent or dead on one channel",
@@ -1527,13 +1540,13 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 3,
-      "recap_notes": "Before committing, confirm BOTH channels drive cleanly. The MT-100 output devices cannot be replaced with an off-the-shelf part, so a blown output stage is the one fault that can write this amp off.",
+      "recap_notes": "Standard restoration. Output devices are discrete transistors with available substitutes (and a modern Motronix MT-100 Rev.3 replacement module for the socket), so a failed output stage is fixable - not the write-off the old note claimed.",
       "estimated_recap_cost_usd": null,
       "common_faults": []
     },
     "best_buy": {
       "rating": 4,
-      "reason": "80W dual-mono integrated (~$500 USD) at ฿7,500 (~$215) — a solid discount."
+      "reason": "60W dual-mono integrated (~$500 USD) at THB 7,500 (~$215) - a solid discount, and repairable."
     },
     "capacitors": [],
     "links": {
@@ -1542,30 +1555,36 @@
       "sansui_us": null,
       "source": null
     },
-    "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Dual-mono. Specs sourced from hifi-wiki (still unverified).",
+    "notes": "Dual-mono. Corrected 2026-09: earlier 80W/1979-81 (hifi-wiki) were the later US-market SA-8800; the SA-8800II is 60W/1976 discrete per audio-database. Thai price from Wayne's list.",
     "verified": false,
     "verification": "sourced",
     "avg_price_usd_3mo": 500,
     "price_basis": "hifishark median 2026",
-    "year_source": "hifi-wiki",
+    "year_source": "audio-database.com",
     "price_thb_listings": [
       7500
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Pioneer sound in an integrated: clean, crisp and dynamic with tight bass and an open, slightly bright top - detailed and energetic rather than warm. (Family-level: 70s silver-face SA integrated.)",
     "thb_status": "For sale",
     "auto_specs": {
       "source": "audio-database.com",
-      "date": "2026-08",
+      "date": "2026-09",
       "fields": [
-        "thd_percent",
+        "watts_per_channel",
+        "year_start",
         "freq_response_hz",
+        "thd_percent",
         "weight_kg",
         "japan_price_kyen"
       ]
     },
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "output_stage": "Discrete",
+    "output_stage_source": "Discrete output transistors 2SC1445/2SA765 (subs 2SD587A/2SB617A); MT-100 = the socketed mounting format, with a modern Motronix MT-100 Rev.3 drop-in. Source: Wayne + AudioKarma SA-8500II thread + Motronix; audio-database confirms no hybrid module.",
+    "spec_source": "Corrected 2026-09: watts 80->60 and year 1979-81->1976 were the later US-market SA-8800's figures (hifi-wiki). SA-8800II is 60W/1976 per audio-database."
   },
   {
     "id": "pioneer-sa-7700-1978",
@@ -1624,7 +1643,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Pioneer sound in an integrated: clean, crisp and dynamic with tight bass and an open, slightly bright top - detailed and energetic rather than warm. (Family-level: 70s silver-face SA integrated.)",
     "thb_status": "For sale",
     "auto_price": {
       "source": "hifishark.com",
@@ -1642,7 +1661,8 @@
         "thd_percent",
         "weight_kg"
       ]
-    }
+    },
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "pioneer-sa-7500",
@@ -1701,7 +1721,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Pioneer sound in an integrated: clean, crisp and dynamic with tight bass and an open, slightly bright top - detailed and energetic rather than warm. (Family-level: 70s silver-face SA integrated.)",
     "thb_status": "Sold",
     "auto_price": {
       "source": "hifishark.com",
@@ -1718,7 +1738,8 @@
         "freq_response_hz",
         "thd_percent"
       ]
-    }
+    },
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "pioneer-sa-6850",
@@ -1777,7 +1798,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Pioneer sound in an integrated: clean, crisp and dynamic with tight bass and an open, slightly bright top - detailed and energetic rather than warm. (Family-level: 70s silver-face SA integrated.)",
     "thb_status": "Sold",
     "thb_checked": "2026-08",
     "auto_specs": {
@@ -1789,7 +1810,8 @@
         "weight_kg",
         "year_start"
       ]
-    }
+    },
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "pioneer-sa-6800ii-1976",
@@ -1849,7 +1871,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Pioneer sound in an integrated: clean, crisp and dynamic with tight bass and an open, slightly bright top - detailed and energetic rather than warm. (Family-level: 70s silver-face SA integrated.)",
     "thb_status": "Sold",
     "auto_specs": {
       "source": "audio-database.com",
@@ -1862,7 +1884,8 @@
         "japan_price_kyen"
       ]
     },
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "pioneer-sa-6750",
@@ -1921,9 +1944,10 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Pioneer sound in an integrated: clean, crisp and dynamic with tight bass and an open, slightly bright top - detailed and energetic rather than warm. (Family-level: 70s silver-face SA integrated.)",
     "thb_status": "Sold",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "pioneer-sa-6700-1978",
@@ -1982,7 +2006,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Pioneer sound in an integrated: clean, crisp and dynamic with tight bass and an open, slightly bright top - detailed and energetic rather than warm. (Family-level: 70s silver-face SA integrated.)",
     "thb_status": "For sale",
     "auto_specs": {
       "source": "audio-database.com",
@@ -2001,7 +2025,8 @@
       "n": 12,
       "median_usd": 248
     },
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "pioneer-sa-6600ii-1976",
@@ -2060,7 +2085,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Pioneer sound in an integrated: clean, crisp and dynamic with tight bass and an open, slightly bright top - detailed and energetic rather than warm. (Family-level: 70s silver-face SA integrated.)",
     "thb_status": "For sale",
     "auto_specs": {
       "source": "audio-database.com",
@@ -2073,7 +2098,8 @@
         "japan_price_kyen"
       ]
     },
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "pioneer-sa-6300",
@@ -2132,7 +2158,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Pioneer sound in an integrated: clean, crisp and dynamic with tight bass and an open, slightly bright top - detailed and energetic rather than warm. (Family-level: 70s silver-face SA integrated.)",
     "thb_status": "Sold",
     "auto_specs": {
       "source": "audio-database.com",
@@ -2152,7 +2178,8 @@
       "n": 17,
       "median_usd": 194
     },
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "pioneer-sa-4400-1979",
@@ -2211,7 +2238,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Pioneer sound in an integrated: clean, crisp and dynamic with tight bass and an open, slightly bright top - detailed and energetic rather than warm. (Family-level: 70s silver-face SA integrated.)",
     "thb_status": "For sale",
     "auto_specs": {
       "source": "audio-database.com",
@@ -2230,7 +2257,8 @@
       "n": 3,
       "median_usd": 251
     },
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "pioneer-sa-70-1971",
@@ -2289,7 +2317,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Pioneer sound in an integrated: clean, crisp and dynamic with tight bass and an open, slightly bright top - detailed and energetic rather than warm. (Family-level: 70s silver-face SA integrated.)",
     "thb_status": "Sold",
     "auto_specs": {
       "source": "audio-database.com",
@@ -2305,7 +2333,8 @@
       "n": 14,
       "median_usd": 170
     },
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "pioneer-tx-70-1969",
@@ -2506,9 +2535,10 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "Pioneer quad-era receiver: the clean, lively Pioneer voice spread over four channels; run in stereo it behaves as a capable mid-power receiver of its day. (Family-level: early-70s quad.)",
     "thb_status": "Sold",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "pioneer-m-77-1980",
@@ -2567,7 +2597,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "Pioneer's house voice in a dedicated power amp: clean, powerful and well-controlled, with firm bass grip and an open, unfatiguing top end. (Family-level: late-70s/80s power amps.)",
     "thb_status": "For sale",
     "thb_checked": "2026-08",
     "auto_specs": {
@@ -2577,7 +2607,8 @@
         "freq_response_hz",
         "weight_kg"
       ]
-    }
+    },
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "pioneer-m-1500-1978",
@@ -2636,7 +2667,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "Pioneer's house voice in a dedicated power amp: clean, powerful and well-controlled, with firm bass grip and an open, unfatiguing top end. (Family-level: late-70s/80s power amps.)",
     "thb_status": "Sold",
     "thb_checked": "2026-08",
     "auto_specs": {
@@ -2647,7 +2678,8 @@
         "thd_percent",
         "weight_kg"
       ]
-    }
+    },
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "pioneer-sm-1500-1980",
@@ -2706,9 +2738,10 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "Pioneer's house voice in a dedicated power amp: clean, powerful and well-controlled, with firm bass grip and an open, unfatiguing top end. (Family-level: late-70s/80s power amps.)",
     "thb_status": "Sold",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "pioneer-c-200",
@@ -2767,9 +2800,10 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "Early-60s Pioneer tube: warm, soft and romantic with a rich midrange and gently rolled-off extremes - a period tube character rather than a modern hi-fi sound. (Family-level: early-60s tube.)",
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "pioneer-mr-1000-1975",
@@ -2828,9 +2862,10 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Pioneer sound: clean, crisp and lively with tight, controlled bass and an open, slightly forward top end - punchy and dynamic rather than warm, and very listenable at volume. (Family-level: 70s silver-face SX receivers.)",
     "thb_status": "For sale",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "pioneer-sa-7600",
@@ -2886,7 +2921,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Pioneer sound in an integrated: clean, crisp and dynamic with tight bass and an open, slightly bright top - detailed and energetic rather than warm. (Family-level: 70s silver-face SA integrated.)",
     "thb_status": "For sale",
     "thb_checked": "2026-08",
     "auto_specs": {
@@ -2898,7 +2933,8 @@
         "thd_percent",
         "year_start"
       ]
-    }
+    },
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "pioneer-sa-7600-ii",
@@ -2953,7 +2989,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Pioneer sound in an integrated: clean, crisp and dynamic with tight bass and an open, slightly bright top - detailed and energetic rather than warm. (Family-level: 70s silver-face SA integrated.)",
     "thb_status": "For sale",
     "thb_checked": "2026-08",
     "auto_specs": {
@@ -2967,7 +3003,8 @@
         "japan_price_kyen",
         "year_start"
       ]
-    }
+    },
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "pioneer-sx-515",
@@ -3023,7 +3060,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "The classic Pioneer sound: clean, crisp and lively with tight, controlled bass and an open, slightly forward top end - punchy and dynamic rather than warm, and very listenable at volume. (Family-level: 70s silver-face SX receivers.)",
     "thb_status": "For sale",
     "thb_checked": "2026-08",
     "auto_specs": {
@@ -3035,7 +3072,8 @@
         "thd_percent",
         "year_start"
       ]
-    }
+    },
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
   {
     "id": "pioneer-qx-8000a",
@@ -3091,7 +3129,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "Pioneer quad-era receiver: the clean, lively Pioneer voice spread over four channels; run in stereo it behaves as a capable mid-power receiver of its day. (Family-level: early-70s quad.)",
     "thb_status": "For sale",
     "thb_checked": "2026-08",
     "auto_specs": {
@@ -3101,6 +3139,7 @@
         "watts_per_channel",
         "year_start"
       ]
-    }
+    },
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   }
 ]

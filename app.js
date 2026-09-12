@@ -603,6 +603,14 @@ function openModal(item) {
       ${item.series ? `<p class="info-line"><span class="il-label">Generation:</span>${escapeHtml(item.series)}</p>` : ""}
     </div>` : ""}
 
+    ${item.output_stage ? `
+    <div class="modal-section">
+      <h3>🔌 Output Stage</h3>
+      <p class="info-line"><span class="il-label">Type:</span><strong>${escapeHtml(item.output_stage)}</strong></p>
+      ${/^STK/i.test(item.output_stage) ? `<p class="output-warn output-warn-stk">⚠️ Uses an STK hybrid output module. Genuine Sanyo STK packs are obsolete and most eBay stock is counterfeit — but this is <strong>not</strong> a dead end: discrete drop-in replacement boards and modern module rebuilds are available. Repairable, with care sourcing authentic or replacement parts.</p>` : `<p class="output-warn output-warn-discrete">✅ Discrete transistor output — repairable with standard or substitute transistors, no obsolete module to source.</p>`}
+      ${item.output_stage_source ? `<p class="info-line"><span class="il-label">Source:</span><em>${escapeHtml(item.output_stage_source)}</em></p>` : ""}
+    </div>` : ""}
+
     <div class="modal-section">
       <h3>🏆 Collector Information</h3>
       <p class="info-line"><span class="il-label">Collector Ranking:</span><strong>${item.collector_ranking || "Unranked"}</strong></p>
