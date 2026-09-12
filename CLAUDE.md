@@ -35,7 +35,7 @@ Extends `../CLAUDE.md`. Vintage audio reference DB: Sansui, Marantz, Pioneer.
 ## Wayne's gear and preferences
 
 - **Owns:** B-2102 (1986 X-Balanced), AU-607, G-5700. Edit those with extra care; they carry hands-on notes.
-- **Avoids any amp with a proprietary/obsolete output package** (e.g. Pioneer MT-100 — unobtainable, so a blown output stage is terminal). Flag it when recommending.
+- **Prefers discrete output stages; wary of proprietary hybrid output modules.** The test is whether a modern replacement exists — flag the output-stage type when recommending, but reserve "terminal/AVOID" for devices with genuinely no equivalent. (The Pioneer MT-100 is *not* such a case: it's a socketed transistor-mount format with discrete devices 2SC1445/2SA765, subs 2SD587A/2SB617A, and a modern Motronix MT-100 Rev.3 drop-in — repairable. STK hybrid packs: obsolete/counterfeit-prone but discrete replacement boards and rebuilds exist.)
 - **Avoids Super Feedforward** — oscillates readily. He fought an AU-D9 and AU-D55F over it.
 - **Bargain hunter.** A large Thai-vs-world multiple matters more than prestige.
 - B-2102 safety: X-Balanced, so **both speaker terminals are live**. Never bridge or ground either.
