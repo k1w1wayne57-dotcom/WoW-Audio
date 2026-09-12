@@ -61,6 +61,15 @@ def audit(brand):
         y = r.get("year_start")
         seen[B.norm_model(m)].append(r.get("id"))
 
+        # --- non-component junk ---
+        # Every real separate (including tube and quad gear) carries a type. A
+        # blank type is a modular music-centre / all-in-one system scraped off a
+        # for-sale list, which does not belong in a components DB. Flagged HIGH so
+        # it gates the commit; scripts/drop_noncomponents.py removes them.
+        if t in EMPTY:
+            out.append(("HIGH", m, "non-component",
+                        "no component type — modular system / junk import; not a golden-era separate"))
+
         # --- type vs model prefix ---
         pref = prefix_of(m)
         if pref in PREFIX_TYPES and t and t not in PREFIX_TYPES[pref]:
