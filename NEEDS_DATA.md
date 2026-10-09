@@ -10,7 +10,6 @@ _Last reconciled: 2026-10._
 
 ## Priority — owned or on the Thai market (core specs missing)
 
-- **B-7000** (owned; quad 4-ch power amp) — watts/ch, freq, THD, weight, year. Faceplate only: 4-channel, 340 W rated consumption, AC120/220/240 V, Made in Japan, S/N 4905001711. The rear-panel spec block or a service manual would unlock it.
 - **A-5001** (Sansui A-series integrated, DC servo) — year, watts, freq, THD, weight. One listing claimed 95 W but gave no basis.
 - **TU-70** (Sansui tube tuner, 1964) — THD. (have freq 30-15k, 8.6 kg)
 - **TU-777** (Sansui tuner, 1968) — freq response, THD. (have 7.7 kg)
@@ -42,4 +41,8 @@ _Last reconciled: 2026-10._
 - **AU-Alpha-606i** (1987) — full specs not found
 - **AU-111G VINTAGE** (2001) — full specs; only the 1999 AU-111 Vintage is documented
 
-_Note: the output rating on B-7000, and the watts on the Pioneer tube/mystery integrateds, are the single most valuable missing numbers — a faceplate/rear-panel photo settles each._
+## Closed — spec genuinely unobtainable (accepted blank)
+
+- **B-7000** (owned; rare quad 4-ch power amp) — output watts/ch, weight and price are not published anywhere and are accepted as unknown. Faceplate is fully recorded (4-channel, 340 W rated power consumption, AC120/220/240 V, Made in Japan, S/N 4905001711); came as a matching set with tuner, cassette deck and preamp. Only a service manual or a rear-panel output spec would ever fill the rest.
+
+_Note: the watts on the Pioneer tube/mystery integrateds (SX-34/34B, SA-6750/7250, C-200, SM-1500) are the most valuable remaining numbers — a faceplate/rear-panel photo settles each._

@@ -20168,7 +20168,7 @@
     "ps_type": null,
     "amp_circuit": "4-channel solid-state power amplifier (dedicated, no preamp)",
     "weight_kg": null,
-    "special_features": "Dedicated 4-channel (quadraphonic) power amplifier — the power-only counterpart to Sansui's QS-matrix quad line. Multi-voltage export chassis (AC120/220/240 V). Faceplate rates 340 W total power consumption.",
+    "special_features": "Dedicated 4-channel (quadraphonic) power amplifier - the power-only counterpart to Sansui's QS-matrix quad line, part of a matching system (tuner, cassette deck, preamp). Multi-voltage export chassis (AC120/220/240 V). Faceplate rates 340 W power consumption (~350 W max input) - a substantial amp even split across four channels; actual output/ch is not published.",
     "pros": null,
     "cons": null,
     "collector_ranking": "Unranked",
@@ -20178,7 +20178,7 @@
     "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
-      "collector_notes": "Owned by Wayne (faceplate-confirmed: B-7000 4-Channel Stereo Power Amplifier, Made in Japan, S/N 4905001711). Rare — little published spec data; output rating unverified."
+      "collector_notes": "Owned by Wayne (faceplate-confirmed: B-7000 4-Channel Stereo Power Amplifier, Made in Japan, S/N 4905001711). Rare; came as a matching set with a tuner, cassette deck and preamp."
     },
     "restorer_info": {
       "known_failure_points": [
@@ -20207,7 +20207,7 @@
       "hifi_engine": null,
       "sansui_us": null
     },
-    "notes": "Output power/channel, weight, and price need verification — no reliable published source found. See NEEDS_DATA.md.",
+    "notes": "Rare. Output watts/ch, weight and price are not published anywhere and are accepted as unknown (closed 2026-10) - 340 W on the plate is rated power consumption, not output. A service manual or rear-panel output spec would be the only way to fill them.",
     "verified": false,
     "avg_price_usd_3mo": null,
     "price_basis": null,
