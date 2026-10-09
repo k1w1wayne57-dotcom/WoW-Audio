@@ -2885,12 +2885,12 @@
     "thd_percent": 0.04,
     "ps_type": null,
     "amp_circuit": null,
-    "weight_kg": null,
+    "weight_kg": 9.8,
     "special_features": null,
     "pros": null,
     "cons": null,
     "collector_ranking": "Unranked",
-    "price_confidence": null,
+    "price_confidence": "Medium",
     "last_price_check": null,
     "collector_info": {
       "known_issues": null,
@@ -2916,8 +2916,8 @@
     },
     "notes": "Added from Wayne's Thai price list. No Audio Database page — specs not yet sourced.",
     "verified": false,
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 300,
+    "price_basis": "eBay/dealer asking ~$300-370",
     "year_source": null,
     "price_thb_listings": [
       5900
@@ -2928,13 +2928,10 @@
     "thb_status": "For sale",
     "thb_checked": "2026-08",
     "auto_specs": {
-      "source": "Reverb + audio-database",
-      "date": "2026-09",
+      "source": "Japanese dealer listing",
+      "date": "2026-10",
       "fields": [
-        "watts_per_channel",
-        "freq_response_hz",
-        "thd_percent",
-        "year_start"
+        "weight_kg"
       ]
     },
     "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
@@ -2959,7 +2956,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Unranked",
-    "price_confidence": null,
+    "price_confidence": "Medium",
     "last_price_check": null,
     "collector_info": {
       "known_issues": null,
@@ -2984,8 +2981,8 @@
     },
     "notes": "Added from Wayne's Thai price list.",
     "verified": false,
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 325,
+    "price_basis": "eBay used ~$313 good condition",
     "year_source": null,
     "price_thb_listings": [
       4700
@@ -3024,12 +3021,12 @@
     "thd_percent": 1.0,
     "ps_type": null,
     "amp_circuit": null,
-    "weight_kg": null,
+    "weight_kg": 8.0,
     "special_features": null,
     "pros": null,
     "cons": null,
     "collector_ranking": "Unranked",
-    "price_confidence": null,
+    "price_confidence": "Medium",
     "last_price_check": null,
     "collector_info": {
       "known_issues": null,
@@ -3055,8 +3052,8 @@
     },
     "notes": "Added from Wayne's Thai price list. No Audio Database page — specs not yet sourced.",
     "verified": false,
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 180,
+    "price_basis": "eBay used ~$180-245",
     "year_source": null,
     "price_thb_listings": [
       4800
@@ -3067,13 +3064,10 @@
     "thb_status": "For sale",
     "thb_checked": "2026-08",
     "auto_specs": {
-      "source": "audio-database + hifiengine",
-      "date": "2026-09",
+      "source": "audio-database",
+      "date": "2026-10",
       "fields": [
-        "watts_per_channel",
-        "freq_response_hz",
-        "thd_percent",
-        "year_start"
+        "weight_kg"
       ]
     },
     "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
@@ -3089,11 +3083,11 @@
     "year_end": null,
     "japan_price_kyen": null,
     "watts_per_channel": 27,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "freq_response_hz": "5-100000",
+    "thd_percent": 1.0,
     "ps_type": null,
     "amp_circuit": null,
-    "weight_kg": null,
+    "weight_kg": 15.6,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -3136,11 +3130,12 @@
     "thb_status": "For sale",
     "thb_checked": "2026-08",
     "auto_specs": {
-      "source": "Reverb + hifi-wiki (quad receiver)",
-      "date": "2026-09",
+      "source": "hifi-wiki + radiomuseum",
+      "date": "2026-10",
       "fields": [
-        "watts_per_channel",
-        "year_start"
+        "freq_response_hz",
+        "thd_percent",
+        "weight_kg"
       ]
     },
     "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"

@@ -3090,11 +3090,11 @@
     "year_end": 1979,
     "japan_price_kyen": null,
     "watts_per_channel": 25,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "freq_response_hz": "10-40000",
+    "thd_percent": 0.17,
     "ps_type": null,
     "amp_circuit": null,
-    "weight_kg": null,
+    "weight_kg": 6.7,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -3147,7 +3147,16 @@
     "market": "International",
     "thb_status": "For sale",
     "circuit_family": "DC integrated",
-    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
+    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)",
+    "auto_specs": {
+      "source": "classic-audio + radiomuseum",
+      "date": "2026-10",
+      "fields": [
+        "freq_response_hz",
+        "thd_percent",
+        "weight_kg"
+      ]
+    }
   },
   {
     "id": "sansui-au-919-1978",
@@ -10918,12 +10927,12 @@
     "year_start": 1979,
     "year_end": 1979,
     "japan_price_kyen": 465,
-    "watts_per_channel": null,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "watts_per_channel": 50,
+    "freq_response_hz": "10-50000",
+    "thd_percent": 0.05,
     "ps_type": null,
     "amp_circuit": null,
-    "weight_kg": null,
+    "weight_kg": 10.9,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -10980,6 +10989,16 @@
       "date": "2026-08",
       "n": 13,
       "median_usd": 980
+    },
+    "auto_specs": {
+      "source": "HiFi Engine + radiomuseum",
+      "date": "2026-10",
+      "fields": [
+        "watts_per_channel",
+        "freq_response_hz",
+        "thd_percent",
+        "weight_kg"
+      ]
     }
   },
   {
@@ -12007,13 +12026,13 @@
     "year_start": 1974,
     "year_end": 1976,
     "japan_price_kyen": 880,
-    "watts_per_channel": null,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "watts_per_channel": 35,
+    "freq_response_hz": "15-30000",
+    "thd_percent": 0.4,
     "ps_type": null,
     "amp_circuit": null,
-    "weight_kg": null,
-    "special_features": null,
+    "weight_kg": 23.8,
+    "special_features": "4-channel (QS/SQ matrix + CD-4) receiver; 35W/ch quad into 8Ω (43W @1kHz).",
     "pros": null,
     "cons": null,
     "collector_ranking": "Unranked",
@@ -12071,7 +12090,17 @@
       "previous_usd": 390
     },
     "circuit_family": "Classic solid-state (capacitor-coupled)",
-    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
+    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)",
+    "auto_specs": {
+      "source": "classic-audio + dealer listings",
+      "date": "2026-10",
+      "fields": [
+        "watts_per_channel",
+        "freq_response_hz",
+        "thd_percent",
+        "weight_kg"
+      ]
+    }
   },
   {
     "id": "sansui-qrx-5001-1976",
@@ -12149,13 +12178,13 @@
     "year_start": 1976,
     "year_end": 1977,
     "japan_price_kyen": 990,
-    "watts_per_channel": null,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "watts_per_channel": 40,
+    "freq_response_hz": "20-20000",
+    "thd_percent": 0.3,
     "ps_type": null,
     "amp_circuit": null,
-    "weight_kg": null,
-    "special_features": null,
+    "weight_kg": 23.6,
+    "special_features": "Flagship 4-channel receiver (1976-77); 40W/ch quad into 8Ω, 100W/ch in stereo.",
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 10",
@@ -12213,7 +12242,17 @@
       "previous_usd": 450
     },
     "circuit_family": "Classic solid-state (capacitor-coupled)",
-    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
+    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)",
+    "auto_specs": {
+      "source": "HiFi Engine spec sheet",
+      "date": "2026-10",
+      "fields": [
+        "watts_per_channel",
+        "freq_response_hz",
+        "thd_percent",
+        "weight_kg"
+      ]
+    }
   },
   {
     "id": "sansui-qrx-9001-1979",
@@ -14216,7 +14255,7 @@
     "thd_percent": 1.5,
     "ps_type": null,
     "amp_circuit": "Tube AM/FM-multiplex receiver (15 tubes + 12 tr)",
-    "weight_kg": null,
+    "weight_kg": 13.5,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -14270,7 +14309,14 @@
     "thb_status": "For sale",
     "thb_checked": "2026-08",
     "circuit_family": "Tube",
-    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
+    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)",
+    "auto_specs": {
+      "source": "hifi-wiki + classic-audio",
+      "date": "2026-10",
+      "fields": [
+        "weight_kg"
+      ]
+    }
   },
   {
     "id": "sansui-1000a-1967",
@@ -20253,7 +20299,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Unranked",
-    "price_confidence": "None",
+    "price_confidence": "Medium",
     "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
@@ -20283,8 +20329,8 @@
     "notes": "Added 2026-10 from Wayne's Thai list.",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 150,
+    "price_basis": "working/serviced $120-250",
     "year_source": "audio-database (Mar 1968)",
     "price_thb_listings": [
       4990

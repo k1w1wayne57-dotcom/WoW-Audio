@@ -4541,7 +4541,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Unranked",
-    "price_confidence": null,
+    "price_confidence": "Medium",
     "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
@@ -4567,8 +4567,8 @@
     },
     "notes": "Added from Wayne's Thai price list. No Audio Database page — specs not yet sourced.",
     "verified": false,
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 500,
+    "price_basis": "eBay/VTA sold ~$300-600, typ ~$500",
     "year_source": null,
     "price_thb_listings": [
       12900,
@@ -4888,7 +4888,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Unranked",
-    "price_confidence": null,
+    "price_confidence": "Medium",
     "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
@@ -4914,8 +4914,8 @@
     },
     "notes": "Added from Wayne's Thai price list. No Audio Database page — specs not yet sourced.",
     "verified": false,
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 1400,
+    "price_basis": "Reverb/eBay sold $1,200-1,800 (MSRP $580)",
     "year_source": null,
     "price_thb_listings": [
       23500,
@@ -5042,7 +5042,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Unranked",
-    "price_confidence": "None",
+    "price_confidence": "Medium",
     "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
@@ -5072,8 +5072,8 @@
     "notes": "Added 2026-10 from Wayne's Thai list.",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 400,
+    "price_basis": "Reverb sold $480; asking $300-470",
     "year_source": "classic-audio/fmtunerinfo",
     "price_thb_listings": [
       3900
@@ -5115,7 +5115,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Unranked",
-    "price_confidence": "None",
+    "price_confidence": "Medium",
     "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
@@ -5145,8 +5145,8 @@
     "notes": "Added 2026-10 from Wayne's Thai list. TOTL mid-70s preamp; published specs conflict across sources (freq 5-60k vs 10-100k, THD 0.25% vs 0.03%) so freq/THD left null.",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 650,
+    "price_basis": "US Audio Mart sold-marked $570-750",
     "year_source": "classic-audio/hifi-wiki",
     "price_thb_listings": [
       22000
