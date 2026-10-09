@@ -3100,10 +3100,10 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "None",
-    "last_price_check": null,
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
-      "collector_notes": null
+      "collector_notes": "Listed for sale in Thailand under its export name AU-107II (฿3,800, 2026-10)."
     },
     "restorer_info": {
       "known_failure_points": [
@@ -3139,11 +3139,13 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "serial-report (decoded; first volume production year)",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      3800
+    ],
     "sonic_signature": "Direct-coupled output with no capacitor in the signal path, so the low end goes deeper and stays better controlled than the capacitor-coupled generation before it, while keeping the warm Sansui midrange. The trade-off is that DC offset must be held in check, which is what the servo and protection circuits are there for.",
     "usd_msrp": 190,
     "market": "International",
-    "thb_status": null,
+    "thb_status": "For sale",
     "circuit_family": "DC integrated",
     "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
   },
@@ -11548,7 +11550,8 @@
     "year_source": "serial-report (decoded; first volume production year)",
     "price_thb_listings": [
       15000,
-      11600
+      11600,
+      6500
     ],
     "usd_msrp": null,
     "market": null,
@@ -20157,5 +20160,211 @@
     "thb_status": null,
     "circuit_family": "Classic solid-state (capacitor-coupled)",
     "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
+  },
+  {
+    "id": "sansui-tu-70-1964",
+    "brand": "Sansui",
+    "jdm_model": "TU-70",
+    "int_model": null,
+    "type": "Tuner",
+    "series": "Tube Era",
+    "year_start": 1964,
+    "year_end": null,
+    "japan_price_kyen": 32,
+    "watts_per_channel": null,
+    "freq_response_hz": "30-15000",
+    "thd_percent": null,
+    "ps_type": null,
+    "amp_circuit": null,
+    "weight_kg": 8.6,
+    "special_features": "Tube FM/MW tuner (two-Nuvistor RF front end, magic-eye); the matching partner to the AU-70. Multi-voltage 100/117/220/240V.",
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "price_confidence": "None",
+    "last_price_check": "2026-10",
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": "https://audio-database.com/SANSUI/tuner/tu-70-e.html",
+      "hifi_engine": "https://www.hifiengine.com/manual_library/sansui/tu-70.shtml",
+      "sansui_us": null,
+      "brochure": null,
+      "source": null
+    },
+    "notes": "Added 2026-10 from Wayne's Thai list. Early (1964) tube tuner.",
+    "verified": false,
+    "verification": "sourced",
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": "audio-database/radiomuseum",
+    "price_thb_listings": [
+      7500
+    ],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": null,
+    "sonic_source": null,
+    "thb_status": "For sale",
+    "auto_specs": {
+      "source": "audio-database/HiFi Engine",
+      "date": "2026-10",
+      "fields": [
+        "year_start",
+        "japan_price_kyen",
+        "freq_response_hz",
+        "weight_kg"
+      ]
+    }
+  },
+  {
+    "id": "sansui-tu-777-1968",
+    "brand": "Sansui",
+    "jdm_model": "TU-777",
+    "int_model": null,
+    "type": "Tuner",
+    "series": "Early Solid State",
+    "year_start": 1968,
+    "year_end": 1973,
+    "japan_price_kyen": 37.8,
+    "watts_per_channel": null,
+    "freq_response_hz": null,
+    "thd_percent": null,
+    "ps_type": null,
+    "amp_circuit": null,
+    "weight_kg": 7.7,
+    "special_features": "Solid-state AM/FM tuner (28 transistors + 1 FET); companion to the AU-777. Wood cabinet.",
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "price_confidence": "None",
+    "last_price_check": "2026-10",
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": "https://audio-database.com/SANSUI/tuner/tu-777-e.html",
+      "hifi_engine": "https://www.hifiengine.info/sansui/sansui-tu-777manualr.pdf",
+      "sansui_us": null,
+      "brochure": null,
+      "source": null
+    },
+    "notes": "Added 2026-10 from Wayne's Thai list.",
+    "verified": false,
+    "verification": "sourced",
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": "audio-database (Mar 1968)",
+    "price_thb_listings": [
+      4990
+    ],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": null,
+    "sonic_source": null,
+    "thb_status": "For sale",
+    "auto_specs": {
+      "source": "audio-database/hifi-wiki",
+      "date": "2026-10",
+      "fields": [
+        "year_start",
+        "year_end",
+        "japan_price_kyen",
+        "weight_kg"
+      ]
+    }
+  },
+  {
+    "id": "sansui-a-5001",
+    "brand": "Sansui",
+    "jdm_model": "A-5001",
+    "int_model": null,
+    "type": "Integrated",
+    "series": null,
+    "year_start": null,
+    "year_end": null,
+    "japan_price_kyen": null,
+    "watts_per_channel": null,
+    "freq_response_hz": null,
+    "thd_percent": null,
+    "ps_type": null,
+    "amp_circuit": "Integrated DC servo",
+    "weight_kg": null,
+    "special_features": "A-series DC-servo integrated. MM phono, two tape loops; ~430x130x210 mm.",
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "price_confidence": "None",
+    "last_price_check": "2026-10",
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": "Wayne rates it poorly ('yuk')."
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null,
+      "sansui_us": null,
+      "brochure": null,
+      "source": null
+    },
+    "notes": "Added 2026-10 from Wayne's Thai list. A-series DC-servo integrated; specs thin - watts left null (one listing claims 95W, basis unclear).",
+    "verified": false,
+    "verification": "unconfirmed",
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": "research (unverified)",
+    "price_thb_listings": [
+      4200
+    ],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": null,
+    "sonic_source": null,
+    "thb_status": "For sale"
   }
 ]
