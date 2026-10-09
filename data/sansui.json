@@ -6073,11 +6073,11 @@
     "year_end": 1972,
     "japan_price_kyen": 200,
     "watts_per_channel": null,
-    "freq_response_hz": null,
+    "freq_response_hz": "20-20000",
     "thd_percent": null,
     "ps_type": null,
     "amp_circuit": null,
-    "weight_kg": null,
+    "weight_kg": 5.5,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -6126,7 +6126,15 @@
     "usd_msrp": null,
     "market": null,
     "thb_status": "Sold",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_specs": {
+      "source": "audio-database (QS-1, front channel)",
+      "date": "2026-10",
+      "fields": [
+        "freq_response_hz",
+        "weight_kg"
+      ]
+    }
   },
   {
     "id": "sansui-qs-100-1973",
