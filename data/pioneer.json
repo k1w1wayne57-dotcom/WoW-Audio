@@ -1265,7 +1265,7 @@
     "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
-      "collector_notes": "Very early (1962) Pioneer tube receiver — rare."
+      "collector_notes": "Very early (1962) Pioneer tube receiver — rare. | Has the magic-eye (electron-ray) tuning-indicator tube (confirmed by Wayne); the SX-34B omits it."
     },
     "restorer_info": {
       "known_failure_points": [],
@@ -3607,7 +3607,7 @@
     "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
-      "collector_notes": "Mid-60s Pioneer tube receiver - rare. Reportedly lacks the magic-eye (electron-ray) tuning-indicator tube that the SX-34 carries - a quick way to tell the B apart (per Wayne)."
+      "collector_notes": "Mid-60s Pioneer tube receiver - rare. Lacks the magic-eye (electron-ray) tuning-indicator tube - confirmed by Wayne (he saw the eye on the SX-34, not the B); the quickest way to tell the two apart."
     },
     "restorer_info": {
       "known_failure_points": [],
