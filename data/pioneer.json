@@ -288,7 +288,7 @@
     "cons": null,
     "collector_ranking": "Top 10",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": "The sweet spot of the silver-face SX line - big enough to be desirable, common enough to be findable. Well regarded and holds value.",
       "collector_notes": null
@@ -331,7 +331,7 @@
     "usd_msrp": 600,
     "market": null,
     "sonic_signature": "The classic Pioneer sound: clean, crisp and lively with tight, controlled bass and an open, slightly forward top end - punchy and dynamic rather than warm, and very listenable at volume. (Family-level: 70s silver-face SX receivers.)",
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "thb_checked": "2026-08",
     "auto_price": {
       "source": "hifishark.com (Wayne's SX export, 8mo)",
@@ -511,7 +511,7 @@
     "cons": null,
     "collector_ranking": "Top 10-20",
     "price_confidence": "Low",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": "The budget classic of the silver-face era - modest power but the same styling and build feel as its bigger brothers, which is most of why people want one.",
       "collector_notes": null
@@ -548,7 +548,7 @@
     "usd_msrp": 300,
     "market": null,
     "sonic_signature": "The classic Pioneer sound: clean, crisp and lively with tight, controlled bass and an open, slightly forward top end - punchy and dynamic rather than warm, and very listenable at volume. (Family-level: 70s silver-face SX receivers.)",
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "thb_checked": "2026-08",
     "auto_price": {
       "source": "hifishark.com (Wayne's SX export, 8mo)",
@@ -671,7 +671,7 @@
     "cons": null,
     "collector_ranking": "Top 20-30",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -708,7 +708,7 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "The classic Pioneer sound: clean, crisp and lively with tight, controlled bass and an open, slightly forward top end - punchy and dynamic rather than warm, and very listenable at volume. (Family-level: 70s silver-face SX receivers.)",
-    "thb_status": "Sold",
+    "thb_status": "For sale",
     "thb_checked": "2026-08",
     "auto_specs": {
       "source": "hifi-wiki + Reverb",
@@ -744,7 +744,7 @@
     "cons": null,
     "collector_ranking": "Top 30-40",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -946,7 +946,7 @@
     "cons": null,
     "collector_ranking": "Top 30-40",
     "price_confidence": "Low",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": "Entry-level of the early SX line at 12W/ch - not a monster receiver, and it will not drive low-impedance loads well (rated 4-16 ohm but reported poor below 8 ohm). The phono stage and tuner are both well regarded for the price bracket.",
       "collector_notes": "Seen on Facebook Marketplace (Thailand) at THB 1,600, Aug 2026."
@@ -987,7 +987,7 @@
     "usd_msrp": 300,
     "market": null,
     "sonic_signature": "The classic Pioneer sound: clean, crisp and lively with tight, controlled bass and an open, slightly forward top end - punchy and dynamic rather than warm, and very listenable at volume. (Family-level: 70s silver-face SX receivers.)",
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "auto_price": {
       "source": "hifishark.com (Wayne's SX export, 8mo)",
       "date": "2026-08",
@@ -1111,7 +1111,7 @@
     "cons": null,
     "collector_ranking": "Top 30-40",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -1143,7 +1143,7 @@
     "price_basis": "Reverb/eBay used, good-condition ~$100",
     "year_source": "vintageaudioexchange",
     "price_thb_listings": [
-      3200
+      4999
     ],
     "usd_msrp": null,
     "market": null,
@@ -1185,7 +1185,7 @@
     "cons": null,
     "collector_ranking": "Top 10",
     "price_confidence": "Low",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": "All-tube receiver (~1970), 40W — a rare, highly regarded Japanese tube grail."
@@ -1222,7 +1222,7 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Rich, classic tube sound.",
-    "thb_status": "Sold",
+    "thb_status": "For sale",
     "thb_checked": "2026-08",
     "auto_price": {
       "source": "hifishark.com (Wayne's SX export, 8mo)",
@@ -1262,7 +1262,7 @@
     "cons": null,
     "collector_ranking": "Top 10",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": "Very early (1962) Pioneer tube receiver — rare."
@@ -1294,12 +1294,13 @@
     "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "wayne-list",
     "price_thb_listings": [
-      9200
+      4500,
+      7900
     ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Early-60s Pioneer tube: warm, soft and romantic with a rich midrange and gently rolled-off extremes - a period tube character rather than a modern hi-fi sound. (Family-level: early-60s tube.)",
-    "thb_status": "Sold",
+    "thb_status": "For sale",
     "auto_price": {
       "source": "hifishark.com",
       "date": "2026-08",
@@ -1531,7 +1532,7 @@
     "cons": null,
     "collector_ranking": "Top 10-20",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": "Dual-mono 60W/ch integrated, well built and well liked. Was previously flagged AVOID over a supposedly unobtainable 'MT-100 output package' - that was a misunderstanding. MT-100 is the socketed output-transistor format; the devices are discrete 2SC1445/2SA765 (subs 2SD587A/2SB617A), and a modern drop-in (Motronix MT-100 Rev.3) is made for exactly this socket. The output stage is repairable, not terminal.",
       "collector_notes": null
@@ -1574,7 +1575,7 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "The classic Pioneer sound in an integrated: clean, crisp and dynamic with tight bass and an open, slightly bright top - detailed and energetic rather than warm. (Family-level: 70s silver-face SA integrated.)",
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "auto_specs": {
       "source": "audio-database.com",
       "date": "2026-09",
@@ -1614,7 +1615,7 @@
     "cons": null,
     "collector_ranking": "Top 20-30",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -1651,7 +1652,7 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "The classic Pioneer sound in an integrated: clean, crisp and dynamic with tight bass and an open, slightly bright top - detailed and energetic rather than warm. (Family-level: 70s silver-face SA integrated.)",
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "auto_price": {
       "source": "hifishark.com",
       "date": "2026-08",
@@ -1767,7 +1768,7 @@
     "cons": null,
     "collector_ranking": "Top 10-20",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -1799,12 +1800,12 @@
     "price_basis": "hifishark median 2026",
     "year_source": "reverb",
     "price_thb_listings": [
-      4900
+      2900
     ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "The classic Pioneer sound in an integrated: clean, crisp and dynamic with tight bass and an open, slightly bright top - detailed and energetic rather than warm. (Family-level: 70s silver-face SA integrated.)",
-    "thb_status": "Sold",
+    "thb_status": "For sale",
     "thb_checked": "2026-08",
     "auto_specs": {
       "source": "hifiengine + audio-database",
@@ -1839,7 +1840,7 @@
     "cons": null,
     "collector_ranking": "Top 20-30",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -1871,13 +1872,13 @@
     "price_basis": "eBay sold $60-110",
     "year_source": "audio-database.com",
     "price_thb_listings": [
-      3800,
+      3400,
       3000
     ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "The classic Pioneer sound in an integrated: clean, crisp and dynamic with tight bass and an open, slightly bright top - detailed and energetic rather than warm. (Family-level: 70s silver-face SA integrated.)",
-    "thb_status": "Sold",
+    "thb_status": "For sale",
     "auto_specs": {
       "source": "audio-database.com",
       "date": "2026-08",
@@ -1916,7 +1917,7 @@
     "cons": null,
     "collector_ranking": "Top 20-30",
     "price_confidence": "Low",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -1948,12 +1949,12 @@
     "price_basis": null,
     "year_source": "wayne-list (Thai market, unverified)",
     "price_thb_listings": [
-      3600
+      3300
     ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "The classic Pioneer sound in an integrated: clean, crisp and dynamic with tight bass and an open, slightly bright top - detailed and energetic rather than warm. (Family-level: 70s silver-face SA integrated.)",
-    "thb_status": "Sold",
+    "thb_status": "For sale",
     "thb_checked": "2026-08",
     "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
@@ -1978,7 +1979,7 @@
     "cons": null,
     "collector_ranking": "Top 20-30",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -2010,7 +2011,8 @@
     "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "audio-database/hifiengine",
     "price_thb_listings": [
-      2900
+      2900,
+      3800
     ],
     "usd_msrp": null,
     "market": null,
@@ -2057,7 +2059,7 @@
     "cons": null,
     "collector_ranking": "Top 20-30",
     "price_confidence": "Low",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -2130,7 +2132,7 @@
     "cons": null,
     "collector_ranking": "Top 20-30",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -2162,12 +2164,13 @@
     "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "hifiengine",
     "price_thb_listings": [
-      3600
+      3800,
+      2800
     ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "The classic Pioneer sound in an integrated: clean, crisp and dynamic with tight bass and an open, slightly bright top - detailed and energetic rather than warm. (Family-level: 70s silver-face SA integrated.)",
-    "thb_status": "Sold",
+    "thb_status": "For sale",
     "auto_specs": {
       "source": "audio-database.com",
       "date": "2026-08",
@@ -2210,7 +2213,7 @@
     "cons": null,
     "collector_ranking": "Top 30-40",
     "price_confidence": "Low",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -2247,7 +2250,7 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "The classic Pioneer sound in an integrated: clean, crisp and dynamic with tight bass and an open, slightly bright top - detailed and energetic rather than warm. (Family-level: 70s silver-face SA integrated.)",
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "auto_specs": {
       "source": "audio-database.com",
       "date": "2026-08",
@@ -2568,7 +2571,7 @@
     "cons": null,
     "collector_ranking": "Top 10",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": "The JDM version of the SPEC-4 — a 250W/ch powerhouse; hence the high Thai price."
@@ -2605,7 +2608,7 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Pioneer's house voice in a dedicated power amp: clean, powerful and well-controlled, with firm bass grip and an open, unfatiguing top end. (Family-level: late-70s/80s power amps.)",
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "thb_checked": "2026-08",
     "auto_specs": {
       "source": "audio-database PIONEER-EXCLUSIVE",
@@ -2771,7 +2774,7 @@
     "cons": null,
     "collector_ranking": "Top 10-20",
     "price_confidence": "Low",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -2808,7 +2811,7 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Early-60s Pioneer tube: warm, soft and romantic with a rich midrange and gently rolled-off extremes - a period tube character rather than a modern hi-fi sound. (Family-level: early-60s tube.)",
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "thb_checked": "2026-08",
     "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
@@ -2833,7 +2836,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Low",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -2870,7 +2873,7 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "The classic Pioneer sound: clean, crisp and lively with tight, controlled bass and an open, slightly forward top end - punchy and dynamic rather than warm, and very listenable at volume. (Family-level: 70s silver-face SX receivers.)",
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "thb_checked": "2026-08",
     "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
   },
@@ -2895,7 +2898,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": null,
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -2924,6 +2927,7 @@
     "price_basis": "eBay/dealer asking ~$300-370",
     "year_source": null,
     "price_thb_listings": [
+      6500,
       5900
     ],
     "usd_msrp": null,
@@ -2961,7 +2965,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": null,
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -2994,7 +2998,7 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "The classic Pioneer sound in an integrated: clean, crisp and dynamic with tight bass and an open, slightly bright top - detailed and energetic rather than warm. (Family-level: 70s silver-face SA integrated.)",
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "thb_checked": "2026-08",
     "auto_specs": {
       "source": "audio-database.com",
@@ -3031,7 +3035,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": null,
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -3097,7 +3101,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": null,
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -3143,5 +3147,439 @@
       ]
     },
     "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
+  },
+  {
+    "id": "pioneer-sx-727-1972",
+    "brand": "Pioneer",
+    "jdm_model": "SX-727",
+    "int_model": null,
+    "type": "Receiver",
+    "series": null,
+    "year_start": 1972,
+    "year_end": 1974,
+    "japan_price_kyen": null,
+    "watts_per_channel": 37,
+    "freq_response_hz": "7-80000",
+    "thd_percent": 0.5,
+    "ps_type": null,
+    "amp_circuit": null,
+    "weight_kg": 14.0,
+    "special_features": "Classic silver-face receiver; 37W/ch (20-20kHz), 195W IHF music power.",
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "price_confidence": "Low",
+    "last_price_check": "2026-10",
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null,
+      "sansui_us": null,
+      "brochure": null,
+      "source": null
+    },
+    "notes": "Added 2026-10 from Wayne's Thai list.",
+    "verified": false,
+    "verification": "sourced",
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": "hifiengine/gammaelectronics",
+    "price_thb_listings": [
+      12000
+    ],
+    "usd_msrp": 350,
+    "market": "International",
+    "sonic_signature": "The classic Pioneer sound: clean, crisp and lively with tight, controlled bass and an open, slightly forward top end - punchy and dynamic rather than warm. (Family-level: 70s silver-face SX.)",
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-10",
+    "thb_status": "For sale"
+  },
+  {
+    "id": "pioneer-sx-800-1969",
+    "brand": "Pioneer",
+    "jdm_model": "SX-800",
+    "int_model": null,
+    "type": "Receiver",
+    "series": "Tube Era",
+    "year_start": 1969,
+    "year_end": 1971,
+    "japan_price_kyen": null,
+    "watts_per_channel": 27,
+    "freq_response_hz": null,
+    "thd_percent": null,
+    "ps_type": null,
+    "amp_circuit": null,
+    "weight_kg": 19.0,
+    "special_features": "Last-generation Pioneer tube receiver (20 tubes, Nuvistor 6CW4 FM front end).",
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "price_confidence": "Low",
+    "last_price_check": "2026-10",
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null,
+      "sansui_us": null,
+      "brochure": null,
+      "source": null
+    },
+    "notes": "Added 2026-10 from Wayne's Thai list.",
+    "verified": false,
+    "verification": "sourced",
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": "hifi-wiki/radiomuseum",
+    "price_thb_listings": [
+      8500
+    ],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": "Late-60s Pioneer tube: warm and full with a rich midrange and gently rolled-off extremes - a period tube character rather than a modern hi-fi sound. (Family-level: tube era.)",
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-10",
+    "thb_status": "For sale"
+  },
+  {
+    "id": "pioneer-sx-800a-1966",
+    "brand": "Pioneer",
+    "jdm_model": "SX-800A",
+    "int_model": null,
+    "type": "Receiver",
+    "series": "Tube Era",
+    "year_start": 1966,
+    "year_end": 1969,
+    "japan_price_kyen": null,
+    "watts_per_channel": 38,
+    "freq_response_hz": null,
+    "thd_percent": null,
+    "ps_type": null,
+    "amp_circuit": null,
+    "weight_kg": 18.5,
+    "special_features": "Tube receiver (4x 7868 outputs, 38W/ch); Nuvistor FM front end.",
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "price_confidence": "Low",
+    "last_price_check": "2026-10",
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null,
+      "sansui_us": null,
+      "brochure": null,
+      "source": null
+    },
+    "notes": "Added 2026-10 from Wayne's Thai list.",
+    "verified": false,
+    "verification": "sourced",
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": "hifi-wiki",
+    "price_thb_listings": [
+      8500
+    ],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": "Late-60s Pioneer tube: warm and full with a rich midrange and gently rolled-off extremes - a period tube character rather than a modern hi-fi sound. (Family-level: tube era.)",
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-10",
+    "thb_status": "For sale"
+  },
+  {
+    "id": "pioneer-sx-202-1982",
+    "brand": "Pioneer",
+    "jdm_model": "SX-202",
+    "int_model": null,
+    "type": "Receiver",
+    "series": null,
+    "year_start": 1982,
+    "year_end": 1985,
+    "japan_price_kyen": null,
+    "watts_per_channel": 25,
+    "freq_response_hz": null,
+    "thd_percent": 0.3,
+    "ps_type": null,
+    "amp_circuit": null,
+    "weight_kg": null,
+    "special_features": "Compact early-80s budget receiver.",
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "price_confidence": "Low",
+    "last_price_check": "2026-10",
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null,
+      "sansui_us": null,
+      "brochure": null,
+      "source": null
+    },
+    "notes": "Added 2026-10 from Wayne's Thai list.",
+    "verified": false,
+    "verification": "sourced",
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": "hifiengine",
+    "price_thb_listings": [
+      1750
+    ],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": null,
+    "sonic_source": null,
+    "thb_status": "For sale"
+  },
+  {
+    "id": "pioneer-sa-5300-1974",
+    "brand": "Pioneer",
+    "jdm_model": "SA-5300",
+    "int_model": null,
+    "type": "Integrated",
+    "series": null,
+    "year_start": 1974,
+    "year_end": 1977,
+    "japan_price_kyen": null,
+    "watts_per_channel": 10,
+    "freq_response_hz": "20-30000",
+    "thd_percent": 0.08,
+    "ps_type": null,
+    "amp_circuit": null,
+    "weight_kg": null,
+    "special_features": "Budget integrated; tape monitor, loudness, 2 speaker pairs.",
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "price_confidence": "Low",
+    "last_price_check": "2026-10",
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null,
+      "sansui_us": null,
+      "brochure": null,
+      "source": null
+    },
+    "notes": "Added 2026-10 from Wayne's Thai list.",
+    "verified": false,
+    "verification": "sourced",
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": "dealer/hifivintage",
+    "price_thb_listings": [
+      2500
+    ],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": "The classic Pioneer sound in an integrated: clean, crisp and dynamic with tight bass and an open, slightly bright top - detailed and energetic rather than warm. (Family-level: 70s silver-face SA.)",
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-10",
+    "thb_status": "For sale"
+  },
+  {
+    "id": "pioneer-sa-7250-1979",
+    "brand": "Pioneer",
+    "jdm_model": "SA-7250",
+    "int_model": null,
+    "type": "Integrated",
+    "series": null,
+    "year_start": 1979,
+    "year_end": 1980,
+    "japan_price_kyen": null,
+    "watts_per_channel": null,
+    "freq_response_hz": null,
+    "thd_percent": null,
+    "ps_type": null,
+    "amp_circuit": null,
+    "weight_kg": null,
+    "special_features": "Integrated (per akdatabase).",
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "price_confidence": "Low",
+    "last_price_check": "2026-10",
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null,
+      "sansui_us": null,
+      "brochure": null,
+      "source": null
+    },
+    "notes": "Added 2026-10 from Wayne's Thai list. Specs thin - watts not found.",
+    "verified": false,
+    "verification": "sourced",
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": "akdatabase",
+    "price_thb_listings": [
+      5500
+    ],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": "The classic Pioneer sound in an integrated: clean, crisp and dynamic with tight bass and an open, slightly bright top - detailed and energetic rather than warm. (Family-level: 70s silver-face SA.)",
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-10",
+    "thb_status": "For sale"
+  },
+  {
+    "id": "pioneer-sa-8800-1979",
+    "brand": "Pioneer",
+    "jdm_model": "SA-8800",
+    "int_model": null,
+    "type": "Integrated",
+    "series": null,
+    "year_start": 1979,
+    "year_end": 1981,
+    "japan_price_kyen": null,
+    "watts_per_channel": 80,
+    "freq_response_hz": null,
+    "thd_percent": null,
+    "ps_type": null,
+    "amp_circuit": null,
+    "weight_kg": null,
+    "special_features": "Later US-market SA-8800 (80W/ch) - distinct from the 60W/1976 SA-8800II.",
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "price_confidence": "Low",
+    "last_price_check": "2026-10",
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null,
+      "sansui_us": null,
+      "brochure": null,
+      "source": null
+    },
+    "notes": "Added 2026-10. The later US 80W SA-8800, not the SA-8800II (60W/1976).",
+    "verified": false,
+    "verification": "sourced",
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": "hifi-wiki",
+    "price_thb_listings": [
+      7300
+    ],
+    "usd_msrp": null,
+    "market": "International",
+    "sonic_signature": "The classic Pioneer sound in an integrated: clean, crisp and dynamic with tight bass and an open, slightly bright top - detailed and energetic rather than warm. (Family-level: 70s silver-face SA.)",
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-10",
+    "thb_status": "For sale"
   }
 ]
