@@ -88,7 +88,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -133,7 +133,7 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Capacitor-coupled output: a series capacitor sits between the output stage and the speaker, which high-passes the deep bass and softens the bottom end. That is where the warm, rounded voice of this generation comes from - a circuit consequence rather than a voicing choice. The result is a lush, organic midrange often described as tube-like, with smooth clarity and an unfussy top end.",
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "thb_checked": "2026-08",
     "auto_price": {
       "source": "hifishark.com",
@@ -166,7 +166,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -211,7 +211,7 @@
     "usd_msrp": null,
     "market": "JDM",
     "sonic_signature": "Capacitor-coupled output: a series capacitor sits between the output stage and the speaker, which high-passes the deep bass and softens the bottom end. That is where the warm, rounded voice of this generation comes from - a circuit consequence rather than a voicing choice. The result is a lush, organic midrange often described as tube-like, with smooth clarity and an unfussy top end.",
-    "thb_status": "Sold",
+    "thb_status": "For sale",
     "thb_checked": "2026-08",
     "circuit_family": "Classic solid-state (capacitor-coupled)",
     "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
@@ -391,7 +391,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -431,12 +431,12 @@
     "price_basis": "hifishark US 12mo listing median (AUD->USD), n=6, 2026-08",
     "year_source": "serial-report (decoded; first volume production year)",
     "price_thb_listings": [
-      15000
+      18000
     ],
     "usd_msrp": 300,
     "market": null,
     "sonic_signature": "Capacitor-coupled output: a series capacitor sits between the output stage and the speaker, which high-passes the deep bass and softens the bottom end. That is where the warm, rounded voice of this generation comes from - a circuit consequence rather than a voicing choice. The result is a lush, organic midrange often described as tube-like, with smooth clarity and an unfussy top end.",
-    "thb_status": "Sold",
+    "thb_status": "For sale",
     "auto_price": {
       "source": "hifishark.com (US region, 12mo export)",
       "date": "2026-08",
@@ -548,7 +548,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -588,12 +588,12 @@
     "price_basis": "hifishark US 12mo listing median (AUD->USD), n=5, 2026-08",
     "year_source": "serial-report (decoded; first volume production year)",
     "price_thb_listings": [
-      8900
+      65000
     ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Capacitor-coupled output: a series capacitor sits between the output stage and the speaker, which high-passes the deep bass and softens the bottom end. That is where the warm, rounded voice of this generation comes from - a circuit consequence rather than a voicing choice. The result is a lush, organic midrange often described as tube-like, with smooth clarity and an unfussy top end.",
-    "thb_status": "Sold",
+    "thb_status": "For sale",
     "auto_price": {
       "source": "hifishark.com (US region, 12mo export)",
       "date": "2026-08",
@@ -1429,7 +1429,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Low",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": "The power switch crackles on press - a common failure shared with the 4900Z. Replacing it with an ALPS TV-5 cures it permanently; owners report the fix lasting many years.",
       "collector_notes": null
@@ -1473,7 +1473,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "thb_checked": "2026-08",
     "auto_price": {
       "source": "hifishark.com",
@@ -2508,7 +2508,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -2548,7 +2548,8 @@
     "price_basis": "hifishark 12mo listing median, asking prices (FX->USD) 2026-08",
     "year_source": "serial-report (decoded; first volume production year)",
     "price_thb_listings": [
-      8900
+      8900,
+      9000
     ],
     "usd_msrp": null,
     "market": null,
@@ -3379,7 +3380,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -3885,7 +3886,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Low",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -3925,12 +3926,12 @@
     "price_basis": null,
     "year_source": "serial-report (decoded; first volume production year)",
     "price_thb_listings": [
-      3200
+      3900
     ],
     "usd_msrp": null,
     "market": "JDM",
     "sonic_signature": "Super Feedforward adds a second correction path that cancels output-stage distortion instead of leaning on global feedback alone, giving very low measured distortion and a fast, clean presentation. Caveat: the topology oscillates readily. An AU-D9 and an AU-D55F both proved awkward to stabilise in hands-on repair, so treat a misbehaving example as a real risk rather than a quick fix.",
-    "thb_status": "Sold",
+    "thb_status": "For sale",
     "auto_specs": {
       "source": "audio-database.com",
       "date": "2026-08",
@@ -3964,7 +3965,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": "3rd-generation 707 D-series."
@@ -4004,7 +4005,7 @@
     "price_basis": "hifishark 12mo listing median, asking prices (FX->USD) 2026-08",
     "year_source": "serial-report (decoded; first volume production year)",
     "price_thb_listings": [
-      4800
+      8500
     ],
     "usd_msrp": null,
     "market": "JDM",
@@ -4271,7 +4272,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -4316,7 +4317,7 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Super Feedforward adds a second correction path that cancels output-stage distortion instead of leaning on global feedback alone, giving very low measured distortion and a fast, clean presentation. Caveat: the topology oscillates readily. An AU-D9 and an AU-D55F both proved awkward to stabilise in hands-on repair, so treat a misbehaving example as a real risk rather than a quick fix.",
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "auto_specs": {
       "source": "audio-database.com",
       "date": "2026-08",
@@ -4435,7 +4436,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Low",
-    "last_price_check": "2026-06",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -4474,11 +4475,13 @@
     "avg_price_usd_3mo": 750,
     "price_basis": null,
     "year_source": "serial-report (decoded; first volume production year)",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      8900
+    ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Super Feedforward adds a second correction path that cancels output-stage distortion instead of leaning on global feedback alone, giving very low measured distortion and a fast, clean presentation. Caveat: the topology oscillates readily. An AU-D9 and an AU-D55F both proved awkward to stabilise in hands-on repair, so treat a misbehaving example as a real risk rather than a quick fix.",
-    "thb_status": null,
+    "thb_status": "For sale",
     "auto_specs": {
       "source": "audio-database.com",
       "date": "2026-08",
@@ -4950,7 +4953,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -4995,7 +4998,7 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "X-Balanced: the amplifier is balanced end to end, so both speaker terminals are driven rather than one being grounded. The result is very low distortion and high current delivery with a neutral, authoritative presentation. Safety: both speaker terminals are live - never bridge or ground either one.",
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "auto_specs": {
       "source": "audio-database.com",
       "date": "2026-08",
@@ -6354,7 +6357,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Low",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -6506,7 +6509,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -6551,7 +6554,7 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Capacitor-coupled output: a series capacitor sits between the output stage and the speaker, which high-passes the deep bass and softens the bottom end. That is where the warm, rounded voice of this generation comes from - a circuit consequence rather than a voicing choice. The result is a lush, organic midrange often described as tube-like, with smooth clarity and an unfussy top end.",
-    "thb_status": "Sold",
+    "thb_status": "For sale",
     "thb_checked": "2026-08",
     "circuit_family": "Classic solid-state (capacitor-coupled)",
     "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
@@ -6648,7 +6651,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Low",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -6693,7 +6696,7 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Capacitor-coupled output: a series capacitor sits between the output stage and the speaker, which high-passes the deep bass and softens the bottom end. That is where the warm, rounded voice of this generation comes from - a circuit consequence rather than a voicing choice. The result is a lush, organic midrange often described as tube-like, with smooth clarity and an unfussy top end.",
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "thb_checked": "2026-08",
     "auto_price": {
       "source": "hifishark.com",
@@ -7150,7 +7153,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Low",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -8547,7 +8550,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -8586,11 +8589,13 @@
     "avg_price_usd_3mo": 270,
     "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "serial-report (decoded; first volume production year)",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      2900
+    ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Capacitor-coupled output: a series capacitor sits between the output stage and the speaker, which high-passes the deep bass and softens the bottom end. That is where the warm, rounded voice of this generation comes from - a circuit consequence rather than a voicing choice. The result is a lush, organic midrange often described as tube-like, with smooth clarity and an unfussy top end.",
-    "thb_status": null,
+    "thb_status": "For sale",
     "auto_price": {
       "source": "hifishark.com",
       "date": "2026-08",
@@ -8621,7 +8626,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Low",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -8661,7 +8666,8 @@
     "price_basis": "hifishark 12mo listing median, asking prices (FX->USD) 2026-08",
     "year_source": "serial-report (decoded; first volume production year)",
     "price_thb_listings": [
-      5200
+      2700,
+      3900
     ],
     "usd_msrp": null,
     "market": null,
@@ -8773,7 +8779,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Low",
-    "last_price_check": "2026-06",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -8812,11 +8818,13 @@
     "avg_price_usd_3mo": 300,
     "price_basis": null,
     "year_source": "serial-report (decoded; first volume production year)",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      5700
+    ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Capacitor-coupled output: a series capacitor sits between the output stage and the speaker, which high-passes the deep bass and softens the bottom end. That is where the warm, rounded voice of this generation comes from - a circuit consequence rather than a voicing choice. The result is a lush, organic midrange often described as tube-like, with smooth clarity and an unfussy top end.",
-    "thb_status": null,
+    "thb_status": "For sale",
     "circuit_family": "Classic solid-state (capacitor-coupled)",
     "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
   },
@@ -9655,7 +9663,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -9695,7 +9703,7 @@
     "price_basis": "hifishark 12mo listing median, asking prices (FX->USD) 2026-08",
     "year_source": "serial-report (decoded; first volume production year)",
     "price_thb_listings": [
-      2600
+      4900
     ],
     "usd_msrp": null,
     "market": null,
@@ -10085,7 +10093,7 @@
     "cons": null,
     "collector_ranking": "Top 20-30",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -10333,7 +10341,7 @@
     "cons": null,
     "collector_ranking": "Top 30-40",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -10378,7 +10386,7 @@
     "usd_msrp": null,
     "market": "JDM",
     "sonic_signature": "Silver-face receiver. Pure Power DC: direct-coupled throughout and fed by a stiff supply, giving firm, extended bass and a clean, unforced top end - the more controlled end of the Sansui receiver sound.",
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "thb_checked": "2026-08",
     "auto_price": {
       "source": "hifishark.com",
@@ -10772,7 +10780,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Low",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -10812,7 +10820,8 @@
     "price_basis": "hifishark 12mo listing median, asking prices (FX->USD) 2026-08",
     "year_source": "serial-report (decoded; first volume production year)",
     "price_thb_listings": [
-      5700
+      5700,
+      4500
     ],
     "usd_msrp": null,
     "market": null,
@@ -10918,7 +10927,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -10957,11 +10966,13 @@
     "avg_price_usd_3mo": 980,
     "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "serial-report (decoded; first volume production year)",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      3377
+    ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null,
+    "thb_status": "For sale",
     "auto_price": {
       "source": "hifishark.com",
       "date": "2026-08",
@@ -11058,7 +11069,7 @@
     "cons": null,
     "collector_ranking": "Top 40-50",
     "price_confidence": "Low",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -11103,7 +11114,7 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Silver-face receiver. Pure Power DC: direct-coupled throughout and fed by a stiff supply, giving firm, extended bass and a clean, unforced top end - the more controlled end of the Sansui receiver sound.",
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "thb_checked": "2026-08",
     "auto_price": {
       "source": "hifishark.com",
@@ -11498,7 +11509,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Low",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -11536,8 +11547,8 @@
     "price_basis": "hifishark 12mo listing median, asking prices (FX->USD) 2026-08",
     "year_source": "serial-report (decoded; first volume production year)",
     "price_thb_listings": [
-      6500,
-      15000
+      15000,
+      11600
     ],
     "usd_msrp": null,
     "market": null,
@@ -11575,7 +11586,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": "CD-4 quadraphonic decoding"
@@ -11618,7 +11629,7 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Capacitor-coupled output: a series capacitor sits between the output stage and the speaker, which high-passes the deep bass and softens the bottom end. That is where the warm, rounded voice of this generation comes from - a circuit consequence rather than a voicing choice. The result is a lush, organic midrange often described as tube-like, with smooth clarity and an unfussy top end.",
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "thb_checked": "2026-08",
     "auto_price": {
       "source": "hifishark.com",
@@ -11651,7 +11662,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -11689,7 +11700,6 @@
     "price_basis": "hifishark 12mo listing median, asking prices (FX->USD) 2026-08",
     "year_source": "serial-report (decoded; first volume production year)",
     "price_thb_listings": [
-      14900,
       15500
     ],
     "usd_msrp": null,
@@ -11863,7 +11873,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Low",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -12005,7 +12015,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Low",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -12147,7 +12157,7 @@
     "cons": null,
     "collector_ranking": "Top 10",
     "price_confidence": "Low",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -13050,7 +13060,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Low",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -13094,7 +13104,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "auto_specs": {
       "source": "audio-database.com",
       "date": "2026-08",
@@ -13197,7 +13207,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -13241,7 +13251,7 @@
     ],
     "usd_msrp": 570,
     "market": null,
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "thb_checked": "2026-08",
     "auto_price": {
       "source": "hifishark.com",
@@ -13417,7 +13427,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -13461,7 +13471,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "auto_specs": {
       "source": "audio-database.com",
       "date": "2026-08",
@@ -13636,7 +13646,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -13680,7 +13690,7 @@
     ],
     "usd_msrp": 190,
     "market": "International",
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "auto_price": {
       "source": "hifishark.com",
       "date": "2026-08",
@@ -14209,7 +14219,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": null,
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -14249,12 +14259,12 @@
     "price_basis": null,
     "year_source": "serial-report (decoded; first volume production year)",
     "price_thb_listings": [
-      6500
+      11500
     ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Valve output stage feeding an output transformer, so the source impedance is high and the damping factor low - the speaker's own impedance curve shapes the response rather than being driven through it. That interaction, with distortion weighted to even-order harmonics, is where the warmth and dimensionality of this era comes from.",
-    "thb_status": "Sold",
+    "thb_status": "For sale",
     "thb_checked": "2026-08",
     "circuit_family": "Tube",
     "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
@@ -14483,7 +14493,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -14522,11 +14532,13 @@
     "avg_price_usd_3mo": 380,
     "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "serial-report (decoded; first volume production year)",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      3500
+    ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "X-Balanced: the amplifier is balanced end to end, so both speaker terminals are driven rather than one being grounded. The result is very low distortion and high current delivery with a neutral, authoritative presentation. Safety: both speaker terminals are live - never bridge or ground either one.",
-    "thb_status": null,
+    "thb_status": "For sale",
     "auto_price": {
       "source": "hifishark.com",
       "date": "2026-08",
@@ -14631,7 +14643,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Low",
-    "last_price_check": "2026-06",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -14670,11 +14682,13 @@
     "avg_price_usd_3mo": 450,
     "price_basis": null,
     "year_source": "serial-report (decoded; first volume production year)",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      12000
+    ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "X-Balanced: the amplifier is balanced end to end, so both speaker terminals are driven rather than one being grounded. The result is very low distortion and high current delivery with a neutral, authoritative presentation. Safety: both speaker terminals are live - never bridge or ground either one.",
-    "thb_status": null,
+    "thb_status": "For sale",
     "auto_specs": {
       "source": "audio-database.com",
       "date": "2026-08",
@@ -14990,7 +15004,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Low",
-    "last_price_check": "2026-06",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -15029,11 +15043,13 @@
     "avg_price_usd_3mo": 500,
     "price_basis": null,
     "year_source": "serial-report (decoded; first volume production year)",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      9999
+    ],
     "usd_msrp": null,
     "market": "JDM",
     "sonic_signature": "X-Balanced: the amplifier is balanced end to end, so both speaker terminals are driven rather than one being grounded. The result is very low distortion and high current delivery with a neutral, authoritative presentation. Safety: both speaker terminals are live - never bridge or ground either one.",
-    "thb_status": null,
+    "thb_status": "For sale",
     "circuit_family": "X-Balanced / alpha-X Balanced",
     "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
   },
@@ -16927,7 +16943,7 @@
     "cons": null,
     "collector_ranking": "Top 40-50",
     "price_confidence": "Low",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -16972,7 +16988,7 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "X-Balanced: the amplifier is balanced end to end, so both speaker terminals are driven rather than one being grounded. The result is very low distortion and high current delivery with a neutral, authoritative presentation. Safety: both speaker terminals are live - never bridge or ground either one.",
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "thb_checked": "2026-08",
     "auto_price": {
       "source": "hifishark.com",
@@ -17897,7 +17913,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Low",
-    "last_price_check": "2026-06",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -17935,12 +17951,12 @@
     "price_basis": null,
     "year_source": "user (spec sheet)",
     "price_thb_listings": [
-      28000
+      28900
     ],
     "usd_msrp": null,
     "market": null,
     "circuit_description": "Twin-monaural construction: the power amplifier blocks are arranged symmetrically so mutual interference between channels is eliminated. The NEW diamond differential circuit is used, with an FET cascade in the initial stage to reduce the effect of impedance differences between connected devices. MOS-FETs in the output stage give excellent frequency and transient characteristics. The supply uses custom-made heavy-duty transformers and a balanced power supply configuration forming a closed loop independent of the ground circuit. 150W/ch at 6 ohm, 110W/ch at 8 ohm.",
-    "thb_status": "Sold",
+    "thb_status": "For sale",
     "thb_checked": "2026-08",
     "circuit_family": "Diamond Differential"
   },
@@ -18415,7 +18431,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -18455,7 +18471,7 @@
     "price_basis": "hifishark 12mo listing median, asking prices (FX->USD) 2026-08",
     "year_source": "user (spec sheet)",
     "price_thb_listings": [
-      4000
+      3900
     ],
     "usd_msrp": null,
     "market": null,
@@ -18493,7 +18509,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": "The pre/main connected-separated switch goes dirty and then mimics a dead channel - and left on 'separated' it plays nothing at all. Units sell cheap as faulty on both counts. The AU-719 has no such switch.",
       "collector_notes": null
@@ -18533,7 +18549,8 @@
     "price_basis": "hifishark 12mo listing median, asking prices (FX->USD) 2026-08",
     "year_source": "user (spec sheet)",
     "price_thb_listings": [
-      4900
+      4900,
+      7500
     ],
     "usd_msrp": null,
     "market": "JDM",
@@ -18782,7 +18799,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-07",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": "Added from Wayne's Thai market finds (Jul 2026); specs pending research."
@@ -18819,7 +18836,7 @@
     "price_basis": null,
     "year_source": "research",
     "price_thb_listings": [
-      4400
+      4500
     ],
     "usd_msrp": null,
     "market": null,
@@ -18915,7 +18932,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": "Added from Wayne's Thai market finds (Jul 2026); specs pending research."
@@ -18952,10 +18969,10 @@
     "price_basis": "hifishark 12mo listing median, asking prices (FX->USD) 2026-08",
     "year_source": "research",
     "price_thb_listings": [
+      12000,
       13000,
-      13300,
-      18000,
-      20000
+      20000,
+      13000
     ],
     "usd_msrp": null,
     "market": null,
@@ -18993,7 +19010,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Low",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": "Added from Wayne's Thai market finds (Jul 2026); specs pending research."
@@ -19030,7 +19047,7 @@
     "price_basis": "hifishark 12mo listing median, asking prices (FX->USD) 2026-08",
     "year_source": "research",
     "price_thb_listings": [
-      5900
+      4000
     ],
     "usd_msrp": null,
     "market": null,
@@ -19136,7 +19153,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Low",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": "Added from Wayne's Thai market finds (Jul 2026); specs pending research."
@@ -19282,9 +19299,11 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 40-50",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      5900
+    ],
     "price_confidence": "Low",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -19325,7 +19344,7 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "X-Balanced: the amplifier is balanced end to end, so both speaker terminals are driven rather than one being grounded. The result is very low distortion and high current delivery with a neutral, authoritative presentation. Safety: both speaker terminals are live - never bridge or ground either one.",
-    "thb_status": null,
+    "thb_status": "For sale",
     "auto_specs": {
       "source": "audio-database.com",
       "date": "2026-08",
@@ -19729,7 +19748,7 @@
       13500
     ],
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -19770,7 +19789,7 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Super Feedforward adds a second correction path that cancels output-stage distortion instead of leaning on global feedback alone, giving very low measured distortion and a fast, clean presentation. Caveat: the topology oscillates readily. An AU-D9 and an AU-D55F both proved awkward to stabilise in hands-on repair, so treat a misbehaving example as a real risk rather than a quick fix.",
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "auto_price": {
       "source": "hifishark.com",
       "date": "2026-08",
@@ -19806,7 +19825,7 @@
       11500
     ],
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -19847,7 +19866,7 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Super Feedforward adds a second correction path that cancels output-stage distortion instead of leaning on global feedback alone, giving very low measured distortion and a fast, clean presentation. Caveat: the topology oscillates readily. An AU-D9 and an AU-D55F both proved awkward to stabilise in hands-on repair, so treat a misbehaving example as a real risk rather than a quick fix.",
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "auto_price": {
       "source": "hifishark.com",
       "date": "2026-08",
@@ -19883,9 +19902,9 @@
     "price_thb_listings": [
       6500
     ],
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": "Listed for sale as a combo with a D-100 cassette deck (combo THB 6,500)."
@@ -19955,9 +19974,9 @@
     "price_thb_listings": [
       5500
     ],
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "price_confidence": "Low",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": "Entry Alpha-series integrated."
@@ -20027,7 +20046,7 @@
     "sonic_signature": null,
     "circuit_description": null,
     "price_confidence": "None",
-    "last_price_check": null,
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": "Owned by Wayne (faceplate-confirmed: B-7000 4-Channel Stereo Power Amplifier, Made in Japan, S/N 4905001711). Rare — little published spec data; output rating unverified."
@@ -20064,10 +20083,12 @@
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "research (quad-era estimate)",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      3500
+    ],
     "usd_msrp": null,
     "market": "International",
-    "thb_status": null,
+    "thb_status": "For sale",
     "circuit_family": "Classic solid-state (capacitor-coupled)"
   },
   {
