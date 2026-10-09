@@ -3860,10 +3860,10 @@
     "cons": null,
     "collector_ranking": "Top 10-20",
     "price_confidence": "Medium",
-    "last_price_check": null,
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
-      "collector_notes": null
+      "collector_notes": "Bad-condition unit sold within an hour at THB 5,000 (Wayne, 2026-10) - a floor price for a rough example; clean ones ask far more (US ~$2,400). Marantz sellers in Thailand tend to ask near US prices, not the usual ~half."
     },
     "restorer_info": {
       "known_failure_points": [],
@@ -3891,11 +3891,13 @@
     "avg_price_usd_3mo": 2400,
     "price_basis": "hifishark median 2026",
     "year_source": "classicreceivers.com",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      5000
+    ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": "Sold"
   },
   {
     "id": "marantz-2252b-1977",
