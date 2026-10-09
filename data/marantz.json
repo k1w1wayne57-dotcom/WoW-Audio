@@ -309,7 +309,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Unranked",
-    "price_confidence": "None",
+    "price_confidence": "Low",
     "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
@@ -338,8 +338,8 @@
     "notes": "Unverified — model and/or Thai price observed on Facebook and YouTube listings; not independently confirmed. Specs sourced from hifiengine.com (still unverified).",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 150,
+    "price_basis": "asking $110-235 (budget brand)",
     "year_source": "hifiengine.com",
     "price_thb_listings": [
       15000
@@ -4471,7 +4471,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Unranked",
-    "price_confidence": null,
+    "price_confidence": "Medium",
     "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
@@ -4497,8 +4497,8 @@
     },
     "notes": "Added from Wayne's Thai price list. No Audio Database page — specs not yet sourced.",
     "verified": false,
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 185,
+    "price_basis": "Catawiki/HifiShark ~EUR160-165",
     "year_source": null,
     "price_thb_listings": [
       7000
@@ -4614,7 +4614,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Unranked",
-    "price_confidence": null,
+    "price_confidence": "Medium",
     "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
@@ -4640,8 +4640,8 @@
     },
     "notes": "Added from Wayne's Thai price list. No Audio Database page — specs not yet sourced.",
     "verified": false,
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 475,
+    "price_basis": "eBay/US Audio Mart sold $360-600",
     "year_source": null,
     "price_thb_listings": [
       19500
@@ -4744,7 +4744,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Unranked",
-    "price_confidence": null,
+    "price_confidence": "Low",
     "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
@@ -4770,8 +4770,8 @@
     },
     "notes": "Added from Wayne's Thai price list. No Audio Database page — specs not yet sourced.",
     "verified": false,
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 600,
+    "price_basis": "sparse; base 1150 ~$400-500 sold, mkII asks higher",
     "year_source": null,
     "price_thb_listings": [
       25000

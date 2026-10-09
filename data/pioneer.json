@@ -1179,7 +1179,7 @@
     "thd_percent": 1.0,
     "ps_type": null,
     "amp_circuit": "All-tube stereo receiver (3x12AX7 + 7868 outputs)",
-    "weight_kg": null,
+    "weight_kg": 18.5,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -1232,6 +1232,13 @@
       "low": 917,
       "high": 1658,
       "previous_usd": 1500
+    },
+    "auto_specs": {
+      "source": "radiomuseum (tube receiver)",
+      "date": "2026-10",
+      "fields": [
+        "weight_kg"
+      ]
     }
   },
   {
@@ -1679,7 +1686,7 @@
     "thd_percent": 0.1,
     "ps_type": null,
     "amp_circuit": "Integrated amplifier (US version of the 1975 SA-8800)",
-    "weight_kg": null,
+    "weight_kg": 12.0,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -1731,12 +1738,10 @@
     },
     "thb_checked": "2026-08",
     "auto_specs": {
-      "source": "hifi-wiki",
-      "date": "2026-09",
+      "source": "radiomuseum (base SA-7500)",
+      "date": "2026-10",
       "fields": [
-        "year_start",
-        "freq_response_hz",
-        "thd_percent"
+        "weight_kg"
       ]
     },
     "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
@@ -2351,7 +2356,7 @@
     "japan_price_kyen": 40,
     "watts_per_channel": null,
     "freq_response_hz": null,
-    "thd_percent": null,
+    "thd_percent": 1.0,
     "ps_type": null,
     "amp_circuit": "AM/FM stereo tuner with FM preset dials (equivalent to the TX-700)",
     "weight_kg": 5.6,
@@ -2399,11 +2404,10 @@
     "sonic_signature": null,
     "thb_status": "Sold",
     "auto_specs": {
-      "source": "audio-database.com",
-      "date": "2026-08",
+      "source": "audio-database (FM 400Hz); freq not published",
+      "date": "2026-10",
       "fields": [
-        "weight_kg",
-        "japan_price_kyen"
+        "thd_percent"
       ]
     },
     "auto_price": {
@@ -3092,7 +3096,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Unranked",
-    "price_confidence": null,
+    "price_confidence": "Medium",
     "last_price_check": null,
     "collector_info": {
       "known_issues": null,
@@ -3118,8 +3122,8 @@
     },
     "notes": "Added from Wayne's Thai price list. No Audio Database page — specs not yet sourced.",
     "verified": false,
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 300,
+    "price_basis": "eBay sold $300; range $150-300",
     "year_source": null,
     "price_thb_listings": [
       7000

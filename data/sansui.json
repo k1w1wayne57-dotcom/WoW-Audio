@@ -3099,7 +3099,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Unranked",
-    "price_confidence": "None",
+    "price_confidence": "Medium",
     "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
@@ -3136,8 +3136,8 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": null,
-    "price_basis": null,
+    "avg_price_usd_3mo": 175,
+    "price_basis": "eBay/price-guide ~$150-219; HifiShark EUR155",
     "year_source": "serial-report (decoded; first volume production year)",
     "price_thb_listings": [
       3800
@@ -6653,7 +6653,7 @@
     "japan_price_kyen": 300,
     "watts_per_channel": 30,
     "freq_response_hz": "20-20000",
-    "thd_percent": null,
+    "thd_percent": 0.8,
     "ps_type": null,
     "amp_circuit": "Solid-state stereo receiver",
     "weight_kg": 12,
@@ -6716,7 +6716,14 @@
       "median_usd": 313
     },
     "circuit_family": "Classic solid-state (capacitor-coupled)",
-    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
+    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)",
+    "auto_specs": {
+      "source": "hifi-wiki/HiFi Engine",
+      "date": "2026-10",
+      "fields": [
+        "thd_percent"
+      ]
+    }
   },
   {
     "id": "sansui-5000-1969",
@@ -7016,7 +7023,7 @@
     "thd_percent": 0.8,
     "ps_type": null,
     "amp_circuit": "Solid-state AM/FM stereo receiver",
-    "weight_kg": null,
+    "weight_kg": 12.4,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -7070,7 +7077,14 @@
     "thb_status": "Sold",
     "thb_checked": "2026-08",
     "circuit_family": "Classic solid-state (capacitor-coupled)",
-    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
+    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)",
+    "auto_specs": {
+      "source": "radiomuseum/1971 review",
+      "date": "2026-10",
+      "fields": [
+        "weight_kg"
+      ]
+    }
   },
   {
     "id": "sansui-4000-1971",
@@ -7083,11 +7097,11 @@
     "year_end": 1975,
     "japan_price_kyen": 380,
     "watts_per_channel": 45,
-    "freq_response_hz": null,
+    "freq_response_hz": "20-50000",
     "thd_percent": 0.8,
     "ps_type": null,
     "amp_circuit": "Solid-state AM/FM stereo receiver (45 tr, 4 IC)",
-    "weight_kg": null,
+    "weight_kg": 14.5,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -7141,7 +7155,15 @@
     "thb_status": "Sold",
     "thb_checked": "2026-08",
     "circuit_family": "Classic solid-state (capacitor-coupled)",
-    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
+    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)",
+    "auto_specs": {
+      "source": "hifi-wiki/radiomuseum",
+      "date": "2026-10",
+      "fields": [
+        "freq_response_hz",
+        "weight_kg"
+      ]
+    }
   },
   {
     "id": "sansui-5000x-1971",
@@ -10342,7 +10364,7 @@
     "year_end": 1978,
     "japan_price_kyen": 750,
     "watts_per_channel": 85,
-    "freq_response_hz": null,
+    "freq_response_hz": "5-50000",
     "thd_percent": 0.03,
     "ps_type": null,
     "amp_circuit": "Pure Power DC stereo receiver",
@@ -10407,7 +10429,14 @@
       "previous_usd": 1268
     },
     "circuit_family": "Pure Power DC",
-    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
+    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)",
+    "auto_specs": {
+      "source": "Reverb/hifi-wiki",
+      "date": "2026-10",
+      "fields": [
+        "freq_response_hz"
+      ]
+    }
   },
   {
     "id": "sansui-g-8000-1978",
@@ -11374,12 +11403,12 @@
     "year_start": 1971,
     "year_end": 1972,
     "japan_price_kyen": 599,
-    "watts_per_channel": null,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "watts_per_channel": 27,
+    "freq_response_hz": "20-30000",
+    "thd_percent": 0.5,
     "ps_type": null,
     "amp_circuit": null,
-    "weight_kg": null,
+    "weight_kg": 18.6,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -11431,7 +11460,17 @@
     "thb_status": "Sold",
     "thb_checked": "2026-08",
     "circuit_family": "Classic solid-state (capacitor-coupled)",
-    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
+    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)",
+    "auto_specs": {
+      "source": "dealer listings (quad 8ohm)",
+      "date": "2026-10",
+      "fields": [
+        "watts_per_channel",
+        "freq_response_hz",
+        "thd_percent",
+        "weight_kg"
+      ]
+    }
   },
   {
     "id": "sansui-qr-500-1973",
@@ -11602,7 +11641,7 @@
     "thd_percent": 0.5,
     "ps_type": null,
     "amp_circuit": "4-channel quad receiver, QS matrix",
-    "weight_kg": null,
+    "weight_kg": 18.5,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -11661,7 +11700,14 @@
       "previous_usd": 195
     },
     "circuit_family": "Classic solid-state (capacitor-coupled)",
-    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
+    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)",
+    "auto_specs": {
+      "source": "hifi-wiki/Canuck",
+      "date": "2026-10",
+      "fields": [
+        "weight_kg"
+      ]
+    }
   },
   {
     "id": "sansui-qrx-5500-1973",
@@ -13092,8 +13138,8 @@
     "year_end": 1975,
     "japan_price_kyen": 330,
     "watts_per_channel": null,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "freq_response_hz": "20-15000",
+    "thd_percent": 0.3,
     "ps_type": null,
     "amp_circuit": null,
     "weight_kg": 6.9,
@@ -13148,10 +13194,11 @@
     "market": null,
     "thb_status": "Sold",
     "auto_specs": {
-      "source": "audio-database.com",
-      "date": "2026-08",
+      "source": "radiomuseum/audio-database",
+      "date": "2026-10",
       "fields": [
-        "weight_kg"
+        "freq_response_hz",
+        "thd_percent"
       ]
     },
     "thb_checked": "2026-08",
@@ -13239,8 +13286,8 @@
     "year_end": 1978,
     "japan_price_kyen": 89.8,
     "watts_per_channel": null,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "freq_response_hz": "30-15000",
+    "thd_percent": 0.08,
     "ps_type": null,
     "amp_circuit": "MOS FET FM front-end, 6-pole block filter",
     "weight_kg": 9.6,
@@ -13300,6 +13347,14 @@
       "date": "2026-08",
       "n": 31,
       "median_usd": 921
+    },
+    "auto_specs": {
+      "source": "radiomuseum/audio-database (stereo wide)",
+      "date": "2026-10",
+      "fields": [
+        "freq_response_hz",
+        "thd_percent"
+      ]
     }
   },
   {
@@ -13384,8 +13439,8 @@
     "year_end": 1975,
     "japan_price_kyen": 280,
     "watts_per_channel": null,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "freq_response_hz": "30-15000",
+    "thd_percent": 0.35,
     "ps_type": null,
     "amp_circuit": null,
     "weight_kg": 6.9,
@@ -13440,10 +13495,11 @@
     "market": null,
     "thb_status": "Sold",
     "auto_specs": {
-      "source": "audio-database.com",
-      "date": "2026-08",
+      "source": "hifi-wiki/audio-database",
+      "date": "2026-10",
       "fields": [
-        "weight_kg"
+        "freq_response_hz",
+        "thd_percent"
       ]
     },
     "thb_checked": "2026-08"
@@ -13459,8 +13515,8 @@
     "year_end": 1980,
     "japan_price_kyen": 230,
     "watts_per_channel": null,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "freq_response_hz": "30-15000",
+    "thd_percent": 0.35,
     "ps_type": null,
     "amp_circuit": null,
     "weight_kg": 6.4,
@@ -13515,10 +13571,11 @@
     "market": null,
     "thb_status": "Sold",
     "auto_specs": {
-      "source": "audio-database.com",
-      "date": "2026-08",
+      "source": "audio-database (IHF/stereo 1kHz)",
+      "date": "2026-10",
       "fields": [
-        "weight_kg"
+        "freq_response_hz",
+        "thd_percent"
       ]
     },
     "auto_price": {
@@ -13678,8 +13735,8 @@
     "year_end": 1980,
     "japan_price_kyen": null,
     "watts_per_channel": null,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "freq_response_hz": "30-15000",
+    "thd_percent": 0.15,
     "ps_type": null,
     "amp_circuit": "AM/FM tuner, MOS FET front-end",
     "weight_kg": 5.3,
@@ -13740,7 +13797,15 @@
       "median_usd": 129,
       "previous_usd": 119
     },
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_specs": {
+      "source": "radiomuseum/classic-audio (stereo 1kHz)",
+      "date": "2026-10",
+      "fields": [
+        "freq_response_hz",
+        "thd_percent"
+      ]
+    }
   },
   {
     "id": "sansui-tu-317-1978",
@@ -18907,7 +18972,7 @@
     "japan_price_kyen": 54.8,
     "watts_per_channel": null,
     "freq_response_hz": null,
-    "thd_percent": null,
+    "thd_percent": 0.08,
     "ps_type": null,
     "amp_circuit": "AM/FM tuner, MOS FET front-end, PLL MPX (pairs AU-707)",
     "weight_kg": 8.7,
@@ -18958,7 +19023,14 @@
     "usd_msrp": null,
     "market": null,
     "thb_status": "Sold",
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "auto_specs": {
+      "source": "audio-database (FM wide 1kHz); freq not published",
+      "date": "2026-10",
+      "fields": [
+        "thd_percent"
+      ]
+    }
   },
   {
     "id": "sansui-au-888",
