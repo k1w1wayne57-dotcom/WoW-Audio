@@ -411,13 +411,19 @@ function getFiltered() {
     matchesEra(item, currentEra) &&
     matchesSearch(item, searchTerm) &&
     (!bestBuyOnly || (item.best_buy && item.best_buy.rating)) &&
-    (!thaiPriceOnly || (item.price_thb_listings && item.price_thb_listings.length > 0)) &&
+    (!thaiPriceOnly || ((item.thb_status || "").toLowerCase() === "for sale" && item.price_thb_listings && item.price_thb_listings.length > 0)) &&
     (!intlOnly || item.market === "International")
   );
 }
 
 function sortItems(items) {
   const arr = [...items];
+  if (thaiPriceOnly) {                       // Thai Price view: cheapest ฿ first
+    const cheapest = x => (x.price_thb_listings && x.price_thb_listings.length)
+      ? Math.min(...x.price_thb_listings) : Infinity;
+    arr.sort((a, b) => cheapest(a) - cheapest(b));
+    return arr;
+  }
   switch (currentSort) {
     case "collector":
       arr.sort((a, b) => (RANK_ORDER[a.collector_ranking] || 6) - (RANK_ORDER[b.collector_ranking] || 6));
