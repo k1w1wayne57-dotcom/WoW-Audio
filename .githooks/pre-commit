@@ -1,0 +1,11 @@
+#!/bin/sh
+# Block the commit when audit_db.py reports a HIGH finding.
+# Runs only when a data/ file is staged. Bypass in an emergency: git commit --no-verify
+
+git diff --cached --name-only | grep -q '^data/' || exit 0
+
+root=$(git rev-parse --show-toplevel)
+py "$root/scripts/audit_db.py" --severity high || {
+  echo "pre-commit: audit_db.py found HIGH issues - commit blocked." >&2
+  exit 1
+}

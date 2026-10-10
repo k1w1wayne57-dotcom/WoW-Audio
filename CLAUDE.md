@@ -21,7 +21,7 @@ Extends `../CLAUDE.md`. Vintage audio reference DB: Sansui, Marantz, Pioneer.
 
 ## Data
 
-- `scripts/audit_db.py` — read-only integrity check. Run before committing data changes. Exits 1 on any HIGH finding.
+- `scripts/audit_db.py` — read-only integrity check. Run before committing data changes. Exits 1 on any HIGH finding. `.githooks/pre-commit` runs it automatically when a `data/` file is staged (enabled by `git config core.hooksPath .githooks`, a per-clone setting).
 - Sources: Audio Database (specs, structured spec table), HiFi Engine (blocked to automation — Wayne pastes it), Classic Receivers, the Audiokarma product history.
 - `norm_model()` in `backfill_specs.py` is the shared key. It folds `AU-AL607` / `AU-α607` / `AU-a607` / `AU-Alpha-607`.
 - Faceplate photos outrank published sources. Two DB errors were caught that way (Black Era, Twin Diamond Balanced Drive).
