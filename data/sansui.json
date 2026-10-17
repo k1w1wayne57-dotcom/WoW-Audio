@@ -584,8 +584,8 @@
     },
     "notes": null,
     "verified": false,
-    "avg_price_usd_3mo": 1008,
-    "price_basis": "hifishark US 12mo listing median (AUD->USD), n=5, 2026-08",
+    "avg_price_usd_3mo": 1901,
+    "price_basis": "hifishark asking median, non-JP/HK (AUD->USD @1.44), 2026-10",
     "year_source": "serial-report (decoded; first volume production year)",
     "price_thb_listings": [
       65000
@@ -595,13 +595,13 @@
     "sonic_signature": "Capacitor-coupled output: a series capacitor sits between the output stage and the speaker, which high-passes the deep bass and softens the bottom end. That is where the warm, rounded voice of this generation comes from - a circuit consequence rather than a voicing choice. The result is a lush, organic midrange often described as tube-like, with smooth clarity and an unfussy top end.",
     "thb_status": "For sale",
     "auto_price": {
-      "source": "hifishark.com (US region, 12mo export)",
-      "date": "2026-08",
-      "n": 5,
-      "median_usd": 1008,
-      "low": 614,
-      "high": 2064,
-      "previous_usd": 900
+      "source": "hifishark.com (all-region export, JP/HK + combo excluded)",
+      "date": "2026-10",
+      "n": 15,
+      "median_usd": 1901,
+      "low": 1572,
+      "high": 3882,
+      "previous_usd": 1008
     },
     "thb_checked": "2026-08",
     "circuit_family": "Classic solid-state (capacitor-coupled)",
@@ -18038,7 +18038,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Unranked",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
@@ -18073,11 +18073,11 @@
     },
     "notes": null,
     "verified": true,
-    "avg_price_usd_3mo": 650,
-    "price_basis": null,
+    "avg_price_usd_3mo": 2200,
+    "price_basis": "owner-reported world asking 2026-10 (MOS Vintage; prior $650 too low)",
     "year_source": "user (spec sheet)",
     "price_thb_listings": [
-      28900
+      28000
     ],
     "usd_msrp": null,
     "market": null,
@@ -18825,11 +18825,10 @@
     "notes": null,
     "verified": true,
     "avg_price_usd_3mo": 1240,
-    "price_basis": "owner-reported world asking 2026-10 (typical ~$1240; mint MOS to ~$2200)",
+    "price_basis": "owner-reported world asking 2026-10 (typical ~$1240)",
     "year_source": "user (spec sheet)",
     "price_thb_listings": [
-      20000,
-      28000
+      20000
     ],
     "usd_msrp": null,
     "market": null,

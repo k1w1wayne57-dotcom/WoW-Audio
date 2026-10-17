@@ -149,34 +149,44 @@ function openQuickAdd() {
 function closeQuickAdd() { document.getElementById("qa-overlay").hidden = true; }
 
 // ---------- ฿ Bargains popup ----------
-// Every Thai-priced model (for sale or sold) ranked by how far the cheapest
-// Thai ask sits under the world 3-mo price. thaiBargain() does the FX math.
+// Thai-priced models (for sale or sold) grouped by brand, each section ranked
+// by how far the cheapest Thai ask sits under the world price. Columns mirror
+// Wayne's sheet: Baht, Thai AUD, USD, World AUD, Difference, %. thaiBargain() = FX.
 function openBargains() {
-  const list = DB.map(d => ({ d, b: thaiBargain(d) }))
-    .filter(x => x.b)
-    .sort((a, b) => {
-      const pa = a.b.pct, pb = b.b.pct;
-      if (pa === null && pb === null) return a.b.thaiAud - b.b.thaiAud;
-      if (pa === null) return 1;
-      if (pb === null) return -1;
-      return pb - pa;                           // biggest discount first
+  const rows = [];
+  let total = 0;
+  ["Sansui", "Marantz", "Pioneer"].forEach(brand => {
+    const list = DB.filter(d => d.brand === brand)
+      .map(d => ({ d, b: thaiBargain(d) }))
+      .filter(x => x.b)
+      .sort((a, b) => {
+        const pa = a.b.pct, pb = b.b.pct;
+        if (pa === null && pb === null) return a.b.thaiAud - b.b.thaiAud;
+        if (pa === null) return 1;
+        if (pb === null) return -1;
+        return pb - pa;                         // biggest % difference first
+      });
+    if (!list.length) return;
+    total += list.length;
+    rows.push(`<tr class="bg-section"><td colspan="7">${escapeHtml(brand)} <span class="bg-seccount">${list.length}</span></td></tr>`);
+    list.forEach(({ d, b }) => {
+      const sold = (d.thb_status || "").toLowerCase() === "sold";
+      const diff = b.worldAud !== null ? b.worldAud - b.thaiAud : null;
+      const pctCell = b.pct === null ? "—"
+        : `<span class="bargain-pct${b.pct >= 50 ? " big" : b.pct < 0 ? " neg" : ""}">${b.pct}%</span>`;
+      rows.push(`<tr data-id="${escapeHtml(d.id)}">
+        <td class="bg-model"><b>${escapeHtml(d.jdm_model)}</b>${sold ? ` <span class="thb-badge thb-sold">SOLD</span>` : ""}</td>
+        <td class="bg-num">฿${b.baht.toLocaleString()}</td>
+        <td class="bg-num">${aud(b.thaiAud)}</td>
+        <td class="bg-num">${b.usd ? "$" + b.usd.toLocaleString() : "—"}</td>
+        <td class="bg-num">${b.worldAud !== null ? aud(b.worldAud) : "—"}</td>
+        <td class="bg-num">${diff !== null ? aud(diff) : "—"}</td>
+        <td class="bg-num">${pctCell}</td>
+      </tr>`);
     });
-  const rows = list.map(({ d, b }) => {
-    const sold = (d.thb_status || "").toLowerCase() === "sold";
-    const pctCell = b.pct === null ? "—"
-      : `<span class="bargain-pct${b.pct >= 50 ? " big" : b.pct < 0 ? " neg" : ""}">${b.pct}%</span>`;
-    return `<tr data-id="${escapeHtml(d.id)}">
-      <td class="bg-model"><b>${escapeHtml(d.jdm_model)}</b>${d.brand ? ` <span class="bg-brand">${escapeHtml(d.brand)}</span>` : ""}</td>
-      <td>${escapeHtml(d.type || "—")}</td>
-      <td class="bg-num">฿${b.baht.toLocaleString()}</td>
-      <td class="bg-num">${aud(b.thaiAud)}</td>
-      <td class="bg-num">${b.worldAud ? aud(b.worldAud) : "—"}</td>
-      <td class="bg-num">${pctCell}</td>
-      <td><span class="thb-badge thb-${sold ? "sold" : "sale"}">${sold ? "SOLD" : "FOR SALE"}</span></td>
-    </tr>`;
-  }).join("");
-  document.getElementById("bargain-body").innerHTML = rows;
-  document.getElementById("bargain-count").textContent = list.length;
+  });
+  document.getElementById("bargain-body").innerHTML = rows.join("");
+  document.getElementById("bargain-count").textContent = total;
   document.getElementById("bargain-fx").textContent =
     `cheapest Thai ask vs world 3-mo avg · ฿${FX.thb_per_aud}/A$ · US$1 = A$${FX.usd_per_aud} · ${FX.as_of}`;
   document.getElementById("bargain-overlay").hidden = false;
