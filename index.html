@@ -92,6 +92,7 @@
     <div class="control-row" id="extra-row">
       <button class="btn filter-btn" id="best-buy-filter">⭐ Best Buy Only</button>
       <button class="btn filter-btn" id="thai-price-filter">🇹🇭 Thai Price</button>
+      <button class="btn filter-btn" id="bargains-btn">฿ Bargains</button>
       <button class="btn filter-btn" id="intl-filter">🌍 International</button>
       <button class="btn filter-btn" id="history-view">📜 History</button>
       <button class="btn filter-btn" id="add-model-btn" hidden>＋ Add Model</button>
@@ -176,6 +177,26 @@
       <button class="btn" id="qa-save" type="button">Add</button>
       <button class="btn" id="qa-cancel" type="button">Cancel</button>
       <span class="qa-msg" id="qa-status"></span>
+    </div>
+  </div>
+</div>
+
+<!-- Thai Bargains popup -->
+<div class="bargain-overlay" id="bargain-overlay" hidden>
+  <div class="bargain-modal">
+    <button class="modal-close" id="bargain-close">&times;</button>
+    <h2>฿ Thai Bargains <span class="bargain-tally" id="bargain-count">0</span></h2>
+    <p class="bargain-fx" id="bargain-fx"></p>
+    <div class="bargain-scroll">
+      <table class="bargain-table">
+        <thead>
+          <tr>
+            <th>Model</th><th>Type</th><th>Thai ฿</th><th>Thai A$</th>
+            <th>World A$</th><th>Under world</th><th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="bargain-body"></tbody>
+      </table>
     </div>
   </div>
 </div>

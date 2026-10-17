@@ -148,6 +148,41 @@ function openQuickAdd() {
 
 function closeQuickAdd() { document.getElementById("qa-overlay").hidden = true; }
 
+// ---------- ฿ Bargains popup ----------
+// Every Thai-priced model (for sale or sold) ranked by how far the cheapest
+// Thai ask sits under the world 3-mo price. thaiBargain() does the FX math.
+function openBargains() {
+  const list = DB.map(d => ({ d, b: thaiBargain(d) }))
+    .filter(x => x.b)
+    .sort((a, b) => {
+      const pa = a.b.pct, pb = b.b.pct;
+      if (pa === null && pb === null) return a.b.thaiAud - b.b.thaiAud;
+      if (pa === null) return 1;
+      if (pb === null) return -1;
+      return pb - pa;                           // biggest discount first
+    });
+  const rows = list.map(({ d, b }) => {
+    const sold = (d.thb_status || "").toLowerCase() === "sold";
+    const pctCell = b.pct === null ? "—"
+      : `<span class="bargain-pct${b.pct >= 50 ? " big" : b.pct < 0 ? " neg" : ""}">${b.pct}%</span>`;
+    return `<tr data-id="${escapeHtml(d.id)}">
+      <td class="bg-model"><b>${escapeHtml(d.jdm_model)}</b>${d.brand ? ` <span class="bg-brand">${escapeHtml(d.brand)}</span>` : ""}</td>
+      <td>${escapeHtml(d.type || "—")}</td>
+      <td class="bg-num">฿${b.baht.toLocaleString()}</td>
+      <td class="bg-num">${aud(b.thaiAud)}</td>
+      <td class="bg-num">${b.worldAud ? aud(b.worldAud) : "—"}</td>
+      <td class="bg-num">${pctCell}</td>
+      <td><span class="thb-badge thb-${sold ? "sold" : "sale"}">${sold ? "SOLD" : "FOR SALE"}</span></td>
+    </tr>`;
+  }).join("");
+  document.getElementById("bargain-body").innerHTML = rows;
+  document.getElementById("bargain-count").textContent = list.length;
+  document.getElementById("bargain-fx").textContent =
+    `cheapest Thai ask vs world 3-mo avg · ฿${FX.thb_per_aud}/A$ · US$1 = A$${FX.usd_per_aud} · ${FX.as_of}`;
+  document.getElementById("bargain-overlay").hidden = false;
+}
+function closeBargains() { document.getElementById("bargain-overlay").hidden = true; }
+
 function setQaStatus(msg, cls) {
   const s = document.getElementById("qa-status");
   s.textContent = msg;
@@ -320,6 +355,19 @@ function bindControls() {
     render();
   });
 
+  const bargBtn = document.getElementById("bargains-btn");
+  if (bargBtn) bargBtn.addEventListener("click", openBargains);
+  document.getElementById("bargain-close").addEventListener("click", closeBargains);
+  document.getElementById("bargain-overlay").addEventListener("click", (e) => {
+    if (e.target.id === "bargain-overlay") closeBargains();
+  });
+  document.getElementById("bargain-body").addEventListener("click", (e) => {
+    const tr = e.target.closest("tr[data-id]");
+    if (!tr) return;
+    const item = DB.find(d => d.id === tr.dataset.id);
+    if (item) { closeBargains(); openModal(item); }
+  });
+
   const histBtn = document.getElementById("history-view");
   histBtn.addEventListener("click", () => {
     historyMode = !historyMode;
@@ -367,7 +415,7 @@ function bindControls() {
     if (e.target.id === "modal-overlay") closeModal();
   });
   document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape") closeModal();
+    if (e.key === "Escape") { closeModal(); closeBargains(); }
   });
 }
 
@@ -483,6 +531,24 @@ function formatPrice(item) {
       : `฿${t[0].toLocaleString()}`);
   }
   return parts.length ? parts.join(" / ") : "—";
+}
+
+// ---------- Thai-vs-world bargain math ----------
+// Wayne's working FX figures. Update these two numbers (and the date) when the
+// AUD moves — the Thai Value lines and the ฿ Bargains popup recompute from them.
+const FX = { thb_per_aud: 23.14, usd_per_aud: 1.44, as_of: "2026-10-17" };
+const aud = n => "A$" + Math.round(n).toLocaleString();
+
+// Cheapest Thai ask vs the world 3-mo price, both in AUD, plus the % Thailand
+// sits under world. Uses the cheapest listing (best bargain). null if no ฿ price.
+function thaiBargain(item) {
+  const thb = (item.price_thb_listings || []).filter(x => x > 0);
+  if (!thb.length) return null;
+  const baht = Math.min(...thb);
+  const thaiAud = baht / FX.thb_per_aud;
+  const worldAud = item.avg_price_usd_3mo ? item.avg_price_usd_3mo * FX.usd_per_aud : null;
+  const pct = worldAud ? Math.round((1 - thaiAud / worldAud) * 100) : null;
+  return { baht, thaiAud, usd: item.avg_price_usd_3mo || null, worldAud, pct };
 }
 
 function wrenchDisplay(level) {
@@ -747,6 +813,17 @@ function openModal(item) {
   let typeDisplay = item.type || "";
   if (/integrated/i.test(typeDisplay)) typeDisplay += " Amplifier";
 
+  const bg = thaiBargain(item);
+  const thaiValueLine = bg
+    ? `<p class="info-line"><span class="il-label">Thai Value:</span>฿${bg.baht.toLocaleString()} ≈ <strong>${aud(bg.thaiAud)}</strong>`
+      + (bg.pct !== null
+          ? ` · <strong class="bargain-pct${bg.pct >= 50 ? " big" : bg.pct < 0 ? " neg" : ""}">`
+            + `${bg.pct >= 0 ? bg.pct + "% under world" : Math.abs(bg.pct) + "% over world"}</strong>`
+            + ` <em>(world ${aud(bg.worldAud)} · FX ${FX.as_of})</em>`
+          : ` <em>· no world price to compare</em>`)
+      + `</p>`
+    : "";
+
   modalContent.innerHTML = `
     <div class="modal-header">
       <div>
@@ -808,6 +885,7 @@ function openModal(item) {
       <p class="info-line"><span class="il-label">Collector Ranking:</span><strong>${item.collector_ranking || "Unranked"}</strong></p>
       <p class="info-line"><span class="il-label">3-Mo Price:</span>${formatPrice(item)}${item.price_basis ? ` <em>(${item.price_basis})</em>` : ""}${item.price_thb_listings && item.price_thb_listings.length ? " <em>· each ฿ = a separate Thai listing</em>" : ""}</p>
       ${item.thb_status ? `<p class="info-line"><span class="il-label">Thai Status:</span><span class="thb-badge thb-${item.thb_status === "Sold" ? "sold" : "sale"}">${item.thb_status === "Sold" ? "SOLD" : "FOR SALE"}</span> <em>(as of ${escapeHtml(item.last_price_check || "")})</em></p>` : ""}
+      ${thaiValueLine}
       <p class="info-line"><span class="il-label">Price Confidence:</span>${escapeHtml(item.price_confidence || "None")}</p>
       ${item.collector_info && item.collector_info.known_issues ? `<p class="info-line"><span class="il-label">Known Issues:</span>${escapeHtml(item.collector_info.known_issues)}</p>` : ""}
       ${item.collector_info && item.collector_info.collector_notes ? `<p class="info-line"><span class="il-label">Collector Notes:</span>${escapeHtml(item.collector_info.collector_notes)}</p>` : ""}

@@ -1284,7 +1284,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Low",
-    "last_price_check": "2026-06",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -1323,11 +1323,13 @@
     "avg_price_usd_3mo": 650,
     "price_basis": null,
     "year_source": "serial-report (decoded; first volume production year)",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      10900
+    ],
     "usd_msrp": 400,
     "market": null,
     "sonic_signature": "Capacitor-coupled output: a series capacitor sits between the output stage and the speaker, which high-passes the deep bass and softens the bottom end. That is where the warm, rounded voice of this generation comes from - a circuit consequence rather than a voicing choice. The result is a lush, organic midrange often described as tube-like, with smooth clarity and an unfussy top end.",
-    "thb_status": null,
+    "thb_status": "For sale",
     "circuit_family": "Classic solid-state (capacitor-coupled)",
     "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)"
   },
@@ -6568,7 +6570,8 @@
     "price_basis": null,
     "year_source": "serial-report (decoded; first volume production year)",
     "price_thb_listings": [
-      3500
+      3500,
+      2490
     ],
     "usd_msrp": null,
     "market": null,
@@ -10276,7 +10279,8 @@
     "ps_type": null,
     "year_source": "serial-report (decoded; first volume production year)",
     "price_thb_listings": [
-      11500
+      11500,
+      13500
     ],
     "usd_msrp": null,
     "market": null,
@@ -18783,7 +18787,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": "Bought by Wayne (Aug 2026, THB 20,000)."
@@ -18819,16 +18823,17 @@
     },
     "notes": null,
     "verified": true,
-    "avg_price_usd_3mo": 550,
-    "price_basis": null,
+    "avg_price_usd_3mo": 1240,
+    "price_basis": "owner-reported world asking 2026-10 (typical ~$1240; mint MOS to ~$2200)",
     "year_source": "user (spec sheet)",
     "price_thb_listings": [
-      20000
+      20000,
+      28000
     ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Sweet and extremely detailed - never brittle or cool. Wonderfully warm and detailed on voice, acoustic instruments and complex orchestral/choral/operatic material, with striking stereo imaging; noticeably sweeter than the B-2101 despite near-identical specs. Unusually load-tolerant for a Sansui power amp - drives speakers dipping to 2 ohms, with roughly 680W/ch instantaneous at 2 ohms. Pairs best with the matching C-2102.",
-    "thb_status": "Sold",
+    "thb_status": "For sale",
     "thb_checked": "2026-08",
     "circuit_family": "X-Balanced / alpha-X Balanced"
   },
@@ -19101,7 +19106,8 @@
       12000,
       13000,
       20000,
-      13000
+      13000,
+      18000
     ],
     "usd_msrp": null,
     "market": null,
@@ -20491,6 +20497,67 @@
     "market": null,
     "sonic_signature": null,
     "sonic_source": null,
+    "thb_status": "For sale"
+  },
+  {
+    "id": "sansui-au-1500",
+    "brand": "Sansui",
+    "jdm_model": "AU-1500",
+    "int_model": null,
+    "type": "Integrated",
+    "series": null,
+    "year_start": null,
+    "year_end": null,
+    "japan_price_kyen": null,
+    "watts_per_channel": null,
+    "freq_response_hz": null,
+    "thd_percent": null,
+    "ps_type": null,
+    "amp_circuit": null,
+    "weight_kg": null,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": null,
+    "price_confidence": "Low",
+    "last_price_check": "2026-10",
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null,
+      "sansui_us": null,
+      "brochure": null,
+      "source": null
+    },
+    "notes": null,
+    "verified": false,
+    "verification": "sourced",
+    "avg_price_usd_3mo": 180,
+    "price_basis": "world asking from owner's Thai bargain sheet 2026-10",
+    "year_source": null,
+    "price_thb_listings": [
+      2500
+    ],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": null,
     "thb_status": "For sale"
   }
 ]
