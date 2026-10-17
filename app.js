@@ -171,14 +171,19 @@ function openBargains() {
       });
     if (!list.length) return;
     total += list.length;
-    rows.push(`<tr class="bg-section"><td colspan="7">${escapeHtml(brand)} <span class="bg-seccount">${list.length}</span></td></tr>`);
+    rows.push(`<tr class="bg-section"><td colspan="8">${escapeHtml(brand)} <span class="bg-seccount">${list.length}</span></td></tr>`);
     list.forEach(({ d, b }) => {
       const sold = (d.thb_status || "").toLowerCase() === "sold";
       const diff = b.worldAud !== null ? b.worldAud - b.thaiAud : null;
       const pctCell = b.pct === null ? "—"
         : `<span class="bargain-pct${b.pct >= 50 ? " big" : b.pct < 0 ? " neg" : ""}">${b.pct}%</span>`;
+      const rk = d.collector_ranking;
+      const rankCell = (rk && rk !== "Unranked")
+        ? `<span class="rank-badge compact ${rankClass(rk)}">${rk.replace("Top ", "")}</span>`
+        : `<span class="bg-rank-none">—</span>`;
       rows.push(`<tr data-id="${escapeHtml(d.id)}">
         <td class="bg-model"><b>${escapeHtml(d.jdm_model)}</b>${sold ? ` <span class="thb-badge thb-sold">SOLD</span>` : ""}</td>
+        <td>${rankCell}</td>
         <td class="bg-num">฿${b.baht.toLocaleString()}</td>
         <td class="bg-num">${aud(b.thaiAud)}</td>
         <td class="bg-num">${b.usd ? "$" + b.usd.toLocaleString() : "—"}</td>
@@ -494,7 +499,7 @@ function sortItems(items) {
   }
   switch (currentSort) {
     case "collector":
-      arr.sort((a, b) => (RANK_ORDER[a.collector_ranking] || 6) - (RANK_ORDER[b.collector_ranking] || 6));
+      arr.sort((a, b) => (RANK_ORDER[activeRank(a)] || 6) - (RANK_ORDER[activeRank(b)] || 6));
       break;
     case "newest":
       arr.sort((a, b) => (b.year_start || 0) - (a.year_start || 0));
@@ -527,6 +532,12 @@ function sortItems(items) {
 
 function rankClass(rank) {
   return "rank-" + (rank || "Unranked").replace(/\s+/g, "-");
+}
+
+// Which ranking to show: the global (whole-archive) band in the All-brands
+// view, the brand's own band when a single brand is selected.
+function activeRank(item) {
+  return (currentBrand === "all" ? item.global_ranking : item.collector_ranking) || "Unranked";
 }
 
 function priceClass(price) {
@@ -773,7 +784,7 @@ function render() {
       : "—";
 
     tr.innerHTML = `
-      <td><span class="rank-badge ${rankClass(item.collector_ranking)}">${item.collector_ranking || "Unranked"}</span></td>
+      <td><span class="rank-badge ${rankClass(activeRank(item))}">${activeRank(item)}</span></td>
       <td class="model-cell">
         ${item.brand ? `<span class="model-brand">${escapeHtml(item.brand)}</span>` : ""}
         <span class="model-jdm">${escapeHtml(item.jdm_model)}</span>
@@ -833,16 +844,35 @@ function openModal(item) {
   let typeDisplay = item.type || "";
   if (/integrated/i.test(typeDisplay)) typeDisplay += " Amplifier";
 
-  const bg = thaiBargain(item);
-  const thaiValueLine = bg
-    ? `<p class="info-line"><span class="il-label">Thai Value:</span>฿${bg.baht.toLocaleString()} ≈ <strong>${aud(bg.thaiAud)}</strong>`
-      + (bg.pct !== null
-          ? ` · <strong class="bargain-pct${bg.pct >= 50 ? " big" : bg.pct < 0 ? " neg" : ""}">`
-            + `${bg.pct >= 0 ? bg.pct + "% under world" : Math.abs(bg.pct) + "% over world"}</strong>`
-            + ` <em>(world ${aud(bg.worldAud)} · FX ${FX.as_of})</em>`
-          : ` <em>· no world price to compare</em>`)
-      + `</p>`
-    : "";
+  // Pricing in the same columns as the ฿ Bargains popup, for continuity.
+  const pUsd = item.avg_price_usd_3mo;
+  const pWorldAud = pUsd ? pUsd * FX.usd_per_aud : null;
+  const pThb = (item.price_thb_listings || []).filter(x => x > 0);
+  const pBaht = pThb.length ? Math.min(...pThb) : null;
+  const pThaiAud = pBaht !== null ? pBaht / FX.thb_per_aud : null;
+  const pDiff = (pWorldAud !== null && pThaiAud !== null) ? pWorldAud - pThaiAud : null;
+  const pPct = (pWorldAud !== null && pThaiAud !== null) ? Math.round((1 - pThaiAud / pWorldAud) * 100) : null;
+  const dash = "—";
+  const pPctCell = pPct === null ? dash
+    : `<span class="bargain-pct${pPct >= 50 ? " big" : pPct < 0 ? " neg" : ""}">${pPct}%</span>`;
+  const pFoot = [];
+  if (pThb.length > 1) pFoot.push(`cheapest of ${pThb.length} Thai listings (฿${pThb.map(x => x.toLocaleString()).join(", ฿")})`);
+  if (item.price_basis) pFoot.push(`world basis: ${escapeHtml(item.price_basis)}`);
+  pFoot.push(`FX ${FX.as_of}`);
+  const priceBlock = (pUsd || pBaht !== null) ? `
+      <table class="price-table">
+        <thead><tr><th>Baht</th><th>Thai AUD</th><th>USD</th><th>World AUD</th><th>Difference</th><th>%</th></tr></thead>
+        <tbody><tr>
+          <td>${pBaht !== null ? "฿" + pBaht.toLocaleString() : dash}</td>
+          <td>${pThaiAud !== null ? aud(pThaiAud) : dash}</td>
+          <td>${pUsd ? "$" + pUsd.toLocaleString() : dash}</td>
+          <td>${pWorldAud !== null ? aud(pWorldAud) : dash}</td>
+          <td>${pDiff !== null ? aud(pDiff) : dash}</td>
+          <td>${pPctCell}</td>
+        </tr></tbody>
+      </table>
+      <p class="price-foot">${pFoot.join(" · ")}</p>`
+    : `<p class="info-line"><span class="il-label">Price:</span>${dash}</p>`;
 
   modalContent.innerHTML = `
     <div class="modal-header">
@@ -851,7 +881,7 @@ function openModal(item) {
         <h2>${escapeHtml(item.jdm_model)}${item.int_model ? " / " + escapeHtml(item.int_model) : ""}</h2>
         <p class="modal-sub"><strong>${escapeHtml(typeDisplay)}</strong> | ${years}</p>
         <div class="modal-badges">
-          <span class="rank-badge ${rankClass(item.collector_ranking)}">${item.collector_ranking || "Unranked"}</span>
+          <span class="rank-badge ${rankClass(activeRank(item))}">${activeRank(item)}</span>
         </div>
         ${item.best_buy && item.best_buy.rating ? `
         <div class="modal-bestbuy-top">
@@ -902,13 +932,17 @@ function openModal(item) {
 
     <div class="modal-section">
       <h3>🏆 Collector Information</h3>
-      <p class="info-line"><span class="il-label">Collector Ranking:</span><strong>${item.collector_ranking || "Unranked"}</strong></p>
-      <p class="info-line"><span class="il-label">3-Mo Price:</span>${formatPrice(item)}${item.price_basis ? ` <em>(${item.price_basis})</em>` : ""}${item.price_thb_listings && item.price_thb_listings.length ? " <em>· each ฿ = a separate Thai listing</em>" : ""}</p>
+      <p class="info-line"><span class="il-label">Collector Ranking:</span>${(() => {
+        const pb = item.collector_ranking || "Unranked", gl = item.global_ranking || "Unranked";
+        return (pb === "Unranked" && gl === "Unranked")
+          ? `<strong>Unranked</strong> <span class="il-hint">· only the top 50 by value carry a rank</span>`
+          : `<strong>${escapeHtml(pb)}</strong> in ${escapeHtml(item.brand || "brand")} · <strong>${escapeHtml(gl)}</strong> globally`;
+      })()}</p>
+      ${item.collector_info && item.collector_info.collector_notes ? `<p class="info-line"><span class="il-label">Collector Notes:</span>${escapeHtml(item.collector_info.collector_notes)}</p>` : ""}
+      ${priceBlock}
       ${item.thb_status ? `<p class="info-line"><span class="il-label">Thai Status:</span><span class="thb-badge thb-${item.thb_status === "Sold" ? "sold" : "sale"}">${item.thb_status === "Sold" ? "SOLD" : "FOR SALE"}</span> <em>(as of ${escapeHtml(item.last_price_check || "")})</em></p>` : ""}
-      ${thaiValueLine}
       <p class="info-line"><span class="il-label">Price Confidence:</span>${escapeHtml(item.price_confidence || "None")}</p>
       ${item.collector_info && item.collector_info.known_issues ? `<p class="info-line"><span class="il-label">Known Issues:</span>${escapeHtml(item.collector_info.known_issues)}</p>` : ""}
-      ${item.collector_info && item.collector_info.collector_notes ? `<p class="info-line"><span class="il-label">Collector Notes:</span>${escapeHtml(item.collector_info.collector_notes)}</p>` : ""}
     </div>
 
     <div class="modal-section">

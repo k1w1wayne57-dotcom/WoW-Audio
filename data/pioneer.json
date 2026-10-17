@@ -64,7 +64,8 @@
       "low": 5987,
       "high": 17680,
       "previous_usd": 7000
-    }
+    },
+    "global_ranking": "Top 10"
   },
   {
     "id": "pioneer-sx-1250-1976",
@@ -131,7 +132,8 @@
       "low": 2301,
       "high": 5987,
       "previous_usd": 2500
-    }
+    },
+    "global_ranking": "Top 10-20"
   },
   {
     "id": "pioneer-sx-1050-1976",
@@ -198,7 +200,8 @@
       "low": 1381,
       "high": 6033,
       "previous_usd": 1300
-    }
+    },
+    "global_ranking": "Top 20-30"
   },
   {
     "id": "pioneer-sx-1010-1974",
@@ -265,7 +268,8 @@
       "low": 921,
       "high": 1565,
       "previous_usd": 800
-    }
+    },
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sx-950",
@@ -354,7 +358,8 @@
         "usd_msrp"
       ]
     },
-    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "global_ranking": "Top 40-50"
   },
   {
     "id": "pioneer-sx-850-1976",
@@ -375,7 +380,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 10-20",
+    "collector_ranking": "Top 10",
     "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
@@ -421,7 +426,8 @@
       "low": 921,
       "high": 3454,
       "previous_usd": 600
-    }
+    },
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sx-750-1976",
@@ -442,7 +448,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 10-20",
+    "collector_ranking": "Top 10",
     "price_confidence": "Low",
     "last_price_check": "2026-08",
     "collector_info": {
@@ -488,7 +494,8 @@
       "low": 829,
       "high": 1290,
       "previous_usd": 450
-    }
+    },
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sx-650",
@@ -571,7 +578,8 @@
         "usd_msrp"
       ]
     },
-    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sx-636-1974",
@@ -648,7 +656,8 @@
         "weight_kg"
       ]
     },
-    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sx-6000",
@@ -669,7 +678,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 20-30",
+    "collector_ranking": "Top 30-40",
     "price_confidence": "Medium",
     "last_price_check": "2026-10",
     "collector_info": {
@@ -721,7 +730,8 @@
         "year_start"
       ]
     },
-    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sx-580-1978",
@@ -742,7 +752,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 30-40",
+    "collector_ranking": "Top 40-50",
     "price_confidence": "Medium",
     "last_price_check": "2026-10",
     "collector_info": {
@@ -792,7 +802,8 @@
     },
     "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
     "output_stage": "STK hybrid module",
-    "output_stage_source": "STK-0039 hybrid IC (Oleg's Vintage Audio / diyAudio; SX-580/680/780 are the STK-module tier)"
+    "output_stage_source": "STK-0039 hybrid IC (Oleg's Vintage Audio / diyAudio; SX-580/680/780 are the STK-module tier)",
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sx-550-1976",
@@ -856,7 +867,8 @@
       "date": "2026-08",
       "n": 8,
       "median_usd": 210
-    }
+    },
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sx-450",
@@ -877,7 +889,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 30-40",
+    "collector_ranking": "Top 10-20",
     "price_confidence": "Low",
     "last_price_check": "2026-08",
     "collector_info": {
@@ -923,7 +935,8 @@
       "low": 787,
       "high": 787,
       "previous_usd": 157
-    }
+    },
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sx-440-1969",
@@ -944,7 +957,7 @@
     "special_features": "AM/FM tuner, phono (MM) and AUX inputs, 4-16 ohm speaker rating. Dimensions 405 x 135 x 330 mm. Five 6.3V screw-in dial lamps. Input sensitivity 3mV MM / 130mV line; S/N 75dB MM, 85dB line.",
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 30-40",
+    "collector_ranking": "Top 10-20",
     "price_confidence": "Low",
     "last_price_check": "2026-10",
     "collector_info": {
@@ -1010,7 +1023,8 @@
         "special_features"
       ]
     },
-    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sx-424-1972",
@@ -1031,7 +1045,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 30-40",
+    "collector_ranking": "Top 40-50",
     "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
@@ -1088,7 +1102,8 @@
         "weight_kg"
       ]
     },
-    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sx-3700",
@@ -1109,7 +1124,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 30-40",
+    "collector_ranking": "Top 40-50",
     "price_confidence": "Medium",
     "last_price_check": "2026-10",
     "collector_info": {
@@ -1162,7 +1177,8 @@
     },
     "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
     "output_stage": "Discrete",
-    "output_stage_source": "2SC2525 discrete output transistors (WorthPoint OEM parts listing)"
+    "output_stage_source": "2SC2525 discrete output transistors (WorthPoint OEM parts listing)",
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sx-2000-1970",
@@ -1239,7 +1255,8 @@
       "fields": [
         "weight_kg"
       ]
-    }
+    },
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sx-34-1962",
@@ -1260,7 +1277,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 10",
+    "collector_ranking": "Top 20-30",
     "price_confidence": "Medium",
     "last_price_check": "2026-10",
     "collector_info": {
@@ -1316,7 +1333,8 @@
         "weight_kg"
       ]
     },
-    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sa-9900-1975",
@@ -1384,7 +1402,8 @@
         "weight_kg",
         "japan_price_kyen"
       ]
-    }
+    },
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sa-9800-1976",
@@ -1405,7 +1424,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 10",
+    "collector_ranking": "Top 10-20",
     "price_confidence": "Medium",
     "last_price_check": null,
     "collector_info": {
@@ -1452,7 +1471,8 @@
         "weight_kg",
         "japan_price_kyen"
       ]
-    }
+    },
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sa-9100-1973",
@@ -1510,7 +1530,8 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null
+    "thb_status": null,
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sa-8800ii-1979",
@@ -1593,7 +1614,8 @@
     "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
     "output_stage": "Discrete",
     "output_stage_source": "Discrete output transistors 2SC1445/2SA765 (subs 2SD587A/2SB617A); MT-100 = the socketed mounting format, with a modern Motronix MT-100 Rev.3 drop-in. Source: Wayne + AudioKarma SA-8500II thread + Motronix; audio-database confirms no hybrid module.",
-    "spec_source": "Corrected 2026-09: watts 80->60 and year 1979-81->1976 were the later US-market SA-8800's figures (hifi-wiki). SA-8800II is 60W/1976 per audio-database."
+    "spec_source": "Corrected 2026-09: watts 80->60 and year 1979-81->1976 were the later US-market SA-8800's figures (hifi-wiki). SA-8800II is 60W/1976 per audio-database.",
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sa-7700-1978",
@@ -1614,7 +1636,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 20-30",
+    "collector_ranking": "Top 30-40",
     "price_confidence": "Medium",
     "last_price_check": "2026-10",
     "collector_info": {
@@ -1671,7 +1693,8 @@
         "weight_kg"
       ]
     },
-    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sa-7500",
@@ -1746,7 +1769,8 @@
         "weight_kg"
       ]
     },
-    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sa-6850",
@@ -1767,7 +1791,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 10-20",
+    "collector_ranking": "Top 20-30",
     "price_confidence": "Medium",
     "last_price_check": "2026-10",
     "collector_info": {
@@ -1818,7 +1842,8 @@
         "year_start"
       ]
     },
-    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sa-6800ii-1976",
@@ -1839,7 +1864,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 20-30",
+    "collector_ranking": "Top 40-50",
     "price_confidence": "Medium",
     "last_price_check": "2026-10",
     "collector_info": {
@@ -1895,7 +1920,8 @@
     "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
     "output_stage": "Discrete",
     "output_stage_source": "Discrete OCL output, 34 transistors, no module (audio-database SA-6800II)",
-    "spec_source": "Corrected 2026-09: watts 50->45 and freq 20-20000->10-40000 per audio-database (SA-6800II is 45W/1976, 10-40kHz)."
+    "spec_source": "Corrected 2026-09: watts 50->45 and freq 20-20000->10-40000 per audio-database (SA-6800II is 45W/1976, 10-40kHz).",
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sa-6750",
@@ -1916,7 +1942,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 20-30",
+    "collector_ranking": "Top 30-40",
     "price_confidence": "Low",
     "last_price_check": "2026-10",
     "collector_info": {
@@ -1957,7 +1983,8 @@
     "sonic_signature": "The classic Pioneer sound in an integrated: clean, crisp and dynamic with tight bass and an open, slightly bright top - detailed and energetic rather than warm. (Family-level: 70s silver-face SA integrated.)",
     "thb_status": "For sale",
     "thb_checked": "2026-08",
-    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sa-6700-1978",
@@ -1978,7 +2005,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 20-30",
+    "collector_ranking": "Top 30-40",
     "price_confidence": "Medium",
     "last_price_check": "2026-10",
     "collector_info": {
@@ -2037,7 +2064,8 @@
       "median_usd": 248
     },
     "thb_checked": "2026-08",
-    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sa-6600ii-1976",
@@ -2058,7 +2086,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 20-30",
+    "collector_ranking": "Top 40-50",
     "price_confidence": "Low",
     "last_price_check": "2026-10",
     "collector_info": {
@@ -2110,7 +2138,8 @@
       ]
     },
     "thb_checked": "2026-08",
-    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sa-6300",
@@ -2131,7 +2160,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 20-30",
+    "collector_ranking": "Top 30-40",
     "price_confidence": "Medium",
     "last_price_check": "2026-10",
     "collector_info": {
@@ -2191,7 +2220,8 @@
       "median_usd": 194
     },
     "thb_checked": "2026-08",
-    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sa-4400-1979",
@@ -2270,7 +2300,8 @@
       "median_usd": 251
     },
     "thb_checked": "2026-08",
-    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sa-70-1971",
@@ -2291,7 +2322,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 20-30",
+    "collector_ranking": "Top 40-50",
     "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
@@ -2346,7 +2377,8 @@
       "median_usd": 170
     },
     "thb_checked": "2026-08",
-    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-tx-70-1969",
@@ -2367,7 +2399,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 30-40",
+    "collector_ranking": "Top 20-30",
     "price_confidence": "Medium",
     "last_price_check": "2026-08",
     "collector_info": {
@@ -2420,7 +2452,8 @@
       "n": 8,
       "median_usd": 361
     },
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-tx-7800-1979",
@@ -2487,7 +2520,8 @@
       "n": 8,
       "median_usd": 210
     },
-    "thb_checked": "2026-08"
+    "thb_checked": "2026-08",
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-qx-8000-1971",
@@ -2549,7 +2583,8 @@
     "sonic_signature": "Pioneer quad-era receiver: the clean, lively Pioneer voice spread over four channels; run in stereo it behaves as a capable mid-power receiver of its day. (Family-level: early-70s quad.)",
     "thb_status": "Sold",
     "thb_checked": "2026-08",
-    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-m-77-1980",
@@ -2619,7 +2654,8 @@
         "weight_kg"
       ]
     },
-    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-m-1500-1978",
@@ -2690,7 +2726,8 @@
         "weight_kg"
       ]
     },
-    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sm-1500-1980",
@@ -2711,7 +2748,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 10-20",
+    "collector_ranking": "Unranked",
     "price_confidence": "Low",
     "last_price_check": "2026-08",
     "collector_info": {
@@ -2752,7 +2789,8 @@
     "sonic_signature": "Pioneer's house voice in a dedicated power amp: clean, powerful and well-controlled, with firm bass grip and an open, unfatiguing top end. (Family-level: late-70s/80s power amps.)",
     "thb_status": "Sold",
     "thb_checked": "2026-08",
-    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-c-200",
@@ -2773,7 +2811,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 10-20",
+    "collector_ranking": "Unranked",
     "price_confidence": "Low",
     "last_price_check": "2026-10",
     "collector_info": {
@@ -2814,7 +2852,8 @@
     "sonic_signature": "Early-60s Pioneer tube: warm, soft and romantic with a rich midrange and gently rolled-off extremes - a period tube character rather than a modern hi-fi sound. (Family-level: early-60s tube.)",
     "thb_status": "Sold",
     "thb_checked": "2026-08",
-    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-mr-1000-1975",
@@ -2876,7 +2915,8 @@
     "sonic_signature": "The classic Pioneer sound: clean, crisp and lively with tight, controlled bass and an open, slightly forward top end - punchy and dynamic rather than warm, and very listenable at volume. (Family-level: 70s silver-face SX receivers.)",
     "thb_status": "Sold",
     "thb_checked": "2026-08",
-    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sa-7600",
@@ -2897,7 +2937,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Unranked",
+    "collector_ranking": "Top 20-30",
     "price_confidence": "Medium",
     "last_price_check": "2026-10",
     "collector_info": {
@@ -2943,7 +2983,8 @@
         "weight_kg"
       ]
     },
-    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sa-7600-ii",
@@ -2964,7 +3005,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Unranked",
+    "collector_ranking": "Top 20-30",
     "price_confidence": "Medium",
     "last_price_check": "2026-10",
     "collector_info": {
@@ -3013,7 +3054,8 @@
         "year_start"
       ]
     },
-    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sx-515",
@@ -3034,7 +3076,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Unranked",
+    "collector_ranking": "Top 30-40",
     "price_confidence": "Medium",
     "last_price_check": "2026-10",
     "collector_info": {
@@ -3079,7 +3121,8 @@
         "weight_kg"
       ]
     },
-    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-qx-8000a",
@@ -3100,7 +3143,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Unranked",
+    "collector_ranking": "Top 20-30",
     "price_confidence": "Medium",
     "last_price_check": "2026-10",
     "collector_info": {
@@ -3147,7 +3190,8 @@
         "weight_kg"
       ]
     },
-    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sx-727-1972",
@@ -3168,7 +3212,7 @@
     "special_features": "Classic silver-face receiver; 37W/ch (20-20kHz), 195W IHF music power.",
     "pros": null,
     "cons": null,
-    "collector_ranking": "Unranked",
+    "collector_ranking": "Top 20-30",
     "price_confidence": "Medium",
     "last_price_check": "2026-10",
     "collector_info": {
@@ -3209,7 +3253,8 @@
     "market": "International",
     "sonic_signature": "The classic Pioneer sound: clean, crisp and lively with tight, controlled bass and an open, slightly forward top end - punchy and dynamic rather than warm. (Family-level: 70s silver-face SX.)",
     "sonic_source": "family-level (WoW Audio taxonomy) 2026-10",
-    "thb_status": "For sale"
+    "thb_status": "For sale",
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sx-800-1969",
@@ -3230,7 +3275,7 @@
     "special_features": "Last-generation Pioneer tube receiver (20 tubes, Nuvistor 6CW4 FM front end).",
     "pros": null,
     "cons": null,
-    "collector_ranking": "Unranked",
+    "collector_ranking": "Top 10-20",
     "price_confidence": "Medium",
     "last_price_check": "2026-10",
     "collector_info": {
@@ -3279,7 +3324,8 @@
         "freq_response_hz",
         "thd_percent"
       ]
-    }
+    },
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sx-800a-1966",
@@ -3300,7 +3346,7 @@
     "special_features": "Tube receiver (4x 7868 outputs, 38W/ch); Nuvistor FM front end.",
     "pros": null,
     "cons": null,
-    "collector_ranking": "Unranked",
+    "collector_ranking": "Top 10-20",
     "price_confidence": "Medium",
     "last_price_check": "2026-10",
     "collector_info": {
@@ -3349,7 +3395,8 @@
         "freq_response_hz",
         "thd_percent"
       ]
-    }
+    },
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sx-202-1982",
@@ -3370,7 +3417,7 @@
     "special_features": "Compact early-80s budget receiver.",
     "pros": null,
     "cons": null,
-    "collector_ranking": "Unranked",
+    "collector_ranking": "Top 40-50",
     "price_confidence": "Low",
     "last_price_check": "2026-10",
     "collector_info": {
@@ -3418,7 +3465,8 @@
       "fields": [
         "weight_kg"
       ]
-    }
+    },
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sa-5300-1974",
@@ -3439,7 +3487,7 @@
     "special_features": "Budget integrated; tape monitor, loudness, 2 speaker pairs.",
     "pros": null,
     "cons": null,
-    "collector_ranking": "Unranked",
+    "collector_ranking": "Top 40-50",
     "price_confidence": "Medium",
     "last_price_check": "2026-10",
     "collector_info": {
@@ -3487,7 +3535,8 @@
       "fields": [
         "weight_kg"
       ]
-    }
+    },
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sa-7250-1979",
@@ -3508,7 +3557,7 @@
     "special_features": "Integrated (per akdatabase).",
     "pros": null,
     "cons": null,
-    "collector_ranking": "Unranked",
+    "collector_ranking": "Top 30-40",
     "price_confidence": "Low",
     "last_price_check": "2026-10",
     "collector_info": {
@@ -3549,7 +3598,8 @@
     "market": null,
     "sonic_signature": "The classic Pioneer sound in an integrated: clean, crisp and dynamic with tight bass and an open, slightly bright top - detailed and energetic rather than warm. (Family-level: 70s silver-face SA.)",
     "sonic_source": "family-level (WoW Audio taxonomy) 2026-10",
-    "thb_status": "For sale"
+    "thb_status": "For sale",
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sa-8800-1979",
@@ -3570,7 +3620,7 @@
     "special_features": "Later US-market SA-8800 (80W/ch) - distinct from the 60W/1976 SA-8800II.",
     "pros": null,
     "cons": null,
-    "collector_ranking": "Unranked",
+    "collector_ranking": "Top 20-30",
     "price_confidence": "Medium",
     "last_price_check": "2026-10",
     "collector_info": {
@@ -3620,7 +3670,8 @@
         "thd_percent",
         "weight_kg"
       ]
-    }
+    },
+    "global_ranking": "Unranked"
   },
   {
     "id": "pioneer-sx-34b-1966",
@@ -3641,7 +3692,7 @@
     "special_features": "Tube AM/FM receiver - 'B' revision of the SX-34 (14 tubes, Nuvistor FM front end).",
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 10",
+    "collector_ranking": "Unranked",
     "price_confidence": "Low",
     "last_price_check": "2026-10",
     "collector_info": {
@@ -3688,6 +3739,7 @@
       "median_usd": 319
     },
     "thb_checked": "2026-08",
-    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09"
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "global_ranking": "Unranked"
   }
 ]
