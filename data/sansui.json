@@ -961,7 +961,7 @@
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "Capacitor-coupled output: a series capacitor sits between the output stage and the speaker, which high-passes the deep bass and softens the bottom end. That is where the warm, rounded voice of this generation comes from - a circuit consequence rather than a voicing choice. The result is a lush, organic midrange often described as tube-like, with smooth clarity and an unfussy top end.",
     "thb_status": null,
     "auto_specs": {
       "source": "audio-database.com",
@@ -984,7 +984,8 @@
       "high": 1191
     },
     "circuit_family": "Classic solid-state (capacitor-coupled)",
-    "global_ranking": "Unranked"
+    "global_ranking": "Unranked",
+    "sonic_source": "Family-level, keyed on circuit topology (2026-10-17)"
   },
   {
     "id": "sansui-au-5500-1974",
@@ -1776,11 +1777,11 @@
     "year_end": 1978,
     "japan_price_kyen": 750,
     "watts_per_channel": 120,
-    "freq_response_hz": null,
+    "freq_response_hz": "5-80000",
     "thd_percent": 0.08,
     "ps_type": null,
     "amp_circuit": null,
-    "weight_kg": null,
+    "weight_kg": 19.2,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -1832,7 +1833,15 @@
     "thb_status": null,
     "circuit_family": "Classic solid-state (capacitor-coupled)",
     "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)",
-    "global_ranking": "Unranked"
+    "global_ranking": "Unranked",
+    "auto_specs": {
+      "source": "HiFi Wiki + dealer listings, AU-11000A (A-variant): freq 5Hz-80kHz +0/-1.5dB, 19.2 kg (Radiomuseum 19.3 for base AU-11000).",
+      "date": "2026-10",
+      "fields": [
+        "freq_response_hz",
+        "weight_kg"
+      ]
+    }
   },
   {
     "id": "sansui-au-20000-1976",
@@ -2691,11 +2700,11 @@
     "year_end": 1977,
     "japan_price_kyen": 600,
     "watts_per_channel": null,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "freq_response_hz": "5-80000",
+    "thd_percent": 0.05,
     "ps_type": null,
     "amp_circuit": null,
-    "weight_kg": null,
+    "weight_kg": 17.6,
     "special_features": null,
     "pros": null,
     "cons": null,
@@ -2747,7 +2756,16 @@
     "thb_status": null,
     "circuit_family": "Classic solid-state (capacitor-coupled)",
     "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)",
-    "global_ranking": "Unranked"
+    "global_ranking": "Unranked",
+    "auto_specs": {
+      "source": "HiFi Wiki + dealer listings, AU-9900A (A-variant): freq 5Hz-80kHz +0/-1.5dB, THD <0.05% (20Hz-20kHz), 17.6 kg. Continuous power disputed across sources (80 vs 90 W/ch) so watts left blank.",
+      "date": "2026-10",
+      "fields": [
+        "freq_response_hz",
+        "thd_percent",
+        "weight_kg"
+      ]
+    }
   },
   {
     "id": "sansui-au-117-1977",
@@ -5306,7 +5324,9 @@
       ]
     },
     "circuit_family": "Classic solid-state (capacitor-coupled)",
-    "global_ranking": "Unranked"
+    "global_ranking": "Unranked",
+    "sonic_signature": "Capacitor-coupled output: a series capacitor sits between the output stage and the speaker, which high-passes the deep bass and softens the bottom end. That is where the warm, rounded voice of this generation comes from - a circuit consequence rather than a voicing choice. The result is a lush, organic midrange often described as tube-like, with smooth clarity and an unfussy top end.",
+    "sonic_source": "Family-level, keyed on circuit topology (2026-10-17)"
   },
   {
     "id": "sansui-ba-202-1973",
@@ -5444,7 +5464,9 @@
       "median_usd": 396
     },
     "circuit_family": "Classic solid-state (capacitor-coupled)",
-    "global_ranking": "Unranked"
+    "global_ranking": "Unranked",
+    "sonic_signature": "Capacitor-coupled output: a series capacitor sits between the output stage and the speaker, which high-passes the deep bass and softens the bottom end. That is where the warm, rounded voice of this generation comes from - a circuit consequence rather than a voicing choice. The result is a lush, organic midrange often described as tube-like, with smooth clarity and an unfussy top end.",
+    "sonic_source": "Family-level, keyed on circuit topology (2026-10-17)"
   },
   {
     "id": "sansui-ba-3000-1976",
@@ -5805,7 +5827,9 @@
       "median_usd": 1717
     },
     "circuit_family": "Classic solid-state (capacitor-coupled)",
-    "global_ranking": "Top 40-50"
+    "global_ranking": "Top 40-50",
+    "sonic_signature": "Capacitor-coupled output: a series capacitor sits between the output stage and the speaker, which high-passes the deep bass and softens the bottom end. That is where the warm, rounded voice of this generation comes from - a circuit consequence rather than a voicing choice. The result is a lush, organic midrange often described as tube-like, with smooth clarity and an unfussy top end.",
+    "sonic_source": "Family-level, keyed on circuit topology (2026-10-17)"
   },
   {
     "id": "sansui-ca-303-1973",
@@ -17983,10 +18007,11 @@
     "price_thb_listings": [],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "Diamond Differential transparency: uncoloured and highly detailed with a wide soundstage - the neutral, accurate side of Sansui rather than the warm classic voice.",
     "thb_status": null,
     "circuit_family": "Diamond Differential",
-    "global_ranking": "Top 20-30"
+    "global_ranking": "Top 20-30",
+    "sonic_source": "Family-level, keyed on circuit topology (2026-10-17)"
   },
   {
     "id": "sansui-au-x711-1989",
@@ -18332,7 +18357,9 @@
     "thb_status": "For sale",
     "thb_checked": "2026-08",
     "circuit_family": "Diamond Differential",
-    "global_ranking": "Top 30-40"
+    "global_ranking": "Top 30-40",
+    "sonic_signature": "Diamond Differential transparency: uncoloured and highly detailed with a wide soundstage - the neutral, accurate side of Sansui rather than the warm classic voice.",
+    "sonic_source": "Family-level, keyed on circuit topology (2026-10-17)"
   },
   {
     "id": "sansui-b-2302v-1990",
@@ -20455,7 +20482,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Unranked",
-    "sonic_signature": null,
+    "sonic_signature": "Capacitor-coupled output: a series capacitor sits between the output stage and the speaker, which high-passes the deep bass and softens the bottom end. That is where the warm, rounded voice of this generation comes from - a circuit consequence rather than a voicing choice. The result is a lush, organic midrange often described as tube-like, with smooth clarity and an unfussy top end.",
     "circuit_description": null,
     "price_confidence": "None",
     "last_price_check": "2026-10",
@@ -20502,7 +20529,8 @@
     "market": "International",
     "thb_status": "For sale",
     "circuit_family": "Classic solid-state (capacitor-coupled)",
-    "global_ranking": "Unranked"
+    "global_ranking": "Unranked",
+    "sonic_source": "Family-level, keyed on circuit topology (2026-10-17)"
   },
   {
     "id": "sansui-7000-1971",
