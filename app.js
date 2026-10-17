@@ -160,11 +160,14 @@ function openBargains() {
       .map(d => ({ d, b: thaiBargain(d) }))
       .filter(x => x.b)
       .sort((a, b) => {
+        const sa = (a.d.thb_status || "").toLowerCase() === "sold" ? 1 : 0;
+        const sb = (b.d.thb_status || "").toLowerCase() === "sold" ? 1 : 0;
+        if (sa !== sb) return sa - sb;          // for-sale before sold
         const pa = a.b.pct, pb = b.b.pct;
         if (pa === null && pb === null) return a.b.thaiAud - b.b.thaiAud;
         if (pa === null) return 1;
         if (pb === null) return -1;
-        return pb - pa;                         // biggest % difference first
+        return pb - pa;                         // then biggest % difference first
       });
     if (!list.length) return;
     total += list.length;
