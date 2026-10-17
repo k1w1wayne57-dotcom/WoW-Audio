@@ -455,14 +455,14 @@ function matchesEra(item, era) {
   return true;
 }
 
+// Match the typed text against the model name only (JDM + international),
+// normalised so "d507x", "au-717" and "607" all hit. Searching the notes/type
+// as well made a single letter like "g" match almost everything.
 function matchesSearch(item, term) {
   if (!term) return true;
-  const haystack = [
-    item.jdm_model, item.int_model, item.type, item.series, item.notes,
-    item.collector_info && item.collector_info.known_issues,
-    item.collector_info && item.collector_info.collector_notes
-  ].filter(Boolean).join(" ").toLowerCase();
-  return haystack.includes(term);
+  const q = normModel(term);
+  if (!q) return true;
+  return normModel(item.jdm_model).includes(q) || normModel(item.int_model).includes(q);
 }
 
 function getFiltered() {
@@ -483,6 +483,13 @@ function sortItems(items) {
     const cheapest = x => (x.price_thb_listings && x.price_thb_listings.length)
       ? Math.min(...x.price_thb_listings) : Infinity;
     arr.sort((a, b) => cheapest(a) - cheapest(b));
+    return arr;
+  }
+  if (searchTerm) {                          // searching: name-prefix matches first, then natural order
+    const q = normModel(searchTerm);
+    const starts = x => (normModel(x.jdm_model).startsWith(q) || normModel(x.int_model).startsWith(q)) ? 0 : 1;
+    arr.sort((a, b) => starts(a) - starts(b)
+      || (a.jdm_model || "").localeCompare(b.jdm_model || "", undefined, { numeric: true }));
     return arr;
   }
   switch (currentSort) {
