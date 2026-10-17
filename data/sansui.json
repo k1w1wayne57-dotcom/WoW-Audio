@@ -18597,7 +18597,8 @@
     "price_basis": "hifishark 12mo listing median, asking prices (FX->USD) 2026-08",
     "year_source": "user (spec sheet)",
     "price_thb_listings": [
-      3900
+      3900,
+      3500
     ],
     "usd_msrp": null,
     "market": null,
