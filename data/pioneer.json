@@ -2606,7 +2606,7 @@
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 10",
-    "price_confidence": "Low",
+    "price_confidence": "Medium",
     "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
@@ -2635,8 +2635,8 @@
     "notes": "Corrected 2026-10-18: this is Pioneer's SPEC-4 power amp, named M-75 in Japan -- there is no 'M-77'. The prior record (M-77, 250 W, 0.1% THD, 1980) was wrong. Real SPEC-4 / M-75: 150 W/8Ω (180 W/4Ω), THD 0.01%, 5 Hz-100 kHz, ~1977. Specs from multiple dealer/retailer listings; a Pioneer brochure or audio-database page would confirm. The $1200 value and ฿17,900 (sold) were logged against the mislabeled M-77 -- reconfirm as SPEC-4 / M-75.",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": 1200,
-    "price_basis": "SPEC-4 / M-75 asking ~$1000-1500 (dealer listings 2026); prior 'M-77 hifishark' basis was invalid",
+    "avg_price_usd_3mo": 1950,
+    "price_basis": "HiFi Shark for-sale asking median, non-JP/HK, 2026-10 (n=13 amps, ~$1320-2580); listings not confirmed sales",
     "year_source": "audio-database",
     "price_thb_listings": [
       17900
@@ -2669,7 +2669,16 @@
       }
     ],
     "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
-    "global_ranking": "Unranked"
+    "global_ranking": "Top 30-40",
+    "auto_price": {
+      "source": "hifishark.com (for-sale, SPEC-4 + M-75, non-JP/HK)",
+      "date": "2026-10",
+      "n": 13,
+      "median_usd": 1950,
+      "low": 1320,
+      "high": 2581,
+      "previous_usd": 1200
+    }
   },
   {
     "id": "pioneer-m-1500-1978",
@@ -3766,6 +3775,71 @@
     },
     "thb_checked": "2026-08",
     "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "global_ranking": "Unranked"
+  },
+  {
+    "id": "pioneer-sx-40",
+    "brand": "Pioneer",
+    "jdm_model": "SX-40",
+    "int_model": null,
+    "type": "Receiver",
+    "series": null,
+    "year_start": null,
+    "year_end": null,
+    "japan_price_kyen": null,
+    "watts_per_channel": null,
+    "freq_response_hz": null,
+    "thd_percent": null,
+    "ps_type": null,
+    "amp_circuit": null,
+    "weight_kg": null,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "price_confidence": null,
+    "last_price_check": "2026-10",
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null,
+      "sansui_us": null,
+      "source": null
+    },
+    "notes": "Added 2026-10 from Wayne's Thai listing (฿8,600, for sale). Model identity unconfirmed: hifi-wiki groups the SX-40 with the early-1980s SX-202 solid-state line, but one eBay listing described a tube SX-40 (power-supply choke). Type/era and all specs left blank pending a faceplate.",
+    "verified": false,
+    "verification": "unconfirmed",
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": null,
+    "price_thb_listings": [
+      8600
+    ],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": null,
+    "thb_status": "For sale",
+    "auto_price": null,
+    "thb_checked": null,
+    "auto_specs": null,
+    "sonic_source": null,
     "global_ranking": "Unranked"
   }
 ]
