@@ -19084,7 +19084,8 @@
         "Protection relay contacts oxidize and cause dropouts",
         "Main filter and signal-path electrolytics dry out",
         "Output devices run hot; check bias and heatsink thermal paste",
-        "Steel PSU regulator heatsinks corrode - upgrade to black-anodised aluminium (free-standing, no mica)"
+        "Steel PSU regulator heatsinks corrode - upgrade to black-anodised aluminium (free-standing, no mica)",
+        "Corrosive mounting glue attacks the small-signal transistors bonded in it (Wayne, hands-on): found Q6 (2SA992) and Q14 (2SA1145) corroded. A glue-corroded transistor goes leaky - it skews the bias and runs that channel slightly hot, and it can fake its polarity on a meter (corroded Q6 read NPN although it is PNP), so measure suspects out-of-circuit. Check only the transistors sitting in/near the glue, not the whole board. Subs: KSA992 / KSC1845-type."
       ],
       "bias_spec_mv": null,
       "service_manual_link": null,
