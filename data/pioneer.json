@@ -2730,27 +2730,27 @@
     "global_ranking": "Unranked"
   },
   {
-    "id": "pioneer-sm-1500-1980",
+    "id": "pioneer-sm-1500ii-1980",
     "brand": "Pioneer",
-    "jdm_model": "SM-1500",
+    "jdm_model": "SM-1500II",
     "int_model": null,
     "type": "Power Amp",
     "series": "Separates",
     "year_start": 1980,
     "year_end": null,
-    "japan_price_kyen": null,
-    "watts_per_channel": null,
-    "freq_response_hz": null,
-    "thd_percent": null,
+    "japan_price_kyen": 45,
+    "watts_per_channel": 65,
+    "freq_response_hz": "5-100000",
+    "thd_percent": 0.02,
     "ps_type": null,
     "amp_circuit": "DC power amp (SM-1500II era)",
-    "weight_kg": null,
-    "special_features": null,
+    "weight_kg": 7.2,
+    "special_features": "DC amplifier configuration; large peak power meter reading output directly. Damping factor 40, S/N 120 dB (IHF).",
     "pros": null,
     "cons": null,
     "collector_ranking": "Unranked",
-    "price_confidence": "Low",
-    "last_price_check": "2026-08",
+    "price_confidence": null,
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -2775,22 +2775,34 @@
       "sansui_us": null,
       "source": null
     },
-    "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. The ฿20k listing bundles SM-1500 power amp + C-1500 preamp + a CD player. Specs sourced from audio-database (still unverified).",
+    "notes": "Specs from audio-database (SM-1500II): 65W/ch DC power amp with a direct-reading peak output meter, ¥45,000, ~1980 -- a modest amp, not a SPEC-4-class unit. ฿9,990 standalone, for sale 2026-10; an earlier ฿20k listing bundled it with a C-1500 preamp and a CD player.",
     "verified": false,
     "verification": "sourced",
     "avg_price_usd_3mo": null,
     "price_basis": null,
     "year_source": "audio-database",
     "price_thb_listings": [
-      20000
+      9990
     ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Pioneer's house voice in a dedicated power amp: clean, powerful and well-controlled, with firm bass grip and an open, unfatiguing top end. (Family-level: late-70s/80s power amps.)",
-    "thb_status": "Sold",
+    "thb_status": "For sale",
     "thb_checked": "2026-08",
     "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
-    "global_ranking": "Unranked"
+    "global_ranking": "Unranked",
+    "auto_specs": {
+      "source": "audio-database (Pioneer SM-1500II), supplied by Wayne 2026-10-18",
+      "date": "2026-10",
+      "fields": [
+        "watts_per_channel",
+        "freq_response_hz",
+        "thd_percent",
+        "weight_kg",
+        "japan_price_kyen",
+        "special_features"
+      ]
+    }
   },
   {
     "id": "pioneer-c-200",
