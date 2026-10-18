@@ -2587,26 +2587,26 @@
     "global_ranking": "Unranked"
   },
   {
-    "id": "pioneer-m-77-1980",
+    "id": "pioneer-m-75-1977",
     "brand": "Pioneer",
-    "jdm_model": "M-77",
+    "jdm_model": "M-75",
     "int_model": "SPEC-4",
     "type": "Power Amp",
     "series": "Separates",
-    "year_start": 1980,
+    "year_start": 1977,
     "year_end": null,
     "japan_price_kyen": null,
-    "watts_per_channel": 250,
-    "freq_response_hz": "5-80000",
-    "thd_percent": 0.1,
+    "watts_per_channel": 150,
+    "freq_response_hz": "5-100000",
+    "thd_percent": 0.01,
     "ps_type": null,
     "amp_circuit": "High-power stereo amp; JDM twin of the USA SPEC-4; 250W/ch (0.05% THD at 125W)",
-    "weight_kg": 24.3,
-    "special_features": null,
+    "weight_kg": 24.5,
+    "special_features": "Pioneer SPEC-series power amp: 150 W/ch into 8Ω, 180 W/ch into 4Ω; damping factor 100, S/N 115 dB; twin large peak power meters.",
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 10",
-    "price_confidence": "Medium",
+    "price_confidence": "Low",
     "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
@@ -2632,11 +2632,11 @@
       "sansui_us": null,
       "source": null
     },
-    "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Specs sourced from audio-database (still unverified).",
+    "notes": "Corrected 2026-10-18: this is Pioneer's SPEC-4 power amp, named M-75 in Japan -- there is no 'M-77'. The prior record (M-77, 250 W, 0.1% THD, 1980) was wrong. Real SPEC-4 / M-75: 150 W/8Ω (180 W/4Ω), THD 0.01%, 5 Hz-100 kHz, ~1977. Specs from multiple dealer/retailer listings; a Pioneer brochure or audio-database page would confirm. The $1200 value and ฿17,900 (sold) were logged against the mislabeled M-77 -- reconfirm as SPEC-4 / M-75.",
     "verified": false,
     "verification": "sourced",
     "avg_price_usd_3mo": 1200,
-    "price_basis": "hifishark median 2026",
+    "price_basis": "SPEC-4 / M-75 asking ~$1000-1500 (dealer listings 2026); prior 'M-77 hifishark' basis was invalid",
     "year_source": "audio-database",
     "price_thb_listings": [
       17900
@@ -2646,14 +2646,28 @@
     "sonic_signature": "Pioneer's house voice in a dedicated power amp: clean, powerful and well-controlled, with firm bass grip and an open, unfatiguing top end. (Family-level: late-70s/80s power amps.)",
     "thb_status": "Sold",
     "thb_checked": "2026-08",
-    "auto_specs": {
-      "source": "audio-database PIONEER-EXCLUSIVE",
-      "date": "2026-09",
-      "fields": [
-        "freq_response_hz",
-        "weight_kg"
-      ]
-    },
+    "auto_specs": [
+      {
+        "source": "audio-database PIONEER-EXCLUSIVE",
+        "date": "2026-09",
+        "fields": [
+          "freq_response_hz",
+          "weight_kg"
+        ]
+      },
+      {
+        "source": "Research 2026-10-18: SPEC-4 = M-75 (no M-77 exists); dealer/retailer listings",
+        "date": "2026-10",
+        "fields": [
+          "jdm_model",
+          "year_start",
+          "watts_per_channel",
+          "freq_response_hz",
+          "thd_percent",
+          "weight_kg"
+        ]
+      }
+    ],
     "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
     "global_ranking": "Unranked"
   },
