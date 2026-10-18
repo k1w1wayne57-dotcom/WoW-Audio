@@ -23,7 +23,7 @@
     "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
-      "collector_notes": "Owned by Wayne. Yamaha's flagship 'Natural Sound' receiver and a cult grail of the era."
+      "collector_notes": "Owned by Wayne (paid ฿8,000, Oct 2026 -- ~A$346 vs ~A$2,330 world, a steal). Yamaha's flagship 'Natural Sound' receiver and a cult grail of the era."
     },
     "restorer_info": {
       "known_failure_points": [],
@@ -52,11 +52,13 @@
     "avg_price_usd_3mo": 1619,
     "price_basis": "HiFi Shark for-sale asking median, non-JP/HK, 2026-10 (n=17, ~$780-3550 incl. serviced/mint); listings not confirmed sales",
     "year_source": null,
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      8000
+    ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null,
+    "thb_status": "Sold",
     "global_ranking": "Unranked"
   }
 ]
