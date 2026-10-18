@@ -46,11 +46,13 @@ async function init() {
     tableBody.innerHTML = `<tr><td colspan="11" style="padding:24px;text-align:center;color:var(--text-secondary)">Could not load database. If opening this file directly, run a local server instead.</td></tr>`;
     return;
   }
+  applyThbOverrides();
   HISTORY = await fetch("data/sansui_history.json").then(r => (r.ok ? r.json() : null)).catch(() => null);
   populateBrands();
   populateStats();
   bindControls();
   render();
+  updateSyncChip();
   setupQuickAdd();
 }
 
@@ -200,6 +202,66 @@ function openBargains() {
   document.getElementById("bargain-overlay").hidden = false;
 }
 function closeBargains() { document.getElementById("bargain-overlay").hidden = true; }
+
+// ---------- For sale / Sold toggle ----------
+// Flip a model's Thai status from the detail modal. With the local serve.py
+// backend up it writes straight to data/<brand>.json; on the static live site
+// there is nothing to write to, so the change is remembered in this browser
+// (localStorage) and surfaced via a "copy changes" chip to sync to the DB later.
+const THB_OVR_KEY = "wow_thb_overrides";
+function loadThbOverrides() {
+  try { return JSON.parse(localStorage.getItem(THB_OVR_KEY)) || {}; } catch { return {}; }
+}
+function saveThbOverrides(o) {
+  try { localStorage.setItem(THB_OVR_KEY, JSON.stringify(o)); } catch {}
+}
+function applyThbOverrides() {           // reflect earlier (unsynced) toggles on load
+  const o = loadThbOverrides();
+  DB.forEach(d => { if (o[d.id]) d.thb_status = o[d.id]; });
+}
+function toggleThaiStatus(item) {
+  const next = (item.thb_status || "").toLowerCase() === "sold" ? "For sale" : "Sold";
+  item.thb_status = next;
+  item.last_price_check = new Date().toISOString().slice(0, 7);
+  const o = loadThbOverrides();
+  const remember = () => { o[item.id] = next; saveThbOverrides(o); updateSyncChip(); };
+  if (HAS_BACKEND) {
+    fetch(`/api/records/${encodeURIComponent(item.id)}`, {
+      method: "PUT", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ brand: (item.brand || "").toLowerCase(),
+        record: { thb_status: next, last_price_check: item.last_price_check } }),
+    }).then(r => r.json())
+      .then(j => { if (j && j.ok) { delete o[item.id]; saveThbOverrides(o); updateSyncChip(); } else remember(); })
+      .catch(remember);
+  } else {
+    remember();
+  }
+  render();
+  openModal(item);
+}
+function updateSyncChip() {
+  const chip = document.getElementById("sync-chip");
+  if (!chip) return;
+  const n = Object.keys(loadThbOverrides()).length;
+  chip.hidden = n === 0;
+  chip.textContent = `⟳ ${n} status edit${n === 1 ? "" : "s"} to sync`;
+}
+async function copySyncList() {
+  const o = loadThbOverrides();
+  const ids = Object.keys(o);
+  if (!ids.length) return;
+  const lines = ids.map(id => {
+    const d = DB.find(x => x.id === id);
+    return d ? `${d.brand} ${d.jdm_model} -> ${o[id]}` : `${id} -> ${o[id]}`;
+  });
+  const ok = await qaCopy("WoW Audio — Thai status changes to apply:\n" + lines.join("\n"));
+  const chip = document.getElementById("sync-chip");
+  if (chip) {
+    chip.textContent = ok ? "✓ copied — paste to Claude to commit" : "copy blocked — see console";
+    if (!ok) console.log(lines.join("\n"));
+    setTimeout(updateSyncChip, 2500);
+  }
+}
 
 function setQaStatus(msg, cls) {
   const s = document.getElementById("qa-status");
@@ -432,6 +494,14 @@ function bindControls() {
   document.getElementById("modal-overlay").addEventListener("click", (e) => {
     if (e.target.id === "modal-overlay") closeModal();
   });
+  document.getElementById("modal-content").addEventListener("click", (e) => {
+    const t = e.target.closest("[data-thai-toggle]");
+    if (!t) return;
+    const item = DB.find(d => d.id === t.dataset.thaiToggle);
+    if (item) toggleThaiStatus(item);
+  });
+  const syncChip = document.getElementById("sync-chip");
+  if (syncChip) syncChip.addEventListener("click", copySyncList);
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") { closeModal(); closeBargains(); }
   });
@@ -940,7 +1010,7 @@ function openModal(item) {
       })()}</p>
       ${item.collector_info && item.collector_info.collector_notes ? `<p class="info-line"><span class="il-label">Collector Notes:</span>${escapeHtml(item.collector_info.collector_notes)}</p>` : ""}
       ${priceBlock}
-      ${item.thb_status ? `<p class="info-line"><span class="il-label">Thai Status:</span><span class="thb-badge thb-${item.thb_status === "Sold" ? "sold" : "sale"}">${item.thb_status === "Sold" ? "SOLD" : "FOR SALE"}</span> <em>(as of ${escapeHtml(item.last_price_check || "")})</em></p>` : ""}
+      ${(item.price_thb_listings && item.price_thb_listings.length) ? `<p class="info-line"><span class="il-label">Thai Status:</span><span class="thb-badge thb-${(item.thb_status || "").toLowerCase() === "sold" ? "sold" : "sale"}">${(item.thb_status || "").toLowerCase() === "sold" ? "SOLD" : "FOR SALE"}</span>${item.last_price_check ? ` <em>(as of ${escapeHtml(item.last_price_check)})</em>` : ""} <button class="thb-toggle" data-thai-toggle="${escapeHtml(item.id)}">Mark ${(item.thb_status || "").toLowerCase() === "sold" ? "For sale" : "Sold"}</button></p>` : ""}
       <p class="info-line"><span class="il-label">Price Confidence:</span>${escapeHtml(item.price_confidence || "None")}</p>
       ${item.collector_info && item.collector_info.known_issues ? `<p class="info-line"><span class="il-label">Known Issues:</span>${escapeHtml(item.collector_info.known_issues)}</p>` : ""}
     </div>

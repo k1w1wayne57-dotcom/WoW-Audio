@@ -306,6 +306,14 @@ tbody td {
 .price-foot { color: var(--text-secondary); font-size: .74rem; margin: 2px 0 0; line-height: 1.4; }
 .il-hint { color: var(--text-secondary); font-size: .82rem; font-weight: 400; font-style: italic; }
 
+/* For sale / Sold toggle (detail modal) + unsynced-edits chip */
+.thb-toggle { margin-left: 8px; font-family: inherit; font-size: .72rem; font-weight: 600;
+  padding: 2px 9px; border-radius: 10px; background: var(--bg); color: var(--gold);
+  border: 1px solid var(--gold); cursor: pointer; vertical-align: middle; }
+.thb-toggle:hover { background: var(--gold); color: #1a1a2e; }
+#sync-chip { color: #1a1a2e; background: var(--gold-bright); border-color: var(--gold-bright); font-weight: 700; }
+#sync-chip[hidden] { display: none; }
+
 /* Thai-vs-world bargain markers + popup */
 .bargain-pct { color: var(--green); font-weight: 700; }
 .bargain-pct.big { color: var(--gold-bright); }
