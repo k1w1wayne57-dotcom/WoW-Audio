@@ -178,10 +178,10 @@ def audit(brand):
 
 def main():
     ap = argparse.ArgumentParser(description="Audit the brand databases for bad data.")
-    ap.add_argument("--brand", choices=["sansui", "marantz", "pioneer"])
+    ap.add_argument("--brand", choices=["sansui", "marantz", "pioneer", "yamaha"])
     ap.add_argument("--severity", choices=["high", "med", "low"], default="low")
     args = ap.parse_args()
-    brands = [args.brand] if args.brand else ["sansui", "marantz", "pioneer"]
+    brands = [args.brand] if args.brand else ["sansui", "marantz", "pioneer", "yamaha"]
     floor = {"high": ["HIGH"], "med": ["HIGH", "MED"], "low": ["HIGH", "MED", "LOW"]}[args.severity]
 
     grand = 0

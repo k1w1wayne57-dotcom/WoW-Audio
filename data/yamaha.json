@@ -1,0 +1,62 @@
+[
+  {
+    "id": "yamaha-cr-2020-1977",
+    "brand": "Yamaha",
+    "jdm_model": "CR-2020",
+    "int_model": null,
+    "type": "Receiver",
+    "series": null,
+    "year_start": 1977,
+    "year_end": 1979,
+    "japan_price_kyen": null,
+    "watts_per_channel": 100,
+    "freq_response_hz": null,
+    "thd_percent": 0.05,
+    "ps_type": null,
+    "amp_circuit": null,
+    "weight_kg": 19.3,
+    "special_features": "Natural Sound receiver: MC + MM phono, continuously variable loudness, twin output meters.",
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Top 10",
+    "price_confidence": "Medium",
+    "last_price_check": "2026-10",
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": "Owned by Wayne. Yamaha's flagship 'Natural Sound' receiver and a cult grail of the era."
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null,
+      "sansui_us": null,
+      "brochure": null,
+      "source": null
+    },
+    "notes": "Yamaha CR-2020 (1977-79), flagship Natural Sound receiver. Specs from dealer/retailer listings (power cited 100-105 W/ch into 8ohm); frequency response left blank pending a brochure. First Yamaha in the DB.",
+    "verified": true,
+    "verification": "verified",
+    "avg_price_usd_3mo": 1619,
+    "price_basis": "HiFi Shark for-sale asking median, non-JP/HK, 2026-10 (n=17, ~$780-3550 incl. serviced/mint); listings not confirmed sales",
+    "year_source": null,
+    "price_thb_listings": [],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": null,
+    "thb_status": null,
+    "global_ranking": "Unranked"
+  }
+]

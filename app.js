@@ -33,7 +33,7 @@ const RANK_ORDER = { "Top 10": 1, "Top 10-20": 2, "Top 20-30": 3, "Top 30-40": 4
 const tableBody = document.getElementById("table-body");
 const noResults = document.getElementById("no-results");
 
-const DATA_FILES = ["data/sansui.json", "data/marantz.json", "data/pioneer.json"];
+const DATA_FILES = ["data/sansui.json", "data/marantz.json", "data/pioneer.json", "data/yamaha.json"];
 
 init();
 
@@ -64,8 +64,8 @@ async function init() {
 // data/<brand>.json and commit (or hand to Claude). It never pretends to save.
 const QA_TYPES = ["Receiver", "Integrated", "Power Amp", "Preamp", "Tuner",
   "Tape Deck", "Quad", "Tube Power Amp", "Tube Preamp", "Turntable"];
-const QA_BRAND_KEYS = ["sansui", "marantz", "pioneer"];
-const BRAND_LABEL = { sansui: "Sansui", marantz: "Marantz", pioneer: "Pioneer" };
+const QA_BRAND_KEYS = ["sansui", "marantz", "pioneer", "yamaha"];
+const BRAND_LABEL = { sansui: "Sansui", marantz: "Marantz", pioneer: "Pioneer", yamaha: "Yamaha" };
 let qaBrands = [];
 let HAS_BACKEND = false;
 
@@ -157,7 +157,7 @@ function closeQuickAdd() { document.getElementById("qa-overlay").hidden = true; 
 function openBargains() {
   const rows = [];
   let total = 0;
-  ["Sansui", "Marantz", "Pioneer"].forEach(brand => {
+  ["Sansui", "Marantz", "Pioneer", "Yamaha"].forEach(brand => {
     const list = DB.filter(d => d.brand === brand)
       .map(d => ({ d, b: thaiBargain(d) }))
       .filter(x => x.b)

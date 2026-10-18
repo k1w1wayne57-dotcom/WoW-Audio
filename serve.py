@@ -33,7 +33,7 @@ from flask import Flask, request, jsonify, send_from_directory
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
 
-BRAND_NAMES = {"sansui": "Sansui", "marantz": "Marantz", "pioneer": "Pioneer"}
+BRAND_NAMES = {"sansui": "Sansui", "marantz": "Marantz", "pioneer": "Pioneer", "yamaha": "Yamaha"}
 
 # Canonical record shape — new models start from this so every field exists.
 CANONICAL = {

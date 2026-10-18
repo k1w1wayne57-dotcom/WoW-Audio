@@ -18,7 +18,7 @@ import json, sys
 from collections import Counter
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 APPLY = "--apply" in sys.argv
-BRANDS = ["sansui", "marantz", "pioneer"]
+BRANDS = ["sansui", "marantz", "pioneer", "yamaha"]
 BANDS = ["Top 10", "Top 10-20", "Top 20-30", "Top 30-40", "Top 40-50"]
 
 def band_for(i):

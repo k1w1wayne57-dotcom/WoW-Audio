@@ -19,7 +19,7 @@ except Exception:
     pass
 
 DATA = Path(__file__).resolve().parent.parent / "data"
-BRANDS = ["sansui", "marantz", "pioneer"]
+BRANDS = ["sansui", "marantz", "pioneer", "yamaha"]
 CORE = {"year_start": "year", "watts_per_channel": "watts", "freq_response_hz": "freq",
         "thd_percent": "thd", "weight_kg": "wt", "avg_price_usd_3mo": "price"}
 NONAMP = {"Tuner", "Preamp", "Tape Deck", "Reverb Unit", "Quad Synth", "Quad Decoder"}
