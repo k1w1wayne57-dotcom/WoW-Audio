@@ -20157,7 +20157,17 @@
       "median_usd": 3936
     },
     "sonic_source": "Corrected 2026-09-03: was mid-70s silver-face boilerplate on a black-era D907 variant",
-    "global_ranking": "Top 10"
+    "global_ranking": "Top 10",
+    "circuit_family": "Diamond Differential",
+    "circuit_description": "Cost-no-object development of the AU-D907 using AU-X1 know-how. Diamond Differential circuit with a cascode boot-strap stage to bring it closer to ideal operation; LAPT (Linear Amp Power Tr) output devices run two in parallel for a ±300 V/µsec slew rate and near-zero TIM distortion. All-FET DC amplifier with full push-pull drive and the AU-X1's 20-element equalizer. Shunt-regulated complementary push-pull power supply (stable against both voltage drops and rises), large toroidal + EI transformers and fast-recovery rectifiers.",
+    "auto_specs": {
+      "source": "Sansui AU-D907 LIMITED catalogue spec (audio-database translation, supplied by Wayne 2026-10-18)",
+      "date": "2026-10",
+      "fields": [
+        "circuit_family",
+        "circuit_description"
+      ]
+    }
   },
   {
     "id": "sansui-au-d907f-extra-1981",
