@@ -19085,7 +19085,8 @@
         "Main filter and signal-path electrolytics dry out",
         "Output devices run hot; check bias and heatsink thermal paste",
         "Steel PSU regulator heatsinks corrode - upgrade to black-anodised aluminium (free-standing, no mica)",
-        "Corrosive mounting glue attacks the small-signal transistors bonded in it (Wayne, hands-on): found Q6 (2SA992) and Q14 (2SA1145) corroded. A glue-corroded transistor goes leaky - it skews the bias and runs that channel slightly hot, and it can fake its polarity on a meter (corroded Q6 read NPN although it is PNP), so measure suspects out-of-circuit. Check only the transistors sitting in/near the glue, not the whole board. Subs: KSA992 / KSC1845-type."
+        "Corrosive mounting glue attacks the small-signal transistors bonded in it (Wayne, hands-on): found Q6 (2SA992) and Q14 (2SA1145) corroded. A glue-corroded transistor goes leaky - it skews the bias and runs that channel slightly hot, and it can fake its polarity on a meter (corroded Q6 read NPN although it is PNP), so measure suspects out-of-circuit. Check only the transistors sitting in/near the glue, not the whole board. Subs: KSA992 / KSC1845-type.",
+        "2SC2705 / 2SA1145 (drivers: jQ6-jQ7 on the control-j board, kQ10/14 & kQ13/17 on the power-k board) are obsolete, NOS only - no exact in-production drop-in. The 2SC2705 is effectively a 150V 2SC1845 (same low-noise ~200MHz small-signal NPN, higher Vceo); 2SA1145 likewise a 150V 2SA992. On the control-j board (+/-33V rails) a KSC1845 / KSA992 (120V) subs fine for jQ6/jQ7 - well inside their rating. Where the full 150V is needed (power-k drivers on the main rails) use KSC2383 / KSA1013 (160V, TO-92L) - but those are 1A drivers with lower fT and lower Vbe, so check bias adjustment and verify the TO-92L pinout before fitting."
       ],
       "bias_spec_mv": null,
       "service_manual_link": null,
