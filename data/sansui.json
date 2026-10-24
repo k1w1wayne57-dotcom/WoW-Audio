@@ -7017,7 +7017,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -7056,11 +7056,13 @@
     "avg_price_usd_3mo": 272,
     "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "serial-report (decoded; first volume production year)",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      1500
+    ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Capacitor-coupled output: a series capacitor sits between the output stage and the speaker, which high-passes the deep bass and softens the bottom end. That is where the warm, rounded voice of this generation comes from - a circuit consequence rather than a voicing choice. The result is a lush, organic midrange often described as tube-like, with smooth clarity and an unfussy top end.",
-    "thb_status": null,
+    "thb_status": "For sale",
     "auto_price": {
       "source": "hifishark.com",
       "date": "2026-08",
@@ -9526,7 +9528,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Low",
-    "last_price_check": "2026-06",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -9617,12 +9619,13 @@
     "price_basis": null,
     "year_source": "serial-report (decoded; first volume production year)",
     "price_thb_listings": [
-      14900
+      14900,
+      8500
     ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Silver-face receiver. Capacitor-coupled output: a series capacitor sits between the output stage and the speaker, which high-passes the deep bass and softens the bottom end. That is where the warm, rounded voice of this generation comes from - a circuit consequence rather than a voicing choice. The result is a lush, organic midrange often described as tube-like, with smooth clarity and an unfussy top end.",
-    "thb_status": "Sold",
+    "thb_status": "For sale",
     "thb_checked": "2026-08",
     "circuit_family": "Classic solid-state (capacitor-coupled)",
     "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)",
@@ -9942,7 +9945,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -9981,11 +9984,13 @@
     "avg_price_usd_3mo": 452,
     "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "serial-report (decoded; first volume production year)",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      5900
+    ],
     "usd_msrp": null,
     "market": "JDM",
     "sonic_signature": "Silver-face receiver. Capacitor-coupled output: a series capacitor sits between the output stage and the speaker, which high-passes the deep bass and softens the bottom end. That is where the warm, rounded voice of this generation comes from - a circuit consequence rather than a voicing choice. The result is a lush, organic midrange often described as tube-like, with smooth clarity and an unfussy top end.",
-    "thb_status": null,
+    "thb_status": "For sale",
     "auto_price": {
       "source": "hifishark.com",
       "date": "2026-08",
