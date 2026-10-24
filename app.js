@@ -1065,7 +1065,9 @@ function openModal(item) {
     </div>
   `;
 
-  document.getElementById("modal-overlay").classList.add("open");
+  const ov = document.getElementById("modal-overlay");
+  ov.classList.add("open");
+  ov.scrollTop = 0;                 // always open a detail at the top, not where the last one was
   document.body.style.overflow = "hidden";
 }
 
