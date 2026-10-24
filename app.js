@@ -237,6 +237,7 @@ function toggleThaiStatus(item) {
     remember();
   }
   render();
+  if (!document.getElementById("bargain-overlay").hidden) openBargains();  // refresh popup behind
   openModal(item);
 }
 function updateSyncChip() {
@@ -445,7 +446,7 @@ function bindControls() {
     const tr = e.target.closest("tr[data-id]");
     if (!tr) return;
     const item = DB.find(d => d.id === tr.dataset.id);
-    if (item) { closeBargains(); openModal(item); }
+    if (item) openModal(item);   // leave the popup open behind the detail, so closing returns to it
   });
 
   const histBtn = document.getElementById("history-view");
@@ -503,7 +504,10 @@ function bindControls() {
   const syncChip = document.getElementById("sync-chip");
   if (syncChip) syncChip.addEventListener("click", copySyncList);
   document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape") { closeModal(); closeBargains(); }
+    if (e.key !== "Escape") return;
+    // close the top layer first: the detail modal, then the bargains popup
+    if (document.getElementById("modal-overlay").classList.contains("open")) closeModal();
+    else closeBargains();
   });
 }
 
