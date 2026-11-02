@@ -1,0 +1,374 @@
+https://www.youtube.com/watch?v=f_xX68IjFoM — Whisper medium, task=translate from Tagalog, transcribed 2026-11-02. "GBR" = VR (trimmer), "OCP" = the protector's sense lines.
+[00:01] We are okay with it. I am studying the paper and we are here for the adjustment.
+[00:08] This is provided by the owner. This is the seat of adjustment and where the test point will be placed.
+[00:17] Where the test point will be placed is detailed there.
+[00:21] I am looking at these tremors because they are newly replaced.
+[00:26] This one is also new.
+[00:28] The same on the other side and this one is also new.
+[00:32] I am looking at the value according to what is written here.
+[00:35] Let's see.
+[00:43] So it has a description here.
+[00:45] For example, this one is standing like that.
+[00:48] So it says GBR1, GBR1 and GBR2.
+[00:55] So it is like that.
+[00:57] This is the GBR1, GBR1 and GBR2 at the end.
+[01:05] I chose this GBR2. It is still good.
+[01:08] Then I am looking at the part list.
+[01:12] So this is the part list.
+[01:15] According to this GBR1,
+[01:19] The GBR1 has a value of 100 ohms.
+[01:24] Then at the bottom, the GBR1 has a value of 100 ohms.
+[01:29] Then the GBR2 has a value of 470 ohms.
+[01:36] Here, the tremor for the power amp section, where is it?
+[01:44] Is there anything else?
+[01:46] There.
+[01:48] The GBR1, GBR3 and GBR4 has a value of 1k.
+[01:54] There, bias adjustment.
+[01:56] So these two and the one at the end.
+[01:59] I chose the right one, 101.
+[02:02] What is the value written here?
+[02:07] 102. So it means 1k.
+[02:10] 102. That's right, 1k.
+[02:13] This is the only one that is wrong.
+[02:17] Not the one that has a value because the owner bought it.
+[02:20] This is the one that is wrong.
+[02:22] The one that has a value is 100k.
+[02:28] So we will replace it with 100 ohms according to what is written there.
+[02:33] So this is also like that.
+[02:34] 100k is also written.
+[02:37] We will remove it and we will test it.
+[02:39] Just wait for the reading to be correct.
+[02:42] We need according to the list,
+[02:46] only 100 ohms.
+[02:49] The 470, this GBR,
+[02:52] this is the original one.
+[02:54] I tested it and it's still okay.
+[02:56] So I will try and I will check it again.
+[03:00] I will just show it to you.
+[03:01] Let's remove this one.
+[03:06] When these are vintage, it's a bit difficult.
+[03:11] It's really difficult.
+[03:14] It's really hard for me.
+[03:17] And I can't just finish it easily.
+[03:21] I just do it little by little because
+[03:23] there are people who are quick on this.
+[03:25] Maybe you're just a little wrong.
+[03:28] It can just break or not work.
+[03:33] We know that Sansuwi is known for the slogan of Sansunog.
+[03:38] Other technicians said.
+[03:42] So if you notice,
+[03:45] it fell.
+[03:47] It fell from my hand.
+[03:57] It's really hard to finish it.
+[04:04] It's really hard.
+[04:07] 100k.
+[04:08] So let's test it if it's really 100k.
+[04:11] We will use a tester.
+[04:20] Because it should be only 100 ohms
+[04:28] for the reading.
+[04:31] There.
+[04:32] Let's just test the ends.
+[04:34] Up.
+[04:37] My tester looks like it's broken.
+[04:42] The rod.
+[04:43] I don't know where to cut it.
+[04:50] Let's just cut it.
+[04:52] It's broken.
+[04:56] My tester is also broken.
+[04:58] Look.
+[04:59] I'll just cut it in the meantime.
+[05:02] This wire is already old.
+[05:04] My wire is already old.
+[05:06] Where is it broken?
+[05:10] Here.
+[05:11] Let's try this.
+[05:19] So it's broken.
+[05:21] Because I tested it here.
+[05:23] It's already falling.
+[05:26] Okay.
+[05:28] Okay.
+[05:35] Here.
+[05:41] Let's just do this for now.
+[05:43] Because I'll just add that later.
+[05:45] The wire is already cut.
+[05:47] Okay.
+[05:49] Let's put it in the reading ohms.
+[05:53] It will read.
+[05:59] Okay.
+[06:03] So 83k.
+[06:06] Let's replace it with 100 ohms.
+[06:08] Then let's continue with the troubleshooting.
+[06:11] Okay.
+[06:12] So let's update this to what we're doing here.
+[06:19] It's called a Sansui amplifier.
+[06:24] I'm calibrating its biasing now.
+[06:27] In hot and cold.
+[06:28] There's this one.
+[06:30] You can read it.
+[06:31] It has calibrating in the out cold and out hot.
+[06:39] So it's like a bridge.
+[06:41] Each channel has two.
+[06:44] It's like a bridge.
+[06:45] That's why I'm measuring it first.
+[06:47] So this is for our DC output.
+[06:50] Then for the easy output.
+[06:53] For the bias.
+[06:54] I already did the biasing here.
+[06:56] I'll just calibrate if it's easy zero zero.
+[06:59] If there's a guide here.
+[07:01] There.
+[07:02] I'm reading this later.
+[07:03] That's the adjustment of the bias.
+[07:06] There.
+[07:08] I don't have much detail about that.
+[07:10] Because it's a bit risky.
+[07:15] That's why I'm just updating it.
+[07:16] Now.
+[07:17] I've lowered the DC.
+[07:20] It went up again.
+[07:22] There.
+[07:23] It's lowered.
+[07:24] It's lowered.
+[07:25] It's lowered.
+[07:26] There.
+[07:27] Okay.
+[07:28] So I'm adjusting it here.
+[07:29] The relay switched.
+[07:30] That's why it's gone.
+[07:31] It's still going back.
+[07:33] It's still going back.
+[07:35] It's lowered.
+[07:37] It's in the.
+[07:39] In the.
+[07:41] It's only in the.
+[07:43] It was just in 5 millivolts earlier.
+[07:45] There.
+[07:46] So for it to be lowered again.
+[07:48] That depends on the room temperature.
+[07:51] There.
+[07:52] It's a bit tricky to.
+[07:53] That's why.
+[07:54] Well.
+[07:55] The trimmer you will adjust.
+[07:56] This is on the other side of the bias.
+[07:58] On the other side.
+[07:59] This is on the center.
+[08:01] Center voltage.
+[08:03] For the input that'll go here.
+[08:06] Then there's another one, that's the DC offset on the hot and cold.
+[08:12] Then there's also the adjustment on the hot and out.
+[08:16] So that's a lot, it's only 0.20 down until it stabilizes.
+[08:24] So it has power now.
+[08:27] But it doesn't make a sound.
+[08:31] The sound hasn't disappeared yet.
+[08:34] So I've put an input, let's put an input.
+[08:42] You won't be able to measure it.
+[08:46] So let's try to turn it off again.
+[08:49] Look what's going to happen there.
+[08:53] Let's just discharge it.
+[08:58] Because it's working now, but the other one, I've already tested it.
+[09:02] That's also the problem, I don't know where it's going.
+[09:06] The speaker is still dead.
+[09:09] I think I still need more power.
+[09:12] There's a lot of power in this, Boss.
+[09:16] So let's try it, the test bulb has passed.
+[09:19] Let's try it, so it's just a bit faster because it's going to move.
+[09:23] I'm going to turn the volume up when the relay switches.
+[09:41] Has our music disappeared?
+[10:00] So there, so it's gone too.
+[10:07] Just a little, Boss.
+[10:09] I'll try one more.
+[10:12] This is because the relay is shutting down.
+[10:14] I don't know if there's still a problem with the relay or it's still double-checking.
+[10:21] So it's already power on.
+[10:23] Let's try again, one more.
+[10:26] Then this, I'll turn it off.
+[10:35] There, it's working now, it's shutting down.
+[10:41] So I don't know if there's still a problem here or there's still a problem with the relay.
+[10:47] So Boss, let's update, the relay is tripping up.
+[10:52] I looked at the parts here, it's okay but there's a problem.
+[10:56] I'll just look at the diagram and then we'll change it.
+[10:59] R43, it's gone.
+[11:02] So it's okay to turn it off and I already resoldered it.
+[11:07] I removed the speaker terminal here on the side so we can check it.
+[11:17] So I already talked to the owner, he has a reserve of capacitors for this.
+[11:22] I'll just wait for that, I'll test it again.
+[11:25] I hope this is working.
+[11:27] Okay, let's update, Boss.
+[11:29] I'm still tripping up.
+[11:33] This is it, the owner has already brought the capacitors we're going to replace.
+[11:39] It's already older, he just didn't attach it.
+[11:42] So let's install it Boss and I hope there's no other problem.
+[11:48] So I'll just fix it first.
+[11:50] Okay Boss, so let's update, I already changed the capacitors.
+[11:56] That's why when I tested it, it's still tripping up, let's just fix it.
+[12:01] There.
+[12:03] When you put it, it's already working.
+[12:07] That's why it's still protected, it will be gone and it will be protected again.
+[12:13] But the audio is already working.
+[12:18] I don't know why it's still protecting.
+[12:22] Maybe it's because of the ICO.
+[12:24] I think my first target here is the OCP.
+[12:28] I looked at the diagram, this is the OCP of one channel.
+[12:34] I'll cut the other one first, then I'll just add it so I can identify where it's working.
+[12:40] There's audio, you'll notice.
+[12:43] When the relay switches, the problem that it will die should continue.
+[12:48] But there's a time that it's coming back, Boss.
+[12:52] It's coming back, it's coming back, it's called here, this one.
+[13:02] Because this is just a switch for the ANV, it doesn't know anything.
+[13:06] What's really there, because I noticed, let's put it.
+[13:11] In the OCP, it has a small voltage, let's put it.
+[13:21] When you test this OCP, it has 0.064.
+[13:28] It doesn't have a calibrator, so it should be zero.
+[13:32] That's why it's not coming back.
+[13:36] Sometimes it comes back, so when we turn it off, we don't want to turn it off immediately.
+[13:45] Then we monitor it, there it is, let's see if it will switch, it's gone.
+[13:55] Then it died again, it came back, it's protecting again.
+[14:00] So we don't know if the relay is the problem or what.
+[14:03] Maybe we need to check there.
+[14:06] But before that, to make it short, I'll hang this first in the OCP.
+[14:13] Okay, we just monitor it to go to the OCP, this is the cut, I'm just lowering it.
+[14:19] Here, the voltage is gone, so the OCP of this channel is good.
+[14:26] Look at this, it still has, here in the cut, it has 0.65.
+[14:33] So let's try to cut it on the other side, but we'll just return it later.
+[14:39] So let's go here on the other side, on the other channel.
+[14:43] I already tested this.
+[14:46] There, the output of the OCP is okay, there's no voltage.
+[14:51] It has this, we have a measurement here.
+[14:56] There, so maybe the problem is really in the relay section.
+[15:00] Let's go back there because the sound is good, it's working.
+[15:04] Oh, I think it's cut.
+[15:07] It's working, but it's still protecting.
+[15:15] It's protecting.
+[15:17] So I think that's the problem, let's check there, maybe there's a problem with the supply.
+[15:21] Okay, it looks like our repair will continue here, Boss.
+[15:24] The owner of IC ordered, so this is his order.
+[15:29] He opened it too.
+[15:31] Two, there, TE 7317.
+[15:42] So let's try there, let's attach it here.
+[15:47] I'll just prepare the weak one.
+[15:49] Okay, Boss, what happened here, we already attached the IC.
+[15:52] This is the IC that we removed.
+[15:55] So what happened here is I still don't have a measurement or I still don't want to switch the relay.
+[16:01] That's why I attached it, I said, all of the parts here have been checked.
+[16:07] And I checked one by one, there's no problem, even the capacitors have been replaced.
+[16:13] What's not being replaced here is that IC and this relay.
+[16:17] That's why I decided to just replace all of the relay and measure what happened.
+[16:28] So it already has a supply.
+[16:30] That's why it drops when the relay is installed.
+[16:38] So this is the last thing to be replaced.
+[16:41] I didn't notice this when the owners made it.
+[16:46] It's still switching, it's still working, it's just dying.
+[16:49] So let's look at the contents, Boss.
+[16:52] Boss, this is the new IC that we installed.
+[16:56] When the relay is removed, it has a 22V measurement.
+[17:02] I replaced the old one because I'm already confused here.
+[17:06] And I don't know why, when the relay is installed, the supply drops.
+[17:10] I tried the old one.
+[17:13] So this old one, it's really damaged.
+[17:21] It's only 7V out, it's still playing, so it's unstable.
+[17:26] This old one is really damaged.
+[17:28] Now, there's another one here with it.
+[17:32] I'll try this again, it's still working.
+[17:36] I'll turn it off first.
+[17:38] This is the one that's still working.
+[17:44] It means that the defective one that we installed is 7317P Japan.
+[17:55] So this one, it's still the same.
+[17:58] So the old one is really damaged.
+[18:11] I'll try this one again.
+[18:14] Maybe on the street, I'll just try it, Boss.
+[18:16] If not, I'm dead.
+[18:19] I don't know anymore.
+[18:41] The RMS is 200W.
+[18:44] That's it.
+[18:46] Sansui B2102.
+[18:53] That's it, Boss.
+[18:55] The sound is smooth.
+[18:57] It's just bright.
+[19:01] I can see it there.
+[19:02] It's beautiful.
+[19:05] It's beautiful here.
+[19:06] This is okay, Boss.
+[19:20] The IC is there.
+[19:22] The last part.
+[19:24] It's working.
+[19:26] Maybe later because the owner is already here.
+[19:32] So what happened there, Boss?
+[19:34] The video was cut at the end.
+[19:38] What happened there?
+[19:39] I have three ICs there.
+[19:42] That's right.
+[19:43] I have three ICs there.
+[19:45] The TA7317.
+[19:48] So let's put it on the screen.
+[19:50] That IC.
+[19:52] The owner bought it.
+[19:54] As I said, it looks amazing.
+[19:56] So try to look for it in other stores.
+[19:58] The first one I installed, Boss,
+[20:00] didn't work.
+[20:02] If I lower the relay,
+[20:03] I can measure 22V.
+[20:05] But if I install the relay, it drops.
+[20:08] So it didn't work.
+[20:09] I thought about it.
+[20:10] I said, let's turn it off.
+[20:11] What's the problem with this?
+[20:13] As I said, it doesn't have a DC out on the OCP.
+[20:18] And its potentiometer.
+[20:20] It doesn't have a negative or positive DC out.
+[20:23] It's good.
+[20:24] And the OCP doesn't have a voltage.
+[20:27] Then I tried another one.
+[20:30] But the relay is too fast.
+[20:32] It's like it's shorted.
+[20:35] If I turn on the power,
+[20:37] the relay will stop immediately.
+[20:38] That's why I turned it off again.
+[20:42] Also the third one,
+[20:43] the last one brought by the owner
+[20:45] from another store.
+[20:46] That's what we installed.
+[20:48] And no matter what,
+[20:49] it's a bit dark.
+[20:50] But it's not that bad.
+[20:53] But it's okay.
+[20:54] I have three ICs.
+[20:56] That's why sometimes online,
+[20:59] it's hard to trust.
+[21:01] Especially if it's from China.
+[21:03] But we don't have a choice
+[21:05] because those are the available parts now.
+[21:08] Thank you very much,
+[21:09] Boss,
+[21:10] for watching.
+[21:11] And until the end,
+[21:13] thank you very much.
+[21:16] And I have something to tell you,
+[21:19] Boss.
+[21:20] If this video helped you
+[21:24] or you enjoyed our video
+[21:27] or helped you with the video,
+[21:31] please tell me.
+[21:32] Maybe you haven't subscribed yet.
+[21:35] And please share it
+[21:38] on your social media accounts
+[21:40] so we can spread my videos
+[21:44] so we can help others.
+[21:47] Because in the Facebook group,
+[21:50] I still see a lot of troubles
+[21:54] that they're asking.
+[21:55] But the solution is there.
+[21:57] I'll vlog it.
+[21:58] But they didn't subscribe to me
+[22:01] because they're watching another channel.
+[22:04] It's there.
+[22:05] There are videos sometimes
+[22:07] where their questions,
+[22:09] their troubles,
+[22:11] the solution is already in my video.
+[22:14] But they're not watching my vlogs.
+[22:16] So if you find it difficult,
+[22:18] please share it.
+[22:19] Thank you very much.
+[22:21] God bless to all of us.

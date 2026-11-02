@@ -1,0 +1,83 @@
+https://www.youtube.com/watch?v=jGoi9DRaceQ — Whisper medium, task=translate, transcribed 2026-11-02. Unit shown is a B-2101, not B-2102. Audio appears to be Portuguese, not Tagalog (forced language=tl).
+[00:05] a power amplifier samsui model b 2101 1984 200 watts per channel in 8 ohms this came with
+[00:22] pre is the c 2101 has a video there on the channel I just changed a lamp on the panel
+[00:29] a indicator lamp it was perfect this one is also perfect it came just for a
+[00:36] cleaning to regulate the rest current to see if everything is ok there it will be sold
+[00:43] for him nice powerful right dynamic let's look back later inside behind
+[00:58] made in japan here signal input has a land out of the boxes system a and b
+[01:08] impedance selector input from the energy there voltage selector here in the boxes
+[01:18] have an interesting thing the more it calls hot more and the less it calls cold less
+[01:24] this nomenclature here is used when you connect power amplifiers in bridge
+[01:30] and that's exactly what happens here this amplifier has each channel has two amplifiers and
+[01:39] they are connected in bridge bridge samsui calls here double parallel push pull output but
+[01:46] nothing more than a bridge system you can do this with any power amplifier the
+[01:53] gradients you do this and you then abandon the reference on the ground right when you make this
+[02:00] connection in bridge that's why it has this ground here separate if necessary right
+[02:06] normally it's not necessary to use so we're going to open take a look inside I'm going to show
+[02:12] this project there in the scheme it's very interesting samsui used in several other models this
+[02:19] to abandon the reference on the ground it theoretically it reduces high frequency distortion
+[02:25] and improves the noise signal ratio this device here has a noise signal ratio of 115 db
+[02:33] is excellent is a very silent device very characteristic of the 80s right it was when the
+[02:42] digital recordings so the amplifiers needed to be silent this was the dispute right while
+[02:49] in the 70s at the end of the 70s the dispute was for the speed which is faster in the 80s the
+[02:59] dispute was for the silence exactly because we entered the digital era so let's look
+[03:06] inside then let's look at the scheme and let's follow the regulation there's the machine
+[03:13] inside here are two transformers two separate sources for each channel this
+[03:20] well-divided panel here 8 transistor per channel in fact there are four in each amplifier
+[03:28] here there are two identical amplifiers connected in bridge bridge and the same thing in the
+[03:36] left channel there are two identical amplifiers push pull out to complement connected in bridge
+[03:45] not referenced on the ground so in fact this amplifier has the so-called virtual ground right
+[03:52] the transformer doesn't have the central tap I'll show you there it's a way for you to reduce noise
+[04:03] and this one used it in several models there you see if I'm not mistaken even in the famous UD 11 which is
+[04:13] the symphony of the 80s cool huh so let's look at the scheme consult the manual service
+[04:24] as I said as there are two amplifiers per channel you have to make the regulation of
+[04:29] one amplifier after the other amplifier you regulate the separate rest current from one
+[04:35] and the other and the same thing on the other channel so we have four regulars to be made here
+[04:42] of the rest current let's look at the scheme it's nice inside the scheme here we are
+[04:52] looking at the left channel left channel so you have one amplifier here and the other one up here
+[05:00] identical they are connected together in bridge signal enters here is inverted and comes out here
+[05:09] doesn't have the tool the other channel right right is identical that's why there are eight
+[05:19] transistors in each output four here in one phase and four in the other phase let's start then here
+[05:27] the regulation of the rest current are two amplifiers then per channel right here we are in the
+[05:34] right channel so we will first regulate the amplifier 1 and then the 2 the regulation is made in
+[05:42] that little blue tripod here in the corner of this amplifier and there in the other amplifier you have
+[05:52] a little terminal here I will show a photo there in this terminal in the manual service you have the
+[06:00] so here I turned on the two points of the amplifier here below the one a little Arduino cable
+[06:07] connected here in my multimeter and by manual we have to put here 6.6 millivolts
+[06:16] which represents a 30 milliamperes rest current here we will read in volts but
+[06:23] we are regulating is the current right so here I have to put 6.6 millivolts more or
+[06:31] less 2 millivolts so it can be from 4.6 to 8.6 millivolts so I'll put 5 millivolts
+[06:40] in each channel that will be good here the current is high right the amplifier has to be turned on
+[06:47] before at least one hour I leave it on it's even on the side here it's very hot
+[06:54] hotter than here without a signal ok I turn it on and we wait to reach the
+[07:00] rest temperature without it touching even without touching it will warm up a little and then
+[07:06] we will start to regulate the side here it's very hot it's really unregulated at least
+[07:12] I have one here it's right above the necessary one and we feel here by the
+[07:19] heatsink on the side there it's colder so I'll start to regulate the one 23 it's too much I'll
+[07:27] put the key here on the tripod and I'll start to try to reduce it, let's get there, I'll put
+[07:35] 5 millivolts, right, it can be from 4.8 to 8.8 so I'll put 5 it has to be very slow
+[07:47] so you can't get there, it passes, you see, so more or less there, ready 5.5 ok now
+[07:58] we're going to do the same thing on amplifier 2 there and then here is the right channel then
+[08:05] passes to the left channel and let's do the same thing to regulate the amplifier 1 and then the 2
+[08:13] so let's go I changed the terminal here to the amplifier 2 now I'm going to regulate here in the
+[08:20] bottom this one is also a little above it goes down to around 5, right, that's what I put the other one
+[08:40] here, we've already regulated the two amplifiers, now let's go to the left channel to
+[08:51] regulate the other two, the terminal is that one, look at this white one here, you see, it's a
+[09:00] terminal that looks like a computer, it already comes with the points there in the manual, in the manual service, it
+[09:06] goes right, how do you regulate it, it has to be done by those who have a certain experience, you
+[09:12] can't play, you can't burn the amplifier if you make a wrong regulation here, right,
+[09:21] so let's move on, now we're here on the left channel, on amplifier 2 first, it's a
+[09:31] little above but less than the other channel, right, let's go down here to 5, that's why it's
+[09:40] moving less on the side here, I felt it putting my hand on the heatsink, on the side it was warmer now it
+[09:47] will be the same, let's go, son, 5, a little more, this tripod is not multi-volta, it's those old ones, so
+[09:57] you have to go slowly here on the key, if you spend a little bit there, that's it, leave it there, 5.5 now
+[10:08] let's see amplifier 1, change the place terminals there and adjust this side here, amplifier 1 on the left channel is
+[10:19] down, that's why this side here was colder, you see, one was very little unregulated and this one is
+[10:26] down, so let's go up a little bit to close to 5, leave it the same as the other one, right, there it is, it's too much, it's hard to
+[10:42] adjust here because that tripod is not multi-volta, you have to be very delicate, if you don't pass it, if you
+[10:49] give it a very strong touch, that's it, it stays that way, so it's there, the two channels are regulated, the four
+[10:59] amplifiers, right, they work in bridge, now I'm going to inspect the board underneath,
+[11:09] make a measurement of the voltages of the power supply, I think it's ok because it was playing very well before and now
+[11:17] here it's already cold, this side here that I had already regulated first and it's already frozen, here it will start to
+[11:25] freeze too, although it's not too hot here, it's not very unregulated, so that's it, I'm going to do a
+[11:31] general inspection there and let's put a sound on it.
