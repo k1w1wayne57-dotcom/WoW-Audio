@@ -573,6 +573,11 @@ tbody td {
 .hist-cat { font-family: 'Inter', sans-serif; color: var(--gold-bright); font-size: 1.3rem; font-weight: 700; letter-spacing: .06em;
   text-transform: uppercase; margin: 42px 0 4px; padding-bottom: 6px; border-bottom: 2px solid var(--border); }
 .hist-tally { color: var(--text-secondary); font-size: .72rem; font-weight: 500; letter-spacing: 0; margin-left: 6px; }
+.hist-cat { scroll-margin-top: 140px; }   /* clear the sticky header on a chip jump */
+.hist-jump { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 0; }
+#back-to-top { position: fixed; right: 16px; bottom: 16px; z-index: 60;
+  color: var(--text); border-color: var(--gold); box-shadow: 0 2px 8px rgba(0,0,0,.4); }
+#back-to-top[hidden] { display: none; }
 /* decade */
 .hist-gen { font-family: 'Inter', sans-serif; color: var(--gold-bright); font-size: 1.3rem; font-weight: 700; letter-spacing: .04em;
   margin: 24px 0 8px; padding-bottom: 5px;
@@ -588,6 +593,13 @@ tbody td {
 .hist-pair { color: #fff; font-size: .75rem; }
 .hist-model.in-db { border-color: var(--gold); background: rgba(201,168,76,.12); cursor: pointer; }
 .hist-model.in-db:hover { background: rgba(201,168,76,.24); border-color: var(--gold-bright); }
+/* Pale ranking tints (same hues as the rank badges). Unranked keeps the plain chip. */
+.hist-model.hrank-Top-10    { background: rgba(201,168,76,.50); }
+.hist-model.hrank-Top-10-20 { background: rgba(183,192,204,.40); }
+.hist-model.hrank-Top-20-30 { background: rgba(201,138,76,.45); }
+.hist-model.hrank-Top-30-40 { background: rgba(91,127,181,.55); }
+.hist-model.hrank-Top-40-50 { background: rgba(91,127,181,.32); }
+.hist-model[class*="hrank-Top"]:hover { filter: brightness(1.25); }
 
 /* search */
 .hist-search-wrap { max-width: 1100px; margin: 0 auto; padding: 20px 20px 0; display: flex; gap: 12px; align-items: center; }

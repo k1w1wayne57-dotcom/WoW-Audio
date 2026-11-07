@@ -706,7 +706,7 @@ function renderHistory() {
     byKey.set(normModel(d.jdm_model), {
       model: d.jdm_model, year: d.year_start, type: d.type || "Other",
       watts: d.watts_per_channel, market: d.market, pair: d.int_model,
-      series: d.series, inDb: true, topology: null
+      series: d.series, inDb: true, topology: null, rank: activeRank(d)
     });
   });
   HISTORY.sections.forEach(sec => sec.groups.forEach(g => g.models.forEach(m => {
@@ -745,10 +745,14 @@ function renderHistory() {
   const types = [...new Set(items.map(i => i.type))]
     .sort((a, b) => typeRank(a) - typeRank(b) || a.localeCompare(b));
 
-  types.forEach(t => {
+  const typeTitleOf = t => t === "Integrated" ? "Integrated Amplifiers" : t;
+  html += `<nav class="hist-jump">` + types.map((t, n) =>
+    `<button class="btn" data-jump="hist-type-${n}">${escapeHtml(typeTitleOf(t))}</button>`).join("") + `</nav>`;
+
+  types.forEach((t, n) => {
     const inType = items.filter(i => i.type === t);
-    const typeTitle = t === "Integrated" ? "Integrated Amplifiers" : t;
-    html += `<h2 class="hist-cat">${escapeHtml(typeTitle)} <span class="hist-tally">${inType.length}</span></h2>`;
+    const typeTitle = typeTitleOf(t);
+    html += `<h2 class="hist-cat" id="hist-type-${n}">${escapeHtml(typeTitle)} <span class="hist-tally">${inType.length}</span></h2>`;
 
     // A label that just restates the type ("Power Amp" under Power Amp) is noise.
     const labelOf = i => {
@@ -822,7 +826,8 @@ function renderHistory() {
           const g = GENS[normModel(i.model)];
           const tip = [g && g.generation, i.topology, i.series].filter(Boolean).join(" — ")
                    || (i.inDb ? "In your database — click for details" : "Reference only");
-          html += `<span class="hist-model${i.inDb ? " in-db" : ""}" data-model="${normModel(i.model)}"`
+          const tint = i.rank ? " h" + rankClass(i.rank) : "";
+          html += `<span class="hist-model${i.inDb ? " in-db" : ""}${tint}" data-model="${normModel(i.model)}"`
                 + ` title="${escapeHtml(tip)}"><b class="hist-name">${escapeHtml(i.model)}</b> `
                 + `<b class="hist-year">${i.year || "—"}</b>`
                 + (bits ? ` <span class="hist-meta">${escapeHtml(bits)}</span>` : "")
@@ -834,8 +839,22 @@ function renderHistory() {
   });
 
   el.innerHTML = html;
+  el.querySelectorAll("[data-jump]").forEach(b => b.addEventListener("click", () =>
+    document.getElementById(b.dataset.jump).scrollIntoView({ behavior: "smooth" })));
   wireHistorySearch(el);
 }
+
+// Floating back-to-top. In the timeline it returns to the jump chips, which sit
+// well below the page top; everywhere else it goes to the top of the page.
+(() => {
+  const btn = document.getElementById("back-to-top");
+  window.addEventListener("scroll", () => { btn.hidden = window.scrollY < 600; }, { passive: true });
+  btn.addEventListener("click", () => {
+    const chips = document.querySelector(".hist-jump");
+    if (chips && chips.offsetParent) chips.scrollIntoView({ behavior: "smooth", block: "center" });
+    else window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+})();
 
 // Filter the timeline by model name. Headings whose models all disappear are
 // hidden too, so the page collapses to just the matches.
