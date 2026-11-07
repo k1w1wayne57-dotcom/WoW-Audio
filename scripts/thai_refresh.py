@@ -11,6 +11,11 @@ Each price is one listing (never averaged); repeats of a model collect.
 - Matched -> price_thb_listings = list prices, thb_status "For sale".
 - Was "For sale" but absent from the list -> thb_status "Sold" (prices kept).
 - Not in DB -> reported only. Adding a model is a separate, researched step.
+
+--new-only: the list holds new listings, not the whole market. Nothing flips
+to Sold. A For-sale record gains only prices it does not already hold
+(duplicates skipped); a Sold record coming back gets the new prices only,
+since its old listing is gone.
 """
 import argparse
 import datetime
@@ -63,6 +68,7 @@ def main():
     ap.add_argument("--brand", required=True, choices=sorted(ALIAS))
     ap.add_argument("--list", required=True)
     ap.add_argument("--apply", action="store_true")
+    ap.add_argument("--new-only", action="store_true")
     a = ap.parse_args()
 
     path = DATA / f"{a.brand}.json"
@@ -91,15 +97,32 @@ def main():
         listed.add(id(e))
         bucket.append((e, info))
 
-    sold = [e for e in db if e.get("thb_status") == "For sale" and id(e) not in listed]
+    sold = [] if a.new_only else \
+        [e for e in db if e.get("thb_status") == "For sale" and id(e) not in listed]
+
+    def new_prices(e, info):
+        if not a.new_only:
+            return info["prices"]
+        if e.get("thb_status") != "For sale":
+            return info["prices"]
+        old = e.get("price_thb_listings") or []
+        return old + [p for p in info["prices"] if p not in old]
+
+    def unchanged(e, info):
+        return new_prices(e, info) == (e.get("price_thb_listings") or []) \
+            and e.get("thb_status") == "For sale"
 
     print(f"=== {a.brand.upper()} — MATCHED ({len(matched)}) ===")
     for e, info in sorted(matched, key=lambda x: x[0]["jdm_model"]):
-        print(f"  {e['jdm_model']:20s} {e.get('price_thb_listings')} ({e.get('thb_status')}) -> {info['prices']}")
+        tag = "  (duplicate, no change)" if unchanged(e, info) else ""
+        print(f"  {e['jdm_model']:20s} {e.get('price_thb_listings')} ({e.get('thb_status')}) "
+              f"-> {new_prices(e, info)}{tag}")
     if via_int:
         print(f"\n=== MATCHED via int_model ({len(via_int)}) — check these ===")
         for e, info in via_int:
-            print(f"  '{info['label']}' -> {e['jdm_model']} (int={e.get('int_model')}) {info['prices']}")
+            tag = "  (duplicate, no change)" if unchanged(e, info) else ""
+            print(f"  '{info['label']}' -> {e['jdm_model']} (int={e.get('int_model')}) "
+                  f"{e.get('price_thb_listings')} ({e.get('thb_status')}) -> {new_prices(e, info)}{tag}")
     print(f"\n=== NOT IN DB ({len(unmatched)}) — alias, typo, or new model? ===")
     for info in unmatched:
         print(f"  '{info['label']}' {info['prices']}")
@@ -110,8 +133,12 @@ def main():
     if not a.apply:
         print("\nDRY-RUN — nothing written.")
         return
+    changed = 0
     for e, info in matched + via_int:
-        e["price_thb_listings"] = info["prices"]
+        if unchanged(e, info):
+            continue
+        changed += 1
+        e["price_thb_listings"] = new_prices(e, info)
         e["thb_status"] = "For sale"
         e["last_price_check"] = date
     for e in sold:
@@ -122,7 +149,7 @@ def main():
         json.dump(db, f, indent=2, ensure_ascii=False)
     check = json.load(open(path, encoding="utf-8-sig"))
     assert len(check) == n, f"record count changed: {n} -> {len(check)}"
-    print(f"\nAPPLIED. {len(matched) + len(via_int)} updated, {len(sold)} -> Sold. "
+    print(f"\nAPPLIED. {changed} updated, {len(sold)} -> Sold. "
           f"{len(check)} records, file valid.")
 
 

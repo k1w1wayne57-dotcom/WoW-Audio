@@ -240,7 +240,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-11",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -279,11 +279,13 @@
     "avg_price_usd_3mo": 366,
     "price_basis": "hifishark US 12mo listing median (AUD->USD), n=5, 2026-08",
     "year_source": "serial-report (decoded; first volume production year)",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      9500
+    ],
     "usd_msrp": 120,
     "market": null,
     "sonic_signature": "Capacitor-coupled output: a series capacitor sits between the output stage and the speaker, which high-passes the deep bass and softens the bottom end. That is where the warm, rounded voice of this generation comes from - a circuit consequence rather than a voicing choice. The result is a lush, organic midrange often described as tube-like, with smooth clarity and an unfussy top end.",
-    "thb_status": null,
+    "thb_status": "For sale",
     "auto_price": {
       "source": "hifishark.com (US region, 12mo export)",
       "date": "2026-08",
@@ -3162,7 +3164,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-10",
+    "last_price_check": "2026-11",
     "collector_info": {
       "known_issues": null,
       "collector_notes": "Listed for sale in Thailand under its export name AU-107II (฿3,800, 2026-10)."
@@ -3202,7 +3204,8 @@
     "price_basis": "eBay/price-guide ~$150-219; HifiShark EUR155",
     "year_source": "serial-report (decoded; first volume production year)",
     "price_thb_listings": [
-      3800
+      3800,
+      1500
     ],
     "sonic_signature": "Direct-coupled output with no capacitor in the signal path, so the low end goes deeper and stays better controlled than the capacitor-coupled generation before it, while keeping the warm Sansui midrange. The trade-off is that DC offset must be held in check, which is what the servo and protection circuits are there for.",
     "usd_msrp": 190,
@@ -6716,7 +6719,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-07",
+    "last_price_check": "2026-11",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -6756,12 +6759,12 @@
     "price_basis": null,
     "year_source": "serial-report (decoded; first volume production year)",
     "price_thb_listings": [
-      4000
+      2500
     ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Capacitor-coupled output: a series capacitor sits between the output stage and the speaker, which high-passes the deep bass and softens the bottom end. That is where the warm, rounded voice of this generation comes from - a circuit consequence rather than a voicing choice. The result is a lush, organic midrange often described as tube-like, with smooth clarity and an unfussy top end.",
-    "thb_status": "Sold",
+    "thb_status": "For sale",
     "thb_checked": "2026-08",
     "circuit_family": "Classic solid-state (capacitor-coupled)",
     "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)",
@@ -7162,7 +7165,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Low",
-    "last_price_check": "2026-06",
+    "last_price_check": "2026-11",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -7202,12 +7205,12 @@
     "price_basis": null,
     "year_source": "serial-report (decoded; first volume production year)",
     "price_thb_listings": [
-      4000
+      5900
     ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Capacitor-coupled output: a series capacitor sits between the output stage and the speaker, which high-passes the deep bass and softens the bottom end. That is where the warm, rounded voice of this generation comes from - a circuit consequence rather than a voicing choice. The result is a lush, organic midrange often described as tube-like, with smooth clarity and an unfussy top end.",
-    "thb_status": "Sold",
+    "thb_status": "For sale",
     "thb_checked": "2026-08",
     "circuit_family": "Classic solid-state (capacitor-coupled)",
     "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)",
@@ -10555,7 +10558,7 @@
     "cons": null,
     "collector_ranking": "Top 30-40",
     "price_confidence": "Medium",
-    "last_price_check": "2026-10",
+    "last_price_check": "2026-11",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -10600,7 +10603,7 @@
     "usd_msrp": null,
     "market": "JDM",
     "sonic_signature": "Silver-face receiver. Pure Power DC: direct-coupled throughout and fed by a stiff supply, giving firm, extended bass and a clean, unforced top end - the more controlled end of the Sansui receiver sound.",
-    "thb_status": "Sold",
+    "thb_status": "For sale",
     "thb_checked": "2026-08",
     "auto_price": {
       "source": "hifishark.com",
@@ -12441,7 +12444,7 @@
     "cons": null,
     "collector_ranking": "Top 10",
     "price_confidence": "Low",
-    "last_price_check": "2026-10",
+    "last_price_check": "2026-11",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -12479,7 +12482,8 @@
     "price_basis": "hifishark 12mo listing median, asking prices (FX->USD) 2026-08",
     "year_source": "serial-report (decoded; first volume production year)",
     "price_thb_listings": [
-      27000
+      27000,
+      28000
     ],
     "usd_msrp": null,
     "market": null,
@@ -17830,7 +17834,7 @@
     "cons": null,
     "collector_ranking": "Top 30-40",
     "price_confidence": "Low",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-11",
     "collector_info": {
       "known_issues": null,
       "collector_notes": "Stage-split supply like the AU-919/AU-D907: smaller EI-core transformer feeds the preamp/pre-driver, larger toroidal (independent L/R windings, 8 filter caps) feeds the power amps. Diamond-differential drive + Super Feedforward. Predates X-Balanced (1984)."
@@ -17870,11 +17874,11 @@
     "price_basis": null,
     "year_source": "serial-report (decoded; first volume production year)",
     "price_thb_listings": [
-      25000
+      20000
     ],
     "usd_msrp": null,
     "market": null,
-    "thb_status": "Sold",
+    "thb_status": "For sale",
     "auto_specs": {
       "source": "audio-database.com",
       "date": "2026-08",
@@ -20885,6 +20889,132 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
+    "thb_status": "For sale",
+    "global_ranking": "Unranked"
+  },
+  {
+    "id": "sansui-r-70-1980",
+    "brand": "Sansui",
+    "jdm_model": "R-70",
+    "int_model": null,
+    "type": "Receiver",
+    "series": null,
+    "year_start": 1980,
+    "year_end": 1982,
+    "japan_price_kyen": null,
+    "watts_per_channel": 65,
+    "freq_response_hz": "10-50000",
+    "thd_percent": null,
+    "ps_type": null,
+    "amp_circuit": null,
+    "weight_kg": 7.5,
+    "special_features": "AM/FM stereo receiver with LED peak power display. 430 x 147 x 252 mm. 65 W/ch RMS into 8 ohm, 20-20,000 Hz (75 W at 1 kHz). Two speaker pairs, MM phono.",
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "price_confidence": "None",
+    "last_price_check": "2026-11",
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null,
+      "sansui_us": null,
+      "brochure": null,
+      "source": "https://hifi-wiki.com/index.php/Sansui_R-70"
+    },
+    "notes": "Added 2026-11 from Wayne's Thai list. Specs from hifi-wiki (years 1980-82, power, weight, dimensions, response) and radiomuseum (1980). THD left null: hifi-wiki says <0.008 %, a listing blog says 0.08 % - the sources conflict.",
+    "verified": false,
+    "verification": "unconfirmed",
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": "research (hifi-wiki 1980-82; radiomuseum 1980)",
+    "price_thb_listings": [
+      2200
+    ],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": null,
+    "sonic_source": null,
+    "thb_status": "For sale",
+    "global_ranking": "Unranked"
+  },
+  {
+    "id": "sansui-a-500",
+    "brand": "Sansui",
+    "jdm_model": "A-500",
+    "int_model": null,
+    "type": "Integrated",
+    "series": null,
+    "year_start": null,
+    "year_end": null,
+    "japan_price_kyen": null,
+    "watts_per_channel": 30,
+    "freq_response_hz": null,
+    "thd_percent": null,
+    "ps_type": null,
+    "amp_circuit": "Direct-coupled integrated (A-series)",
+    "weight_kg": null,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "price_confidence": "None",
+    "last_price_check": "2026-11",
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null,
+      "sansui_us": null,
+      "brochure": null,
+      "source": "https://audiokarma.org/forums/threads/sansui-product-history-amplifiers-1967-2000.1008935/"
+    },
+    "notes": "Added 2026-11 from Wayne's Thai list. 30 W and direct-coupled from the Audiokarma product history. Year left null: that history lists an A-500 twice, at 1982 and 1985.",
+    "verified": false,
+    "verification": "unconfirmed",
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": null,
+    "price_thb_listings": [
+      3800
+    ],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": null,
+    "sonic_source": null,
     "thb_status": "For sale",
     "global_ranking": "Unranked"
   }
