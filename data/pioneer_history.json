@@ -1,0 +1,577 @@
+{
+  "source": {
+    "title": "TriAudio video 'Pioneer Receivers 1972-1981 - How Their Sounds Compare' (YouTube, 2026)",
+    "label": "TriAudio video",
+    "url": null,
+    "note": "Spec and price tables per generation, read from the video by Wayne."
+  },
+  "sections": [
+    {
+      "category": "RECEIVER",
+      "generation": "SX-x24 series (1972-74)",
+      "groups": [
+        {
+          "topology": null,
+          "models": [
+            {
+              "year": 1972,
+              "model": "SX-424",
+              "watts": 10,
+              "market": null,
+              "pair": null,
+              "note": null,
+              "type": "Receiver",
+              "topology": null
+            },
+            {
+              "year": 1972,
+              "model": "SX-525",
+              "watts": 13,
+              "market": null,
+              "pair": null,
+              "note": null,
+              "type": "Receiver",
+              "topology": null
+            },
+            {
+              "year": 1972,
+              "model": "SX-626",
+              "watts": 20,
+              "market": null,
+              "pair": null,
+              "note": null,
+              "type": "Receiver",
+              "topology": null
+            },
+            {
+              "year": 1972,
+              "model": "SX-727",
+              "watts": 37,
+              "market": null,
+              "pair": null,
+              "note": null,
+              "type": "Receiver",
+              "topology": null
+            },
+            {
+              "year": 1972,
+              "model": "SX-828",
+              "watts": 54,
+              "market": null,
+              "pair": null,
+              "note": null,
+              "type": "Receiver",
+              "topology": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "RECEIVER",
+      "generation": "SX-x3x series (1974-76)",
+      "groups": [
+        {
+          "topology": null,
+          "models": [
+            {
+              "year": 1974,
+              "model": "SX-434",
+              "watts": 15,
+              "market": null,
+              "pair": null,
+              "note": null,
+              "type": "Receiver",
+              "topology": null
+            },
+            {
+              "year": 1974,
+              "model": "SX-535",
+              "watts": 20,
+              "market": null,
+              "pair": null,
+              "note": null,
+              "type": "Receiver",
+              "topology": null
+            },
+            {
+              "year": 1974,
+              "model": "SX-636",
+              "watts": 25,
+              "market": null,
+              "pair": null,
+              "note": null,
+              "type": "Receiver",
+              "topology": null
+            },
+            {
+              "year": 1974,
+              "model": "SX-737",
+              "watts": 35,
+              "market": null,
+              "pair": null,
+              "note": null,
+              "type": "Receiver",
+              "topology": null
+            },
+            {
+              "year": 1974,
+              "model": "SX-838",
+              "watts": 50,
+              "market": null,
+              "pair": null,
+              "note": null,
+              "type": "Receiver",
+              "topology": null
+            },
+            {
+              "year": 1974,
+              "model": "SX-939",
+              "watts": 70,
+              "market": null,
+              "pair": null,
+              "note": null,
+              "type": "Receiver",
+              "topology": null
+            },
+            {
+              "year": 1974,
+              "model": "SX-1010",
+              "watts": 100,
+              "market": null,
+              "pair": null,
+              "note": null,
+              "type": "Receiver",
+              "topology": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "RECEIVER",
+      "generation": "SX-x50 series (1976-78)",
+      "groups": [
+        {
+          "topology": null,
+          "models": [
+            {
+              "year": 1976,
+              "model": "SX-450",
+              "watts": 15,
+              "market": null,
+              "pair": null,
+              "note": null,
+              "type": "Receiver",
+              "topology": null
+            },
+            {
+              "year": 1976,
+              "model": "SX-550",
+              "watts": 20,
+              "market": null,
+              "pair": null,
+              "note": null,
+              "type": "Receiver",
+              "topology": null
+            },
+            {
+              "year": 1976,
+              "model": "SX-650",
+              "watts": 35,
+              "market": null,
+              "pair": null,
+              "note": null,
+              "type": "Receiver",
+              "topology": null
+            },
+            {
+              "year": 1976,
+              "model": "SX-750",
+              "watts": 50,
+              "market": null,
+              "pair": null,
+              "note": null,
+              "type": "Receiver",
+              "topology": null
+            },
+            {
+              "year": 1976,
+              "model": "SX-850",
+              "watts": 65,
+              "market": null,
+              "pair": null,
+              "note": null,
+              "type": "Receiver",
+              "topology": null
+            },
+            {
+              "year": 1976,
+              "model": "SX-950",
+              "watts": 85,
+              "market": null,
+              "pair": null,
+              "note": null,
+              "type": "Receiver",
+              "topology": null
+            },
+            {
+              "year": 1976,
+              "model": "SX-1050",
+              "watts": 120,
+              "market": null,
+              "pair": null,
+              "note": null,
+              "type": "Receiver",
+              "topology": null
+            },
+            {
+              "year": 1976,
+              "model": "SX-1250",
+              "watts": 160,
+              "market": null,
+              "pair": null,
+              "note": null,
+              "type": "Receiver",
+              "topology": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "RECEIVER",
+      "generation": "SX-x80 series (1978-80)",
+      "groups": [
+        {
+          "topology": null,
+          "models": [
+            {
+              "year": 1978,
+              "model": "SX-580",
+              "watts": 20,
+              "market": null,
+              "pair": null,
+              "note": null,
+              "type": "Receiver",
+              "topology": null
+            },
+            {
+              "year": 1978,
+              "model": "SX-680",
+              "watts": 30,
+              "market": null,
+              "pair": null,
+              "note": null,
+              "type": "Receiver",
+              "topology": null
+            },
+            {
+              "year": 1978,
+              "model": "SX-780",
+              "watts": 45,
+              "market": null,
+              "pair": null,
+              "note": null,
+              "type": "Receiver",
+              "topology": null
+            },
+            {
+              "year": 1978,
+              "model": "SX-880",
+              "watts": 60,
+              "market": null,
+              "pair": null,
+              "note": null,
+              "type": "Receiver",
+              "topology": null
+            },
+            {
+              "year": 1978,
+              "model": "SX-980",
+              "watts": 80,
+              "market": null,
+              "pair": null,
+              "note": null,
+              "type": "Receiver",
+              "topology": null
+            },
+            {
+              "year": 1978,
+              "model": "SX-1080",
+              "watts": 120,
+              "market": null,
+              "pair": null,
+              "note": null,
+              "type": "Receiver",
+              "topology": null
+            },
+            {
+              "year": 1978,
+              "model": "SX-1280",
+              "watts": 185,
+              "market": null,
+              "pair": null,
+              "note": null,
+              "type": "Receiver",
+              "topology": null
+            },
+            {
+              "year": 1978,
+              "model": "SX-1980",
+              "watts": 270,
+              "market": null,
+              "pair": null,
+              "note": null,
+              "type": "Receiver",
+              "topology": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "RECEIVER",
+      "generation": "SX-3x00 series (1981)",
+      "groups": [
+        {
+          "topology": null,
+          "models": [
+            {
+              "year": 1981,
+              "model": "SX-3400",
+              "watts": 15,
+              "market": null,
+              "pair": null,
+              "note": null,
+              "type": "Receiver",
+              "topology": null
+            },
+            {
+              "year": 1981,
+              "model": "SX-3500",
+              "watts": 20,
+              "market": null,
+              "pair": null,
+              "note": null,
+              "type": "Receiver",
+              "topology": null
+            },
+            {
+              "year": 1981,
+              "model": "SX-3600",
+              "watts": 30,
+              "market": null,
+              "pair": null,
+              "note": null,
+              "type": "Receiver",
+              "topology": null
+            },
+            {
+              "year": 1981,
+              "model": "SX-3700",
+              "watts": 45,
+              "market": null,
+              "pair": null,
+              "note": null,
+              "type": "Receiver",
+              "topology": null
+            },
+            {
+              "year": 1981,
+              "model": "SX-3800",
+              "watts": 60,
+              "market": null,
+              "pair": null,
+              "note": null,
+              "type": "Receiver",
+              "topology": null
+            },
+            {
+              "year": 1981,
+              "model": "SX-3900",
+              "watts": 120,
+              "market": null,
+              "pair": null,
+              "note": null,
+              "type": "Receiver",
+              "topology": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generations": {
+    "sx424": {
+      "generation": "SX-x24 series (1972-74)",
+      "gen_short": "SX-x24",
+      "model": "SX-424"
+    },
+    "sx525": {
+      "generation": "SX-x24 series (1972-74)",
+      "gen_short": "SX-x24",
+      "model": "SX-525"
+    },
+    "sx626": {
+      "generation": "SX-x24 series (1972-74)",
+      "gen_short": "SX-x24",
+      "model": "SX-626"
+    },
+    "sx727": {
+      "generation": "SX-x24 series (1972-74)",
+      "gen_short": "SX-x24",
+      "model": "SX-727"
+    },
+    "sx828": {
+      "generation": "SX-x24 series (1972-74)",
+      "gen_short": "SX-x24",
+      "model": "SX-828"
+    },
+    "sx434": {
+      "generation": "SX-x3x series (1974-76)",
+      "gen_short": "SX-x3x",
+      "model": "SX-434"
+    },
+    "sx535": {
+      "generation": "SX-x3x series (1974-76)",
+      "gen_short": "SX-x3x",
+      "model": "SX-535"
+    },
+    "sx636": {
+      "generation": "SX-x3x series (1974-76)",
+      "gen_short": "SX-x3x",
+      "model": "SX-636"
+    },
+    "sx737": {
+      "generation": "SX-x3x series (1974-76)",
+      "gen_short": "SX-x3x",
+      "model": "SX-737"
+    },
+    "sx838": {
+      "generation": "SX-x3x series (1974-76)",
+      "gen_short": "SX-x3x",
+      "model": "SX-838"
+    },
+    "sx939": {
+      "generation": "SX-x3x series (1974-76)",
+      "gen_short": "SX-x3x",
+      "model": "SX-939"
+    },
+    "sx1010": {
+      "generation": "SX-x3x series (1974-76)",
+      "gen_short": "SX-x3x",
+      "model": "SX-1010"
+    },
+    "sx450": {
+      "generation": "SX-x50 series (1976-78)",
+      "gen_short": "SX-x50",
+      "model": "SX-450"
+    },
+    "sx550": {
+      "generation": "SX-x50 series (1976-78)",
+      "gen_short": "SX-x50",
+      "model": "SX-550"
+    },
+    "sx650": {
+      "generation": "SX-x50 series (1976-78)",
+      "gen_short": "SX-x50",
+      "model": "SX-650"
+    },
+    "sx750": {
+      "generation": "SX-x50 series (1976-78)",
+      "gen_short": "SX-x50",
+      "model": "SX-750"
+    },
+    "sx850": {
+      "generation": "SX-x50 series (1976-78)",
+      "gen_short": "SX-x50",
+      "model": "SX-850"
+    },
+    "sx950": {
+      "generation": "SX-x50 series (1976-78)",
+      "gen_short": "SX-x50",
+      "model": "SX-950"
+    },
+    "sx1050": {
+      "generation": "SX-x50 series (1976-78)",
+      "gen_short": "SX-x50",
+      "model": "SX-1050"
+    },
+    "sx1250": {
+      "generation": "SX-x50 series (1976-78)",
+      "gen_short": "SX-x50",
+      "model": "SX-1250"
+    },
+    "sx580": {
+      "generation": "SX-x80 series (1978-80)",
+      "gen_short": "SX-x80",
+      "model": "SX-580"
+    },
+    "sx680": {
+      "generation": "SX-x80 series (1978-80)",
+      "gen_short": "SX-x80",
+      "model": "SX-680"
+    },
+    "sx780": {
+      "generation": "SX-x80 series (1978-80)",
+      "gen_short": "SX-x80",
+      "model": "SX-780"
+    },
+    "sx880": {
+      "generation": "SX-x80 series (1978-80)",
+      "gen_short": "SX-x80",
+      "model": "SX-880"
+    },
+    "sx980": {
+      "generation": "SX-x80 series (1978-80)",
+      "gen_short": "SX-x80",
+      "model": "SX-980"
+    },
+    "sx1080": {
+      "generation": "SX-x80 series (1978-80)",
+      "gen_short": "SX-x80",
+      "model": "SX-1080"
+    },
+    "sx1280": {
+      "generation": "SX-x80 series (1978-80)",
+      "gen_short": "SX-x80",
+      "model": "SX-1280"
+    },
+    "sx1980": {
+      "generation": "SX-x80 series (1978-80)",
+      "gen_short": "SX-x80",
+      "model": "SX-1980"
+    },
+    "sx3400": {
+      "generation": "SX-3x00 series (1981)",
+      "gen_short": "SX-3x00",
+      "model": "SX-3400"
+    },
+    "sx3500": {
+      "generation": "SX-3x00 series (1981)",
+      "gen_short": "SX-3x00",
+      "model": "SX-3500"
+    },
+    "sx3600": {
+      "generation": "SX-3x00 series (1981)",
+      "gen_short": "SX-3x00",
+      "model": "SX-3600"
+    },
+    "sx3700": {
+      "generation": "SX-3x00 series (1981)",
+      "gen_short": "SX-3x00",
+      "model": "SX-3700"
+    },
+    "sx3800": {
+      "generation": "SX-3x00 series (1981)",
+      "gen_short": "SX-3x00",
+      "model": "SX-3800"
+    },
+    "sx3900": {
+      "generation": "SX-3x00 series (1981)",
+      "gen_short": "SX-3x00",
+      "model": "SX-3900"
+    }
+  }
+}

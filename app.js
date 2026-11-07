@@ -9,7 +9,10 @@ let bestBuyOnly = false;
 let thaiPriceOnly = false;
 let intlOnly = false;
 let searchTerm = "";
-let HISTORY = null;         // Sansui product-history reference (timeline view)
+// Per-brand product-history references for the timeline view.
+const HISTORY_FILES = { Sansui: "data/sansui_history.json", Pioneer: "data/pioneer_history.json" };
+const HISTORIES = {};
+let historyBrand = "Sansui";
 let historyMode = false;
 let historyRendered = false;
 
@@ -47,7 +50,9 @@ async function init() {
     return;
   }
   applyThbOverrides();
-  HISTORY = await fetch("data/sansui_history.json").then(r => (r.ok ? r.json() : null)).catch(() => null);
+  await Promise.all(Object.entries(HISTORY_FILES).map(async ([brand, f]) => {
+    HISTORIES[brand] = await fetch(f).then(r => (r.ok ? r.json() : null)).catch(() => null);
+  }));
   populateBrands();
   populateStats();
   bindControls();
@@ -465,7 +470,7 @@ function bindControls() {
   document.getElementById("history-content").addEventListener("click", (e) => {
     const chip = e.target.closest(".hist-model.in-db");
     if (!chip) return;
-    const item = DB.find(d => normModel(d.jdm_model) === chip.dataset.model && d.brand === "Sansui");
+    const item = DB.find(d => normModel(d.jdm_model) === chip.dataset.model && d.brand === historyBrand);
     if (item) openModal(item);
   });
 
@@ -689,20 +694,28 @@ const GEN_DESC = {
   "G 1st Gen": "Silver face, 1977–79. Warm and musical.",
   "G 3rd Gen (DC)": "Pure Power DC, 1979–82. Cleaner and tighter than the 1st generation.",
   "G Monster": "Two-piece receivers, 1978–81.",
+  // Pioneer — from the TriAudio video's spec tables.
+  "SX-x24": "1972–74. Fuse protection and capacitor-coupled outputs up to the 626. Relay on the 727 and 828.",
+  "SX-x3x": "1974–76. Relay protection from the 737 up. Advanced tone controls from the 838 up.",
+  "SX-x50": "1976–78. Relay protection from the 650 up. Advanced tone controls from the 850 up.",
+  "SX-x80": "1978–80. Relay protection from the 780 up. Advanced tone controls from the 980 up.",
+  "SX-3x00": "1981. Digital frequency display from the 3500 up. Relay protection from the 3700 up.",
 };
 
 function renderHistory() {
   const el = document.getElementById("history-content");
+  const HISTORY = HISTORIES[historyBrand];
   if (!HISTORY || !HISTORY.sections) { el.innerHTML = "<p>History reference unavailable.</p>"; return; }
   const src = HISTORY.source || {};
+  const srcLabel = src.label || "Audiokarma product history";
   const GENS = HISTORY.generations || {};
 
-  // One unified timeline: every Sansui we know about, from the database and
-  // from the Audiokarma product history, merged and keyed by model. DB records
-  // win on facts; the AK list contributes its topology/generation wording and
-  // any models we don't hold.
+  // One unified timeline: every model of the brand we know about, from the
+  // database and from the brand's reference history, merged and keyed by
+  // model. DB records win on facts; the reference contributes its
+  // topology/generation wording and any models we don't hold.
   const byKey = new Map();
-  DB.filter(d => d.brand === "Sansui").forEach(d => {
+  DB.filter(d => d.brand === historyBrand).forEach(d => {
     byKey.set(normModel(d.jdm_model), {
       model: d.jdm_model, year: d.year_start, type: d.type || "Other",
       watts: d.watts_per_channel, market: d.market, pair: d.int_model,
@@ -733,10 +746,12 @@ function renderHistory() {
 
   const inDbCount = items.filter(i => i.inDb).length;
   let html = `<div class="hist-head">
-      <h1>Sansui — The Complete Timeline</h1>
+      <nav class="hist-brands">` + Object.keys(HISTORY_FILES).map(b =>
+        `<button class="btn${b === historyBrand ? " active" : ""}" data-hbrand="${b}">${b}</button>`).join("") + `</nav>
+      <h1>${escapeHtml(historyBrand)} — The Complete Timeline</h1>
       <p class="hist-note">${items.length} models by type, then by decade —
         ${inDbCount} from this database, ${items.length - inDbCount} reference-only from the
-        ${src.url ? `<a href="${escapeHtml(src.url)}" target="_blank" rel="noopener">Audiokarma product history ↗</a>` : "Audiokarma product history"}.
+        ${src.url ? `<a href="${escapeHtml(src.url)}" target="_blank" rel="noopener">${escapeHtml(srcLabel)} ↗</a>` : escapeHtml(srcLabel)}.
         Neither list is complete.</p>
       <p class="hist-legend"><span class="hist-swatch in-db"></span> In your database (click for details)
         &nbsp; <span class="hist-swatch"></span> Reference only</p>
@@ -839,6 +854,10 @@ function renderHistory() {
   });
 
   el.innerHTML = html;
+  el.querySelectorAll("[data-hbrand]").forEach(b => b.addEventListener("click", () => {
+    historyBrand = b.dataset.hbrand;
+    renderHistory();
+  }));
   el.querySelectorAll("[data-jump]").forEach(b => b.addEventListener("click", () =>
     document.getElementById(b.dataset.jump).scrollIntoView({ behavior: "smooth" })));
   wireHistorySearch(el);
