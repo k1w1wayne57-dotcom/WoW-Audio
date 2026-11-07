@@ -570,22 +570,22 @@ tbody td {
 .hist-swatch.in-db { border-color: var(--gold); background: rgba(201,168,76,.18); }
 
 /* type = top level, bold */
-.hist-cat { color: var(--gold-bright); font-size: 1.3rem; font-weight: 700; letter-spacing: .06em;
+.hist-cat { font-family: 'Inter', sans-serif; color: var(--gold-bright); font-size: 1.3rem; font-weight: 700; letter-spacing: .06em;
   text-transform: uppercase; margin: 42px 0 4px; padding-bottom: 6px; border-bottom: 2px solid var(--border); }
 .hist-tally { color: var(--text-secondary); font-size: .72rem; font-weight: 500; letter-spacing: 0; margin-left: 6px; }
 /* decade */
-.hist-gen { color: var(--gold-bright); font-size: 1.05rem; font-weight: 700; letter-spacing: .06em;
-  text-transform: uppercase; margin: 24px 0 8px; padding-bottom: 5px;
+.hist-gen { font-family: 'Inter', sans-serif; color: var(--gold-bright); font-size: 1.3rem; font-weight: 700; letter-spacing: .04em;
+  margin: 24px 0 8px; padding-bottom: 5px;
   border-bottom: 1px solid var(--border); }
 
 .hist-models { display: flex; flex-wrap: wrap; gap: 8px; }
 .hist-model { background: var(--bg-alt); border: 1px solid var(--border); border-radius: 8px;
-  padding: 6px 10px; font-size: .85rem; color: var(--text); line-height: 1.35; }
+  padding: 6px 10px; font-size: .85rem; color: #fff; line-height: 1.35; }
 .hist-model[hidden] { display: none; }
-.hist-name { font-weight: 600; }
-.hist-year { font-weight: 700; color: var(--gold); margin-left: 7px; }   /* year bold */
-.hist-meta { color: var(--text-secondary); font-size: .78rem; margin-left: 5px; }
-.hist-pair { color: var(--green); font-size: .75rem; }
+.hist-name { font-weight: 400; }
+.hist-year { font-weight: 400; color: #fff; margin-left: 7px; }
+.hist-meta { color: #fff; font-size: .78rem; margin-left: 5px; }
+.hist-pair { color: #fff; font-size: .75rem; }
 .hist-model.in-db { border-color: var(--gold); background: rgba(201,168,76,.12); cursor: pointer; }
 .hist-model.in-db:hover { background: rgba(201,168,76,.24); border-color: var(--gold-bright); }
 
@@ -598,8 +598,9 @@ tbody td {
 .hist-count { color: var(--text-secondary); font-size: .82rem; white-space: nowrap; }
 
 
-.hist-genhead { color: #7aa7d9; font-size: .82rem; font-weight: 700; letter-spacing: .04em;
-  margin: 14px 0 6px; text-transform: uppercase; }
-.hist-genhead .hist-tally { color: var(--text-secondary); font-weight: 500; }
+.hist-genhead { font-family: 'Inter', sans-serif; color: #fff; font-size: 1.15rem; font-weight: 400;
+  letter-spacing: .04em; margin: 20px 0 8px; text-transform: uppercase; }
+.hist-genhead .hist-tally { color: #fff; font-weight: 400; }
+.hist-gendesc { text-transform: none; letter-spacing: 0; margin-left: 8px; }
 
 .thb-spread { color: var(--text-secondary); font-size: 0.78rem; font-weight: 400; }

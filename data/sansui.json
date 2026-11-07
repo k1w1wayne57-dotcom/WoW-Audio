@@ -3235,9 +3235,9 @@
     "freq_response_hz": "10-20000",
     "thd_percent": 0.008,
     "ps_type": "Penta-Power (dual transformer, stage-split)",
-    "amp_circuit": "DC integrated, dual-mono, super-feedforward",
+    "amp_circuit": "DC integrated, Diamond Differential. Faceplate reads \"Super Fidelity DD/DC\". Same amp as its JDM twin AU-D907.",
     "weight_kg": 21.4,
-    "special_features": null,
+    "special_features": "Super Fidelity DD/DC.",
     "pros": null,
     "cons": null,
     "collector_ranking": "Unranked",
@@ -3287,7 +3287,7 @@
     "market": "International",
     "thb_status": null,
     "sonic_source": "AudioKarma thread 1069494 (Oct 2024), owner impressions; read 2026-09-03",
-    "circuit_family": "Super Feedforward",
+    "circuit_family": "Diamond Differential",
     "global_ranking": "Unranked"
   },
   {
@@ -3826,7 +3826,7 @@
     "thd_percent": 0.007,
     "amp_circuit": "DC integrated, diamond differential, triple push-pull NM-LAPT",
     "weight_kg": 28,
-    "special_features": null,
+    "special_features": "Super Integrated Amplifier - Ultra High Speed DD/DC.",
     "pros": null,
     "cons": null,
     "collector_ranking": "Top 10",
@@ -19729,9 +19729,9 @@
     "freq_response_hz": "DC-300000",
     "thd_percent": 0.003,
     "ps_type": "X-Balanced (floating balanced supply)",
-    "amp_circuit": "X-Balanced DC integrated with a Twin Diamond Balanced Drive output stage; 90W+90W (6 ohm). Faceplate reads \"Twin Diamond Balanced Drive\" - confirmed hands-on by Wayne and matched by the Audio Database spec sheet.",
+    "amp_circuit": "X-Balanced DC integrated with a Twin Diamond Balanced Drive output stage; 90W+90W (6 ohm). Faceplate reads \"Twin Diamond Balanced Drive\", matched by the Audio Database spec sheet.",
     "weight_kg": 9.8,
-    "special_features": "Twin Diamond Balanced Drive (faceplate badge). Note: from the AU-Dxx7X Decade generation Sansui marketed this as a \"twin diamond X balanced\" amplifier, but per Audio Database the configuration is the same X-balanced topology as its siblings - a naming change, not a circuit change.",
+    "special_features": "Twin Diamond Balanced Drive. Note: from the AU-Dxx7X Decade generation Sansui marketed this as a \"twin diamond X balanced\" amplifier, but per Audio Database the configuration is the same X-balanced topology as its siblings - a naming change, not a circuit change.",
     "pros": null,
     "cons": null,
     "collector_ranking": "Unranked",
@@ -20505,7 +20505,7 @@
     "last_price_check": "2026-10",
     "collector_info": {
       "known_issues": null,
-      "collector_notes": "Faceplate recorded by Wayne (B-7000 4-Channel Stereo Power Amplifier, Made in Japan, S/N 4905001711) but NOT owned. Rare; seen as a matching set with a tuner, cassette deck and preamp."
+      "collector_notes": "Faceplate reads \"B-7000 4-Channel Stereo Power Amplifier, Made in Japan\", S/N 4905001711. Not owned. Rare; seen as a matching set with a tuner, cassette deck and preamp."
     },
     "restorer_info": {
       "known_failure_points": [

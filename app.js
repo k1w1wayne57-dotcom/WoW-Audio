@@ -663,6 +663,34 @@ function wrenchDisplay(level) {
   return `<span class="recap-wrench" title="${level}/5">${filled}${empty}</span>`;
 }
 
+// Description shown after each timeline series heading. AU-x xx is Wayne's own.
+// The rest come only from what the data already records: circuit_family in
+// sansui.json, the generation names in sansui_history.json, and the family
+// voicings in scripts/sonic_families.py. A series with nothing sourced has none.
+const GEN_DESC = {
+  "AU-x xx": "The early years. Tube-like sound and capacitor coupled.",
+  "3-digit": "The early years. Tube-like sound and capacitor coupled.",
+  "x000": "Tube-like sound and capacitor coupled.",
+  "xx1": "Capacitor coupled.",
+  "x0x0": "Capacitor coupled. The 5050 to 9090 are the monster receivers: warm, full and powerful.",
+  "AU-xx00": "Capacitor coupled.",
+  "AU-x500": "Tube-like sound and capacitor coupled.",
+  "AU-x900": "Capacitor coupled.",
+  "Flagship": "Capacitor coupled.",
+  "1st Gen 07": "The first 07 series. DC integrated.",
+  "x17 Junior": "The junior 07 models. DC integrated.",
+  "2nd Gen 07": "Diamond Differential. Uncoloured and highly detailed.",
+  "3rd Gen 07": "Super Feedforward. Clean and low in distortion.",
+  "4th Gen 07": "Super Feedforward, F Extra models.",
+  "5th Gen 07": "Super Feedforward, G Extra models.",
+  "Super FF": "Super Feedforward. Clean and low in distortion.",
+  "6th Gen 07": "X-Balanced. Brighter and more resolving than the older Sansuis.",
+  "7th Gen 07": "The start of the Alpha (α) series.",
+  "G 1st Gen": "Silver face, 1977–79. Warm and musical.",
+  "G 3rd Gen (DC)": "Pure Power DC, 1979–82. Cleaner and tighter than the 1st generation.",
+  "G Monster": "Two-piece receivers, 1978–81.",
+};
+
 function renderHistory() {
   const el = document.getElementById("history-content");
   if (!HISTORY || !HISTORY.sections) { el.innerHTML = "<p>History reference unavailable.</p>"; return; }
@@ -719,7 +747,8 @@ function renderHistory() {
 
   types.forEach(t => {
     const inType = items.filter(i => i.type === t);
-    html += `<h2 class="hist-cat">${escapeHtml(t)} <span class="hist-tally">${inType.length}</span></h2>`;
+    const typeTitle = t === "Integrated" ? "Integrated Amplifiers" : t;
+    html += `<h2 class="hist-cat">${escapeHtml(typeTitle)} <span class="hist-tally">${inType.length}</span></h2>`;
 
     // A label that just restates the type ("Power Amp" under Power Amp) is noise.
     const labelOf = i => {
@@ -778,9 +807,13 @@ function renderHistory() {
 
       ordered.forEach(([label, list]) => {
         if (label) {
+          list.sort((a, b) => a.model.localeCompare(b.model, undefined, { numeric: true }));
           const full = (GENS[normModel(list[0].model)] || {}).generation;
+          const desc = GEN_DESC[label];
           html += `<h4 class="hist-genhead" title="${escapeHtml(full || label)}">`
-                + `${escapeHtml(label)} <span class="hist-tally">${list.length}</span></h4>`;
+                + `${escapeHtml(label)}`
+                + (desc ? ` <span class="hist-gendesc">${escapeHtml(desc)}</span>` : "")
+                + ` <span class="hist-tally">${list.length}</span></h4>`;
         }
         html += `<div class="hist-models">`;
         list.forEach(i => {
