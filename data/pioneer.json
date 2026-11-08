@@ -4479,7 +4479,9 @@
       ]
     },
     "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
-    "global_ranking": "Unranked"
+    "global_ranking": "Unranked",
+    "output_stage": "STK hybrid module",
+    "output_stage_source": "One hybrid IC per channel: Pioneer brochure says each holds the bias, driver and output stages (stereonomono.blogspot.com, SX-680). Owners report STK-0039/STK-0040; discrete STK-0050 replacement board also fits (PCBWay/Audiokarma). Added 2026-11-08."
   },
   {
     "id": "pioneer-sx-780-1978",
@@ -4550,7 +4552,9 @@
       ]
     },
     "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
-    "global_ranking": "Unranked"
+    "global_ranking": "Unranked",
+    "output_stage": "STK hybrid module",
+    "output_stage_source": "STK-0050, one hybrid IC per channel (Pioneer brochure via stereonomono.blogspot.com; PCBWay STK-0050 replacement project). Discrete replacement board available. Added 2026-11-08."
   },
   {
     "id": "pioneer-sx-880-1978",

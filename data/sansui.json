@@ -2303,7 +2303,9 @@
     },
     "circuit_family": "Classic solid-state (capacitor-coupled)",
     "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)",
-    "global_ranking": "Unranked"
+    "global_ranking": "Unranked",
+    "output_stage": "STK hybrid module",
+    "output_stage_source": "STK-016 power amplifier module (Audiokarma thread 'Sansui AU2200 STK016', seen via search summary only). NOS Sansui-branded STK-016 reported on eBay. Added 2026-11-08."
   },
   {
     "id": "sansui-au-317-1977",
@@ -8794,7 +8796,9 @@
     },
     "circuit_family": "Classic solid-state (capacitor-coupled)",
     "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)",
-    "global_ranking": "Unranked"
+    "global_ranking": "Unranked",
+    "output_stage": "STK hybrid module",
+    "output_stage_source": "STK-016 power amplifier module, same as the AU-2200 (Audiokarma thread 'Sansui AU2200 STK016', seen via search summary only). Added 2026-11-08."
   },
   {
     "id": "sansui-551-1974",

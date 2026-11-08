@@ -3529,7 +3529,9 @@
     "thb_status": "For sale",
     "thb_checked": "2026-08",
     "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
-    "global_ranking": "Unranked"
+    "global_ranking": "Unranked",
+    "output_stage": "STK hybrid module",
+    "output_stage_source": "STK amplifier IC in the Mk I and SE; the Mk II is discrete (devroom.io PM-80 Mk II repair log). This record is 1989, so Mk I. Added 2026-11-08."
   },
   {
     "id": "marantz-pm-94-1985",
