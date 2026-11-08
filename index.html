@@ -189,12 +189,13 @@
     <button class="modal-close" id="bargain-close">&times;</button>
     <h2>฿ Thai Bargains <span class="bargain-tally" id="bargain-count">0</span></h2>
     <p class="bargain-fx" id="bargain-fx"></p>
+    <button class="btn bargain-hide" id="bargain-hide-sold">Hide sold</button>
     <div class="bargain-scroll">
       <table class="bargain-table">
         <thead>
           <tr>
-            <th>Model</th><th>Rank</th><th>Baht</th><th>Thai AUD</th><th>USD</th>
-            <th>World AUD</th><th>Difference</th><th>%</th>
+            <th>Model</th><th>Rank</th><th data-bsort="baht">Baht<span class="bsort-arrow"></span></th><th>Thai AUD</th><th data-bsort="usd">USD<span class="bsort-arrow"></span></th>
+            <th>World AUD</th><th>Difference</th><th data-bsort="pct">%<span class="bsort-arrow"></span></th>
           </tr>
         </thead>
         <tbody id="bargain-body"></tbody>

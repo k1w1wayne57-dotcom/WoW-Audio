@@ -159,22 +159,33 @@ function closeQuickAdd() { document.getElementById("qa-overlay").hidden = true; 
 // Thai-priced models (for sale or sold) grouped by brand, each section ranked
 // by how far the cheapest Thai ask sits under the world price. Columns mirror
 // Wayne's sheet: Baht, Thai AUD, USD, World AUD, Difference, %. thaiBargain() = FX.
+// Sort key for the Baht / USD / % headers. A first click uses the natural order
+// (cheapest baht, dearest USD, biggest %); a second click on the same header reverses it.
+const BARGAIN_DEFAULT_DIR = { baht: 1, usd: -1, pct: -1 };
+let bargainSort = { col: "pct", dir: -1 };
+let bargainHideSold = false;
 function openBargains() {
   const rows = [];
   let total = 0;
+  const { col, dir } = bargainSort;
+  const hideBtn = document.getElementById("bargain-hide-sold");
+  hideBtn.textContent = bargainHideSold ? "Show sold" : "Hide sold";
+  hideBtn.classList.toggle("active", bargainHideSold);
+  const hideSold = bargainHideSold;
   ["Sansui", "Marantz", "Pioneer", "Yamaha"].forEach(brand => {
     const list = DB.filter(d => d.brand === brand)
+      .filter(d => !hideSold || (d.thb_status || "").toLowerCase() !== "sold")
       .map(d => ({ d, b: thaiBargain(d) }))
       .filter(x => x.b)
       .sort((a, b) => {
         const sa = (a.d.thb_status || "").toLowerCase() === "sold" ? 1 : 0;
         const sb = (b.d.thb_status || "").toLowerCase() === "sold" ? 1 : 0;
         if (sa !== sb) return sa - sb;          // for-sale before sold
-        const pa = a.b.pct, pb = b.b.pct;
+        const pa = a.b[col] || null, pb = b.b[col] || null;
         if (pa === null && pb === null) return a.b.thaiAud - b.b.thaiAud;
-        if (pa === null) return 1;
+        if (pa === null) return 1;              // blanks last either way
         if (pb === null) return -1;
-        return pb - pa;                         // then biggest % difference first
+        return (pa - pb) * dir;
       });
     if (!list.length) return;
     total += list.length;
@@ -201,6 +212,11 @@ function openBargains() {
     });
   });
   document.getElementById("bargain-body").innerHTML = rows.join("");
+  document.querySelectorAll(".bargain-table th[data-bsort]").forEach(th => {
+    const on = th.dataset.bsort === col;
+    th.classList.toggle("active", on);
+    th.querySelector(".bsort-arrow").textContent = on ? (dir > 0 ? " ▲" : " ▼") : "";
+  });
   document.getElementById("bargain-count").textContent = total;
   document.getElementById("bargain-fx").textContent =
     `cheapest Thai ask vs world 3-mo avg · ฿${FX.thb_per_aud}/A$ · US$1 = A$${FX.usd_per_aud} · ${FX.as_of}`;
@@ -462,6 +478,15 @@ function bindControls() {
     const item = DB.find(d => d.id === tr.dataset.id);
     if (item) openModal(item);   // leave the popup open behind the detail, so closing returns to it
   });
+  document.getElementById("bargain-hide-sold").addEventListener("click", () => {
+    bargainHideSold = !bargainHideSold;
+    openBargains();
+  });
+  document.querySelectorAll(".bargain-table th[data-bsort]").forEach(th => th.addEventListener("click", () => {
+    const col = th.dataset.bsort;
+    bargainSort = col === bargainSort.col ? { col, dir: -bargainSort.dir } : { col, dir: BARGAIN_DEFAULT_DIR[col] };
+    openBargains();
+  }));
 
   const histBtn = document.getElementById("history-view");
   histBtn.addEventListener("click", () => {
@@ -677,12 +702,12 @@ function wrenchDisplay(level) {
   return `<span class="recap-wrench" title="${level}/5">${filled}${empty}</span>`;
 }
 
-// Description shown after each timeline series heading. AU-x xx is Wayne's own.
+// Description shown after each timeline series heading. AU-xxx is Wayne's own.
 // The rest come only from what the data already records: circuit_family in
 // sansui.json, the generation names in sansui_history.json, and the family
 // voicings in scripts/sonic_families.py. A series with nothing sourced has none.
 const GEN_DESC = {
-  "AU-x xx": "The early years. Tube-like sound and capacitor coupled.",
+  "AU-xxx": "The early years. Tube-like sound and capacitor coupled.",
   "3-digit": "The early years. Tube-like sound and capacitor coupled.",
   "x000": "Tube-like sound and capacitor coupled.",
   "xx1": "Capacitor coupled.",

@@ -3998,49 +3998,49 @@
     },
     "au777": {
       "generation": "Repeated-Digit Series",
-      "gen_short": "AU-x xx",
+      "gen_short": "AU-xxx",
       "model": "AU-777",
       "added_by": "wow-audio"
     },
     "au666": {
       "generation": "Repeated-Digit Series",
-      "gen_short": "AU-x xx",
+      "gen_short": "AU-xxx",
       "model": "AU-666",
       "added_by": "wow-audio"
     },
     "au777d": {
       "generation": "Repeated-Digit Series",
-      "gen_short": "AU-x xx",
+      "gen_short": "AU-xxx",
       "model": "AU-777D",
       "added_by": "wow-audio"
     },
     "au777a": {
       "generation": "Repeated-Digit Series",
-      "gen_short": "AU-x xx",
+      "gen_short": "AU-xxx",
       "model": "AU-777A",
       "added_by": "wow-audio"
     },
     "au222": {
       "generation": "Repeated-Digit Series",
-      "gen_short": "AU-x xx",
+      "gen_short": "AU-xxx",
       "model": "AU-222",
       "added_by": "wow-audio"
     },
     "au555": {
       "generation": "Repeated-Digit Series",
-      "gen_short": "AU-x xx",
+      "gen_short": "AU-xxx",
       "model": "AU-555",
       "added_by": "wow-audio"
     },
     "au999": {
       "generation": "Repeated-Digit Series",
-      "gen_short": "AU-x xx",
+      "gen_short": "AU-xxx",
       "model": "AU-999",
       "added_by": "wow-audio"
     },
     "au555a": {
       "generation": "Repeated-Digit Series",
-      "gen_short": "AU-x xx",
+      "gen_short": "AU-xxx",
       "model": "AU-555A",
       "added_by": "wow-audio"
     },
@@ -4340,7 +4340,7 @@
     },
     "au888": {
       "generation": "Repeated-Digit Series",
-      "gen_short": "AU-x xx",
+      "gen_short": "AU-xxx",
       "model": "AU-888",
       "added_by": "wow-audio"
     },

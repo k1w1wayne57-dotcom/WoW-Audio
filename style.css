@@ -339,6 +339,10 @@ tbody td {
 .bargain-table td { padding: 7px 9px; border-bottom: 1px solid var(--border); white-space: nowrap; }
 /* Model | Baht | Thai AUD | USD | World AUD | Difference | % */
 /* 8 cols: Model | Rank | Baht | Thai AUD | USD | World AUD | Difference | % */
+.bargain-hide { margin: 0 0 10px; font-size: .82rem; }
+.bargain-table th:nth-child(n+3) { text-align: right; }   /* match the right-aligned number cells */
+.bargain-table th[data-bsort] { cursor: pointer; text-decoration: underline dotted; }
+.bargain-table th[data-bsort].active { color: var(--gold); }
 .bargain-table th:nth-child(1), .bargain-table td:nth-child(1) { width: 19%; }
 .bargain-table th:nth-child(2), .bargain-table td:nth-child(2) { width: 12%; }
 .bargain-table th:nth-child(8), .bargain-table td:nth-child(8) { width: 8%; }
