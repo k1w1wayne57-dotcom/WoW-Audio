@@ -445,7 +445,7 @@
     "cons": null,
     "collector_ranking": "Top 10-20",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-11",
     "collector_info": {
       "known_issues": "Scope circuit and hand-calibrated FM section make restoration specialist work, not a weekend recap. Buy only if you can hear it play first — confirm the scope tube lights and FM alignment before committing.",
       "collector_notes": "The only true flagship on Wayne's list. Introduced 1970 at ~$1,000 (raised to ~$1,200 a year later); tuning circuit similar to the 20B; 50W/ch; 46 lb. Most built in Japan with American components — only the first run was California. Comparables: $1,590 serviced, $1,850 with box + WC-9 case, €1,500 Germany, CA$3,450 asking. ฿45,000 for a working 220V unit is fair-to-good."
@@ -485,7 +485,7 @@
     "usd_msrp": 1000,
     "market": null,
     "sonic_signature": "Flagship-grade: a full complementary output stage that was ahead of its time, hand-calibrated for low distortion. The refined end of the classic Marantz sound rather than the soft 'two-martini' voice of the 22xx receivers.",
-    "thb_status": "Sold",
+    "thb_status": "For sale",
     "thb_checked": "2026-08",
     "global_ranking": "Unranked"
   },
@@ -947,7 +947,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-10",
+    "last_price_check": "2026-11",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -984,7 +984,7 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "The classic Marantz sound in an integrated: warm, smooth and rich through the mids with a gentle top end - musical and non-fatiguing rather than analytical. (Family-level: 70s Marantz integrated.)",
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "thb_checked": "2026-08",
     "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
     "global_ranking": "Unranked"
@@ -1010,7 +1010,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-10",
+    "last_price_check": "2026-11",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -1047,7 +1047,7 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "The classic Marantz sound in an integrated: warm, smooth and rich through the mids with a gentle top end - musical and non-fatiguing rather than analytical. (Family-level: 70s Marantz integrated.)",
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "thb_checked": "2026-08",
     "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
     "global_ranking": "Unranked"
@@ -1073,7 +1073,7 @@
     "cons": null,
     "collector_ranking": "Top 30-40",
     "price_confidence": "Medium",
-    "last_price_check": "2026-10",
+    "last_price_check": "2026-11",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -1105,7 +1105,8 @@
     "price_basis": "hifishark median 2026",
     "year_source": "audio-database.com",
     "price_thb_listings": [
-      22000
+      22000,
+      25000
     ],
     "usd_msrp": null,
     "market": null,
@@ -1375,7 +1376,7 @@
     "cons": null,
     "collector_ranking": "Top 40-50",
     "price_confidence": "Medium",
-    "last_price_check": "2026-10",
+    "last_price_check": "2026-11",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -1407,8 +1408,7 @@
     "price_basis": "hifishark median 2026",
     "year_source": "radiomuseum/hifi-wiki",
     "price_thb_listings": [
-      6200,
-      5200
+      6200
     ],
     "usd_msrp": null,
     "market": null,
@@ -1557,7 +1557,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-10",
+    "last_price_check": "2026-11",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -1594,7 +1594,7 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "The classic Marantz sound: warm, smooth and full-bodied with a sweet, slightly soft top end and rich midrange - forgiving and musical, made for long, easy listening. (Family-level: 70s 22xx blue-dial.)",
-    "thb_status": "Sold",
+    "thb_status": "For sale",
     "thb_checked": "2026-08",
     "auto_specs": {
       "source": "classicreceivers + hifi-wiki",
@@ -1631,7 +1631,7 @@
     "cons": "No pre-outs (the only 22xx without them), Comes up short on most speakers, Clipping kills tweeters — wants ~95 dB efficient speakers, Non-B 2216 has audible opamp phono hiss",
     "collector_ranking": "Top 40-50",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-11",
     "collector_info": {
       "known_issues": "Opamp phono stage (audible hiss, worse on the non-B 2216). No pre-outs. Clips into tweeter-killing territory on inefficient speakers.",
       "collector_notes": "Bedroom/desk receiver; wants ~95 dB-efficient speakers. The entry point of the line — not the warm Marantz sound Wayne is chasing. Listed at ฿7,500 (~$227)."
@@ -1663,12 +1663,12 @@
     "price_basis": "hifishark median 2026",
     "year_source": "classicreceivers.com",
     "price_thb_listings": [
-      7500
+      8500
     ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "The entry point of the 22xx line — clean but light; comes up short on most speakers and clips easily. Not the warm 'two-martini' Marantz voice.",
-    "thb_status": "Sold",
+    "thb_status": "For sale",
     "thb_checked": "2026-08",
     "auto_specs": {
       "source": "classicreceivers + hifi-wiki",
@@ -1888,7 +1888,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-10",
+    "last_price_check": "2026-11",
     "collector_info": {
       "known_issues": null,
       "collector_notes": "The 22xx line is widely called the epiphany of the warm 'two-martini' Marantz sound, and the 2235 is the sweet spot where that character meets usable power. Capacitor-coupled (the softer/'tubier' voicing), unlike the direct-coupled B models. Non-B, ~1975, a year or so before the 2235B. Listed at ฿14,500 for a working 220V unit."
@@ -1920,8 +1920,7 @@
     "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "Marantz 22xx model-number convention; ~1975 (pre-2235B)",
     "price_thb_listings": [
-      16000,
-      14500
+      14000
     ],
     "usd_msrp": null,
     "market": null,
@@ -2032,7 +2031,7 @@
     "cons": "Modest 26W power",
     "collector_ranking": "Top 40-50",
     "price_confidence": "Medium",
-    "last_price_check": "2026-10",
+    "last_price_check": "2026-11",
     "collector_info": {
       "known_issues": null,
       "collector_notes": "Called 'the best of the lower-end Marantz.' Phono stage uses discrete transistors and is much quieter than the 2216's opamp phono preamp. Two local listings at ฿11,000 and ฿11,500 (~$333-348); would be ~$200-250 in the US. HiFi Shark 3-mo median still pending."
@@ -2064,9 +2063,8 @@
     "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "Marantz 22xx B-series convention (~1977-79)",
     "price_thb_listings": [
-      8500,
-      12900,
-      30000
+      8900,
+      12500
     ],
     "usd_msrp": null,
     "market": null,
@@ -2113,7 +2111,7 @@
     "cons": null,
     "collector_ranking": "Top 30-40",
     "price_confidence": "Medium",
-    "last_price_check": "2026-10",
+    "last_price_check": "2026-11",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -2145,7 +2143,7 @@
     "price_basis": "hifishark median 2026",
     "year_source": "stereonet/classicreceivers",
     "price_thb_listings": [
-      16500
+      17500
     ],
     "usd_msrp": null,
     "market": null,
@@ -3116,7 +3114,7 @@
     "cons": null,
     "collector_ranking": "Top 20-30",
     "price_confidence": "Medium",
-    "last_price_check": null,
+    "last_price_check": "2026-11",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -3147,11 +3145,13 @@
     "avg_price_usd_3mo": 1400,
     "price_basis": "hifishark median 2026",
     "year_source": "classicreceivers.com",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      32000
+    ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null,
+    "thb_status": "For sale",
     "global_ranking": "Unranked"
   },
   {
@@ -3175,7 +3175,7 @@
     "cons": null,
     "collector_ranking": "Top 10",
     "price_confidence": "Medium",
-    "last_price_check": "2026-10",
+    "last_price_check": "2026-11",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -3213,7 +3213,7 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Marantz's warm, smooth voice across four channels; in stereo it plays as a full-bodied, musical receiver of the Quadradial era. (Family-level: early-70s Quadradial.)",
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "thb_checked": "2026-08",
     "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
     "global_ranking": "Top 10-20"
@@ -3239,7 +3239,7 @@
     "cons": null,
     "collector_ranking": "Top 40-50",
     "price_confidence": "Medium",
-    "last_price_check": "2026-10",
+    "last_price_check": "2026-11",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -3271,7 +3271,7 @@
     "price_basis": "hifishark median 2026",
     "year_source": "audio-database.com",
     "price_thb_listings": [
-      22500
+      18500
     ],
     "usd_msrp": null,
     "market": null,
@@ -3365,7 +3365,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-11",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -3396,11 +3396,13 @@
     "avg_price_usd_3mo": 121,
     "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
     "year_source": "audio-database.com",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      4500
+    ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null,
+    "thb_status": "For sale",
     "auto_price": {
       "source": "hifishark.com",
       "date": "2026-08",
@@ -3489,7 +3491,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-10",
+    "last_price_check": "2026-11",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -3521,7 +3523,7 @@
     "price_basis": "hifishark median 2026",
     "year_source": "audio-database.com",
     "price_thb_listings": [
-      10500
+      11000
     ],
     "usd_msrp": null,
     "market": null,
@@ -3679,7 +3681,7 @@
     "cons": null,
     "collector_ranking": "Top 10-20",
     "price_confidence": "Medium",
-    "last_price_check": null,
+    "last_price_check": "2026-11",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -3710,11 +3712,13 @@
     "avg_price_usd_3mo": 2000,
     "price_basis": "hifishark median 2026",
     "year_source": "theabsolutesound/VTA",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      210000
+    ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null,
+    "thb_status": "For sale",
     "global_ranking": "Top 30-40"
   },
   {
@@ -4424,7 +4428,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-10",
+    "last_price_check": "2026-11",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -4461,7 +4465,7 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "80s Marantz: more neutral, tighter and faster than the warm 70s house sound, but still smooth and easy on the ears - detail without harshness. (Family-level: 80s PM series.)",
-    "thb_status": "For sale",
+    "thb_status": "Sold",
     "thb_checked": "2026-08",
     "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
     "global_ranking": "Unranked"
@@ -4618,7 +4622,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Medium",
-    "last_price_check": "2026-10",
+    "last_price_check": "2026-11",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -4647,7 +4651,6 @@
     "price_basis": "eBay/VTA sold ~$300-600, typ ~$500",
     "year_source": null,
     "price_thb_listings": [
-      12900,
       12900
     ],
     "usd_msrp": null,
@@ -4970,7 +4973,7 @@
     "cons": null,
     "collector_ranking": "Top 20-30",
     "price_confidence": "Medium",
-    "last_price_check": "2026-10",
+    "last_price_check": "2026-11",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -4999,7 +5002,6 @@
     "price_basis": "Reverb/eBay sold $1,200-1,800 (MSRP $580)",
     "year_source": null,
     "price_thb_listings": [
-      23500,
       28000
     ],
     "usd_msrp": null,
