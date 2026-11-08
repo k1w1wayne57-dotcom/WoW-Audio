@@ -369,7 +369,7 @@ function populateBrands() {
     const b = document.createElement("button");
     b.className = "btn brand-btn" + (active ? " active" : "");
     b.dataset.brand = value;
-    b.textContent = label;
+    b.innerHTML = brandChip(label);
     b.addEventListener("click", () => {
       row.querySelectorAll(".brand-btn").forEach(x => x.classList.remove("active"));
       b.classList.add("active");
@@ -380,6 +380,15 @@ function populateBrands() {
   };
   row.appendChild(makeBtn("All", "all", true));
   brands.forEach(br => row.appendChild(makeBtn(br, br, false)));
+}
+
+// Brand chips show the period logo in place of the name (Wikimedia Commons files in
+// images/logos/; Sansui is the 1947–87 script). Unknown brands fall back to text.
+const BRAND_LOGOS = { Sansui: "sansui.png", Pioneer: "pioneer.svg", Marantz: "marantz.svg", Yamaha: "yamaha.svg" };
+function brandChip(brand) {
+  const f = BRAND_LOGOS[brand];
+  return f ? `<img class="brand-logo bl-${brand.toLowerCase()}" src="images/logos/${f}" alt="${escapeHtml(brand)}">`
+           : escapeHtml(brand);
 }
 
 function populateStats() {
@@ -695,7 +704,7 @@ const GEN_DESC = {
   "G 3rd Gen (DC)": "Pure Power DC, 1979–82. Cleaner and tighter than the 1st generation.",
   "G Monster": "Two-piece receivers, 1978–81.",
   // Pioneer — from the TriAudio video's spec tables.
-  "SX-x24": "1972–74. Fuse protection and capacitor-coupled outputs up to the 626. Relay on the 727 and 828.",
+  "SX-x2x": "1972–74. Fuse protection and capacitor-coupled outputs up to the 626. Relay on the 727 and 828.",
   "SX-x3x": "1974–76. Relay protection from the 737 up. Advanced tone controls from the 838 up.",
   "SX-x50": "1976–78. Relay protection from the 650 up. Advanced tone controls from the 850 up.",
   "SX-x80": "1978–80. Relay protection from the 780 up. Advanced tone controls from the 980 up.",
@@ -745,15 +754,22 @@ function renderHistory() {
   const decadeOf = y => (typeof y === "number" && y ? Math.floor(y / 10) * 10 : null);
 
   const inDbCount = items.filter(i => i.inDb).length;
+  const brandNav = document.getElementById("hist-brands");
+  brandNav.innerHTML = Object.keys(HISTORY_FILES).map(b =>
+    `<button class="btn${b === historyBrand ? " active" : ""}" data-hbrand="${b}">${brandChip(b)}</button>`).join("");
+  brandNav.querySelectorAll("[data-hbrand]").forEach(b => b.addEventListener("click", () => {
+    historyBrand = b.dataset.hbrand;
+    renderHistory();
+  }));
   let html = `<div class="hist-head">
-      <nav class="hist-brands">` + Object.keys(HISTORY_FILES).map(b =>
-        `<button class="btn${b === historyBrand ? " active" : ""}" data-hbrand="${b}">${b}</button>`).join("") + `</nav>
       <h1>${escapeHtml(historyBrand)} — The Complete Timeline</h1>
       <p class="hist-note">${items.length} models by type, then by decade —
         ${inDbCount} from this database, ${items.length - inDbCount} reference-only from the
         ${src.url ? `<a href="${escapeHtml(src.url)}" target="_blank" rel="noopener">${escapeHtml(srcLabel)} ↗</a>` : escapeHtml(srcLabel)}.
         Neither list is complete.</p>
-      <p class="hist-legend"><span class="hist-swatch in-db"></span> In your database (click for details)
+      <p class="hist-legend"><span class="hist-swatch in-db"></span> In your database (click for details):
+        ${[["Top-10", "Top 10"], ["Top-10-20", "11–20"], ["Top-20-30", "21–30"], ["Top-30-40", "31–40"], ["Top-40-50", "41–50"]]
+          .map(([c, l]) => `<span class="hist-swatch in-db hrank-${c}"></span> ${l}`).join(" ")}
         &nbsp; <span class="hist-swatch"></span> Reference only</p>
     </div>`;
 
@@ -854,10 +870,6 @@ function renderHistory() {
   });
 
   el.innerHTML = html;
-  el.querySelectorAll("[data-hbrand]").forEach(b => b.addEventListener("click", () => {
-    historyBrand = b.dataset.hbrand;
-    renderHistory();
-  }));
   el.querySelectorAll("[data-jump]").forEach(b => b.addEventListener("click", () =>
     document.getElementById(b.dataset.jump).scrollIntoView({ behavior: "smooth" })));
   wireHistorySearch(el);

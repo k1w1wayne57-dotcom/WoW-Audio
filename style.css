@@ -574,7 +574,13 @@ tbody td {
   text-transform: uppercase; margin: 42px 0 4px; padding-bottom: 6px; border-bottom: 2px solid var(--border); }
 .hist-tally { color: var(--text-secondary); font-size: .72rem; font-weight: 500; letter-spacing: 0; margin-left: 6px; }
 .hist-cat { scroll-margin-top: 140px; }   /* clear the sticky header on a chip jump */
-.hist-brands { display: flex; gap: 8px; margin: 0 0 14px; }
+.hist-brands { display: flex; gap: 8px; flex-shrink: 0; }
+/* Brand logo in place of the brand name: white on dark chips, black on the gold active chip */
+.brand-logo { display: block; height: 1em; width: auto; filter: brightness(0) invert(1); }
+.btn.active .brand-logo { filter: brightness(0); }
+.btn:has(> .brand-logo) { display: inline-flex; align-items: center; min-height: 34px; }
+.bl-sansui  { height: 1.15em; }
+.bl-marantz { height: 0.8em; }
 .hist-jump { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 0; }
 #back-to-top { position: fixed; right: 16px; bottom: 16px; z-index: 60;
   color: var(--text); border-color: var(--gold); box-shadow: 0 2px 8px rgba(0,0,0,.4); }
@@ -595,16 +601,16 @@ tbody td {
 .hist-model.in-db { border-color: var(--gold); background: rgba(201,168,76,.12); cursor: pointer; }
 .hist-model.in-db:hover { background: rgba(201,168,76,.24); border-color: var(--gold-bright); }
 /* Pale ranking tints (same hues as the rank badges). Unranked keeps the plain chip. */
-.hist-model.hrank-Top-10    { background: rgba(201,168,76,.50); }
-.hist-model.hrank-Top-10-20 { background: rgba(183,192,204,.40); }
-.hist-model.hrank-Top-20-30 { background: rgba(201,138,76,.45); }
-.hist-model.hrank-Top-30-40 { background: rgba(91,127,181,.55); }
-.hist-model.hrank-Top-40-50 { background: rgba(91,127,181,.32); }
+.hist-model.hrank-Top-10,    .hist-swatch.hrank-Top-10    { background: rgba(201,168,76,.50); }
+.hist-model.hrank-Top-10-20, .hist-swatch.hrank-Top-10-20 { background: rgba(183,192,204,.40); }
+.hist-model.hrank-Top-20-30, .hist-swatch.hrank-Top-20-30 { background: rgba(201,138,76,.45); }
+.hist-model.hrank-Top-30-40, .hist-swatch.hrank-Top-30-40 { background: rgba(91,127,181,.55); }
+.hist-model.hrank-Top-40-50, .hist-swatch.hrank-Top-40-50 { background: rgba(91,127,181,.32); }
 .hist-model[class*="hrank-Top"]:hover { filter: brightness(1.25); }
 
 /* search */
 .hist-search-wrap { max-width: 1100px; margin: 0 auto; padding: 20px 20px 0; display: flex; gap: 12px; align-items: center; }
-#hist-search { flex: 1; padding: 10px 14px; background: var(--bg-alt); border: 1px solid var(--border);
+#hist-search { flex: 1; min-width: 0; max-width: 360px; padding: 10px 14px; background: var(--bg-alt); border: 1px solid var(--border);
   border-radius: 8px; color: var(--text); font-size: .92rem; }
 #hist-search:focus { outline: none; border-color: var(--gold); }
 #hist-search::placeholder { color: var(--text-secondary); }
@@ -614,6 +620,6 @@ tbody td {
 .hist-genhead { font-family: 'Inter', sans-serif; color: #fff; font-size: 1.15rem; font-weight: 400;
   letter-spacing: .04em; margin: 20px 0 8px; text-transform: uppercase; }
 .hist-genhead .hist-tally { color: #fff; font-weight: 400; }
-.hist-gendesc { text-transform: none; letter-spacing: 0; margin-left: 8px; }
+.hist-gendesc { text-transform: none; letter-spacing: 0; margin-left: 8px; font-size: .75em; }
 
 .thb-spread { color: var(--text-secondary); font-size: 0.78rem; font-weight: 400; }

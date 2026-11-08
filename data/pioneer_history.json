@@ -8,7 +8,7 @@
   "sections": [
     {
       "category": "RECEIVER",
-      "generation": "SX-x24 series (1972-74)",
+      "generation": "SX-x2x series (1972-74)",
       "groups": [
         {
           "topology": null,
@@ -404,28 +404,28 @@
   ],
   "generations": {
     "sx424": {
-      "generation": "SX-x24 series (1972-74)",
-      "gen_short": "SX-x24",
+      "generation": "SX-x2x series (1972-74)",
+      "gen_short": "SX-x2x",
       "model": "SX-424"
     },
     "sx525": {
-      "generation": "SX-x24 series (1972-74)",
-      "gen_short": "SX-x24",
+      "generation": "SX-x2x series (1972-74)",
+      "gen_short": "SX-x2x",
       "model": "SX-525"
     },
     "sx626": {
-      "generation": "SX-x24 series (1972-74)",
-      "gen_short": "SX-x24",
+      "generation": "SX-x2x series (1972-74)",
+      "gen_short": "SX-x2x",
       "model": "SX-626"
     },
     "sx727": {
-      "generation": "SX-x24 series (1972-74)",
-      "gen_short": "SX-x24",
+      "generation": "SX-x2x series (1972-74)",
+      "gen_short": "SX-x2x",
       "model": "SX-727"
     },
     "sx828": {
-      "generation": "SX-x24 series (1972-74)",
-      "gen_short": "SX-x24",
+      "generation": "SX-x2x series (1972-74)",
+      "gen_short": "SX-x2x",
       "model": "SX-828"
     },
     "sx434": {

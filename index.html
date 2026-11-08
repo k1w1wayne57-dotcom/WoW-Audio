@@ -51,18 +51,6 @@
 
 <main id="database">
   <section class="controls">
-    <div class="control-row" id="sort-row">
-      <span class="control-label">Sort by</span>
-      <button class="btn sort-btn active" data-sort="collector">🏆 Collector Rank</button>
-      <button class="btn sort-btn" data-sort="newest">📅 Newest First</button>
-      <button class="btn sort-btn" data-sort="oldest">📅 Oldest First</button>
-      <button class="btn sort-btn" data-sort="heaviest">⚖️ Heaviest</button>
-      <button class="btn sort-btn" data-sort="watts">⚡ Most Watts</button>
-      <button class="btn sort-btn" data-sort="price">💰 Highest Price</button>
-      <button class="btn sort-btn" data-sort="recap">🔧 Easiest Recap</button>
-      <button class="btn sort-btn" data-sort="bestbuy">⭐ Best Buy</button>
-    </div>
-
     <div class="control-row" id="brand-row">
       <span class="control-label">Brand</span>
     </div>
@@ -87,6 +75,18 @@
       <button class="btn era-btn" data-era="1970s">1970s</button>
       <button class="btn era-btn" data-era="1980s">1980s</button>
       <button class="btn era-btn" data-era="Alpha Series">Alpha</button>
+    </div>
+
+    <div class="control-row" id="sort-row">
+      <span class="control-label">Sort by</span>
+      <button class="btn sort-btn active" data-sort="collector">🏆 Collector Rank</button>
+      <button class="btn sort-btn" data-sort="newest">📅 Newest First</button>
+      <button class="btn sort-btn" data-sort="oldest">📅 Oldest First</button>
+      <button class="btn sort-btn" data-sort="heaviest">⚖️ Heaviest</button>
+      <button class="btn sort-btn" data-sort="watts">⚡ Most Watts</button>
+      <button class="btn sort-btn" data-sort="price">💰 Highest Price</button>
+      <button class="btn sort-btn" data-sort="recap">🔧 Easiest Recap</button>
+      <button class="btn sort-btn" data-sort="bestbuy">⭐ Best Buy</button>
     </div>
 
     <div class="control-row" id="extra-row">
@@ -129,7 +129,8 @@
 
   <section class="history-section" id="history-section" hidden>
     <div class="hist-search-wrap">
-      <input type="text" id="hist-search" placeholder="Find a model in the timeline… (e.g. B-2102, D507X, AU-717)">
+      <nav class="hist-brands" id="hist-brands"></nav>
+      <input type="text" id="hist-search" placeholder="Find a model…">
       <span class="hist-count" id="hist-count"></span>
     </div>
     <div class="history-inner" id="history-content"></div>
