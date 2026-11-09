@@ -957,8 +957,8 @@
     "special_features": "AM/FM tuner, phono (MM) and AUX inputs, 4-16 ohm speaker rating. Dimensions 405 x 135 x 330 mm. Five 6.3V screw-in dial lamps. Input sensitivity 3mV MM / 130mV line; S/N 75dB MM, 85dB line.",
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 10-20",
-    "price_confidence": "Low",
+    "collector_ranking": "Top 30-40",
+    "price_confidence": "Medium",
     "last_price_check": "2026-11",
     "collector_info": {
       "known_issues": "Entry-level of the early SX line at 12W/ch - not a monster receiver, and it will not drive low-impedance loads well (rated 4-16 ohm but reported poor below 8 ohm). The phono stage and tuner are both well regarded for the price bracket.",
@@ -991,8 +991,8 @@
     "notes": "Specs from Classic Receivers and HiFi Engine (12W/ch, 20Hz-70kHz, 1% THD, 8kg, $299.99 launch). No Audio Database page. Thai listing seen on Facebook Marketplace Aug 2026.",
     "verified": false,
     "verification": "sourced",
-    "avg_price_usd_3mo": 1012,
-    "price_basis": "hifishark 8mo, ONE listing only - not a reliable benchmark",
+    "avg_price_usd_3mo": 196,
+    "price_basis": "hifishark US-filter sold/expired, 6 listing asking prices Aug 2024-Aug 2026 (AUD->USD at 0.66), Wayne's paste 2026-11-09",
     "year_source": "classicreceivers.com",
     "price_thb_listings": [
       1600
@@ -1002,13 +1002,13 @@
     "sonic_signature": "The classic Pioneer sound: clean, crisp and lively with tight, controlled bass and an open, slightly forward top end - punchy and dynamic rather than warm, and very listenable at volume. (Family-level: 70s silver-face SX receivers.)",
     "thb_status": "Sold",
     "auto_price": {
-      "source": "hifishark.com (Wayne's SX export, 8mo)",
-      "date": "2026-08",
-      "n": 1,
-      "median_usd": 1012,
-      "low": 1012,
-      "high": 1012,
-      "previous_usd": 216
+      "source": "hifishark.com (Wayne's paste, US filter, sold/expired)",
+      "date": "2026-11",
+      "n": 6,
+      "median_usd": 196,
+      "low": 158,
+      "high": 287,
+      "previous_usd": 1012
     },
     "thb_checked": "2026-08",
     "auto_specs": {
@@ -1866,7 +1866,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 20-30",
+    "collector_ranking": "Top 10-20",
     "price_confidence": "Medium",
     "last_price_check": "2026-10",
     "collector_info": {
@@ -2320,7 +2320,7 @@
     "special_features": null,
     "pros": null,
     "cons": null,
-    "collector_ranking": "Top 30-40",
+    "collector_ranking": "Top 20-30",
     "price_confidence": "Low",
     "last_price_check": "2026-11",
     "collector_info": {
