@@ -1740,7 +1740,7 @@
       "sansui_us": null,
       "source": null
     },
-    "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Specs sourced from hifi-wiki (still unverified).",
+    "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Specs sourced from hifi-wiki (still unverified). Service manual (Wayne, 2026-11-09): op-amp input stage, discrete output stage; full-size chassis (same as the SA-7500 II). A slimline unit sold in Thailand as an SA-7500 does not match either service manual; probably a JDM-only variant, no data found (Wayne, 2026-11-09). Check the chassis size before buying.",
     "verified": false,
     "verification": "sourced",
     "avg_price_usd_3mo": 318,
@@ -1770,7 +1770,82 @@
       ]
     },
     "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
-    "global_ranking": "Unranked"
+    "global_ranking": "Unranked",
+    "output_stage": "Discrete",
+    "output_stage_source": "Service manual (Wayne, 2026-11-09)"
+  },
+  {
+    "id": "pioneer-sa-7500-ii",
+    "brand": "Pioneer",
+    "jdm_model": "SA-7500 II",
+    "int_model": null,
+    "type": "Integrated",
+    "series": "SA Amplifier",
+    "year_start": 1977,
+    "year_end": 1979,
+    "japan_price_kyen": null,
+    "watts_per_channel": 45,
+    "freq_response_hz": "10-40000",
+    "thd_percent": 0.1,
+    "ps_type": null,
+    "amp_circuit": "Integrated amplifier; op-amp input stage, discrete output stage (service manual)",
+    "weight_kg": null,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "price_confidence": null,
+    "last_price_check": null,
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null,
+      "sansui_us": null,
+      "source": null
+    },
+    "notes": "Years from hifi-wiki. Power/FR/THD from Hifiengine figures quoted in a Reverb listing (2026-11-09). Weight left blank: hifi-wiki gives 9.1 kg and 380x139x308 mm, but the service manual shows the full-size chassis, so those figures probably describe the slimline JDM unit. Service manual (Wayne, 2026-11-09): op-amp input stage, discrete output stage; full-size chassis (same as the SA-7500 II). A slimline unit sold in Thailand as an SA-7500 does not match either service manual; probably a JDM-only variant, no data found (Wayne, 2026-11-09). Check the chassis size before buying.",
+    "verified": false,
+    "verification": "sourced",
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": "hifi-wiki",
+    "price_thb_listings": [],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": "The classic Pioneer sound in an integrated: clean, crisp and dynamic with tight bass and an open, slightly bright top - detailed and energetic rather than warm. (Family-level: 70s silver-face SA integrated.)",
+    "thb_status": null,
+    "auto_price": null,
+    "thb_checked": null,
+    "auto_specs": {
+      "source": "Hifiengine figures quoted in a Reverb listing",
+      "date": "2026-11",
+      "fields": [
+        "watts_per_channel",
+        "freq_response_hz",
+        "thd_percent"
+      ]
+    },
+    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "global_ranking": "Unranked",
+    "output_stage": "Discrete",
+    "output_stage_source": "Service manual (Wayne, 2026-11-09)"
   },
   {
     "id": "pioneer-sa-6850",
