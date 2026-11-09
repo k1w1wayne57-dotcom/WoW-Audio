@@ -1740,7 +1740,7 @@
       "sansui_us": null,
       "source": null
     },
-    "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Specs sourced from hifi-wiki (still unverified). Service manual (Wayne, 2026-11-09): op-amp input stage, discrete output stage; full-size chassis (same as the SA-7500 II). A slimline unit sold in Thailand as an SA-7500 does not match either service manual; probably a JDM-only variant, no data found (Wayne, 2026-11-09). Check the chassis size before buying.",
+    "notes": "Unverified — model and/or Thai price from Wayne's Thai-market list; not independently confirmed. Specs sourced from hifi-wiki (still unverified). Service manual (Wayne, 2026-11-09): op-amp input stage, discrete output stage; full-size chassis (same as the SA-7500 II). A slimline unit sold in Thailand as an SA-7500 does not match either service manual; probably a JDM-only variant, no data found (Wayne, 2026-11-09). Its back label reads SA-7500 and names FURUKAWA DENSHI as well as Pioneer; Pioneer-built units such as the SA-8800 name Pioneer only. No source found for a Furukawa Denshi / Pioneer OEM link. Check the chassis size before buying.",
     "verified": false,
     "verification": "sourced",
     "avg_price_usd_3mo": 318,
@@ -1820,7 +1820,7 @@
       "sansui_us": null,
       "source": null
     },
-    "notes": "Years from hifi-wiki. Power/FR/THD from Hifiengine figures quoted in a Reverb listing (2026-11-09). Weight left blank: hifi-wiki gives 9.1 kg and 380x139x308 mm, but the service manual shows the full-size chassis, so those figures probably describe the slimline JDM unit. Service manual (Wayne, 2026-11-09): op-amp input stage, discrete output stage; full-size chassis (same as the SA-7500 II). A slimline unit sold in Thailand as an SA-7500 does not match either service manual; probably a JDM-only variant, no data found (Wayne, 2026-11-09). Check the chassis size before buying.",
+    "notes": "Years from hifi-wiki. Power/FR/THD from Hifiengine figures quoted in a Reverb listing (2026-11-09). Weight left blank: hifi-wiki gives 9.1 kg and 380x139x308 mm, but the service manual shows the full-size chassis, so those figures probably describe the slimline JDM unit. Service manual (Wayne, 2026-11-09): op-amp input stage, discrete output stage; full-size chassis (same as the SA-7500 II). A slimline unit sold in Thailand as an SA-7500 does not match either service manual; probably a JDM-only variant, no data found (Wayne, 2026-11-09). Its back label reads SA-7500 and names FURUKAWA DENSHI as well as Pioneer; Pioneer-built units such as the SA-8800 name Pioneer only. No source found for a Furukawa Denshi / Pioneer OEM link. Check the chassis size before buying.",
     "verified": false,
     "verification": "sourced",
     "avg_price_usd_3mo": null,
