@@ -1375,7 +1375,7 @@
     "cons": null,
     "collector_ranking": "Top 30-40",
     "price_confidence": "Low",
-    "last_price_check": "2026-08",
+    "last_price_check": "2026-11",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -1414,11 +1414,13 @@
     "avg_price_usd_3mo": 1330,
     "price_basis": "hifishark US 12mo listing median (AUD->USD), n=3, 2026-08",
     "year_source": "serial-report (decoded; first volume production year)",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      19500
+    ],
     "usd_msrp": 600,
     "market": null,
     "sonic_signature": "Capacitor-coupled output: a series capacitor sits between the output stage and the speaker, which high-passes the deep bass and softens the bottom end. That is where the warm, rounded voice of this generation comes from - a circuit consequence rather than a voicing choice. The result is a lush, organic midrange often described as tube-like, with smooth clarity and an unfussy top end.",
-    "thb_status": null,
+    "thb_status": "For sale",
     "auto_price": {
       "source": "hifishark.com (US region, 12mo export)",
       "date": "2026-08",
@@ -6764,7 +6766,7 @@
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Capacitor-coupled output: a series capacitor sits between the output stage and the speaker, which high-passes the deep bass and softens the bottom end. That is where the warm, rounded voice of this generation comes from - a circuit consequence rather than a voicing choice. The result is a lush, organic midrange often described as tube-like, with smooth clarity and an unfussy top end.",
-    "thb_status": "Sold",
+    "thb_status": "For sale",
     "thb_checked": "2026-08",
     "circuit_family": "Classic solid-state (capacitor-coupled)",
     "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)",
@@ -6951,7 +6953,7 @@
     "cons": null,
     "collector_ranking": "Unranked",
     "price_confidence": "Low",
-    "last_price_check": "2026-06",
+    "last_price_check": "2026-11",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -6990,11 +6992,13 @@
     "avg_price_usd_3mo": 500,
     "price_basis": null,
     "year_source": "serial-report (decoded; first volume production year)",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      3800
+    ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "Capacitor-coupled output: a series capacitor sits between the output stage and the speaker, which high-passes the deep bass and softens the bottom end. That is where the warm, rounded voice of this generation comes from - a circuit consequence rather than a voicing choice. The result is a lush, organic midrange often described as tube-like, with smooth clarity and an unfussy top end.",
-    "thb_status": null,
+    "thb_status": "For sale",
     "circuit_family": "Classic solid-state (capacitor-coupled)",
     "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)",
     "global_ranking": "Unranked"

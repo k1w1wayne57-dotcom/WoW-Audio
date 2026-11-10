@@ -60,5 +60,82 @@
     "sonic_signature": null,
     "thb_status": "Sold",
     "global_ranking": "Unranked"
+  },
+  {
+    "id": "yamaha-cr-400-1974",
+    "brand": "Yamaha",
+    "jdm_model": "CR-400",
+    "int_model": null,
+    "type": "Receiver",
+    "series": null,
+    "year_start": 1974,
+    "year_end": null,
+    "japan_price_kyen": 59,
+    "watts_per_channel": 16,
+    "freq_response_hz": null,
+    "thd_percent": 0.5,
+    "ps_type": null,
+    "amp_circuit": "Complementary OCL, all stages direct-coupled; FET constant-current differential first stage. Power amp doubles as active 12 dB/oct subsonic filter.",
+    "weight_kg": 9.5,
+    "special_features": "Natural Sound receiver: NF-type tone control, mic mixing input.",
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "price_confidence": "None",
+    "last_price_check": "2026-11",
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": "https://www.audio-database.com/YAMAHA/amp/cr-400.html",
+      "hifi_engine": null,
+      "sansui_us": null,
+      "brochure": null,
+      "source": "https://classicreceivers.com/?p=2533"
+    },
+    "notes": "Added 2026-11-10 from Wayne's Thai list. Specs from Audio Database: Y59,000, 16 W/ch 8 ohm 20-20k at 0.5% THD, 9.5 kg. US list $330 (entry-level) from Classic Receivers. Hi-Fi Wiki gives 1973-77, Radiomuseum 1975-78; year_end left blank.",
+    "verified": false,
+    "verification": "sourced",
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": "audio-database.com (c.1974 JP release); Classic Receivers gives 1975 US intro",
+    "price_thb_listings": [
+      4500
+    ],
+    "usd_msrp": 330,
+    "market": null,
+    "sonic_signature": null,
+    "sonic_source": null,
+    "thb_status": "For sale",
+    "global_ranking": "Unranked",
+    "auto_specs": {
+      "source": "audio-database.com + classicreceivers.com",
+      "date": "2026-11",
+      "fields": [
+        "year_start",
+        "japan_price_kyen",
+        "watts_per_channel",
+        "thd_percent",
+        "weight_kg",
+        "usd_msrp",
+        "amp_circuit",
+        "special_features"
+      ]
+    }
   }
 ]

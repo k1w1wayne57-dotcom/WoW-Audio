@@ -39,8 +39,10 @@ ALIAS = {
         "107ii": "AU-117II",  # AU-107II is the export twin; listed on the AU-117II record
         "au107ii": "AU-117II",
     },
-    "marantz": {"pm5": "PM-5 Esotec", "pm710": "PM-710 DC"},
+    "marantz": {"pm5": "PM-5 Esotec", "pm710": "PM-710 DC",
+                "2240b": "2240"},  # Wayne: the 2240B lists on the 2240 record
     "pioneer": {},
+    "yamaha": {},
 }
 
 

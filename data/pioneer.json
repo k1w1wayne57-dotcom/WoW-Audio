@@ -5275,5 +5275,68 @@
     },
     "sonic_source": null,
     "global_ranking": "Unranked"
+  },
+  {
+    "id": "pioneer-sa-710",
+    "brand": "Pioneer",
+    "jdm_model": "SA-710",
+    "int_model": null,
+    "type": "Integrated",
+    "series": "SA Amplifier",
+    "year_start": null,
+    "year_end": null,
+    "japan_price_kyen": null,
+    "watts_per_channel": null,
+    "freq_response_hz": null,
+    "thd_percent": null,
+    "ps_type": null,
+    "amp_circuit": null,
+    "weight_kg": null,
+    "special_features": null,
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "price_confidence": "None",
+    "last_price_check": "2026-11",
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": "https://audio-database.com/PIONEER-EXCLUSIVE/amp/sa-710-e.html",
+      "hifi_engine": null,
+      "sansui_us": null,
+      "brochure": null,
+      "source": "https://radiomuseum.org/r/pioneer_stereo_amplifier_sa_710.html"
+    },
+    "notes": "Added 2026-11-10 from Wayne's Thai list. Sources conflict, so year, watts, THD and weight are left blank: Audio Database gives c.1973, 20 W/ch 8 ohm, 0.5% THD, 10.1 kg, Y54,000, pure complementary OCL direct-coupled. Radiomuseum gives 1980/81, 65 W/ch 8 ohm (service manual dated April 1980); a DIYAudio thread says 1978-80. These may be two different units sharing the name. Check the faceplate/back label of the Thai unit.",
+    "verified": false,
+    "verification": "sourced",
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": null,
+    "price_thb_listings": [
+      4500
+    ],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": null,
+    "sonic_source": null,
+    "thb_status": "For sale",
+    "global_ranking": "Unranked"
   }
 ]

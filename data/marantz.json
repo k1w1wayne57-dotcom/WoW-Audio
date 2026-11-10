@@ -979,12 +979,12 @@
     "price_basis": "hifishark median 2026",
     "year_source": "audio-database.com",
     "price_thb_listings": [
-      14000
+      5900
     ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": "The classic Marantz sound in an integrated: warm, smooth and rich through the mids with a gentle top end - musical and non-fatiguing rather than analytical. (Family-level: 70s Marantz integrated.)",
-    "thb_status": "Sold",
+    "thb_status": "For sale",
     "thb_checked": "2026-08",
     "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
     "global_ranking": "Unranked"
@@ -3870,7 +3870,7 @@
     "cons": null,
     "collector_ranking": "Top 10-20",
     "price_confidence": "Medium",
-    "last_price_check": null,
+    "last_price_check": "2026-11",
     "collector_info": {
       "known_issues": null,
       "collector_notes": null
@@ -3901,11 +3901,13 @@
     "avg_price_usd_3mo": 1420,
     "price_basis": "hifishark median 2026",
     "year_source": "classicreceivers.com",
-    "price_thb_listings": [],
+    "price_thb_listings": [
+      14900
+    ],
     "usd_msrp": null,
     "market": null,
     "sonic_signature": null,
-    "thb_status": null,
+    "thb_status": "For sale",
     "global_ranking": "Unranked"
   },
   {
@@ -5243,5 +5245,77 @@
     "sonic_source": null,
     "thb_status": "For sale",
     "global_ranking": "Unranked"
+  },
+  {
+    "id": "marantz-superscope-r-310-1974",
+    "brand": "Marantz",
+    "jdm_model": "Superscope R-310",
+    "int_model": null,
+    "type": "Receiver",
+    "series": "Superscope",
+    "year_start": 1974,
+    "year_end": null,
+    "japan_price_kyen": null,
+    "watts_per_channel": 5,
+    "freq_response_hz": null,
+    "thd_percent": null,
+    "ps_type": null,
+    "amp_circuit": "Superscope (Marantz budget division) stereo receiver",
+    "weight_kg": null,
+    "special_features": "Stereo receiver with Quadraphase matrix decoding.",
+    "pros": null,
+    "cons": null,
+    "collector_ranking": "Unranked",
+    "price_confidence": "None",
+    "last_price_check": "2026-11",
+    "collector_info": {
+      "known_issues": null,
+      "collector_notes": null
+    },
+    "restorer_info": {
+      "known_failure_points": [],
+      "bias_spec_mv": null,
+      "service_manual_link": null,
+      "recap_difficulty": null,
+      "recap_notes": null,
+      "estimated_recap_cost_usd": null,
+      "common_faults": []
+    },
+    "best_buy": {
+      "rating": null,
+      "reason": null
+    },
+    "capacitors": [],
+    "links": {
+      "audio_database": null,
+      "hifi_engine": null,
+      "sansui_us": null,
+      "brochure": null,
+      "source": "https://www.ebay.com/itm/388631977961"
+    },
+    "notes": "Added 2026-11-10 from Wayne's Thai list. Year 1974 and 5 W/ch into 8 ohm from dealer listings (Reverb, eBay) and an Audiokarma owner thread; one Reverb listing claims 6.5 W RMS (outlier, ignored). No manual or brochure source found. Reverb listing calls it the 'Marantz 2010 little sister' (not confirmed).",
+    "verified": false,
+    "verification": "sourced",
+    "avg_price_usd_3mo": null,
+    "price_basis": null,
+    "year_source": "dealer listings (Reverb, eBay) 2026-11",
+    "price_thb_listings": [
+      3500
+    ],
+    "usd_msrp": null,
+    "market": null,
+    "sonic_signature": null,
+    "sonic_source": null,
+    "thb_status": "For sale",
+    "global_ranking": "Unranked",
+    "auto_specs": {
+      "source": "dealer listings (Reverb, eBay) + Audiokarma thread",
+      "date": "2026-11",
+      "fields": [
+        "year_start",
+        "watts_per_channel",
+        "special_features"
+      ]
+    }
   }
 ]
