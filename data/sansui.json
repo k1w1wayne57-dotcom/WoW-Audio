@@ -14848,8 +14848,8 @@
     "watts_per_channel": 80,
     "freq_response_hz": "1-200000",
     "thd_percent": 0.005,
-    "ps_type": "X-Balanced",
-    "amp_circuit": "Integrated DC amp, alpha-X Balanced",
+    "ps_type": null,
+    "amp_circuit": "Integrated DC amp, alpha (NOT X-Balanced: black speaker terminal reads 0 ohm to RCA ground, owner test 2026-11-12)",
     "weight_kg": 10.8,
     "special_features": null,
     "pros": null,
@@ -14871,7 +14871,7 @@
       "bias_spec_mv": null,
       "service_manual_link": null,
       "recap_difficulty": 2,
-      "recap_notes": "X-BALANCED SAFETY: both the red (+) and black (-) speaker terminals carry live, independent voltage. NEVER bridge/common the black terminals together, and NEVER connect a black terminal to chassis or an external/test ground - doing so shorts the floating balanced rails and instantly destroys the output transistors.",
+      "recap_notes": "Conventional output: black (-) speaker terminals are at ground (0 ohm to RCA ground, owner test 2026-11-12). The earlier X-Balanced safety note was copied from the alpha-607/707/907 and was wrong for this model.",
       "estimated_recap_cost_usd": null,
       "common_faults": [
         "Protection relay trips on power-up",
@@ -14890,7 +14890,7 @@
       "hifi_engine": null,
       "sansui_us": null
     },
-    "notes": null,
+    "notes": "Owned by Wayne: serial 627067229 (decodes to June 1987), 100 V JDM, bought for 3,700 THB incl. delivery as a TA7317P donor. Not X-Balanced: owner ohms test 2026-11-12, black speaker terminal 0 ohm to RCA ground; Audio Database page does not mention alpha-X balanced (the alpha-607 page does); Audiokarma history groups it under Direct Coupled - Alpha, not Alpha X Balanced.",
     "verified": false,
     "avg_price_usd_3mo": 380,
     "price_basis": "hifishark 6mo median (FX->USD) 2026-08",
@@ -14900,7 +14900,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": "X-Balanced: the amplifier is balanced end to end, so both speaker terminals are driven rather than one being grounded. The result is very low distortion and high current delivery with a neutral, authoritative presentation. Safety: both speaker terminals are live - never bridge or ground either one.",
+    "sonic_signature": "Direct-coupled output with no capacitor in the signal path, so the low end goes deeper and stays better controlled than the capacitor-coupled generation before it, while keeping the warm Sansui midrange. The trade-off is that DC offset must be held in check, which is what the servo and protection circuits are there for.",
     "thb_status": "Sold",
     "auto_price": {
       "source": "hifishark.com",
@@ -14908,8 +14908,8 @@
       "n": 9,
       "median_usd": 380
     },
-    "circuit_family": "X-Balanced / alpha-X Balanced",
-    "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)",
+    "circuit_family": "DC integrated",
+    "sonic_source": "Family-level, keyed on circuit topology; re-keyed from X-Balanced to DC integrated 2026-11-12 after owner test",
     "global_ranking": "Unranked"
   },
   {
