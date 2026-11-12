@@ -484,10 +484,11 @@
     ],
     "usd_msrp": 1000,
     "market": null,
-    "sonic_signature": "Flagship-grade: a full complementary output stage that was ahead of its time, hand-calibrated for low distortion. The refined end of the classic Marantz sound rather than the soft 'two-martini' voice of the 22xx receivers.",
+    "sonic_signature": "Clean and well defined - owners contrast it with the Model 18, which is the more solid, punchy-midrange receiver. Marantz itself describes the 19 as more tube-like with stronger presence. Owners rank it among the best receivers Marantz made.",
     "thb_status": "For sale",
     "thb_checked": "2026-08",
-    "global_ranking": "Unranked"
+    "global_ranking": "Unranked",
+    "sonic_source": "Model-specific, owner/reviewer impressions: AudioKarma threads 581925, 100340, 937534; read 2026-11-12"
   },
   {
     "id": "marantz-model-22-1969",
@@ -1593,7 +1594,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": "The classic Marantz sound: warm, smooth and full-bodied with a sweet, slightly soft top end and rich midrange - forgiving and musical, made for long, easy listening. (Family-level: 70s 22xx blue-dial.)",
+    "sonic_signature": "Surprisingly warm and smooth for solid state; bass adequate rather than heavy, best with efficient speakers. Tone Publications found it mellow and smooth, a little less warm than a Dynaco ST-70/PAS-3.",
     "thb_status": "For sale",
     "thb_checked": "2026-08",
     "auto_specs": {
@@ -1605,7 +1606,7 @@
         "weight_kg"
       ]
     },
-    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "sonic_source": "Model-specific, owner/reviewer impressions: Tone Publications \"Old School\" 2215B; classicreceivers.com 2215B; read 2026-11-12",
     "output_stage": "Discrete",
     "output_stage_source": "Marantz 22xx series is discrete-transistor (Classic Receivers / VTA; STK only appears in the later SR series)",
     "global_ranking": "Unranked"
@@ -1924,7 +1925,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": "Warm, euphonic classic Marantz voice — fuller and less dry at the bottom than modern solid-state. 35W/ch drives normal speakers, so you get the real 'two-martini' 22xx character without needing horn-efficient speakers.",
+    "sonic_signature": "General owner view is warm, rich and detailed, with a strong phono section. The 35 W rating is conservative - a restored unit measured about 47 W per channel. Drives both bookshelf and large speakers.",
     "thb_status": "For sale",
     "auto_price": {
       "source": "hifishark.com",
@@ -1943,7 +1944,8 @@
     },
     "output_stage": "Discrete",
     "output_stage_source": "Marantz 22xx series is discrete-transistor (Classic Receivers / VTA; STK only appears in the later SR series)",
-    "global_ranking": "Unranked"
+    "global_ranking": "Unranked",
+    "sonic_source": "Model-specific, owner/reviewer impressions: classicreceivers.com 2235B page; seventiesstereo blog 2008 (owner since 1979); Audio Asylum owner; read 2026-11-12; sources mostly describe the 2235B"
   },
   {
     "id": "marantz-2235b-1974",
@@ -2068,7 +2070,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": "Warm classic Marantz character with cleaner detail than the entry models. The discrete-transistor phono stage is notably quieter than the opamp phono in the 2216 — the reason it's regarded as the best of the lower-end line.",
+    "sonic_signature": "Warm and \"tube-ish\" to owners. HiFi News found plump, chunky bass and a bright, extended treble, and said it avoids the small-amp sound despite 26 W. One owner preferred a Hitachi on the same speakers.",
     "thb_status": "For sale",
     "auto_price": {
       "source": "hifishark.com",
@@ -2088,7 +2090,8 @@
     },
     "output_stage": "Discrete",
     "output_stage_source": "Marantz 22xx series is discrete-transistor (Classic Receivers / VTA; STK only appears in the later SR series)",
-    "global_ranking": "Unranked"
+    "global_ranking": "Unranked",
+    "sonic_source": "Model-specific, owner/reviewer impressions: Audio Asylum owner review 373396; HiFi News (Tim Listens) 2226B review; Polk Audio forum; AudioKarma thread 990493; read 2026-11-12"
   },
   {
     "id": "marantz-2238b-1977",
@@ -2147,10 +2150,10 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": "The classic Marantz sound: warm, smooth and full-bodied with a sweet, slightly soft top end and rich midrange - forgiving and musical, made for long, easy listening. (Family-level: 70s 22xx blue-dial.)",
+    "sonic_signature": "Warm, smooth and slightly soft, with a full midrange; it tames bright speakers (one owner says it made Polk SL2000 tweeters tolerable). Not for listeners who want a bright, highly detailed sound.",
     "thb_status": "For sale",
     "thb_checked": "2026-08",
-    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "sonic_source": "Model-specific, owner/reviewer impressions: Polk Audio forum thread \"My new Marantz 2238B\"; Head-Fi thread 537704 page 877; read 2026-11-12",
     "output_stage": "Discrete",
     "output_stage_source": "Marantz 22xx series is discrete-transistor (Classic Receivers / VTA; STK only appears in the later SR series)",
     "global_ranking": "Unranked"
@@ -3150,9 +3153,10 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": null,
+    "sonic_signature": "Owners call it a great-sounding Marantz, about level with a 2325 rather than better. It sounds best in quad mode: in stereo the amps run bridged, which adds circuitry and lowers speaker damping.",
     "thb_status": "For sale",
-    "global_ranking": "Unranked"
+    "global_ranking": "Unranked",
+    "sonic_source": "Model-specific, owner/reviewer impressions: AudioKarma thread 473556; read 2026-11-12"
   },
   {
     "id": "marantz-4400-1976",
@@ -4730,7 +4734,7 @@
     ],
     "usd_msrp": 450,
     "market": null,
-    "sonic_signature": "The classic Marantz sound in an integrated: warm, smooth and rich through the mids with a gentle top end - musical and non-fatiguing rather than analytical. (Family-level: 70s Marantz integrated.)",
+    "sonic_signature": "The 1973 Audio magazine review found it had \"no sound of its own\" - neutral and transparent rather than the warm Marantz stereotype.",
     "thb_status": "For sale",
     "thb_checked": "2026-08",
     "auto_specs": {
@@ -4745,7 +4749,7 @@
         "usd_msrp"
       ]
     },
-    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "sonic_source": "Model-specific, owner/reviewer impressions: Audio magazine, May 1973 (gammaelectronics.xyz reprint); read 2026-11-12",
     "global_ranking": "Unranked"
   },
   {
@@ -5008,7 +5012,7 @@
     ],
     "usd_msrp": null,
     "market": null,
-    "sonic_signature": "The classic Marantz sound: warm, smooth and full-bodied with a sweet, slightly soft top end and rich midrange - forgiving and musical, made for long, easy listening. (Family-level: 70s 22xx blue-dial.)",
+    "sonic_signature": "Most owners call it warm (very warm from the headphone jack), but one AudioKarma owner found it too bright and sold it. Owners hear little difference from the 2265.",
     "thb_status": "For sale",
     "thb_checked": "2026-08",
     "auto_specs": {
@@ -5022,7 +5026,7 @@
         "year_start"
       ]
     },
-    "sonic_source": "family-level (WoW Audio taxonomy) 2026-09",
+    "sonic_source": "Model-specific, owner/reviewer impressions: Head-Fi thread 537704; AudioKarma thread 464588; classicreceivers.com; read 2026-11-12 (owners disagree - both views given)",
     "output_stage": "Discrete",
     "output_stage_source": "Marantz 22xx series is discrete-transistor (Classic Receivers / VTA; STK only appears in the later SR series)",
     "global_ranking": "Unranked"

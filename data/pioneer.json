@@ -3772,8 +3772,8 @@
     ],
     "usd_msrp": null,
     "market": "International",
-    "sonic_signature": "The classic Pioneer sound in an integrated: clean, crisp and dynamic with tight bass and an open, slightly bright top - detailed and energetic rather than warm. (Family-level: 70s silver-face SA.)",
-    "sonic_source": "family-level (WoW Audio taxonomy) 2026-10",
+    "sonic_signature": "One owner hears it as very transparent; another rates it \"average - nothing special\". An AudioKarma owner says it sounds very like the SA-9800: clear and crisp, slightly elevated upper midrange and highs, tight balanced bass.",
+    "sonic_source": "Model-specific, owner/reviewer impressions: trueaudiophile blog 2011; classicreceivers.com SA-8800; AudioKarma thread 544215; read 2026-11-12; impressions likely the 1979-81 export SA-8800 (owners disagree - both views given)",
     "thb_status": "For sale",
     "auto_specs": {
       "source": "hifi-wiki/Audiogon",
@@ -5332,7 +5332,15 @@
     "auto_specs": {
       "source": "audio-database.com + rear label photo (Wayne)",
       "date": "2026-11",
-      "fields": ["year_start", "japan_price_kyen", "watts_per_channel", "thd_percent", "weight_kg", "amp_circuit", "special_features"]
+      "fields": [
+        "year_start",
+        "japan_price_kyen",
+        "watts_per_channel",
+        "thd_percent",
+        "weight_kg",
+        "amp_circuit",
+        "special_features"
+      ]
     },
     "price_thb_listings": [
       4500
