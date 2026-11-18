@@ -15,5 +15,8 @@ scripts/.adb_cache/
 # Cloudflare Wrangler local scratch (cache/tmp) — regenerable, not versioned
 .wrangler/
 
+# Wayne's private collection costs (buy/freight/parts/sell) — local admin only, never public
+data/collection.json
+
 # Memory export from another Claude context — personal, not part of the site
 claude-legacy-memory.md

@@ -205,6 +205,26 @@ def update_record(rid):
     return jsonify(ok=True, id=rid, record=data[idx])
 
 
+@app.put("/api/collection")
+def save_collection():
+    """Write Wayne's private collection costs to data/collection.json (gitignored,
+    so it never reaches the public site). Only ids that exist in the DB are kept."""
+    body = request.get_json(force=True, silent=True) or {}
+    items = body.get("items")
+    if not isinstance(items, dict):
+        return bad("items must be an object keyed by record id")
+    known = {r.get("id") for b in BRAND_NAMES for r in load_db(b)[0]}
+    unknown = [k for k in items if k not in known]
+    if unknown:
+        return bad(f"unknown record ids: {', '.join(unknown)}")
+    path = DATA / "collection.json"
+    old = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    out = {"_note": old.get("_note", "Private. Gitignored. Money in THB."),
+           "items": {k: v for k, v in items.items() if any(x not in (None, "") for x in v.values())}}
+    path.write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return jsonify(ok=True, count=len(out["items"]))
+
+
 # ---------------------------------------------------------------------------
 # Static serving (index.html, app.js, admin.html, data/*, images/*, ...)
 # ---------------------------------------------------------------------------

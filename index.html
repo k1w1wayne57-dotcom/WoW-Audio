@@ -95,6 +95,7 @@
       <button class="btn filter-btn" id="bargains-btn">฿ Bargains</button>
       <button class="btn filter-btn" id="intl-filter">🌍 International</button>
       <button class="btn filter-btn" id="history-view">📜 History</button>
+      <button class="btn filter-btn" id="coll-btn" hidden>🎧 My Collection</button>
       <button class="btn filter-btn" id="add-model-btn" hidden>＋ Add Model</button>
       <button class="btn filter-btn" id="sync-chip" hidden></button>
       <div class="search-wrap">
@@ -199,6 +200,32 @@
           </tr>
         </thead>
         <tbody id="bargain-body"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- My Collection (local admin only: costs live in data/collection.json, which git ignores) -->
+<div class="bargain-overlay" id="coll-overlay" hidden>
+  <div class="bargain-modal coll-modal">
+    <button class="modal-close" id="coll-close">&times;</button>
+    <h2>🎧 My Collection <span class="bargain-tally" id="coll-count">0</span></h2>
+    <p class="bargain-fx" id="coll-sub"></p>
+    <div class="coll-actions">
+      <button class="btn" id="coll-save" type="button">Save</button>
+      <span class="qa-msg" id="coll-msg"></span>
+    </div>
+    <div class="bargain-scroll">
+      <table class="coll-table">
+        <thead>
+          <tr>
+            <th>Model</th><th>Year</th><th>W/ch</th><th>kg</th><th>Circuit</th><th>Status</th><th>Bought</th>
+            <th>Buy ฿</th><th>Freight ฿</th><th>Parts ฿</th><th>Misc ฿</th><th>Total ฿</th>
+            <th>Sell as-is ฿</th><th>Sell refurb ฿</th><th>Sold for ฿</th><th>Profit ฿</th><th>World ≈฿</th><th>Notes</th>
+          </tr>
+        </thead>
+        <tbody id="coll-body"></tbody>
+        <tfoot id="coll-foot"></tfoot>
       </table>
     </div>
   </div>

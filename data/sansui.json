@@ -2230,7 +2230,8 @@
     },
     "sonic_source": "AudioKarma thread 1069494 (Oct 2024), owner impressions; read 2026-09-03",
     "circuit_family": "DC integrated",
-    "global_ranking": "Unranked"
+    "global_ranking": "Unranked",
+    "owned": true
   },
   {
     "id": "sansui-au-2200-1977",
@@ -10472,7 +10473,8 @@
     },
     "circuit_family": "Pure Power DC",
     "sonic_source": "Family-level, keyed on circuit topology (2026-09-03)",
-    "global_ranking": "Top 40-50"
+    "global_ranking": "Top 40-50",
+    "owned": true
   },
   {
     "id": "sansui-g-6000-1978",
@@ -14910,7 +14912,8 @@
     },
     "circuit_family": "DC integrated",
     "sonic_source": "Family-level, keyed on circuit topology; re-keyed from X-Balanced to DC integrated 2026-11-12 after owner test",
-    "global_ranking": "Unranked"
+    "global_ranking": "Unranked",
+    "owned": true
   },
   {
     "id": "sansui-au-alpha607-7th-gen-1986",
@@ -18994,7 +18997,8 @@
     },
     "sonic_source": "AudioKarma thread 1069494 (Oct 2024), owner impressions; read 2026-09-03",
     "circuit_family": "Diamond Differential",
-    "global_ranking": "Unranked"
+    "global_ranking": "Unranked",
+    "owned": true
   },
   {
     "id": "sansui-c-2102-1986",
@@ -19141,7 +19145,8 @@
     "thb_status": "Sold",
     "thb_checked": "2026-08",
     "circuit_family": "X-Balanced / alpha-X Balanced",
-    "global_ranking": "Unranked"
+    "global_ranking": "Unranked",
+    "owned": true
   },
   {
     "id": "sansui-au-alpha317x",

@@ -58,7 +58,167 @@ async function init() {
   bindControls();
   render();
   updateSyncChip();
-  setupQuickAdd();
+  setupQuickAdd().then(setupCollection);
+}
+
+// ---------- My Collection (local only) ----------
+// Owned units carry `owned: true` in the public data (shown as an OWNED badge).
+// The money — buy, freight, parts, misc, sell values — lives in data/collection.json,
+// which git ignores, so it never reaches the public site. The popup only appears
+// when the local serve.py backend is running, and saves through /api/collection.
+let COLL = {};
+let collDirty = false;
+const COLL_STATUS = ["In use", "Restoring", "Donor", "For sale", "Sold"];
+const COLL_MONEY = ["buy_thb", "freight_thb", "parts_thb", "misc_thb"];
+
+async function setupCollection() {
+  if (!HAS_BACKEND) return;
+  try {
+    const r = await fetch("data/collection.json");
+    COLL = r.ok ? ((await r.json()).items || {}) : {};
+  } catch { COLL = {}; }
+  const btn = document.getElementById("coll-btn");
+  btn.hidden = false;
+  btn.addEventListener("click", openCollection);
+  document.getElementById("coll-close").addEventListener("click", closeCollection);
+  document.getElementById("coll-overlay").addEventListener("click", e => {
+    if (e.target.id === "coll-overlay") closeCollection();
+  });
+  document.getElementById("coll-save").addEventListener("click", saveCollection);
+  const body = document.getElementById("coll-body");
+  body.addEventListener("input", collEdit);
+  body.addEventListener("change", collEdit);
+  body.addEventListener("click", e => {
+    const a = e.target.closest("a[data-open]");
+    if (!a) return;
+    e.preventDefault();
+    const item = DB.find(d => d.id === a.dataset.open);
+    if (item) openModal(item);
+  });
+}
+
+function collRows() {
+  // Owned units, plus anything already sold on (kept as history).
+  return DB.filter(d => d.owned || (COLL[d.id] && COLL[d.id].status === "Sold"))
+    .map(d => { if (!COLL[d.id]) COLL[d.id] = {}; return { d, c: COLL[d.id] }; })
+    .sort((a, b) => COLL_STATUS.indexOf(a.c.status || "In use") - COLL_STATUS.indexOf(b.c.status || "In use")
+      || (a.d.brand || "").localeCompare(b.d.brand || "") || a.d.jdm_model.localeCompare(b.d.jdm_model));
+}
+
+function collCalc(d, c) {
+  const vals = COLL_MONEY.map(k => c[k]).filter(v => typeof v === "number");
+  const total = vals.length ? vals.reduce((s, v) => s + v, 0) : null;
+  const exit = typeof c.sold_thb === "number" ? c.sold_thb : (typeof c.sell_refurb_thb === "number" ? c.sell_refurb_thb : null);
+  const profit = (total !== null && exit !== null) ? exit - total : null;
+  const world = d.avg_price_usd_3mo ? d.avg_price_usd_3mo * FX.usd_per_aud * FX.thb_per_aud : null;
+  return { total, profit, world };
+}
+
+const baht = v => (v === null || v === undefined) ? "—" : "฿" + Math.round(v).toLocaleString();
+
+function openCollection() {
+  const rows = collRows();
+  const num = (id, k, v) => `<input class="coll-in coll-num" data-id="${escapeHtml(id)}" data-k="${k}" type="number" step="any" min="0" value="${typeof v === "number" ? v : ""}">`;
+  const txt = (id, k, v, cls) => `<input class="coll-in ${cls}" data-id="${escapeHtml(id)}" data-k="${k}" type="text" value="${escapeHtml(v || "")}">`;
+  document.getElementById("coll-body").innerHTML = rows.map(({ d, c }) => {
+    const x = collCalc(d, c);
+    const circuit = d.circuit_family || (d.amp_circuit || "").split(/[(:;]/)[0].trim() || "—";
+    const status = `<select class="coll-in" data-id="${escapeHtml(d.id)}" data-k="status">${COLL_STATUS.map(s =>
+      `<option${(c.status || "In use") === s ? " selected" : ""}>${s}</option>`).join("")}</select>`;
+    return `<tr data-row="${escapeHtml(d.id)}">
+      <td class="coll-model"><a href="#" data-open="${escapeHtml(d.id)}"><span class="model-brand">${escapeHtml(d.brand)}</span> <b>${escapeHtml(d.jdm_model)}</b></a></td>
+      <td>${d.year_start || "—"}</td>
+      <td class="bg-num">${d.watts_per_channel || "—"}</td>
+      <td class="bg-num">${d.weight_kg || "—"}</td>
+      <td class="coll-circ" title="${escapeHtml(d.amp_circuit || "")}">${escapeHtml(circuit)}</td>
+      <td>${status}</td>
+      <td>${txt(d.id, "bought", c.bought, "coll-date")}</td>
+      ${COLL_MONEY.map(k => `<td>${num(d.id, k, c[k])}</td>`).join("")}
+      <td class="bg-num coll-total">${baht(x.total)}</td>
+      <td>${num(d.id, "sell_asis_thb", c.sell_asis_thb)}</td>
+      <td>${num(d.id, "sell_refurb_thb", c.sell_refurb_thb)}</td>
+      <td>${num(d.id, "sold_thb", c.sold_thb)}</td>
+      <td class="bg-num coll-profit">${baht(x.profit)}</td>
+      <td class="bg-num">${baht(x.world)}</td>
+      <td>${txt(d.id, "notes", c.notes, "coll-notes")}</td>
+    </tr>`;
+  }).join("");
+  collFooter(rows);
+  document.getElementById("coll-count").textContent = rows.length;
+  document.getElementById("coll-sub").textContent =
+    `Local only — saved to data/collection.json (not committed). Profit = Sold for (or Sell refurb) − Total. World ≈ 3-mo world avg at ฿${FX.thb_per_aud}/A$, US$1 = A$${FX.usd_per_aud} (${FX.as_of}).`;
+  setCollMsg(collDirty ? "Unsaved changes" : "");
+  document.getElementById("coll-overlay").hidden = false;
+}
+
+function collFooter(rows) {
+  const sum = k => rows.reduce((s, { c }) => s + (typeof c[k] === "number" ? c[k] : 0), 0);
+  const calcs = rows.map(({ d, c }) => collCalc(d, c));
+  const cs = k => calcs.reduce((s, x) => s + (x[k] || 0), 0);
+  document.getElementById("coll-foot").innerHTML = `<tr>
+    <td colspan="7"><b>Totals</b></td>
+    ${COLL_MONEY.map(k => `<td class="bg-num">${baht(sum(k))}</td>`).join("")}
+    <td class="bg-num"><b>${baht(cs("total"))}</b></td>
+    <td class="bg-num">${baht(sum("sell_asis_thb"))}</td>
+    <td class="bg-num">${baht(sum("sell_refurb_thb"))}</td>
+    <td class="bg-num">${baht(sum("sold_thb"))}</td>
+    <td class="bg-num"><b>${baht(cs("profit"))}</b></td>
+    <td class="bg-num">${baht(cs("world"))}</td>
+    <td></td></tr>`;
+}
+
+function collEdit(e) {
+  const el = e.target.closest(".coll-in");
+  if (!el) return;
+  const c = COLL[el.dataset.id] || (COLL[el.dataset.id] = {});
+  const k = el.dataset.k;
+  if (el.type === "number") c[k] = el.value === "" ? null : Number(el.value);
+  else c[k] = el.value.trim() || null;
+  collDirty = true;
+  setCollMsg("Unsaved changes");
+  const d = DB.find(x => x.id === el.dataset.id);
+  const tr = el.closest("tr");
+  const x = collCalc(d, c);
+  tr.querySelector(".coll-total").textContent = baht(x.total);
+  tr.querySelector(".coll-profit").textContent = baht(x.profit);
+  collFooter(collRows());
+}
+
+async function saveCollection() {
+  setCollMsg("Saving…");
+  try {
+    const r = await fetch("/api/collection", {
+      method: "PUT", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ items: COLL }),
+    });
+    const j = await r.json();
+    if (!j.ok) throw new Error(j.error || "save failed");
+    collDirty = false;
+    setCollMsg(`Saved ${j.count} units`, "ok");
+  } catch (err) {
+    setCollMsg("Not saved: " + err.message, "err");
+  }
+}
+
+function setCollMsg(msg, cls) {
+  const el = document.getElementById("coll-msg");
+  el.textContent = msg;
+  el.className = "qa-msg" + (cls ? " " + cls : "");
+}
+
+function closeCollection() { document.getElementById("coll-overlay").hidden = true; }
+
+// Mark / unmark a unit as owned from the detail modal (local backend only).
+function toggleOwned(item) {
+  item.owned = !item.owned;
+  if (item.owned && !COLL[item.id]) COLL[item.id] = {};
+  fetch(`/api/records/${encodeURIComponent(item.id)}`, {
+    method: "PUT", headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ brand: (item.brand || "").toLowerCase(), record: { owned: item.owned } }),
+  }).catch(() => {});
+  render();
+  if (!document.getElementById("coll-overlay").hidden) openCollection();
+  openModal(item);
 }
 
 // ---------- Quick Add Model ----------
@@ -535,6 +695,12 @@ function bindControls() {
     if (e.target.id === "modal-overlay") closeModal();
   });
   document.getElementById("modal-content").addEventListener("click", (e) => {
+    const o = e.target.closest("[data-owned-toggle]");
+    if (o) {
+      const it = DB.find(d => d.id === o.dataset.ownedToggle);
+      if (it) toggleOwned(it);
+      return;
+    }
     const t = e.target.closest("[data-thai-toggle]");
     if (!t) return;
     const item = DB.find(d => d.id === t.dataset.thaiToggle);
@@ -544,9 +710,9 @@ function bindControls() {
   if (syncChip) syncChip.addEventListener("click", copySyncList);
   document.addEventListener("keydown", (e) => {
     if (e.key !== "Escape") return;
-    // close the top layer first: the detail modal, then the bargains popup
+    // close the top layer first: the detail modal, then the bargains / collection popup
     if (document.getElementById("modal-overlay").classList.contains("open")) closeModal();
-    else closeBargains();
+    else { closeBargains(); closeCollection(); }
   });
 }
 
@@ -979,7 +1145,7 @@ function render() {
       <td>${escapeHtml(item.amp_circuit || "—")}</td>
       <td>${wrenchDisplay(item.restorer_info && item.restorer_info.recap_difficulty)}</td>
       <td>${item.best_buy && item.best_buy.rating ? `<span class="bestbuy-star">${"⭐".repeat(item.best_buy.rating)}</span>` : "—"}</td>
-      <td class="price-cell ${priceClass(item.avg_price_usd_3mo)}">${formatPrice(item)}${item.thb_status ? ` <span class="thb-badge thb-${item.thb_status === "Sold" ? "sold" : "sale"}">${item.thb_status === "Sold" ? "SOLD" : "FOR SALE"}</span>` : ""}</td>
+      <td class="price-cell ${priceClass(item.avg_price_usd_3mo)}">${formatPrice(item)}${item.owned ? ` <span class="thb-badge thb-owned">OWNED</span>` : item.thb_status ? ` <span class="thb-badge thb-${item.thb_status === "Sold" ? "sold" : "sale"}">${item.thb_status === "Sold" ? "SOLD" : "FOR SALE"}</span>` : ""}</td>
       <td class="links-cell">
         ${item.links && item.links.brochure ? `<a class="link-icon" href="${item.links.brochure}" target="_blank" rel="noopener" title="Brochure" onclick="event.stopPropagation()">📖</a>` : ""}
         ${item.links && item.links.audio_database ? `<a class="link-icon" href="${item.links.audio_database}" target="_blank" rel="noopener" title="Audio Database" onclick="event.stopPropagation()">📄</a>` : ""}
@@ -1064,6 +1230,8 @@ function openModal(item) {
         <p class="modal-sub"><strong>${escapeHtml(typeDisplay)}</strong> | ${years}</p>
         <div class="modal-badges">
           <span class="rank-badge ${rankClass(activeRank(item))}">${activeRank(item)}</span>
+          ${item.owned ? `<span class="thb-badge thb-owned">OWNED</span>` : ""}
+          ${HAS_BACKEND ? `<button class="btn owned-toggle" data-owned-toggle="${escapeHtml(item.id)}" type="button">${item.owned ? "★ Owned — unmark" : "☆ Mark as owned"}</button>` : ""}
         </div>
         ${item.best_buy && item.best_buy.rating ? `
         <div class="modal-bestbuy-top">

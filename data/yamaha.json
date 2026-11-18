@@ -59,7 +59,8 @@
     "market": null,
     "sonic_signature": null,
     "thb_status": "Sold",
-    "global_ranking": "Unranked"
+    "global_ranking": "Unranked",
+    "owned": true
   },
   {
     "id": "yamaha-cr-400-1974",
